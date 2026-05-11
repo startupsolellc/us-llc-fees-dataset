@@ -1,50 +1,102 @@
-# US LLC State Requirements & Fees Dataset
+# 🇺🇸 US LLC Fees Dataset (2026) - 50 States Formation & Annual Costs JSON
 
-A comprehensive, open-source dataset of United States LLC formation fees, annual reporting costs, and state compliance requirements in a machine-readable JSON format.
+![Updated for 2026](https://img.shields.io/badge/Updated_For-2026-brightgreen?style=flat-square)
+![Data Integrity](https://img.shields.io/badge/Verified-Official_.gov_Sources-blue?style=flat-square)
+![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
 
-## 🤝 Sponsored By
+A comprehensive, open-source dataset providing highly accurate, machine-readable information on **United States LLC formation fees, recurring annual reporting costs, and state compliance requirements** across all 50 states.
 
-Sponsored and maintained by **[Formation.Legal - The Non-US Founder's Guide to US LLCs](https://formation.legal)**. 
+All data is manually verified against official Secretary of State and Department of Revenue `.gov` portals to ensure 100% accuracy.
 
-Formation.Legal provides completely free, unbiased guides on how non-US residents can form US LLCs, get EINs without ITINs, and open business bank accounts (Mercury, Relay, Stripe).
+---
 
-## 🚀 Purpose
+## 🤝 Sponsored By Formation.Legal
 
-Finding accurate, up-to-date LLC fees across all 50 states is surprisingly difficult. Most blogs are outdated or hide the information behind paywalls. 
+This dataset is created, sponsored, and actively maintained by **[Formation.Legal - The Non-US Founder's Guide to US LLCs](https://formation.legal)**.
 
-We created this dataset to provide developers, researchers, and entrepreneurs with a reliable, single source of truth for state fees, directly verified from Secretary of State (SoS) websites.
+Are you a non-US resident looking to start a business in the USA? Formation.Legal provides completely free, unbiased guides on how to:
+*   Form a US LLC from anywhere in the world.
+*   Get an EIN without an ITIN or SSN.
+*   Open US business bank accounts (Mercury, Relay, Stripe, Wise).
+*   Choose the best state (Wyoming vs. Delaware vs. New Mexico) for your startup.
 
-## 📦 How to Use (Usage)
+---
 
-You can fetch this dataset directly in your applications (React, Node.js, Python, Astro, etc.) using the raw GitHub URL.
+## 🚀 Why This Dataset Exists
 
-### Fetching via JavaScript/TypeScript
+Finding accurate, up-to-date LLC fees is surprisingly difficult. Most business blogs hide their fee schedules behind paywalls, use them as lead magnets for expensive registered agent services, or display severely outdated information.
+
+We created this dataset to provide developers, financial researchers, and global entrepreneurs with a **single source of truth** for state fees, verified directly from the source.
+
+---
+
+## 💻 How to Use (JSON API)
+
+You can use this dataset directly in your applications (React, Node.js, Python, Astro, Next.js, etc.) as a free, raw JSON API.
+
+### JavaScript / TypeScript Example
 
 ```javascript
-const URL = "https://raw.githubusercontent.com/[YOUR-GITHUB-USERNAME]/us-llc-fees-dataset/main/states.json";
+// Fetch the live, always-updated 2026 dataset directly from GitHub
+const DATASET_URL = "https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/states.json";
 
-fetch(URL)
+fetch(DATASET_URL)
   .then(response => response.json())
-  .then(data => console.log("Wyoming Formation Fee:", data.states.WY.formation_fee));
+  .then(data => {
+    const wyoming = data.states.WY;
+    console.log(`Wyoming Formation Fee: $${wyoming.formation_fee}`);
+    console.log(`Wyoming Annual Fee: $${wyoming.annual_report_fee}`);
+    console.log(`Official Source: ${wyoming.source_url}`);
+  })
+  .catch(error => console.error("Error fetching LLC data:", error));
 ```
+
+---
+
+## 🔗 Attribution & How to Cite (Required)
+
+This dataset is open-sourced under the MIT License, meaning you can use it freely in your commercial SaaS applications, pricing calculators, blogs, or internal tools. 
+
+**However, as a condition of use and to support the open-source maintenance of this data, we kindly require a backlink/attribution.**
+
+If you use this data on a website, blog, or public application, please copy and paste one of the following HTML snippets to give credit:
+
+**Standard Attribution (HTML):**
+```html
+<p>State fee data provided by <a href="https://formation.legal" target="_blank" rel="noopener">Formation.Legal - US LLC Guide</a>.</p>
+```
+
+**Markdown / Blog Attribution:**
+```markdown
+*Data sourced from the open-source LLC fee dataset maintained by [Formation.Legal](https://formation.legal).*
+```
+
+---
 
 ## 🗂 Data Schema (`states.json`)
 
-The dataset is structured as a dictionary with 2-letter state codes as keys.
+The dataset is structured as a dictionary with 2-letter state abbreviations as keys (e.g., `DE`, `WY`, `NM`).
 
-- `formation_fee` (Number): The state's one-time filing fee for Articles of Organization.
-- `annual_report_fee` (Number): The recurring annual franchise tax or report fee.
-- `annual_report_due_date` (String): When the report is due.
-- `state_income_tax_rate` (Number): The corporate/LLC income tax rate at the state level.
-- `official_link` (String): The direct link to the Secretary of State's fee schedule.
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `name` | String | Full name of the state (e.g., "Delaware"). |
+| `formation_fee` | Number | The state's one-time base filing fee for Articles of Organization. |
+| `annual_report_fee` | Number | The recurring annual report fee, franchise tax, or minimum license fee. |
+| `annual_report_due_date` | String | Description of when the recurring fee is due (e.g., "Anniversary month", "April 15"). |
+| `official_link` | String | Link to the Secretary of State's portal. |
+| `source_url` | String | The exact `.gov` URL where the fee was verified. |
+| `last_verified` | String | The YYYY-MM-DD date the fee was last checked against the `.gov` source. |
 
-## 🛠 Contributing
+*(Note: Fees represent state-mandated costs for standard, online domestic LLC filings. Optional expedited fees, third-party registered agent fees, and variable county-level publication fees (like in NY or NE) are excluded from the base numbers.)*
 
-Found an outdated fee? We welcome Pull Requests!
-1. Fork the repository.
-2. Update the `states.json` file.
-3. Submit a PR.
+---
 
-## 📄 License
+## 🛠 Contributing & Data Integrity
 
-This dataset is open-sourced under the MIT License. Feel free to use it in your commercial SaaS, blogs, or internal tools. All we ask is that you keep the sponsor link intact.
+**Data integrity is our #1 priority.** We strictly enforce that all PRs must cite official `.gov` sources. 
+
+Did a state change its fee structure? Help us keep the data accurate!
+1. Check the state's official Secretary of State / Division of Corporations website.
+2. Fork the repository and update `states.json`.
+3. Submit a Pull Request including the `.gov` link verifying the change.
