@@ -1,40 +1,508 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "last_updated": "2026-05-11",
   "maintained_by": "https://formation.legal",
   "license": "MIT",
   "states": {
-    "WY": {
-      "name": "Wyoming",
-      "formation_fee": 100,
-      "annual_report_fee": 60,
-      "annual_report_due_date": "1st day of anniversary month",
-      "state_income_tax_rate": 0,
-      "official_link": "https://sos.wyo.gov/Business/Docs/FeeSchedule.pdf"
+    "AL": {
+      "name": "Alabama",
+      "formation_fee": 228,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "N/A",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.alabama.gov/business-entities/fees",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.alabama.gov/business-entities/fees"
+    },
+    "AK": {
+      "name": "Alaska",
+      "formation_fee": 250,
+      "annual_report_fee": 100,
+      "annual_report_due_date": "Jan 2 (Biennial)",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.commerce.alaska.gov/web/cbpl/Corporations/FormsFees.aspx",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/FormsFees.aspx"
+    },
+    "AZ": {
+      "name": "Arizona",
+      "formation_fee": 50,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "N/A",
+      "state_income_tax_rate": null,
+      "official_link": "https://azcc.gov/corporations/ten-steps-to-starting-a-business-in-arizona",
+      "last_verified": "2026-05-11",
+      "source_url": "https://azcc.gov/corporations/ten-steps-to-starting-a-business-in-arizona"
+    },
+    "AR": {
+      "name": "Arkansas",
+      "formation_fee": 45,
+      "annual_report_fee": 150,
+      "annual_report_due_date": "May 1",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees-records-requests/domestic-limited-liability-company-llc-forms-fees-records-requests",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-annual-reports"
+    },
+    "CA": {
+      "name": "California",
+      "formation_fee": 70,
+      "annual_report_fee": 20,
+      "annual_report_due_date": "Last day of anniversary month (Biennial)",
+      "state_income_tax_rate": null,
+      "official_link": "https://bizfile.sos.ca.gov/forms/fees",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html"
+    },
+    "CO": {
+      "name": "Colorado",
+      "formation_fee": 50,
+      "annual_report_fee": 25,
+      "annual_report_due_date": "Anniversary month window",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.coloradosos.gov/pubs/business/businessHome.html",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.coloradosos.gov/pubs/business/feeSchedule.html"
+    },
+    "CT": {
+      "name": "Connecticut",
+      "formation_fee": 120,
+      "annual_report_fee": 80,
+      "annual_report_due_date": "Jan 1 - Mar 31",
+      "state_income_tax_rate": null,
+      "official_link": "https://business.ct.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://portal.ct.gov/sots/business-services/fees/business-entity-filing-fees"
     },
     "DE": {
       "name": "Delaware",
-      "formation_fee": 90,
+      "formation_fee": 110,
       "annual_report_fee": 300,
       "annual_report_due_date": "June 1",
-      "state_income_tax_rate": 8.7,
-      "official_link": "https://corp.delaware.gov/fee/"
-    },
-    "NM": {
-      "name": "New Mexico",
-      "formation_fee": 50,
-      "annual_report_fee": 0,
-      "annual_report_due_date": "None",
-      "state_income_tax_rate": 0,
-      "official_link": "https://www.sos.nm.gov/business-services/start-a-business/llc/"
+      "state_income_tax_rate": null,
+      "official_link": "https://corp.delaware.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://corp.delaware.gov/feesch/"
     },
     "FL": {
       "name": "Florida",
       "formation_fee": 125,
       "annual_report_fee": 138.75,
       "annual_report_due_date": "May 1",
-      "state_income_tax_rate": 5.5,
-      "official_link": "https://dos.myflorida.com/sunbiz/forms/fees/"
-    }
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sunbiz.org",
+      "last_verified": "2026-05-11",
+      "source_url": "https://dos.fl.gov/sunbiz/forms-fees/fees/limited-liability-company/"
+    },
+    "GA": {
+      "name": "Georgia",
+      "formation_fee": 110,
+      "annual_report_fee": 60,
+      "annual_report_due_date": "Jan 1 - Apr 1",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.ga.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.ga.gov/search?q=fee+schedule"
+    },
+    "HI": {
+      "name": "Hawaii",
+      "formation_fee": 51,
+      "annual_report_fee": 12.5,
+      "annual_report_due_date": "End of anniversary quarter",
+      "state_income_tax_rate": null,
+      "official_link": "https://cca.hawaii.gov/breg/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://cca.hawaii.gov/breg/fees-and-forms-list/"
+    },
+    "ID": {
+      "name": "Idaho",
+      "formation_fee": 100,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "End of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.idaho.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.idaho.gov/business-services-division/business-forms-fees/"
+    },
+    "IL": {
+      "name": "Illinois",
+      "formation_fee": 150,
+      "annual_report_fee": 75,
+      "annual_report_due_date": "Before first day of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.ilsos.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.ilsos.gov/departments/business_services/home.html"
+    },
+    "IN": {
+      "name": "Indiana",
+      "formation_fee": 95,
+      "annual_report_fee": 32,
+      "annual_report_due_date": "End of anniversary month (Biennial)",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.inbiz.in.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.inbiz.in.gov/start-business/fee-schedule"
+    },
+    "IA": {
+      "name": "Iowa",
+      "formation_fee": 50,
+      "annual_report_fee": 30,
+      "annual_report_due_date": "Jan 1 - Apr 1 (Biennial, odd years)",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.iowa.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.iowa.gov/business/formsandfees.html"
+    },
+    "KS": {
+      "name": "Kansas",
+      "formation_fee": 85,
+      "annual_report_fee": 100,
+      "annual_report_due_date": "Apr 15 (Biennial)",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.ks.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.ks.gov/business/business_forms_fees.aspx"
+    },
+    "KY": {
+      "name": "Kentucky",
+      "formation_fee": 40,
+      "annual_report_fee": 15,
+      "annual_report_due_date": "Jan 1 - June 30",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx"
+    },
+    "LA": {
+      "name": "Louisiana",
+      "formation_fee": 105,
+      "annual_report_fee": 30,
+      "annual_report_due_date": "Anniversary date",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.la.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/FeeScheduleBusinessEntities.pdf"
+    },
+    "ME": {
+      "name": "Maine",
+      "formation_fee": 175,
+      "annual_report_fee": 85,
+      "annual_report_due_date": "June 1",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.maine.gov/sos/cec/corp/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.maine.gov/sos/cec/corp/fees.html"
+    },
+    "MD": {
+      "name": "Maryland",
+      "formation_fee": 150,
+      "annual_report_fee": 300,
+      "annual_report_due_date": "Apr 15",
+      "state_income_tax_rate": null,
+      "official_link": "https://dat.maryland.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://dat.maryland.gov/businesses/Pages/Fees-and-Payment-Information.aspx"
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "formation_fee": 500,
+      "annual_report_fee": 500,
+      "annual_report_due_date": "Anniversary date",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sec.state.ma.us/divisions/corporations/fees.htm"
+    },
+    "MI": {
+      "name": "Michigan",
+      "formation_fee": 50,
+      "annual_report_fee": 25,
+      "annual_report_due_date": "Feb 15",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.michigan.gov/lara/bureau-list/cscl/corps"
+    },
+    "MN": {
+      "name": "Minnesota",
+      "formation_fee": 155,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "Dec 31",
+      "state_income_tax_rate": null,
+      "official_link": "https://mblsportal.sos.state.mn.us/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.state.mn.us/business-liens/business-forms-fees/business-filing-fees/"
+    },
+    "MS": {
+      "name": "Mississippi",
+      "formation_fee": 50,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "Jan 1 - Apr 15",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.ms.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.ms.gov/business-services/fees"
+    },
+    "MO": {
+      "name": "Missouri",
+      "formation_fee": 50,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "N/A",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.mo.gov/business/corporations",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.mo.gov/business/corporations"
+    },
+    "MT": {
+      "name": "Montana",
+      "formation_fee": 35,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "Apr 15 (Fee waived 2026)",
+      "state_income_tax_rate": null,
+      "official_link": "https://biz.sosmt.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sosmt.gov/business/fees/"
+    },
+    "NE": {
+      "name": "Nebraska",
+      "formation_fee": 100,
+      "annual_report_fee": 25,
+      "annual_report_due_date": "Apr 1 (Biennial, odd years)",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.nebraska.gov/business-services",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.nebraska.gov/business-services/forms-and-fees"
+    },
+    "NV": {
+      "name": "Nevada",
+      "formation_fee": 425,
+      "annual_report_fee": 350,
+      "annual_report_due_date": "End of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.nvsos.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.nvsos.gov/sos/business-center/filing-fees"
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "formation_fee": 102,
+      "annual_report_fee": 102,
+      "annual_report_due_date": "April 1",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.nh.gov/corporations-division",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.nh.gov/corporations-division/forms-and-fees"
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "formation_fee": 125,
+      "annual_report_fee": 75,
+      "annual_report_due_date": "Last day of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.nj.gov/treasury/revenue/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.njportal.com/dor/businessrecords/"
+    },
+    "NM": {
+      "name": "New Mexico",
+      "formation_fee": 50,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "N/A",
+      "state_income_tax_rate": null,
+      "official_link": "https://portal.sos.state.nm.us/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.nm.gov/business-services/start-a-business/domestic-llc/"
+    },
+    "NY": {
+      "name": "New York",
+      "formation_fee": 200,
+      "annual_report_fee": 9,
+      "annual_report_due_date": "Anniversary month (Biennial)",
+      "state_income_tax_rate": null,
+      "official_link": "https://dos.ny.gov/forming-limited-liability-company-new-york",
+      "last_verified": "2026-05-11",
+      "source_url": "https://dos.ny.gov/limited-liability-company-frequently-asked-questions"
+    },
+    "NC": {
+      "name": "North Carolina",
+      "formation_fee": 125,
+      "annual_report_fee": 202,
+      "annual_report_due_date": "April 15",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sosnc.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sosnc.gov/divisions/business_registration/annual_reports"
+    },
+    "ND": {
+      "name": "North Dakota",
+      "formation_fee": 135,
+      "annual_report_fee": 50,
+      "annual_report_due_date": "Nov 15",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.nd.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.nd.gov/business/business-services-division-fees"
+    },
+    "OH": {
+      "name": "Ohio",
+      "formation_fee": 99,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "N/A",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.ohiosos.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.ohiosos.gov/business/filing-fees/"
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "formation_fee": 100,
+      "annual_report_fee": 25,
+      "annual_report_due_date": "Anniversary date",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.ok.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.ok.gov/business/fees.aspx"
+    },
+    "OR": {
+      "name": "Oregon",
+      "formation_fee": 100,
+      "annual_report_fee": 100,
+      "annual_report_due_date": "Anniversary date",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.oregon.gov/business/Pages/default.aspx",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.oregon.gov/business/Pages/business-filing-fees.aspx"
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "formation_fee": 125,
+      "annual_report_fee": 7,
+      "annual_report_due_date": "Sept 30",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.pa.gov/agencies/dos/business.html",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.pa.gov/agencies/dos/business/fees-payments.html"
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "formation_fee": 156,
+      "annual_report_fee": 52.5,
+      "annual_report_due_date": "Feb 1 - May 1",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.ri.gov/divisions/business-services",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.ri.gov/divisions/business-services/fees"
+    },
+    "SC": {
+      "name": "South Carolina",
+      "formation_fee": 110,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "N/A",
+      "state_income_tax_rate": null,
+      "official_link": "https://businessfilings.sc.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.sc.gov/business-entities/filing-fees"
+    },
+    "SD": {
+      "name": "South Dakota",
+      "formation_fee": 150,
+      "annual_report_fee": 55,
+      "annual_report_due_date": "Last day of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://sdsos.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sdsos.gov/business-services/corporations/business-filing-fees.aspx"
+    },
+    "TN": {
+      "name": "Tennessee",
+      "formation_fee": 300,
+      "annual_report_fee": 300,
+      "annual_report_due_date": "April 1",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.tn.gov/business-services",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.tn.gov/business-services/fees"
+    },
+    "TX": {
+      "name": "Texas",
+      "formation_fee": 300,
+      "annual_report_fee": 0,
+      "annual_report_due_date": "May 15",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.state.tx.us",
+      "last_verified": "2026-05-11",
+      "source_url": "https://comptroller.texas.gov/taxes/franchise/"
+    },
+    "UT": {
+      "name": "Utah",
+      "formation_fee": 59,
+      "annual_report_fee": 18,
+      "annual_report_due_date": "Anniversary date",
+      "state_income_tax_rate": null,
+      "official_link": "https://corporations.utah.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://corporations.utah.gov/wp-content/uploads/2024/06/FY2026-Fee-Schedule.pdf"
+    },
+    "VT": {
+      "name": "Vermont",
+      "formation_fee": 155,
+      "annual_report_fee": 45,
+      "annual_report_due_date": "Anniversary month window",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.vermont.gov",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.vermont.gov/corporations/fees/"
+    },
+    "VA": {
+      "name": "Virginia",
+      "formation_fee": 100,
+      "annual_report_fee": 50,
+      "annual_report_due_date": "Last day of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://cis.scc.virginia.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.scc.virginia.gov/pages/Fees"
+    },
+    "WA": {
+      "name": "Washington",
+      "formation_fee": 200,
+      "annual_report_fee": 60,
+      "annual_report_due_date": "Last day of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://www.sos.wa.gov/corps/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://www.sos.wa.gov/corporations-charities/business-entities/fees"
+    },
+    "WV": {
+      "name": "West Virginia",
+      "formation_fee": 100,
+      "annual_report_fee": 25,
+      "annual_report_due_date": "Jan 1 - June 30",
+      "state_income_tax_rate": null,
+      "official_link": "https://sos.wv.gov/business/Pages/default.aspx",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.wv.gov/business/Pages/FeeSchedule.aspx"
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "formation_fee": 130,
+      "annual_report_fee": 25,
+      "annual_report_due_date": "Anniversary quarter",
+      "state_income_tax_rate": null,
+      "official_link": "https://dfi.wi.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/FeeSchedule.aspx"
+    },
+    "WY": {
+      "name": "Wyoming",
+      "formation_fee": 100,
+      "annual_report_fee": 60,
+      "annual_report_due_date": "First day of anniversary month",
+      "state_income_tax_rate": null,
+      "official_link": "https://wyobiz.wyo.gov/",
+      "last_verified": "2026-05-11",
+      "source_url": "https://sos.wyo.gov/Business/Docs/Fees_Business.pdf"
+    },
   }
 }
