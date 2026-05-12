@@ -8,23 +8,38 @@
     "url": "https://firststop.sos.nd.gov/search/business"
   },
   "secretaryOfState": {
-    "agency": "North Dakota Secretary of State Business Services",
+    "agency": "North Dakota Secretary of State - Business Services",
     "officialName": null,
     "website": "https://www.sos.nd.gov/business/business-services",
-    "phone": null,
-    "email": null
+    "phone": "701-328-2900",
+    "email": "business@sos.nd.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Central Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Office of the Secretary of State",
+      "street": "600 E Boulevard Avenue Dept 108",
+      "city": "Bismarck",
+      "state": "ND",
+      "zip": "58505",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "600 E Boulevard Avenue Dept 108",
+    "city": "Bismarck",
+    "state": "ND",
+    "zip": "58505",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://firststop.sos.nd.gov/",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Most North Dakota business registrations and maintenance filings, including annual reports, are completed through the FirstStop Portal. Business LLC annual reports are due November 15."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,31 @@
   },
   "filingFacts": {
     "llcFee": 135,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Registration fee for domestic and foreign business LLCs.",
     "annualReport": 50,
     "annualReportDue": "Nov 15",
     "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservationNotes": "Official guidance says a reserved name application is filed through the FirstStop Portal and reserves a name for up to 1 year; no separate fee amount was published on the reviewed public page."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "North Dakota LLC fees and annual report requirements",
       "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "North Dakota maintain registration and annual reports",
+      "url": "https://www.sos.nd.gov/business/business-services/maintain-registration",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "North Dakota Secretary of State contact",
+      "url": "https://www.sos.nd.gov/contact",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "North Dakota start a business and name reservation",
+      "url": "https://www.sos.nd.gov/business/business-services/start-business",
       "lastAccessed": "2026-05-12"
     }
   ],

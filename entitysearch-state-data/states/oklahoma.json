@@ -8,23 +8,38 @@
     "url": "https://www.sos.ok.gov/corp/corpInquiryFind.aspx"
   },
   "secretaryOfState": {
-    "agency": "Oklahoma Secretary of State Business Services",
+    "agency": "Oklahoma Secretary of State - Business Filing Department",
     "officialName": null,
-    "website": "https://www.sos.ok.gov/business/",
-    "phone": null,
+    "website": "https://www.sos.ok.gov/business/default.aspx",
+    "phone": "(405) 522-2520",
     "email": null
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Central Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.; in-person business filings must be presented before 4:30 p.m. CT for same-day processing.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business Filing Department",
+      "street": "421 N.W. 13th, Suite 210",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip": "73103",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "421 N.W. 13th, Suite 210",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "zip": "73103",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
-    "paperRenewalUrl": null,
-    "notes": null
+    "onlineRenewalUrl": "https://www.sos.ok.gov/business/default.aspx",
+    "paperRenewalUrl": "https://www.sos.ok.gov/forms/Llcannualcertificate.PDF",
+    "notes": "Domestic and foreign LLCs file a $25 annual certificate each year on the anniversary date of registration. The official business services page links annual certificates for online filing."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,31 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Articles of Organization - Oklahoma LLC.",
     "annualReport": 25,
     "annualReportDue": "Anniversary date",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 10,
+    "nameReservationNotes": "Name Reservation and LLC Name Reservation are listed as $10."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Oklahoma filing fees",
       "url": "https://www.sos.ok.gov/business/fees.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Oklahoma business forms and LLC filings",
+      "url": "https://www.sos.ok.gov/business/forms.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Oklahoma LLC annual certificate form",
+      "url": "https://www.sos.ok.gov/forms/Llcannualcertificate.PDF",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Oklahoma business services contact",
+      "url": "https://www.sos.ok.gov/business/contact.aspx",
       "lastAccessed": "2026-05-12"
     }
   ],

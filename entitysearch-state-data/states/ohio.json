@@ -8,23 +8,38 @@
     "url": "https://businesssearch.ohiosos.gov/"
   },
   "secretaryOfState": {
-    "agency": "Ohio Secretary of State Business Services",
+    "agency": "Ohio Secretary of State - Business Services Division",
     "officialName": null,
     "website": "https://www.ohiosos.gov/businesses/",
-    "phone": null,
-    "email": null
+    "phone": "614-466-3910",
+    "email": "business@ohiosos.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Client Service Center",
+      "street": "180 Civic Center Dr.",
+      "city": "Columbus",
+      "state": "OH",
+      "zip": "43215",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 1390",
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43216",
+    "country": "USA"
+  },
   "renewals": {
     "onlineRenewalUrl": null,
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Ohio business entities are not required to file an annual report with the Secretary of State. Ohio Secretary of State required periodic filings apply to specific entity or registration types such as professional associations, LLPs, nonprofits, trade names, fictitious names, trademarks, and service marks."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,26 @@
   },
   "filingFacts": {
     "llcFee": 99,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic limited liability company articles of organization filing fee.",
     "annualReport": null,
     "annualReportDue": "N/A",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 39,
+    "nameReservationNotes": "Name Reservation/Transfer/Cancellation filing is listed as $39/$25; $39 is the reservation filing amount."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Ohio filing forms and fee schedule",
       "url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Ohio business FAQ annual reports",
+      "url": "https://www.ohiosos.gov/business/ohio-business-roadmap/frequently-asked-questions",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Ohio Secretary of State contact",
+      "url": "https://www.ohiosos.gov/secretary-office/contact-our-office/",
       "lastAccessed": "2026-05-12"
     }
   ],
