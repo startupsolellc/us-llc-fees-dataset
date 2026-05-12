@@ -490,9 +490,9 @@
       "annual_report_fee": 25,
       "annual_report_due_date": "Anniversary quarter",
       "state_income_tax_rate": null,
-      "official_link": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/FeeSchedule.aspx",
+      "official_link": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
       "last_verified": "2026-05-12",
-      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/FeeSchedule.aspx"
+      "source_url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx"
     },
     "WY": {
       "name": "Wyoming",

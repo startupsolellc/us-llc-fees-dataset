@@ -11,20 +11,35 @@
     "agency": "Wyoming Secretary of State Business Division",
     "officialName": null,
     "website": "https://sos.wyo.gov/Business/Default.aspx",
-    "phone": null,
-    "email": null
+    "phone": "307-777-7311",
+    "email": "Business@wyo.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Mountain Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business Division",
+      "street": "122 West 25th Street, Suite 101",
+      "city": "Cheyenne",
+      "state": "WY",
+      "zip": "82002-0020",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "122 West 25th Street, Suite 101",
+    "city": "Cheyenne",
+    "state": "WY",
+    "zip": "82002-0020",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
-    "paperRenewalUrl": null,
-    "notes": null
+    "onlineRenewalUrl": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+    "paperRenewalUrl": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+    "notes": "Wyoming LLC annual reports are due on the first day of the anniversary month of formation. The annual report license tax is $60 or two-tenths of one mill on Wyoming assets, whichever is greater; the annual report wizard can also print a mail-in report."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,36 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Articles of Organization for a Wyoming limited liability company.",
     "annualReport": 60,
     "annualReportDue": "First day of anniversary month",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 60,
+    "nameReservationNotes": "LLC name reservation is $60 and reserves the name for 120 days. Name reservation is not required when filing Articles of Organization."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Wyoming business fee schedule",
       "url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wyoming Secretary of State contact",
+      "url": "https://sos.wyo.gov/contactus.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wyoming business center",
+      "url": "https://sos.wyo.gov/business/default.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wyoming annual report filing",
+      "url": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wyoming LLC name reservation form",
+      "url": "https://sos.wyo.gov/Forms/Business/General/LLC/LLC-NameReservation.pdf",
       "lastAccessed": "2026-05-12"
     }
   ],
