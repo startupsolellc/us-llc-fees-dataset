@@ -11,20 +11,35 @@
     "agency": "Virginia State Corporation Commission Clerk's Office",
     "officialName": null,
     "website": "https://www.scc.virginia.gov/pages/Clerk-Information",
-    "phone": null,
-    "email": null
+    "phone": "804-371-9733",
+    "email": "sccefile@scc.virginia.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 8:15 a.m.-5:00 p.m.; in-person Clerk service 8:30-10:30 a.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Virginia State Corporation Commission",
+      "street": "1300 E. Main St.",
+      "city": "Richmond",
+      "state": "VA",
+      "zip": "23219",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 1197",
+    "city": "Richmond",
+    "state": "VA",
+    "zip": "23218",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
-    "paperRenewalUrl": null,
-    "notes": null
+    "onlineRenewalUrl": "https://cis.scc.virginia.gov/",
+    "paperRenewalUrl": "https://www.scc.virginia.gov/media/sccvirginiagov-home/business-home/business-faqs/annual-registration-fees/how-to-guide---pay-annual-reg-fees-via-mail.pdf",
+    "notes": "Virginia LLCs pay an annual registration fee rather than filing a corporation-style annual report. The LLC fee is due by the last day of the month in which the business was organized or registered."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,31 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Form a new Virginia LLC (LLC1011).",
     "annualReport": 50,
     "annualReportDue": "Last day of anniversary month",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 10,
+    "nameReservationNotes": "Reserve or renew a business name for 120 days."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://www.scc.virginia.gov/pages/Fees",
+      "name": "Virginia SCC Clerk contact",
+      "url": "https://www.scc.virginia.gov/pages/Contact-Us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Virginia SCC addresses",
+      "url": "https://www.scc.virginia.gov/about-the-scc/contact-us/addresses/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Virginia LLC forms and fees",
+      "url": "https://www.scc.virginia.gov/businesses/forms-and-fees/virginia-limited-liability-companies/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Virginia annual registration fees",
+      "url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/",
       "lastAccessed": "2026-05-12"
     }
   ],

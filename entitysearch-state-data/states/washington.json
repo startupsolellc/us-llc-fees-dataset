@@ -11,20 +11,35 @@
     "agency": "Washington Secretary of State Corporations and Charities Division",
     "officialName": null,
     "website": "https://www.sos.wa.gov/corporations-charities",
-    "phone": null,
-    "email": null
+    "phone": "360-725-0377",
+    "email": "corps@sos.wa.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Pacific Time",
+    "regular": "Phone/chat: Monday-Thursday, 8:00 a.m.-4:00 p.m.; Friday, 8:00 a.m.-3:00 p.m. In-person Tumwater: Monday-Thursday, 8:00 a.m.-4:00 p.m.; Friday, 8:00 a.m.-3:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Corporations & Charities Division - Western Washington",
+      "street": "243 Israel Rd SE",
+      "city": "Tumwater",
+      "state": "WA",
+      "zip": "98501",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "PO Box 40234",
+    "city": "Olympia",
+    "state": "WA",
+    "zip": "98504-0234",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://ccfs.sos.wa.gov/",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Annual reports are due by the expiration date, the last day of the month in which the business was first formed or registered. Washington's current fee schedule lists LLC annual reports at $70."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -32,22 +47,47 @@
     "otherTemplates": null
   },
   "filingFacts": {
-    "llcFee": 200,
-    "llcFeeNotes": "Domestic LLC filing fee",
-    "annualReport": 60,
+    "llcFee": 180,
+    "llcFeeNotes": "Domestic Washington LLC public organic record / Certificate of Formation filing fee.",
+    "annualReport": 70,
     "annualReportDue": "Last day of anniversary month",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 30,
+    "nameReservationNotes": "Name reservation for LLCs and other non-nonprofit business entities is $30 and reserves the name for 180 days."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Washington Corporations and Charities contact",
+      "url": "https://www.sos.wa.gov/corporations-charities/contact-us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Washington filings, forms, and information",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/filings-forms-information",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Washington LLC online formation instructions",
       "url": "https://www.sos.wa.gov/corporations-charities/business-entities/online-filing-instructions/start-domestic-wa-limited-liability-company-llc-online",
       "lastAccessed": "2026-05-12"
     },
     {
-      "name": "Official Supporting Source",
+      "name": "Washington annual report instructions",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/online-filing-instructions/file-annual-report-multiple-entity-types-online",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Washington annual report requirement",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/maintain-business-compliance/annual-reports",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Washington fee schedule",
       "url": "https://www.sos.wa.gov/corporations-charities/frequently-asked-questions-faqs/fee-scheduleexpedited-service",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Washington WAC 434-112-085 fees",
+      "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-085",
       "lastAccessed": "2026-05-12"
     }
   ],
