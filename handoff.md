@@ -20,23 +20,20 @@ All 50 state JSON files exist.
 
 Enrichment is complete through:
 
-- `AL` through `VT`, including the last completed batch `TX / UT / VT`.
+- `AL` through `WV`, including the last completed batch `VA / WA / WV`.
 
 The most recent completed audit:
 
-- `entitysearch-state-data/audits/url-audit-batch-tx-ut-vt-2026-05-12.json`
+- `entitysearch-state-data/audits/url-audit-batch-va-wa-wv-2026-05-12.json`
 
 Remaining states, in order:
 
-1. `VA` Virginia
-2. `WA` Washington
-3. `WV` West Virginia
-4. `WI` Wisconsin
-5. `WY` Wyoming
+1. `WI` Wisconsin
+2. `WY` Wyoming
 
 Next batch to run:
 
-- `VA / WA / WV`
+- `WI / WY`
 
 ## Files To Edit Per Batch
 
@@ -167,6 +164,8 @@ Some official portals return `403`, bot pages, connection resets, or timeouts to
 - TX SOS business services homepage: `403`
 - Vermont SOS pages and business filing portal: `403`
 - Vermont Legislature statute pages: timeout in automated audit, but accessible in browser/web lookup
+- Virginia SCC/CIS official pages: automated curl closed connections, but pages were verified through browser/web lookup
+- West Virginia business entity search endpoint: timeout in automated audit; SOS source pages returned `200`
 
 When this happens:
 
@@ -175,6 +174,14 @@ When this happens:
 - Mention the audit caveat in the final user summary.
 
 ## Recent Completed Batch Notes
+
+`VA / WA / WV` changes:
+
+- `virginia.json`: SCC Clerk phone/email/address/hours, CIS renewal URL, annual registration fee note, LLC formation `$100`, annual registration `$50`, name reservation `$10`, official SCC forms/fees/contact/annual registration sources.
+- `washington.json`: Corporations & Charities phone/email/address/hours, CCFS renewal URL, current WAC/SOS fee schedule values, LLC formation corrected to `$180`, annual report corrected to `$70`, name reservation `$30`, official SOS and WAC sources.
+- `west-virginia.json`: Business & Licensing phone/email, Charleston/Clarksburg/Martinsburg addresses/hours, Business4WV renewal URL, LLC formation `$100`, annual report `$25`, name reservation `$15`, official SOS source pages.
+- `states.json`: WA formation fee changed from `200` to `180`, WA annual report fee changed from `60` to `70`, WA source URLs updated to current SOS/WAC fee sources. WV official/source URLs changed from the stale PDF URL to the current `register-new-wv-business` official page.
+- Audit caveats: VA SCC/CIS URLs closed automated curl connections. WV business entity search timed out. WA and WV official source pages returned `200`.
 
 `TX / UT / VT` changes:
 
