@@ -1,0 +1,93 @@
+{
+  "stateName": "Nevada",
+  "stateAbbr": "NV",
+  "stateSlug": "nevada",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Nevada Business Entities",
+    "url": "https://esos.nv.gov/EntitySearch/OnlineEntitySearch"
+  },
+  "secretaryOfState": {
+    "agency": "Nevada Secretary of State Commercial Recordings Division",
+    "officialName": null,
+    "website": "https://www.nvsos.gov/sos/businesses",
+    "phone": "775-684-5708",
+    "email": "sosmail@sos.nv.gov"
+  },
+  "hours": {
+    "timezone": "Pacific Time",
+    "regular": "Walk-ins are welcome at the Carson City Commercial Recordings location; South Las Vegas service is by appointment.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Commercial Recordings - Carson City",
+      "street": "401 North Carson Street",
+      "city": "Carson City",
+      "state": "NV",
+      "zip": "89701-4069",
+      "country": "USA"
+    },
+    {
+      "label": "Commercial Recordings - South Las Vegas",
+      "street": "1 State of Nevada Way",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "89119",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "401 North Carson Street",
+    "city": "Carson City",
+    "state": "NV",
+    "zip": "89701-4069",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://esos.nv.gov/EntitySearch/OnlineEntitySearch",
+    "paperRenewalUrl": null,
+    "notes": "Nevada LLCs file an annual list and renew the state business license by the last day of the anniversary month; the annual amount shown combines the $150 annual list fee and $200 state business license renewal."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 425,
+    "llcFeeNotes": "Domestic LLC startup cost combines $75 Articles of Organization, $150 Initial List, and $200 State Business License.",
+    "annualReport": 350,
+    "annualReportDue": "End of anniversary month",
+    "nameReservation": 25,
+    "nameReservationNotes": "Name reservation filing fee for Nevada business entities."
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings/forms-fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Commercial Recordings Contact Information",
+      "url": "https://www.nvsos.gov/sos/sos-information/contact-us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Nevada Business Entity Search",
+      "url": "https://esos.nv.gov/EntitySearch/OnlineEntitySearch",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Nevada NRS Chapter 86 - Limited-Liability Companies",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-086.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Nevada NRS Chapter 76 - State Business Licenses",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-076.html",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

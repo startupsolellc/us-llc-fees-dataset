@@ -1,0 +1,50 @@
+{
+  "stateName": "Tennessee",
+  "stateAbbr": "TN",
+  "stateSlug": "tennessee",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Tennessee Business Entities",
+    "url": "https://tnbear.tn.gov/Ecommerce/FilingSearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Tennessee Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://sos.tn.gov/businesses",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 300,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 300,
+    "annualReportDue": "April 1",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.tn.gov/businesses/forms-and-fees",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

@@ -1,0 +1,80 @@
+{
+  "stateName": "North Carolina",
+  "stateAbbr": "NC",
+  "stateSlug": "north-carolina",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search North Carolina Business Entities",
+    "url": "https://www.sosnc.gov/online_services/search/by_title/_Business_Registration"
+  },
+  "secretaryOfState": {
+    "agency": "North Carolina Secretary of State Business Registration",
+    "officialName": null,
+    "website": "https://www.sosnc.gov/divisions/business_registration",
+    "phone": "919-814-5400",
+    "email": "corpinfo@sosnc.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Registration - Street Address / Overnight Mail",
+      "street": "2 South Salisbury Street",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27601-2903",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "North Carolina Secretary of State, Business Registration, Post Office Box 29622",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip": "27626-0622",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.sosnc.gov/divisions/business_registration/annual_report",
+    "paperRenewalUrl": null,
+    "notes": "North Carolina LLC annual reports are due April 15 each year after the year of creation. Online filing is $203; paper filing is $200."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 125,
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $125.",
+    "annualReport": 203,
+    "annualReportDue": "April 15",
+    "nameReservation": 10,
+    "nameReservationNotes": "LLC Application for Reserved Name filing fee is $10."
+  },
+  "sources": [
+    {
+      "name": "Business Registration",
+      "url": "https://www.sosnc.gov/divisions/business_registration",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Business Registration Fee Schedule",
+      "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "File an Annual Report",
+      "url": "https://www.sosnc.gov/divisions/business_registration/annual_report",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Annual Report Due Dates",
+      "url": "https://www.sosnc.gov/divisions/business_registration/annual_report_due_dates",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

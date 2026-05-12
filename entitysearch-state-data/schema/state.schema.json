@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schema/state.schema.json",
+  "title": "State Entity Search Data",
+  "description": "Schema for state-level entity search sidebar data",
+  "type": "object",
+  "required": ["stateAbbr", "stateSlug", "lastVerified"],
+  "properties": {
+    "stateName": {
+      "type": "string",
+      "description": "Full state name (e.g., 'Alabama')"
+    },
+    "stateAbbr": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "Two-letter state abbreviation (e.g., 'AL')"
+    },
+    "stateSlug": {
+      "type": "string",
+      "pattern": "^[a-z-]+$",
+      "description": "URL-friendly state slug (e.g., 'alabama')"
+    },
+    "stateSeal": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Optional enrichment: URL to state seal/logo image. May remain null when assets are managed in the consuming app."
+    },
+    "businessEntitySearch": {
+      "type": "object",
+      "properties": {
+        "cta": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "required": ["url"]
+    },
+    "secretaryOfState": {
+      "type": "object",
+      "properties": {
+        "agency": { "type": "string" },
+        "officialName": {
+          "type": ["string", "null"],
+          "description": "Optional enrichment: current officeholder name, if maintained. May remain null because this is time-sensitive political/personnel data."
+        },
+        "website": { "type": "string", "format": "uri" },
+        "phone": { "type": ["string", "null"] },
+        "email": { "type": ["string", "null"], "format": "email" }
+      }
+    },
+    "hours": {
+      "type": "object",
+      "properties": {
+        "timezone": { "type": ["string", "null"] },
+        "regular": { "type": ["string", "null"] },
+        "holidayHours": { "type": ["string", "null"] }
+      }
+    },
+    "physicalAddresses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "street": { "type": "string" },
+          "city": { "type": "string" },
+          "state": { "type": "string" },
+          "zip": { "type": "string" },
+          "country": { "type": "string", "default": "USA" }
+        }
+      }
+    },
+    "mailingAddress": {
+      "type": ["object", "null"],
+      "properties": {
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "zip": { "type": "string" },
+        "country": { "type": "string", "default": "USA" }
+      }
+    },
+    "renewals": {
+      "type": "object",
+      "properties": {
+        "onlineRenewalUrl": { "type": ["string", "null"], "format": "uri" },
+        "paperRenewalUrl": { "type": ["string", "null"], "format": "uri" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "corporateDocuments": {
+      "type": "object",
+      "description": "Optional enrichment: official or internal template URLs. May remain null when templates are managed outside this dataset.",
+      "properties": {
+        "operatingAgreement": { "type": ["string", "null"], "format": "uri" },
+        "bylaws": { "type": ["string", "null"], "format": "uri" },
+        "otherTemplates": { "type": ["string", "null"], "format": "uri" }
+      }
+    },
+    "filingFacts": {
+      "type": "object",
+      "properties": {
+        "llcFee": { "type": ["number", "null"] },
+        "llcFeeNotes": { "type": ["string", "null"] },
+        "annualReport": { "type": ["number", "null"] },
+        "annualReportDue": { "type": ["string", "null"] },
+        "nameReservation": { "type": ["number", "null"] },
+        "nameReservationNotes": { "type": ["string", "null"] }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "lastAccessed": { "type": "string", "format": "date" }
+        },
+        "required": ["name", "url"]
+      }
+    },
+    "lastVerified": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date format YYYY-MM-DD"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "stateName": "Hawaii",
+  "stateAbbr": "HI",
+  "stateSlug": "hawaii",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Hawaii Business Entities",
+    "url": "https://hbe.ehawaii.gov/documents/search.html"
+  },
+  "secretaryOfState": {
+    "agency": "Hawaii Business Registration Division",
+    "officialName": null,
+    "website": "https://cca.hawaii.gov/breg/",
+    "phone": "1-844-808-3222",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Hawaii Standard Time",
+    "regular": "Monday-Friday 7:45 a.m.-4:30 p.m.",
+    "holidayHours": "Except state holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Registration Division",
+      "street": "King Kalakaua Building, 335 Merchant Street, Room 201",
+      "city": "Honolulu",
+      "state": "HI",
+      "zip": "96813",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 40",
+    "city": "Honolulu",
+    "state": "HI",
+    "zip": "96810",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://hbe.ehawaii.gov/annuals",
+    "paperRenewalUrl": null,
+    "notes": "Hawaii LLC annual reports are due by the end of the entity's anniversary quarter."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 51,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 12.5,
+    "annualReportDue": "End of anniversary quarter",
+    "nameReservation": 10,
+    "nameReservationNotes": "Reservation of Name filing fee is $10; expedited review is available for an additional $25."
+  },
+  "sources": [
+    {
+      "name": "Official Business Registration Source",
+      "url": "https://cca.hawaii.gov/breg/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://cca.hawaii.gov/breg/contact/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://cca.hawaii.gov/breg/registration/dllc/fees/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Source",
+      "url": "https://hbe.ehawaii.gov/annuals",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

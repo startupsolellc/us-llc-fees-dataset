@@ -1,0 +1,50 @@
+{
+  "stateName": "Pennsylvania",
+  "stateAbbr": "PA",
+  "stateSlug": "pennsylvania",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Pennsylvania Business Entities",
+    "url": "https://file.dos.pa.gov/search/business"
+  },
+  "secretaryOfState": {
+    "agency": "Pennsylvania Department of State Bureau of Corporations and Charitable Organizations",
+    "officialName": null,
+    "website": "https://www.pa.gov/agencies/dos/programs/business",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 125,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 7,
+    "annualReportDue": "Sept 30",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments.html",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

@@ -1,0 +1,80 @@
+{
+  "stateName": "Connecticut",
+  "stateAbbr": "CT",
+  "stateSlug": "connecticut",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Connecticut Business Entities",
+    "url": "https://service.ct.gov/business/s/onlinebusinesssearch"
+  },
+  "secretaryOfState": {
+    "agency": "Connecticut Secretary of the State Business Services Division",
+    "officialName": null,
+    "website": "https://business.ct.gov",
+    "phone": "860-509-6002",
+    "email": "bsd@ct.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday 8:30 a.m.-4:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Services Division",
+      "street": "165 Capitol Avenue, Suite 1000",
+      "city": "Hartford",
+      "state": "CT",
+      "zip": "06106",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 150470",
+    "city": "Hartford",
+    "state": "CT",
+    "zip": "06115-0470",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://business.ct.gov",
+    "paperRenewalUrl": null,
+    "notes": "Business filings, including annual reports, are handled through Business.CT.gov; business inquiry shows when the last report was filed and when the next annual report is due."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 120,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 80,
+    "annualReportDue": "Jan 1 - Mar 31",
+    "nameReservation": 60,
+    "nameReservationNotes": "Application for Reservation of Name for all entity types has a $60 filing fee and is effective for 120 days."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://portal.ct.gov/SOTS/Business-Services/BSD",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://portal.ct.gov/SOTS/General/Contact-Us/Contact-Us---Main",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://portal.ct.gov/sots/business-services/fees/business-entity-filing-fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://portal.ct.gov/-/media/sots/business-services/bsd-forms/all-business-entities/all-namereservationpdf.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

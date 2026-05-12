@@ -1,0 +1,50 @@
+{
+  "stateName": "Vermont",
+  "stateAbbr": "VT",
+  "stateSlug": "vermont",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Vermont Business Entities",
+    "url": "https://bizfilings.vermont.gov/online/BusinessInquire"
+  },
+  "secretaryOfState": {
+    "agency": "Vermont Secretary of State Corporations Division",
+    "officialName": null,
+    "website": "https://sos.vermont.gov/corporations/",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 155,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 45,
+    "annualReportDue": "Anniversary month window",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.vermont.gov/corporations/fees/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

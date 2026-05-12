@@ -1,0 +1,88 @@
+{
+  "stateName": "Alaska",
+  "stateAbbr": "AK",
+  "stateSlug": "alaska",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Alaska Business Entities",
+    "url": "https://www.commerce.alaska.gov/cbp/main/search/entities"
+  },
+  "secretaryOfState": {
+    "agency": "Alaska Division of Corporations, Business and Professional Licensing",
+    "officialName": null,
+    "website": "https://www.commerce.alaska.gov/web/cbpl/corporations",
+    "phone": "907-269-8160",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Alaska Time",
+    "regular": "Monday-Friday 8:00 a.m.-11:30 a.m. and 12:30 p.m.-3:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Anchorage Office",
+      "street": "550 W 7th Avenue, Suite 1500",
+      "city": "Anchorage",
+      "state": "AK",
+      "zip": "99501-3567",
+      "country": "USA"
+    },
+    {
+      "label": "Juneau Office",
+      "street": "333 Willoughby Avenue, 9th Floor, State Office Building",
+      "city": "Juneau",
+      "state": "AK",
+      "zip": "99801-1770",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 110806",
+    "city": "Juneau",
+    "state": "AK",
+    "zip": "99811-0806",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.commerce.alaska.gov/web/cbpl/Corporations/BiennialReports",
+    "paperRenewalUrl": "https://www.commerce.alaska.gov/web/cbpl/Corporations/BiennialReports",
+    "notes": "Domestic LLCs file biennial reports every two years; reports are due January 2 and late after February 1."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 250,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 100,
+    "annualReportDue": "Jan 2 (Biennial)",
+    "nameReservation": 25,
+    "nameReservationNotes": "Business name reservation temporarily protects a business name for 120 days; new business name reservation fee is $25."
+  },
+  "sources": [
+    {
+      "name": "Official Corporations Contact Source",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/corporations/corpformsfees.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/FormsFees.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Forms by Entity Source",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/CorpFormsFees/FormsbyEntity",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Biennial Report Source",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/BiennialReports",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

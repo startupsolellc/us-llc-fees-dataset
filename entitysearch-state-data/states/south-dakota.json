@@ -1,0 +1,50 @@
+{
+  "stateName": "South Dakota",
+  "stateAbbr": "SD",
+  "stateSlug": "south-dakota",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search South Dakota Business Entities",
+    "url": "https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "South Dakota Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://sdsos.gov/business-services/",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 150,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 55,
+    "annualReportDue": "Last day of anniversary month",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sdsos.gov/general-information/filing-fees.aspx",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

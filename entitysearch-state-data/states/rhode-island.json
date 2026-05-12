@@ -1,0 +1,50 @@
+{
+  "stateName": "Rhode Island",
+  "stateAbbr": "RI",
+  "stateSlug": "rhode-island",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Rhode Island Business Entities",
+    "url": "https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Rhode Island Department of State Business Services",
+    "officialName": null,
+    "website": "https://sos.ri.gov/divisions/business-services",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 156,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 52.5,
+    "annualReportDue": "Feb 1 - May 1",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.ri.gov/divisions/business-services/business-basics/costs-and-fees",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

@@ -1,0 +1,85 @@
+{
+  "stateName": "Alabama",
+  "stateAbbr": "AL",
+  "stateSlug": "alabama",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Alabama Business Entities",
+    "url": "https://www.sos.alabama.gov/government-records/business-entity-records"
+  },
+  "secretaryOfState": {
+    "agency": "Alabama Secretary of State Business Entities Division",
+    "officialName": null,
+    "website": "https://www.sos.alabama.gov/business-entities",
+    "phone": "334-242-5324",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Entities Division",
+      "street": "770 Washington Avenue, Suite 580",
+      "city": "Montgomery",
+      "state": "AL",
+      "zip": "36104",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 5616",
+    "city": "Montgomery",
+    "state": "AL",
+    "zip": "36103-5616",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": "Corporations authorized to transact business in Alabama are no longer required by law to file an annual report with the Secretary of State."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 228,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": null,
+    "annualReportDue": "N/A",
+    "nameReservation": 25,
+    "nameReservationNotes": "Name reservation is required before domestic LLC formation; paper filing is $25 and online filing is $28."
+  },
+  "sources": [
+    {
+      "name": "Official Business Entities Contact Source",
+      "url": "https://www.sos.alabama.gov/business-entities",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.alabama.gov/business-entities/fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Forms Source",
+      "url": "https://www.sos.alabama.gov/business-entities/business-downloads",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Fee Source",
+      "url": "https://www.sos.alabama.gov/sites/default/files/2022-01/2021FeeSchedule.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Domestic Entity Guidance",
+      "url": "https://www.sos.alabama.gov/sites/default/files/Business-Entities/Domestic%20Business%20Entities%20Brochure%202022.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

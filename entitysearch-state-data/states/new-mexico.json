@@ -1,0 +1,80 @@
+{
+  "stateName": "New Mexico",
+  "stateAbbr": "NM",
+  "stateSlug": "new-mexico",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search New Mexico Business Entities",
+    "url": "https://portal.sos.state.nm.us/BFS/online/CorporationBusinessSearch"
+  },
+  "secretaryOfState": {
+    "agency": "New Mexico Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://www.sos.nm.gov/business-services/",
+    "phone": "505-827-3600",
+    "email": "Business.Services@sos.nm.gov"
+  },
+  "hours": {
+    "timezone": "Mountain Time",
+    "regular": "Office hours Monday-Friday 8:00 a.m.-5:00 p.m.; Business Services walk-in hours are available Monday-Thursday and the office is closed to in-person Business Services customers on Fridays.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Services Division",
+      "street": "New Mexico Capitol Annex North, 325 Don Gaspar, Suite 300",
+      "city": "Santa Fe",
+      "state": "NM",
+      "zip": "87501",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "New Mexico Capitol Annex North, 325 Don Gaspar, Suite 300",
+    "city": "Santa Fe",
+    "state": "NM",
+    "zip": "87501",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": "New Mexico LLCs do not have an annual report requirement. Business filings have moved to the online filing portal and paper business applications are no longer accepted."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 50,
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $50.",
+    "annualReport": null,
+    "annualReportDue": "N/A",
+    "nameReservation": 20,
+    "nameReservationNotes": "Application for reservation of a name or transfer of a name reservation is $20."
+  },
+  "sources": [
+    {
+      "name": "Business Services",
+      "url": "https://www.sos.nm.gov/business-services/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Secretary of State Contact Information",
+      "url": "https://www.sos.nm.gov/contact-us/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Online Filing Portal",
+      "url": "https://enterprise.sos.nm.gov/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "New Mexico LLC Filing Fees - 53-19-63 NMSA 1978",
+      "url": "https://www.nmlegis.gov/Sessions/15%20Regular/final/HB0287.PDF",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

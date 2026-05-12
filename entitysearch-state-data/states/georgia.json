@@ -1,0 +1,90 @@
+{
+  "stateName": "Georgia",
+  "stateAbbr": "GA",
+  "stateSlug": "georgia",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Georgia Business Entities",
+    "url": "https://ecorp.sos.ga.gov/BusinessSearch"
+  },
+  "secretaryOfState": {
+    "agency": "Georgia Secretary of State Corporations Division",
+    "officialName": null,
+    "website": "https://sos.ga.gov/corporations-division-georgia-secretary-states-office",
+    "phone": "404-656-2817",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday business hours; online services available through eCorp",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Corporations Division",
+      "street": "2 Martin Luther King Jr. Drive SE, Suite 313, Floyd West Tower",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30334-1530",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "2 Martin Luther King Jr. Drive SE, Suite 313, Floyd West Tower",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30334-1530",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://ecorp.sos.ga.gov/Home",
+    "paperRenewalUrl": "https://ecorp.sos.ga.gov/Home",
+    "notes": "Georgia entities file annual registration between January 1 and April 1; LLC annual registration fee is $60."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 110,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 60,
+    "annualReportDue": "Jan 1 - Apr 1",
+    "nameReservation": 35,
+    "nameReservationNotes": "Name reservation is optional, effective for 30 days, and costs $35 ($25 filing fee plus $10 service charge)."
+  },
+  "sources": [
+    {
+      "name": "Official Corporations Division Source",
+      "url": "https://sos.ga.gov/corporations-division-georgia-secretary-states-office",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://sos.ga.gov/form/contact-corporations-division",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.ga.gov/how-to-guide/how-guide-register-domestic-entity",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Registration Source",
+      "url": "https://sos.ga.gov/how-to-guide/how-file-annual-registration",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://sos.ga.gov/how-to-guide/how-guide-how-reserve-name",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official eCorp Source",
+      "url": "https://ecorp.sos.ga.gov/Home",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

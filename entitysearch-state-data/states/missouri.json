@@ -1,0 +1,104 @@
+{
+  "stateName": "Missouri",
+  "stateAbbr": "MO",
+  "stateSlug": "missouri",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Missouri Business Entities",
+    "url": "https://bsd.sos.mo.gov/BusinessEntity/BESearch.aspx?SearchType=0"
+  },
+  "secretaryOfState": {
+    "agency": "Missouri Secretary of State Corporations Division",
+    "officialName": null,
+    "website": "https://www.sos.mo.gov/business/corporations",
+    "phone": "573-751-4153",
+    "email": "corporations@sos.mo.gov"
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 9:00 a.m.-4:00 p.m.",
+    "holidayHours": "Closed for legal holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Corporations Unit",
+      "street": "600 W Main St., Missouri State Information Center, Room 322",
+      "city": "Jefferson City",
+      "state": "MO",
+      "zip": "65101-0778",
+      "country": "USA"
+    },
+    {
+      "label": "St. Louis Branch Office",
+      "street": "U.S. Customs & Post Office Building, 815 Olive Street, Suite 150",
+      "city": "St. Louis",
+      "state": "MO",
+      "zip": "63101",
+      "country": "USA"
+    },
+    {
+      "label": "Kansas City Branch Office",
+      "street": "Kansas City State Office Building, 615 E. 13th St., Fifth Floor Suite 513",
+      "city": "Kansas City",
+      "state": "MO",
+      "zip": "64106",
+      "country": "USA"
+    },
+    {
+      "label": "Springfield Branch Office",
+      "street": "Springfield State Office Building, 149 Park Central Sq., Suite 624",
+      "city": "Springfield",
+      "state": "MO",
+      "zip": "65806",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Corporations Unit, James C. Kirkpatrick State Information Center, P.O. Box 778",
+    "city": "Jefferson City",
+    "state": "MO",
+    "zip": "65102",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": "Missouri LLCs do not have an annual registration report requirement; SOS annual and biennial registration reports apply to corporations."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 50,
+    "llcFeeNotes": "Domestic LLC certificate filing fee is $50 online; paper filing is $105.",
+    "annualReport": null,
+    "annualReportDue": "N/A",
+    "nameReservation": 25,
+    "nameReservationNotes": "Reservation of Name is $25 for LLCs and other entities except limited liability partnerships."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://www.sos.mo.gov/business/corporations",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.sos.mo.gov/business/corporations/contact",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Registration Reports Source",
+      "url": "https://www.sos.mo.gov/business/corporations/generalinfo",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

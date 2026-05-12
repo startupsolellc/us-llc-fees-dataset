@@ -1,0 +1,80 @@
+{
+  "stateName": "Maine",
+  "stateAbbr": "ME",
+  "stateSlug": "maine",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Maine Business Entities",
+    "url": "https://apps3.web.maine.gov/nei-sos-icrs/ICRS?MainPage=x"
+  },
+  "secretaryOfState": {
+    "agency": "Maine Bureau of Corporations, Elections and Commissions",
+    "officialName": null,
+    "website": "https://www.maine.gov/sos/corporations-commissions/corporations",
+    "phone": "207-624-7752",
+    "email": "cec.corporations@maine.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.; customer service telephone hours 10:00 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Division of Corporations, Uniform Commercial Code (UCC), and Commissions",
+      "street": "Ballard Center, 6 E Chestnut St., 5th Floor",
+      "city": "Augusta",
+      "state": "ME",
+      "zip": "04333",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "184 State House Station",
+    "city": "Augusta",
+    "state": "ME",
+    "zip": "04333-0101",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://apps1.web.maine.gov/cgi-bin/online/aro/index.pl",
+    "paperRenewalUrl": "https://apps1.web.maine.gov/online/aro/form_download.html",
+    "notes": "Annual reports are required every year to maintain good standing; the legal filing deadline is June 1."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 175,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 85,
+    "annualReportDue": "June 1",
+    "nameReservation": 20,
+    "nameReservationNotes": "Application for Reservation of Name for a limited liability company."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.maine.gov/sos/about-us/contact-us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Source",
+      "url": "https://www.maine.gov/sos/corporations-commissions/filing-an-annual-report",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Online Source",
+      "url": "https://apps1.web.maine.gov/cgi-bin/online/aro/index.pl",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

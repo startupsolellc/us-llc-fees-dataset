@@ -1,0 +1,85 @@
+{
+  "stateName": "Louisiana",
+  "stateAbbr": "LA",
+  "stateSlug": "louisiana",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Louisiana Business Entities",
+    "url": "https://coraweb.sos.la.gov/commercialsearch/commercialsearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Louisiana Secretary of State Commercial Division",
+    "officialName": null,
+    "website": "https://www.sos.la.gov/BusinessServices",
+    "phone": "225-925-4704",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 8:00 a.m.-4:30 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Louisiana Secretary of State Commercial Division",
+      "street": "8585 Archives Ave.",
+      "city": "Baton Rouge",
+      "state": "LA",
+      "zip": "70809",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 94125",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "zip": "70804-9125",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://geauxbiz.sos.la.gov/",
+    "paperRenewalUrl": null,
+    "notes": "Louisiana business annual reports are filed through geauxBIZ; the Secretary of State forms and fee schedule lists domestic LLC annual reports at $30."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee",
+    "annualReport": 30,
+    "annualReportDue": "Anniversary date",
+    "nameReservation": 25,
+    "nameReservationNotes": "Name Reservation for Corporation, Limited Liability Company, L3C and Partnership."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.sos.la.gov/OurOffice/ContactUs/Pages/default.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Commercial Division Contact Source",
+      "url": "https://www.sos.la.gov/BusinessServices/ContactUs/Pages/default.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Services Source",
+      "url": "https://www.sos.la.gov/BusinessServices/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.la.gov/BusinessServices/FileBusinessDocuments/GetFormsAndFeeSchedule",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Fee Schedule PDF",
+      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/332FeeSchedule.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

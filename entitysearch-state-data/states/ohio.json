@@ -1,0 +1,50 @@
+{
+  "stateName": "Ohio",
+  "stateAbbr": "OH",
+  "stateSlug": "ohio",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Ohio Business Entities",
+    "url": "https://businesssearch.ohiosos.gov/"
+  },
+  "secretaryOfState": {
+    "agency": "Ohio Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://www.ohiosos.gov/businesses/",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 99,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": null,
+    "annualReportDue": "N/A",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

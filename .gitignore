@@ -2,3 +2,13 @@
 AGENTS.md
 CLAUDE.md
 GEMINI.md
+
+# Local scraping workspace
+scripts/scrapling-repo/
+scripts/.venv/
+scripts/output/
+scripts/cache/
+
+# EntitySearch State Data - development artifacts
+entitysearch-state-data/scripts/
+entitysearch-state-data/audits/

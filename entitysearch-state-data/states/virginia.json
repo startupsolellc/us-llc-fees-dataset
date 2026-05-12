@@ -1,0 +1,50 @@
+{
+  "stateName": "Virginia",
+  "stateAbbr": "VA",
+  "stateSlug": "virginia",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Virginia Business Entities",
+    "url": "https://cis.scc.virginia.gov/EntitySearch/Index"
+  },
+  "secretaryOfState": {
+    "agency": "Virginia State Corporation Commission Clerk's Office",
+    "officialName": null,
+    "website": "https://www.scc.virginia.gov/pages/Clerk-Information",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 50,
+    "annualReportDue": "Last day of anniversary month",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.scc.virginia.gov/pages/Fees",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

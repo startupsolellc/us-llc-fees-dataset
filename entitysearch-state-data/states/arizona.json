@@ -1,0 +1,98 @@
+{
+  "stateName": "Arizona",
+  "stateAbbr": "AZ",
+  "stateSlug": "arizona",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Arizona Business Entities",
+    "url": "https://arizonabusinesscenter.azcc.gov/businesssearch"
+  },
+  "secretaryOfState": {
+    "agency": "Arizona Corporation Commission Corporations Division",
+    "officialName": null,
+    "website": "https://www.azcc.gov/corporations",
+    "phone": "602-542-3026",
+    "email": "answers@azcc.gov"
+  },
+  "hours": {
+    "timezone": "Mountain Standard Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": "Closed for state observed holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Phoenix Office",
+      "street": "1300 W. Washington Street",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85007",
+      "country": "USA"
+    },
+    {
+      "label": "Tucson Office",
+      "street": "400 W. Congress Street",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "85701",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "1300 W. Washington Street",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85007",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": "Arizona LLCs are not required to file annual reports; only corporations are required to file annual reports."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 50,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": null,
+    "annualReportDue": "N/A",
+    "nameReservation": 10,
+    "nameReservationNotes": "LLC name reservation is optional, effective for 120 days, not renewable, and has a $10 regular filing fee."
+  },
+  "sources": [
+    {
+      "name": "Official Corporations Contact Source",
+      "url": "https://www.azcc.gov/corporations/home",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://azcc.gov/contact",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.azcc.gov/corporations/fee-and-payment-info",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official LLC Forms Source",
+      "url": "https://azcc.gov/Corporations/forms",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Services FAQ Source",
+      "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Instruction Source",
+      "url": "https://azcc.gov/docs/default-source/corps-files/instructions/l001i-instructions-application-to-reserve-llc-name.pdf?sfvrsn=dd4233e4_6",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

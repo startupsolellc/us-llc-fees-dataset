@@ -1,0 +1,90 @@
+{
+  "stateName": "Idaho",
+  "stateAbbr": "ID",
+  "stateSlug": "idaho",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Idaho Business Entities",
+    "url": "https://sosbiz.idaho.gov/search/business"
+  },
+  "secretaryOfState": {
+    "agency": "Idaho Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://sosbiz.idaho.gov",
+    "phone": "208-334-2301",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Mountain Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Services",
+      "street": "450 N. 4th Street",
+      "city": "Boise",
+      "state": "ID",
+      "zip": "83702",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 83720",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83720-0080",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://sosbiz.idaho.gov",
+    "paperRenewalUrl": null,
+    "notes": "Idaho annual reports are filed through SOSbiz; the annual report is used to keep entity information current."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": null,
+    "annualReportDue": "End of anniversary month",
+    "nameReservation": 20,
+    "nameReservationNotes": "Application for Reservation of Legal Entity Name reserves a name for four months; base filing fee is $20, with an additional $20 manual processing fee for paper filings."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://sos.idaho.gov/business-services/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Office Contact Source",
+      "url": "https://sos.idaho.gov/find-our-office/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.idaho.gov/business-services-resources/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Forms Source",
+      "url": "https://sos.idaho.gov/business-forms/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Help Source",
+      "url": "https://sos.idaho.gov/annual-report-help/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Form Source",
+      "url": "https://sos.idaho.gov/CORP/forms/MISC/name%20reservation.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

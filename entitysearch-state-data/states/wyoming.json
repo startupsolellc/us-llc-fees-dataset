@@ -1,0 +1,50 @@
+{
+  "stateName": "Wyoming",
+  "stateAbbr": "WY",
+  "stateSlug": "wyoming",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Wyoming Business Entities",
+    "url": "https://wyobiz.wyo.gov/Business/FilingSearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Wyoming Secretary of State Business Division",
+    "officialName": null,
+    "website": "https://sos.wyo.gov/Business/Default.aspx",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 60,
+    "annualReportDue": "First day of anniversary month",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

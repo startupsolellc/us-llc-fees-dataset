@@ -1,0 +1,85 @@
+{
+  "stateName": "Massachusetts",
+  "stateAbbr": "MA",
+  "stateSlug": "massachusetts",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Massachusetts Business Entities",
+    "url": "https://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Massachusetts Secretary of the Commonwealth Corporations Division",
+    "officialName": null,
+    "website": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+    "phone": "617-727-9640",
+    "email": "corpinfo@sec.state.ma.us"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Filing Room: Monday-Friday 8:45 a.m.-4:00 p.m.; Public Room and Phone Room: Monday-Friday 8:45 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Massachusetts Corporations Division",
+      "street": "One Ashburton Place, 17th Floor",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02108",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "One Ashburton Place, 17th Floor",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "02108",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
+    "paperRenewalUrl": null,
+    "notes": "Domestic LLC annual reports are due on or before the anniversary date of the original certificate of organization filing."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 500,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 500,
+    "annualReportDue": "Anniversary date",
+    "nameReservation": 30,
+    "nameReservationNotes": "Name reservation is valid for 60 days and may be extended for an additional 60 days with another $30 fee."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-hours-and-directions.htm",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-filing-fees.htm",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official LLC Annual Report Source",
+      "url": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://www.sec.state.ma.us/divisions/corporations/services/corporations-name-reservations.htm",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

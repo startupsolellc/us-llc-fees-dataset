@@ -1,0 +1,90 @@
+{
+  "stateName": "Maryland",
+  "stateAbbr": "MD",
+  "stateSlug": "maryland",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Maryland Business Entities",
+    "url": "https://egov.maryland.gov/BusinessExpress/EntitySearch"
+  },
+  "secretaryOfState": {
+    "agency": "Maryland Department of Assessments and Taxation",
+    "officialName": null,
+    "website": "https://dat.maryland.gov/Pages/default.aspx",
+    "phone": "410-767-1330",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Business filings in-person services are by appointment; rush dropbox documents are picked up at 10:00 a.m. and available by 3:45 p.m. Monday-Friday except state holidays.",
+    "holidayHours": "Closed on state holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Maryland SDAT Business Services",
+      "street": "123 Market Place",
+      "city": "Baltimore",
+      "state": "MD",
+      "zip": "21202",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Corporate Charter Division, 700 East Pratt Street, 2nd Floor",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21202",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://businessexpress.maryland.gov/",
+    "paperRenewalUrl": null,
+    "notes": "All domestic and foreign business entities should file annual reports online or by mail on or before April 15; approved extensions move the due date to June 15."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC Articles of Organization base filing fee; expedited service is a separate optional fee.",
+    "annualReport": 300,
+    "annualReportDue": "Apr 15",
+    "nameReservation": 25,
+    "nameReservationNotes": "Reservation of corporate, limited partnership, LLC, or LLP name."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://dat.maryland.gov/businesses/Pages/default.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://dat.maryland.gov/about/pages/frequent-contacts.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Department Contact Source",
+      "url": "https://dat.maryland.gov/pages/contact_us.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://dat.maryland.gov/businesses/Documents/FEES.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official LLC Formation Form Source",
+      "url": "https://dat.maryland.gov/Documents/Accessible%20Documents/Charter%20-%20Create%20or%20Start%20a%20Business/Articles%20of%20Organization%20for%20Limited%20Liability%20Company%20%28LLC%29_0326-A.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Source",
+      "url": "https://dat.maryland.gov/pages/sdatforms.aspx",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

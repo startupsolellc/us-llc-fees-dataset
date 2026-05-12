@@ -1,0 +1,85 @@
+{
+  "stateName": "New Hampshire",
+  "stateAbbr": "NH",
+  "stateSlug": "new-hampshire",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search New Hampshire Business Entities",
+    "url": "https://quickstart.sos.nh.gov/online/BusinessInquire"
+  },
+  "secretaryOfState": {
+    "agency": "New Hampshire Department of State Corporation Division",
+    "officialName": null,
+    "website": "https://sos.nh.gov/corporation-division",
+    "phone": "603-271-3246",
+    "email": "corporate@sos.nh.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Walk-in customers Monday-Friday 8:30 a.m.-4:00 p.m.; telephone information line Monday-Friday 8:00 a.m.-4:30 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Corporation Division",
+      "street": "State House Annex, Room 317, 25 Capitol Street, 3rd Floor",
+      "city": "Concord",
+      "state": "NH",
+      "zip": "03301",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Corporation Division, N.H. Department of State, 107 North Main Street",
+    "city": "Concord",
+    "state": "NH",
+    "zip": "03301-4989",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://quickstart.sos.nh.gov/online/account",
+    "paperRenewalUrl": null,
+    "notes": "Annual reports are due by April 1 each year after registration and may be filed online through NH QuickStart or printed for mail filing; a $50 late fee applies after April 1."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 102,
+    "llcFeeNotes": "Domestic LLC Certificate of Formation is $100; online filings include New Hampshire's $2 electronic handling charge.",
+    "annualReport": 102,
+    "annualReportDue": "April 1",
+    "nameReservation": 15,
+    "nameReservationNotes": "Application for Reservation of Name is $15 and reserves the name for 120 days."
+  },
+  "sources": [
+    {
+      "name": "Online Business Services and Annual Reports",
+      "url": "https://sos.nh.gov/corporation-ucc-securities/corporation/online-business-services",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Certificate of Formation Form LLC-1",
+      "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/documents/2023-12/form_llc-1_-10-2018.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Application for Reservation of Name Form 1",
+      "url": "https://sos.nh.gov/media/e10fhmrs/form_1_-09-2015.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "New Hampshire RSA 304-C Limited Liability Company Fees",
+      "url": "https://gc.nh.gov/rsa/html/xxviii/304-c/304-c-mrg.htm",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "NH QuickStart Annual Reports Portal",
+      "url": "https://quickstart.sos.nh.gov/online/account",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

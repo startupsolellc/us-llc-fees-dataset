@@ -1,0 +1,50 @@
+{
+  "stateName": "West Virginia",
+  "stateAbbr": "WV",
+  "stateSlug": "west-virginia",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search West Virginia Business Entities",
+    "url": "https://apps.wv.gov/SOS/BusinessEntitySearch/"
+  },
+  "secretaryOfState": {
+    "agency": "West Virginia Secretary of State Business and Licensing Division",
+    "officialName": null,
+    "website": "https://sos.wv.gov/business",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 25,
+    "annualReportDue": "Jan 1 - June 30",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.wv.gov/media/282/download?inline=",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

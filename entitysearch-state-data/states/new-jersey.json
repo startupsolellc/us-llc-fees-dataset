@@ -1,0 +1,75 @@
+{
+  "stateName": "New Jersey",
+  "stateAbbr": "NJ",
+  "stateSlug": "new-jersey",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search New Jersey Business Entities",
+    "url": "https://www.njportal.com/DOR/BusinessNameSearch/Search/BusinessName"
+  },
+  "secretaryOfState": {
+    "agency": "New Jersey Division of Revenue and Enterprise Services",
+    "officialName": null,
+    "website": "https://www.nj.gov/treasury/revenue/",
+    "phone": "609-292-9292",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "In-person service area is open to the public by appointment; secure lobby drop box is available on workdays.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "In-Person Service Area",
+      "street": "33 West State Street, 5th Floor",
+      "city": "Trenton",
+      "state": "NJ",
+      "zip": "08608",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Division of Revenue and Enterprise Services, PO Box 628",
+    "city": "Trenton",
+    "state": "NJ",
+    "zip": "08625-0628",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.njportal.com/DOR/annualreports/",
+    "paperRenewalUrl": null,
+    "notes": "New Jersey LLC annual reports are filed online and are due by the last day of the anniversary month."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 125,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 75,
+    "annualReportDue": "Last day of anniversary month",
+    "nameReservation": 50,
+    "nameReservationNotes": "LLC name reservation, transfer of reserved name, and renewal of reserved name are each listed at $50."
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Annual Reports Portal",
+      "url": "https://www.njportal.com/DOR/annualreports/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "DORES In-Person Service and Contact",
+      "url": "https://www.nj.gov/treasury/revenue/33lobby.shtml",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

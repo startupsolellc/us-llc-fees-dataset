@@ -1,0 +1,90 @@
+{
+  "stateName": "California",
+  "stateAbbr": "CA",
+  "stateSlug": "california",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search California Business Entities",
+    "url": "https://bizfileonline.sos.ca.gov/search/business"
+  },
+  "secretaryOfState": {
+    "agency": "California Secretary of State Business Programs Division",
+    "officialName": null,
+    "website": "https://www.sos.ca.gov/business-programs/business-entities",
+    "phone": "916-657-5448",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Pacific Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": "Excluding state holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Programs Division Counter",
+      "street": "1500 11th Street, 3rd Floor",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 944260",
+    "city": "Sacramento",
+    "state": "CA",
+    "zip": "94244-2600",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://bizfileonline.sos.ca.gov/",
+    "paperRenewalUrl": "https://www.sos.ca.gov/business-programs/business-entities/forms",
+    "notes": "California LLCs file a Statement of Information biennially during the applicable filing period."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 70,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 20,
+    "annualReportDue": "Last day of anniversary month (Biennial)",
+    "nameReservation": 10,
+    "nameReservationNotes": "A business entity name can be reserved for 60 days; name reservation fee is $10."
+  },
+  "sources": [
+    {
+      "name": "Official Business Entities Contact Source",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/contact",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Programs Contact Source",
+      "url": "https://www.sos.ca.gov/business-programs/contact",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://bizfile.sos.ca.gov/forms/fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Supporting Source",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/name-reservations/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Forms Source",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/forms",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

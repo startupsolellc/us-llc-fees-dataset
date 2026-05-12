@@ -1,0 +1,80 @@
+{
+  "stateName": "Delaware",
+  "stateAbbr": "DE",
+  "stateSlug": "delaware",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Delaware Business Entities",
+    "url": "https://icis.corp.delaware.gov/eCorp/EntitySearch/NameSearch.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Delaware Division of Corporations",
+    "officialName": null,
+    "website": "https://corp.delaware.gov",
+    "phone": "302-739-3073",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Phone operators Monday-Friday 8:00 a.m.-4:30 p.m.; live support Monday-Friday 8:30 a.m.-4:00 p.m.",
+    "holidayHours": "Excluding state holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Division of Corporations",
+      "street": "John G. Townsend Building, 401 Federal Street, Suite 4",
+      "city": "Dover",
+      "state": "DE",
+      "zip": "19901",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 898",
+    "city": "Dover",
+    "state": "DE",
+    "zip": "19903",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://corp.delaware.gov/alt-entitytaxinstructions/",
+    "paperRenewalUrl": null,
+    "notes": "Delaware LLCs, LPs, and GPs do not file annual reports with the Division of Corporations; they pay the $300 annual tax on or before June 1."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 110,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 300,
+    "annualReportDue": "June 1",
+    "nameReservation": 75,
+    "nameReservationNotes": "All entity name reservations require an application; the fee is $75 and the reservation is effective for 120 days."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://corp.delaware.gov/contact/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://corp.delaware.gov/fee/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report or Tax Source",
+      "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://corp.delaware.gov/nameres/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

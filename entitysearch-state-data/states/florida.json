@@ -1,0 +1,75 @@
+{
+  "stateName": "Florida",
+  "stateAbbr": "FL",
+  "stateSlug": "florida",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Florida Business Entities",
+    "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName"
+  },
+  "secretaryOfState": {
+    "agency": "Florida Division of Corporations",
+    "officialName": null,
+    "website": "https://dos.fl.gov/sunbiz/",
+    "phone": "850-245-6052",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Division of Corporations",
+      "street": "The Centre of Tallahassee, 2415 N. Monroe Street, Suite 810",
+      "city": "Tallahassee",
+      "state": "FL",
+      "zip": "32303",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 6327",
+    "city": "Tallahassee",
+    "state": "FL",
+    "zip": "32314",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report",
+    "paperRenewalUrl": null,
+    "notes": "Florida LLC annual reports are filed online and are due by May 1 before the late fee is assessed."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 125,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 138.75,
+    "annualReportDue": "May 1",
+    "nameReservation": 25,
+    "nameReservationNotes": "Limited Liability Company name reservation fee is $25."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://dos.fl.gov/sunbiz/contact/address-phone-numbers",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://dos.fl.gov/sunbiz/forms/fees/llc-fees/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Source",
+      "url": "https://dos.fl.gov/sunbiz/manage-business/efile/annual-report",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

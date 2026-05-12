@@ -1,0 +1,50 @@
+{
+  "stateName": "North Dakota",
+  "stateAbbr": "ND",
+  "stateSlug": "north-dakota",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search North Dakota Business Entities",
+    "url": "https://firststop.sos.nd.gov/search/business"
+  },
+  "secretaryOfState": {
+    "agency": "North Dakota Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://www.sos.nd.gov/business/business-services",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 135,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 50,
+    "annualReportDue": "Nov 15",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

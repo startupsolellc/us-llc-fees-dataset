@@ -1,0 +1,85 @@
+{
+  "stateName": "Indiana",
+  "stateAbbr": "IN",
+  "stateSlug": "indiana",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Indiana Business Entities",
+    "url": "https://bsd.sos.in.gov/publicbusinesssearch"
+  },
+  "secretaryOfState": {
+    "agency": "Indiana Secretary of State Business Services Division",
+    "officialName": null,
+    "website": "https://inbiz.in.gov",
+    "phone": "317-234-9768",
+    "email": "INBiz@sos.in.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday 8:00 a.m.-4:30 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Indiana Secretary of State Business Services",
+      "street": "302 West Washington Street, Room E-018",
+      "city": "Indianapolis",
+      "state": "IN",
+      "zip": "46204",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "302 West Washington Street, Room E-018",
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://inbiz.in.gov/business-filings/business-entityreport",
+    "paperRenewalUrl": null,
+    "notes": "Indiana businesses file Business Entity Reports through INBiz; LLC reports are biennial and due by the end of the anniversary month."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 95,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 32,
+    "annualReportDue": "End of anniversary month (Biennial)",
+    "nameReservation": null,
+    "nameReservationNotes": "Name reservation is available through INBiz; current fee was not exposed in an official public source during this pass, so the amount remains null pending direct INBiz verification."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://inbiz.in.gov/about/contact",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Services Source",
+      "url": "https://inbiz.in.gov/business-services",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://inbiz.in.gov/start-business/fee-schedule",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Entity Report Source",
+      "url": "https://inbiz.in.gov/business-filings/business-entityreport",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official INBiz Source",
+      "url": "https://inbiz.in.gov/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

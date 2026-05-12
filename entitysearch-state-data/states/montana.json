@@ -1,0 +1,80 @@
+{
+  "stateName": "Montana",
+  "stateAbbr": "MT",
+  "stateSlug": "montana",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Montana Business Entities",
+    "url": "https://biz.sosmt.gov/search/business"
+  },
+  "secretaryOfState": {
+    "agency": "Montana Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://sosmt.gov/business/",
+    "phone": "406-444-3665",
+    "email": "sosbusiness@mt.gov"
+  },
+  "hours": {
+    "timezone": "Mountain Time",
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Montana Secretary of State Business Entity & UCC",
+      "street": "State Capitol, Room 260, 1301 6th Avenue",
+      "city": "Helena",
+      "state": "MT",
+      "zip": "59620",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 202801",
+    "city": "Helena",
+    "state": "MT",
+    "zip": "59620-2801",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://biz.sosmt.gov/search/business",
+    "paperRenewalUrl": null,
+    "notes": "Montana LLC annual reports are filed through the SOS online filing portal and are due April 15. The Secretary of State waived annual report fees for filings through April 15, 2026, and announced the 2027 annual report filing fee will also be waived; late annual reports after April 15 are listed at $35 on the fee sheet."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 35,
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee, plus $50 for each series member named in a series LLC.",
+    "annualReport": 0,
+    "annualReportDue": "Apr 15",
+    "nameReservation": 10,
+    "nameReservationNotes": "Name Reservation filing fee for LLCs and other business entity types."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://sosmt.gov/business/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sosmt.gov/business/fees/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Warning Source",
+      "url": "https://sosmt.gov/secretary-christi-jacobsen-alerting-montanans-of-deceptive-business-solicitations/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Renewal Help Source",
+      "url": "https://help.sosmt.gov/en/articles/12549896-how-do-i-renew-my-business",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

@@ -1,0 +1,80 @@
+{
+  "stateName": "Minnesota",
+  "stateAbbr": "MN",
+  "stateSlug": "minnesota",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Minnesota Business Entities",
+    "url": "https://mblsportal.sos.state.mn.us/Business/Search"
+  },
+  "secretaryOfState": {
+    "agency": "Minnesota Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://www.sos.state.mn.us/business-liens/",
+    "phone": "651-296-2803",
+    "email": "business.services@state.mn.us"
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Office staffed Monday-Friday 8:00 a.m.-4:00 p.m.; phone lines Monday-Friday 9:00 a.m.-4:00 p.m.",
+    "holidayHours": "Excluding holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Minnesota Secretary of State Business Services",
+      "street": "First National Bank Building, 332 Minnesota Street, Suite N201",
+      "city": "Saint Paul",
+      "state": "MN",
+      "zip": "55101",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "First National Bank Building, 332 Minnesota Street, Suite N201",
+    "city": "Saint Paul",
+    "state": "MN",
+    "zip": "55101",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://mblsportal.sos.state.mn.us/Business/Search",
+    "paperRenewalUrl": null,
+    "notes": "Minnesota LLC annual renewal must be filed by December 31; domestic and foreign LLC annual renewal filing fee is $0."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 155,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 0,
+    "annualReportDue": "Dec 31",
+    "nameReservation": 55,
+    "nameReservationNotes": "Name Reservation original filing fee is $55 for in-person/online filings and $35 by mail; reservation is valid for twelve months."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.sos.state.mn.us/media/2296/additional-actions-and-contacts-for-web.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Renewal Source",
+      "url": "https://www.sos.state.mn.us/media/1569/llcdomesticforeignrenewal.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.state.mn.us/media/1378/businessentityfees.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Small Business Guide Source",
+      "url": "https://www.sos.state.mn.us/media/5969/a-guide-to-starting-a-small-business-in-minnesota.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

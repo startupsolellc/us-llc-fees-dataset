@@ -1,0 +1,80 @@
+{
+  "stateName": "Iowa",
+  "stateAbbr": "IA",
+  "stateSlug": "iowa",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Iowa Business Entities",
+    "url": "https://sos.iowa.gov/search/business/search.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Iowa Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://sos.iowa.gov/business-services",
+    "phone": "515-281-5204",
+    "email": "business.services@sos.iowa.gov"
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 8:00 a.m.-4:30 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business Services",
+      "street": "First Floor, Lucas Building, 321 E. 12th Street",
+      "city": "Des Moines",
+      "state": "IA",
+      "zip": "50319",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "First Floor, Lucas Building, 321 E. 12th Street",
+    "city": "Des Moines",
+    "state": "IA",
+    "zip": "50319",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://filings.sos.iowa.gov",
+    "paperRenewalUrl": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+    "notes": "Iowa LLCs file a biennial report every odd-numbered year from January 1 through April 1; online filing is $30 and paper filing is $45."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 50,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 30,
+    "annualReportDue": "Jan 1 - Apr 1 (Biennial, odd years)",
+    "nameReservation": 10,
+    "nameReservationNotes": "Reservation of Name is $10 for applicable business entities including LLCs."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://sos.iowa.gov/business-services",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://sos.iowa.gov/contact-us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Biennial Report Help Source",
+      "url": "https://help.sos.iowa.gov/how-do-i-file-biennial-report",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

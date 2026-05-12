@@ -1,0 +1,50 @@
+{
+  "stateName": "Oregon",
+  "stateAbbr": "OR",
+  "stateSlug": "oregon",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Oregon Business Entities",
+    "url": "https://secure.sos.state.or.us/oard/search.action"
+  },
+  "secretaryOfState": {
+    "agency": "Oregon Secretary of State Corporation Division",
+    "officialName": null,
+    "website": "https://sos.oregon.gov/business/Pages/default.aspx",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 100,
+    "annualReportDue": "Anniversary date",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://sos.oregon.gov/business/Pages/business-filing-fees.aspx",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

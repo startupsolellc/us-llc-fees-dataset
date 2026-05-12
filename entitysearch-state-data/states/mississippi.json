@@ -1,0 +1,75 @@
+{
+  "stateName": "Mississippi",
+  "stateAbbr": "MS",
+  "stateSlug": "mississippi",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Mississippi Business Entities",
+    "url": "https://corp.sos.ms.gov/corp/portal/c/page/corpBusinessIdSearch/portal.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Mississippi Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://www.sos.ms.gov/business-services",
+    "phone": "601-359-1633",
+    "email": "CustomerService@sos.ms.gov"
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Mississippi Secretary of State Business Services & Regulation",
+      "street": "660 North Street",
+      "city": "Jackson",
+      "state": "MS",
+      "zip": "39201",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 136",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": "39205-0136",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://corp.sos.ms.gov/corp/portal/c/page/corpBusinessIdSearch/portal.aspx",
+    "paperRenewalUrl": null,
+    "notes": "All annual reports must be filed online; profit corporations and LLCs may file on or after January 1 and are due by April 15."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 50,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 0,
+    "annualReportDue": "Jan 1 - Apr 15",
+    "nameReservation": 25,
+    "nameReservationNotes": "Application for Name Reservation for an LLC."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://www.sos.ms.gov/business-services-external-affairs",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Source",
+      "url": "https://www.sos.ms.gov/business-services/annual-reports",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.ms.gov/content/documents/Business/Services%20%26%20Fees%20Document.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

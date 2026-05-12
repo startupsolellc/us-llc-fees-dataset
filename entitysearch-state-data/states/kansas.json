@@ -1,0 +1,90 @@
+{
+  "stateName": "Kansas",
+  "stateAbbr": "KS",
+  "stateSlug": "kansas",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Kansas Business Entities",
+    "url": "https://www.kansas.gov/bess/flow/main?execution=e1s1"
+  },
+  "secretaryOfState": {
+    "agency": "Kansas Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://sos.ks.gov/businesses/businesses.html",
+    "phone": "785-296-4564",
+    "email": "kssos@ks.gov"
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": "Excluding state holidays"
+  },
+  "physicalAddresses": [
+    {
+      "label": "Kansas Secretary of State",
+      "street": "Docking State Office Building, 915 SW Harrison Street",
+      "city": "Topeka",
+      "state": "KS",
+      "zip": "66612",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Docking State Office Building, 915 SW Harrison Street",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66612",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://sos.ks.gov/services/business/business.html",
+    "paperRenewalUrl": null,
+    "notes": "Kansas business entities file information reports every two years; report year depends on the year of organization or registration."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 85,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 100,
+    "annualReportDue": "Apr 15 (Biennial)",
+    "nameReservation": 35,
+    "nameReservationNotes": "Temporary reservation of business entity name is effective for 120 days; filing fee is $35 and reservations may not be renewed."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://sos.ks.gov/about/contact-us.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Services Source",
+      "url": "https://www.sos.ks.gov/businesses/businesses.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.ks.gov/forms/business_services/DL.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Supporting Source",
+      "url": "https://www.sos.ks.gov/forms/business_services/lc.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Information Report Source",
+      "url": "https://sos.ks.gov/services/business/business.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://sos.ks.gov/forms/business_services/NR.pdf",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

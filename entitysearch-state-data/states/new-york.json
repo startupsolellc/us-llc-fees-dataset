@@ -1,0 +1,85 @@
+{
+  "stateName": "New York",
+  "stateAbbr": "NY",
+  "stateSlug": "new-york",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search New York Business Entities",
+    "url": "https://apps.dos.ny.gov/publicInquiry/"
+  },
+  "secretaryOfState": {
+    "agency": "New York Department of State Division of Corporations",
+    "officialName": null,
+    "website": "https://dos.ny.gov/division-corporations-state-records-and-uniform-commercial-code",
+    "phone": "518-473-2492",
+    "email": "corporations@dos.ny.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Division of Corporations counter service Monday-Friday 9:00 a.m.-4:30 p.m.; e-Statement Filing Service Monday-Friday 6:00 a.m.-7:30 p.m., except legal holidays.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Division of Corporations",
+      "street": "One Commerce Plaza, 99 Washington Avenue, 6th Floor",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12231",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Division of Corporations, State Records and Uniform Commercial Code, One Commerce Plaza, 99 Washington Avenue",
+    "city": "Albany",
+    "state": "NY",
+    "zip": "12231",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://filing.dos.ny.gov/eBiennialWeb/",
+    "paperRenewalUrl": null,
+    "notes": "Domestic and foreign LLCs file a $9 Biennial Statement every two years during the calendar month in which the Articles of Organization or Application for Authority was filed."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 200,
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $200.",
+    "annualReport": 9,
+    "annualReportDue": "Anniversary month (Biennial)",
+    "nameReservation": 20,
+    "nameReservationNotes": "LLC Reservation of Name filing fee is $20."
+  },
+  "sources": [
+    {
+      "name": "Forming a Limited Liability Company in New York",
+      "url": "https://dos.ny.gov/forming-limited-liability-company-new-york",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Department of State Fee Schedules",
+      "url": "https://dos.ny.gov/fee-schedules",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Biennial Statements",
+      "url": "https://dos.ny.gov/biennial-statements-business-corporations-and-limited-liability-companies",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Division of Corporations Contact",
+      "url": "https://dos.ny.gov/division-corporations-state-records-and-uniform-commercial-code",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "E-Statement Filing Service",
+      "url": "https://filing.dos.ny.gov/eBiennialWeb/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

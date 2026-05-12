@@ -1,0 +1,96 @@
+{
+  "stateName": "Arkansas",
+  "stateAbbr": "AR",
+  "stateSlug": "arkansas",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Arkansas Business Entities",
+    "url": "https://www.sos.arkansas.gov/corps/search_all.php"
+  },
+  "secretaryOfState": {
+    "agency": "Arkansas Secretary of State Business and Commercial Services",
+    "officialName": null,
+    "website": "https://www.sos.arkansas.gov/business-commercial-services-bcs",
+    "phone": "501-682-3409",
+    "email": "corprequest@sos.arkansas.gov"
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 8:00 a.m.-4:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Business & Commercial Services",
+      "street": "1401 W. Capitol Avenue, Suite 250",
+      "city": "Little Rock",
+      "state": "AR",
+      "zip": "72201",
+      "country": "USA"
+    },
+    {
+      "label": "Executive Office",
+      "street": "500 Woodlane Avenue, Suite 256",
+      "city": "Little Rock",
+      "state": "AR",
+      "zip": "72201",
+      "country": "USA"
+    },
+    {
+      "label": "Northwest Arkansas Office",
+      "street": "300 North College, Suite 201F",
+      "city": "Fayetteville",
+      "state": "AR",
+      "zip": "72701",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "State Capitol, Suite 256, 500 Woodlane Street",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72201",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+    "paperRenewalUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+    "notes": "Arkansas LLCs pay an annual franchise tax; failure to pay can result in penalties, interest, or revocation."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 45,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 150,
+    "annualReportDue": "May 1",
+    "nameReservation": 22.5,
+    "nameReservationNotes": "Application for Reservation of a Limited Liability Company Name is $22.50 online or $25 paper."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.sos.arkansas.gov/about-the-office/contact-us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Business Services FAQ Source",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/frequently-asked-questions-faqs/business-services-faq/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Franchise Tax Source",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

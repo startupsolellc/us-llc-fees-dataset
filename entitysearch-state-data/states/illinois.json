@@ -1,0 +1,93 @@
+{
+  "stateName": "Illinois",
+  "stateAbbr": "IL",
+  "stateSlug": "illinois",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Illinois Business Entities",
+    "url": "https://apps.ilsos.gov/businessentitysearch/"
+  },
+  "secretaryOfState": {
+    "agency": "Illinois Secretary of State Business Services",
+    "officialName": null,
+    "website": "https://www.ilsos.gov/departments/business_services/home.html",
+    "phone": "217-782-6961",
+    "email": null
+  },
+  "hours": {
+    "timezone": "Central Time",
+    "regular": "Monday-Friday 8:00 a.m.-4:30 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Springfield Business Services",
+      "street": "501 S. Second St., Room 350",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62726",
+      "country": "USA"
+    },
+    {
+      "label": "Chicago Business Services",
+      "street": "69 W. Washington St., Suite 1240",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60602",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "501 S. Second St., Room 350",
+    "city": "Springfield",
+    "state": "IL",
+    "zip": "62726",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.ilsos.gov/departments/business-services/annual-reports.html",
+    "paperRenewalUrl": null,
+    "notes": "Illinois LLCs file annual reports; the report is due before the first day of the anniversary month."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 150,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 75,
+    "annualReportDue": "Before first day of anniversary month",
+    "nameReservation": null,
+    "nameReservationNotes": "Illinois provides LLC name reservation through form LLC-1.15; fee should be verified on the current form before use."
+  },
+  "sources": [
+    {
+      "name": "Official Business Services Source",
+      "url": "https://www.ilsos.gov/departments/business_services/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Contact Source",
+      "url": "https://apps.ilsos.gov/ContactFormsWeb/businessservices_contact.jsp",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.ilsos.gov/departments/business_services/organization/llc.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report Source",
+      "url": "https://www.ilsos.gov/departments/business-services/annual-reports.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Source",
+      "url": "https://www.ilsos.gov/departments/business-services/business-searches.html",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

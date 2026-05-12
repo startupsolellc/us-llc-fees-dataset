@@ -1,0 +1,55 @@
+{
+  "stateName": "Texas",
+  "stateAbbr": "TX",
+  "stateSlug": "texas",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Texas Business Entities",
+    "url": "https://mycpa.cpa.state.tx.us/coa/"
+  },
+  "secretaryOfState": {
+    "agency": "Texas Secretary of State Business and Commercial Section",
+    "officialName": null,
+    "website": "https://www.sos.state.tx.us/corp/",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 300,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": null,
+    "annualReportDue": "May 15",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.state.tx.us/corp/forms_boc.shtml",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Annual Report or Tax Source",
+      "url": "https://comptroller.texas.gov/taxes/franchise/",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

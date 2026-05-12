@@ -1,0 +1,80 @@
+{
+  "stateName": "Colorado",
+  "stateAbbr": "CO",
+  "stateSlug": "colorado",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Colorado Business Entities",
+    "url": "https://www.coloradosos.gov/ucc/pages/biz/bizSearch.xhtml"
+  },
+  "secretaryOfState": {
+    "agency": "Colorado Secretary of State Business Division",
+    "officialName": null,
+    "website": "https://www.coloradosos.gov/pubs/business/businessHome.html",
+    "phone": "303-894-2200",
+    "email": "business@coloradosos.gov"
+  },
+  "hours": {
+    "timezone": "Mountain Time",
+    "regular": "Monday-Friday 8:00 a.m.-5:00 p.m.",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "Colorado Department of State",
+      "street": "1700 Broadway, Suite 550",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80290",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "1700 Broadway, Suite 550",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80290",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://www.coloradosos.gov/ucc/pages/biz/bizSearch.xhtml",
+    "paperRenewalUrl": null,
+    "notes": "Colorado entities file periodic reports online; the periodic report is due during the applicable anniversary month window."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 50,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 25,
+    "annualReportDue": "Anniversary month window",
+    "nameReservation": 25,
+    "nameReservationNotes": "Name reservation is available for 120 days; reservation, renewal, and transfer are each $25 online."
+  },
+  "sources": [
+    {
+      "name": "Official Contact Source",
+      "url": "https://www.coloradosos.gov/pubs/info_center/contact.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Name Reservation Help Source",
+      "url": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Periodic Report Help Source",
+      "url": "https://www.coloradosos.gov/pubs/business/helpFiles/REPORT_HELP.html",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

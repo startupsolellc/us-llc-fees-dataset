@@ -1,0 +1,50 @@
+{
+  "stateName": "Wisconsin",
+  "stateAbbr": "WI",
+  "stateSlug": "wisconsin",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Wisconsin Business Entities",
+    "url": "https://apps.dfi.wi.gov/apps/CorpSearch/Search.aspx"
+  },
+  "secretaryOfState": {
+    "agency": "Wisconsin Department of Financial Institutions",
+    "officialName": null,
+    "website": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 130,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 25,
+    "annualReportDue": "Anniversary quarter",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/FeeSchedule.aspx",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}

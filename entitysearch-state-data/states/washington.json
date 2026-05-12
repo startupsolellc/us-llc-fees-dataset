@@ -1,0 +1,55 @@
+{
+  "stateName": "Washington",
+  "stateAbbr": "WA",
+  "stateSlug": "washington",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search Washington Business Entities",
+    "url": "https://ccfs.sos.wa.gov/#/BusinessSearch"
+  },
+  "secretaryOfState": {
+    "agency": "Washington Secretary of State Corporations and Charities Division",
+    "officialName": null,
+    "website": "https://www.sos.wa.gov/corporations-charities",
+    "phone": null,
+    "email": null
+  },
+  "hours": {
+    "timezone": null,
+    "regular": null,
+    "holidayHours": null
+  },
+  "physicalAddresses": [],
+  "mailingAddress": null,
+  "renewals": {
+    "onlineRenewalUrl": null,
+    "paperRenewalUrl": null,
+    "notes": null
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 200,
+    "llcFeeNotes": "Domestic LLC filing fee",
+    "annualReport": 60,
+    "annualReportDue": "Last day of anniversary month",
+    "nameReservation": null,
+    "nameReservationNotes": null
+  },
+  "sources": [
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/online-filing-instructions/start-domestic-wa-limited-liability-company-llc-online",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Official Supporting Source",
+      "url": "https://www.sos.wa.gov/corporations-charities/frequently-asked-questions-faqs/fee-scheduleexpedited-service",
+      "lastAccessed": "2026-05-12"
+    }
+  ],
+  "lastVerified": "2026-05-12"
+}
