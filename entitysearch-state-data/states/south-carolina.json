@@ -8,23 +8,38 @@
     "url": "https://businessfilings.sc.gov/BusinessFiling/Entity/Search"
   },
   "secretaryOfState": {
-    "agency": "South Carolina Secretary of State Business Entities",
+    "agency": "South Carolina Secretary of State - Business Filings Division",
     "officialName": null,
-    "website": "https://sos.sc.gov/business-entities",
-    "phone": null,
+    "website": "https://sos.sc.gov/online-filings/business-entities",
+    "phone": "803-734-2158",
     "email": null
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 8:30 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "SC Secretary of State's Office",
+      "street": "1205 Pendleton Street, Suite 525",
+      "city": "Columbia",
+      "state": "SC",
+      "zip": "29201",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "1205 Pendleton Street, Suite 525",
+    "city": "Columbia",
+    "state": "SC",
+    "zip": "29201",
+    "country": "USA"
+  },
   "renewals": {
     "onlineRenewalUrl": null,
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "South Carolina LLCs do not file an annual report with the Secretary of State. Business corporations file annual reports with the Department of Revenue, but LLCs are not listed as a Secretary of State annual report filing."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,15 +48,35 @@
   },
   "filingFacts": {
     "llcFee": 110,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Articles of Organization for a domestic limited liability company.",
     "annualReport": null,
     "annualReportDue": "N/A",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 25,
+    "nameReservationNotes": "Application to Reserve a Limited Liability Company Name reserves the name for a non-renewable 120-day period."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "South Carolina business entities",
+      "url": "https://sos.sc.gov/online-filings/business-entities",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "South Carolina business entity FAQs",
+      "url": "https://sos.sc.gov/faqs-about-business-entities",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "South Carolina business filings office directory",
+      "url": "https://sos.sc.gov/office-directory",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "South Carolina LLC name reservation form",
+      "url": "https://businessfilings.sc.gov/BusinessFiling/Entity/DownloadForm?entityType=12&filingType=Application+to+Reserve+a+Limited+Liability+Company+Name&formName=F0038",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "South Carolina filing fees",
       "url": "https://sos.sc.gov/business-entities/filing-fees",
       "lastAccessed": "2026-05-12"
     }

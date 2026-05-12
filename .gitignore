@@ -3,6 +3,11 @@ AGENTS.md
 CLAUDE.md
 GEMINI.md
 
+# Local OS / Python artifacts
+.DS_Store
+__pycache__/
+*.pyc
+
 # Local scraping workspace
 scripts/scrapling-repo/
 scripts/.venv/

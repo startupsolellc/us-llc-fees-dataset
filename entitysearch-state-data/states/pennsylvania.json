@@ -8,23 +8,38 @@
     "url": "https://file.dos.pa.gov/search/business"
   },
   "secretaryOfState": {
-    "agency": "Pennsylvania Department of State Bureau of Corporations and Charitable Organizations",
+    "agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
     "officialName": null,
     "website": "https://www.pa.gov/agencies/dos/programs/business",
-    "phone": null,
-    "email": null
+    "phone": "717-787-1057",
+    "email": "ra-corps@pa.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.; business telephone lines available 8:00 a.m.-4:45 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Bureau of Corporations and Charitable Organizations",
+      "street": "401 North Street, Room 206",
+      "city": "Harrisburg",
+      "state": "PA",
+      "zip": "17120",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 8722",
+    "city": "Harrisburg",
+    "state": "PA",
+    "zip": "17105-8722",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://file.dos.pa.gov/",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Beginning January 1, 2025, most domestic and foreign filing associations, including LLCs, must file an annual report. LLC annual reports are filed January 1 through September 30 and online filing is strongly recommended."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,31 @@
   },
   "filingFacts": {
     "llcFee": 125,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Certificate of Organization for a domestic limited liability company.",
     "annualReport": 7,
     "annualReportDue": "Sept 30",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 70,
+    "nameReservationNotes": "Name Reservation/Registration is listed as $70 in the Department of State fee schedule."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Pennsylvania business fees and payments",
       "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments.html",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Pennsylvania annual reports",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Pennsylvania business program contact",
+      "url": "https://www.pa.gov/agencies/dos/programs/business",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Pennsylvania Department of State contact",
+      "url": "https://www.pa.gov/agencies/dos/contact-us",
       "lastAccessed": "2026-05-12"
     }
   ],

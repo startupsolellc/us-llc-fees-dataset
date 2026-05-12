@@ -8,23 +8,38 @@
     "url": "https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx"
   },
   "secretaryOfState": {
-    "agency": "South Dakota Secretary of State Business Services",
+    "agency": "South Dakota Secretary of State - Business Filings Division",
     "officialName": null,
     "website": "https://sdsos.gov/business-services/",
-    "phone": null,
+    "phone": "605-773-4845",
     "email": null
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Central Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business Services",
+      "street": "215 E. Prospect Ave.",
+      "city": "Pierre",
+      "state": "SD",
+      "zip": "57501",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "Capitol Building, 500 East Capitol Avenue",
+    "city": "Pierre",
+    "state": "SD",
+    "zip": "57501-5070",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://sosenterprise.sd.gov/BusinessServices/Business/AnnualReport.aspx",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Annual reports are due every year on the 1st day of the anniversary month of when the business was filed. Online LLC annual reports are $55; paper filings are $70 because they include the $15 paper filing fee."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,26 @@
   },
   "filingFacts": {
     "llcFee": 150,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization filed electronically online; paper filing is $165 including the $15 paper filing fee.",
     "annualReport": 55,
-    "annualReportDue": "Last day of anniversary month",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "annualReportDue": "1st day of anniversary month",
+    "nameReservation": 25,
+    "nameReservationNotes": "Reservation of Name for LLCs is listed as $25."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "South Dakota filing fees",
       "url": "https://sdsos.gov/general-information/filing-fees.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "South Dakota business filings contact and annual reports",
+      "url": "https://sdsos.gov/business-services/corporations/contact.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "South Dakota Secretary of State contact",
+      "url": "https://sdsos.gov/contact-us/default.aspx",
       "lastAccessed": "2026-05-12"
     }
   ],

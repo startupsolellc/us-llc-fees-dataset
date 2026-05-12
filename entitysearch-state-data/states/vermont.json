@@ -8,23 +8,38 @@
     "url": "https://bizfilings.vermont.gov/online/BusinessInquire"
   },
   "secretaryOfState": {
-    "agency": "Vermont Secretary of State Corporations Division",
+    "agency": "Vermont Secretary of State Business Services Division",
     "officialName": null,
     "website": "https://sos.vermont.gov/corporations/",
-    "phone": null,
-    "email": null
+    "phone": "802-828-2386",
+    "email": "SOS.CorporationsSupport@vermont.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 7:45 a.m.-4:30 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business Services Division",
+      "street": "128 State Street",
+      "city": "Montpelier",
+      "state": "VT",
+      "zip": "05633",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "128 State Street",
+    "city": "Montpelier",
+    "state": "VT",
+    "zip": "05633",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://bizfilings.vermont.gov/online/BusinessInquire",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Domestic Vermont LLCs file an annual report with the Secretary of State within three months after the end of the company's fiscal year. The domestic LLC annual report fee is $45."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,36 @@
   },
   "filingFacts": {
     "llcFee": 155,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Articles of organization for a Vermont limited liability company under 11 V.S.A. § 4012.",
     "annualReport": 45,
-    "annualReportDue": "Anniversary month window",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "annualReportDue": "Within 3 months after fiscal year end",
+    "nameReservation": 25,
+    "nameReservationNotes": "Application for reserved name is $25 under 11 V.S.A. § 4012."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Vermont Secretary of State",
+      "url": "https://sos.vermont.gov/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Vermont business notices and annual report contact",
+      "url": "https://sos.vermont.gov/corporations/fees/notices/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Vermont corporations fees",
       "url": "https://sos.vermont.gov/corporations/fees/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Vermont LLC fee statute",
+      "url": "https://legislature.vermont.gov/statutes/section/11/025/04012",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Vermont LLC annual report statute",
+      "url": "https://legislature.vermont.gov/statutes/section/11/025/04033",
       "lastAccessed": "2026-05-12"
     }
   ],

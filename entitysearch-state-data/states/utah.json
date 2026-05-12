@@ -11,20 +11,35 @@
     "agency": "Utah Division of Corporations and Commercial Code",
     "officialName": null,
     "website": "https://corporations.utah.gov",
-    "phone": null,
-    "email": null
+    "phone": "801-530-4849",
+    "email": "corpucc@utah.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Mountain Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Utah Division of Corporations and Commercial Code",
+      "street": "160 East 300 South",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "zip": "84111",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 146705",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84114-6705",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://businessregistration.utah.gov/",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Utah calls the annual report an annual report/renewal. Registered business entities file through the Business Registration System; the LLC renewal/annual report fee is $18 under the FY2026 fee schedule."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,15 +48,35 @@
   },
   "filingFacts": {
     "llcFee": 59,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic limited liability company (LLC) certificate of organization under the FY2026 fee schedule.",
     "annualReport": 18,
     "annualReportDue": "Anniversary date",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 22,
+    "nameReservationNotes": "Name reservation is listed as $22 in the FY2026 fee schedule and reserves a business name for 120 days."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Utah Division of Corporations searches",
+      "url": "https://corporations.utah.gov/searches/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Utah annual report/renewal guide",
+      "url": "https://corporations.utah.gov/renewal-process/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Utah annual report/renewal form",
+      "url": "https://corporations.utah.gov/wp-content/uploads/2021/10/renewal.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Utah business name information",
+      "url": "https://corporations.utah.gov/business-entities/business-name-information/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Utah FY2026 fee schedule",
       "url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
       "lastAccessed": "2026-05-12"
     }
