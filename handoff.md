@@ -20,20 +20,19 @@ All 50 state JSON files exist.
 
 Enrichment is complete through:
 
-- `AL` through `WV`, including the last completed batch `VA / WA / WV`.
+- `AL` through `WY`, including the last completed batch `WI / WY`.
 
 The most recent completed audit:
 
-- `entitysearch-state-data/audits/url-audit-batch-va-wa-wv-2026-05-12.json`
+- `entitysearch-state-data/audits/url-audit-batch-wi-wy-2026-05-12.json`
 
 Remaining states, in order:
 
-1. `WI` Wisconsin
-2. `WY` Wyoming
+- None. All 50 detailed state files have been enriched through Wyoming.
 
 Next batch to run:
 
-- `WI / WY`
+- None. Next logical step is a full-dataset review/audit pass.
 
 ## Files To Edit Per Batch
 
@@ -166,6 +165,7 @@ Some official portals return `403`, bot pages, connection resets, or timeouts to
 - Vermont Legislature statute pages: timeout in automated audit, but accessible in browser/web lookup
 - Virginia SCC/CIS official pages: automated curl closed connections, but pages were verified through browser/web lookup
 - West Virginia business entity search endpoint: timeout in automated audit; SOS source pages returned `200`
+- Wisconsin DFI/apps pages: automated curl closed connections, but pages were verified through browser/web lookup
 
 When this happens:
 
@@ -174,6 +174,13 @@ When this happens:
 - Mention the audit caveat in the final user summary.
 
 ## Recent Completed Batch Notes
+
+`WI / WY` changes:
+
+- `wisconsin.json`: DFI Corporations phone/email/address/hours, annual report online URL, annual report quarter due-date note, LLC online formation `$130` with paper `$170` note, annual report `$25` online with `$40` paper note, name reservation `$15`, official DFI fee/FAQ/form sources.
+- `wyoming.json`: Business Division phone/email/address/hours, WyoBiz annual report online/print URL, LLC formation `$100`, annual report/license tax minimum `$60` with asset-tax note, name reservation `$60`, official SOS fee/contact/annual report/form sources.
+- `states.json`: WI `official_link` and `source_url` updated from stale `Corporations/FeeSchedule.aspx` path to the current DFI Business Entity Fees page. No root fee amount changes.
+- Audit caveats: WI DFI/apps URLs closed automated curl connections while official pages were verified through browser/web lookup. WY official SOS/WyoBiz URLs returned `200`.
 
 `VA / WA / WV` changes:
 

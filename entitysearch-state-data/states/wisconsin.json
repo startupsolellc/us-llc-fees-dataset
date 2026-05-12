@@ -11,20 +11,35 @@
     "agency": "Wisconsin Department of Financial Institutions",
     "officialName": null,
     "website": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/",
-    "phone": null,
-    "email": null
+    "phone": "608-261-7577",
+    "email": "DFICorporations@dfi.wisconsin.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Central Time",
+    "regular": "Monday-Friday, 7:45 a.m.-4:30 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Division of Corporate and Consumer Services",
+      "street": "4822 Madison Yards Way, North Tower",
+      "city": "Madison",
+      "state": "WI",
+      "zip": "53705",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "PO Box 93348",
+    "city": "Milwaukee",
+    "state": "WI",
+    "zip": "53293-0348",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://apps.dfi.wi.gov/apps/corpar/",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Wisconsin LLC annual reports are due in the calendar-year quarter in which the anniversary date of registration occurs. The current fee schedule lists LLC annual reports at $40 by paper filing and $25 via online filing."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,36 @@
   },
   "filingFacts": {
     "llcFee": 130,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization via online filing. Paper filing is $170.",
     "annualReport": 25,
     "annualReportDue": "Anniversary quarter",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 15,
+    "nameReservationNotes": "Name reservation for a limited liability company is $15 for 120 days."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://dfi.wi.gov/Pages/BusinessServices/Corporations/FeeSchedule.aspx",
+      "name": "Wisconsin business entity fees",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wisconsin business entity general information",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/GeneralInformation.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wisconsin business entity file online",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FileOnline.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wisconsin annual report FAQs",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Wisconsin name reservation application",
+      "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP1.pdf",
       "lastAccessed": "2026-05-12"
     }
   ],
