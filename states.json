@@ -370,9 +370,9 @@
       "annual_report_fee": 100,
       "annual_report_due_date": "Anniversary date",
       "state_income_tax_rate": null,
-      "official_link": "https://sos.oregon.gov/business/Pages/business-filing-fees.aspx",
+      "official_link": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf",
       "last_verified": "2026-05-12",
-      "source_url": "https://sos.oregon.gov/business/Pages/business-filing-fees.aspx"
+      "source_url": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf"
     },
     "PA": {
       "name": "Pennsylvania",
@@ -390,9 +390,9 @@
       "annual_report_fee": 52.5,
       "annual_report_due_date": "Feb 1 - May 1",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.ri.gov/divisions/business-services/business-basics/costs-and-fees",
+      "official_link": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf",
       "last_verified": "2026-05-12",
-      "source_url": "https://www.sos.ri.gov/divisions/business-services/business-basics/costs-and-fees"
+      "source_url": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf"
     },
     "SC": {
       "name": "South Carolina",
@@ -408,7 +408,7 @@
       "name": "South Dakota",
       "formation_fee": 150,
       "annual_report_fee": 55,
-      "annual_report_due_date": "Last day of anniversary month",
+      "annual_report_due_date": "1st day of anniversary month",
       "state_income_tax_rate": null,
       "official_link": "https://sdsos.gov/general-information/filing-fees.aspx",
       "last_verified": "2026-05-12",
@@ -430,7 +430,7 @@
       "annual_report_fee": 0,
       "annual_report_due_date": "May 15",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.state.tx.us/corp/forms_boc.shtml",
+      "official_link": "https://www.sos.state.tx.us/corp/instructions/205.shtml",
       "last_verified": "2026-05-12",
       "source_url": "https://comptroller.texas.gov/taxes/franchise/"
     },
@@ -448,11 +448,11 @@
       "name": "Vermont",
       "formation_fee": 155,
       "annual_report_fee": 45,
-      "annual_report_due_date": "Anniversary month window",
+      "annual_report_due_date": "Within 3 months after fiscal year end",
       "state_income_tax_rate": null,
       "official_link": "https://sos.vermont.gov/corporations/fees/",
       "last_verified": "2026-05-12",
-      "source_url": "https://sos.vermont.gov/corporations/fees/"
+      "source_url": "https://legislature.vermont.gov/statutes/section/11/025/04012"
     },
     "VA": {
       "name": "Virginia",

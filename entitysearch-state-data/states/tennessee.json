@@ -8,23 +8,38 @@
     "url": "https://tnbear.tn.gov/Ecommerce/FilingSearch.aspx"
   },
   "secretaryOfState": {
-    "agency": "Tennessee Secretary of State Business Services",
+    "agency": "Tennessee Secretary of State - Business Services Division",
     "officialName": null,
     "website": "https://sos.tn.gov/businesses",
-    "phone": null,
+    "phone": "615-741-2286",
     "email": null
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Central Time",
+    "regular": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business Services Customer Counter",
+      "street": "312 Rosa L. Parks Avenue, 3rd Floor",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37243-1102",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "312 Rosa L. Parks Avenue, 6th Floor",
+    "city": "Nashville",
+    "state": "TN",
+    "zip": "37243-1102",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://tnbear.tn.gov/Ecommerce/AnnualReportID.aspx",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Tennessee LLC annual report fees are $300 minimum up to $3,000; the fee increases by $50 per member for every member over 6 members. Annual reports are due by the first day of the fourth month following the fiscal year close, commonly April 1 for calendar-year LLCs."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,31 @@
   },
   "filingFacts": {
     "llcFee": 300,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Articles of Organization Limited Liability Company fee is $300 minimum; Tennessee notes LLC fees may vary by member count up to a maximum.",
     "annualReport": 300,
     "annualReportDue": "April 1",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 20,
+    "nameReservationNotes": "Application for Name Reservation is listed as $20."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://sos.tn.gov/businesses/forms-and-fees",
+      "name": "Tennessee business forms and fees",
+      "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Tennessee businesses services",
+      "url": "https://sos.tn.gov/businesses",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Tennessee Business Services contact",
+      "url": "https://sos.tn.gov/businesses/pages/contact-us",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Tennessee business annual report FAQ",
+      "url": "https://sos.tn.gov/businesses/faqs",
       "lastAccessed": "2026-05-12"
     }
   ],

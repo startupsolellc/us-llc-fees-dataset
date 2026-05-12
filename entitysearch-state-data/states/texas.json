@@ -8,23 +8,38 @@
     "url": "https://mycpa.cpa.state.tx.us/coa/"
   },
   "secretaryOfState": {
-    "agency": "Texas Secretary of State Business and Commercial Section",
+    "agency": "Texas Secretary of State - Business & Public Filings Division",
     "officialName": null,
     "website": "https://www.sos.state.tx.us/corp/",
-    "phone": null,
+    "phone": "512-463-5555",
     "email": null
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Central Time",
+    "regular": "Monday-Friday, 8:00 a.m.-5:00 p.m.; lobby hours 8:30 a.m.-5:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business & Public Filings Division Delivery Address",
+      "street": "1019 Brazos St.",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "P.O. Box 13697",
+    "city": "Austin",
+    "state": "TX",
+    "zip": "78711",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
-    "paperRenewalUrl": null,
-    "notes": null
+    "onlineRenewalUrl": "https://comptroller.texas.gov/taxes/file-pay/",
+    "paperRenewalUrl": "https://comptroller.texas.gov/taxes/franchise/forms/",
+    "notes": "Texas LLCs file annual franchise tax and public information report filings with the Comptroller, not an annual report with the Secretary of State. The annual franchise tax report is due May 15; taxable entities at or below the no-tax-due threshold still file the required information report."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,21 +48,41 @@
   },
   "filingFacts": {
     "llcFee": 300,
-    "llcFeeNotes": "Domestic LLC filing fee",
-    "annualReport": null,
+    "llcFeeNotes": "Certificate of Formation for a Texas LLC. Texas SOS Form 205 instructions list a $300 filing fee.",
+    "annualReport": 0,
     "annualReportDue": "May 15",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 40,
+    "nameReservationNotes": "Application for reservation or renewal of reservation of an entity name is $40 and reserves the name for 120 days."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://www.sos.state.tx.us/corp/forms_boc.shtml",
+      "name": "Texas SOS business services",
+      "url": "https://www.sos.state.tx.us/corp/",
       "lastAccessed": "2026-05-12"
     },
     {
-      "name": "Official Annual Report or Tax Source",
+      "name": "Texas Business & Public Filings contact",
+      "url": "https://www.sos.state.tx.us/corp/contact.shtml",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Texas LLC certificate of formation instructions",
+      "url": "https://www.sos.state.tx.us/corp/instructions/205.shtml",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Texas entity name reservation instructions",
+      "url": "https://www.sos.state.tx.us/corp/instructions/501.shtml",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Texas Comptroller franchise tax",
       "url": "https://comptroller.texas.gov/taxes/franchise/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Texas Comptroller file and pay",
+      "url": "https://comptroller.texas.gov/taxes/file-pay/",
       "lastAccessed": "2026-05-12"
     }
   ],

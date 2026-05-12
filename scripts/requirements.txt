@@ -1,0 +1,1 @@
+-e ./scripts/scrapling-repo[fetchers]

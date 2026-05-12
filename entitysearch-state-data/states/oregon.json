@@ -8,23 +8,38 @@
     "url": "https://secure.sos.state.or.us/oard/search.action"
   },
   "secretaryOfState": {
-    "agency": "Oregon Secretary of State Corporation Division",
+    "agency": "Oregon Secretary of State - Corporation Division",
     "officialName": null,
     "website": "https://sos.oregon.gov/business/Pages/default.aspx",
-    "phone": null,
-    "email": null
+    "phone": "503-986-2200",
+    "email": "corporationdivision.sos@sos.oregon.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Pacific Time",
+    "regular": "Office open Monday-Friday, 8:00 a.m.-5:00 p.m.; contact center Monday-Thursday, 8:00 a.m.-4:30 p.m. and Friday, 8:00 a.m.-12:00 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Corporation Division",
+      "street": "255 Capitol St. NE, Suite 151",
+      "city": "Salem",
+      "state": "OR",
+      "zip": "97310",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "255 Capitol St. NE, Suite 151",
+    "city": "Salem",
+    "state": "OR",
+    "zip": "97310-1327",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
+    "onlineRenewalUrl": "https://secure.sos.state.or.us/cbrmanager/index.action",
     "paperRenewalUrl": null,
-    "notes": null
+    "notes": "Oregon LLCs file annual reports through the Oregon Business Registry. All business entity types other than assumed business names renew annually on the anniversary date of the original filing."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,31 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Articles of Organization for an Oregon domestic limited liability company.",
     "annualReport": 100,
     "annualReportDue": "Anniversary date",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 100,
+    "nameReservationNotes": "Application for Name Reservation reserves a name for 120 days; assumed business names cannot be reserved."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://sos.oregon.gov/business/Pages/business-filing-fees.aspx",
+      "name": "Oregon Business Registry fee schedule",
+      "url": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Oregon business registration FAQ",
+      "url": "https://sos.oregon.gov/business/Pages/registering-your-business-name.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Oregon Corporation Division contact",
+      "url": "https://sos.oregon.gov/business/Pages/corporation-division-help.aspx",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Oregon application for name reservation",
+      "url": "https://sos.oregon.gov/business/Documents/business-registry-forms/name-reservation.pdf",
       "lastAccessed": "2026-05-12"
     }
   ],

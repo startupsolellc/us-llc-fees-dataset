@@ -1,0 +1,48 @@
+<h1>Data Verification Methodology</h1>
+
+<p>At <a href="https://formation.legal" target="_blank" rel="noopener">Formation.Legal</a>, we believe that global founders and developers deserve access to accurate, transparent, and unbiased data when navigating the complexities of US business formation.</p>
+
+<p>This page outlines the strict methodology we use to compile, verify, and maintain the <strong>US LLC Fees Dataset</strong>.</p>
+
+<h2>1. The Problem with "Secondary Sources"</h2>
+<p>Finding accurate state fees online is notoriously difficult. If you search for "LLC fees by state", the first page of search results is typically dominated by:</p>
+<ul>
+    <li><strong>Registered Agent Services:</strong> These companies often bundle state fees with their own service fees, making it impossible to determine the true, underlying state cost.</li>
+    <li><strong>Outdated Blogs:</strong> State legislatures update their fee schedules frequently. A blog post written in 2023 is highly likely to contain inaccurate information for 2026.</li>
+    <li><strong>"Free LLC" Traps:</strong> Many services advertise "$0 LLC Formation", obscuring the fact that states still require mandatory filing fees, franchise taxes, and annual reports.</li>
+</ul>
+
+<p><strong>Our Rule:</strong> We never rely on blogs, third-party legal services (e.g., LegalZoom, ZenBusiness, TRUiC), or SEO articles to verify our data.</p>
+
+<h2>2. Primary Sources Only (.gov)</h2>
+<p>To guarantee 100% data integrity, every single data point in our <code>states.json</code> file is sourced <strong>exclusively from official state government websites</strong>.</p>
+
+<p>When compiling data for a specific state, we rely on:</p>
+<ol>
+    <li><strong>Secretary of State (SOS) Portals:</strong> The primary governing body for business registrations in most states.</li>
+    <li><strong>Division of Corporations / Department of Revenue:</strong> For states that separate taxation and registration (e.g., New Jersey, Rhode Island).</li>
+    <li><strong>State Statutes & Legislative Updates:</strong> To track upcoming fee waivers or changes (e.g., Pennsylvania's shift to annual reporting in 2025).</li>
+</ol>
+
+<h2>3. The Definition of "Formation Fee"</h2>
+<p>The <code>formation_fee</code> in our dataset represents the <strong>base, state-mandated filing fee</strong> for standard Domestic Articles of Organization.</p>
+<ul>
+    <li><strong>What is included:</strong> The exact cost to submit the paperwork to the state. Where states charge different fees for paper vs. online filing, we record the <strong>online filing fee</strong>, as it represents the modern standard.</li>
+    <li><strong>What is NOT included:</strong> Optional expedited processing fees, third-party registered agent fees, name reservation fees, or county-level newspaper publication fees (which vary wildly in states like New York and Nebraska).</li>
+</ul>
+
+<h2>4. The Definition of "Annual Report Fee"</h2>
+<p>The <code>annual_report_fee</code> represents the minimum recurring cost required to keep the LLC in "Good Standing" with the state.</p>
+<ul>
+    <li>Depending on the state, this may be legally referred to as an <em>Annual Report, Biennial Statement, Franchise Tax Minimum, or License Tax</em>.</li>
+    <li>If a state has a minimum mandatory tax (like Rhode Island's $400 minimum or California's $800 franchise tax), this is factored into the recurring compliance cost for accuracy.</li>
+</ul>
+
+<h2>5. Traceability and Versioning</h2>
+<p>We believe in "trust, but verify." In our <code>states.json</code> dataset, every state object includes two critical fields:</p>
+<ul>
+    <li><code>source_url</code>: The exact <code>.gov</code> link where the fee was verified.</li>
+    <li><code>last_verified</code>: The YYYY-MM-DD timestamp of when our team last checked the data against the official source.</li>
+</ul>
+
+<p>By strictly adhering to this methodology, the US LLC Fees Dataset serves as a reliable, single source of truth for developers building calculators, researchers analyzing state economies, and entrepreneurs utilizing tools like our <a href="https://formation.legal/tools/cost-calculator" target="_blank" rel="noopener">3-Year LLC Cost Calculator</a>.</p>

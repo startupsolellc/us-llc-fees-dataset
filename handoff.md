@@ -20,32 +20,23 @@ All 50 state JSON files exist.
 
 Enrichment is complete through:
 
-- `AL` through `OK`, including the last completed batch `ND / OH / OK`.
+- `AL` through `VT`, including the last completed batch `TX / UT / VT`.
 
 The most recent completed audit:
 
-- `entitysearch-state-data/audits/url-audit-batch-nd-oh-ok-2026-05-12.json`
+- `entitysearch-state-data/audits/url-audit-batch-tx-ut-vt-2026-05-12.json`
 
 Remaining states, in order:
 
-1. `OR` Oregon
-2. `PA` Pennsylvania
-3. `RI` Rhode Island
-4. `SC` South Carolina
-5. `SD` South Dakota
-6. `TN` Tennessee
-7. `TX` Texas
-8. `UT` Utah
-9. `VT` Vermont
-10. `VA` Virginia
-11. `WA` Washington
-12. `WV` West Virginia
-13. `WI` Wisconsin
-14. `WY` Wyoming
+1. `VA` Virginia
+2. `WA` Washington
+3. `WV` West Virginia
+4. `WI` Wisconsin
+5. `WY` Wyoming
 
 Next batch to run:
 
-- `OR / PA / RI`
+- `VA / WA / WV`
 
 ## Files To Edit Per Batch
 
@@ -173,6 +164,9 @@ Some official portals return `403`, bot pages, connection resets, or timeouts to
 - NM enterprise/BFS portal: `403` / connection reset
 - NM Legislature PDF: timeout in audit
 - NC business search endpoint: `403`
+- TX SOS business services homepage: `403`
+- Vermont SOS pages and business filing portal: `403`
+- Vermont Legislature statute pages: timeout in automated audit, but accessible in browser/web lookup
 
 When this happens:
 
@@ -181,6 +175,30 @@ When this happens:
 - Mention the audit caveat in the final user summary.
 
 ## Recent Completed Batch Notes
+
+`TX / UT / VT` changes:
+
+- `texas.json`: Business & Public Filings contact/address/hours, Comptroller franchise tax renewal/file-and-pay URLs, LLC formation fee `$300`, annual report/tax due date `May 15`, name reservation `$40`, official SOS and Comptroller sources.
+- `utah.json`: Division phone/email/address/hours, annual report/renewal URL, LLC formation fee `$59`, annual report/renewal `$18`, due date `Anniversary date`, name reservation `$22`, FY2026 fee schedule and renewal/search sources.
+- `vermont.json`: Business Services phone/email/address/hours, annual report note, LLC formation fee `$155`, annual report `$45`, due date corrected to `Within 3 months after fiscal year end`, name reservation `$25`, SOS and Vermont Legislature statute sources.
+- `states.json`: TX `official_link` updated to direct Form 205 instructions; VT annual report due date and `source_url` updated to the Vermont LLC fee statute. No root fee amount changes.
+- Audit caveats: TX SOS homepage returned `403`, while direct TX SOS instruction/contact pages and Comptroller pages returned `200`. Vermont SOS and filing portal URLs returned `403`; Vermont Legislature statute URLs timed out in automated audit but were verified through browser/web lookup.
+
+`SC / SD / TN` changes:
+
+- `south-carolina.json`: Business Filings phone/address/hours, no Secretary of State annual report note for LLCs, name reservation `$25`, supporting official SOS/businessfilings sources.
+- `south-dakota.json`: phone/address/hours, annual report online URL, online annual report `$55`, name reservation `$25`, due date corrected to `1st day of anniversary month`.
+- `tennessee.json`: phone/address/hours, annual report online URL, LLC annual report fee note clarifying `$300` minimum to `$3,000` maximum, name reservation `$20`.
+- `states.json`: SD annual report due date corrected from `Last day of anniversary month` to `1st day of anniversary month`. No root fee amount changes.
+- Audit caveats: SC `sos.sc.gov` returned `403`; SC `businessfilings.sc.gov` and TN BEAR search timed out in automated audit. SD sources and TN main source pages returned `200`.
+
+`OR / PA / RI` changes:
+
+- `oregon.json`: phone/email, address, hours, Oregon Business Registry renewal URL, LLC annual renewal note, name reservation `$100`, direct fee schedule/name reservation sources.
+- `pennsylvania.json`: phone/email, address, hours, Business Filing Services annual report URL, 2025 annual report requirement note, name reservation `$70`, annual reports source.
+- `rhode-island.json`: phone/email, address, hours, online/paper annual report links, fee notes clarifying base fee plus enhanced access fee, name reservation `$52.50`, direct fee schedule and form sources.
+- `states.json`: OR and RI `official_link` / `source_url` updated to direct official fee schedule PDFs. No root fee amount changes.
+- Audit caveats: Oregon official `sos.oregon.gov` URLs timed out in the automated audit; PA Business Filing Services search returned `403`. PA source pages and RI sources returned `200`.
 
 `ND / OH / OK` changes:
 

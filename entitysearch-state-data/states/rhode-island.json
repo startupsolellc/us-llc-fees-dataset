@@ -8,23 +8,38 @@
     "url": "https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx"
   },
   "secretaryOfState": {
-    "agency": "Rhode Island Department of State Business Services",
+    "agency": "Rhode Island Department of State - Business Services Division",
     "officialName": null,
     "website": "https://sos.ri.gov/divisions/business-services",
-    "phone": null,
-    "email": null
+    "phone": "401-222-3040",
+    "email": "corporations@sos.ri.gov"
   },
   "hours": {
-    "timezone": null,
-    "regular": null,
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 8:30 a.m.-4:30 p.m.",
     "holidayHours": null
   },
-  "physicalAddresses": [],
-  "mailingAddress": null,
+  "physicalAddresses": [
+    {
+      "label": "Business Services Division",
+      "street": "148 W. River Street",
+      "city": "Providence",
+      "state": "RI",
+      "zip": "02904",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "148 W. River Street",
+    "city": "Providence",
+    "state": "RI",
+    "zip": "02904-2615",
+    "country": "USA"
+  },
   "renewals": {
-    "onlineRenewalUrl": null,
-    "paperRenewalUrl": null,
-    "notes": null
+    "onlineRenewalUrl": "https://business.sos.ri.gov/",
+    "paperRenewalUrl": "https://docs.sos.ri.gov/documents/BusinessServices/632-limited-liability-company-annual-report.pdf",
+    "notes": "LLCs file an annual report each calendar year after registration between February 1 and May 1. The base annual report fee is $50; online filings include a $2.50 enhanced access fee."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -33,16 +48,41 @@
   },
   "filingFacts": {
     "llcFee": 156,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization are $150 plus a $6 enhanced access fee when filed online.",
     "annualReport": 52.5,
     "annualReportDue": "Feb 1 - May 1",
-    "nameReservation": null,
-    "nameReservationNotes": null
+    "nameReservation": 52.5,
+    "nameReservationNotes": "Reservation of Entity Name is $50 plus a $2.50 enhanced access fee when filed online; paper form reserves the name for a non-renewable 120-day period."
   },
   "sources": [
     {
-      "name": "Official Filing Fee Source",
+      "name": "Rhode Island business forms fee schedule",
+      "url": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Rhode Island costs and fees",
       "url": "https://www.sos.ri.gov/divisions/business-services/business-basics/costs-and-fees",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Rhode Island business services",
+      "url": "https://www.sos.ri.gov/divisions/business-services",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Rhode Island annual report filing tips",
+      "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/tips-for-filing/",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Rhode Island LLC annual report form",
+      "url": "https://docs.sos.ri.gov/documents/BusinessServices/632-limited-liability-company-annual-report.pdf",
+      "lastAccessed": "2026-05-12"
+    },
+    {
+      "name": "Rhode Island reservation of entity name form",
+      "url": "https://docs.sos.ri.gov/documents/BusinessServices/620-reservation-of-entity-name.pdf",
       "lastAccessed": "2026-05-12"
     }
   ],
