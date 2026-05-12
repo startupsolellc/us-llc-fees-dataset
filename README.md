@@ -92,6 +92,73 @@ The dataset is structured as a dictionary with 2-letter state abbreviations as k
 
 ---
 
+## 📦 Extended Dataset: EntitySearch State Data
+
+For sidebar components and enhanced state reference pages, we provide a separate extended dataset in the `entitysearch-state-data/` directory.
+
+### What's Included
+
+| Feature | Description |
+|---------|-------------|
+| **50 States Complete** | All US states with structured contact info, addresses, and hours |
+| **Business Entity Search** | Direct URLs to official state business entity search portals |
+| **Filing Facts** | LLC formation fees, annual report requirements, name reservation info |
+| **Renewal Links** | Online and paper renewal URLs for each state |
+| **Schema Validated** | JSON schema validation available (`entitysearch-state-data/schema/state.schema.json`) |
+
+### Directory Structure
+
+```
+entitysearch-state-data/
+├── README.md              # Detailed documentation
+├── schema/
+│   └── state.schema.json  # JSON validation schema
+├── states/                # Individual state JSON files
+│   ├── alabama.json
+│   ├── alaska.json
+│   └── ...                # All 50 states
+└── assets/
+    ├── seals/             # State seal images (WebP)
+    └── provider-logos/    # Formation partner logos
+```
+
+### Quick Example
+
+```javascript
+// Fetch extended state data for sidebar
+const stateData = require('./entitysearch-state-data/states/wyoming.json');
+
+console.log(stateData.stateName);              // "Wyoming"
+console.log(stateData.businessEntitySearch.url); // Official search portal URL
+console.log(stateData.filingFacts.llcFee);      // Formation fee
+console.log(stateData.secretaryOfState.website); // SOS website
+```
+
+### Validation
+
+Validate all state JSON files against the schema:
+
+```bash
+npx ajv-cli validate --strict=false \
+  -s entitysearch-state-data/schema/state.schema.json \
+  -d 'entitysearch-state-data/states/*.json'
+```
+
+---
+
+## 🌐 Built With This Dataset
+
+### EntitySearch.us
+**[EntitySearch.us](https://entitysearch.us)** — A comprehensive guide to business entity search for all 50 US states. Each state page features step-by-step screenshots, official portal links, and LLC formation facts powered by this dataset.
+
+```
+https://entitysearch.us/texas/
+https://entitysearch.us/wyoming/
+https://entitysearch.us/delaware/
+```
+
+---
+
 ## 🛠 Contributing & Data Integrity
 
 **Data integrity is our #1 priority.** We strictly enforce that all PRs must cite official `.gov` sources. 
