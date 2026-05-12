@@ -1,111 +1,108 @@
 # EntitySearch State Data
 
-Sidebar verileri için yapılandırılmış eyalet düzeyinde veri seti. Bu veriler harici web sitelerinde sidebar component'lerinde kullanılmak üzere tasarlanmıştır.
+Structured state-level dataset for sidebar components. This data is designed for use in sidebar components on external websites.
 
-## Durum
+## Status
 
-`2026-05-12` itibarıyla 50 eyaletin tamamı için detaylı enrichment batch işlemleri tamamlandı.
+As of `2026-05-12`, detailed enrichment batch operations have been completed for all 50 states.
 
-- Kapsam: `AL` through `WY`
-- Son tamamlanan batch: `WI / WY`
-- Her eyalet dosyasında contact, adres, çalışma saatleri, renewal linkleri, LLC filing facts, name reservation bilgisi ve resmi kaynaklar dolduruldu veya resmi kaynakta bulunmuyorsa bilinçli olarak `null` bırakıldı.
-- Root [../states.json](../states.json) kayıtları official fee/source düzeltmeleriyle uyumlu hale getirildi.
-- Batch audit çıktıları lokal olarak `entitysearch-state-data/audits/` altında üretildi. Bu klasör `.gitignore` kapsamındadır.
+- **Coverage:** `AL` through `WY`
+- **Last completed batch:** `WI / WY`
+- Each state file contains contact info, addresses, hours, renewal links, LLC filing facts, name reservation details, and official sources — or consciously left as `null` if not available from official sources.
+- Root [`../states.json`](../states.json) records have been aligned with official fee/source corrections.
+- Batch audit outputs are generated locally under `entitysearch-state-data/audits/`. This folder is under `.gitignore`.
 
-## Yapı
+## Structure
 
 ```
 entitysearch-state-data/
 ├── README.md
 ├── schema/
-│   └── state.schema.json      # JSON validasyon şeması
-├── states/                    # Her eyalet için JSON dosyaları
-│   └── alabama.json           # Örnek eyalet dosyası
+│   └── state.schema.json      # JSON validation schema
+├── states/                    # Individual state JSON files
+│   └── alabama.json           # Example state file
 └── assets/
-    ├── seals/                 # Eyalet logoları (.webp)
-    └── provider-logos/       # Bizee, Northwest, IncAuthority logoları
+    ├── seals/                 # State seal images (.webp)
+    └── provider-logos/       # Bizee, Northwest, IncAuthority logos
 ```
 
-## Şema Kuralları
+## Schema Fields
 
-| Alan | Tip | Açıklama |
-|------|-----|----------|
-| `stateName` | string | Tam eyalet adı |
-| `stateAbbr` | string | 2 harfli eyalet kısaltması (örn: AL) |
-| `stateSlug` | string | URL-dostu slug (örn: alabama) |
-| `stateSeal` | string\|null | Eyalet logosu URL (WebP tercih edilir) |
-| `businessEntitySearch` | object | Arama CTA ve URL |
-| `secretaryOfState` | object | Kurum bilgileri |
-| `hours` | object | Çalışma saatleri |
-| `physicalAddresses` | array | Fiziksel adresler |
-| `mailingAddress` | object | Posta adresi |
-| `renewals` | object | Renewal linkleri |
-| `corporateDocuments` | object | Şablon linkleri |
+| Field | Type | Description |
+|------|------|-------------|
+| `stateName` | string | Full state name |
+| `stateAbbr` | string | 2-letter state abbreviation (e.g., AL) |
+| `stateSlug` | string | URL-friendly slug (e.g., alabama) |
+| `stateSeal` | string\|null | State seal URL (WebP preferred) |
+| `businessEntitySearch` | object | Search CTA and URL |
+| `secretaryOfState` | object | Agency information |
+| `hours` | object | Operating hours |
+| `physicalAddresses` | array | Physical addresses |
+| `mailingAddress` | object | Mailing address |
+| `renewals` | object | Renewal links |
+| `corporateDocuments` | object | Template links |
 | `filingFacts` | object | LLC fee, annual report, name reservation |
-| `sources` | array | Resmi kaynaklar |
-| `lastVerified` | string | ISO tarih (YYYY-MM-DD) |
+| `sources` | array | Official sources |
+| `lastVerified` | string | ISO date (YYYY-MM-DD) |
 
-## Optional Enrichment Alanları
+## Optional Enrichment Fields
 
-Aşağıdaki alanlar entity search deneyimi için zorunlu core veri değildir ve
-eksik kalmaları veri kalitesi sorunu sayılmaz:
+The following fields are **not mandatory core data** for the entity search experience, and missing values are not considered data quality issues:
 
-| Alan | Durum | Not |
-|------|------|-----|
-| `stateSeal` | Optional | Seal/logo assetleri tüketen uygulamada, örn. Astro `src/assets/images/statesseals`, yönetilebilir. |
-| `secretaryOfState.officialName` | Optional | Mevcut görevli adı/since bilgisi zaman hassas siyasi/personel veridir; ayrı bakım süreci olmadan boş kalabilir. |
-| `corporateDocuments` | Optional | Operating agreement, bylaws ve partnership agreement template sayfaları internal içerik olarak ayrıca üretilebilir. Resmi state template yoksa `null` kalır. |
+| Field | Status | Note |
+|-------|--------|------|
+| `stateSeal` | Optional | In an app that consumes seal/logo assets, e.g., Astro `src/assets/images/statesseals`, can be managed there. |
+| `secretaryOfState.officialName` | Optional | Current official name/since info is time-sensitive political/personnel data; can be left empty without a separate maintenance process. |
+| `corporateDocuments` | Optional | Operating agreement, bylaws, and partnership agreement template pages can be produced as separate internal content. If no official state template exists, stays `null`. |
 
-Core veri hedefi: entity search kullanıcısına pratik olarak yarayan resmi arama
-URL'i, kurum web sitesi, phone/email varsa contact bilgisi, adres, saat,
-filing/renewal facts ve kaynak takibidir.
+**Core data target:** Official search URL, agency website, contact info (phone/email if available), address, hours, filing/renewal facts, and source tracking — practical information for the entity search user.
 
-## Veri Kuralları
+## Data Rules
 
-- **Sadece resmi kaynaklar** (.gov domainleri)
-- **Ücret ve requirement doğrulaması:** Her fee, due date ve filing requirement resmi state government portalı, resmi fee schedule, resmi statute veya resmi filing portal üzerinden doğrulanır
-- **Kaynak zorunluluğu:** `sources[]`, root `official_link` ve root `source_url` alanları resmi kaynaklara işaret etmelidir
-- **Üçüncü parti kaynak yok:** Legal service provider, blog, SEO sayfası, haber sitesi veya ticari özet kaynak kullanılmaz
-- **Bilinmeyen değerler:** `null` veya boş bırakılır
-- **Tarih formatı:** ISO 8601 (`YYYY-MM-DD`)
-- **Görsel formatı:** WebP tercih edilir
-- **URL validasyonu:** Geçerli URI formatı gerekli
+- **Official sources only** (.gov domains)
+- **Fee and requirement verification:** Every fee, due date, and filing requirement is verified against the official state government portal, official fee schedule, official statute, or official filing portal
+- **Source requirement:** `sources[]`, root `official_link`, and root `source_url` fields must point to official sources
+- **No third-party sources:** Legal service providers, blogs, SEO pages, news sites, or commercial summary sources are not used
+- **Unknown values:** Left as `null` or empty
+- **Date format:** ISO 8601 (`YYYY-MM-DD`)
+- **Image format:** WebP preferred
+- **URL validation:** Valid URI format required
 
-## Kullanım
+## Usage
 
 ```javascript
 const stateData = require('./states/alabama.json');
 
-// Sidebar'da kullanım örneği
+// Sidebar usage example
 console.log(stateData.stateName); // "Alabama"
 console.log(stateData.secretaryOfState.website); // "https://www.sos.alabama.gov"
 ```
 
-## Validasyon
+## Validation
 
-JSON dosyalarını `state.schema.json` ile validate etmek için:
+To validate JSON files against `state.schema.json`:
 
 ```bash
 npx ajv-cli validate --strict=false -s entitysearch-state-data/schema/state.schema.json -d 'entitysearch-state-data/states/*.json'
 ```
 
-JSON parse kontrolü:
+JSON parse check:
 
 ```bash
 jq empty states.json entitysearch-state-data/states/*.json
 ```
 
-## Gelecekteki Güncelleme Workflow
+## Future Update Workflow
 
-Tüm eyaletler enrich edildiği için bundan sonraki işler yeni batch üretmekten çok periyodik doğrulama, resmi ücret değişikliği takibi ve kaynak linklerinin canlılığını kontrol etme şeklinde yapılmalıdır. Yine de bakım işleri aynı batch mantığıyla ilerlemelidir.
+Since all states have been enriched, future work should focus on periodic verification, official fee change tracking, and link health checks rather than generating new batches. Maintenance work should still follow the same batch logic.
 
-### Batch Seçimi
+### Batch Selection
 
-- Güncellenecek eyaletleri 2-3 eyaletlik küçük batch'lere ayır.
-- Her batch için önce mevcut state JSON dosyalarını ve root `states.json` kayıtlarını oku.
-- Batch kapsamını final yanıtta ve gerekiyorsa handoff notlarında açıkça belirt.
+- Divide states to update into small batches of 2-3 states.
+- For each batch, first read the existing state JSON files and root `states.json` records.
+- Clearly state batch scope in the final response and handoff notes if needed.
 
-Örnek:
+Example:
 
 ```bash
 sed -n '1,220p' entitysearch-state-data/states/wisconsin.json
@@ -113,27 +110,27 @@ sed -n '1,220p' entitysearch-state-data/states/wyoming.json
 sed -n '490,540p' states.json
 ```
 
-### Resmi Kaynak Araştırması
+### Official Source Research
 
-Her state için yalnızca şu kaynak tiplerini kullan:
+For each state, **only use these source types**:
 
-- Secretary of State veya Department of State corporation/business division sayfaları
-- Department of Financial Institutions, Department of Revenue veya resmi filing agency sayfaları
-- Resmi fee schedule HTML/PDF sayfaları
-- Resmi annual report, renewal veya business filing portalları
-- Resmi state statute sayfaları
+- Secretary of State or Department of State corporation/business division pages
+- Department of Financial Institutions, Department of Revenue, or official filing agency pages
+- Official fee schedule HTML/PDF pages
+- Official annual report, renewal, or business filing portals
+- Official state statute pages
 
-Şunları kullanma:
+**Do not use:**
 
-- LegalZoom, Northwest, ZenBusiness, Harbor Compliance, Forbes vb. ticari sayfalar
-- Bloglar, SEO landing page'leri, haber siteleri
-- Sadece search result snippet'i
+- LegalZoom, Northwest, ZenBusiness, Harbor Compliance, Forbes, etc. commercial pages
+- Blogs, SEO landing pages, news sites
+- Search result snippets only
 
-Resmi portal bot koruması nedeniyle audit'te `403`, timeout veya connection reset döndürürse URL otomatik olarak atılmamalıdır. Kaynak resmi state sayfasıysa korunabilir; mümkünse aynı bilgiyi destekleyen ek resmi `200` dönen kaynak da eklenmelidir.
+> If the audit returns `403`, timeout, or connection reset due to official portal bot protection, the URL should not be automatically dropped. If it's an official state page, it can be kept; if possible, add an additional official `200`-returning source that supports the same information.
 
-### Güncellenecek Alanlar
+### Fields to Update
 
-Her state dosyasında şu alanlar kontrol edilmelidir:
+For each state file, check these fields:
 
 - `businessEntitySearch.url`
 - `secretaryOfState.agency`
@@ -156,7 +153,7 @@ Her state dosyasında şu alanlar kontrol edilmelidir:
 - `sources[]`
 - `lastVerified`
 
-Root `states.json` içinde yalnızca resmi veri değiştiyse veya kaynak linki düzeltildiyse şu alanlar güncellenmelidir:
+In root `states.json`, only update if official data changed or source link was corrected:
 
 - `formation_fee`
 - `annual_report_fee`
@@ -166,56 +163,56 @@ Root `states.json` içinde yalnızca resmi veri değiştiyse veya kaynak linki d
 - `last_verified`
 - root `last_updated`
 
-### Timestamp ve Kaynak Formatı
+### Timestamp and Source Format
 
-- Dokunulan state dosyasında `lastVerified` güncel ISO tarih olmalıdır.
-- Dokunulan source kayıtlarında `lastAccessed` güncel ISO tarih olmalıdır.
-- Root `states.json` içinde ilgili state `last_verified` güncellenmelidir.
-- Dataset genelinde resmi veri değişikliği yapıldıysa root `last_updated` güncellenmelidir.
+- `lastVerified` in touched state file must be current ISO date.
+- `lastAccessed` in touched source records must be current ISO date.
+- Relevant state `last_verified` in root `states.json` must be updated.
+- If official data change was made across the dataset, root `last_updated` must be updated.
 
-### Annual Report ve Fee Kuralları
+### Annual Report and Fee Rules
 
-- Root `states.json` içinde annual report fee yoksa `annual_report_fee: 0` kullanılmalıdır.
-- Detay state JSON dosyasında mevcut pattern'e uy: bazı state'lerde annual report yoksa `annualReport: null` ve `annualReportDue: "N/A"` kullanılabilir.
-- Online ve paper fee farklıysa kullanıcı açısından en pratik/current online fee ana değer olarak kullanılabilir, paper fee notlarda açıkça belirtilmelidir.
-- Minimum/maksimum veya asset-based fee varsa ana değere minimum fee yazılır, değişken yapı `filingFacts.*Notes` ve `renewals.notes` içinde açıklanır.
+- If there's no annual report fee in root `states.json`, use `annual_report_fee: 0`.
+- Follow existing pattern in detail state JSON: if a state has no annual report, `annualReport: null` and `annualReportDue: "N/A"` can be used.
+- If online and paper fees differ, the most practical/current online fee can be used as the main value; paper fee should be clearly noted in notes.
+- If there's a minimum/maximum or asset-based fee, write the minimum fee as the main value; explain variable structure in `filingFacts.*Notes` and `renewals.notes`.
 
 ### Batch Audit
 
-Her batch sonunda URL audit üret:
+Generate URL audit at the end of each batch:
 
 ```bash
 scripts/.venv/bin/python scripts/audit_state_urls.py --state WI --state WY --insecure --timeout 8 --output entitysearch-state-data/audits/url-audit-batch-wi-wy-2026-05-12.json
 ```
 
-Audit özetini çıkarmak için:
+To extract audit summary:
 
 ```bash
 jq -r '.states | to_entries[] as $s | $s.value.urls[] | [$s.key, (.fetched.status // "ERR"), .url, (.fetched.error // "")] | @tsv' entitysearch-state-data/audits/url-audit-batch-wi-wy-2026-05-12.json
 ```
 
-Audit klasörü git dışında tutulur. Audit dosyası final raporda linklenebilir ama commit'e eklenmez.
+The audit folder is kept out of git. Audit file can be linked in the final report but not included in commits.
 
-### Batch Sonu Kontrol Listesi
+### Batch End Checklist
 
-1. JSON parse kontrolü çalıştır:
+1. Run JSON parse check:
 
 ```bash
 jq empty states.json entitysearch-state-data/states/*.json
 ```
 
-2. Şema validasyonunu çalıştır:
+2. Run schema validation:
 
 ```bash
 npx ajv-cli validate --strict=false -s entitysearch-state-data/schema/state.schema.json -d 'entitysearch-state-data/states/*.json'
 ```
 
-3. Batch audit çalıştır ve caveat'leri not et.
-4. `handoff.md` varsa güncel batch, audit dosyası, caveat ve sonraki adımı yaz.
-5. `git diff` ile sadece beklenen dosyaların değiştiğini kontrol et.
-6. Commit mesajını batch kapsamını anlatacak şekilde yaz.
+3. Run batch audit and note caveats.
+4. If `handoff.md` exists, write current batch, audit file, caveats, and next step.
+5. Check with `git diff` that only expected files changed.
+6. Write commit message to describe batch scope.
 
-Örnek commit mesajları:
+Example commit messages:
 
 ```text
 Enrich Wisconsin and Wyoming data
@@ -223,15 +220,29 @@ Refresh California and Colorado official fee sources
 Audit annual report URLs for southeast batch
 ```
 
-### Agent Notları
+### Agent Notes
 
-- Değişiklikleri küçük ve batch kapsamıyla sınırlı tut.
-- Mevcut kullanıcı veya başka agent değişikliklerini revert etme.
-- JSON düzenlemelerinde mevcut alan sırasını ve dosya stilini koru.
-- Ücret veya due date değiştiriyorsan final yanıtta özellikle belirt.
-- Official URL audit hata verirse bunun otomasyon kaynaklı mı yoksa gerçekten kırık link mi olduğunu ayırmaya çalış.
-- Kırık resmi link yerine güncel resmi sayfa bulunursa hem state JSON `sources[]` hem root `states.json` kaynakları güncellenmelidir.
+- Keep changes small and limited to batch scope.
+- Do not revert other user or agent changes.
+- Preserve existing field order and file style in JSON edits.
+- If changing fee or due date, specifically note in final response.
+- If official URL audit errors, try to distinguish whether it's automation-related or a genuinely broken link.
+- If a broken official link is replaced with an updated official page, both state JSON `sources[]` and root `states.json` sources must be updated.
 
 ---
 
-*Bu dataset `us-llc-fees-dataset` reposunun bir parçasıdır.*
+## Built With This Dataset
+
+### [EntitySearch.us](https://entitysearch.us)
+
+Comprehensive step-by-step guides for business entity search across all 50 US states. Each state page features screenshots, official portal links, and LLC formation facts powered by this dataset.
+
+```
+https://entitysearch.us/texas/
+https://entitysearch.us/wyoming/
+https://entitysearch.us/delaware/
+```
+
+---
+
+*This dataset is part of the `us-llc-fees-dataset` repository.*
