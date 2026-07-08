@@ -149,7 +149,9 @@ npx ajv-cli validate --strict=false \
 ## 🌐 Built With This Dataset
 
 ### EntitySearch.us
-**[EntitySearch.us](https://entitysearch.us)** — A comprehensive guide to business entity search for all 50 US states. Each state page features step-by-step screenshots, official portal links, and LLC formation facts powered by this dataset.
+*   **[EntitySearch.us](https://entitysearch.us)** — A comprehensive guide to business entity search for all 50 US states. Each state page features step-by-step screenshots, official portal links, and LLC formation facts powered by this dataset.
+*   **[Secretary of State Business Search Directory](https://entitysearch.us/resources/secretary-of-state-business-search/)** — A nationwide matrix matching synced local state JSON data with FRED active business application activity.
+*   **[EntitySearch.us Business Name Checker Chrome Extension](https://entitysearch.us)** — Instantly search any business name in official state registries from your browser context menu or popup.
 
 ```
 https://entitysearch.us/texas/
