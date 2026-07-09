@@ -1,0 +1,41 @@
+{
+  "stateName": "California",
+  "stateAbbr": "CA",
+  "stateSlug": "california",
+  "entitySuffixRule": "Must contain \"limited liability company,\" or the abbreviation \"L.L.C.\" or \"LLC\" (\"limited\" may be abbreviated as \"Ltd.\" and \"company\" as \"Co.\") — Cal. Corp. Code § 17701.08(a).",
+  "distinguishabilityNote": "Must be distinguishable in the records of the California Secretary of State from the name of every registered LLC, foreign LLC authorized to transact intrastate business, and reserved name, and must not be likely to mislead the public — Cal. Corp. Code § 17701.08(b).",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "trustee",
+    "incorporated",
+    "inc.",
+    "corporation",
+    "corp.",
+    "insurer",
+    "insurance company"
+  ],
+  "nameReservationFee": 10,
+  "nameReservationDuration": "60 days",
+  "nameReservationUrl": "https://www.sos.ca.gov/business-programs/business-entities/name-reservations",
+  "namingStatuteUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.08",
+  "notes": "An LLC name may not contain the listed banking/corporate/insurance terms at all (Cal. Corp. Code § 17701.08(e)). Reservations ($10, § 17701.09) cannot run for consecutive 60-day periods for the same applicant — at least one day must elapse between reservations. Filing is fastest online via bizfileOnline.sos.ca.gov.",
+  "sources": [
+    {
+      "name": "Cal. Corp. Code § 17701.08 (LLC names)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.08",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Cal. Corp. Code § 17701.09 (reservation of name)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.09",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "California Secretary of State — Name Reservations",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/name-reservations",
+      "lastAccessed": "2026-07-10"
+    }
+  ],
+  "lastVerified": "2026-07-10"
+}

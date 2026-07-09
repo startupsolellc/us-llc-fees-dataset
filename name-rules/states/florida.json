@@ -1,0 +1,36 @@
+{
+  "stateName": "Florida",
+  "stateAbbr": "FL",
+  "stateSlug": "florida",
+  "entitySuffixRule": "Must contain \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC\" — Fla. Stat. § 605.0112(1)(a).",
+  "distinguishabilityNote": "Must be distinguishable in the records of the Florida Department of State from the names of all other registered entities; differences limited to suffixes, articles, punctuation, word-form variations, or the symbol \"&\" do not make a name distinguishable — Fla. Stat. § 605.0112(2).",
+  "restrictedWords": [],
+  "nameReservationFee": 25,
+  "nameReservationDuration": "120 days (non-renewable)",
+  "nameReservationUrl": "https://dos.fl.gov/sunbiz/about-us/faqs/",
+  "namingStatuteUrl": "https://www.flsenate.gov/Laws/Statutes/2025/605.0112",
+  "notes": "Florida lists no specific restricted words for LLCs, but the name may not imply a purpose other than one authorized by Chapter 605 or suggest a connection with a state or federal government agency (§ 605.0112(1)). Name reservation (§ 605.01125, $25 per the Division of Corporations fee schedule) is made by a signed letter to the Department of State — there is no online reservation — and is non-renewable; a name is only finally approved when the articles of organization are filed.",
+  "sources": [
+    {
+      "name": "Fla. Stat. § 605.0112 (LLC name requirements)",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/605.0112",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Fla. Stat. § 605.01125 (reserved name)",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/605.01125",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Florida Division of Corporations — Fees",
+      "url": "https://dos.fl.gov/sunbiz/forms/fees/",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Florida Division of Corporations — FAQs",
+      "url": "https://dos.fl.gov/sunbiz/about-us/faqs/",
+      "lastAccessed": "2026-07-10"
+    }
+  ],
+  "lastVerified": "2026-07-10"
+}

@@ -1,0 +1,41 @@
+{
+  "stateName": "Ohio",
+  "stateAbbr": "OH",
+  "stateSlug": "ohio",
+  "entitySuffixRule": "Must include \"limited liability company,\" \"LLC,\" \"L.L.C.,\" \"limited,\" \"ltd.,\" or \"ltd\" — Ohio Rev. Code § 1706.07.",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Ohio Secretary of State from every other registered entity and reserved name; entity-type designators alone (Co., Corp., Inc., Ltd., LLC, LP, LLP) do not make a name distinguishable. A non-distinguishable name may be used with the written consent of the existing holder (Consent for Use of Similar Name, Form 590).",
+  "restrictedWords": [
+    "bank",
+    "banker",
+    "banking",
+    "trust"
+  ],
+  "nameReservationFee": 39,
+  "nameReservationDuration": "180 days",
+  "nameReservationUrl": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+  "namingStatuteUrl": "https://codes.ohio.gov/ohio-revised-code/section-1706.07",
+  "notes": "Names containing \"bank,\" \"banker,\" \"banking,\" \"trust,\" or similar foreign-language terms require prior approval from the Ohio Superintendent of Financial Institutions. Reservation is filed on Form 534B ($39), is valid for 180 days from filing, and the same form transfers or cancels a reservation.",
+  "sources": [
+    {
+      "name": "Ohio Rev. Code § 1706.07 (naming of limited liability company)",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-1706.07",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Ohio Secretary of State — Guide to Name Availability",
+      "url": "https://www.ohiosos.gov/businesses/information-on-starting-and-maintaining-a-business/guide-to-name-availability/",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Ohio Secretary of State — Form 534B instructions (name reservation)",
+      "url": "https://www.ohiosos.gov/globalassets/business/forms/534B_instructions.pdf",
+      "lastAccessed": "2026-07-10"
+    },
+    {
+      "name": "Ohio Secretary of State — Filing Forms & Fee Schedule",
+      "url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+      "lastAccessed": "2026-07-10"
+    }
+  ],
+  "lastVerified": "2026-07-10"
+}
