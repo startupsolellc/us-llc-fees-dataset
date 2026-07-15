@@ -1,0 +1,75 @@
+{
+  "stateName": "District of Columbia",
+  "stateAbbr": "DC",
+  "stateSlug": "washington-d-c",
+  "stateSeal": null,
+  "businessEntitySearch": {
+    "cta": "Search District of Columbia Business Entities",
+    "url": "https://corponline.dlcp.dc.gov/homepage"
+  },
+  "secretaryOfState": {
+    "agency": "District of Columbia Department of Licensing and Consumer Protection (DLCP) Corporations Division",
+    "officialName": "Department of Licensing and Consumer Protection",
+    "website": "https://dlcp.dc.gov/page/corporations-division",
+    "phone": "202-442-4400",
+    "email": "dlcp.corp@dc.gov"
+  },
+  "hours": {
+    "timezone": "Eastern Time",
+    "regular": "Monday-Friday, 8:30 a.m.-4:30 p.m. (walk-in service on select days)",
+    "holidayHours": null
+  },
+  "physicalAddresses": [
+    {
+      "label": "DLCP Corporations Division",
+      "street": "1100 4th Street SW",
+      "city": "Washington",
+      "state": "DC",
+      "zip": "20024",
+      "country": "USA"
+    }
+  ],
+  "mailingAddress": {
+    "street": "1100 4th Street SW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20024",
+    "country": "USA"
+  },
+  "renewals": {
+    "onlineRenewalUrl": "https://corponline.dlcp.dc.gov/",
+    "paperRenewalUrl": null,
+    "notes": "District of Columbia LLCs are required to file a biennial report by April 1 of every second year. The filing fee is $300."
+  },
+  "corporateDocuments": {
+    "operatingAgreement": null,
+    "bylaws": null,
+    "otherTemplates": null
+  },
+  "filingFacts": {
+    "llcFee": 99,
+    "llcFeeNotes": "Articles of Organization for a domestic LLC (Form DLC-1).",
+    "annualReport": 300,
+    "annualReportDue": "April 1 of every second year",
+    "nameReservation": 50,
+    "nameReservationNotes": "Reserve or renew a business name for 120 days."
+  },
+  "sources": [
+    {
+      "name": "DLCP Corporations Division",
+      "url": "https://dlcp.dc.gov/page/corporations-division",
+      "lastAccessed": "2026-07-04"
+    },
+    {
+      "name": "DLCP Corporate Fees",
+      "url": "https://dlcp.dc.gov/node/1618686",
+      "lastAccessed": "2026-07-04"
+    },
+    {
+      "name": "District of Columbia CorpOnline Portal",
+      "url": "https://corponline.dlcp.dc.gov/",
+      "lastAccessed": "2026-07-04"
+    }
+  ],
+  "lastVerified": "2026-07-04"
+}
