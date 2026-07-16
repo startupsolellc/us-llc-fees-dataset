@@ -3,7 +3,9 @@
   "stateAbbr": "GA",
   "stateSlug": "georgia",
   "entitySuffixRule": "Must contain \"limited liability company\" or \"limited company,\" or the abbreviation \"LLC,\" \"L.L.C.,\" \"LC,\" or \"L.C.\" (\"limited\" may be abbreviated as \"Ltd.\" and \"company\" as \"Co.\"). Maximum 80 characters, including spaces and punctuation.",
-  "distinguishabilityNote": "Must be distinguishable on the records of the Georgia Secretary of State from the name of any existing entity or active name reservation, and must not contain words indicating the entity is organized as another entity type (e.g., \"corporation,\" \"incorporated,\" \"limited partnership\") — Ga. Comp. R. & Regs. 590-7-20.",
+  "entitySuffixCitation": null,
+  "distinguishabilityNote": "Must be distinguishable on the records of the Georgia Secretary of State from the name of any existing entity or active name reservation, and must not contain words indicating the entity is organized as another entity type (e.g., \"corporation,\" \"incorporated,\" \"limited partnership\").",
+  "distinguishabilityCitation": "Ga. Comp. R. & Regs. 590-7-20",
   "restrictedWords": [
     "bank",
     "banc",
@@ -29,17 +31,20 @@
   "notes": "Banking-related terms require written approval from the Georgia Department of Banking and Finance; insurance-related terms require written approval from the Office of Commissioner of Insurance. The $25 reservation fee carries a service charge ($5 online via eCorp, $10 by paper). Reservations cannot be renewed, but an available name may be reserved again after expiry.",
   "sources": [
     {
-      "name": "Ga. Comp. R. & Regs. 590-7-20 — Limited Liability Companies: Name",
+      "citation": "Ga. Comp. R. & Regs. 590-7-20",
+      "title": "Limited Liability Companies: Name",
       "url": "https://rules.sos.ga.gov/gac/590-7-20",
       "lastAccessed": "2026-07-10"
     },
     {
-      "name": "Georgia Secretary of State — Business Division FAQ",
+      "citation": "Georgia Secretary of State",
+      "title": "Business Division FAQ",
       "url": "https://sos.ga.gov/page/business-division-faq",
       "lastAccessed": "2026-07-10"
     },
     {
-      "name": "Georgia Secretary of State — How to Reserve a Name",
+      "citation": "Georgia Secretary of State",
+      "title": "How to Reserve a Name",
       "url": "https://sos.ga.gov/how-to-guide/how-guide-how-reserve-name",
       "lastAccessed": "2026-07-10"
     }

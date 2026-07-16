@@ -2,8 +2,10 @@
   "stateName": "Texas",
   "stateAbbr": "TX",
   "stateSlug": "texas",
-  "entitySuffixRule": "Must contain the phrase \"limited liability company\" or \"limited company,\" or an abbreviation of one of those phrases (e.g., \"LLC,\" \"L.L.C.,\" \"LC,\" \"L.C.\") — Tex. Bus. Orgs. Code § 5.056.",
-  "distinguishabilityNote": "Must be distinguishable in the records of the Texas Secretary of State from the name of any existing filing entity, a registered foreign filing entity or its fictitious name, a reserved or registered name, and any registered series of a Texas LLC — Tex. Bus. Orgs. Code § 5.053.",
+  "entitySuffixRule": "Must contain the phrase \"limited liability company\" or \"limited company,\" or an abbreviation of one of those phrases (e.g., \"LLC,\" \"L.L.C.,\" \"LC,\" \"L.C.\").",
+  "entitySuffixCitation": "Tex. Bus. Orgs. Code § 5.056",
+  "distinguishabilityNote": "Must be distinguishable in the records of the Texas Secretary of State from the name of any existing filing entity, a registered foreign filing entity or its fictitious name, a reserved or registered name, and any registered series of a Texas LLC.",
+  "distinguishabilityCitation": "Tex. Bus. Orgs. Code § 5.053",
   "restrictedWords": [
     "lotto",
     "lottery",
@@ -19,20 +21,23 @@
   "nameReservationDuration": "120 days",
   "nameReservationUrl": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml",
   "namingStatuteUrl": "https://statutes.capitol.texas.gov/Docs/BO/htm/BO.5.htm",
-  "notes": "\"Lotto\" and \"lottery\" are prohibited outright (§ 5.061). Veteran-related terms (veteran, legion, foreign, Spanish, disabled, war, world war) require written approval from a congressionally recognized veterans organization (§ 5.062). Names falsely implying affiliation with a governmental entity are prohibited (§ 5.064). Reservations (Form 501, $40 — § 4.151(2)) last 120 days and may be renewed for successive 120-day periods during the 30 days before expiry (§§ 5.104–5.105).",
+  "notes": "\"Lotto\" and \"lottery\" are prohibited outright (§ 5.061). Veteran-related terms (veteran, legion, foreign, Spanish, disabled, war, world war) require written approval from a congressionally recognized veterans organization (§ 5.062). Names falsely implying affiliation with a governmental entity are prohibited (§ 5.064). Reservations (Form 501, $40; § 4.151(2)) last 120 days and may be renewed for successive 120-day periods during the 30 days before expiry (§§ 5.104–5.105).",
   "sources": [
     {
-      "name": "Tex. Bus. Orgs. Code ch. 5 (names of entities)",
+      "citation": "Tex. Bus. Orgs. Code ch. 5",
+      "title": "Names of entities",
       "url": "https://statutes.capitol.texas.gov/Docs/BO/htm/BO.5.htm",
       "lastAccessed": "2026-07-10"
     },
     {
-      "name": "Tex. Bus. Orgs. Code § 4.151 (filing fees: all entities)",
+      "citation": "Tex. Bus. Orgs. Code § 4.151",
+      "title": "Filing fees: all entities",
       "url": "https://statutes.capitol.texas.gov/Docs/BO/htm/BO.4.htm",
       "lastAccessed": "2026-07-10"
     },
     {
-      "name": "Texas Secretary of State — Name Filings FAQ",
+      "citation": "Texas Secretary of State",
+      "title": "Name Filings FAQ",
       "url": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml",
       "lastAccessed": "2026-07-10"
     }
