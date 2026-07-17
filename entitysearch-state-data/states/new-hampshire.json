@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://quickstart.sos.nh.gov/online/account",
     "paperRenewalUrl": null,
-    "notes": "Annual reports are due by April 1 each year after registration and may be filed online through NH QuickStart or printed for mail filing; a $50 late fee applies after April 1."
+    "notes": "Annual reports due by April 1 each year after registration; report fee $100 plus $2 electronic handling if filed online (RSA 5:10-a); $50 late fee after April 1."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,38 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 102,
-    "llcFeeNotes": "Domestic LLC Certificate of Formation is $100; online filings include New Hampshire's $2 electronic handling charge.",
+    "llcFeeNotes": "Domestic LLC Certificate of Formation $100 (RSA 304-C:191; Form LLC-1). Online total $102 includes $2 electronic handling charge (RSA 5:10-a).",
     "annualReport": 102,
     "annualReportDue": "April 1",
     "nameReservation": 15,
-    "nameReservationNotes": "Application for Reservation of Name is $15 and reserves the name for 120 days."
+    "nameReservationNotes": "Application for Reservation of Name $15; reserves name for 120 days (RSA 304-C:191)."
   },
   "sources": [
     {
-      "name": "Online Business Services and Annual Reports",
-      "url": "https://sos.nh.gov/corporation-ucc-securities/corporation/online-business-services",
-      "lastAccessed": "2026-05-12"
+      "name": "Official LLC Forms and Fees Source",
+      "url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Certificate of Formation Form LLC-1",
       "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/documents/2023-12/form_llc-1_-10-2018.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Application for Reservation of Name Form 1",
       "url": "https://sos.nh.gov/media/e10fhmrs/form_1_-09-2015.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "New Hampshire RSA 304-C Limited Liability Company Fees",
-      "url": "https://gc.nh.gov/rsa/html/xxviii/304-c/304-c-mrg.htm",
-      "lastAccessed": "2026-05-12"
+      "name": "New Hampshire RSA 304-C:191 Limited Liability Company Fees",
+      "url": "https://gc.nh.gov/rsa/html/XXVIII/304-C/304-C-191.htm",
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "NH QuickStart Annual Reports Portal",
       "url": "https://quickstart.sos.nh.gov/online/account",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

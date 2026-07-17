@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.nebraska.gov/apps-sos-edocs",
     "paperRenewalUrl": "https://sos.nebraska.gov/business-services/annualbiennial-reporting",
-    "notes": "Nebraska domestic and foreign LLCs file biennial reports in odd-numbered years by April 1; reports become delinquent June 16. Nebraska's general LLC filing fee statute sets $25 electronic and $30 written filings unless an exception applies."
+    "notes": "Domestic and foreign LLCs file biennial reports in odd-numbered years by April 1; delinquent June 16. Online biennial report fee $25; written $30 (Neb. Rev. Stat. \u00a721-192 general LLC filing fees; SOS forms page)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC Certificate of Organization filing fee is $100 online and $110 in-office.",
+    "llcFeeNotes": "Domestic LLC Certificate of Organization $100 online / $110 in-office (SOS Forms and Fee Information; \u00a721-192).",
     "annualReport": 25,
     "annualReportDue": "Apr 1 (Biennial, odd years)",
     "nameReservation": 30,
-    "nameReservationNotes": "Application for Reserved Name is listed at $30 on the SOS fee schedule; Nebraska's LLC fee statute sets $25 if submitted electronically where available."
+    "nameReservationNotes": "Application for Reserved Name $30 on SOS fee schedule (statute: $30 written / $25 electronic for general LLC filings including name reservation)."
   },
   "sources": [
     {
       "name": "Official Business Services Contact Source",
       "url": "https://sos.nebraska.gov/business-services/business-services-division",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual/Biennial Reporting Source",
       "url": "https://sos.nebraska.gov/business-services/annualbiennial-reporting",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official LLC Fee Statute Source",
       "url": "https://nebraskalegislature.gov/laws/display_html.php?begin_section=21-101&end_section=21-197",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

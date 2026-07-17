@@ -258,10 +258,10 @@
       "name": "Montana",
       "formation_fee": 35,
       "annual_report_fee": 0,
-      "annual_report_due_date": "Apr 15 (Fee waived 2026)",
+      "annual_report_due_date": "Apr 15 (Fee waived timely)",
       "state_income_tax_rate": null,
       "official_link": "https://sosmt.gov/business/fees/",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sosmt.gov/business/fees/"
     },
     "NE": {
@@ -271,7 +271,7 @@
       "annual_report_due_date": "Apr 1 (Biennial, odd years)",
       "state_income_tax_rate": null,
       "official_link": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sos.nebraska.gov/business-services/forms-and-fee-information"
     },
     "NV": {
@@ -290,9 +290,9 @@
       "annual_report_fee": 102,
       "annual_report_due_date": "April 1",
       "state_income_tax_rate": null,
-      "official_link": "https://sos.nh.gov/corporation-ucc-securities/corporation/online-business-services",
-      "last_verified": "2026-05-12",
-      "source_url": "https://sos.nh.gov/corporation-ucc-securities/corporation/online-business-services"
+      "official_link": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies"
     },
     "NJ": {
       "name": "New Jersey",

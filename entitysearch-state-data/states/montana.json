@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://biz.sosmt.gov/search/business",
     "paperRenewalUrl": null,
-    "notes": "Montana LLC annual reports are filed through the SOS online filing portal and are due April 15. The Secretary of State waived annual report fees for filings through April 15, 2026, and announced the 2027 annual report filing fee will also be waived; late annual reports after April 15 are listed at $35 on the fee sheet."
+    "notes": "Montana LLC annual reports are due April 15 via the SOS online portal. Official fee sheet lists Annual Report prior to April 15 as WAIVED and after April 15 as $35."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 35,
-    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee, plus $50 for each series member named in a series LLC.",
+    "llcFeeNotes": "Domestic LLC Articles of Organization $35, plus $50 for each series member named in a series LLC (sosmt.gov business fees).",
     "annualReport": 0,
     "annualReportDue": "Apr 15",
     "nameReservation": 10,
-    "nameReservationNotes": "Name Reservation filing fee for LLCs and other business entity types."
+    "nameReservationNotes": "Name Reservation $10 for LLCs and other business entity types."
   },
   "sources": [
     {
       "name": "Official Business Services Source",
       "url": "https://sosmt.gov/business/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://sosmt.gov/business/fees/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Warning Source",
       "url": "https://sosmt.gov/secretary-christi-jacobsen-alerting-montanans-of-deceptive-business-solicitations/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Renewal Help Source",
       "url": "https://help.sosmt.gov/en/articles/12549896-how-do-i-renew-my-business",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
