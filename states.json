@@ -230,9 +230,9 @@
       "annual_report_fee": 0,
       "annual_report_due_date": "Dec 31",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.state.mn.us/media/5969/a-guide-to-starting-a-small-business-in-minnesota.pdf",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.sos.state.mn.us/media/5969/a-guide-to-starting-a-small-business-in-minnesota.pdf"
+      "official_link": "https://www.sos.mn.gov/media/1378/businessentityfees.pdf",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sos.mn.gov/media/1378/businessentityfees.pdf"
     },
     "MS": {
       "name": "Mississippi",
@@ -240,9 +240,9 @@
       "annual_report_fee": 0,
       "annual_report_due_date": "Jan 1 - Apr 15",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.ms.gov/content/documents/Business/Services%20%26%20Fees%20Document.pdf",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.sos.ms.gov/content/documents/Business/Services%20%26%20Fees%20Document.pdf"
+      "official_link": "https://www.sos.ms.gov/sites/default/files/fees_and_forms/Services%20%26%20Fees%20Document.pdf",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sos.ms.gov/sites/default/files/fees_and_forms/Services%20%26%20Fees%20Document.pdf"
     },
     "MO": {
       "name": "Missouri",
@@ -251,7 +251,7 @@
       "annual_report_due_date": "N/A",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf"
     },
     "MT": {

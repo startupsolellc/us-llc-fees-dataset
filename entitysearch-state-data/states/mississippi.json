@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://corp.sos.ms.gov/corp/portal/c/page/corpBusinessIdSearch/portal.aspx",
     "paperRenewalUrl": null,
-    "notes": "All annual reports must be filed online; profit corporations and LLCs may file on or after January 1 and are due by April 15."
+    "notes": "All annual reports must be filed online; profit corporations and LLCs may file on or after January 1 and are due by April 15. Domestic MS LLC annual report fee is $0 (No fee)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,28 +48,28 @@
   },
   "filingFacts": {
     "llcFee": 50,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Certificate of Formation of MS LLC $50 (Services & Fees Schedule, revised October 2024).",
     "annualReport": 0,
     "annualReportDue": "Jan 1 - Apr 15",
     "nameReservation": 25,
-    "nameReservationNotes": "Application for Name Reservation for an LLC."
+    "nameReservationNotes": "Application for Name Reservation $25."
   },
   "sources": [
     {
       "name": "Official Business Services Source",
       "url": "https://www.sos.ms.gov/business-services-external-affairs",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Source",
       "url": "https://www.sos.ms.gov/business-services/annual-reports",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
-      "url": "https://www.sos.ms.gov/content/documents/Business/Services%20%26%20Fees%20Document.pdf",
-      "lastAccessed": "2026-05-12"
+      "url": "https://www.sos.ms.gov/sites/default/files/fees_and_forms/Services%20%26%20Fees%20Document.pdf",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
