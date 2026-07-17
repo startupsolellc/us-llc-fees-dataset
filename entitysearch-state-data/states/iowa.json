@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 50,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic Certificate of Organization $50 (Iowa SOS Business Entity Forms and Fees; Iowa Code 489.201).",
     "annualReport": 30,
     "annualReportDue": "Jan 1 - Apr 1 (Biennial, odd years)",
     "nameReservation": 10,
-    "nameReservationNotes": "Reservation of Name is $10 for applicable business entities including LLCs."
+    "nameReservationNotes": "Reservation of Name is $10 for applicable business entities including LLCs (Iowa SOS Forms and Fees)."
   },
   "sources": [
     {
       "name": "Official Business Services Source",
       "url": "https://sos.iowa.gov/business-services",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://sos.iowa.gov/contact-us",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Biennial Report Help Source",
       "url": "https://help.sos.iowa.gov/how-do-i-file-biennial-report",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

@@ -141,7 +141,7 @@
       "annual_report_due_date": "End of anniversary month (Biennial)",
       "state_income_tax_rate": null,
       "official_link": "https://inbiz.in.gov/start-business/fee-schedule",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://inbiz.in.gov/start-business/fee-schedule"
     },
     "IA": {
@@ -151,17 +151,17 @@
       "annual_report_due_date": "Jan 1 - Apr 1 (Biennial, odd years)",
       "state_income_tax_rate": null,
       "official_link": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees"
     },
     "KS": {
       "name": "Kansas",
       "formation_fee": 85,
-      "annual_report_fee": 100,
-      "annual_report_due_date": "Apr 15 (Biennial)",
+      "annual_report_fee": 53,
+      "annual_report_due_date": "Jan 1 - Apr 15 (after tax year end)",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.ks.gov/forms/business_services/DL.pdf",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.sos.ks.gov/forms/business_services/lc.pdf"
     },
     "KY": {

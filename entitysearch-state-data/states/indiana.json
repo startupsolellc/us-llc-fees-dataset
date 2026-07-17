@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://inbiz.in.gov/business-filings/business-entityreport",
     "paperRenewalUrl": null,
-    "notes": "Indiana businesses file Business Entity Reports through INBiz; LLC reports are biennial and due by the end of the anniversary month."
+    "notes": "Indiana businesses file Business Entity Reports through INBiz; LLC reports are biennial and due by the end of the anniversary month. Online for-profit fee $32 (IC 23-0.5-9-34 $20 electronic + enhanced access/portal total as shown on INBiz); paper $50 (statutory non-electronic)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,38 +48,48 @@
   },
   "filingFacts": {
     "llcFee": 95,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization: $95 online ($75 statutory electronic fee under IC 23-0.5-9-19 plus $20 enhanced access under 75 IAC 8-3-4); $100 paper/non-electronic (IC 23-0.5-9-19).",
     "annualReport": 32,
     "annualReportDue": "End of anniversary month (Biennial)",
     "nameReservation": null,
-    "nameReservationNotes": "Name reservation is available through INBiz; current fee was not exposed in an official public source during this pass, so the amount remains null pending direct INBiz verification."
+    "nameReservationNotes": "Name reservation is available through INBiz; current public fee amount remains null pending direct INBiz fee-schedule verification (portal often bot-blocked)."
   },
   "sources": [
     {
       "name": "Official Contact Source",
       "url": "https://inbiz.in.gov/about/contact",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Services Source",
       "url": "https://inbiz.in.gov/business-services",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://inbiz.in.gov/start-business/fee-schedule",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Entity Report Source",
       "url": "https://inbiz.in.gov/business-filings/business-entityreport",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official INBiz Source",
       "url": "https://inbiz.in.gov/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Indiana Code IC 23-0.5-9-19 (Articles of Organization fees)",
+      "url": "https://iga.in.gov/laws/current/ic/titles/023/",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "75 IAC 8-3-4 Articles of organization enhanced access (SOS notice PDF)",
+      "url": "https://www.in.gov/sos/business/files/20250326-IR-075250155FNA.pdf",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

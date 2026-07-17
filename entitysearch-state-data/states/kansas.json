@@ -37,9 +37,9 @@
     "country": "USA"
   },
   "renewals": {
-    "onlineRenewalUrl": "https://sos.ks.gov/services/business/business.html",
+    "onlineRenewalUrl": "https://www.kansas.gov/annual-reports/index.do",
     "paperRenewalUrl": null,
-    "notes": "Kansas business entities file information reports every two years; report year depends on the year of organization or registration."
+    "notes": "Kansas LLCs file an annual report with the Secretary of State. Online fee $53; paper $55 (Form LC fee schedule). Due after tax year end — for a calendar-year entity, between January 1 and April 15. Online: https://www.kansas.gov/annual-reports/index.do"
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,43 +48,43 @@
   },
   "filingFacts": {
     "llcFee": 85,
-    "llcFeeNotes": "Domestic LLC filing fee",
-    "annualReport": 100,
-    "annualReportDue": "Apr 15 (Biennial)",
+    "llcFeeNotes": "Domestic Articles of Organization: $85 online / $90 paper (KS SOS Form DL fee schedule, Rev. 2/27/26).",
+    "annualReport": 53,
+    "annualReportDue": "Jan 1 - Apr 15 (after tax year end)",
     "nameReservation": 35,
-    "nameReservationNotes": "Temporary reservation of business entity name is effective for 120 days; filing fee is $35 and reservations may not be renewed."
+    "nameReservationNotes": "Temporary reservation of business entity name is effective for 120 days; filing fee is $35 and reservations may not be renewed (Form NR)."
   },
   "sources": [
     {
       "name": "Official Contact Source",
       "url": "https://sos.ks.gov/about/contact-us.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Services Source",
       "url": "https://www.sos.ks.gov/businesses/businesses.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Official Filing Fee Source",
+      "name": "Official Articles of Organization Fee Source (Form DL)",
       "url": "https://www.sos.ks.gov/forms/business_services/DL.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Official Supporting Source",
+      "name": "Official Annual Report Fee Source (Form LC)",
       "url": "https://www.sos.ks.gov/forms/business_services/lc.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Information Report Source",
       "url": "https://sos.ks.gov/services/business/business.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://sos.ks.gov/forms/business_services/NR.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
