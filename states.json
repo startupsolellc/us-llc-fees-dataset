@@ -450,9 +450,9 @@
       "annual_report_fee": 45,
       "annual_report_due_date": "Within 3 months after fiscal year end",
       "state_income_tax_rate": null,
-      "official_link": "https://sos.vermont.gov/corporations/fees/",
-      "last_verified": "2026-05-12",
-      "source_url": "https://legislature.vermont.gov/statutes/section/11/025/04012"
+      "official_link": "https://sos.vermont.gov/business-services/fees-statutes",
+      "last_verified": "2026-07-17",
+      "source_url": "https://sos.vermont.gov/business-services/fees-statutes"
     },
     "VA": {
       "name": "Virginia",
@@ -460,9 +460,9 @@
       "annual_report_fee": 50,
       "annual_report_due_date": "Last day of anniversary month",
       "state_income_tax_rate": null,
-      "official_link": "https://www.scc.virginia.gov/pages/Fees",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.scc.virginia.gov/pages/Fees"
+      "official_link": "https://www.scc.virginia.gov/businesses/forms-and-fees/virginia-limited-liability-companies/",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/"
     },
     "WA": {
       "name": "Washington",
@@ -481,7 +481,7 @@
       "annual_report_due_date": "Jan 1 - June 30",
       "state_income_tax_rate": null,
       "official_link": "https://sos.wv.gov/register-new-wv-business",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sos.wv.gov/register-new-wv-business"
     },
     "WI": {

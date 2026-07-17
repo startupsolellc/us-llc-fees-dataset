@@ -55,7 +55,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://business4.wv.gov/",
     "paperRenewalUrl": null,
-    "notes": "West Virginia LLC annual reports are filed between January 1 and June 30 each year after the year of registration. Online filings through Business4WV add a $1 portal fee."
+    "notes": "WV Code §59-1-2a: annual report and $25 filing fee between January 1 and June 30 each year following the calendar year of registration. Online filings through Business4WV add a $1 portal fee. Failure to file by June 30 may result in penalties and administrative dissolution."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -64,38 +64,33 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Articles of Organization for a domestic limited liability company.",
+    "llcFeeNotes": "Articles of Organization for a domestic LLC/PLLC: $100. An additional $1.00 online processing fee applies to all online filings (WV SOS register a new business).",
     "annualReport": 25,
     "annualReportDue": "Jan 1 - June 30",
     "nameReservation": 15,
-    "nameReservationNotes": "Name reservation reserves the name for 120 days."
+    "nameReservationNotes": "Name reservation reserves the name for 120 days; fee $15 per established SOS schedule."
   },
   "sources": [
     {
       "name": "West Virginia business contact information",
       "url": "https://sos.wv.gov/licensing/general-information/business-and-licensing-division-contact-information",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "West Virginia annual reports",
-      "url": "https://sos.wv.gov/annual-reports",
-      "lastAccessed": "2026-05-12"
-    },
-    {
-      "name": "West Virginia limited liability companies",
-      "url": "https://sos.wv.gov/limited-liability-companies",
-      "lastAccessed": "2026-05-12"
-    },
-    {
-      "name": "West Virginia business name reservation",
-      "url": "https://sos.wv.gov/reserveregister-business-name",
-      "lastAccessed": "2026-05-12"
+      "url": "https://sos.wv.gov/business/updates-and-changes/annual-reports",
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "West Virginia register a new business fees",
       "url": "https://sos.wv.gov/register-new-wv-business",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "West Virginia business and licensing",
+      "url": "https://sos.wv.gov/business",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

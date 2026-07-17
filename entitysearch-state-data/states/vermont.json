@@ -10,7 +10,7 @@
   "secretaryOfState": {
     "agency": "Vermont Secretary of State Business Services Division",
     "officialName": null,
-    "website": "https://sos.vermont.gov/corporations/",
+    "website": "https://sos.vermont.gov/business-services/",
     "phone": "802-828-2386",
     "email": "SOS.CorporationsSupport@vermont.gov"
   },
@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://bizfilings.vermont.gov/online/BusinessInquire",
     "paperRenewalUrl": null,
-    "notes": "Domestic Vermont LLCs file an annual report with the Secretary of State within three months after the end of the company's fiscal year. The domestic LLC annual report fee is $45."
+    "notes": "Domestic Vermont LLCs file an annual report with the Secretary of State within three months after the end of the company's fiscal year (LLC/PLC/L3C). Domestic LLC annual report fee is $45 (foreign LLC annual report is $170)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,38 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 155,
-    "llcFeeNotes": "Articles of organization for a Vermont limited liability company under 11 V.S.A. § 4012.",
+    "llcFeeNotes": "Articles of organization for a domestic Vermont LLC: $155 (11 V.S.A. § 4012; SOS Business Services Fees & Statutes schedule). No extra fee for online filing.",
     "annualReport": 45,
     "annualReportDue": "Within 3 months after fiscal year end",
     "nameReservation": 25,
-    "nameReservationNotes": "Application for reserved name is $25 under 11 V.S.A. § 4012."
+    "nameReservationNotes": "Application for reserved name $25 under 11 V.S.A. § 4012 / SOS fee schedule."
   },
   "sources": [
     {
       "name": "Vermont Secretary of State",
       "url": "https://sos.vermont.gov/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Vermont business notices and annual report contact",
-      "url": "https://sos.vermont.gov/corporations/fees/notices/",
-      "lastAccessed": "2026-05-12"
+      "name": "Vermont Business Services fees and statutes",
+      "url": "https://sos.vermont.gov/business-services/fees-statutes",
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Vermont corporations fees",
-      "url": "https://sos.vermont.gov/corporations/fees/",
-      "lastAccessed": "2026-05-12"
+      "name": "Vermont domestic LLC formation",
+      "url": "https://sos.vermont.gov/business-services/business-filings/domestic-formation/llc",
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Vermont LLC fee statute",
+      "name": "Vermont annual/biennial reports",
+      "url": "https://sos.vermont.gov/business-services/business-filings/annualbiennial-reports",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Vermont LLC fee statute 11 V.S.A. § 4012",
       "url": "https://legislature.vermont.gov/statutes/section/11/025/04012",
-      "lastAccessed": "2026-05-12"
-    },
-    {
-      "name": "Vermont LLC annual report statute",
-      "url": "https://legislature.vermont.gov/statutes/section/11/025/04033",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
