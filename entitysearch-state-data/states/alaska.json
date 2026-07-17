@@ -56,7 +56,7 @@
   },
   "filingFacts": {
     "llcFee": 250,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $250 (online or PDF form 08-484).",
     "annualReport": 100,
     "annualReportDue": "Jan 2 (Biennial)",
     "nameReservation": 25,
@@ -66,23 +66,23 @@
     {
       "name": "Official Corporations Contact Source",
       "url": "https://www.commerce.alaska.gov/web/cbpl/corporations/corpformsfees.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/FormsFees.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Forms by Entity Source",
       "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/CorpFormsFees/FormsbyEntity",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Biennial Report Source",
       "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/BiennialReports",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

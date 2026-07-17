@@ -6,13 +6,13 @@
   "states": {
     "AL": {
       "name": "Alabama",
-      "formation_fee": 228,
+      "formation_fee": 200,
       "annual_report_fee": 0,
       "annual_report_due_date": "N/A",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.alabama.gov/business-entities/fees",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.sos.alabama.gov/business-entities/fees"
+      "official_link": "https://www.sos.alabama.gov/business-entities/llcs",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sos.alabama.gov/sites/default/files/2022-01/2021FeeSchedule.pdf"
     },
     "AK": {
       "name": "Alaska",
@@ -20,9 +20,9 @@
       "annual_report_fee": 100,
       "annual_report_due_date": "Jan 2 (Biennial)",
       "state_income_tax_rate": null,
-      "official_link": "https://www.commerce.alaska.gov/web/cbpl/Corporations/FormsFees.aspx",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/FormsFees.aspx"
+      "official_link": "https://www.commerce.alaska.gov/web/cbpl/Corporations/CorpFormsFees/FormsbyEntity",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/CorpFormsFees/FormsbyEntity"
     },
     "AZ": {
       "name": "Arizona",
@@ -31,8 +31,8 @@
       "annual_report_due_date": "N/A",
       "state_income_tax_rate": null,
       "official_link": "https://www.azcc.gov/corporations/fee-and-payment-info",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.azcc.gov/corporations/fee-and-payment-info"
+      "last_verified": "2026-07-17",
+      "source_url": "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-llcs.pdf"
     },
     "AR": {
       "name": "Arkansas",

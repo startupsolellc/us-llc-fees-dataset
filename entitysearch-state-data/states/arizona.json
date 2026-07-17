@@ -56,7 +56,7 @@
   },
   "filingFacts": {
     "llcFee": 50,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization regular processing fee is $50 (expedited $85).",
     "annualReport": null,
     "annualReportDue": "N/A",
     "nameReservation": 10,
@@ -66,33 +66,38 @@
     {
       "name": "Official Corporations Contact Source",
       "url": "https://www.azcc.gov/corporations/home",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://azcc.gov/contact",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.azcc.gov/corporations/fee-and-payment-info",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official LLC Forms Source",
       "url": "https://azcc.gov/Corporations/forms",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Services FAQ Source",
       "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Instruction Source",
       "url": "https://azcc.gov/docs/default-source/corps-files/instructions/l001i-instructions-application-to-reserve-llc-name.pdf?sfvrsn=dd4233e4_6",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Schedule of LLC Fees (PDF)",
+      "url": "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-llcs.pdf",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

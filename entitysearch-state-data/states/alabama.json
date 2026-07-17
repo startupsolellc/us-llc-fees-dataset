@@ -47,8 +47,8 @@
     "otherTemplates": null
   },
   "filingFacts": {
-    "llcFee": 228,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFee": 200,
+    "llcFeeNotes": "Domestic LLC Certificate of Formation filing fee is $200 (Ala. SOS). Name reservation is required separately ($25 paper / $28 online).",
     "annualReport": null,
     "annualReportDue": "N/A",
     "nameReservation": 25,
@@ -58,28 +58,33 @@
     {
       "name": "Official Business Entities Contact Source",
       "url": "https://www.sos.alabama.gov/business-entities",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://www.sos.alabama.gov/business-entities/fees",
-      "lastAccessed": "2026-05-12"
+      "name": "LLCs page (domestic filing fees)",
+      "url": "https://www.sos.alabama.gov/business-entities/llcs",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Business Entities Division Fees (2021 schedule PDF)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/2022-01/2021FeeSchedule.pdf",
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Forms Source",
       "url": "https://www.sos.alabama.gov/business-entities/business-downloads",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Fee Source",
       "url": "https://www.sos.alabama.gov/sites/default/files/2022-01/2021FeeSchedule.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Domestic Entity Guidance",
       "url": "https://www.sos.alabama.gov/sites/default/files/Business-Entities/Domestic%20Business%20Entities%20Brochure%202022.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
