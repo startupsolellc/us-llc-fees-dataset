@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://file.dos.pa.gov/",
     "paperRenewalUrl": null,
-    "notes": "Beginning January 1, 2025, most domestic and foreign filing associations, including LLCs, must file an annual report. LLC annual reports are filed January 1 through September 30 and online filing is strongly recommended."
+    "notes": "Beginning 2025, domestic and foreign LLCs must file an annual report Jan 1\u2013Sept 30 (deadline Sept 30); fee $7 for for-profit LLCs ($0 for nonprofit-purpose LLCs). Online filing at file.dos.pa.gov strongly recommended."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 125,
-    "llcFeeNotes": "Certificate of Organization for a domestic limited liability company.",
+    "llcFeeNotes": "Certificate of Organization for a domestic limited liability company $125 (PA DOS fees and payments).",
     "annualReport": 7,
     "annualReportDue": "Sept 30",
     "nameReservation": 70,
-    "nameReservationNotes": "Name Reservation/Registration is listed as $70 in the Department of State fee schedule."
+    "nameReservationNotes": "Name Reservation/Registration is $70."
   },
   "sources": [
     {
       "name": "Pennsylvania business fees and payments",
       "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Pennsylvania annual reports",
       "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Pennsylvania business program contact",
       "url": "https://www.pa.gov/agencies/dos/programs/business",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Pennsylvania Department of State contact",
       "url": "https://www.pa.gov/agencies/dos/contact-us",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://business.sos.ri.gov/",
     "paperRenewalUrl": "https://docs.sos.ri.gov/documents/BusinessServices/632-limited-liability-company-annual-report.pdf",
-    "notes": "LLCs file an annual report each calendar year after registration between February 1 and May 1. The base annual report fee is $50; online filings include a $2.50 enhanced access fee."
+    "notes": "LLCs file annual report each calendar year after registration between February 1 and May 1. Base fee $50; online adds $2.50 enhanced access fee (total $52.50). Form 632 penalty $25 if not filed by May 31."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,43 +48,43 @@
   },
   "filingFacts": {
     "llcFee": 156,
-    "llcFeeNotes": "Domestic LLC Articles of Organization are $150 plus a $6 enhanced access fee when filed online.",
+    "llcFeeNotes": "Domestic LLC Articles of Organization $150 plus $6 enhanced access fee when filed online (Form 400; business-forms-fee-schedule.pdf).",
     "annualReport": 52.5,
     "annualReportDue": "Feb 1 - May 1",
     "nameReservation": 52.5,
-    "nameReservationNotes": "Reservation of Entity Name is $50 plus a $2.50 enhanced access fee when filed online; paper form reserves the name for a non-renewable 120-day period."
+    "nameReservationNotes": "Reservation of Entity Name $50 plus $2.50 enhanced access fee online (Form 620); paper reserves name for non-renewable 120 days."
   },
   "sources": [
     {
       "name": "Rhode Island business forms fee schedule",
       "url": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Rhode Island costs and fees",
       "url": "https://www.sos.ri.gov/divisions/business-services/business-basics/costs-and-fees",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Rhode Island business services",
       "url": "https://www.sos.ri.gov/divisions/business-services",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Rhode Island annual report filing tips",
       "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/tips-for-filing/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Rhode Island LLC annual report form",
       "url": "https://docs.sos.ri.gov/documents/BusinessServices/632-limited-liability-company-annual-report.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Rhode Island reservation of entity name form",
       "url": "https://docs.sos.ri.gov/documents/BusinessServices/620-reservation-of-entity-name.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

@@ -381,7 +381,7 @@
       "annual_report_due_date": "Sept 30",
       "state_income_tax_rate": null,
       "official_link": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments.html",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments.html"
     },
     "RI": {
@@ -391,7 +391,7 @@
       "annual_report_due_date": "Feb 1 - May 1",
       "state_income_tax_rate": null,
       "official_link": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf"
     },
     "SC": {
@@ -400,9 +400,9 @@
       "annual_report_fee": 0,
       "annual_report_due_date": "N/A",
       "state_income_tax_rate": null,
-      "official_link": "https://sos.sc.gov/business-entities/filing-fees",
-      "last_verified": "2026-05-12",
-      "source_url": "https://sos.sc.gov/business-entities/filing-fees"
+      "official_link": "https://businessfilings.sc.gov/BusinessFiling/Home/DownloadForms?pdfCategoryId=1",
+      "last_verified": "2026-07-17",
+      "source_url": "https://businessfilings.sc.gov/BusinessFiling/Home/DownloadForms?pdfCategoryId=1"
     },
     "SD": {
       "name": "South Dakota",

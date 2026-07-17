@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": null,
     "paperRenewalUrl": null,
-    "notes": "South Carolina LLCs do not file an annual report with the Secretary of State. Business corporations file annual reports with the Department of Revenue, but LLCs are not listed as a Secretary of State annual report filing."
+    "notes": "South Carolina LLCs do not file an annual report with the Secretary of State. Business corporations file annual reports with the Department of Revenue."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,38 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 110,
-    "llcFeeNotes": "Articles of Organization for a domestic limited liability company.",
+    "llcFeeNotes": "Articles of Organization for a domestic LLC $110 (SC Business Entities Online downloadable forms; \u00a7\u00a733-44-202/203).",
     "annualReport": null,
     "annualReportDue": "N/A",
     "nameReservation": 25,
-    "nameReservationNotes": "Application to Reserve a Limited Liability Company Name reserves the name for a non-renewable 120-day period."
+    "nameReservationNotes": "Application to Reserve a Limited Liability Company Name reserves the name for a non-renewable 120-day period ($25)."
   },
   "sources": [
     {
       "name": "South Carolina business entities",
       "url": "https://sos.sc.gov/online-filings/business-entities",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "South Carolina business entity FAQs",
       "url": "https://sos.sc.gov/faqs-about-business-entities",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "South Carolina business filings office directory",
       "url": "https://sos.sc.gov/office-directory",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "South Carolina LLC name reservation form",
       "url": "https://businessfilings.sc.gov/BusinessFiling/Entity/DownloadForm?entityType=12&filingType=Application+to+Reserve+a+Limited+Liability+Company+Name&formName=F0038",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "South Carolina filing fees",
-      "url": "https://sos.sc.gov/business-entities/filing-fees",
-      "lastAccessed": "2026-05-12"
+      "name": "South Carolina Business Entities Online forms and fees",
+      "url": "https://businessfilings.sc.gov/BusinessFiling/Home/DownloadForms?pdfCategoryId=1",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
