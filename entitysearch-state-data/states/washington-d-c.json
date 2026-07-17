@@ -10,7 +10,7 @@
   "secretaryOfState": {
     "agency": "District of Columbia Department of Licensing and Consumer Protection (DLCP) Corporations Division",
     "officialName": "Department of Licensing and Consumer Protection",
-    "website": "https://dlcp.dc.gov/page/corporations-division",
+    "website": "https://dlcp.dc.gov/node/1614386",
     "phone": "202-442-4400",
     "email": "dlcp.corp@dc.gov"
   },
@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://corponline.dlcp.dc.gov/",
     "paperRenewalUrl": null,
-    "notes": "District of Columbia LLCs are required to file a biennial report by April 1 of every second year. The filing fee is $300."
+    "notes": "DC requires a BRA-25 biennial report: first due April 1 of the calendar year after registration, then April 1 every two years thereafter. Fee $300; late fee $100. File via CorpOnline."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,28 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 99,
-    "llcFeeNotes": "Articles of Organization for a domestic LLC (Form DLC-1).",
+    "llcFeeNotes": "Domestic LLC Certificate of Organization (Form DLC-1): $99 (DLCP Corporations Division Fees — Limited Liability Company).",
     "annualReport": 300,
-    "annualReportDue": "April 1 of every second year",
+    "annualReportDue": "April 1 (biennial; first year after registration)",
     "nameReservation": 50,
-    "nameReservationNotes": "Reserve or renew a business name for 120 days."
+    "nameReservationNotes": "Reservation or transfer of name: $50 (DLCP LLC fee schedule)."
   },
   "sources": [
     {
       "name": "DLCP Corporations Division",
-      "url": "https://dlcp.dc.gov/page/corporations-division",
-      "lastAccessed": "2026-07-04"
+      "url": "https://dlcp.dc.gov/node/1614386",
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "DLCP Corporate Fees",
-      "url": "https://dlcp.dc.gov/node/1618686",
-      "lastAccessed": "2026-07-04"
+      "name": "DLCP Corporations Division Fees - Limited Liability Company",
+      "url": "https://dlcp.dc.gov/node/1621921",
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "District of Columbia CorpOnline Portal",
+      "name": "DLCP Domestic Limited Liability Company",
+      "url": "https://dlcp.dc.gov/node/1616716",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "DLCP Business Registration FAQs (biennial report due)",
+      "url": "https://dlcp.dc.gov/page/corporations-division-business-registration-faqs",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "DC CorpOnline portal",
       "url": "https://corponline.dlcp.dc.gov/",
-      "lastAccessed": "2026-07-04"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-04"
+  "lastVerified": "2026-07-17"
 }
