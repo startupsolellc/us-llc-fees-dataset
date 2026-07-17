@@ -350,9 +350,9 @@
       "annual_report_fee": 0,
       "annual_report_due_date": "N/A",
       "state_income_tax_rate": null,
-      "official_link": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/"
+      "official_link": "https://www.ohiosos.gov/business/business-filing-forms",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.ohiosos.gov/business/business-filing-forms"
     },
     "OK": {
       "name": "Oklahoma",
@@ -361,7 +361,7 @@
       "annual_report_due_date": "Anniversary date",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.ok.gov/business/fees.aspx",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.sos.ok.gov/business/fees.aspx"
     },
     "OR": {
@@ -371,7 +371,7 @@
       "annual_report_due_date": "Anniversary date",
       "state_income_tax_rate": null,
       "official_link": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf"
     },
     "PA": {

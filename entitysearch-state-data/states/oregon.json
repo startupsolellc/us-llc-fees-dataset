@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://secure.sos.state.or.us/cbrmanager/index.action",
     "paperRenewalUrl": null,
-    "notes": "Oregon LLCs file annual reports through the Oregon Business Registry. All business entity types other than assumed business names renew annually on the anniversary date of the original filing."
+    "notes": "Oregon LLCs file annual renewals/reports through the Oregon Business Registry; domestic LLC renewal $100 annually on the anniversary date of the original filing."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Articles of Organization for an Oregon domestic limited liability company.",
+    "llcFeeNotes": "Articles of Organization for Oregon domestic LLC $100 (Business Registry Fee Schedule).",
     "annualReport": 100,
     "annualReportDue": "Anniversary date",
     "nameReservation": 100,
-    "nameReservationNotes": "Application for Name Reservation reserves a name for 120 days; assumed business names cannot be reserved."
+    "nameReservationNotes": "Application for Name Reservation $100; reserves a name for 120 days; assumed business names cannot be reserved."
   },
   "sources": [
     {
       "name": "Oregon Business Registry fee schedule",
       "url": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Oregon business registration FAQ",
       "url": "https://sos.oregon.gov/business/Pages/registering-your-business-name.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Oregon Corporation Division contact",
       "url": "https://sos.oregon.gov/business/Pages/corporation-division-help.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Oregon application for name reservation",
       "url": "https://sos.oregon.gov/business/Documents/business-registry-forms/name-reservation.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

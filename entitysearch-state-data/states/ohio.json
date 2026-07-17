@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": null,
     "paperRenewalUrl": null,
-    "notes": "Ohio business entities are not required to file an annual report with the Secretary of State. Ohio Secretary of State required periodic filings apply to specific entity or registration types such as professional associations, LLPs, nonprofits, trade names, fictitious names, trademarks, and service marks."
+    "notes": "Ohio business LLCs are not required to file an annual report with the Secretary of State. Periodic filings apply to other entity/registration types (e.g., professional associations, LLPs, nonprofits, trade names)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,28 +48,28 @@
   },
   "filingFacts": {
     "llcFee": 99,
-    "llcFeeNotes": "Domestic limited liability company articles of organization filing fee.",
+    "llcFeeNotes": "Domestic LLC Articles of Organization (Form 610) filing fee $99 (Ohio SOS Business Filing Forms & Fee Schedule; Form 610).",
     "annualReport": null,
     "annualReportDue": "N/A",
     "nameReservation": 39,
-    "nameReservationNotes": "Name Reservation/Transfer/Cancellation filing is listed as $39/$25; $39 is the reservation filing amount."
+    "nameReservationNotes": "Name Reservation filing fee $39; transfer/cancellation $25 (Form 534B)."
   },
   "sources": [
     {
-      "name": "Ohio filing forms and fee schedule",
-      "url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
-      "lastAccessed": "2026-05-12"
+      "name": "Ohio Business Filing Forms and Fee Schedule",
+      "url": "https://www.ohiosos.gov/business/business-filing-forms",
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Ohio business FAQ annual reports",
       "url": "https://www.ohiosos.gov/business/ohio-business-roadmap/frequently-asked-questions",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Ohio Secretary of State contact",
       "url": "https://www.ohiosos.gov/secretary-office/contact-our-office/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

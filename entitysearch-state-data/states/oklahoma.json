@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.sos.ok.gov/business/default.aspx",
     "paperRenewalUrl": "https://www.sos.ok.gov/forms/Llcannualcertificate.PDF",
-    "notes": "Domestic and foreign LLCs file a $25 annual certificate each year on the anniversary date of registration. The official business services page links annual certificates for online filing."
+    "notes": "Domestic and foreign LLCs file Annual Certificates ($25) each year on the anniversary date of registration (18 OS 2055.2)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Articles of Organization - Oklahoma LLC.",
+    "llcFeeNotes": "Articles of Organization - Oklahoma LLC $100 (18 OS 2055; SOS fees page).",
     "annualReport": 25,
     "annualReportDue": "Anniversary date",
     "nameReservation": 10,
-    "nameReservationNotes": "Name Reservation and LLC Name Reservation are listed as $10."
+    "nameReservationNotes": "Name Reservation and Name Reservation Extension/Renewal are each $10."
   },
   "sources": [
     {
       "name": "Oklahoma filing fees",
       "url": "https://www.sos.ok.gov/business/fees.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Oklahoma business forms and LLC filings",
       "url": "https://www.sos.ok.gov/business/forms.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Oklahoma LLC annual certificate form",
       "url": "https://www.sos.ok.gov/forms/Llcannualcertificate.PDF",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Oklahoma business services contact",
       "url": "https://www.sos.ok.gov/business/contact.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
