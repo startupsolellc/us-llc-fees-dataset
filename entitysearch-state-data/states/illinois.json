@@ -47,7 +47,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.ilsos.gov/departments/business-services/annual-reports.html",
     "paperRenewalUrl": null,
-    "notes": "Illinois LLCs file annual reports; the report is due before the first day of the anniversary month."
+    "notes": "Illinois LLCs file annual reports (LLC-50.1) with a $75 filing fee (+$50 expedited). The report is due before the first day of the anniversary month."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -56,38 +56,38 @@
   },
   "filingFacts": {
     "llcFee": 150,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization (LLC-5.5) base filing fee $150; online standard processing $150 (10 business days), 24-hour online service $250; paper expedited service +$100 in addition to base fee. Series LLC (LLC-5.5(S)) $400 base.",
     "annualReport": 75,
     "annualReportDue": "Before first day of anniversary month",
-    "nameReservation": null,
-    "nameReservationNotes": "Illinois provides LLC name reservation through form LLC-1.15; fee should be verified on the current form before use."
+    "nameReservation": 25,
+    "nameReservationNotes": "Form LLC-1.15 Application to Reserve a Name: $25 base (+$50 expedited). Name reservation does not create an LLC; use LLC-5.5 for formation."
   },
   "sources": [
     {
       "name": "Official Business Services Source",
       "url": "https://www.ilsos.gov/departments/business_services/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://apps.ilsos.gov/ContactFormsWeb/businessservices_contact.jsp",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
-      "url": "https://www.ilsos.gov/departments/business_services/organization/llc.html",
-      "lastAccessed": "2026-05-12"
+      "url": "https://www.ilsos.gov/publications/business-services/llc.html",
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Source",
       "url": "https://www.ilsos.gov/departments/business-services/annual-reports.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
-      "url": "https://www.ilsos.gov/departments/business-services/business-searches.html",
-      "lastAccessed": "2026-05-12"
+      "url": "https://www.ilsos.gov/publications/business-services/llc.html",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

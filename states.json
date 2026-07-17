@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-07-17",
   "maintained_by": "https://formation.legal",
   "license": "MIT",
   "states": {
@@ -126,13 +126,13 @@
     },
     "IL": {
       "name": "Illinois",
-      "formation_fee": 100,
+      "formation_fee": 150,
       "annual_report_fee": 75,
       "annual_report_due_date": "Before first day of anniversary month",
       "state_income_tax_rate": null,
-      "official_link": "https://www.ilsos.gov/departments/business_services/organization/llc.html",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.ilsos.gov/departments/business_services/organization/llc.html"
+      "official_link": "https://www.ilsos.gov/publications/business-services/llc.html",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.ilsos.gov/departments/business-services/organization/llc-instructions.html"
     },
     "IN": {
       "name": "Indiana",
