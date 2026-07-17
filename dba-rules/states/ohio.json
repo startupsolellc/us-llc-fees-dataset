@@ -1,0 +1,50 @@
+{
+  "stateName": "Ohio",
+  "stateAbbr": "OH",
+  "stateSlug": "ohio",
+  "dbaTerm": "trade name or fictitious name",
+  "filingLevel": "state",
+  "llcFilesWith": "Ohio Secretary of State (Form 534A)",
+  "soleProprietorFilesWith": "Ohio Secretary of State (Form 534A)",
+  "llcFee": 39,
+  "feeBasis": "$39 files either a trade name registration or a fictitious name report; the same form and fee cover both tracks. There is no publication requirement.",
+  "duration": "5 years",
+  "renewalRule": "Renewable in the 6 months before expiry for further 5-year terms. The Secretary of State sends a renewal notice.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "exclusive-registration",
+  "protectionNote": "Ohio is the only pilot state where a DBA filing can carry real name rights, and it runs two tracks on one form. A trade name registration is checked for distinguishability against every trade name, corporation, LLC and partnership name on the Secretary of State's records (R.C. 1329.02) and asserts the exclusive right to use the name. A fictitious name report is taken without any name check and asserts nothing; it only discloses who is behind the name.",
+  "searchUrl": "https://businesssearch.ohiosos.gov/",
+  "searchNote": "Registered trade names and reported fictitious names sit in the same Secretary of State records as entity names, so the standard Ohio business search covers them.",
+  "filingUrl": "https://www.ohiosos.gov/globalassets/business/forms/534A_instructions.pdf",
+  "statuteCitation": "Ohio Rev. Code §§ 1329.01-1329.10",
+  "statuteUrl": "https://codes.ohio.gov/ohio-revised-code/section-1329.01",
+  "notes": "Pick the track deliberately. When the name is available, registering it as a trade name costs the same $39 as a fictitious name report but adds the exclusive-use claim and blocks later confusable registrations. The fictitious name report is the fallback when the name is already taken or exclusivity does not matter; it is due within 30 days of first use.",
+  "sources": [
+    {
+      "citation": "Ohio Rev. Code § 1329.01",
+      "title": "Registration of trade name or report of fictitious name",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-1329.01",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Ohio Rev. Code § 1329.02",
+      "title": "Restrictions against filing",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-1329.02",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Ohio Rev. Code § 1329.04",
+      "title": "Term and renewal of registration",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-1329.04",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Ohio Secretary of State",
+      "title": "Name Registration Instructions, Form 534A",
+      "url": "https://www.ohiosos.gov/globalassets/business/forms/534A_instructions.pdf",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}

@@ -1,0 +1,44 @@
+{
+  "stateName": "Florida",
+  "stateAbbr": "FL",
+  "stateSlug": "florida",
+  "dbaTerm": "fictitious name",
+  "filingLevel": "state",
+  "llcFilesWith": "Florida Division of Corporations (Sunbiz)",
+  "soleProprietorFilesWith": "Florida Division of Corporations (Sunbiz)",
+  "llcFee": 50,
+  "feeBasis": "The $50 registration fee is the same for every owner type and filing path, and renewal costs another $50. The newspaper advertisement required before filing is paid separately at the paper's own rate.",
+  "duration": "Through December 31 of the 5th year",
+  "renewalRule": "Renewable between January 1 and December 31 of the expiration year for another 5-year period.",
+  "publicationRequired": true,
+  "publicationRule": "The name must be advertised at least once in a newspaper in the county of the registrant's principal place of business before registering, and the application certifies that this has been done. Fla. Stat. § 865.09(3).",
+  "protectionLevel": "none",
+  "protectionNote": "Registration is for public notice only. Fla. Stat. § 865.09(8) states that it does not give rise to a presumption of the registrant's rights to own or use the name and does not affect trademark or entity-name rights previously acquired by others.",
+  "searchUrl": "https://dos.fl.gov/sunbiz/search/",
+  "searchNote": "Sunbiz has a free statewide fictitious name search. Florida is one of the few states where every registration sits in one public index.",
+  "filingUrl": "https://dos.fl.gov/sunbiz/start-business/efile/fl-fictitious-name-registration/",
+  "statuteCitation": "Fla. Stat. § 865.09",
+  "statuteUrl": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0865/Sections/0865.09.html",
+  "notes": "A business operating under an unregistered fictitious name cannot maintain a lawsuit in Florida courts until it registers. Every registration expires on December 31 of the fifth year regardless of the month it was filed, so a January registration holds almost a full year longer than a December one.",
+  "sources": [
+    {
+      "citation": "Fla. Stat. § 865.09",
+      "title": "Fictitious name registration",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0865/Sections/0865.09.html",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Florida Division of Corporations",
+      "title": "Fictitious Name Registration",
+      "url": "https://dos.fl.gov/sunbiz/start-business/efile/fl-fictitious-name-registration/",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Florida Division of Corporations",
+      "title": "Search Records",
+      "url": "https://dos.fl.gov/sunbiz/search/",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}

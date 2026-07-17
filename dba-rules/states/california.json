@@ -1,0 +1,44 @@
+{
+  "stateName": "California",
+  "stateAbbr": "CA",
+  "stateSlug": "california",
+  "dbaTerm": "fictitious business name",
+  "filingLevel": "county",
+  "llcFilesWith": "County clerk of the county of the principal place of business",
+  "soleProprietorFilesWith": "County clerk of the county of the principal place of business",
+  "llcFee": null,
+  "feeBasis": "The statutory fee is $10 for the first name and owner plus $2 for each additional one (Bus. & Prof. Code § 17929), but Government Code § 54985 lets each county raise its fees to recover costs, and counties do: Placer County charges $30 for the first name. Publication is paid separately at the newspaper's rate.",
+  "duration": "5 years from filing",
+  "renewalRule": "Renewable for further 5-year periods. No republication is needed when nothing has changed and the renewal is filed within 40 days of expiry. A statement also expires 40 days after any change in its facts.",
+  "publicationRequired": true,
+  "publicationRule": "Within 45 days of filing, the statement runs in a newspaper of general circulation in the county once a week for four successive weeks, and an affidavit of publication is filed with the clerk within 45 days of the last run. Bus. & Prof. Code § 17917; Gov. Code § 6064.",
+  "protectionLevel": "county-presumption",
+  "protectionNote": "California sits between the no-rights states and Ohio: filing first, while actually doing business under the name, creates a rebuttable presumption of the exclusive right to use it as a trade name in that county only (Bus. & Prof. Code § 14411). That is evidence for a dispute, not a statewide grant.",
+  "searchUrl": null,
+  "searchNote": "There is no statewide fictitious business name search. Each county clerk keeps its own index, many of them online. The Secretary of State's bizfile search does not include FBN statements.",
+  "filingUrl": null,
+  "statuteCitation": "Cal. Bus. & Prof. Code §§ 17900-17930",
+  "statuteUrl": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=7.&part=3.&chapter=5.",
+  "notes": "Filing is due within 40 days of starting business under the name. A registrant with no California place of business files with the Clerk of Sacramento County. The four-week newspaper run is the longest publication requirement of the five pilot states.",
+  "sources": [
+    {
+      "citation": "Cal. Bus. & Prof. Code §§ 17900-17930",
+      "title": "Fictitious Business Names",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=7.&part=3.&chapter=5.",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Cal. Bus. & Prof. Code § 14411",
+      "title": "Presumption of exclusive right from filing",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=14411",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Cal. Gov. Code § 6064",
+      "title": "Publication of notice",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6064",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}

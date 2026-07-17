@@ -1,0 +1,50 @@
+{
+  "stateName": "Texas",
+  "stateAbbr": "TX",
+  "stateSlug": "texas",
+  "dbaTerm": "assumed name",
+  "filingLevel": "split",
+  "llcFilesWith": "Texas Secretary of State (Form 503)",
+  "soleProprietorFilesWith": "County clerk in each county where business is conducted",
+  "llcFee": 25,
+  "feeBasis": "The $25 fee is the Secretary of State filing fee for Form 503, the path every LLC and corporation uses. County filing fees for sole proprietors and partnerships are set by each county clerk.",
+  "duration": "Up to 10 years",
+  "renewalRule": "Renewable for successive terms of up to 10 years each. The renewal must be filed within 6 months before the certificate expires; an expired certificate is void.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Filing gives no rights in the name. Tex. Bus. & Com. Code § 71.157 states that filing is not actual use of the name for determining priority, and it does not stop anyone else from filing the same assumed name or forming an entity under it.",
+  "searchUrl": "https://www.sos.state.tx.us/corp/sosda/index.shtml",
+  "searchNote": "State-level certificates are searched through SOSDirect, which needs an account and charges $1.00 per search. County-level certificates sit in each county clerk's records. The Comptroller's taxable entity search does not list assumed names.",
+  "filingUrl": "https://www.sos.state.tx.us/corp/instructions/503.shtml",
+  "statuteCitation": "Tex. Bus. & Com. Code ch. 71",
+  "statuteUrl": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.71.htm",
+  "notes": "Since September 1, 2019, corporations and LLCs file only with the Secretary of State; the duplicate county filing for entities was abolished (HB 3609). A business operating under an unregistered assumed name cannot maintain a lawsuit in Texas courts until it files. In Texas statutes the phrase \"fictitious name\" means something different: the alternate name a foreign entity registers when its legal name is unavailable, not a DBA.",
+  "sources": [
+    {
+      "citation": "Tex. Bus. & Com. Code ch. 71",
+      "title": "Assumed Business or Professional Name",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.71.htm",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Form 503 Instructions, Assumed Name Certificate",
+      "url": "https://www.sos.state.tx.us/corp/instructions/503.shtml",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Name Filings FAQ",
+      "url": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Business Filings and Trademarks Fee Schedule",
+      "url": "https://www.sos.state.tx.us/corp/forms/806_boc.pdf",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}
