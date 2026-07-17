@@ -296,12 +296,12 @@
     },
     "NJ": {
       "name": "New Jersey",
-      "formation_fee": 125,
+      "formation_fee": 100,
       "annual_report_fee": 75,
       "annual_report_due_date": "Last day of anniversary month",
       "state_income_tax_rate": null,
       "official_link": "https://www.nj.gov/treasury/revenue/fees.shtml",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.nj.gov/treasury/revenue/fees.shtml"
     },
     "NM": {
@@ -331,8 +331,8 @@
       "annual_report_due_date": "April 15",
       "state_income_tax_rate": null,
       "official_link": "https://www.sosnc.gov/fees/by_title/_Business_Registration",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.sosnc.gov/divisions/business_registration/annual_report_due_dates"
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sosnc.gov/fees/by_title/_Business_Registration"
     },
     "ND": {
       "name": "North Dakota",
@@ -341,7 +341,7 @@
       "annual_report_due_date": "Nov 15",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc"
     },
     "OH": {

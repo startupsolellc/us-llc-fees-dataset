@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.njportal.com/DOR/annualreports/",
     "paperRenewalUrl": null,
-    "notes": "New Jersey LLC annual reports are filed online and are due by the last day of the anniversary month."
+    "notes": "New Jersey LLC annual reports are filed online and are due by the last day of the anniversary month; fee $75."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -47,29 +47,29 @@
     "otherTemplates": null
   },
   "filingFacts": {
-    "llcFee": 125,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFee": 100,
+    "llcFeeNotes": "Domestic LLC Certificate of Formation filing fee is $100 (NJ DORES Registry Fee Schedules). Expedited/same-day service is a separate optional fee.",
     "annualReport": 75,
     "annualReportDue": "Last day of anniversary month",
     "nameReservation": 50,
-    "nameReservationNotes": "LLC name reservation, transfer of reserved name, and renewal of reserved name are each listed at $50."
+    "nameReservationNotes": "LLC name reservation, transfer of reserved name, and renewal of reserved name are each $50."
   },
   "sources": [
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Annual Reports Portal",
       "url": "https://www.njportal.com/DOR/annualreports/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "DORES In-Person Service and Contact",
       "url": "https://www.nj.gov/treasury/revenue/33lobby.shtml",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

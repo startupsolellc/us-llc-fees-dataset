@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.sosnc.gov/divisions/business_registration/annual_report",
     "paperRenewalUrl": null,
-    "notes": "North Carolina LLC annual reports are due April 15 each year after the year of creation. Online filing is $203; paper filing is $200."
+    "notes": "North Carolina LLC annual reports are due April 15 each year after the year of creation. Online filing is $203 (includes $3 electronic fee for credit cards; ACH electronic fee $2); paper filing is $200."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 125,
-    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $125.",
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $125 (SOS Business Registration fee schedule).",
     "annualReport": 203,
     "annualReportDue": "April 15",
     "nameReservation": 10,
@@ -58,23 +58,23 @@
     {
       "name": "Business Registration",
       "url": "https://www.sosnc.gov/divisions/business_registration",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Business Registration Fee Schedule",
       "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "File an Annual Report",
       "url": "https://www.sosnc.gov/divisions/business_registration/annual_report",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Annual Report Due Dates",
       "url": "https://www.sosnc.gov/divisions/business_registration/annual_report_due_dates",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

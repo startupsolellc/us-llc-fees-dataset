@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://firststop.sos.nd.gov/",
     "paperRenewalUrl": null,
-    "notes": "Most North Dakota business registrations and maintenance filings, including annual reports, are completed through the FirstStop Portal. Business LLC annual reports are due November 15."
+    "notes": "Most North Dakota business registrations and maintenance filings, including annual reports, are completed through the FirstStop Portal. Business LLC annual reports are due November 15; fee $50."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 135,
-    "llcFeeNotes": "Registration fee for domestic and foreign business LLCs.",
+    "llcFeeNotes": "Registration fee for domestic and foreign business LLCs is $135 (SOS LLC page).",
     "annualReport": 50,
     "annualReportDue": "Nov 15",
     "nameReservation": null,
@@ -58,23 +58,23 @@
     {
       "name": "North Dakota LLC fees and annual report requirements",
       "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "North Dakota maintain registration and annual reports",
       "url": "https://www.sos.nd.gov/business/business-services/maintain-registration",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "North Dakota Secretary of State contact",
       "url": "https://www.sos.nd.gov/contact",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "North Dakota start a business and name reservation",
       "url": "https://www.sos.nd.gov/business/business-services/start-business",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
