@@ -18,8 +18,11 @@
     "insurance company"
   ],
   "nameReservationFee": 10,
+  "nameReservationTotalCost": 10.0,
+  "nameReservationCostBasis": "The $10 fee is the whole cost online or by mail. A separate $10 special handling fee applies only to requests dropped off in person.",
   "nameReservationDuration": "60 days",
   "nameReservationUrl": "https://www.sos.ca.gov/business-programs/business-entities/name-reservations",
+  "nameReservationProcessingTime": null,
   "namingStatuteUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CORP&sectionNum=17701.08",
   "notes": "An LLC name may not contain the listed banking/corporate/insurance terms at all (Cal. Corp. Code § 17701.08(e)). Reservations ($10, § 17701.09) cannot run for consecutive 60-day periods for the same applicant. At least one day must elapse between reservations. Filing is fastest online via bizfileOnline.sos.ca.gov.",
   "sources": [
@@ -40,7 +43,13 @@
       "title": "Name Reservations",
       "url": "https://www.sos.ca.gov/business-programs/business-entities/name-reservations",
       "lastAccessed": "2026-07-10"
+    },
+    {
+      "citation": "California Secretary of State",
+      "title": "Name Reservation Request form (fees and special handling)",
+      "url": "https://bpd.cdn.sos.ca.gov/corp/pdf/name-reservation-request-form.pdf",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-10"
+  "lastVerified": "2026-07-17"
 }

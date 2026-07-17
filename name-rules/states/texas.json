@@ -18,8 +18,11 @@
     "world war"
   ],
   "nameReservationFee": 40,
+  "nameReservationTotalCost": 41.08,
+  "nameReservationCostBasis": "Paying the $40 fee by credit card adds a statutory 2.7 percent convenience fee, which brings the card total to $41.08. Paying by check or money order keeps it at $40.",
   "nameReservationDuration": "120 days",
   "nameReservationUrl": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml",
+  "nameReservationProcessingTime": null,
   "namingStatuteUrl": "https://statutes.capitol.texas.gov/Docs/BO/htm/BO.5.htm",
   "notes": "\"Lotto\" and \"lottery\" are prohibited outright (§ 5.061). Veteran-related terms (veteran, legion, foreign, Spanish, disabled, war, world war) require written approval from a congressionally recognized veterans organization (§ 5.062). Names falsely implying affiliation with a governmental entity are prohibited (§ 5.064). Reservations (Form 501, $40; § 4.151(2)) last 120 days and may be renewed for successive 120-day periods during the 30 days before expiry (§§ 5.104–5.105).",
   "sources": [
@@ -40,7 +43,13 @@
       "title": "Name Filings FAQ",
       "url": "https://www.sos.state.tx.us/corp/namefilingsfaqs.shtml",
       "lastAccessed": "2026-07-10"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Form 501 instructions (fees and duration)",
+      "url": "https://www.sos.state.tx.us/corp/instructions/501.shtml",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-10"
+  "lastVerified": "2026-07-17"
 }

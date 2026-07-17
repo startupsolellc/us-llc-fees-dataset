@@ -8,8 +8,11 @@
   "distinguishabilityCitation": "Fla. Stat. § 605.0112(2)",
   "restrictedWords": [],
   "nameReservationFee": 25,
+  "nameReservationTotalCost": 25.0,
+  "nameReservationCostBasis": "The $25 fee is the whole cost. Florida has no online reservation, so there is no online service charge to add.",
   "nameReservationDuration": "120 days (non-renewable)",
   "nameReservationUrl": "https://dos.fl.gov/sunbiz/about-us/faqs/",
+  "nameReservationProcessingTime": null,
   "namingStatuteUrl": "https://www.flsenate.gov/Laws/Statutes/2025/605.0112",
   "notes": "Florida lists no specific restricted words for LLCs, but the name may not imply a purpose other than one authorized by Chapter 605 or suggest a connection with a state or federal government agency (§ 605.0112(1)). Name reservation (§ 605.01125, $25 per the Division of Corporations fee schedule) is made by a signed letter to the Department of State. There is no online reservation, and the reservation is non-renewable. A name is only finally approved when the articles of organization are filed.",
   "sources": [
@@ -36,7 +39,13 @@
       "title": "FAQs",
       "url": "https://dos.fl.gov/sunbiz/about-us/faqs/",
       "lastAccessed": "2026-07-10"
+    },
+    {
+      "citation": "Florida Division of Corporations",
+      "title": "Limited Liability Company fees",
+      "url": "https://dos.fl.gov/sunbiz/forms/fees/llc-fees/",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-10"
+  "lastVerified": "2026-07-17"
 }

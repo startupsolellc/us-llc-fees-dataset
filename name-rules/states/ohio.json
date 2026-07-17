@@ -13,8 +13,11 @@
     "trust"
   ],
   "nameReservationFee": 39,
+  "nameReservationTotalCost": 39.0,
+  "nameReservationCostBasis": "The $39 fee is the whole cost online or by mail. Transferring or cancelling a reservation on the same form costs $25. Two business day processing is optional at $100 extra.",
   "nameReservationDuration": "180 days",
   "nameReservationUrl": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
+  "nameReservationProcessingTime": null,
   "namingStatuteUrl": "https://codes.ohio.gov/ohio-revised-code/section-1706.07",
   "notes": "Names containing \"bank,\" \"banker,\" \"banking,\" \"trust,\" or similar foreign-language terms require prior approval from the Ohio Superintendent of Financial Institutions. Reservation is filed on Form 534B ($39), is valid for 180 days from filing, and the same form transfers or cancels a reservation.",
   "sources": [
@@ -40,8 +43,8 @@
       "citation": "Ohio Secretary of State",
       "title": "Filing Forms & Fee Schedule",
       "url": "https://www.ohiosos.gov/businesses/filing-forms--fee-schedule/",
-      "lastAccessed": "2026-07-10"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-10"
+  "lastVerified": "2026-07-17"
 }

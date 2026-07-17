@@ -25,10 +25,13 @@
     "indemnity"
   ],
   "nameReservationFee": 25,
+  "nameReservationTotalCost": 35.0,
+  "nameReservationCostBasis": "The $25 filing fee carries a $10 service charge on both online and mail filings, so the real cost is $35. The fee is nonrefundable, and the filing fee is kept even when the name is rejected.",
   "nameReservationDuration": "30 days",
   "nameReservationUrl": "https://sos.ga.gov/how-to-guide/how-guide-how-reserve-name",
+  "nameReservationProcessingTime": "7 business days online, 15 business days by mail",
   "namingStatuteUrl": "https://rules.sos.ga.gov/gac/590-7-20",
-  "notes": "Banking-related terms require written approval from the Georgia Department of Banking and Finance; insurance-related terms require written approval from the Office of Commissioner of Insurance. The $25 reservation fee carries a service charge ($5 online via eCorp, $10 by paper). Reservations cannot be renewed, but an available name may be reserved again after expiry.",
+  "notes": "Banking-related terms require written approval from the Georgia Department of Banking and Finance; insurance-related terms require written approval from the Office of Commissioner of Insurance, and \"college\" or \"university\" require approval from the Georgia Nonpublic Postsecondary Education Commission. A reservation request may list up to three names in order of preference; only the first available one is reserved. Reservations cannot be renewed, but an available name may be reserved again after expiry by reapplying and paying again.",
   "sources": [
     {
       "citation": "Ga. Comp. R. & Regs. 590-7-20",
@@ -46,8 +49,8 @@
       "citation": "Georgia Secretary of State",
       "title": "How to Reserve a Name",
       "url": "https://sos.ga.gov/how-to-guide/how-guide-how-reserve-name",
-      "lastAccessed": "2026-07-10"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-10"
+  "lastVerified": "2026-07-17"
 }
