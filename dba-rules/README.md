@@ -6,8 +6,18 @@ guidance, and (where filing is county-level) official county filing-office pages
 This directory is independent of `entitysearch-state-data/` and `name-rules/` and
 never modifies them; consumers of the existing namespaces are unaffected.
 
-Coverage starts with 5 pilot states (GA, TX, CA, FL, OH) and grows over time.
-A missing `{state-slug}.json` simply means that state has not been researched yet.
+Coverage starts with 5 pilot states (GA, TX, CA, FL, OH) and grows over time
+(Colorado added 2026-07-17). A missing `{state-slug}.json` usually means that
+state has not been researched yet.
+
+**One deliberate exception:** South Carolina has been researched and is
+**intentionally omitted**. SC has no statewide DBA / assumed-name registration for
+LLCs, corporations, or sole proprietors (they register locally with a business
+license; only limited partnerships and foreign entities file an assumed name with
+the SoS). That does not fit the `state` / `county` / `split` `filingLevel` model, so
+SC's DBA story is told on its state page rather than forced into this schema. Do
+not add `south-carolina.json` here without first extending the schema and the
+`/dba/` hub (a "no state filing" lane).
 
 ## Schema
 

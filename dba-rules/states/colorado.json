@@ -1,0 +1,44 @@
+{
+  "stateName": "Colorado",
+  "stateAbbr": "CO",
+  "stateSlug": "colorado",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Colorado Secretary of State, online (Statement of Trade Name of a Reporting Entity)",
+  "soleProprietorFilesWith": "Colorado Secretary of State, online (Statement of Trade Name of an Individual)",
+  "llcFee": 20,
+  "feeBasis": "A Statement of Trade Name is $20 filed online, the only path Colorado offers. The same $20 applies whether an LLC, an individual, or a partnership files.",
+  "duration": "No expiration for a reporting entity in good standing; one year for an individual or general partnership",
+  "renewalRule": "A reporting entity's trade name stays effective while the entity is in good standing. Trade names filed by an individual or general partnership expire after one year and must be renewed to stay on record.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Colorado states that trade names are not checked for distinguishability, so more than one business can register the same trade name. The filing is public notice of who uses a name, not a claim to it.",
+  "searchUrl": "https://www.coloradosos.gov/ucc/pages/biz/bizSearch.xhtml",
+  "searchNote": "Colorado keeps trade names in the same statewide database as entities, so the Secretary of State's business search returns them. That makes a Colorado trade name easy to look up, unlike states that record trade names only at the county level. Trade names are excluded from the entity name-availability check, because the state does not require them to be unique.",
+  "filingUrl": "https://www.coloradosos.gov/pubs/business/FAQs/tradeNames.html",
+  "statuteCitation": "C.R.S. Title 7, Article 71",
+  "statuteUrl": "https://www.coloradosos.gov/pubs/business/FAQs/tradeNames.html",
+  "notes": "Colorado is the cheap, searchable, state-level DBA that still grants nothing: $20 online, filed with the Secretary of State, and recorded in the same public database as entities, yet the filing gives no rights in the name because trade names are not required to be distinguishable.",
+  "sources": [
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business FAQs: Trade Names",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/tradeNames.html",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business filing fees",
+      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business FAQs: Entity Names",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/entityNames.html",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}

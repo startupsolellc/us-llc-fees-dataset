@@ -5,7 +5,8 @@ state statutes and Secretary of State guidance. This directory is independent of
 `entitysearch-state-data/` and never modifies it; consumers of the existing
 namespaces are unaffected.
 
-Coverage starts with 5 pilot states (GA, TX, CA, FL, OH) and grows over time.
+Coverage starts with 5 pilot states (GA, TX, CA, FL, OH) and grows over time
+(Colorado and South Carolina added 2026-07-17).
 A missing `{state-slug}.json` simply means that state has not been researched yet.
 
 ## Schema

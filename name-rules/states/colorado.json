@@ -1,0 +1,53 @@
+{
+  "stateName": "Colorado",
+  "stateAbbr": "CO",
+  "stateSlug": "colorado",
+  "entitySuffixRule": "Must contain the term or abbreviation \"limited liability company,\" \"ltd. liability company,\" \"limited liability co.,\" \"ltd. liability co.,\" \"limited,\" \"l.l.c.,\" \"llc,\" or \"ltd.\"",
+  "entitySuffixCitation": "C.R.S. § 7-90-601",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from every other entity name and reserved name. Capitalization, punctuation, and spacing do not make a name distinguishable, though a different entity designator, such as LLC instead of Inc., can.",
+  "distinguishabilityCitation": "C.R.S. § 7-90-601(3)",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "credit union",
+    "savings and loan",
+    "insurance",
+    "casualty",
+    "surety"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25,
+  "nameReservationCostBasis": "The $25 is the Secretary of State's online filing fee, and Colorado accepts the reservation online only, so there is no separate service charge (fee schedule revised July 1, 2024). Unusual among the states, the reservation can be renewed for another 120 days for another $25.",
+  "nameReservationDuration": "120 days",
+  "nameReservationUrl": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
+  "nameReservationProcessingTime": "Immediate; Colorado processes online filings in real time",
+  "namingStatuteUrl": "https://www.coloradosos.gov/pubs/business/FAQs/entityNames.html",
+  "notes": "Banking and insurance terms (bank, trust, credit union, savings and loan, insurance, casualty, surety) are restricted and need consent from the associated state department before the filing is accepted. Colorado files online in real time, so a reservation takes effect immediately, and unlike most states it can be renewed for another 120 days.",
+  "sources": [
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business FAQs: Entity Names",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/entityNames.html",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business filing fees",
+      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Reserve a name (help)",
+      "url": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "C.R.S. § 7-90-601",
+      "title": "Entity name",
+      "url": "https://codes.findlaw.com/co/title-7-corporations-and-associations/co-rev-st-sect-7-90-601/",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}
