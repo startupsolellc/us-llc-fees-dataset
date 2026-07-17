@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://apps1.web.maine.gov/cgi-bin/online/aro/index.pl",
     "paperRenewalUrl": "https://apps1.web.maine.gov/online/aro/form_download.html",
-    "notes": "Annual reports are required every year to maintain good standing; the legal filing deadline is June 1."
+    "notes": "Annual reports are required every year to maintain good standing; legal filing deadline is June 1. Domestic LLC annual report fee $85 (MLLC-13 on LLC forms page)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 175,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic Certificate of Formation (MLLC-6) $175 (Maine SOS Limited Liability Company Forms page).",
     "annualReport": 85,
     "annualReportDue": "June 1",
     "nameReservation": 20,
-    "nameReservationNotes": "Application for Reservation of Name for a limited liability company."
+    "nameReservationNotes": "Application for Reservation of Name (MLLC-1) $20."
   },
   "sources": [
     {
       "name": "Official Contact Source",
       "url": "https://www.maine.gov/sos/about-us/contact-us",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Source",
       "url": "https://www.maine.gov/sos/corporations-commissions/filing-an-annual-report",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Online Source",
       "url": "https://apps1.web.maine.gov/cgi-bin/online/aro/index.pl",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

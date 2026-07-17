@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://web.sos.ky.gov/FastTrack/Arp_Search.aspx",
     "paperRenewalUrl": null,
-    "notes": "Annual reports are required by June 30 each year after formation and may be filed between January 1 and June 30."
+    "notes": "Annual reports are required by June 30 each year after formation and may be filed between January 1 and June 30; filing fee $15 (KY SOS Annual Reports page)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,38 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 40,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization $40 (KY SOS Fees page: Domestic Limited Liability Company).",
     "annualReport": 15,
     "annualReportDue": "Jan 1 - June 30",
     "nameReservation": 15,
-    "nameReservationNotes": "Application for reservation or renewal of reserved name is effective for 120 days."
+    "nameReservationNotes": "Application for reservation or renewal of reserved name is effective for 120 days; fee $15."
   },
   "sources": [
     {
       "name": "Official Contact Source",
       "url": "https://www.sos.ky.gov/pages/contact.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Services Source",
       "url": "https://www.sos.ky.gov/bus/Pages/default.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Source",
       "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Online Services Source",
       "url": "https://www.sos.ky.gov/bus/business-filings/OnlineServices/pages/default.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

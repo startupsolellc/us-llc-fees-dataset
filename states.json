@@ -171,7 +171,7 @@
       "annual_report_due_date": "Jan 1 - June 30",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx"
     },
     "LA": {
@@ -180,9 +180,9 @@
       "annual_report_fee": 30,
       "annual_report_due_date": "Anniversary date",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.la.gov/BusinessServices/FileBusinessDocuments/GetFormsAndFeeSchedule",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.sos.la.gov/BusinessServices/FileBusinessDocuments/GetFormsAndFeeSchedule"
+      "official_link": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sos.la.gov/business-services/forms-fee-schedule"
     },
     "ME": {
       "name": "Maine",
@@ -191,7 +191,7 @@
       "annual_report_due_date": "June 1",
       "state_income_tax_rate": null,
       "official_link": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms"
     },
     "MD": {
