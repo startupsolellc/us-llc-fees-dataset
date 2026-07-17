@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 110,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization fee is $110 ($100 filing fee + $10 service charge).",
     "annualReport": 60,
     "annualReportDue": "Jan 1 - Apr 1",
     "nameReservation": 35,
@@ -58,33 +58,33 @@
     {
       "name": "Official Corporations Division Source",
       "url": "https://sos.ga.gov/corporations-division-georgia-secretary-states-office",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://sos.ga.gov/form/contact-corporations-division",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://sos.ga.gov/how-to-guide/how-guide-register-domestic-entity",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Registration Source",
       "url": "https://sos.ga.gov/how-to-guide/how-file-annual-registration",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://sos.ga.gov/how-to-guide/how-guide-how-reserve-name",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official eCorp Source",
       "url": "https://ecorp.sos.ga.gov/Home",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

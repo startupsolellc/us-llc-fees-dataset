@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Certificate of Organization base filing fee is $100 online; paper adds $20 manual processing ($120 total).",
     "annualReport": null,
     "annualReportDue": "End of anniversary month",
     "nameReservation": 20,
@@ -58,33 +58,33 @@
     {
       "name": "Official Business Services Source",
       "url": "https://sos.idaho.gov/business-services/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Office Contact Source",
       "url": "https://sos.idaho.gov/find-our-office/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://sos.idaho.gov/business-services-resources/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Forms Source",
       "url": "https://sos.idaho.gov/business-forms/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Help Source",
       "url": "https://sos.idaho.gov/annual-report-help/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Form Source",
       "url": "https://sos.idaho.gov/CORP/forms/MISC/name%20reservation.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

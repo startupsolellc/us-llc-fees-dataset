@@ -101,7 +101,7 @@
       "annual_report_due_date": "Jan 1 - Apr 1",
       "state_income_tax_rate": null,
       "official_link": "https://sos.ga.gov/how-to-guide/how-guide-register-domestic-entity",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sos.ga.gov/how-to-guide/how-guide-register-domestic-entity"
     },
     "HI": {
@@ -111,7 +111,7 @@
       "annual_report_due_date": "End of anniversary quarter",
       "state_income_tax_rate": null,
       "official_link": "https://cca.hawaii.gov/breg/registration/dllc/fees/",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://cca.hawaii.gov/breg/registration/dllc/fees/"
     },
     "ID": {
@@ -120,9 +120,9 @@
       "annual_report_fee": 0,
       "annual_report_due_date": "End of anniversary month",
       "state_income_tax_rate": null,
-      "official_link": "https://sos.idaho.gov/business-services-resources/",
-      "last_verified": "2026-05-12",
-      "source_url": "https://sos.idaho.gov/business-services-resources/"
+      "official_link": "https://sos.idaho.gov/business-forms/",
+      "last_verified": "2026-07-17",
+      "source_url": "https://sos.idaho.gov/business-forms/"
     },
     "IL": {
       "name": "Illinois",
