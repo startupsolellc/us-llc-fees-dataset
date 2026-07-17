@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Hawaii Business Entities",
-    "url": "https://hbe.ehawaii.gov/documents/search.html"
+    "url": "https://hbe.dcca.hawaii.gov/search-and-buy"
   },
   "secretaryOfState": {
     "agency": "Hawaii Business Registration Division",
@@ -37,7 +37,7 @@
     "country": "USA"
   },
   "renewals": {
-    "onlineRenewalUrl": "https://hbe.ehawaii.gov/annuals",
+    "onlineRenewalUrl": "https://hbe.dcca.hawaii.gov/manage",
     "paperRenewalUrl": null,
     "notes": "Hawaii LLC annual reports are due by the end of the entity's anniversary quarter."
   },
@@ -58,23 +58,23 @@
     {
       "name": "Official Business Registration Source",
       "url": "https://cca.hawaii.gov/breg/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-07-18"
     },
     {
       "name": "Official Contact Source",
       "url": "https://cca.hawaii.gov/breg/contact/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-07-18"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://cca.hawaii.gov/breg/registration/dllc/fees/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-07-18"
     },
     {
       "name": "Official Annual Report Source",
-      "url": "https://hbe.ehawaii.gov/annuals",
-      "lastAccessed": "2026-07-17"
+      "url": "https://hbe.dcca.hawaii.gov/manage",
+      "lastAccessed": "2026-07-18"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }
