@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://mibusinessregistry.lara.state.mi.us/",
     "paperRenewalUrl": null,
-    "notes": "All Michigan LLC annual statements must be submitted online through the MiBusiness Registry Portal and are due February 15 each year after organization or qualification."
+    "notes": "All Michigan LLC annual statements must be submitted online through the MiBusiness Registry Portal and are due February 15 each year after organization or qualification; fee $25 (PLLC annual is $75)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,43 +48,48 @@
   },
   "filingFacts": {
     "llcFee": 50,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization (Form 700) $50 per Corporations Division Filing Fees schedule.",
     "annualReport": 25,
     "annualReportDue": "Feb 15",
-    "nameReservation": 10,
-    "nameReservationNotes": "Reservation of Name filing; LLC names may be reserved for 180 days."
+    "nameReservation": 25,
+    "nameReservationNotes": "Application for Reservation of Name (Form 540) for LLC is $25 per official Filing Fees schedule; LLC names may be reserved for 180 days. (Corporation name reservation remains $10.)"
   },
   "sources": [
     {
       "name": "Official Business Services Source",
       "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://www.michigan.gov/lara/about/contact-us",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Address Source",
       "url": "https://www.michigan.gov/lara/bureau-list/cscl/other/corporations-division-hours-and-directions",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Statement Source",
       "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap/annual-reports-and-annual-statements",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/limited-liability-co/filing/naming-a-limited-liability-company",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official LLC Forms Source",
       "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/forms/limited-liability-company-forms",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Official Filing Fee Source",
+      "url": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
     "paperRenewalUrl": null,
-    "notes": "Domestic LLC annual reports are due on or before the anniversary date of the original certificate of organization filing."
+    "notes": "Domestic LLC annual reports are due on or before the anniversary date of the original certificate of organization filing; fee $500."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 500,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Certificate of Organization / Certificate of Registration filing fee $500 (SOS filing fees page; MGL c.156C \u00a712).",
     "annualReport": 500,
     "annualReportDue": "Anniversary date",
     "nameReservation": 30,
@@ -58,28 +58,28 @@
     {
       "name": "Official Business Services Source",
       "url": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-hours-and-directions.htm",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-filing-fees.htm",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official LLC Annual Report Source",
       "url": "https://www.sec.state.ma.us/divisions/corporations/filing-by-subject/limited-liability/corporations-limited-liability-company.htm",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://www.sec.state.ma.us/divisions/corporations/services/corporations-name-reservations.htm",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

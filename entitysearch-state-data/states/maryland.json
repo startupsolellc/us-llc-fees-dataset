@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://businessexpress.maryland.gov/",
     "paperRenewalUrl": null,
-    "notes": "All domestic and foreign business entities should file annual reports online or by mail on or before April 15; approved extensions move the due date to June 15."
+    "notes": "All domestic and foreign business entities should file annual reports online or by mail on or before April 15; approved extensions move the due date to June 15. Annual report fee for Maryland LLC is $300 (Corps. & Ass'ns \u00a71-203)."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Domestic LLC Articles of Organization base filing fee; expedited service is a separate optional fee.",
+    "llcFeeNotes": "Domestic LLC Articles of Organization base filing fee $100 (SDAT fee schedule May 2024; Corps. & Ass'ns \u00a71-203); expedited service is a separate optional fee.",
     "annualReport": 300,
     "annualReportDue": "Apr 15",
     "nameReservation": 25,
@@ -58,33 +58,33 @@
     {
       "name": "Official Business Services Source",
       "url": "https://dat.maryland.gov/businesses/Pages/default.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://dat.maryland.gov/about/pages/frequent-contacts.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Department Contact Source",
       "url": "https://dat.maryland.gov/pages/contact_us.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://dat.maryland.gov/businesses/Documents/FEES.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official LLC Formation Form Source",
       "url": "https://dat.maryland.gov/Documents/Accessible%20Documents/Charter%20-%20Create%20or%20Start%20a%20Business/Articles%20of%20Organization%20for%20Limited%20Liability%20Company%20%28LLC%29_0326-A.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report Source",
       "url": "https://dat.maryland.gov/pages/sdatforms.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

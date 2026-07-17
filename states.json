@@ -201,7 +201,7 @@
       "annual_report_due_date": "Apr 15",
       "state_income_tax_rate": null,
       "official_link": "https://dat.maryland.gov/businesses/Documents/FEES.pdf",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://dat.maryland.gov/businesses/Documents/FEES.pdf"
     },
     "MA": {
@@ -211,7 +211,7 @@
       "annual_report_due_date": "Anniversary date",
       "state_income_tax_rate": null,
       "official_link": "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-filing-fees.htm",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.sec.state.ma.us/divisions/corporations/general-information/corporations-filing-fees.htm"
     },
     "MI": {
@@ -221,8 +221,8 @@
       "annual_report_due_date": "Feb 15",
       "state_income_tax_rate": null,
       "official_link": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.michigan.gov/lara/bureau-list/cscl/corps"
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf"
     },
     "MN": {
       "name": "Minnesota",
