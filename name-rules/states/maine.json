@@ -1,0 +1,61 @@
+{
+  "stateName": "Maine",
+  "stateAbbr": "ME",
+  "stateSlug": "maine",
+  "entitySuffixRule": "Must contain \"limited liability company\" or \"limited company\" or the abbreviation \"L.L.C.,\" \"LLC,\" \"L.C.\" or \"LC\"; a low-profit LLC uses \"L3C\" or \"l3c\". \"Limited\" may be abbreviated as \"Ltd.\" and \"company\" as \"Co.\"",
+  "entitySuffixCitation": "31 M.R.S. § 1508(1)",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of every corporation, LLC, LLP, or LP organized or authorized in Maine, from assumed, fictitious, reserved, and registered name filings for all entities, and from marks registered under Title 10, chapter 301-A. The Secretary of State may also refuse a name that is obscene, inappropriately promotes abusive or unlawful activity, or falsely suggests an association with public institutions.",
+  "distinguishabilityCitation": "31 M.R.S. § 1508(2), (3)",
+  "restrictedWords": [
+    "savings",
+    "savings bank",
+    "bank",
+    "banker",
+    "banking",
+    "trust",
+    "trust company",
+    "trust and banking company",
+    "credit union"
+  ],
+  "nameReservationFee": 20,
+  "nameReservationTotalCost": 20,
+  "nameReservationCostBasis": "The $20 is the whole cost: Maine takes the reservation on paper Form MLLC-1 with no service charge. Transferring the reservation to another person (Form MLLC-1A) is another $20.",
+  "nameReservationDuration": "120 days (non-renewable)",
+  "nameReservationUrl": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+  "nameReservationProcessingTime": "The Division's posted corporate filing processing time is 40 to 55 business days (checked 2026-07-18)",
+  "namingStatuteUrl": "https://legislature.maine.gov/statutes/31/title31sec1508.html",
+  "notes": "The reservation may not be renewed, but once it expires the same name can be reserved again by the same or another applicant. Maine permits a reservation to contain the restricted banking terms because a reservation is for future use only; no business may operate under those terms without approval from the Bureau of Financial Institutions under 9-B M.R.S. § 241(9). Maine's consent path is stricter than most states: the entity holding the conflicting name must undertake to change its own name to something distinguishable. Registered marks appear in the same Corporate Name Search as entities, labeled MARK.",
+  "sources": [
+    {
+      "citation": "31 M.R.S. § 1508",
+      "title": "Limited liability company name",
+      "url": "https://legislature.maine.gov/statutes/31/title31sec1508.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "31 M.R.S. § 1509",
+      "title": "Reservation of name",
+      "url": "https://legislature.maine.gov/statutes/31/title31sec1509.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Maine Secretary of State",
+      "title": "Limited Liability Company Forms (filing fees)",
+      "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Maine Secretary of State",
+      "title": "Use of the Word Bank, Trust, and Credit Union",
+      "url": "https://www.maine.gov/sos/corporations-commissions/incorporating-resources/corporations-commissions/use-of-the-word-bank-trust-and-credit-union",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Maine Secretary of State",
+      "title": "Corporations, Business Services (posted processing time)",
+      "url": "https://www.maine.gov/sos/corporations-commissions/corporations",
+      "lastAccessed": "2026-07-18"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}

@@ -1,0 +1,45 @@
+{
+  "stateName": "Hawaii",
+  "stateAbbr": "HI",
+  "stateSlug": "hawaii",
+  "entitySuffixRule": "Must contain \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC\". \"Limited\" may be abbreviated as \"Ltd.\" and \"company\" as \"Co.\" The letters in the name must be letters of the English alphabet.",
+  "entitySuffixCitation": "HRS § 428-105(a)",
+  "distinguishabilityNote": "Hawaii does not use the distinguishable-on-the-records standard most states apply. The name may not be the same as, or substantially identical to, the name of any corporation, partnership, limited partnership, limited liability company, or limited liability partnership existing or registered in Hawaii, any reserved name, any fictitious name approved for a foreign LLC, or any trade name, trademark, or service mark registered in the state. The director may authorize a substantially identical name with the present holder's written consent plus an added distinguishing word, or with a certified court judgment establishing the right to the name.",
+  "distinguishabilityCitation": "HRS § 428-105(b), (c)",
+  "restrictedWords": [],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10,
+  "nameReservationCostBasis": "The $10 is the Business Registration Division's filing fee, and reservations are filed online through Hawaii Business Express. An optional expedited review adds $25, and transferring the reservation to another person costs another $10.",
+  "nameReservationDuration": "120 days",
+  "nameReservationUrl": "https://cca.hawaii.gov/breg/faqs/",
+  "nameReservationProcessingTime": "No published day count; the DCCA offers a $25 expedited review option",
+  "namingStatuteUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol08_Ch0401-0429/HRS0428/HRS_0428-0105.htm",
+  "notes": "The LLC statute carries no restricted-word list; conflicts come from the substantially identical bar, which counts registered trade names, trademarks, and service marks as blocking records, not just entities. The statute provides a single 120-day reservation period with no renewal provision, and the fee schedule lists only a $10 transfer. Cancellation is by a signed letter from the applicant; there is no cancellation form. Hawaii Administrative Rules section 16-36-15 governs the registration regulations for trade names, marks, and business entity names.",
+  "sources": [
+    {
+      "citation": "HRS § 428-105",
+      "title": "Name",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol08_Ch0401-0429/HRS0428/HRS_0428-0105.htm",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "HRS § 428-106",
+      "title": "Reserved name",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol08_Ch0401-0429/HRS0428/HRS_0428-0106.htm",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Hawaii DCCA Business Registration Division",
+      "title": "Fees, Uniform Limited Liability Company Act, Chapter 428",
+      "url": "https://cca.hawaii.gov/breg/registration/dllc/fees/",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Hawaii DCCA Business Registration Division",
+      "title": "Business registration FAQs",
+      "url": "https://cca.hawaii.gov/breg/faqs/",
+      "lastAccessed": "2026-07-18"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}
