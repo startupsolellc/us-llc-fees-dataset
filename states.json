@@ -321,7 +321,7 @@
       "annual_report_due_date": "Anniversary month (Biennial)",
       "state_income_tax_rate": null,
       "official_link": "https://dos.ny.gov/forming-limited-liability-company-new-york",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://dos.ny.gov/fee-schedules"
     },
     "NC": {
@@ -431,7 +431,7 @@
       "annual_report_due_date": "May 15",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.state.tx.us/corp/instructions/205.shtml",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://comptroller.texas.gov/taxes/franchise/"
     },
     "UT": {
@@ -471,7 +471,7 @@
       "annual_report_due_date": "Last day of anniversary month",
       "state_income_tax_rate": null,
       "official_link": "https://www.sos.wa.gov/corporations-charities/frequently-asked-questions-faqs/fee-scheduleexpedited-service",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-085"
     },
     "WV": {
