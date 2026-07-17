@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 120,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Certificate of Organization filing fee is $120.",
     "annualReport": 80,
     "annualReportDue": "Jan 1 - Mar 31",
     "nameReservation": 60,
@@ -58,23 +58,33 @@
     {
       "name": "Official Business Services Source",
       "url": "https://portal.ct.gov/SOTS/Business-Services/BSD",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Contact Source",
       "url": "https://portal.ct.gov/SOTS/General/Contact-Us/Contact-Us---Main",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://portal.ct.gov/sots/business-services/fees/business-entity-filing-fees",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://portal.ct.gov/-/media/sots/business-services/bsd-forms/all-business-entities/all-namereservationpdf.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Domestic LLC Forms and Fees (Business.CT.gov)",
+      "url": "https://business.ct.gov/knowledge-base/articles/domestic-limited-liability-companies-forms-and-fees",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Domestic Annual Report Forms and Fees (Business.CT.gov)",
+      "url": "https://business.ct.gov/knowledge-base/articles/domestic-annual-report-forms-and-fees",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

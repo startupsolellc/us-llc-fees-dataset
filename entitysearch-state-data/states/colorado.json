@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 50,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Articles of Organization online fee is $50.",
     "annualReport": 25,
     "annualReportDue": "Anniversary month window",
     "nameReservation": 25,
@@ -58,23 +58,23 @@
     {
       "name": "Official Contact Source",
       "url": "https://www.coloradosos.gov/pubs/info_center/contact.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Help Source",
       "url": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Periodic Report Help Source",
       "url": "https://www.coloradosos.gov/pubs/business/helpFiles/REPORT_HELP.html",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

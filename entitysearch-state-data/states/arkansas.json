@@ -64,7 +64,7 @@
   },
   "filingFacts": {
     "llcFee": 45,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Certificate of Organization online fee is $45 (paper $50).",
     "annualReport": 150,
     "annualReportDue": "May 1",
     "nameReservation": 22.5,
@@ -74,23 +74,23 @@
     {
       "name": "Official Contact Source",
       "url": "https://www.sos.arkansas.gov/about-the-office/contact-us",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Business Services FAQ Source",
       "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/frequently-asked-questions-faqs/business-services-faq/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Franchise Tax Source",
       "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

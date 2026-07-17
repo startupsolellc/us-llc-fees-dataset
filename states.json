@@ -40,9 +40,9 @@
       "annual_report_fee": 150,
       "annual_report_due_date": "May 1",
       "state_income_tax_rate": null,
-      "official_link": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees",
-      "last_verified": "2026-05-12",
-      "source_url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/for-current-businesses"
+      "official_link": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
+      "last_verified": "2026-07-17",
+      "source_url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/"
     },
     "CA": {
       "name": "California",
@@ -61,7 +61,7 @@
       "annual_report_due_date": "Anniversary month window",
       "state_income_tax_rate": null,
       "official_link": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html"
     },
     "CT": {
@@ -71,8 +71,8 @@
       "annual_report_due_date": "Jan 1 - Mar 31",
       "state_income_tax_rate": null,
       "official_link": "https://portal.ct.gov/sots/business-services/fees/business-entity-filing-fees",
-      "last_verified": "2026-05-12",
-      "source_url": "https://portal.ct.gov/sots/business-services/fees/business-entity-filing-fees"
+      "last_verified": "2026-07-17",
+      "source_url": "https://business.ct.gov/knowledge-base/articles/domestic-limited-liability-companies-forms-and-fees"
     },
     "DE": {
       "name": "Delaware",
