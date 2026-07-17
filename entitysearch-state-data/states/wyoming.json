@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 100,
-    "llcFeeNotes": "Articles of Organization for a Wyoming limited liability company.",
+    "llcFeeNotes": "Articles of Organization for a Wyoming limited liability company: $100 (Business Division fee schedule effective July 1, 2026).",
     "annualReport": 60,
     "annualReportDue": "First day of anniversary month",
     "nameReservation": 60,
@@ -58,28 +58,28 @@
     {
       "name": "Wyoming business fee schedule",
       "url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Wyoming Secretary of State contact",
       "url": "https://sos.wyo.gov/contactus.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Wyoming business center",
       "url": "https://sos.wyo.gov/business/default.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Wyoming annual report filing",
       "url": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Wyoming LLC name reservation form",
       "url": "https://sos.wyo.gov/Forms/Business/General/LLC/LLC-NameReservation.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

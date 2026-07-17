@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 110,
-    "llcFeeNotes": "Domestic LLC filing fee",
+    "llcFeeNotes": "Domestic LLC Certificate of Formation state filing fee is $110 (fee schedule revised Aug 1, 2024; also stated on official LLC Formation form).",
     "annualReport": 300,
     "annualReportDue": "June 1",
     "nameReservation": 75,
@@ -58,23 +58,28 @@
     {
       "name": "Official Contact Source",
       "url": "https://corp.delaware.gov/contact/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://corp.delaware.gov/fee/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Annual Report or Tax Source",
       "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://corp.delaware.gov/nameres/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Delaware Corporate Fee Schedule PDF (Aug 1, 2024)",
+      "url": "https://corpfiles.delaware.gov/AugustFee2024.pdf",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

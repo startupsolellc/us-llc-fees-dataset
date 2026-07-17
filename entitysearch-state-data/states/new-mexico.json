@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": null,
     "paperRenewalUrl": null,
-    "notes": "New Mexico LLCs do not have an annual report requirement. Business filings have moved to the online filing portal and paper business applications are no longer accepted."
+    "notes": "New Mexico LLCs do not have an annual report requirement under the Limited Liability Company Act. Business filings are online-only through the SOS portal; paper business applications are no longer accepted."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 50,
-    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $50.",
+    "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $50 per NMSA 1978 § 53-19-63(A).",
     "annualReport": null,
     "annualReportDue": "N/A",
     "nameReservation": 20,
-    "nameReservationNotes": "Application for reservation of a name or transfer of a name reservation is $20."
+    "nameReservationNotes": "Application for reservation of a name or transfer of a name reservation is $20 per NMSA 1978 § 53-19-63(H)."
   },
   "sources": [
     {
       "name": "Business Services",
       "url": "https://www.sos.nm.gov/business-services/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Secretary of State Contact Information",
       "url": "https://www.sos.nm.gov/contact-us/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Online Filing Portal",
       "url": "https://enterprise.sos.nm.gov/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
-      "name": "New Mexico LLC Filing Fees - 53-19-63 NMSA 1978",
-      "url": "https://www.nmlegis.gov/Sessions/15%20Regular/final/HB0287.PDF",
-      "lastAccessed": "2026-05-12"
+      "name": "NMSA 1978 § 53-19 Limited Liability Company Act (SOS compilation)",
+      "url": "https://api.realfile.rtsclients.com/publicfiles/ee3072ab0d43456cb15a51f7d82c77a2/1c940b98-cdb8-45ad-839f-7645c176a0c7/ch53art19.pdf",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "name": "Statutes Governing Business in NM",
+      "url": "https://www.sos.nm.gov/business-services/statutes-governing-business-in-nm/",
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
