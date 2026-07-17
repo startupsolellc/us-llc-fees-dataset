@@ -411,7 +411,7 @@
       "annual_report_due_date": "1st day of anniversary month",
       "state_income_tax_rate": null,
       "official_link": "https://sdsos.gov/general-information/filing-fees.aspx",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://sdsos.gov/general-information/filing-fees.aspx"
     },
     "TN": {
@@ -420,9 +420,9 @@
       "annual_report_fee": 300,
       "annual_report_due_date": "April 1",
       "state_income_tax_rate": null,
-      "official_link": "https://sos.tn.gov/businesses/forms-and-fees",
-      "last_verified": "2026-05-12",
-      "source_url": "https://sos.tn.gov/businesses/forms-and-fees"
+      "official_link": "https://sos.tn.gov/businesses/services/business-forms-fees",
+      "last_verified": "2026-07-17",
+      "source_url": "https://sos.tn.gov/businesses/services/business-forms-fees"
     },
     "TX": {
       "name": "Texas",
@@ -441,7 +441,7 @@
       "annual_report_due_date": "Anniversary date",
       "state_income_tax_rate": null,
       "official_link": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
-      "last_verified": "2026-05-12",
+      "last_verified": "2026-07-17",
       "source_url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf"
     },
     "VT": {

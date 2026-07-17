@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://tnbear.tn.gov/Ecommerce/AnnualReportID.aspx",
     "paperRenewalUrl": null,
-    "notes": "Tennessee LLC annual report fees are $300 minimum up to $3,000; the fee increases by $50 per member for every member over 6 members. Annual reports are due by the first day of the fourth month following the fiscal year close, commonly April 1 for calendar-year LLCs."
+    "notes": "LLC annual report fee is $300 minimum up to $3,000; increases by $50 per member for every member over 6. Due by the first day of the fourth month following fiscal year close (commonly April 1 for calendar-year LLCs). Official FAQ and press guidance reference April 1."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,33 +48,33 @@
   },
   "filingFacts": {
     "llcFee": 300,
-    "llcFeeNotes": "Articles of Organization Limited Liability Company fee is $300 minimum; Tennessee notes LLC fees may vary by member count up to a maximum.",
+    "llcFeeNotes": "Articles of Organization Limited Liability Company (SS-4270) $300 minimum; fees may vary by member count up to a maximum (asterisk on forms schedule).",
     "annualReport": 300,
     "annualReportDue": "April 1",
     "nameReservation": 20,
-    "nameReservationNotes": "Application for Name Reservation is listed as $20."
+    "nameReservationNotes": "Application for Name Reservation (SS-9425) $20."
   },
   "sources": [
     {
       "name": "Tennessee business forms and fees",
       "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Tennessee businesses services",
       "url": "https://sos.tn.gov/businesses",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Tennessee Business Services contact",
       "url": "https://sos.tn.gov/businesses/pages/contact-us",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Tennessee business annual report FAQ",
       "url": "https://sos.tn.gov/businesses/faqs",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }

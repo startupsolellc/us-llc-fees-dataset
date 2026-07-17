@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://businessregistration.utah.gov/",
     "paperRenewalUrl": null,
-    "notes": "Utah calls the annual report an annual report/renewal. Registered business entities file through the Business Registration System; the LLC renewal/annual report fee is $18 under the FY2026 fee schedule."
+    "notes": "Utah annual report/renewal for LLC is $18 (FY2026 fee schedule). File through Business Registration System on anniversary/renewal period."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,38 +48,38 @@
   },
   "filingFacts": {
     "llcFee": 59,
-    "llcFeeNotes": "Domestic limited liability company (LLC) certificate of organization under the FY2026 fee schedule.",
+    "llcFeeNotes": "Domestic limited liability company certificate of organization $59 (Utah FY2026 fee schedule effective July 1, 2025).",
     "annualReport": 18,
     "annualReportDue": "Anniversary date",
     "nameReservation": 22,
-    "nameReservationNotes": "Name reservation is listed as $22 in the FY2026 fee schedule and reserves a business name for 120 days."
+    "nameReservationNotes": "Name reservation $22; reserves a business name for 120 days (FY2026 fee schedule)."
   },
   "sources": [
     {
       "name": "Utah Division of Corporations searches",
       "url": "https://corporations.utah.gov/searches/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Utah annual report/renewal guide",
       "url": "https://corporations.utah.gov/renewal-process/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Utah annual report/renewal form",
       "url": "https://corporations.utah.gov/wp-content/uploads/2021/10/renewal.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Utah business name information",
       "url": "https://corporations.utah.gov/business-entities/business-name-information/",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     },
     {
       "name": "Utah FY2026 fee schedule",
       "url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
-      "lastAccessed": "2026-05-12"
+      "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-05-12"
+  "lastVerified": "2026-07-17"
 }
