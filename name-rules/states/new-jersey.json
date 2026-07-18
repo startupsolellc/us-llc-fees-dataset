@@ -1,0 +1,51 @@
+{
+  "stateName": "New Jersey",
+  "stateAbbr": "NJ",
+  "stateSlug": "new-jersey",
+  "entitySuffixRule": "Must contain \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" \"Limited\" may be abbreviated as \"Ltd.\" and \"company\" as \"Co.\"",
+  "entitySuffixCitation": "N.J.S.A. 42:2C-8(a)",
+  "distinguishabilityNote": "Must be distinguishable in the records of the filing office from the name of every person other than an individual that is incorporated, organized, or authorized to transact business in New Jersey, and from every reserved name. The state's own guidance tells filers to be exact when checking, because spacing and punctuation matter.",
+  "distinguishabilityCitation": "N.J.S.A. 42:2C-8(c)",
+  "restrictedWords": [],
+  "nameReservationFee": 50,
+  "nameReservationTotalCost": 50,
+  "nameReservationCostBasis": "The $50 is the Division of Revenue and Enterprise Services filing fee, applied online or on Form UNRR-1. Renewing the reservation and transferring it to another person are each another $50 on the same fee schedule.",
+  "nameReservationDuration": "120 days (renewable)",
+  "nameReservationUrl": "https://www.nj.gov/treasury/revenue/checkbusiness.shtml",
+  "nameReservationProcessingTime": "No published day count",
+  "namingStatuteUrl": "https://pub.njleg.gov/bills/2012/PL12/50_.PDF",
+  "notes": "New Jersey's free public tool is unusual: the Business Name Availability search answers with a direct verdict and, on a conflict, returns a Not Available notice with a Similar Businesses Found list, so the state itself is doing the comparison. Browsing the full entity records is a separate paid Business Records Service. The reservation is renewable, which most states refuse, and both the renewal and a transfer cost the same $50 as the original filing.",
+  "sources": [
+    {
+      "citation": "N.J.S.A. 42:2C-8",
+      "title": "Name (P.L.2012, c.50, the Revised Uniform Limited Liability Company Act)",
+      "url": "https://pub.njleg.gov/bills/2012/PL12/50_.PDF",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "N.J.S.A. 42:2C-10",
+      "title": "Reservation of name (120 days)",
+      "url": "https://pub.njleg.gov/bills/2012/PL12/50_.PDF",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "NJ Division of Revenue and Enterprise Services",
+      "title": "Business Name Availability (check, reserve, be-exact guidance)",
+      "url": "https://www.nj.gov/treasury/revenue/checkbusiness.shtml",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "NJ Division of Revenue and Enterprise Services",
+      "title": "Form UNRR-1, Application for Reservation of Name",
+      "url": "https://www.nj.gov/treasury/revenue/dcr/pdforms/unrr1.pdf",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "NJ Division of Revenue and Enterprise Services",
+      "title": "Registry fee schedules (reservation, renewal, and transfer each $50)",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}

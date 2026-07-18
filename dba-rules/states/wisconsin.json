@@ -1,0 +1,50 @@
+{
+  "stateName": "Wisconsin",
+  "stateAbbr": "WI",
+  "stateSlug": "wisconsin",
+  "dbaTerm": "trade name (optional ch. 132 registration)",
+  "filingLevel": "state",
+  "llcFilesWith": "Wisconsin Department of Financial Institutions (ch. 132 trade name or trademark registration, online); the filing is optional",
+  "soleProprietorFilesWith": "The same optional DFI registration; no filing is required to trade under the name",
+  "llcFee": 15,
+  "feeBasis": "The $15 is the fee per name or design registered under ch. 132 with the Department of Financial Institutions. Wisconsin requires no DBA filing at all; the registration exists for those who want the name on the state's trademark register.",
+  "duration": "10 years",
+  "renewalRule": "Renewable for further ten-year terms; the renewal window opens six months before expiration.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "exclusive-registration",
+  "protectionNote": "Registration is what opens the statute's remedies: only the owner of a mark registered under ch. 132 has standing to sue under Wis. Stat. § 132.033, with injunctions and damages up to three times the infringer's profits against deceptive use of an identical or substantially identical mark. It is trademark-style protection earned by registering, not a distinguishability-checked grant like Ohio's trade name.",
+  "searchUrl": null,
+  "searchNote": "The corporate records search does not include trade names. DFI's own search page lists tradenames (DBAs) and sole proprietors among the information its corporate records do not hold, and links the separate trademark register instead.",
+  "filingUrl": "https://dfi.wi.gov/Pages/BusinessServices/Trademarks/OnlineFilings.aspx",
+  "statuteCitation": "Wis. Stat. ch. 132",
+  "statuteUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/132",
+  "notes": "Wisconsin has no assumed-name or DBA disclosure requirement at any level: nothing must be filed before trading under another name. What exists instead is an optional, cheap, long-lived registration: $15 for ten years on the ch. 132 register, which accepts both trade names and trademarks and carries real enforcement teeth once registered. The corporate registry and the trademark register are separate records with separate searches.",
+  "sources": [
+    {
+      "citation": "Wis. Stat. ch. 132",
+      "title": "Trademarks, badges and labeled products",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/132",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Wis. Stat. § 132.033",
+      "title": "Civil remedies (registered-owner standing, injunction, treble profits)",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/132/033",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Wisconsin Department of Financial Institutions",
+      "title": "Trademark online filings ($15 per name or design, ten-year term)",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/Trademarks/OnlineFilings.aspx",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Wisconsin Department of Financial Institutions",
+      "title": "Search Corporate Records (tradenames and sole proprietors excluded from corporate records)",
+      "url": "https://apps.dfi.wi.gov/apps/CorpSearch/Search.aspx",
+      "lastAccessed": "2026-07-18"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}

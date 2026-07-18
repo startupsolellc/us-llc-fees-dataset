@@ -1,0 +1,45 @@
+{
+  "stateName": "Wisconsin",
+  "stateAbbr": "WI",
+  "stateSlug": "wisconsin",
+  "entitySuffixRule": "Must contain \"limited liability company\" or \"limited company\" or the abbreviation \"LLC\" or \"LC,\" including variations of those abbreviations that differ only in capitalization or punctuation.",
+  "entitySuffixCitation": "Wis. Stat. § 183.0112(1)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Department of Financial Institutions from the name of every filed entity that is not administratively dissolved at the time, every limited liability partnership with a statement of qualification in effect, every name registered to do business in the state, and every reserved name. Words that only indicate the entity type, such as \"LLC,\" \"Inc.,\" \"Corp.,\" or \"cooperative,\" are not taken into account in the comparison, and the name may not imply a purpose the company is not permitted to pursue.",
+  "distinguishabilityCitation": "Wis. Stat. § 183.0112(2), (4), (6)",
+  "restrictedWords": [],
+  "nameReservationFee": 15,
+  "nameReservationTotalCost": 15,
+  "nameReservationCostBasis": "The $15 is the department's whole fee for a limited liability company name reservation on the DFI fee schedule. The statute lets the 120-day reservation be renewed, by the applicant or a transferee.",
+  "nameReservationDuration": "120 days (renewable)",
+  "nameReservationUrl": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
+  "nameReservationProcessingTime": "No published day count",
+  "namingStatuteUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/183/i/0112",
+  "notes": "Wisconsin's records test has two rules most states lack. Entity-type words are disregarded in the comparison, so a proposed \"Acme LLC\" is not distinguishable from an existing \"Acme Inc.\" And the test measures only against entities that are not administratively dissolved at the time, so an administratively dissolved company's name does not block a filing the way it would in states with a waiting period. The department also runs a dedicated Name Availability tool linked beside the Search Corporate Records box, and at $15 the reservation is among the cheapest in the country.",
+  "sources": [
+    {
+      "citation": "Wis. Stat. § 183.0112",
+      "title": "Name",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/183/i/0112",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Wis. Stat. § 183.0113",
+      "title": "Reservation of name (120 days, renewable, transferable)",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/183/i/0113",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Wisconsin Department of Financial Institutions",
+      "title": "Business entity fees ($15 LLC name reservation)",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "Wisconsin Department of Financial Institutions",
+      "title": "Search Corporate Records (what the records hold and do not hold)",
+      "url": "https://apps.dfi.wi.gov/apps/CorpSearch/Search.aspx",
+      "lastAccessed": "2026-07-18"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}

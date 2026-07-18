@@ -1,0 +1,44 @@
+{
+  "stateName": "New Jersey",
+  "stateAbbr": "NJ",
+  "stateSlug": "new-jersey",
+  "dbaTerm": "alternate name (entities); trade name (sole proprietors, county)",
+  "filingLevel": "split",
+  "llcFilesWith": "NJ Division of Revenue and Enterprise Services (Form C-150G, online or paper)",
+  "soleProprietorFilesWith": "County clerk of the county where the business is located (trade name certificate)",
+  "llcFee": 50,
+  "feeBasis": "The $50 is the Division's fee per alternate name registration for an entity, and a five-year renewal is another $50. County clerks set their own trade name certificate fees for sole proprietors and partnerships.",
+  "duration": "5 years",
+  "renewalRule": "Renewable for further five-year periods. The renewal window opens three months before expiration and closes at the expiration date.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "The state's guidance says registration legally links the alternate name to the entity so it can trade under it; N.J.S.A. 42:2C-9 frames the filing as a precondition for using the name, not a grant of exclusive rights in it.",
+  "searchUrl": "https://www.njportal.com/dor/businessnamesearch/",
+  "searchNote": "Registered alternate names live in Division records. The free public window is the Business Name Availability search, which returns a verdict and similar names; browsing the full records is New Jersey's paid Business Records Service.",
+  "filingUrl": "https://www.nj.gov/treasury/revenue/altname.shtml",
+  "statuteCitation": "N.J.S.A. 42:2C-9",
+  "statuteUrl": "https://pub.njleg.gov/bills/2012/PL12/50_.PDF",
+  "notes": "New Jersey splits by owner type the way Texas does, with its own vocabulary: the state's guidance is explicit that a domestic entity does not use a \"dba\" but registers an alternate name with the Division, while sole proprietors and partnerships record a trade name with their county clerk. An entity may not conduct business under an unregistered alternate name unless it also uses its actual name non-deceptively.",
+  "sources": [
+    {
+      "citation": "NJ Division of Revenue and Enterprise Services",
+      "title": "Registering an alternate name (Form C-150G, $50, five years, renewal window)",
+      "url": "https://www.nj.gov/treasury/revenue/altname.shtml",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "N.J.S.A. 42:2C-9",
+      "title": "Use of name other than actual limited liability company name (P.L.2012, c.50)",
+      "url": "https://pub.njleg.gov/bills/2012/PL12/50_.PDF",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "NJ Division of Revenue and Enterprise Services",
+      "title": "Registry fee schedules",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}
