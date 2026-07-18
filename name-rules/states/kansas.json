@@ -1,0 +1,51 @@
+{
+  "stateName": "Kansas",
+  "stateAbbr": "KS",
+  "stateSlug": "kansas",
+  "entitySuffixRule": "Must contain \"limited liability company\" or \"limited company,\" the abbreviation \"L.L.C.\" or \"L.C.,\" or the designation \"LLC\" or \"LC.\" The name may also contain the name of a member or manager.",
+  "entitySuffixCitation": "K.S.A. 17-7920",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of every covered or foreign covered entity, from any non-covered entity other than a general partnership that has filed with the office, including named series of limited liability companies, from every name reserved under K.S.A. 17-7923, and from the name of any entity or series whose registration was canceled or forfeited within the previous one year. Banks, savings and loan associations, and savings banks sit outside the requirement.",
+  "distinguishabilityCitation": "K.S.A. 17-7918",
+  "restrictedWords": [],
+  "nameReservationFee": 35,
+  "nameReservationTotalCost": 35,
+  "nameReservationCostBasis": "The $35 is the filing fee stated on Form NR, the temporary reservation of a business entity name, and the form says reservations may not be renewed. The statute also allows the application to be filed by fax under K.S.A. 17-7914.",
+  "nameReservationDuration": "120 days (non-renewable)",
+  "nameReservationUrl": "https://sos.ks.gov/forms/business_services/NR.pdf",
+  "nameReservationProcessingTime": "No published day count for the Form NR filing",
+  "namingStatuteUrl": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_079_0020.html",
+  "notes": "The naming statute carries no restricted-word list, and K.S.A. 17-7920(c) even lists \"trust\" among the words an LLC name may contain; what K.S.A. 9-2011 forbids is engaging in the banking or trust business without the state bank commissioner's authorization. The distinguishability bar has an unusual tail: a name whose entity was canceled or forfeited stays blocked for one year after the event, so a row marked forfeited in the Business Search can still defeat a new filing. Written consent from the holder of a conflicting name, filed on the Secretary of State's prescribed form, clears a conflict without any added distinguishing word, and a certified court judgment establishing the right to the name does the same. A reservation may be transferred by filing a notice of transfer that names the transferee.",
+  "sources": [
+    {
+      "citation": "K.S.A. 17-7918",
+      "title": "Names of covered entities or foreign covered entities; permitted names in general",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_079_0018.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "K.S.A. 17-7920",
+      "title": "Name requirements for limited liability companies",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_079_0020.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "K.S.A. 17-7923",
+      "title": "Reservation of exclusive right to entity name",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_079_0023.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Kansas Secretary of State Form NR",
+      "title": "Temporary Reservation of Business Entity Name ($35, 120 days, may not be renewed)",
+      "url": "https://sos.ks.gov/forms/business_services/NR.pdf",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "K.S.A. 9-2011",
+      "title": "Unlawfully engaging in the banking or trust company business",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch09/009_020_0011.html",
+      "lastAccessed": "2026-07-18"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}
