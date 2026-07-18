@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Texas Business Entities",
-    "url": "https://mycpa.cpa.state.tx.us/coa/"
+    "url": "https://comptroller.texas.gov/taxes/franchise/account-status/search"
   },
   "secretaryOfState": {
     "agency": "Texas Secretary of State - Business & Public Filings Division",
@@ -86,5 +86,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }

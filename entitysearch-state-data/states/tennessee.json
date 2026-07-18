@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Tennessee Business Entities",
-    "url": "https://tnbear.tn.gov/Ecommerce/FilingSearch.aspx"
+    "url": "https://tncab.tnsos.gov/business-entity-search"
   },
   "secretaryOfState": {
     "agency": "Tennessee Secretary of State - Business Services Division",
@@ -37,7 +37,7 @@
     "country": "USA"
   },
   "renewals": {
-    "onlineRenewalUrl": "https://tnbear.tn.gov/Ecommerce/AnnualReportID.aspx",
+    "onlineRenewalUrl": "https://tncab.tnsos.gov/portal",
     "paperRenewalUrl": null,
     "notes": "LLC annual report fee is $300 minimum up to $3,000; increases by $50 per member for every member over 6. Due by the first day of the fourth month following fiscal year close (commonly April 1 for calendar-year LLCs). Official FAQ and press guidance reference April 1."
   },
@@ -76,5 +76,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }

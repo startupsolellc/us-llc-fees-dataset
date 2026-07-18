@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search New Mexico Business Entities",
-    "url": "https://portal.sos.state.nm.us/BFS/online/CorporationBusinessSearch"
+    "url": "https://enterprise.sos.nm.gov/search/business"
   },
   "secretaryOfState": {
     "agency": "New Mexico Secretary of State Business Services",
@@ -81,5 +81,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }

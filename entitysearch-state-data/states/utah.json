@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Utah Business Entities",
-    "url": "https://secure.utah.gov/bes/"
+    "url": "https://businessregistration.utah.gov/EntitySearch/OnlineEntitySearch"
   },
   "secretaryOfState": {
     "agency": "Utah Division of Corporations and Commercial Code",
@@ -81,5 +81,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }

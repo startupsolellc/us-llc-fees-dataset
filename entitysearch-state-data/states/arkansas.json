@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Arkansas Business Entities",
-    "url": "https://www.sos.arkansas.gov/corps/search_all.php"
+    "url": "https://sos-corp-search.ark.org/corps"
   },
   "secretaryOfState": {
     "agency": "Arkansas Secretary of State Business and Commercial Services",
@@ -92,5 +92,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }

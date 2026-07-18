@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Vermont Business Entities",
-    "url": "https://bizfilings.vermont.gov/online/BusinessInquire"
+    "url": "https://bizfilings.vermont.gov/business/businesssearch"
   },
   "secretaryOfState": {
     "agency": "Vermont Secretary of State Business Services Division",
@@ -81,5 +81,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }

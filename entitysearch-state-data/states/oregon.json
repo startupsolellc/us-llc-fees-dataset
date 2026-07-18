@@ -5,7 +5,7 @@
   "stateSeal": null,
   "businessEntitySearch": {
     "cta": "Search Oregon Business Entities",
-    "url": "https://secure.sos.state.or.us/oard/search.action"
+    "url": "https://sos.oregon.gov/business/pages/find.aspx"
   },
   "secretaryOfState": {
     "agency": "Oregon Secretary of State - Corporation Division",
@@ -76,5 +76,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-07-18"
 }
