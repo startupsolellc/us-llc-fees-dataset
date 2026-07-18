@@ -1,14 +1,24 @@
-# Internal workflow documents
+# =============================================================================
+# Internal / private — never publish (agent ops, session state, local machine)
+# =============================================================================
 AGENTS.md
 CLAUDE.md
 GEMINI.md
+handoff.md
+SESSION_STATUS.md
+UPDATE_PROTOCOL.md
+CHANGELOG.md
+WIKI_METHODOLOGY.html
 
 # Local OS / Python artifacts
 .DS_Store
 __pycache__/
 *.pyc
+.venv/
+*.egg-info/
 
-# Local scraping workspace
+# Local scraping / maintenance workspace (not public dataset surface)
+scripts/
 scripts/scrapling-repo/
 scripts/.venv/
 scripts/output/
@@ -17,3 +27,4 @@ scripts/cache/
 # EntitySearch State Data - development artifacts
 entitysearch-state-data/scripts/
 entitysearch-state-data/audits/
+entitysearch-state-data/assets/
