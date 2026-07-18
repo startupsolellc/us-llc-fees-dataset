@@ -10,14 +10,14 @@ Coverage starts with 5 pilot states (GA, TX, CA, FL, OH) and grows over time
 (Colorado added 2026-07-17). A missing `{state-slug}.json` usually means that
 state has not been researched yet.
 
-**One deliberate exception:** South Carolina has been researched and is
-**intentionally omitted**. SC has no statewide DBA / assumed-name registration for
-LLCs, corporations, or sole proprietors (they register locally with a business
-license; only limited partnerships and foreign entities file an assumed name with
-the SoS). That does not fit the `state` / `county` / `split` `filingLevel` model, so
-SC's DBA story is told on its state page rather than forced into this schema. Do
-not add `south-carolina.json` here without first extending the schema and the
-`/dba/` hub (a "no state filing" lane).
+**Schema extended 2026-07-18:** `filingLevel` gained a fourth value, `"none"`, for
+states with **no DBA / assumed-name registration** for LLCs, corporations, and sole
+proprietors. South Carolina (no statewide filing; trading names are a local
+business-license matter, with a narrow LP / foreign-entity assumed-name exception
+at the SoS) and Kansas (no registry at any level; the SoS forms list says no
+application registers an assumed, fictitious, trade, or DBA name) are recorded
+this way. For `"none"` states the fee, duration, publication, and filing fields
+describe the absence and the nearest real instrument, and `llcFee` stays `null`.
 
 ## Schema
 
@@ -25,7 +25,7 @@ not add `south-carolina.json` here without first extending the schema and the
 |-------|------|---------|
 | `stateName` / `stateAbbr` / `stateSlug` | `string` | Same identifiers as `entitysearch-state-data/states/*.json` |
 | `dbaTerm` | `string` | What the state's own statute calls the filing (e.g. `"assumed name"`, `"trade name"`, `"fictitious business name"`) |
-| `filingLevel` | `"state" \| "county" \| "split"` | Which level of government takes the filing; `"split"` = depends on owner type |
+| `filingLevel` | `"state" \| "county" \| "split" \| "none"` | Which level of government takes the filing; `"split"` = depends on owner type; `"none"` = no such filing exists in the state |
 | `llcFilesWith` | `string` | The office an LLC or corporation files with |
 | `soleProprietorFilesWith` | `string` | The office a sole proprietor or partnership files with |
 | `llcFee` | `number \| null` | Fixed statewide cost in USD on the LLC filing path; `null` when each county sets its own fee (see `feeBasis`) |

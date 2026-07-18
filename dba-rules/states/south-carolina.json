@@ -1,0 +1,44 @@
+{
+  "stateName": "South Carolina",
+  "stateAbbr": "SC",
+  "stateSlug": "south-carolina",
+  "dbaTerm": "none; no statewide filing exists",
+  "filingLevel": "none",
+  "llcFilesWith": "No state office. A trading name is registered locally, usually when the business licenses with its city or county.",
+  "soleProprietorFilesWith": "No state office; the same local business-license path applies.",
+  "llcFee": null,
+  "feeBasis": "There is no statewide filing and therefore no state fee. Cities and counties price their own business licenses. The narrow exceptions that do reach the Secretary of State are a limited partnership operating under another name and a foreign entity whose legal name is unavailable in South Carolina; both file an assumed name with the state.",
+  "duration": "Not applicable",
+  "renewalRule": null,
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "With no statewide registration, trading under another name creates no state record and no rights in the name. Nothing is checked for conflicts, and the name never enters the state index.",
+  "searchUrl": null,
+  "searchNote": "No statewide index of trading names exists. Business Entities Online lists entities only, so a name in daily local use can look clear in the state search.",
+  "filingUrl": null,
+  "statuteCitation": "S.C. Code Title 33 (no DBA registration statute exists)",
+  "statuteUrl": "https://www.scstatehouse.gov/code/t33c044.php",
+  "notes": "South Carolina has no statewide DBA, assumed-name, or trade-name registration for LLCs, corporations, or sole proprietors. The trading name is a local business-license matter. Only limited partnerships and foreign entities with unavailable legal names file an assumed name with the Secretary of State.",
+  "sources": [
+    {
+      "citation": "South Carolina Secretary of State",
+      "title": "FAQs about business entities (no statewide DBA registration)",
+      "url": "https://sos.sc.gov/faqs-about-business-entities",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "South Carolina Secretary of State",
+      "title": "Online filings, business entities",
+      "url": "https://sos.sc.gov/online-filings/business-entities",
+      "lastAccessed": "2026-07-17"
+    },
+    {
+      "citation": "S.C. Code Title 33, Chapter 44",
+      "title": "Uniform Limited Liability Company Act (naming and reservation; no DBA provision)",
+      "url": "https://www.scstatehouse.gov/code/t33c044.php",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-17"
+}

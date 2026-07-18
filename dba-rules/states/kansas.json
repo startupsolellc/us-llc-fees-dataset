@@ -1,0 +1,44 @@
+{
+  "stateName": "Kansas",
+  "stateAbbr": "KS",
+  "stateSlug": "kansas",
+  "dbaTerm": "none; no registry exists",
+  "filingLevel": "none",
+  "llcFilesWith": "No office at any level. The Secretary of State's forms list states that no application registers an assumed, fictitious, trade, or DBA name.",
+  "soleProprietorFilesWith": "No office; sole proprietors do not register with the Secretary of State at all.",
+  "llcFee": null,
+  "feeBasis": "No filing exists, so no fee exists. The nearest state-level instrument is a trademark or service mark registration on Form TSA: $40 for a five-year term, renewable for $40 with a specimen of the mark in use.",
+  "duration": "Not applicable",
+  "renewalRule": null,
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "With no registry, a Kansas trading name has no state record and no rights. The office's own trademark FAQ adds that even a registered mark merely puts the public on notice that the mark is in use.",
+  "searchUrl": "https://sos.ks.gov/general-services/trademark/mark-search.aspx",
+  "searchNote": "The Business Search lists entities only; trade names do not exist as a records class in Kansas. Registered trademarks and service marks, the nearest instrument, sit in their own Trademark/Service Mark Search.",
+  "filingUrl": null,
+  "statuteCitation": "Kansas SoS forms list (no assumed-name statute or form exists)",
+  "statuteUrl": "https://sos.ks.gov/businesses/register-a-business.html",
+  "notes": "Kansas has no trade name or DBA registration at any level of state government. The Secretary of State's forms list says so in its own footnote, and sole proprietors do not register with the office in any capacity. Businesses wanting a state-level claim on a brand register a trademark or service mark instead.",
+  "sources": [
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Register a Business (forms list; NR footnote: the application does not register an assumed, fictitious, trade, or DBA name)",
+      "url": "https://sos.ks.gov/businesses/register-a-business.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Trademark Frequently Asked Questions (Form TSA, $40, five-year renewable term)",
+      "url": "https://sos.ks.gov/general-services/trademark-faq.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Trademark/Service Mark Search",
+      "url": "https://sos.ks.gov/general-services/trademark/mark-search.aspx",
+      "lastAccessed": "2026-07-18"
+    }
+  ],
+  "lastVerified": "2026-07-18"
+}
