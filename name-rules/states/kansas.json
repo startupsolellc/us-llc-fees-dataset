@@ -9,12 +9,12 @@
   "restrictedWords": [],
   "nameReservationFee": 35,
   "nameReservationTotalCost": 35,
-  "nameReservationCostBasis": "The $35 is the filing fee stated on Form NR, the temporary reservation of a business entity name, and the form says reservations may not be renewed. The statute also allows the application to be filed by fax under K.S.A. 17-7914.",
+  "nameReservationCostBasis": "The $35 is the whole cost: Form NR is printed, signed, and mailed to the Secretary of State with payment by check, money order, or credit card, and the statute also allows filing by fax under K.S.A. 17-7914. The form warns of a $25 service fee for returned checks.",
   "nameReservationDuration": "120 days (non-renewable)",
   "nameReservationUrl": "https://sos.ks.gov/forms/business_services/NR.pdf",
   "nameReservationProcessingTime": "No published day count for the Form NR filing",
   "namingStatuteUrl": "https://www.ksrevisor.gov/statutes/chapters/ch17/017_079_0020.html",
-  "notes": "The naming statute carries no restricted-word list, and K.S.A. 17-7920(c) even lists \"trust\" among the words an LLC name may contain; what K.S.A. 9-2011 forbids is engaging in the banking or trust business without the state bank commissioner's authorization. The distinguishability bar has an unusual tail: a name whose entity was canceled or forfeited stays blocked for one year after the event, so a row marked forfeited in the Business Search can still defeat a new filing. Written consent from the holder of a conflicting name, filed on the Secretary of State's prescribed form, clears a conflict without any added distinguishing word, and a certified court judgment establishing the right to the name does the same. A reservation may be transferred by filing a notice of transfer that names the transferee.",
+  "notes": "The naming statute carries no restricted-word list, and K.S.A. 17-7920(c) even lists \"trust\" among the words an LLC name may contain; what K.S.A. 9-2011 forbids is engaging in the banking or trust business without the state bank commissioner's authorization. The distinguishability bar has an unusual tail: a name whose entity was canceled or forfeited stays blocked for one year after the event, so a row marked forfeited in the Business Search can still defeat a new filing. Written consent from the holder of a conflicting name, filed on the Secretary of State's prescribed form, clears a conflict without any added distinguishing word, and a certified court judgment establishing the right to the name does the same. Form NR states in its own instructions that the reservation is not a name registration, and that a new reservation submitted before a current one expires will be rejected, which closes the back-to-back renewal path. A reservation may be transferred by filing a notice of transfer that names the transferee. The Secretary of State's forms list adds that the application does not register an assumed, fictitious, trade, or DBA name; Kansas has no state trade name registry, and its trademark and service mark registration (Form TSA, $40 for a five-year renewable term) is a separate instrument with its own search.",
   "sources": [
     {
       "citation": "K.S.A. 17-7918",
@@ -36,9 +36,21 @@
     },
     {
       "citation": "Kansas Secretary of State Form NR",
-      "title": "Temporary Reservation of Business Entity Name ($35, 120 days, may not be renewed)",
+      "title": "Temporary Reservation of Business Entity Name ($35, 120 days, may not be renewed, not a name registration)",
       "url": "https://sos.ks.gov/forms/business_services/NR.pdf",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Register a Business (forms list; NR footnote: the application does not register an assumed, fictitious, trade, or DBA name)",
+      "url": "https://sos.ks.gov/businesses/register-a-business.html",
+      "lastAccessed": "2026-07-18"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Trademark Frequently Asked Questions (Form TSA, $40, five-year renewable term)",
+      "url": "https://sos.ks.gov/general-services/trademark-faq.html",
+      "lastAccessed": "2026-07-18"
     },
     {
       "citation": "K.S.A. 9-2011",
