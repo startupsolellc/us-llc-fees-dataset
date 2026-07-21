@@ -1,0 +1,44 @@
+{
+  "stateName": "Oregon",
+  "stateAbbr": "OR",
+  "stateSlug": "oregon",
+  "dbaTerm": "assumed business name",
+  "filingLevel": "state",
+  "llcFilesWith": "Oregon Secretary of State, Corporation Division (Application for Registration of Assumed Business Name)",
+  "soleProprietorFilesWith": "Oregon Secretary of State, Corporation Division (the same application)",
+  "llcFee": 50,
+  "feeBasis": "The $50 is the Secretary of State's flat fee for a new assumed business name registration, and renewal is another $50 every two years. Filing is at the state level, not the county.",
+  "duration": "2 years",
+  "renewalRule": "Renew every two years. The renewal must be filed within 30 days before each second anniversary of registration, or the registration is administratively cancelled (ORS 648.017).",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Registering an assumed business name discloses who is behind the name; it grants no exclusive right and carries no infringement remedy of its own. It does have a real practical effect: because an active assumed business name is part of the ORS 63.094 distinguishability test, the state will not register a later entity or assumed name that is not distinguishable from it while yours stays current.",
+  "searchUrl": "https://sos.oregon.gov/business/pages/find.aspx",
+  "searchNote": "Oregon keeps assumed business names in the same registry as corporations and LLCs, so the standard Business Name Search returns them alongside entities. An assumed business name appears as an ABN row with its own active or inactive status.",
+  "filingUrl": "https://sos.oregon.gov/business/Pages/registering-your-business-name.aspx",
+  "statuteCitation": "ORS 648.007; 648.017",
+  "statuteUrl": "https://oregon.public.law/statutes/ors_648.007",
+  "notes": "Oregon runs a clean state-level assumed business name system: one $50 filing with the Secretary of State, renewable every two years, indexed in the same registry as entities. Unlike states that record DBAs at the county with no central index, Oregon's assumed names are searchable statewide in the same tool as companies and are screened for distinguishability along with them.",
+  "sources": [
+    {
+      "citation": "ORS 648.007",
+      "title": "Registration of assumed business name required; exceptions",
+      "url": "https://oregon.public.law/statutes/ors_648.007",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "ORS 648.017",
+      "title": "Renewal of registration (every two years)",
+      "url": "https://oregon.public.law/statutes/ors_648.017",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "Oregon Secretary of State, Corporation Division",
+      "title": "Business Registry Fee Schedule (assumed business name $50 new, $50 renewal every 2 years)",
+      "url": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf",
+      "lastAccessed": "2026-07-22"
+    }
+  ],
+  "lastVerified": "2026-07-22"
+}

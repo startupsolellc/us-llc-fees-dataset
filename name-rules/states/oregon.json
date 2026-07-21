@@ -1,0 +1,39 @@
+{
+  "stateName": "Oregon",
+  "stateAbbr": "OR",
+  "stateSlug": "oregon",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\"",
+  "entitySuffixCitation": "ORS 63.094(1)(a)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every other limited liability company, corporate, professional corporate, nonprofit corporate, cooperative, limited partnership, business trust, reserved, registered corporate, and assumed business name of active record. Assumed business names are held in the same registry and are part of this comparison, and only active records block. The name must be written in the alphabet used to write English and may include Arabic and Roman numerals and incidental punctuation.",
+  "distinguishabilityCitation": "ORS 63.094(1)(b), (1)(c)",
+  "restrictedWords": [],
+  "nameReservationFee": 100,
+  "nameReservationTotalCost": 100,
+  "nameReservationCostBasis": "The $100 is the Secretary of State's whole fee for an Application for Name Reservation, which holds an entity name for 120 days. The statute provides no renewal, so the hold runs once, though it can be transferred to another person by notice. Assumed business names cannot be reserved.",
+  "nameReservationDuration": "120 days (nonrenewable)",
+  "nameReservationUrl": "https://sos.oregon.gov/business/Documents/business-registry-forms/name-reservation.pdf",
+  "nameReservationProcessingTime": "No published day count",
+  "namingStatuteUrl": "https://oregon.public.law/statutes/ors_63.094",
+  "notes": "Oregon folds assumed business names into the same registry and the same distinguishability test, so a Business Name Search shows entities and assumed names together and only records of active status block a new name. The reservation is expensive for our set at $100 for a nonrenewable 120 days, so it is rarely worth it unless filing is genuinely delayed; it can, however, be transferred. Oregon also limits names to the English alphabet with Arabic or Roman numerals and incidental punctuation.",
+  "sources": [
+    {
+      "citation": "ORS 63.094",
+      "title": "Limited liability company name (designator, distinguishability including assumed business names, alphabet rule)",
+      "url": "https://oregon.public.law/statutes/ors_63.094",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "ORS 63.097",
+      "title": "Reserved name (120 days, transferable)",
+      "url": "https://oregon.public.law/statutes/ors_63.097",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "Oregon Secretary of State, Corporation Division",
+      "title": "Business Registry Fee Schedule ($100 Articles of Organization, $100 Application for Name Reservation)",
+      "url": "https://sos.oregon.gov/business/Documents/business-registry-forms/br-fee-schedule.pdf",
+      "lastAccessed": "2026-07-22"
+    }
+  ],
+  "lastVerified": "2026-07-22"
+}
