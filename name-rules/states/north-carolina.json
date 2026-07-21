@@ -1,0 +1,51 @@
+{
+  "stateName": "North Carolina",
+  "stateAbbr": "NC",
+  "stateSlug": "north-carolina",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC,\" or the combination \"ltd. liability co.,\" \"limited liability co.,\" or \"ltd. liability company.\"",
+  "entitySuffixCitation": "N.C.G.S. § 55D-20(a)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every domestic and authorized foreign corporation, nonprofit corporation, limited liability company, limited partnership, and registered limited liability partnership, and from names reserved or registered under G.S. 55D-23 and G.S. 55D-24. The comparison runs against the Secretary of State's entity records; assumed business names sit in a separate statewide database and are not part of the distinguishability test. A name may also not state or imply that the company is organized for a purpose it is not permitted to pursue.",
+  "distinguishabilityCitation": "N.C.G.S. § 55D-21; § 55D-20(b)",
+  "restrictedWords": [],
+  "nameReservationFee": 30,
+  "nameReservationTotalCost": 30,
+  "nameReservationCostBasis": "The $30 is the Secretary of State's whole fee for the Application to Reserve a Business Entity Name (Form BE-03), which holds the name for a nonrenewable 120 days. A separate $10 form (BE-04) only transfers an existing reservation to another applicant; it does not create a reservation or extend one.",
+  "nameReservationDuration": "120 days (nonrenewable)",
+  "nameReservationUrl": "https://www.sosnc.gov/forms/by_title/_Business_Registration_Business_Entities_Common",
+  "nameReservationProcessingTime": "No published day count",
+  "namingStatuteUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_55D/GS_55D-21.html",
+  "notes": "North Carolina runs its distinguishability test against the Secretary of State's entity records only. Assumed business names are recorded separately under Chapter 66 and kept in their own statewide database, so a clear entity-name search does not clear an assumed name, and the search page offers the two as separate links. The reservation is a flat $30 for a nonrenewable 120 days, so the hold has to be timed to the filing rather than restarted; the $10 fee that appears in the fee schedule is the transfer form, not the reservation.",
+  "sources": [
+    {
+      "citation": "N.C.G.S. § 55D-20",
+      "title": "Entity names on records of Secretary of State; requirements",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_55D/GS_55D-20.html",
+      "lastAccessed": "2026-07-21"
+    },
+    {
+      "citation": "N.C.G.S. § 55D-21",
+      "title": "Distinguishable names required",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_55D/GS_55D-21.html",
+      "lastAccessed": "2026-07-21"
+    },
+    {
+      "citation": "N.C.G.S. § 55D-23",
+      "title": "Reserved name (nonrenewable 120-day period; transferable)",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_55D/GS_55D-23.html",
+      "lastAccessed": "2026-07-21"
+    },
+    {
+      "citation": "North Carolina Secretary of State",
+      "title": "Business Registration fee schedule ($125 Articles of Organization, $30 Application to Reserve a Business Entity Name)",
+      "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration",
+      "lastAccessed": "2026-07-21"
+    },
+    {
+      "citation": "North Carolina Secretary of State",
+      "title": "Business Entities common forms (BE-03 reserve $30, BE-04 transfer $10)",
+      "url": "https://www.sosnc.gov/forms/by_title/_Business_Registration_Business_Entities_Common",
+      "lastAccessed": "2026-07-21"
+    }
+  ],
+  "lastVerified": "2026-07-21"
+}

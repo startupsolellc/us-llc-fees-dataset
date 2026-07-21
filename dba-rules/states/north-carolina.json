@@ -1,0 +1,44 @@
+{
+  "stateName": "North Carolina",
+  "stateAbbr": "NC",
+  "stateSlug": "north-carolina",
+  "dbaTerm": "assumed business name",
+  "filingLevel": "county",
+  "llcFilesWith": "Register of Deeds of a county where the business operates; one certificate can designate specific counties or all 100",
+  "soleProprietorFilesWith": "Register of Deeds of a county where the business operates (the same assumed business name certificate)",
+  "llcFee": 26,
+  "feeBasis": "The $26 is the Register of Deeds recording fee (Wake County example; the statutory recording charge under G.S. 161-10 is uniform across counties). One certificate can carry up to five assumed names and cover as many of the 100 counties as the filer designates, for the same fee.",
+  "duration": "No expiration",
+  "renewalRule": "The certificate does not expire. If any information on it becomes materially misleading, an amended certificate must be recorded within 60 days.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Recording an assumed business name is public notice of who is behind the name, not a grant of rights in it. It is the condition for lawfully trading under the name; it does not stop another business from recording something similar.",
+  "searchUrl": "https://www.sosnc.gov/online_services/assumed_name/search",
+  "searchNote": "Unusually for a county-recorded filing, North Carolina keeps a single statewide index: each Register of Deeds transmits its assumed business name certificates to the Secretary of State, which assigns an identification number and publishes them in one searchable database of filings made on or after December 1, 2017. So a name recorded in one county can be searched statewide.",
+  "filingUrl": "https://www.sosnc.gov/divisions/business_registration/assumed_business_names",
+  "statuteCitation": "N.C.G.S. § 66-71.4",
+  "statuteUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_66/GS_66-71.4.html",
+  "notes": "North Carolina's 2017 Assumed Business Name Act replaced the old county-by-county system. A certificate is still recorded at a county Register of Deeds, but one filing can be made effective in every county and is indexed statewide by the Secretary of State. With no publication requirement and no renewal, it is one of the simpler and cheaper assumed-name regimes among the states we cover.",
+  "sources": [
+    {
+      "citation": "N.C.G.S. § 66-71.4",
+      "title": "Filing of certificate; exception (assumed business name certificate, up to five names)",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_66/GS_66-71.4.html",
+      "lastAccessed": "2026-07-21"
+    },
+    {
+      "citation": "North Carolina Secretary of State",
+      "title": "Assumed Business Names (statewide searchable database from December 1, 2017)",
+      "url": "https://www.sosnc.gov/divisions/business_registration/assumed_business_names",
+      "lastAccessed": "2026-07-21"
+    },
+    {
+      "citation": "Wake County Register of Deeds",
+      "title": "Filing an Assumed Name (DBA) ($26 recording fee; one filing effective statewide)",
+      "url": "https://www.wake.gov/departments-government/register-deeds/business-name-resources/filing-assumed-name-dba",
+      "lastAccessed": "2026-07-21"
+    }
+  ],
+  "lastVerified": "2026-07-21"
+}

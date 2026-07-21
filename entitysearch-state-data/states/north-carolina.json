@@ -51,8 +51,8 @@
     "llcFeeNotes": "Domestic LLC Articles of Organization filing fee is $125 (SOS Business Registration fee schedule).",
     "annualReport": 203,
     "annualReportDue": "April 15",
-    "nameReservation": 10,
-    "nameReservationNotes": "LLC Application for Reserved Name filing fee is $10."
+    "nameReservation": 30,
+    "nameReservationNotes": "Application to Reserve a Business Entity Name (Form BE-03) filing fee is $30 for a nonrenewable 120-day reservation. The $10 form (BE-04) only transfers an existing reservation to another applicant."
   },
   "sources": [
     {
