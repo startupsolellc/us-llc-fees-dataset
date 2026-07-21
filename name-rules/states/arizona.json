@@ -1,0 +1,39 @@
+{
+  "stateName": "Arizona",
+  "stateAbbr": "AZ",
+  "stateSlug": "arizona",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviation \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC,\" in uppercase or lowercase letters.",
+  "entitySuffixCitation": "A.R.S. § 29-3112(A)",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Corporation Commission or the Secretary of State from every existing entity that is not administratively dissolved, every registered and reserved name, and every trade name registered with the Secretary of State under A.R.S. § 44-1460. Designator words such as \"LLC,\" \"Inc.,\" and \"Corp.\" are disregarded in the comparison, and an administratively dissolved company's name does not block a filing. A conflicting name may be used only with a certified copy of a final court judgment establishing the right to it.",
+  "distinguishabilityCitation": "A.R.S. § 29-3112(B), (C), (D)",
+  "restrictedWords": [],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10,
+  "nameReservationCostBasis": "The $10 is the Corporation Commission's regular fee to reserve an LLC name for 120 days; expedited handling is $35. The reservation cannot be renewed.",
+  "nameReservationDuration": "120 days (nonrenewable)",
+  "nameReservationUrl": "https://azcc.gov/corporations/forms",
+  "nameReservationProcessingTime": "No published day count (expedited option available)",
+  "namingStatuteUrl": "https://law.justia.com/codes/arizona/title-29/section-29-3112/",
+  "notes": "Arizona runs LLCs through the Corporation Commission, not a Secretary of State, and its distinguishability test reaches across both agencies: a new LLC name must clear existing Commission entities and Secretary of State trade names alike. Designator words are ignored in the comparison and administratively dissolved names do not block, so a dead company's name can free up. The $10 reservation is among the cheapest in the country but does not renew. Arizona LLCs file no annual report, though most must publish a notice of formation in a newspaper unless the statutory agent sits in Maricopa or Pima County.",
+  "sources": [
+    {
+      "citation": "A.R.S. § 29-3112",
+      "title": "Permitted names (designator, distinguishability across both agencies, dissolved-name and court-judgment rules)",
+      "url": "https://law.justia.com/codes/arizona/title-29/section-29-3112/",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "A.R.S. § 29-3113",
+      "title": "Reserved name (120 days, $10)",
+      "url": "https://law.justia.com/codes/arizona/title-29/section-29-3113/",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "Arizona Corporation Commission",
+      "title": "Schedule of LLC fees ($50 Articles of Organization, $10 name reservation)",
+      "url": "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-llcs.pdf",
+      "lastAccessed": "2026-07-17"
+    }
+  ],
+  "lastVerified": "2026-07-22"
+}

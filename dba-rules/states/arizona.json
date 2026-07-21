@@ -1,0 +1,44 @@
+{
+  "stateName": "Arizona",
+  "stateAbbr": "AZ",
+  "stateSlug": "arizona",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Arizona Secretary of State (trade name registration; a separate agency from the Corporation Commission that holds the LLC)",
+  "soleProprietorFilesWith": "Arizona Secretary of State (the same trade name registration)",
+  "llcFee": 10,
+  "feeBasis": "The $10 is the Secretary of State's fee for a trade name registration, good for five years. The split matters: the LLC itself is formed at the Corporation Commission, but the trade name is a separate Secretary of State filing.",
+  "duration": "5 years",
+  "renewalRule": "Renewable for further five-year terms.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A trade name registration is public notice that you use the name; the Secretary of State's own guidance says it grants no exclusive right and no trademark protection. It has one practical effect: a registered trade name is part of the A.R.S. § 29-3112 distinguishability test, so while it is active the Corporation Commission will not register a new entity name that fails to be distinguishable from it.",
+  "searchUrl": "https://azsos.gov/business/trade-names-and-trademarks",
+  "searchNote": "Arizona trade names live at the Secretary of State, not the Corporation Commission, so they are searched in a different database from the entity business search. Clearing a name fully in Arizona means checking both.",
+  "filingUrl": "https://apps.azsos.gov/Business_Services/WEB_TN_INSTRUCT.htm",
+  "statuteCitation": "A.R.S. § 44-1460",
+  "statuteUrl": "https://law.justia.com/codes/arizona/title-44/section-44-1460/",
+  "notes": "Arizona splits the work across two agencies: the LLC is formed at the Corporation Commission, while a trade name is registered at the Secretary of State. A trade name is optional, cheap, and lasts five years, but registering one does not stop others from using a similar name. Its only teeth come from being part of the entity distinguishability test at the Commission.",
+  "sources": [
+    {
+      "citation": "A.R.S. § 44-1460",
+      "title": "Registration of trade names with the Secretary of State",
+      "url": "https://law.justia.com/codes/arizona/title-44/section-44-1460/",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "Arizona Secretary of State",
+      "title": "Trade Name and Trademark Handbook ($10, five-year term, notice only)",
+      "url": "https://azsos.gov/sites/default/files/docs/bsd_TRADE_NAME-TRADEMARK_handbook_v6_05312024.pdf",
+      "lastAccessed": "2026-07-22"
+    },
+    {
+      "citation": "A.R.S. § 29-3112",
+      "title": "Permitted names (registered trade names are part of the entity distinguishability test)",
+      "url": "https://law.justia.com/codes/arizona/title-29/section-29-3112/",
+      "lastAccessed": "2026-07-22"
+    }
+  ],
+  "lastVerified": "2026-07-22"
+}
