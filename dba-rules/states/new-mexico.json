@@ -1,0 +1,38 @@
+{
+  "stateName": "New Mexico",
+  "stateAbbr": "NM",
+  "stateSlug": "new-mexico",
+  "dbaTerm": "none; no statewide filing exists",
+  "filingLevel": "none",
+  "llcFilesWith": "No state office. New Mexico provides no method to register a DBA or trade name at the state level; a business simply uses the name.",
+  "soleProprietorFilesWith": "No state office; the same is true for sole proprietors, who have no state or general county DBA registration to file.",
+  "llcFee": null,
+  "feeBasis": "There is no statewide DBA filing and therefore no state fee. A trade name may still need to be listed on other state forms (for example a CRS tax registration), but that is not a DBA registry.",
+  "duration": "Not applicable",
+  "renewalRule": null,
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "With no DBA registration available, trading under another name in New Mexico creates no state record and no rights in the name. Nothing is checked for conflicts, and the name never enters a state index.",
+  "searchUrl": null,
+  "searchNote": "New Mexico has no statewide DBA index. The Secretary of State's business search lists formed entities only, so a trade name in daily use can look clear in the state search.",
+  "filingUrl": null,
+  "statuteCitation": "NMSA 1978 Chapter 53 (no DBA registration statute exists)",
+  "statuteUrl": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
+  "notes": "New Mexico is one of the few states with no DBA, trade name, or assumed name registration for LLCs, corporations, or sole proprietors. A business that wants a distinct trade name secures it through a trademark filing or by forming an entity, not through a DBA registry, because none exists. The name a business trades under may still appear on tax and licensing forms, but that does not register or protect it.",
+  "sources": [
+    {
+      "citation": "New Mexico Secretary of State",
+      "title": "Business Services (entity registration only; no DBA registry)",
+      "url": "https://www.sos.nm.gov/business-services/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "NMSA 1978 § 53-19-3",
+      "title": "New Mexico Limited Liability Company Act — Name (naming and reservation; no DBA provision)",
+      "url": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

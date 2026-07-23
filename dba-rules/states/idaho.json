@@ -1,0 +1,38 @@
+{
+  "stateName": "Idaho",
+  "stateAbbr": "ID",
+  "stateSlug": "idaho",
+  "dbaTerm": "assumed business name",
+  "filingLevel": "state",
+  "llcFilesWith": "Idaho Secretary of State (Certificate of Assumed Business Name)",
+  "soleProprietorFilesWith": "Idaho Secretary of State as well, on the same certificate; Idaho has no county-level DBA filing",
+  "llcFee": 25,
+  "feeBasis": "The Secretary of State fee is $25 online and $45 by paper (the paper price includes the $20 manual processing surcharge). One filing covers any owner, entity or individual.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "An assumed business name is in effect from filing until the owner cancels it under Idaho Code § 30-21-809; there is no renewal.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed business name discloses the name a business trades under and grants no exclusive trademark right. It does carry a practical effect: Idaho requires an assumed business name to be distinguishable on the Secretary of State's records, so an active ABN blocks a later entity or ABN that is not distinguishable from it while it stays on file.",
+  "searchUrl": "https://sosbiz.idaho.gov/search/business",
+  "searchNote": "Assumed business names appear in the Secretary of State's SOSBiz business search alongside entities, since they share the same distinguishability records. Idaho keeps DBAs at the state level, so there is no separate county index to check.",
+  "filingUrl": "https://sosbiz.idaho.gov/",
+  "statuteCitation": "Idaho Code § 30-21-805",
+  "statuteUrl": "https://law.justia.com/codes/idaho/title-30/chapter-21/part-8/",
+  "notes": "Idaho runs a clean state-level DBA system: every owner, whether an LLC, corporation, sole proprietor, or partnership, files a Certificate of Assumed Business Name with the Secretary of State ($25 online, $45 paper). The certificate never expires and there is no publication requirement. Because Idaho screens assumed business names for distinguishability in the same records as entities, a filed ABN behaves defensively like an entity name while active, though registration alone grants no trademark right.",
+  "sources": [
+    {
+      "citation": "Idaho Code § 30-21-801 et seq.",
+      "title": "Idaho Uniform Business Organizations Code — Assumed Business Names (Part 8)",
+      "url": "https://law.justia.com/codes/idaho/title-30/chapter-21/part-8/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Idaho Secretary of State",
+      "title": "Assumed Business Names FAQ ($25 online / $45 paper, no expiration)",
+      "url": "https://sos.idaho.gov/business-services-resources/business-entities-assumed-business-names-faq/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

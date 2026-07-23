@@ -1,0 +1,42 @@
+{
+  "stateName": "Idaho",
+  "stateAbbr": "ID",
+  "stateSlug": "idaho",
+  "entitySuffixRule": "Must contain the words \"Limited Liability Company\" or \"Limited Company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "Idaho Code § 30-25-105",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from every domestic filing entity, every registered foreign entity, every limited liability partnership, every reserved or registered name, and every assumed business name on file. Idaho screens assumed business names in the same register, so an active ABN blocks a later non-distinguishable name too. A name that is not distinguishable may be used only with the other holder's consent or a court judgment establishing the right to it.",
+  "distinguishabilityCitation": "Idaho Code § 30-21-301",
+  "restrictedWords": [
+    "bank",
+    "trust"
+  ],
+  "nameReservationFee": 20,
+  "nameReservationTotalCost": 20.0,
+  "nameReservationCostBasis": "The $20 Secretary of State fee (Application for Reservation of Legal Entity Name) is the full cost when filed online; a paper filing adds a $20 manual processing fee.",
+  "nameReservationDuration": "4 months",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sosbiz.idaho.gov/",
+  "namingStatuteUrl": "https://law.justia.com/codes/idaho/title-30/chapter-25/section-30-25-105/",
+  "notes": "Idaho places entity naming in the Idaho Uniform Business Organizations Code, so LLCs, corporations, other entities, and assumed business names share one distinguishability register at the Secretary of State. The naming sections carry no general banned-word list; \"bank\" and \"trust\" are governed by the state's banking law rather than the name statute. A reservation lasts four months. Idaho charges a $20 manual processing surcharge on paper filings, so the online path is materially cheaper for both reservations and formation.",
+  "sources": [
+    {
+      "citation": "Idaho Code § 30-25-105",
+      "title": "Idaho Uniform Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/idaho/title-30/chapter-25/section-30-25-105/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Idaho Code § 30-21-301",
+      "title": "Idaho Uniform Business Organizations Code — Name of entity (distinguishability)",
+      "url": "https://law.justia.com/codes/idaho/title-30/chapter-21/part-3/section-30-21-301/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Idaho Secretary of State",
+      "title": "SOSBiz filings portal (name reservation $20, four months)",
+      "url": "https://sosbiz.idaho.gov/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

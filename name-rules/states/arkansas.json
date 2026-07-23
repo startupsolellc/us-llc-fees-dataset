@@ -1,0 +1,42 @@
+{
+  "stateName": "Arkansas",
+  "stateAbbr": "AR",
+  "stateSlug": "arkansas",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "Ark. Code § 4-38-112",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of any existing entity whose formation required a state filing and that is not administratively dissolved, any limited liability partnership with a statement of qualification in effect, any name under which a person is registered to do business in Arkansas, and any name reserved under § 4-38-113. A name that is not distinguishable may be used with the other holder's consent or under a court judgment.",
+  "distinguishabilityCitation": "Ark. Code § 4-38-112",
+  "restrictedWords": [
+    "bank",
+    "trust"
+  ],
+  "nameReservationFee": 22.5,
+  "nameReservationTotalCost": 22.5,
+  "nameReservationCostBasis": "The Secretary of State fee (Application for Reservation of a Limited Liability Company Name) is $22.50 online and $25 by paper.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
+  "namingStatuteUrl": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-112/",
+  "notes": "Arkansas adopted the Uniform Limited Liability Company Act (Act 1041 of 2021), which places LLC naming in § 4-38-112. The naming section carries no general banned-word list; \"bank\" and \"trust\" are governed by the state's banking law rather than the name statute. A reservation lasts 120 days. Online filing is cheaper for both the reservation ($22.50 vs $25) and formation ($45 vs $50), and Arkansas charges a $150 annual franchise tax due May 1.",
+  "sources": [
+    {
+      "citation": "Ark. Code § 4-38-112",
+      "title": "Arkansas Uniform Limited Liability Company Act — Permitted names",
+      "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-112/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Ark. Code § 4-38-113",
+      "title": "Arkansas Uniform Limited Liability Company Act — Reservation of name (120 days)",
+      "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-113/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Arkansas Secretary of State",
+      "title": "LLC forms and fees (name reservation $22.50 online / $25 paper)",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

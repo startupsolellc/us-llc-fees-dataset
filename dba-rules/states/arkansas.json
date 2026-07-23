@@ -1,0 +1,38 @@
+{
+  "stateName": "Arkansas",
+  "stateAbbr": "AR",
+  "stateSlug": "arkansas",
+  "dbaTerm": "fictitious name",
+  "filingLevel": "split",
+  "llcFilesWith": "Arkansas Secretary of State (Application for Fictitious Name, Form DN-18); the certificate returned by the Secretary of State is then recorded with the county clerk of the county where the LLC's registered office is located, except when that office is in Pulaski County",
+  "soleProprietorFilesWith": "County clerk in each county where the business is conducted (sole proprietors and general partnerships file only at the county level)",
+  "llcFee": 22.5,
+  "feeBasis": "The Secretary of State fee for an entity fictitious name is $22.50 online and $25 by paper; the county clerk then charges a separate recording fee. Sole proprietors pay only the county clerk fee.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "A fictitious name does not expire; it stays in effect until the entity cancels it.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A fictitious name discloses the name a business trades under and grants no exclusive right. Arkansas ties a consequence to not filing rather than a reward for filing: an LLC that does business under a fictitious name without registering it may be blocked from enforcing contracts made under that name and can face a civil penalty (§ 4-38-122).",
+  "searchUrl": "https://sos-corp-search.ark.org/corps",
+  "searchNote": "Entity fictitious names filed with the Secretary of State appear in the state business search. Sole proprietor fictitious names sit only in county clerk records, so a full check of individual DBAs means searching the relevant county.",
+  "filingUrl": "https://www.sos.arkansas.gov/uploads/bcs/DN-18.pdf",
+  "statuteCitation": "Ark. Code § 4-38-122",
+  "statuteUrl": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-122/",
+  "notes": "Arkansas splits its DBA system. LLCs and other entities file an Application for Fictitious Name with the Secretary of State ($22.50 online, $25 paper) and then record the returned certificate with their county clerk, except when the registered office is in Pulaski County, so an entity effectively files in two places. Sole proprietors and general partnerships file only with the county clerk. There is no publication requirement, and an entity that skips the filing risks a civil penalty and loss of contract enforcement.",
+  "sources": [
+    {
+      "citation": "Ark. Code § 4-38-122",
+      "title": "Arkansas Uniform Limited Liability Company Act — Use of fictitious names",
+      "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-122/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Arkansas Secretary of State",
+      "title": "Application for Fictitious Name (Form DN-18, $22.50 online / $25 paper)",
+      "url": "https://www.sos.arkansas.gov/uploads/bcs/DN-18.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

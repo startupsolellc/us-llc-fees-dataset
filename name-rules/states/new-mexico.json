@@ -1,0 +1,39 @@
+{
+  "stateName": "New Mexico",
+  "stateAbbr": "NM",
+  "stateSlug": "new-mexico",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"limited\" may be abbreviated \"ltd.\" and \"company\" may be abbreviated \"co.\"",
+  "entitySuffixCitation": "NMSA 1978 § 53-19-3",
+  "distinguishabilityNote": "Must be distinguishable from the name of any LLC, limited partnership, or corporation existing under New Mexico law, any foreign LLC or corporation authorized to transact business in New Mexico, and any name reserved under § 53-19-4. A name that is not distinguishable may be used only under a certified copy of a final court decree establishing the applicant's prior right to it.",
+  "distinguishabilityCitation": "NMSA 1978 § 53-19-3",
+  "restrictedWords": [],
+  "nameReservationFee": 20,
+  "nameReservationTotalCost": 20.0,
+  "nameReservationCostBasis": "The $20 Secretary of State fee (Application for Reservation of a Domestic LLC Name) is the full cost.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://enterprise.sos.nm.gov/",
+  "namingStatuteUrl": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
+  "notes": "New Mexico's LLC name section sets a designator rule and a distinguishability test but lists no banned or regulated words, so restrictedWords is empty; regulated terms such as bank, trust, and insurance are handled by their own licensing statutes rather than § 53-19-3. The only route past a conflicting name is a certified court decree, not a simple consent letter. New Mexico LLCs file no annual report, which pairs with the state's privacy-friendly reputation, and formation is a low $50.",
+  "sources": [
+    {
+      "citation": "NMSA 1978 § 53-19-3",
+      "title": "New Mexico Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "NMSA 1978 § 53-19-4",
+      "title": "New Mexico Limited Liability Company Act — Reserved name (120 days)",
+      "url": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-4/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "New Mexico Secretary of State",
+      "title": "Business Services (name reservation $20, 120 days)",
+      "url": "https://enterprise.sos.nm.gov/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
