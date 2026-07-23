@@ -1,0 +1,44 @@
+{
+  "stateName": "Iowa",
+  "stateAbbr": "IA",
+  "stateSlug": "iowa",
+  "dbaTerm": "fictitious name",
+  "filingLevel": "split",
+  "llcFilesWith": "Iowa Secretary of State; an LLC that trades under a name other than its true name files a certified Fictitious Name Resolution (a resolution of its members or managers adopting the name) through Fast Track Filing",
+  "soleProprietorFilesWith": "County recorder of each county where the business is conducted; sole proprietors and general partnerships record a verified trade name statement under Iowa Code ch. 547, which by its terms does not apply to LLCs, corporations, or limited partnerships",
+  "llcFee": 100,
+  "feeBasis": "The Secretary of State charges $100 to file a Fictitious Name Resolution. Sole proprietors instead pay the county recorder's recording fee set by Iowa Code § 331.604.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "A Fictitious Name Resolution stays on file until the entity is dissolved or files to change or cancel the name; there is no periodic renewal.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Filing a fictitious name resolution or a county trade name discloses the name a business uses and grants no exclusive right to it.",
+  "searchUrl": "https://sos.iowa.gov/search/business/search.aspx",
+  "searchNote": "Fictitious names adopted by LLCs and other entities appear in the Secretary of State business search. County trade names filed by sole proprietors sit only in the county recorder's records, so a full check of individual DBAs means searching the relevant county.",
+  "filingUrl": "https://help.sos.iowa.gov/how-do-i-file-fictitious-name-resolution",
+  "statuteCitation": "Iowa Code § 489.108",
+  "statuteUrl": "https://law.justia.com/codes/iowa/title-xii/chapter-489/section-489-108/",
+  "notes": "Iowa splits its DBA system by who is filing. LLCs and other registered entities file a certified Fictitious Name Resolution with the Secretary of State ($100), a resolution of the members or managers adopting the trade name; the entity's naming section (§ 489.108) does not otherwise control the fictitious name. Sole proprietors and general partnerships instead record a verified statement with the county recorder under Iowa Code ch. 547, which expressly does not apply to LLCs and corporations. Neither filing grants an exclusive right, and there is no publication requirement.",
+  "sources": [
+    {
+      "citation": "Iowa Code § 489.108",
+      "title": "Revised Uniform Limited Liability Company Act — Name (fictitious name resolution for entities)",
+      "url": "https://law.justia.com/codes/iowa/title-xii/chapter-489/section-489-108/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Iowa Code § 547.1",
+      "title": "Trade Names — Use of trade name; verified statement required (county recorder)",
+      "url": "https://law.justia.com/codes/iowa/title-xiii/chapter-547/section-547-1/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Iowa Secretary of State",
+      "title": "How do I file a Fictitious Name Resolution? ($100)",
+      "url": "https://help.sos.iowa.gov/how-do-i-file-fictitious-name-resolution",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

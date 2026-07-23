@@ -1,0 +1,44 @@
+{
+  "stateName": "Mississippi",
+  "stateAbbr": "MS",
+  "stateSlug": "mississippi",
+  "dbaTerm": "fictitious business name",
+  "filingLevel": "state",
+  "llcFilesWith": "Mississippi Secretary of State, Business Services Division (online Fictitious Business Name Registration under the Fictitious Business Name Registration Act)",
+  "soleProprietorFilesWith": "Mississippi Secretary of State, Business Services Division (the same statewide registration applies to sole proprietors)",
+  "llcFee": 25,
+  "feeBasis": "The Secretary of State fee to register a fictitious business name is $25, the same for LLCs and sole proprietors.",
+  "duration": "5 years",
+  "renewalRule": "A registration is effective for five years and may be renewed indefinitely for successive five-year terms.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "The application requires the filer to acknowledge that registering a fictitious business name does not create any exclusive right to the name (Miss. Code § 75-93-7). It provides public notice only.",
+  "searchUrl": "https://corp.sos.ms.gov/corp/portal/c/page/corpBusinessIdSearch/portal.aspx",
+  "searchNote": "Registered fictitious business names are searchable through the Secretary of State's online business search.",
+  "filingUrl": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+  "statuteCitation": "Miss. Code § 75-93-7",
+  "statuteUrl": "https://law.justia.com/codes/mississippi/title-75/chapter-93/section-75-93-7/",
+  "notes": "Mississippi runs a single statewide DBA system under the Fictitious Business Name Registration Act (Miss. Code Title 75, ch. 93). LLCs and sole proprietors alike register the fictitious business name online with the Secretary of State for $25; the registration lasts five years and renews indefinitely. There is no newspaper publication requirement, and the filer must acknowledge on the application that registration creates no exclusive right to the name.",
+  "sources": [
+    {
+      "citation": "Miss. Code § 75-93-7",
+      "title": "Fictitious Business Name Registration Act — Registration (no exclusive right)",
+      "url": "https://law.justia.com/codes/mississippi/title-75/chapter-93/section-75-93-7/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Miss. Code § 75-93-1",
+      "title": "Fictitious Business Name Registration Act — Short title",
+      "url": "https://law.justia.com/codes/mississippi/title-75/chapter-93/section-75-93-1/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Mississippi Secretary of State",
+      "title": "Business Services fees and forms directory (fictitious business name $25, 5-year term)",
+      "url": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

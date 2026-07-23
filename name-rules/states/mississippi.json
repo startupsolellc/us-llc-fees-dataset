@@ -1,0 +1,48 @@
+{
+  "stateName": "Mississippi",
+  "stateAbbr": "MS",
+  "stateSlug": "mississippi",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" Mississippi does not accept \"limited company,\" \"L.C.,\" or \"LC.\"",
+  "entitySuffixCitation": "Miss. Code § 79-29-109",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of any domestic or foreign corporation, nonprofit corporation, limited partnership, limited liability partnership, or limited liability company, and from any name reserved or registered and not yet expired. A name that is not distinguishable may be used only with the written consent of the other holder (who agrees to change its name) or under a certified copy of a court judgment establishing the applicant's right to use the name in Mississippi.",
+  "distinguishabilityCitation": "Miss. Code § 79-29-109",
+  "restrictedWords": [
+    "bank",
+    "banker",
+    "banking",
+    "trust",
+    "trust company",
+    "insurance",
+    "corporation",
+    "incorporated"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25,
+  "nameReservationCostBasis": "The Secretary of State fee for an Application for Name Reservation is $25.",
+  "nameReservationDuration": "180 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+  "namingStatuteUrl": "https://law.justia.com/codes/mississippi/title-79/chapter-29/article-1/section-79-29-109/",
+  "notes": "Mississippi's Revised LLC Act (Miss. Code Title 79, ch. 29) sets an unusually short designator list, only \"limited liability company,\" \"L.L.C.,\" or \"LLC\" (it does not accept \"limited company,\" \"LC,\" or \"L.C.\"). Section 79-29-109 also bars financial-sounding words such as \"bank,\" \"trust,\" \"insurance,\" \"corporation,\" and \"incorporated.\" A reservation lasts 180 days and may be renewed once. Mississippi files everything through its online business services portal, the LLC formation fee is $50, and Mississippi is one of the few states that charges no fee for the LLC annual report (due April 15).",
+  "sources": [
+    {
+      "citation": "Miss. Code § 79-29-109",
+      "title": "Revised Mississippi Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/mississippi/title-79/chapter-29/article-1/section-79-29-109/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Miss. Code § 79-29-111",
+      "title": "Revised Mississippi Limited Liability Company Act — Reservation of name (180 days, one renewal)",
+      "url": "https://law.justia.com/codes/mississippi/title-79/chapter-29/article-1/section-79-29-111/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Mississippi Secretary of State",
+      "title": "Business Services fees and forms directory (name reservation $25)",
+      "url": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

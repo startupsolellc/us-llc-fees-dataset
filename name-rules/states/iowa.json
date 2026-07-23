@@ -1,0 +1,39 @@
+{
+  "stateName": "Iowa",
+  "stateAbbr": "IA",
+  "stateSlug": "iowa",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "Iowa Code § 489.108",
+  "distinguishabilityNote": "Must be distinguishable in the records of the Secretary of State from the name of every person that is not an individual and is incorporated, organized, or authorized to transact business in Iowa, and from every name reserved under § 489.109. A name that is not distinguishable may be used with the consent of the other holder, given in a signed record together with an undertaking to change the noncomplying name.",
+  "distinguishabilityCitation": "Iowa Code § 489.108",
+  "restrictedWords": [],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10,
+  "nameReservationCostBasis": "The Secretary of State fee for an Application for Reservation of Name is $10.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+  "namingStatuteUrl": "https://law.justia.com/codes/iowa/title-xii/chapter-489/section-489-108/",
+  "notes": "Iowa adopted the Revised Uniform Limited Liability Company Act (Iowa Code ch. 489), so LLC naming lives in § 489.108 with no general banned-word list. A reservation lasts 120 days and can be transferred. A distinctive Iowa rule: § 489.108 does not control fictitious names, but an LLC that trades under a fictitious name must file a certified Fictitious Name Resolution with the Secretary of State. The domestic Certificate of Organization is $50, and Iowa LLCs file a biennial report ($30 online / $45 paper) in odd-numbered years.",
+  "sources": [
+    {
+      "citation": "Iowa Code § 489.108",
+      "title": "Revised Uniform Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/iowa/title-xii/chapter-489/section-489-108/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Iowa Code § 489.109",
+      "title": "Revised Uniform Limited Liability Company Act — Reservation of name (120 days)",
+      "url": "https://law.justia.com/codes/iowa/title-xii/chapter-489/section-489-109/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Iowa Secretary of State",
+      "title": "Business Entity Forms and Fees (name reservation $10)",
+      "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

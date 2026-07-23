@@ -1,0 +1,44 @@
+{
+  "stateName": "Nebraska",
+  "stateAbbr": "NE",
+  "stateSlug": "nebraska",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Nebraska Secretary of State (Application for Registration of Trade Name), followed by newspaper publication and proof of publication filed with the Secretary of State",
+  "soleProprietorFilesWith": "Nebraska Secretary of State (the same statewide trade name registration applies to individuals and sole proprietors)",
+  "llcFee": 100,
+  "feeBasis": "The Secretary of State fee to register a trade name is $110 filed in writing or $100 filed electronically. Nebraska also requires the registrant to publish the trade name in a newspaper; the newspaper sets its own charge, but filing the proof of publication with the Secretary of State carries no fee.",
+  "duration": "10 years",
+  "renewalRule": "A trade name registration is effective for ten years and may be renewed for successive ten-year terms.",
+  "publicationRequired": true,
+  "publicationRule": "The registrant must publish the trade name once in a newspaper of general circulation in the city or village where the business is located (or, if none, in a newspaper of general circulation in the county) and file proof of publication with the Secretary of State within 45 days of registration.",
+  "protectionLevel": "none",
+  "protectionNote": "Nebraska folds registered trade names into the LLC name screen, so an active trade name blocks later entity names that are the same as or deceptively similar to it (§ 21-108), and the Secretary of State will not register a trade name confusingly similar to one already on file. The registration is a public claim to the name rather than a trademark, and ownership ultimately turns on actual use under common law.",
+  "searchUrl": "https://www.nebraska.gov/sos/corp/corpsearch.cgi",
+  "searchNote": "Registered trade names appear in the Secretary of State's corporate and business name search.",
+  "filingUrl": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Forms/ApplicationforTradeName.pdf",
+  "statuteCitation": "Neb. Rev. Stat. § 87-210",
+  "statuteUrl": "https://law.justia.com/codes/nebraska/chapter-87/statute-87-210/",
+  "notes": "Nebraska registers trade names statewide with the Secretary of State under Neb. Rev. Stat. §§ 87-208 to 87-219.01. LLCs and sole proprietors file the same Application for Registration of Trade Name ($110 written / $100 electronic), then publish the name once in a local newspaper and file proof of publication within 45 days. A registration lasts ten years and renews for like terms. Nebraska is stricter than most: a registered trade name is part of the § 21-108 entity-name screen, so it can block later LLC names, though registration is a public claim rather than a trademark.",
+  "sources": [
+    {
+      "citation": "Neb. Rev. Stat. § 87-210",
+      "title": "Trade name; application for registration; requirements; publication; Secretary of State",
+      "url": "https://law.justia.com/codes/nebraska/chapter-87/statute-87-210/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 87-211",
+      "title": "Trade name; registration; term effective (10 years); renewal; fee",
+      "url": "https://law.justia.com/codes/nebraska/chapter-87/statute-87-211/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Nebraska Secretary of State",
+      "title": "Application for Registration of Trade Name ($110 in-office / $100 online)",
+      "url": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Forms/ApplicationforTradeName.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
