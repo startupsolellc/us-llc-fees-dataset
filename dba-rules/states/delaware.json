@@ -1,0 +1,44 @@
+{
+  "stateName": "Delaware",
+  "stateAbbr": "DE",
+  "stateSlug": "delaware",
+  "dbaTerm": "trade, business, or fictitious name",
+  "filingLevel": "county",
+  "llcFilesWith": "Prothonotary of the Superior Court in each Delaware county (New Castle, Kent, or Sussex) where the business is transacted (Registration of Trade, Business & Fictitious Name Certificate)",
+  "soleProprietorFilesWith": "Prothonotary of the Superior Court in each county where the business is transacted (the same county-court registration applies to individuals and sole proprietors)",
+  "llcFee": 25,
+  "feeBasis": "The Prothonotary's fee is $25 per county; a business operating in more than one county must file with each county's Prothonotary.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "The registration stays in effect until the owner files a termination affidavit; there is no periodic renewal, and there is no fee to terminate.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "The trade name certificate discloses who is behind a business name and grants no exclusive right to the name.",
+  "searchUrl": "https://courts.delaware.gov/tradenames/",
+  "searchNote": "Delaware trade names are held by the county Prothonotary offices, and the Superior Court runs a trade name search that is separate from the Division of Corporations entity search.",
+  "filingUrl": "https://www.courts.delaware.gov/Superior/trade_names.aspx",
+  "statuteCitation": "6 Del. C. § 3101",
+  "statuteUrl": "https://law.justia.com/codes/delaware/title-6/chapter-31/section-3101/",
+  "notes": "Delaware is unusual: its DBA is not a Secretary of State filing at all. LLCs and sole proprietors register a Trade, Business & Fictitious Name Certificate with the Prothonotary of the Superior Court in each county where they do business (6 Del. C. ch. 31), $25 per county, with no expiration and no fee to terminate. Because it is county-court based, a Delaware trade name search runs through the courts rather than the Division of Corporations.",
+  "sources": [
+    {
+      "citation": "6 Del. C. § 3101",
+      "title": "Registration of Trade, Business & Fictitious Names — Certificate required",
+      "url": "https://law.justia.com/codes/delaware/title-6/chapter-31/section-3101/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "6 Del. C. § 3103",
+      "title": "Registration of Trade, Business & Fictitious Names — Filing with the Prothonotary",
+      "url": "https://law.justia.com/codes/delaware/title-6/chapter-31/section-3103/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Delaware Superior Court",
+      "title": "Trade, Business & Fictitious Names ($25 per county, filed with the Prothonotary)",
+      "url": "https://www.courts.delaware.gov/Superior/trade_names.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

@@ -1,0 +1,39 @@
+{
+  "stateName": "Delaware",
+  "stateAbbr": "DE",
+  "stateSlug": "delaware",
+  "entitySuffixRule": "Must contain the words \"Limited Liability Company\" or the abbreviation \"L.L.C.\" or the designation \"LLC.\" The name may contain the name of a member or manager.",
+  "entitySuffixCitation": "6 Del. C. § 18-102",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Division of Corporations from the name of any corporation, partnership, limited partnership, statutory trust, limited liability company, registered series of an LLC, or registered series of an LP, whether domestic or foreign, that is reserved, registered, formed, organized, or qualified to do business in Delaware. A name that is not distinguishable may be used with the written consent of the entity that holds the similar name.",
+  "distinguishabilityCitation": "6 Del. C. § 18-102",
+  "restrictedWords": [],
+  "nameReservationFee": 75,
+  "nameReservationTotalCost": 75,
+  "nameReservationCostBasis": "The Division of Corporations fee to reserve a name is $75.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://corp.delaware.gov",
+  "namingStatuteUrl": "https://law.justia.com/codes/delaware/title-6/chapter-18/subchapter-i/section-18-102/",
+  "notes": "Delaware's LLC Act (6 Del. C. ch. 18) sets a narrow designator: only \"Limited Liability Company,\" \"L.L.C.,\" or \"LLC\" (it does not list \"limited company,\" \"LC,\" or \"L.C.\"). Names are checked against the Division of Corporations records, and Delaware's registered-series entities are part of that screen. A reservation lasts 120 days for $75, one of the pricier holds. Delaware LLCs file no annual report but pay a flat $300 annual tax due June 1, and the state's draw is its Court of Chancery rather than low fees.",
+  "sources": [
+    {
+      "citation": "6 Del. C. § 18-102",
+      "title": "Limited Liability Company Act — Name set forth in certificate",
+      "url": "https://law.justia.com/codes/delaware/title-6/chapter-18/subchapter-i/section-18-102/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "6 Del. C. § 18-103",
+      "title": "Limited Liability Company Act — Reservation of name (120 days)",
+      "url": "https://law.justia.com/codes/delaware/title-6/chapter-18/subchapter-i/section-18-103/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Delaware Division of Corporations",
+      "title": "Fee schedule (name reservation $75)",
+      "url": "https://corp.delaware.gov",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

@@ -1,0 +1,39 @@
+{
+  "stateName": "Montana",
+  "stateAbbr": "MT",
+  "stateSlug": "montana",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"L.C.,\" \"LLC,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "Mont. Code Ann. § 35-8-103",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of any business corporation, nonprofit corporation, limited partnership, or limited liability company organized or reserved under Montana law. The name may not contain business name identifiers (as defined in § 30-13-201) or other language stating or implying that the company is a business other than a limited liability company. A name that is not distinguishable may be used with the other holder's consent.",
+  "distinguishabilityCitation": "Mont. Code Ann. § 35-8-103",
+  "restrictedWords": [],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10,
+  "nameReservationCostBasis": "The Secretary of State fee for a name reservation is $10.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sosmt.gov/business/fees/",
+  "namingStatuteUrl": "https://law.justia.com/codes/montana/title-35/chapter-8/part-1/section-35-8-103/",
+  "notes": "Montana's LLC Act (Mont. Code Ann. Title 35, ch. 8) sets a distinctive rule: § 35-8-103 bars a name from containing the \"business name identifiers\" of another entity type (defined in § 30-13-201), so an LLC name cannot carry \"Inc.,\" \"Corp.,\" \"LP,\" or similar words. There is otherwise no general banned-word list. A reservation lasts 120 days. Montana is one of the cheapest states to form in: the LLC filing fee is $35 and there is no LLC annual report fee (the annual report itself is due April 15).",
+  "sources": [
+    {
+      "citation": "Mont. Code Ann. § 35-8-103",
+      "title": "Montana Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/montana/title-35/chapter-8/part-1/section-35-8-103/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Mont. Code Ann. § 30-13-201",
+      "title": "Assumed Business Names, Trademarks, and Related Rights — Definitions (business name identifiers)",
+      "url": "https://law.justia.com/codes/montana/title-30/chapter-13/part-2/section-30-13-201/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Montana Secretary of State",
+      "title": "Business Services Filing Fees (name reservation $10)",
+      "url": "https://sosmt.gov/business/fees/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

@@ -1,0 +1,39 @@
+{
+  "stateName": "Alaska",
+  "stateAbbr": "AK",
+  "stateSlug": "alaska",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\" The name may use a city, borough, or village name but may not imply that the company is a municipality.",
+  "entitySuffixCitation": "AS 10.50.020",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Department of Commerce, Community, and Economic Development from the name of any other organized entity and from a reserved or registered name (as those terms are defined in AS 10.35.040). The department may adopt regulations to implement the standard.",
+  "distinguishabilityCitation": "AS 10.50.025",
+  "restrictedWords": [],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25,
+  "nameReservationCostBasis": "The Division of Corporations fee to reserve a name is $25 for 120 days.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.commerce.alaska.gov/web/cbpl/Corporations/ReservingRegisteringBusinessName.aspx",
+  "namingStatuteUrl": "https://law.justia.com/codes/alaska/title-10/chapter-50/article-2/section-10-50-020/",
+  "notes": "Alaska is not a Secretary of State state: LLCs are named and searched at the Department of Commerce, Community, and Economic Development (Division of Corporations, Business and Professional Licensing). AS 10.50.020 sets the designator and lets a name use a city, borough, or village name so long as it does not imply the company is a municipality; AS 10.50.025 requires the name be distinguishable on the department's records. A reservation lasts 120 days for $25. Alaska's costs run high for a small state: the LLC filing fee is $250 and a biennial report ($100) is due January 2 of the filing years.",
+  "sources": [
+    {
+      "citation": "AS 10.50.020",
+      "title": "Alaska Revised Limited Liability Company Act — Limited liability company name",
+      "url": "https://law.justia.com/codes/alaska/title-10/chapter-50/article-2/section-10-50-020/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "AS 10.50.025",
+      "title": "Alaska Revised Limited Liability Company Act — Distinguishable name",
+      "url": "https://law.justia.com/codes/alaska/title-10/chapter-50/article-2/section-10-50-025/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Alaska Division of Corporations, Business and Professional Licensing",
+      "title": "Reserving/Registering a Business Name (name reservation $25, 120 days)",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/ReservingRegisteringBusinessName.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

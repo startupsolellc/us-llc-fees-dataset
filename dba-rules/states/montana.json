@@ -1,0 +1,44 @@
+{
+  "stateName": "Montana",
+  "stateAbbr": "MT",
+  "stateSlug": "montana",
+  "dbaTerm": "assumed business name",
+  "filingLevel": "state",
+  "llcFilesWith": "Montana Secretary of State (Application for Registration of Assumed Business Name)",
+  "soleProprietorFilesWith": "Montana Secretary of State (the same statewide assumed business name registration applies to individuals and sole proprietors)",
+  "llcFee": 20,
+  "feeBasis": "The Secretary of State fee to register an assumed business name is $20, and renewal is also $20.",
+  "duration": "5 years",
+  "renewalRule": "A registration is effective for five years from the date of registration (§ 30-13-206) and may be renewed for successive five-year terms.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed business name must be distinguishable on the record from names already registered or reserved with the Secretary of State (§ 30-13-202), so registering one blocks a later identical assumed name, but the registration is disclosure rather than a trademark and grants no exclusive right beyond that screen.",
+  "searchUrl": "https://biz.sosmt.gov/search/business",
+  "searchNote": "Registered assumed business names appear in the Secretary of State's online business search.",
+  "filingUrl": "https://biz.sosmt.gov/forms",
+  "statuteCitation": "Mont. Code Ann. § 30-13-202",
+  "statuteUrl": "https://law.justia.com/codes/montana/title-30/chapter-13/part-2/section-30-13-202/",
+  "notes": "Montana registers assumed business names statewide with the Secretary of State (Mont. Code Ann. Title 30, ch. 13, part 2). LLCs and sole proprietors alike register for $20; the registration lasts five years and renews for like terms. The name is screened for distinguishability against registered and reserved names, so it blocks a later identical assumed name, but it grants no exclusive right and needs no publication.",
+  "sources": [
+    {
+      "citation": "Mont. Code Ann. § 30-13-202",
+      "title": "Assumed Business Names — Registration; when prohibited; contest procedure",
+      "url": "https://law.justia.com/codes/montana/title-30/chapter-13/part-2/section-30-13-202/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Mont. Code Ann. § 30-13-206",
+      "title": "Assumed Business Names — Term and renewal (5 years)",
+      "url": "https://mca.legmt.gov/bills/mca/title_0300/chapter_0130/part_0020/section_0060/0300-0130-0020-0060.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Montana Secretary of State",
+      "title": "Business Services Filing Fees (assumed business name $20, 5-year term)",
+      "url": "https://sosmt.gov/business/fees/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

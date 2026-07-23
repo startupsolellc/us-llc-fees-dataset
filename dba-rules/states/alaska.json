@@ -1,0 +1,38 @@
+{
+  "stateName": "Alaska",
+  "stateAbbr": "AK",
+  "stateSlug": "alaska",
+  "dbaTerm": "business name registration",
+  "filingLevel": "state",
+  "llcFilesWith": "Alaska Department of Commerce, Community, and Economic Development, Division of Corporations, Business and Professional Licensing (Business Name Registration under AS 10.35)",
+  "soleProprietorFilesWith": "Alaska Division of Corporations, Business and Professional Licensing (the same statewide business name registration applies to individuals and sole proprietors)",
+  "llcFee": 25,
+  "feeBasis": "The Division of Corporations fee for a business name registration is $25 (non-refundable).",
+  "duration": "5 years",
+  "renewalRule": "A registration is effective for five years, including any part of the filing year, and is renewable between October 1 and December 31 of the year it expires.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "exclusive-registration",
+  "protectionNote": "Unusually for a DBA-style filing, an Alaska business name registration gives the owner the exclusive right to use the name for five years, so it functions more like a trademark registration than a bare disclosure.",
+  "searchUrl": "https://www.commerce.alaska.gov/cbp/main/search/entities",
+  "searchNote": "Registered business names appear in the Division of Corporations entity search.",
+  "filingUrl": "https://www.commerce.alaska.gov/web/cbpl/Corporations/ReservingRegisteringBusinessName.aspx",
+  "statuteCitation": "AS 10.35.010",
+  "statuteUrl": "https://law.justia.com/codes/alaska/title-10/chapter-35/",
+  "notes": "Alaska's DBA equivalent is a Business Name Registration filed with the Division of Corporations under AS 10.35. Unlike most states' trade names, an Alaska business name registration grants the owner the exclusive right to the name for five years (renewable between October 1 and December 31 of the expiration year), so it behaves like a trademark rather than a bare disclosure. The fee is $25, and both LLCs and sole proprietors use it. This is separate from the temporary 120-day name reservation.",
+  "sources": [
+    {
+      "citation": "AS 10.35.010",
+      "title": "Registration of Business Names — Registration (exclusive right, 5 years)",
+      "url": "https://law.justia.com/codes/alaska/title-10/chapter-35/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Alaska Division of Corporations, Business and Professional Licensing",
+      "title": "Reserving/Registering a Business Name ($25, 5-year exclusive right, renew Oct 1 - Dec 31)",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/ReservingRegisteringBusinessName.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
