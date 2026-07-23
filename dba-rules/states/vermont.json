@@ -1,0 +1,38 @@
+{
+  "stateName": "Vermont",
+  "stateAbbr": "VT",
+  "stateSlug": "vermont",
+  "dbaTerm": "assumed business name",
+  "filingLevel": "state",
+  "llcFilesWith": "Vermont Secretary of State (Assumed Business Name Registration)",
+  "soleProprietorFilesWith": "Vermont Secretary of State (the same statewide assumed business name registration applies to individuals and sole proprietors)",
+  "llcFee": 70,
+  "feeBasis": "The Secretary of State fee to register an assumed business name is $70.",
+  "duration": "5 years",
+  "renewalRule": "An assumed business name registration must be renewed every five years to stay in force.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed business name discloses the name a business trades under and grants no exclusive right to it.",
+  "searchUrl": "https://bizfilings.vermont.gov/business/businesssearch",
+  "searchNote": "Registered assumed business names appear in the Secretary of State's online business search.",
+  "filingUrl": "https://sos.vermont.gov/business-services/business-filings/assumed-name",
+  "statuteCitation": "11 V.S.A. § 1621",
+  "statuteUrl": "https://law.justia.com/codes/vermont/title-11/chapter-15/section-1621/",
+  "notes": "Vermont registers assumed business names statewide with the Secretary of State (11 V.S.A. ch. 15). LLCs and sole proprietors alike file for $70; the registration lasts five years and must be renewed to stay in force. There is no publication requirement, and registration is disclosure rather than a trademark, so it grants no exclusive right.",
+  "sources": [
+    {
+      "citation": "11 V.S.A. § 1621",
+      "title": "Registration of assumed business names",
+      "url": "https://law.justia.com/codes/vermont/title-11/chapter-15/section-1621/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Vermont Secretary of State",
+      "title": "Assumed Name Registration ($70, 5-year renewal)",
+      "url": "https://sos.vermont.gov/business-services/business-filings/assumed-name",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

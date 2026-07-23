@@ -1,0 +1,38 @@
+{
+  "stateName": "Washington, D.C.",
+  "stateAbbr": "DC",
+  "stateSlug": "washington-d-c",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "DC Department of Licensing and Consumer Protection (DLCP), Corporations Division (Trade Name Registration, Form TN-1)",
+  "soleProprietorFilesWith": "DC Department of Licensing and Consumer Protection (the same district-wide trade name registration applies to individuals and sole proprietors)",
+  "llcFee": 55,
+  "feeBasis": "The DLCP fee to register a trade name is $55, and renewal is also $55.",
+  "duration": "2 years",
+  "renewalRule": "A trade name registration must be renewed by April 1 of the second year after registration or the last renewal; a late renewal is accepted through August 31 of that year with a $55 late fee.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A District trade name may not contain an entity qualifier such as LLC, Corp, or LP; it is a disclosure registration and does not grant an exclusive right to the name.",
+  "searchUrl": "https://corponline.dlcp.dc.gov/homepage",
+  "searchNote": "Registered trade names appear in the DLCP CorpOnline business search.",
+  "filingUrl": "https://dlcp.dc.gov/node/1619191",
+  "statuteCitation": "D.C. Code § 47-2855.02",
+  "statuteUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2855.02",
+  "notes": "The District of Columbia registers trade names with the Department of Licensing and Consumer Protection (D.C. Code Title 47, ch. 28, subchapter I-C). Both LLCs and sole proprietors register for $55, and the term is an unusually short two years, renewable by April 1 of the second year. A trade name cannot carry an entity qualifier such as LLC, and registration is notice rather than a trademark.",
+  "sources": [
+    {
+      "citation": "D.C. Code § 47-2855.02",
+      "title": "Trade Names — Registration required",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2855.02",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "DC Department of Licensing and Consumer Protection",
+      "title": "Trade Name (Form TN-1, $55, 2-year term)",
+      "url": "https://dlcp.dc.gov/node/1619191",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

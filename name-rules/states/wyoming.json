@@ -1,0 +1,39 @@
+{
+  "stateName": "Wyoming",
+  "stateAbbr": "WY",
+  "stateSlug": "wyoming",
+  "entitySuffixRule": "Must contain the words \"Limited Liability Company\" or \"Limited Company,\" or the abbreviations \"LLC,\" \"L.L.C.,\" \"LC,\" \"L.C.,\" or \"Ltd. Liability Company.\"",
+  "entitySuffixCitation": "W.S. § 17-29-108",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State as provided in W.S. 17-16-401. A name is distinguishable if it has one or more different letters or numerals, or a different sequence of letters or numerals, from other names on record. Differences that do not make a name distinguishable include entity-type words or abbreviations (corporation, company, incorporated, limited, L.P., LLC, and the like), the words \"the,\" \"and,\" or \"a,\" and punctuation or special characters. A conflicting name may be used with the other holder's consent or under a certified court judgment.",
+  "distinguishabilityCitation": "W.S. § 17-29-108",
+  "restrictedWords": [],
+  "nameReservationFee": 60,
+  "nameReservationTotalCost": 60,
+  "nameReservationCostBasis": "The Secretary of State fee to reserve a name is $60; a reservation is not required to file Articles of Organization.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sos.wyo.gov/Business/Default.aspx",
+  "namingStatuteUrl": "https://law.justia.com/codes/wyoming/title-17/chapter-29/article-1/section-17-29-108/",
+  "notes": "Wyoming's LLC Act (W.S. Title 17, ch. 29) defines \"distinguishable\" by statute through the Business Corporation Act (§ 17-16-401): entity-type words, the articles \"the/and/a,\" and punctuation are ignored, so a real letter or number difference is required to clear a conflict. There is no banned-word list. Wyoming is a formation-haven state, with strong owner privacy and no member disclosure on the public record. The LLC filing fee is $100 and an annual report license tax ($60 minimum) is due the first day of the anniversary month. A reservation ($60, 120 days) is optional.",
+  "sources": [
+    {
+      "citation": "W.S. § 17-29-108",
+      "title": "Wyoming Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/wyoming/title-17/chapter-29/article-1/section-17-29-108/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "W.S. § 17-16-401",
+      "title": "Wyoming Business Corporation Act — Corporate name (definition of distinguishable)",
+      "url": "https://law.justia.com/codes/wyoming/title-17/chapter-16/article-4/section-17-16-401/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Wyoming Secretary of State",
+      "title": "Business Division (name reservation $60, 120 days)",
+      "url": "https://sos.wyo.gov/Business/Default.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

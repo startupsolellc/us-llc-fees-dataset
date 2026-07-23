@@ -1,0 +1,39 @@
+{
+  "stateName": "Washington, D.C.",
+  "stateAbbr": "DC",
+  "stateSlug": "washington-d-c",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\"",
+  "entitySuffixCitation": "D.C. Code § 29-103.02",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Mayor (maintained by the Department of Licensing and Consumer Protection) from the names of other registered entities and from reserved or registered names. An entity may consent in a record to another's use of a name that is not distinguishable from its own except for an entity-type word or abbreviation.",
+  "distinguishabilityCitation": "D.C. Code § 29-103.01",
+  "restrictedWords": [],
+  "nameReservationFee": 50,
+  "nameReservationTotalCost": 50,
+  "nameReservationCostBasis": "The DLCP fee to reserve or transfer a name is $50.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://dlcp.dc.gov/node/1614386",
+  "namingStatuteUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/29-103.02",
+  "notes": "The District of Columbia is not a Secretary of State jurisdiction: business filings are handled by the Department of Licensing and Consumer Protection (DLCP), Corporations Division. The name is tested against the records of the Mayor under the permitted-names rule (§ 29-103.01), and the LLC designator is set by § 29-103.02(f). A reservation lasts 120 days for $50. A District LLC pays a $99 formation fee and a $300 biennial report due April 1.",
+  "sources": [
+    {
+      "citation": "D.C. Code § 29-103.01",
+      "title": "Business Organizations — Permitted names (distinguishable on the records of the Mayor)",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-103.01",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "D.C. Code § 29-103.02",
+      "title": "Business Organizations — Name requirements for certain types of entities (LLC designator)",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-103.02",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "DC Department of Licensing and Consumer Protection",
+      "title": "Corporations Division fees (name reservation $50)",
+      "url": "https://dlcp.dc.gov/node/1614386",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

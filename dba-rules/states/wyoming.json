@@ -1,0 +1,38 @@
+{
+  "stateName": "Wyoming",
+  "stateAbbr": "WY",
+  "stateSlug": "wyoming",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Wyoming Secretary of State (Application for Registration of Trade Name)",
+  "soleProprietorFilesWith": "Wyoming Secretary of State (the same statewide trade name registration applies to individuals and sole proprietors)",
+  "llcFee": 100,
+  "feeBasis": "The Secretary of State fee to register a trade name is $100, and renewal is $50.",
+  "duration": "10 years",
+  "renewalRule": "A trade name registration is effective for ten years from registration or renewal; the Secretary of State sends a renewal notice in the year before expiration, and a $50 renewal application with a statement that the name is still in use keeps it in force.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Wyoming trade name registration is a public claim to the name; the Secretary of State will not register a trade name that is not distinguishable from one already registered, but the registration itself is not a trademark and confers no general exclusive market right.",
+  "searchUrl": "https://wyobiz.wyo.gov/Business/FilingSearch.aspx",
+  "searchNote": "Registered trade names appear in the Secretary of State's business filing search.",
+  "filingUrl": "https://sos.wyo.gov/forms/business/tn/tn-registrationapplication.pdf",
+  "statuteCitation": "W.S. § 40-2-105",
+  "statuteUrl": "https://law.justia.com/codes/wyoming/title-40/chapter-2/section-40-2-105/",
+  "notes": "Wyoming registers trade names statewide with the Secretary of State (W.S. Title 40, ch. 2). Both LLCs and sole proprietors file for $100; the registration lasts an unusually long ten years and renews for $50. There is no publication requirement, and registration is notice rather than a trademark, though the Secretary of State will refuse a trade name that is not distinguishable from one already on file.",
+  "sources": [
+    {
+      "citation": "W.S. § 40-2-105",
+      "title": "Trade Names Registration — Duration and renewal (10 years)",
+      "url": "https://law.justia.com/codes/wyoming/title-40/chapter-2/section-40-2-105/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Wyoming Secretary of State",
+      "title": "Trade Name Registration Application ($100 registration, $50 renewal)",
+      "url": "https://sos.wyo.gov/forms/business/tn/tn-registrationapplication.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
