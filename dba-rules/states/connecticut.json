@@ -1,0 +1,38 @@
+{
+  "stateName": "Connecticut",
+  "stateAbbr": "CT",
+  "stateSlug": "connecticut",
+  "dbaTerm": "trade name",
+  "filingLevel": "county",
+  "llcFilesWith": "Town clerk in each town where the business is conducted (there is no state-level DBA filing)",
+  "soleProprietorFilesWith": "Town clerk in each town where the business is conducted, on the same trade name certificate",
+  "llcFee": 20,
+  "feeBasis": "Each town clerk sets the fee, commonly around $20 per certificate on the Secretary of the State's prescribed form. A business operating in more than one town files, and pays, in each.",
+  "duration": "5 years",
+  "renewalRule": "Under Public Act 24-111, effective January 1, 2025, a trade name certificate is valid for five years and may be renewed in the six months before it expires. Certificates on file before January 1, 2025 expire December 31, 2029 unless renewed.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A trade name certificate is a town-level notice filing that discloses who is behind a business name; it grants no exclusive right. Because it is filed with the town clerk and not the Secretary of the State, it is not part of the state entity-name distinguishability screen, so it neither blocks nor is blocked by names in the Secretary of the State's records.",
+  "searchUrl": "https://service.ct.gov/business/s/onlinebusinesssearch",
+  "searchNote": "Trade name certificates are held in each town clerk's records, not in the Secretary of the State's business search, so a full check means contacting the clerk in every town where a business operates. There is no statewide index of trade names.",
+  "filingUrl": "https://portal.ct.gov/SOTS/Business-Services/Tradename",
+  "statuteCitation": "Conn. Gen. Stat. § 35-1a",
+  "statuteUrl": "https://www.cga.ct.gov/current/pub/chap_620.htm",
+  "notes": "Connecticut keeps DBAs at the municipal level. Every business, whether an LLC, corporation, or sole proprietor, that trades under a name other than its legal name files a trade name certificate with the town clerk in each town where it operates. Public Act 24-111 modernized the system on January 1, 2025: certificates now expire after five years and can be renewed, amended, or cancelled on forms the Secretary of the State prescribes, but the filing office is still the town clerk, and there is no publication requirement or statewide index.",
+  "sources": [
+    {
+      "citation": "Conn. Gen. Stat. § 35-1a",
+      "title": "Connecticut Trade Names — Application for and issuance of trade name certificate (town clerk, five-year term)",
+      "url": "https://www.cga.ct.gov/current/pub/chap_620.htm",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Connecticut Secretary of the State",
+      "title": "Trade Names — Town Clerks (Public Act 24-111, five-year term effective January 1, 2025)",
+      "url": "https://portal.ct.gov/SOTS/Business-Services/Tradename",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

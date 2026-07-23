@@ -1,0 +1,44 @@
+{
+  "stateName": "Missouri",
+  "stateAbbr": "MO",
+  "stateSlug": "missouri",
+  "dbaTerm": "fictitious name",
+  "filingLevel": "state",
+  "llcFilesWith": "Missouri Secretary of State (Registration of Fictitious Name)",
+  "soleProprietorFilesWith": "Missouri Secretary of State as well, on the same fictitious name registration; Missouri has no county-level DBA filing",
+  "llcFee": 7,
+  "feeBasis": "The $7 Secretary of State fee registers a fictitious name for five years for any owner, entity or individual. It is one of the cheapest DBA filings in the country.",
+  "duration": "5 years",
+  "renewalRule": "A fictitious name registration is effective for five years and is renewed for successive five-year terms.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Missouri law is explicit that registering a fictitious name creates no substantive rights and gives no exclusive claim to the name; it is a disclosure filing only. It is also separate from the entity-name distinguishability records, so a fictitious name neither blocks nor is blocked by names in the corporations index.",
+  "searchUrl": "https://bsd.sos.mo.gov/BusinessEntity/BESearch.aspx?SearchType=0",
+  "searchNote": "Fictitious names are searchable in the Secretary of State's business search alongside entities, but because the registration confers no rights, finding one does not by itself stop another owner from registering the same fictitious name.",
+  "filingUrl": "https://bsd.sos.mo.gov/",
+  "statuteCitation": "Mo. Rev. Stat. § 417.200",
+  "statuteUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=417.200",
+  "notes": "Missouri registers fictitious names centrally with the Secretary of State for $7, for entities and individuals alike, with no county filing and no publication requirement. Any business operating under a name other than its legal name is expected to register, but the registration lasts only five years and grants no exclusive right (§ 417.210), so it serves as public notice rather than protection.",
+  "sources": [
+    {
+      "citation": "Mo. Rev. Stat. § 417.200",
+      "title": "Missouri Fictitious Names — registration with the Secretary of State",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=417.200",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Mo. Rev. Stat. § 417.210",
+      "title": "Missouri Fictitious Names — registration confers no substantive rights",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=417.210",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Missouri Secretary of State",
+      "title": "Registration of Fictitious Name (Form Corp. 56, $7, five-year term)",
+      "url": "https://www.sos.mo.gov/business/corporations/fictitious_faq",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

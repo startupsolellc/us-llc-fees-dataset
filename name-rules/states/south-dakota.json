@@ -1,0 +1,42 @@
+{
+  "stateName": "South Dakota",
+  "stateAbbr": "SD",
+  "stateSlug": "south-dakota",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"limited\" may be abbreviated \"Ltd.\" and \"company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "SDCL § 47-34A-105",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every existing domestic entity, every foreign entity registered to do business in South Dakota, every reserved name, and every registered name. A name that is not distinguishable may be used with the written consent of the other holder or under a court judgment establishing the right to it.",
+  "distinguishabilityCitation": "SDCL § 47-34A-105",
+  "restrictedWords": [
+    "bank",
+    "trust"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25.0,
+  "nameReservationCostBasis": "The $25 Secretary of State fee (Application for Reservation of Name) is the full cost.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sosenterprise.sd.gov/BusinessServices/Business/NameAvailability.aspx",
+  "namingStatuteUrl": "https://sdlegislature.gov/Statutes/47-34A-105",
+  "notes": "South Dakota places LLC naming in its Uniform Limited Liability Company Act, so entity types share one distinguishability register at the Secretary of State. The naming section carries no general banned-word list; \"bank\" and \"trust\" are governed by the state's banking law rather than the name statute. A name reservation is a single 120-day exclusive right. South Dakota levies no state income tax, which is part of why it attracts out-of-state formations, but its LLC filing fee is a comparatively high $150 online.",
+  "sources": [
+    {
+      "citation": "SDCL § 47-34A-105",
+      "title": "South Dakota Uniform Limited Liability Company Act — Name",
+      "url": "https://sdlegislature.gov/Statutes/47-34A-105",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "SDCL § 47-34A-109",
+      "title": "South Dakota Uniform Limited Liability Company Act — Reservation of name (120 days)",
+      "url": "https://sdlegislature.gov/Statutes/47-34A-109",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "South Dakota Secretary of State",
+      "title": "Business filing fees (name reservation $25, 120 days)",
+      "url": "https://sdsos.gov/general-information/filing-fees.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

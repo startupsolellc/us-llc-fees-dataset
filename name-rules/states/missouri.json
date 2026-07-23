@@ -1,0 +1,42 @@
+{
+  "stateName": "Missouri",
+  "stateAbbr": "MO",
+  "stateSlug": "missouri",
+  "entitySuffixRule": "Must contain the words \"limited company\" or \"limited liability company,\" or the abbreviations \"LC,\" \"L.C.,\" \"LLC,\" or \"L.L.C.\" The name may not contain \"corporation,\" \"incorporated,\" \"limited partnership,\" \"limited liability partnership,\" \"limited liability limited partnership,\" \"Ltd.,\" or an abbreviation of those.",
+  "entitySuffixCitation": "Mo. Rev. Stat. § 347.020",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of any corporation, LLC, limited partnership, limited liability partnership, or limited liability limited partnership that is licensed, organized, reserved, or registered in Missouri, domestic or foreign. A name that is not distinguishable may be used only if the other holder of a reserved or registered name consents in writing and files to change its own name to one that is distinguishable.",
+  "distinguishabilityCitation": "Mo. Rev. Stat. § 347.020",
+  "restrictedWords": [
+    "bank",
+    "trust"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25.0,
+  "nameReservationCostBasis": "The $25 Secretary of State fee (Reservation of Name) is the full cost for an LLC; limited liability partnerships pay $30.",
+  "nameReservationDuration": "60 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.mo.gov/business/corporations/namingBusiness",
+  "namingStatuteUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=347.020",
+  "notes": "Missouri's LLC name section bars any other entity type's words, including \"Ltd.,\" which many states allow, and bars language implying a purpose not in the articles or a governmental connection. Section 347.020 carries no general banned-word list; \"bank\" and \"trust\" are policed by the Division of Finance rather than the name statute. A name reservation lasts 60 days, one of the shorter holds in this dataset. Missouri LLCs file no annual report, and online formation is $50 against $105 by paper.",
+  "sources": [
+    {
+      "citation": "Mo. Rev. Stat. § 347.020",
+      "title": "Missouri Limited Liability Companies — Name of company regulated",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=347.020",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Mo. Rev. Stat. § 347.025",
+      "title": "Missouri Limited Liability Companies — Reservation of name (60 days)",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=347.025",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Missouri Secretary of State",
+      "title": "Naming your business (reservation $25, 60 days)",
+      "url": "https://www.sos.mo.gov/business/corporations/namingBusiness",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

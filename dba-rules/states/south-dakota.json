@@ -1,0 +1,38 @@
+{
+  "stateName": "South Dakota",
+  "stateAbbr": "SD",
+  "stateSlug": "south-dakota",
+  "dbaTerm": "fictitious name",
+  "filingLevel": "state",
+  "llcFilesWith": "South Dakota Secretary of State (DBA / fictitious business name registration)",
+  "soleProprietorFilesWith": "South Dakota Secretary of State as well, on the same DBA registration; some county Register of Deeds offices historically maintained business-name filings, but the Secretary of State runs the statewide registry",
+  "llcFee": 10,
+  "feeBasis": "The $10 Secretary of State fee registers a DBA / fictitious business name for five years for any owner, entity or individual.",
+  "duration": "5 years",
+  "renewalRule": "A DBA registration is effective for five years and must be renewed within 90 days of its expiration date; an expired registration cannot be renewed and must be filed anew.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A fictitious business name registration discloses the name a business trades under and grants no exclusive right. It is held in the Secretary of State's DBA registry, which is separate from the entity-name distinguishability records used at formation, so a DBA neither blocks nor is blocked by names in the business-entity index.",
+  "searchUrl": "https://sosenterprise.sd.gov/BusinessServices/Business/FilingSearch.aspx",
+  "searchNote": "DBA registrations are searchable in the Secretary of State's business filing search alongside entities. Because South Dakota runs one statewide registry, a single search covers the state, though older county Register of Deeds filings may exist outside it.",
+  "filingUrl": "https://sosenterprise.sd.gov/businessservices/fictitious/fictitioushome.aspx",
+  "statuteCitation": "SDCL § 37-11-1",
+  "statuteUrl": "https://sdlegislature.gov/Statutes/37-11-1",
+  "notes": "South Dakota registers DBA / fictitious business names centrally with the Secretary of State for $10, for entities and individuals alike, good for five years and renewable within 90 days of expiration. There is no publication requirement. The registration is disclosure only and is kept apart from the entity-name records, so it does not enter the LLC name distinguishability test.",
+  "sources": [
+    {
+      "citation": "SDCL § 37-11-1",
+      "title": "South Dakota Registration of Business Names — fictitious name statement",
+      "url": "https://sdlegislature.gov/Statutes/37-11-1",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "South Dakota Secretary of State",
+      "title": "DBA / fictitious business name registration ($10, five-year term, renew within 90 days)",
+      "url": "https://sosenterprise.sd.gov/businessservices/fictitious/fictitioushome.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

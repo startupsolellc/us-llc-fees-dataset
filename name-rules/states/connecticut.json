@@ -1,0 +1,43 @@
+{
+  "stateName": "Connecticut",
+  "stateAbbr": "CT",
+  "stateSlug": "connecticut",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "Conn. Gen. Stat. § 34-243k",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of the State from the name of any entity formed by a state filing that is not administratively dissolved, any foreign entity registered to do business in Connecticut, any name reserved under § 34-243l, and any name registered under § 34-243m. Words and abbreviations indicating a type of entity (corporation, Inc., Ltd., LP, LLP, and the like) are not taken into account. A non-distinguishable name may be used only with a court judgment establishing the company's right to it.",
+  "distinguishabilityCitation": "Conn. Gen. Stat. § 34-243k",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "insurance"
+  ],
+  "nameReservationFee": 60,
+  "nameReservationTotalCost": 60.0,
+  "nameReservationCostBasis": "The $60 Secretary of the State fee (Application for Reservation of Name) is the full cost. It is among the higher reservation fees in the country.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://portal.ct.gov/SOTS/Business-Services/Business-Services",
+  "namingStatuteUrl": "https://www.cga.ct.gov/current/pub/chap_613a.htm",
+  "notes": "Connecticut places LLC naming in its Uniform Limited Liability Company Act, so entity types share one distinguishability register at the Secretary of the State. Section 34-243k lists no banned words but bars language implying a purpose the LLC is not organized for; \"bank,\" \"trust,\" and \"insurance\" are cleared through the relevant regulators under other titles. The $60 reservation is one of the priciest holds in this dataset, and the only route past a conflicting name is a court judgment rather than a simple consent letter. Connecticut is administered by the Secretary of the State's Business Services Division.",
+  "sources": [
+    {
+      "citation": "Conn. Gen. Stat. § 34-243k",
+      "title": "Connecticut Uniform Limited Liability Company Act — Permitted name",
+      "url": "https://www.cga.ct.gov/current/pub/chap_613a.htm",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Conn. Gen. Stat. § 34-243l",
+      "title": "Connecticut Uniform Limited Liability Company Act — Reservation of name (120 days)",
+      "url": "https://www.cga.ct.gov/current/pub/chap_613a.htm",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Connecticut Secretary of the State",
+      "title": "Business Services (name reservation $60, 120 days)",
+      "url": "https://portal.ct.gov/SOTS/Business-Services/Business-Services",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
