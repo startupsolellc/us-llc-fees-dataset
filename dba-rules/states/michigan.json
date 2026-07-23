@@ -1,0 +1,38 @@
+{
+  "stateName": "Michigan",
+  "stateAbbr": "MI",
+  "stateSlug": "michigan",
+  "dbaTerm": "assumed name",
+  "filingLevel": "split",
+  "llcFilesWith": "Michigan Department of Licensing and Regulatory Affairs (LARA), Corporations, Securities & Commercial Licensing Bureau (Certificate of Assumed Name, Form CSCL/CD-541, MCL 450.4206)",
+  "soleProprietorFilesWith": "County clerk of each county where the business is conducted (sole proprietors and general partnerships file an assumed name / co-partnership certificate under the county assumed name law)",
+  "llcFee": 25,
+  "feeBasis": "The LARA fee for an LLC's Certificate of Assumed Name is $25. Sole proprietors pay the county clerk's fee, which varies by county.",
+  "duration": "Through December 31 of the fifth full calendar year after filing",
+  "renewalRule": "An LLC's assumed name expires on December 31 of the fifth full calendar year after filing and may be extended for further five-year periods by filing a renewal no earlier than 90 days before expiration.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed name lets a company trade under a different name; it is disclosure, and although it is part of the LARA name screen, it is not a trademark and grants no exclusive market right.",
+  "searchUrl": "https://mibusinessregistry.lara.state.mi.us/",
+  "searchNote": "Assumed names filed by LLCs and corporations appear in the LARA business entity search. County-level assumed names for sole proprietors sit in county clerk records.",
+  "filingUrl": "https://www.michigan.gov/lara/bureau-list/cscl/corps/limited-liab-part/filing-requirements/registering-in-michigan",
+  "statuteCitation": "MCL 450.4206",
+  "statuteUrl": "https://law.justia.com/codes/michigan/chapter-450/statute-act-23-of-1993/article-2/section-450-4206/",
+  "notes": "Michigan splits its DBA system. An LLC files a Certificate of Assumed Name with LARA ($25, MCL 450.4206); the assumed name expires on December 31 of the fifth full calendar year after filing and renews for five-year periods. Sole proprietors and general partnerships instead file an assumed name with the county clerk. The LARA assumed name is part of the entity-name screen, so it can block a later LLC name, but it grants no exclusive right and needs no publication.",
+  "sources": [
+    {
+      "citation": "MCL 450.4206",
+      "title": "Michigan Limited Liability Company Act — Transacting business under assumed name",
+      "url": "https://law.justia.com/codes/michigan/chapter-450/statute-act-23-of-1993/article-2/section-450-4206/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Michigan LARA, Corporations Division",
+      "title": "Certificate of Assumed Name (Form CSCL/CD-541, $25, expires Dec 31 of the 5th year)",
+      "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/limited-liab-part/filing-requirements/registering-in-michigan",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

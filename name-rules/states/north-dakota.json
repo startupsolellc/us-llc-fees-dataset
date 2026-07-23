@@ -1,0 +1,39 @@
+{
+  "stateName": "North Dakota",
+  "stateAbbr": "ND",
+  "stateSlug": "north-dakota",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"LLC\" or \"L.L.C.\"",
+  "entitySuffixCitation": "N.D.C.C. § 10-32.1-11",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the names of other domestic and authorized foreign entities and from reserved, registered, and trade names on file. Because a registered North Dakota trade name carries an exclusive right, it is part of this screen. A name that is not distinguishable may be used with the consent of the other holder or under a court order.",
+  "distinguishabilityCitation": "N.D.C.C. § 10-32.1-11",
+  "restrictedWords": [],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10,
+  "nameReservationCostBasis": "The Secretary of State fee to reserve a name through the FirstStop portal is $10.",
+  "nameReservationDuration": "1 year",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://firststop.sos.nd.gov/",
+  "namingStatuteUrl": "https://codes.findlaw.com/nd/title-10-corporations/nd-cent-code-sect-10-32-1-11/",
+  "notes": "North Dakota adopted the Uniform Limited Liability Company Act (N.D.C.C. ch. 10-32.1). The name must carry an LLC designator and be distinguishable on Secretary of State records; North Dakota folds registered trade names into that screen because a trade name here carries an exclusive right. Filings run through the FirstStop portal, where a name reservation costs $10 and lasts a full year, one of the longest holds in the country. The LLC formation fee is $135 and an annual report ($50) is due November 15.",
+  "sources": [
+    {
+      "citation": "N.D.C.C. § 10-32.1-11",
+      "title": "North Dakota Uniform Limited Liability Company Act — Limited liability company name",
+      "url": "https://codes.findlaw.com/nd/title-10-corporations/nd-cent-code-sect-10-32-1-11/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "N.D.C.C. § 10-32.1-12",
+      "title": "North Dakota Uniform Limited Liability Company Act — Reserved name (1 year)",
+      "url": "https://codes.findlaw.com/nd/title-10-corporations/nd-cent-code-sect-10-32-1-12/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "North Dakota Secretary of State",
+      "title": "Limited Liability Company (LLC) / FirstStop portal (name reservation $10, 1 year)",
+      "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

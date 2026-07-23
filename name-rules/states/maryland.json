@@ -1,0 +1,39 @@
+{
+  "stateName": "Maryland",
+  "stateAbbr": "MD",
+  "stateSlug": "maryland",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC\" (§ 1-502). A benefit LLC adds the word \"Benefit.\"",
+  "entitySuffixCitation": "Md. Code, Corps. & Ass'ns § 1-502",
+  "distinguishabilityNote": "Must be distinguishable, as required by § 1-503, on the records of the State Department of Assessments and Taxation from the names of other domestic and foreign entities and from reserved or registered names on the Department's records. A name that is not distinguishable may be used with the consent of the other holder.",
+  "distinguishabilityCitation": "Md. Code, Corps. & Ass'ns § 1-503",
+  "restrictedWords": [],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25,
+  "nameReservationCostBasis": "The SDAT fee to reserve a name is $25.",
+  "nameReservationDuration": "30 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://dat.maryland.gov/Pages/default.aspx",
+  "namingStatuteUrl": "https://law.justia.com/codes/maryland/corporations-and-associations/title-1/subtitle-5/section-1-502/",
+  "notes": "Maryland is not a Secretary of State state: LLCs are formed, named, and searched at the State Department of Assessments and Taxation (SDAT). The LLC name section (§ 4A-208) points to the general naming rules in Title 1, Subtitle 5, so the designator (§ 1-502) and the distinguishability test on SDAT records (§ 1-503) are the same for every Maryland entity. A reservation lasts only 30 days, one of the shortest holds in the country. Maryland LLCs file an annual report carrying a flat $300 fee (the state's business personal-property return), due April 15.",
+  "sources": [
+    {
+      "citation": "Md. Code, Corps. & Ass'ns § 1-502",
+      "title": "General Provisions — Contents of name (LLC designator)",
+      "url": "https://law.justia.com/codes/maryland/corporations-and-associations/title-1/subtitle-5/section-1-502/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Md. Code, Corps. & Ass'ns § 1-503",
+      "title": "General Provisions — Distinctiveness of name (distinguishable on SDAT records)",
+      "url": "https://law.justia.com/codes/maryland/corporations-and-associations/title-1/subtitle-5/section-1-503/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Maryland State Department of Assessments and Taxation",
+      "title": "Corporate Charter fee schedule (name reservation $25, 30 days)",
+      "url": "https://dat.maryland.gov/businesses/documents/fees.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

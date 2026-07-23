@@ -1,0 +1,33 @@
+{
+  "stateName": "Michigan",
+  "stateAbbr": "MI",
+  "stateSlug": "michigan",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC\" (periods and punctuation optional). A low-profit LLC uses \"low-profit limited liability company\" or the abbreviation \"L3C.\"",
+  "entitySuffixCitation": "MCL 450.4204",
+  "distinguishabilityNote": "The name must not be indistinguishable from the name of any domestic LLC or authorized foreign LLC in good standing, a corporation under the Business Corporation Act, a nonprofit corporation, a limited partnership, or any name reserved, registered, or assumed under this act or the other corporate acts. The name also may not contain a word or phrase implying a purpose other than the one permitted by the articles of organization. A conflicting name may be used with the other holder's written consent.",
+  "distinguishabilityCitation": "MCL 450.4204",
+  "restrictedWords": [],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25,
+  "nameReservationCostBasis": "The LARA fee for an Application for Reservation of Name (Form 540) is $25 for an LLC.",
+  "nameReservationDuration": "180 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
+  "namingStatuteUrl": "https://law.justia.com/codes/michigan/chapter-450/statute-act-23-of-1993/article-2/section-450-4204/",
+  "notes": "Michigan is not a Secretary of State state for businesses: LLCs are formed, named, and searched at the Department of Licensing and Regulatory Affairs (LARA), Corporations, Securities & Commercial Licensing Bureau. MCL 450.4204 folds reserved, registered, and assumed names into the distinguishability screen, so an assumed name already on file can block a later LLC name. A reservation lasts 180 days for $25. Michigan is inexpensive to form in ($50 LLC) with a low $25 annual statement due February 15.",
+  "sources": [
+    {
+      "citation": "MCL 450.4204",
+      "title": "Michigan Limited Liability Company Act — Name; requirements; rights",
+      "url": "https://law.justia.com/codes/michigan/chapter-450/statute-act-23-of-1993/article-2/section-450-4204/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Michigan LARA, Corporations Division",
+      "title": "LLC filing fees (name reservation $25, 180 days)",
+      "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

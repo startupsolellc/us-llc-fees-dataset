@@ -51,8 +51,8 @@
     "llcFeeNotes": "Registration fee for domestic and foreign business LLCs is $135 (SOS LLC page).",
     "annualReport": 50,
     "annualReportDue": "Nov 15",
-    "nameReservation": null,
-    "nameReservationNotes": "Official guidance says a reserved name application is filed through the FirstStop Portal and reserves a name for up to 1 year; no separate fee amount was published on the reviewed public page."
+    "nameReservation": 10,
+    "nameReservationNotes": "Name reservation is filed through the FirstStop Portal and reserves a name for up to 1 year; the reservation fee is $10 (ND SOS FirstStop, verified 2026-07-23)."
   },
   "sources": [
     {

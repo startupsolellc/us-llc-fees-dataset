@@ -1,0 +1,38 @@
+{
+  "stateName": "North Dakota",
+  "stateAbbr": "ND",
+  "stateSlug": "north-dakota",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "North Dakota Secretary of State (Trade Name Registration through the FirstStop portal)",
+  "soleProprietorFilesWith": "North Dakota Secretary of State (the same statewide trade name registration applies to individuals and sole proprietors)",
+  "llcFee": 25,
+  "feeBasis": "The Secretary of State fee to register a trade name through the FirstStop portal is $25.",
+  "duration": "5 years",
+  "renewalRule": "A trade name registration is effective for five years and must be renewed through the FirstStop portal to stay in force.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "exclusive-registration",
+  "protectionNote": "North Dakota trade name registration grants the owner the exclusive right to the name in North Dakota: once a trade name is registered, no other business may file a name with the Secretary of State that is the same as, or deceptively similar to, it (N.D.C.C. ch. 47-25).",
+  "searchUrl": "https://firststop.sos.nd.gov/search/business",
+  "searchNote": "Registered trade names appear in the FirstStop business search alongside entity names.",
+  "filingUrl": "https://sos.nd.gov/business/business-services/trade-name-franchise-name",
+  "statuteCitation": "N.D.C.C. § 47-25-01",
+  "statuteUrl": "https://law.justia.com/codes/north-dakota/title-47/chapter-47-25/",
+  "notes": "North Dakota registers trade names statewide with the Secretary of State under N.D.C.C. ch. 47-25, through the FirstStop portal ($25, five-year term). Unlike most states' DBAs, a North Dakota trade name grants an exclusive right: no other business may register a name that is the same as or deceptively similar to a registered trade name, and the trade name is part of the entity-name distinguishability screen. Both LLCs and sole proprietors use it, and there is no publication requirement.",
+  "sources": [
+    {
+      "citation": "N.D.C.C. § 47-25-01",
+      "title": "Trade Names — Registration and exclusive right",
+      "url": "https://law.justia.com/codes/north-dakota/title-47/chapter-47-25/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "North Dakota Secretary of State",
+      "title": "Trade Name / Franchise Name (FirstStop, 5-year term, exclusive right)",
+      "url": "https://sos.nd.gov/business/business-services/trade-name-franchise-name",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
