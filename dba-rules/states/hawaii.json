@@ -1,0 +1,38 @@
+{
+  "stateName": "Hawaii",
+  "stateAbbr": "HI",
+  "stateSlug": "hawaii",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Hawaii Department of Commerce and Consumer Affairs, Business Registration Division (Application for Registration of Trade Name, Form T-1)",
+  "soleProprietorFilesWith": "Hawaii Department of Commerce and Consumer Affairs, Business Registration Division (the same statewide trade name registration applies to individuals and sole proprietors)",
+  "llcFee": 50,
+  "feeBasis": "The Business Registration Division fee to register a trade name is $50 (non-refundable), and renewal is also $50.",
+  "duration": "5 years",
+  "renewalRule": "A registration is effective for five years and may be renewed for successive five-year periods by filing within six months before expiration with a $50 fee (HRS § 482-3).",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A Hawaii trade name registration is constructive notice statewide of the registrant's claim while the name stays in actual use (HRS § 482-3), and registered trade names are among the records that block a later substantially identical entity name. Registration does not by itself grant ownership, which is acquired through adoption and bona fide use.",
+  "searchUrl": "https://hbe.dcca.hawaii.gov/search-and-buy",
+  "searchNote": "Registered trade names appear in the Department of Commerce and Consumer Affairs business search.",
+  "filingUrl": "https://cca.hawaii.gov/breg/registration/trade/",
+  "statuteCitation": "HRS § 482-3",
+  "statuteUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482/HRS_0482-0003.HTM",
+  "notes": "Hawaii registers trade names statewide with the Department of Commerce and Consumer Affairs, Business Registration Division (HRS ch. 482). LLCs and sole proprietors alike file Form T-1 for $50; the registration lasts five years and renews for $50. Registration is constructive notice of the claim and blocks a later substantially identical entity name, but it does not by itself grant ownership, which comes from actual use.",
+  "sources": [
+    {
+      "citation": "HRS § 482-3",
+      "title": "Trade Names, Trademarks and Service Marks — Registration; term (5 years); constructive notice",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482/HRS_0482-0003.HTM",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Hawaii Department of Commerce and Consumer Affairs",
+      "title": "Trade Name, Trademark, or Service Mark registration (Form T-1, $50, 5-year term)",
+      "url": "https://cca.hawaii.gov/breg/registration/trade/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

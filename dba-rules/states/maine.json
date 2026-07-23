@@ -1,0 +1,44 @@
+{
+  "stateName": "Maine",
+  "stateAbbr": "ME",
+  "stateSlug": "maine",
+  "dbaTerm": "assumed name",
+  "filingLevel": "split",
+  "llcFilesWith": "Maine Secretary of State, Division of Corporations (Statement of Intention to Transact Business Under an Assumed or Fictitious Name, Form ASUM)",
+  "soleProprietorFilesWith": "Municipal clerk of the city or town where the business is located (Maine has no state-level trade name filing for sole proprietors or general partnerships; they deposit a sworn certificate with the municipal clerk before commencing business, 31 M.R.S. §§ 1-2)",
+  "llcFee": 125,
+  "feeBasis": "The Secretary of State fee for an LLC's assumed name filing is $125. A sole proprietor's certificate is filed with the municipal clerk, whose fee varies by town.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "An LLC's assumed name stays on file until the company files to change or cancel it; there is no periodic renewal.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed name or municipal trade name discloses the name a business uses and grants no exclusive right to it.",
+  "searchUrl": "https://apps3.web.maine.gov/nei-sos-icrs/ICRS?MainPage=x",
+  "searchNote": "LLC assumed names filed with the Secretary of State appear in the corporate search. Sole-proprietor trade names sit only in municipal clerk records, so a full check means contacting the relevant town or city.",
+  "filingUrl": "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/ASUM-205.pdf",
+  "statuteCitation": "31 M.R.S. § 1508",
+  "statuteUrl": "https://legislature.maine.gov/statutes/31/title31sec1508.html",
+  "notes": "Maine splits its DBA system. An LLC files a Statement of Intention to Transact Business Under an Assumed or Fictitious Name with the Secretary of State ($125). Sole proprietors and general partnerships have no state-level option: they must deposit a sworn certificate with the municipal clerk of the city or town where they do business before commencing (31 M.R.S. §§ 1-2), so a full search of individual DBAs means checking the relevant municipality. Neither filing grants an exclusive right, and neither requires publication.",
+  "sources": [
+    {
+      "citation": "31 M.R.S. § 1508",
+      "title": "Maine Limited Liability Company Act — Limited liability company name",
+      "url": "https://legislature.maine.gov/statutes/31/title31sec1508.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "31 M.R.S. §§ 1-2",
+      "title": "Assumed or fictitious names — Certificate filed with municipal clerk (sole proprietors and partnerships)",
+      "url": "https://www.maine.gov/sos/corporations-commissions/business-resources-and-information/trade-name-protection",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Maine Secretary of State",
+      "title": "Statement of Intention to Transact Business Under an Assumed or Fictitious Name (Form ASUM, $125)",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/ASUM-205.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
