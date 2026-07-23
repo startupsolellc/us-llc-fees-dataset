@@ -1,0 +1,63 @@
+{
+  "stateName": "New York",
+  "stateAbbr": "NY",
+  "stateSlug": "new-york",
+  "entitySuffixRule": "Must contain the words \"Limited Liability Company\" in full, or the abbreviation \"L.L.C.\" or \"LLC.\"",
+  "entitySuffixCitation": "N.Y. LLC Law § 204(a)",
+  "distinguishabilityNote": "Must be distinguishable, on the Department of State index of names, from every existing domestic and authorized foreign LLC (including fictitious names they use), from domestic and authorized foreign corporations, and from domestic and authorized foreign limited partnerships, and from any name for which rights have been reserved. New York checks the name against all entity types, not just LLCs.",
+  "distinguishabilityCitation": "N.Y. LLC Law § 204",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "insurance",
+    "finance",
+    "loan",
+    "mortgage",
+    "savings",
+    "investment",
+    "annuity",
+    "assurance",
+    "attorney",
+    "lawyer",
+    "blind",
+    "handicapped",
+    "exchange",
+    "school",
+    "education",
+    "college",
+    "university",
+    "academy",
+    "institute",
+    "museum",
+    "library"
+  ],
+  "nameReservationFee": 20,
+  "nameReservationTotalCost": 20.0,
+  "nameReservationCostBasis": "The $20 Department of State fee covers the initial 60-day reservation. Each 60-day extension (up to two are allowed) is a separate $20 filing.",
+  "nameReservationDuration": "60 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://dos.ny.gov/application-reservation-name-domestic-and-foreign-limited-liability-companies",
+  "namingStatuteUrl": "https://www.nysenate.gov/legislation/laws/LLC/204",
+  "notes": "New York has one of the longest restricted-name lists in the country, sorted by which agency must consent before the Articles of Organization are filed. Financial and professional terms such as \"bank,\" \"trust,\" \"insurance,\" \"finance,\" \"loan,\" \"mortgage,\" \"savings,\" \"investment,\" \"annuity,\" \"attorney,\" and \"lawyer\" need the approval of the Superintendent of Financial Services; \"blind\" and \"handicapped\" need the Department of Social Services; \"school,\" \"education,\" \"college,\" \"university,\" \"academy,\" \"institute,\" \"museum,\" and \"library\" need the Commissioner of Education; and \"exchange\" needs the Attorney General. Some phrases cannot be used at all, including \"board of trade,\" \"chamber of commerce,\" \"corporation,\" \"incorporated,\" \"partnership,\" \"state police,\" \"state trooper,\" and \"urban development.\" A reservation lasts 60 days and can be extended twice for 60 days each ($20 per extension). Separately, a newly formed New York LLC must publish notice of its formation and file a Certificate of Publication, and an LLC that operates under any name other than its true legal name must file a Certificate of Assumed Name under General Business Law § 130.",
+  "sources": [
+    {
+      "citation": "N.Y. LLC Law § 204",
+      "title": "Limited Liability Company Law — Limited liability company name",
+      "url": "https://www.nysenate.gov/legislation/laws/LLC/204",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "N.Y. LLC Law § 205",
+      "title": "Limited Liability Company Law — Reservation of name",
+      "url": "https://www.nysenate.gov/legislation/laws/LLC/205",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "New York Department of State",
+      "title": "Application for Reservation of Name for Domestic and Foreign LLCs ($20, 60 days, two 60-day extensions)",
+      "url": "https://dos.ny.gov/application-reservation-name-domestic-and-foreign-limited-liability-companies",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

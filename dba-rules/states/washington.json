@@ -1,0 +1,38 @@
+{
+  "stateName": "Washington",
+  "stateAbbr": "WA",
+  "stateSlug": "washington",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Washington Department of Revenue, Business Licensing Service (Business License Application via My DOR)",
+  "soleProprietorFilesWith": "Washington Department of Revenue, Business Licensing Service (the same Business License Application)",
+  "llcFee": 5,
+  "feeBasis": "The Department of Revenue charges $5 for each trade name registered, added to the Business License Application. If you are not already renewing a license, a one-time Business License Application processing fee also applies. Trade names are handled by the Department of Revenue, not the Secretary of State.",
+  "duration": "Indefinite",
+  "renewalRule": "A registered trade name stays on file with the Department of Revenue indefinitely until the owner asks to cancel it; there is no separate renewal or expiration for the trade name itself.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "The Department of Revenue states plainly that registering a trade name does not protect the name from use by others. It is a public disclosure of who is behind the name, not an exclusive right. Name protection in Washington comes from forming the entity (whose name is screened for distinguishability) or from a registered trademark, not from the trade name.",
+  "searchUrl": "https://secure.dor.wa.gov/gteunauth/_/",
+  "searchNote": "Registered trade names are searched in the Department of Revenue's Business Lookup, not the Secretary of State's system. Entities and reserved names live in the Secretary of State's Corporations and Charities Filing System (CCFS), a separate database.",
+  "filingUrl": "https://dor.wa.gov/manage-business/grow-business/register-trade-names",
+  "statuteCitation": "RCW 19.80",
+  "statuteUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.80",
+  "notes": "Washington is unusual in handling DBAs through the tax agency: a trade name is registered with the Department of Revenue on the Business License Application, not with the Secretary of State. The $5-per-name registration is a disclosure filing with no exclusive right and no publication requirement, and it does not expire on its own. Entity name protection is a separate matter handled by the Secretary of State when the LLC or corporation is formed.",
+  "sources": [
+    {
+      "citation": "Washington Department of Revenue",
+      "title": "Register trade names ($5 per name; does not protect the name; remains until cancelled)",
+      "url": "https://dor.wa.gov/manage-business/grow-business/register-trade-names",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "RCW 19.80",
+      "title": "Registration of Trade Names",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.80",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

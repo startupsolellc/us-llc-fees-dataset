@@ -1,0 +1,51 @@
+{
+  "stateName": "Washington",
+  "stateAbbr": "WA",
+  "stateSlug": "washington",
+  "entitySuffixRule": "Must contain the words \"limited liability company,\" the words \"limited liability\" and the abbreviation \"Co.,\" or the abbreviation \"L.L.C.\" or \"LLC.\" The name may not contain \"Cooperative,\" \"partnership,\" \"corporation,\" \"incorporated,\" or the abbreviations \"Corp.,\" \"Ltd.,\" \"Inc.,\" \"LP,\" \"L.P.,\" \"LLP,\" \"L.L.P.,\" \"LLLP,\" or \"L.L.L.P.\"",
+  "entitySuffixCitation": "RCW 23.95.305",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from any existing domestic entity that is not administratively dissolved, any foreign entity registered to do business in Washington, any name reserved under RCW 23.95.310, and any name registered under RCW 23.95.315. A name is not distinguishable merely because of a variation in the entity-type words or abbreviations (for example \"LLC\" versus \"Inc.\" or \"Corp.\"). A conflicting name may be used only with the other entity's recorded consent plus an undertaking to change its own name, or with a certified final court judgment establishing the right to it.",
+  "distinguishabilityCitation": "RCW 23.95.300",
+  "restrictedWords": [
+    "bank",
+    "banking",
+    "banker",
+    "trust",
+    "cooperative"
+  ],
+  "nameReservationFee": 30,
+  "nameReservationTotalCost": 30.0,
+  "nameReservationCostBasis": "The $30 Secretary of State filing fee is the full cost of a name reservation, the same amount for an LLC or any other for-profit entity.",
+  "nameReservationDuration": "180 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.wa.gov/corporations-charities/business-entities/filings-forms-information",
+  "namingStatuteUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=23.95.305",
+  "notes": "Washington places entity naming in the Uniform Business Organizations Code, so LLCs, corporations, and other entities share one distinguishability register. The LLC name may not carry another entity type's words or abbreviations (\"Cooperative,\" \"partnership,\" \"corporation,\" \"incorporated,\" \"LP,\" \"LLP,\" \"LLLP\"). \"Bank,\" \"banking,\" \"trust,\" and related terms are barred unless the requirements of the statute that protects them are met. A reservation is a single 180-day exclusive right that cannot be renewed, though it may be transferred to a person that is not an individual by written notice. A name reserved with the Secretary of State is separate from a trade name (DBA), which is registered with the Department of Revenue.",
+  "sources": [
+    {
+      "citation": "RCW 23.95.305",
+      "title": "Uniform Business Organizations Code — Name requirements for certain types of entities",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=23.95.305",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "RCW 23.95.300",
+      "title": "Uniform Business Organizations Code — Entity name (distinguishability)",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=23.95.300",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "RCW 23.95.310",
+      "title": "Uniform Business Organizations Code — Reservation of name (180 days, transferable)",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=23.95.310",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Washington Secretary of State",
+      "title": "Filings, Forms & Information (name reservation $30, 180 days, nonrenewable)",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/filings-forms-information",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

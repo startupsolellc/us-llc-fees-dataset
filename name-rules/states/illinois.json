@@ -1,0 +1,49 @@
+{
+  "stateName": "Illinois",
+  "stateAbbr": "IL",
+  "stateSlug": "illinois",
+  "entitySuffixRule": "Must contain \"limited liability company,\" \"L.L.C.,\" or \"LLC\" (a low-profit company organized under Section 1-26 uses \"L3C\"). The name may not contain \"Corporation,\" \"Corp.,\" \"Incorporated,\" \"Inc.,\" \"Ltd.,\" \"Co.,\" \"Limited Partnership,\" or \"L.P.,\" and must consist of English-alphabet letters, Arabic or Roman numerals, or symbols the Secretary of State can reproduce.",
+  "entitySuffixCitation": "805 ILCS 180/1-10(a)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from existing and foreign LLCs, names for which an exclusive right is reserved (Section 1-15), assumed names registered with the Secretary of State (Section 1-20), and corporate or assumed corporate names. A name is not distinguishable solely because of the words \"limited,\" \"liability,\" or \"company,\" or because of differences in articles, conjunctions, contractions, abbreviations, tense, or number. The Secretary of State decides whether two names are distinguishable.",
+  "distinguishabilityCitation": "805 ILCS 180/1-10(d), (f)",
+  "restrictedWords": [
+    "trust",
+    "trustee",
+    "fiduciary"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25.0,
+  "nameReservationCostBasis": "The $25 filing fee on Form LLC-1.15 is the full cost when filed by mail; online credit-card filings add a payment-processor fee. The $25 cannot be applied toward any other filing fee.",
+  "nameReservationDuration": "90 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.ilsos.gov/publications/business-services/llc.html",
+  "namingStatuteUrl": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-10.htm",
+  "notes": "The name may not imply a different entity type: Section 1-10(a)(4) bars \"Corporation,\" \"Corp.,\" \"Incorporated,\" \"Inc.,\" \"Ltd.,\" \"Co.,\" \"Limited Partnership,\" and \"L.P.\" The words \"trust,\" \"trustee,\" and \"fiduciary\" may be used only after complying with Section 1-9 of the Corporate Fiduciary Act, and a company organized to accept and execute trusts must contain \"trust.\" Section 1-10(a)(2) separately bars any word restricted by another Illinois statute (for example banking or insurance terms) unless that restriction has been met. A reserved name gives an exclusive 90-day right that is transferable by written notice, and an available name may be reserved again by filing a new application. The distinguishability test does not apply if the organizer files a certified copy of a final court decree establishing a prior right to the name.",
+  "sources": [
+    {
+      "citation": "805 ILCS 180/1-10",
+      "title": "Limited Liability Company Act — Limited liability company name",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-10.htm",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "805 ILCS 180/1-15",
+      "title": "Limited Liability Company Act — Reservation of name (90-day exclusive right, transferable)",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-15.htm",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Illinois Secretary of State",
+      "title": "Limited Liability Company Publications and Forms (Form LLC-1.15, $25 Application to Reserve a Name)",
+      "url": "https://www.ilsos.gov/publications/business-services/llc.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Illinois Secretary of State",
+      "title": "Guide for Organizing Domestic Limited Liability Companies (C 334)",
+      "url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/c334.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

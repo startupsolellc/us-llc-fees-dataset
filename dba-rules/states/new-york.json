@@ -1,0 +1,38 @@
+{
+  "stateName": "New York",
+  "stateAbbr": "NY",
+  "stateSlug": "new-york",
+  "dbaTerm": "assumed name",
+  "filingLevel": "split",
+  "llcFilesWith": "New York Department of State, Division of Corporations (Certificate of Assumed Name, GBL § 130)",
+  "soleProprietorFilesWith": "County clerk in each county where the business is conducted (GBL § 130)",
+  "llcFee": 25,
+  "feeBasis": "The Department of State charges $25 to file an LLC's Certificate of Assumed Name. New York adds a further per-county fee (set under CPLR § 8021) for each county in which the LLC does or will do business, so the real cost rises with the number of counties the certificate lists.",
+  "duration": "Indefinite",
+  "renewalRule": "The certificate stays effective until it is amended or cancelled; there is no periodic renewal. A certified copy must be displayed at the premises where the business is conducted.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A Certificate of Assumed Name lets an LLC operate under a name other than its true legal name. It is a disclosure filing and does not by itself grant an exclusive right to the assumed name; the distinguishability protection New York gives on its index attaches to the LLC's true legal name.",
+  "searchUrl": "https://apps.dos.ny.gov/publicInquiry/",
+  "searchNote": "Assumed names filed by LLCs and corporations sit in the Department of State's Corporation and Business Entity Database, searchable alongside entities. Assumed-name certificates filed by sole proprietors and partnerships are held by each county clerk and are not in the state database.",
+  "filingUrl": "https://dos.ny.gov/certificate-assumed-name-domestic-and-foreign-limited-liability-companies-0",
+  "statuteCitation": "N.Y. Gen. Bus. Law § 130",
+  "statuteUrl": "https://www.nysenate.gov/legislation/laws/GBS/130",
+  "notes": "New York splits its DBA system by owner type. An LLC or corporation files one Certificate of Assumed Name with the Department of State, which then covers the counties the certificate lists; sole proprietors and general partnerships instead file with the clerk of each county where they do business. There is no newspaper-publication requirement for the assumed-name certificate itself (GBL § 130 requires only that a certified copy be displayed at the premises), which is separate from the formation-publication requirement New York imposes on new LLCs.",
+  "sources": [
+    {
+      "citation": "N.Y. Gen. Bus. Law § 130",
+      "title": "General Business Law — Certificate of Assumed Name (state filing for entities, county for sole proprietors)",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/130",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "New York Department of State",
+      "title": "Certificate of Assumed Name for Domestic and Foreign LLCs ($25 filing fee)",
+      "url": "https://dos.ny.gov/certificate-assumed-name-domestic-and-foreign-limited-liability-companies-0",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

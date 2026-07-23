@@ -1,0 +1,44 @@
+{
+  "stateName": "Illinois",
+  "stateAbbr": "IL",
+  "stateSlug": "illinois",
+  "dbaTerm": "assumed name",
+  "filingLevel": "split",
+  "llcFilesWith": "Illinois Secretary of State (Form LLC-1.20, Application to Adopt an Assumed Name)",
+  "soleProprietorFilesWith": "County clerk in each county where the business is conducted (Assumed Business Name Act, 805 ILCS 405)",
+  "llcFee": 150,
+  "feeBasis": "Illinois prorates the state assumed-name fee by the anniversary year so it always expires in the next year divisible by five: $150 (year ending 0 or 5), $120 (1 or 6), $90 (2 or 7), $60 (3 or 8), or $30 (4 or 9), plus a payment-processor fee. It renews for $150 every five years, about $30 a year. Sole proprietors and partnerships instead pay county-set fees at the county clerk.",
+  "duration": "5 years",
+  "renewalRule": "The registration runs from the filing date until the first day of the company's anniversary month in the next calendar year evenly divisible by five, then renews for successive five-year terms. Only LLCs and corporations in good standing may adopt an assumed name electronically.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Registering an assumed name with the Secretary of State discloses the name but grants no exclusive trademark right. It does have a practical effect: a registered assumed name is one of the records in the Section 1-10 distinguishability test, so the state will not register a later entity or assumed name that is not distinguishable from it while yours stays active. County assumed-name certificates filed by sole proprietors carry no statewide protection and are not centrally indexed.",
+  "searchUrl": "https://apps.ilsos.gov/businessentitysearch/",
+  "searchNote": "The Secretary of State's business search returns LLC and corporate assumed names filed with the state, because they share the entity records used for the distinguishability screen. County assumed-name certificates for sole proprietors and partnerships sit in each county clerk's records and are not in the state search.",
+  "filingUrl": "https://www.ilsos.gov/departments/business-services/assumed-name-adoptions/llcinstructions.html",
+  "statuteCitation": "805 ILCS 180/1-20; 805 ILCS 405/1",
+  "statuteUrl": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-20.htm",
+  "notes": "Illinois splits its DBA system. LLCs and corporations adopt an assumed name centrally with the Secretary of State (Form LLC-1.20), where it joins the state entity records and the Section 1-10 distinguishability screen. Sole proprietors and general partnerships instead file an assumed-business-name certificate with the county clerk under 805 ILCS 405 and must publish notice in a local newspaper. The state assumed-name fee is prorated so a registration always expires in the next year divisible by five.",
+  "sources": [
+    {
+      "citation": "805 ILCS 180/1-20",
+      "title": "Limited Liability Company Act — Registration of assumed name",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-20.htm",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Illinois Secretary of State",
+      "title": "Adopting an Assumed LLC Name (prorated $30-$150 fee, five-year cycle)",
+      "url": "https://www.ilsos.gov/departments/business-services/assumed-name-adoptions/llcinstructions.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "805 ILCS 405/1",
+      "title": "Assumed Business Name Act — county clerk filing for sole proprietors and partnerships",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080504050K1.htm",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
