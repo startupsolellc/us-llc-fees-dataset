@@ -1,0 +1,45 @@
+{
+  "stateName": "Nevada",
+  "stateAbbr": "NV",
+  "stateSlug": "nevada",
+  "entitySuffixRule": "Must contain the words \"Limited-Liability Company,\" \"Limited Liability Company,\" \"Limited Company,\" or \"Limited,\" or the abbreviations \"Ltd.,\" \"L.L.C.,\" \"L.C.,\" \"LLC,\" or \"LC.\" The word \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "NRS 86.171",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the names of all other artificial persons formed, organized, registered, or qualified in Nevada and from all reserved names. A name is not made distinguishable merely by distinctive lettering, a mark, a trademark, or a trade name. Unlike most states, the name of a Nevada company whose charter has been revoked, that has merged out of existence, or whose existence has otherwise terminated becomes immediately available for use by another person, with no waiting period.",
+  "distinguishabilityCitation": "NRS 86.171",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "accountant",
+    "engineer",
+    "architect"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25.0,
+  "nameReservationCostBasis": "The $25 Secretary of State fee is the full cost of a name reservation.",
+  "nameReservationDuration": "90 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.nvsos.gov/sos/businesses/start-a-business/name-reservations",
+  "namingStatuteUrl": "https://www.leg.state.nv.us/nrs/nrs-086.html",
+  "notes": "Nevada bars \"bank\" and \"trust\" in an LLC name unless the company will operate as a bank or trust company with the approval of the Commissioner of Financial Institutions (NRS 86.171). Names implying regulated professions carry their own clearances: \"accountant\"/\"auditor\" (State Board of Accountancy), \"engineer\" (State Board of Professional Engineers), \"architect\" and design words (State Board of Architecture), and real-estate association terms (Real Estate Division). A reservation lasts 90 days and blocks other filers unless the reservation holder gives written, acknowledged consent. Nevada's immediate reuse of a terminated company's name is the opposite of Oklahoma's three-year tail and Kansas's one-year tail: a revoked name reopens at once.",
+  "sources": [
+    {
+      "citation": "NRS 86.171",
+      "title": "Nevada Limited-Liability Companies — Name of company: distinguishable name required; availability of terminated company name; restrictions",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-086.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "NRS 86.176",
+      "title": "Nevada Limited-Liability Companies — Reservation of name (90 days)",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-086.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Nevada Secretary of State",
+      "title": "Name reservations (fee $25, 90 days)",
+      "url": "https://www.nvsos.gov/sos/businesses/start-a-business/name-reservations",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

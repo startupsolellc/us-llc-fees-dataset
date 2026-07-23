@@ -1,0 +1,44 @@
+{
+  "stateName": "Nevada",
+  "stateAbbr": "NV",
+  "stateSlug": "nevada",
+  "dbaTerm": "fictitious firm name",
+  "filingLevel": "county",
+  "llcFilesWith": "County clerk in each county where the business is conducted (not the Secretary of State)",
+  "soleProprietorFilesWith": "County clerk in each county where the business is conducted, on the same certificate as entities",
+  "llcFee": 25,
+  "feeBasis": "County clerks set their own fee, commonly about $20 to $25 per certificate; a business operating in more than one county files, and pays, in each of them.",
+  "duration": "5 years",
+  "renewalRule": "A fictitious firm name certificate is effective for five years and is renewed by filing a new certificate with the county clerk.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A fictitious firm name is a county-level notice filing that discloses who is behind a business name; it grants no exclusive right. Because it is filed with the county clerk and not the Secretary of State, it is not part of the state entity-name distinguishability screen, so a fictitious firm name neither blocks nor is blocked by names on the Secretary of State's records.",
+  "searchUrl": "https://www.nvsos.gov/sos/businesses/resources/county-clerk-information-for-filing-a-fictitious-firm-name-or-dba-doing-business-as",
+  "searchNote": "Fictitious firm names are held in each county clerk's records, not in the Secretary of State's business search, so a full check means searching the clerk in every county where a business operates. The Secretary of State publishes a directory of county clerk contacts for this purpose.",
+  "filingUrl": "https://www.nvsos.gov/sos/businesses/resources/county-clerk-information-for-filing-a-fictitious-firm-name-or-dba-doing-business-as",
+  "statuteCitation": "NRS 602.010",
+  "statuteUrl": "https://www.leg.state.nv.us/nrs/nrs-602.html",
+  "notes": "Nevada keeps DBAs entirely at the county level. Every filer, whether an LLC, corporation, sole proprietor, or partnership, files a fictitious firm name certificate with the county clerk in each county where it does business (NRS 602.010), pays that clerk's fee (commonly about $25), and renews every five years. There is no state-level DBA filing and no newspaper-publication requirement. Because these certificates sit outside the Secretary of State's records, they do not enter the entity-name distinguishability test.",
+  "sources": [
+    {
+      "citation": "NRS 602.010",
+      "title": "Doing Business Under Assumed or Fictitious Name — Filing of certificate with county clerk",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-602.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Nevada Secretary of State",
+      "title": "County clerk information for filing a fictitious firm name or DBA",
+      "url": "https://www.nvsos.gov/sos/businesses/resources/county-clerk-information-for-filing-a-fictitious-firm-name-or-dba-doing-business-as",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Clark County Clerk",
+      "title": "Fictitious Firm Name general information (county fee and five-year term)",
+      "url": "https://www.clarkcountynv.gov/government/elected_officials/county_clerk/fictitious-firm-name",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

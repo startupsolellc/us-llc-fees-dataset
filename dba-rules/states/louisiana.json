@@ -1,0 +1,44 @@
+{
+  "stateName": "Louisiana",
+  "stateAbbr": "LA",
+  "stateSlug": "louisiana",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Louisiana Secretary of State (Application to Register Trade Name, Trademark, or Service Mark, Form 309), filed through the GeauxBiz portal",
+  "soleProprietorFilesWith": "Louisiana Secretary of State as well; individuals and partnerships register the same trade name centrally, and Louisiana has no county-level DBA filing",
+  "llcFee": 75,
+  "feeBasis": "The $75 Secretary of State fee registers a trade name for ten years for any filer, entity or individual.",
+  "duration": "10 years",
+  "renewalRule": "Renewable for successive ten-year terms by filing a renewal before the registration expires.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A trade name registration is a notice filing; exclusive rights in a name come from a registered trademark or service mark, not from the trade name registration. It carries a practical effect at the state level: because § 1306 screens new entity names against registered trade names, a registered trade name blocks a later corporation, LLC, or partnership name that is not distinguishable from it while active.",
+  "searchUrl": "https://coraweb.sos.la.gov/commercialsearch/commercialsearch.aspx",
+  "searchNote": "Trade names registered with the Secretary of State appear in the same Commercial Division records search as entities, since they are part of the § 1306 distinguishability records. Louisiana keeps DBA filings entirely at the state level, so there is no separate parish (county) index to check.",
+  "filingUrl": "https://geauxbiz.sos.la.gov/",
+  "statuteCitation": "La. R.S. 51:211",
+  "statuteUrl": "https://law.justia.com/codes/louisiana/revised-statutes/title-51/rs-51-211/",
+  "notes": "Louisiana runs a clean state-level DBA system: every filer, whether an LLC, corporation, sole proprietor, or partnership, registers a trade name with the Secretary of State on Form 309 for $75, good for ten years and renewable. There is no newspaper-publication requirement and no parish-level filing. Because registered trade names sit in the same records the state screens for distinguishability, a trade name behaves defensively like an entity name while active, though registration alone grants no trademark right.",
+  "sources": [
+    {
+      "citation": "La. R.S. 51:211 et seq.",
+      "title": "Louisiana Trademarks and Trade Names — registration with the Secretary of State",
+      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-51/rs-51-211/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Louisiana Secretary of State",
+      "title": "Application to Register Trade Name, Trademark, or Service Mark (Form 309, $75, ten-year term)",
+      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/250212/309%20-%20Trade%20Name%20Trade%20Mark%20and%20Service%20Mark%20Registration.pdf",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Louisiana Secretary of State",
+      "title": "Fee Schedule (trade name registration $75)",
+      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/332FeeSchedule.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

@@ -1,0 +1,44 @@
+{
+  "stateName": "Pennsylvania",
+  "stateAbbr": "PA",
+  "stateSlug": "pennsylvania",
+  "dbaTerm": "fictitious name",
+  "filingLevel": "state",
+  "llcFilesWith": "Pennsylvania Department of State, Bureau of Corporations and Charitable Organizations (Registration of Fictitious Name, Form DSCB:54-311)",
+  "soleProprietorFilesWith": "Pennsylvania Department of State as well; individuals file the same fictitious name registration centrally, and there is no county-level DBA filing",
+  "llcFee": 70,
+  "feeBasis": "The $70 Department of State fee registers a fictitious name for any filer, entity or individual.",
+  "duration": "Perpetual (decennial report every 10 years)",
+  "renewalRule": "A fictitious name registration does not expire; every ten years the registrant files a decennial report to confirm the name is still in use.",
+  "publicationRequired": false,
+  "publicationRule": "When an individual is a party to the registration (a sole proprietor or partnership), the filer must officially publish notice in two newspapers in the proper county, one of which must be the legal newspaper if there is one. An entity-only registration, such as an LLC filing, has no publication requirement.",
+  "protectionLevel": "none",
+  "protectionNote": "Pennsylvania law is explicit that registering a fictitious name creates no exclusive right to use it (54 Pa.C.S. § 332); two different businesses may register the same fictitious name. A fictitious name also does not have to be distinguishable from existing entity names, and it does not block a later entity name, so it protects neither the registrant nor anyone else.",
+  "searchUrl": "https://file.dos.pa.gov/search/business",
+  "searchNote": "Fictitious names are searchable in the Department of State's business filing search alongside entities, but because they carry no exclusive right, finding one does not by itself stop another filer from registering the same fictitious name.",
+  "filingUrl": "https://file.dos.pa.gov/",
+  "statuteCitation": "54 Pa.C.S. § 311",
+  "statuteUrl": "https://law.justia.com/codes/pennsylvania/title-54/chapter-3/section-311/",
+  "notes": "Pennsylvania registers fictitious names centrally with the Department of State for $70, for entities and individuals alike, with no county filing. The registration never expires but requires a decennial (ten-year) report. The two distinctive rules are that a fictitious name registration grants no exclusive right (§ 332), so it is disclosure only, and that publication in two newspapers is required only when an individual is a party, not for an entity-only filing such as an LLC.",
+  "sources": [
+    {
+      "citation": "54 Pa.C.S. § 311",
+      "title": "Pennsylvania Consolidated Statutes — Registration of fictitious names",
+      "url": "https://law.justia.com/codes/pennsylvania/title-54/chapter-3/section-311/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "54 Pa.C.S. § 332",
+      "title": "Pennsylvania Consolidated Statutes — Effect of registration (no exclusive right)",
+      "url": "https://law.justia.com/codes/pennsylvania/title-54/chapter-3/section-332/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Pennsylvania Department of State",
+      "title": "Fictitious names (Form DSCB:54-311, $70; decennial report; publication for individual parties)",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/fictitious-names",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

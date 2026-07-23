@@ -1,0 +1,50 @@
+{
+  "stateName": "Pennsylvania",
+  "stateAbbr": "PA",
+  "stateSlug": "pennsylvania",
+  "entitySuffixRule": "Must contain the word \"company,\" \"limited,\" or \"limited liability company,\" or an abbreviation of one of those (\"co.,\" \"ltd.,\" \"L.L.C.,\" or \"LLC\"), or words of like import used in another jurisdiction. Pennsylvania is unusual in accepting \"Company\" or \"Limited\" alone as the designator.",
+  "entitySuffixCitation": "15 Pa.C.S. § 204",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Department of State from the name of any other domestic or registered foreign association and from any name reserved or registered under sections 208 through 210. Names required to show entity type are disregarded, and an administratively dissolved association's name, or one whose holder consents and undertakes to change it, does not block a new name.",
+  "distinguishabilityCitation": "15 Pa.C.S. § 202",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "insurance",
+    "engineer",
+    "architect",
+    "surveyor",
+    "college",
+    "university",
+    "credit union",
+    "cooperative"
+  ],
+  "nameReservationFee": 70,
+  "nameReservationTotalCost": 70.0,
+  "nameReservationCostBasis": "The $70 Department of State fee (Name Reservation/Transfer of Reservation, Form DSCB:15-208) is the full cost.",
+  "nameReservationDuration": "120 days (non-renewable)",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.pa.gov/agencies/dos/programs/business/information-services/name-availability.html",
+  "namingStatuteUrl": "https://law.justia.com/codes/pennsylvania/title-15/chapter-2/section-204/",
+  "notes": "Pennsylvania carries one of the longest word-approval lists in this dataset. \"Bank,\" \"trust company,\" and \"savings bank\" need banking authorization; \"insurance,\" \"annuity,\" \"assurance,\" \"surety,\" and \"title\" need Insurance Department clearance; \"engineer,\" \"architect,\" and \"surveyor\" need a licensed professional on record; \"college,\" \"university,\" and \"seminary\" need State Board of Education approval; and \"credit union,\" \"cooperative,\" and government-agency references are restricted. The $70 reservation fee is among the highest in the country (most states charge $10 to $30), and the reservation is a single 120-day period that cannot be renewed, though the same form transfers it. Pennsylvania also added an annual report requirement in 2025 (LLC report due September 30, $7).",
+  "sources": [
+    {
+      "citation": "15 Pa.C.S. § 204",
+      "title": "Pennsylvania Consolidated Statutes — Additional provisions applicable to names of certain associations (LLC designator)",
+      "url": "https://law.justia.com/codes/pennsylvania/title-15/chapter-2/section-204/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "15 Pa.C.S. § 202",
+      "title": "Pennsylvania Consolidated Statutes — Requirements for names generally (distinguishability and restricted words)",
+      "url": "https://law.justia.com/codes/pennsylvania/title-15/chapter-2/section-202/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Pennsylvania Department of State",
+      "title": "Name availability and reservation (Form DSCB:15-208, $70, 120 days)",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/name-availability.html",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

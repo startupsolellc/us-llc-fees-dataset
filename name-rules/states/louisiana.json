@@ -1,0 +1,48 @@
+{
+  "stateName": "Louisiana",
+  "stateAbbr": "LA",
+  "stateSlug": "louisiana",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"L.C.\" A low-profit LLC must contain \"low-profit limited liability company\" or the abbreviation \"L3C\" or \"l3c.\"",
+  "entitySuffixCitation": "La. R.S. 12:1306",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every corporation, partnership, and LLC organized in Louisiana, every foreign entity registered to do business here, every reserved name, and every registered trade name. A name that is not distinguishable may be used only if the other entity consents in writing and first changes its own name.",
+  "distinguishabilityCitation": "La. R.S. 12:1306",
+  "restrictedWords": [
+    "bank",
+    "banker",
+    "trust",
+    "credit union",
+    "insurance",
+    "engineer",
+    "surveyor",
+    "architect"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 25.0,
+  "nameReservationCostBasis": "The $25 Secretary of State fee (Reservation of Corporate, LLC, L3C or Partnership Name, Form 398) is the full cost.",
+  "nameReservationDuration": "120 days (non-renewable)",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.la.gov/BusinessServices/Pages/default.aspx",
+  "namingStatuteUrl": "https://law.justia.com/codes/louisiana/revised-statutes/title-12/rs-12-1306/",
+  "notes": "Louisiana attaches several word restrictions to § 1306. \"Bank,\" \"banker,\" \"trust,\" and \"credit union\" need the written approval of the Commissioner of the Office of Financial Institutions (14 days' notice); \"insurance\" is allowed only for a genuine insurance agency or brokerage; \"engineer\" or \"surveyor\" and \"architect\" require prior notice to the Louisiana professional boards; and \"charitable\" or \"nonprofit\" language is barred unless the company truly is one. The name reservation is a single 120-day exclusive right that cannot be renewed, though it may be transferred (§ 1307). Louisiana also announced fee increases effective October 1, 2026 (Articles of Organization to $125, annual report to $35); the reservation fee is unaffected but re-verify formation fees after that date.",
+  "sources": [
+    {
+      "citation": "La. R.S. 12:1306",
+      "title": "Louisiana Limited Liability Company Law — Name",
+      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-12/rs-12-1306/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "La. R.S. 12:1307",
+      "title": "Louisiana Limited Liability Company Law — Reservation of name; transfer of reserved name (120 days, nonrenewable)",
+      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-12/rs-12-1307/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Louisiana Secretary of State",
+      "title": "Name reservation instructions and Fee Schedule (Form 398, $25, 120 days)",
+      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/332FeeSchedule.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
