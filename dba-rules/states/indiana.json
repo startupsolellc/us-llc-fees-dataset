@@ -1,0 +1,44 @@
+{
+  "stateName": "Indiana",
+  "stateAbbr": "IN",
+  "stateSlug": "indiana",
+  "dbaTerm": "assumed business name",
+  "filingLevel": "split",
+  "llcFilesWith": "Indiana Secretary of State through INBiz (Certificate of Assumed Business Name)",
+  "soleProprietorFilesWith": "County recorder in each county where the business is conducted (individuals and general partnerships do not file with the Secretary of State)",
+  "llcFee": 20,
+  "feeBasis": "The $20 Certificate of Assumed Business Name is filed with the Secretary of State by an LLC or corporation; INBiz charges $21 online and mailed filings are $30. Sole proprietors and general partnerships instead pay the recording fee set by their county recorder.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "An assumed business name does not expire and is not renewed; it stays in effect until the entity files a notice of discontinuance (no fee by mail, $2 online).",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Registering an assumed business name discloses the name an entity trades under; it grants no exclusive trademark right. It carries a practical effect at the state level: a registered assumed business name is part of the § 23-0.5-3-1 distinguishability records, so it blocks a later entity or assumed name that is not distinguishable from it while active. County-recorded assumed names filed by sole proprietors carry no statewide protection and are not centrally indexed.",
+  "searchUrl": "https://bsd.sos.in.gov/publicbusinesssearch",
+  "searchNote": "Assumed business names adopted by LLCs and corporations appear in the Secretary of State's INBiz business search alongside the entities, because they share the state entity records. County-recorded assumed names for sole proprietors and general partnerships sit in each county recorder's office and are not in the state search.",
+  "filingUrl": "https://inbiz.in.gov",
+  "statuteCitation": "Ind. Code § 23-0.5-3-4",
+  "statuteUrl": "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-3/section-23-0-5-3-4/",
+  "notes": "Indiana splits its DBA system. LLCs and corporations file a Certificate of Assumed Business Name centrally with the Secretary of State through INBiz ($20; $21 online, $30 by mail), where it joins the state entity records and the distinguishability screen and never expires. Sole proprietors and general partnerships instead record an assumed-name certificate with the county recorder in each county where they do business. There is no newspaper-publication requirement at either level.",
+  "sources": [
+    {
+      "citation": "Ind. Code § 23-0.5-3-4",
+      "title": "Uniform Business Organizations Code — Filing of certificate of assumed name; fees",
+      "url": "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-3/section-23-0-5-3-4/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Indiana Secretary of State (IN.gov FAQ)",
+      "title": "How do I file an Assumed Business Name (DBA)? (entities via INBiz, individuals via county recorder)",
+      "url": "https://faqs.in.gov/hc/en-us/articles/115005053207-How-do-I-file-an-Assumed-Business-Name-DBA",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Indiana Secretary of State",
+      "title": "Certification of Assumed Business Name (all entities) form and fee",
+      "url": "https://forms.in.gov/Download.aspx?id=4900",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

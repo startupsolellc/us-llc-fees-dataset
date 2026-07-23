@@ -1,0 +1,39 @@
+{
+  "stateName": "Oklahoma",
+  "stateAbbr": "OK",
+  "stateSlug": "oklahoma",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"LLC,\" \"LC,\" \"L.L.C.,\" or \"L.C.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "Okla. Stat. tit. 18, § 2008",
+  "distinguishabilityNote": "May not be the same as or indistinguishable from the names on the records of the Secretary of State of any LLC, corporation, or general or limited partnership (domestic or foreign) that is in good standing or registered, or that was in good standing or registered at any time during the preceding three years, and from any trade name, fictitious name, or other reserved name. This three-year tail is unusual: the name of a dissolved or withdrawn entity stays blocked for three years after it leaves the records. A conflict clears only with the other holder's written consent to add distinguishing words (or its stated intent to change its name, cease business, or wind up), or with a certified final court decree establishing the prior right.",
+  "distinguishabilityCitation": "Okla. Stat. tit. 18, § 2008",
+  "restrictedWords": [],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10.0,
+  "nameReservationCostBasis": "The $10 Secretary of State fee (Application for Reservation of Name, SOS Form 0034) is the full cost.",
+  "nameReservationDuration": "60 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.ok.gov/business/",
+  "namingStatuteUrl": "https://law.justia.com/codes/oklahoma/title-18/section-18-2008/",
+  "notes": "Oklahoma's LLC name section (§ 2008) sets only a designator rule and a distinguishability test; it carries no list of banned or regulated words, so restrictedWords is empty. Bank and trust powers are policed separately by the Oklahoma banking code (Title 6) rather than by the name statute. The defining feature is the three-year distinguishability tail: § 2008 screens against entity, trade, fictitious, and reserved names that were in good standing at any point in the preceding three years, the longest such lookback in this dataset. A name reservation lasts 60 days, renews for a further 60 days for another $10, and may be transferred to another person by notice to the Secretary of State (§ 2009).",
+  "sources": [
+    {
+      "citation": "Okla. Stat. tit. 18, § 2008",
+      "title": "Oklahoma Limited Liability Company Act — Name of company; restrictions",
+      "url": "https://law.justia.com/codes/oklahoma/title-18/section-18-2008/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Okla. Stat. tit. 18, § 2009",
+      "title": "Oklahoma Limited Liability Company Act — Reservation of name (60 days, renewable, transferable)",
+      "url": "https://law.justia.com/codes/oklahoma/title-18/section-18-2009/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Oklahoma Secretary of State",
+      "title": "Business filing fees (Name Reservation $10; Application for Reservation of Name, Form 0034)",
+      "url": "https://www.sos.ok.gov/business/fees.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

@@ -1,0 +1,44 @@
+{
+  "stateName": "Oklahoma",
+  "stateAbbr": "OK",
+  "stateSlug": "oklahoma",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Oklahoma Secretary of State (Trade Name Report, SOS Form 0021)",
+  "soleProprietorFilesWith": "Oklahoma Secretary of State as well; individuals and partnerships file the same Trade Name Report centrally, and Oklahoma has no county-level DBA filing",
+  "llcFee": 25,
+  "feeBasis": "The $25 Secretary of State fee registers a trade name for an LLC, corporation, or other filer. The registration has no expiration and is not renewed.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "A Trade Name Report does not expire and is not renewed; it remains on file until the filer withdraws it while the underlying entity stays in good standing.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A Trade Name Report is a notice filing; exclusive rights in a name come from a trademark or service mark registered under Title 78, not from the trade name report. It does carry a practical effect: because § 2008 screens new entity names against trade, fictitious, and reserved names, a registered trade name blocks a later entity or reserved name that is not distinguishable from it while active.",
+  "searchUrl": "https://www.sos.ok.gov/corp/corpInquiryFind.aspx",
+  "searchNote": "Trade names registered with the Secretary of State appear in the same business records search as entities, since they are part of the § 2008 distinguishability records. Oklahoma keeps DBA filings entirely at the state level, so there is no separate county index to check.",
+  "filingUrl": "https://www.sos.ok.gov/corp/tradeName.aspx",
+  "statuteCitation": "Okla. Stat. tit. 18, § 1140",
+  "statuteUrl": "https://law.justia.com/codes/oklahoma/title-18/section-18-1140/",
+  "notes": "Oklahoma runs a clean state-level DBA system: every filer, whether an LLC, corporation, sole proprietor, or partnership, registers a Trade Name Report with the Secretary of State for $25 (Oklahoma calls an entity's DBA a \"trade name\" and an individual's or partnership's a \"fictitious name,\" but both go on the same central report). The registration never expires and there is no newspaper-publication requirement. Because trade and fictitious names sit in the same records the state screens for distinguishability, a registered trade name behaves defensively like an entity name while active, though it grants no trademark right of its own.",
+  "sources": [
+    {
+      "citation": "Okla. Stat. tit. 18, § 1140",
+      "title": "Oklahoma Statutes — Trade names (entity doing business under a name other than its legal name)",
+      "url": "https://law.justia.com/codes/oklahoma/title-18/section-18-1140/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Oklahoma Secretary of State",
+      "title": "Trade Name Report (Form 0021, $25)",
+      "url": "https://www.sos.ok.gov/corp/tradeName.aspx",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Oklahoma Secretary of State",
+      "title": "Business filing fees (Trade Name 18 OS 1142, $25.00)",
+      "url": "https://www.sos.ok.gov/business/fees.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

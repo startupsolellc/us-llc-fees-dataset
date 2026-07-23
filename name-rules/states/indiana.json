@@ -1,0 +1,50 @@
+{
+  "stateName": "Indiana",
+  "stateAbbr": "IN",
+  "stateSlug": "indiana",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" Indiana does not offer the \"limited company\"/\"LC\" variants that some states allow.",
+  "entitySuffixCitation": "Ind. Code § 23-18-2-8",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of any domestic filing entity (unless it has been dissolved for more than 120 days), any foreign entity registered in Indiana, any reserved name, and any registered assumed business name. Words and abbreviations that indicate the type of entity (\"corporation,\" \"Inc.,\" \"company,\" \"Co.,\" \"Limited,\" \"Ltd.,\" \"LP,\" \"LLP,\" \"LLC,\" and the like) are not taken into account, so \"Acme LLC\" does not clear \"Acme Inc.\" A name that is not distinguishable may still be used with the other holder's written consent, except that consent cannot release a reserved name.",
+  "distinguishabilityCitation": "Ind. Code § 23-0.5-3-1",
+  "restrictedWords": [
+    "bank",
+    "banking",
+    "trust",
+    "insurance"
+  ],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10.0,
+  "nameReservationCostBasis": "The $10 Secretary of State fee filed online through INBiz is the full cost of a name reservation.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://inbiz.in.gov",
+  "namingStatuteUrl": "https://law.justia.com/codes/indiana/title-23/article-18/chapter-2/section-23-18-2-8/",
+  "notes": "Indiana places entity naming in the Uniform Business Organizations Code (Ind. Code § 23-0.5-3), so LLCs, corporations, and other filing entities share one distinguishability register at the Secretary of State, and registered assumed business names sit in that same register. The one express prohibition in § 23-0.5-3-1 is a name that falsely states or implies a connection with a government agency; there is no general banned-word list in the naming statute. \"Bank,\" \"banking,\" and \"trust\" are governed by the Department of Financial Institutions (Ind. Code Title 28) and \"insurance\" by the Department of Insurance (Title 27), so those terms require the appropriate regulator's clearance. A name reservation lasts 120 days, renews for successive 120-day periods, and may be transferred to a person that is not an individual by signed notice to the Secretary of State (§ 23-0.5-3-3).",
+  "sources": [
+    {
+      "citation": "Ind. Code § 23-18-2-8",
+      "title": "Indiana Business Flexibility Act — Name of limited liability company",
+      "url": "https://law.justia.com/codes/indiana/title-23/article-18/chapter-2/section-23-18-2-8/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Ind. Code § 23-0.5-3-1",
+      "title": "Uniform Business Organizations Code — Permitted names; distinguishability; falsely implying government agency status",
+      "url": "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-3/section-23-0-5-3-1/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Ind. Code § 23-0.5-3-3",
+      "title": "Uniform Business Organizations Code — Reservation of name (renewable 120-day periods, transferable)",
+      "url": "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-3/section-23-0-5-3-3/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Indiana Secretary of State (INBiz)",
+      "title": "INBiz business filings portal (name reservation $10, 120 days)",
+      "url": "https://inbiz.in.gov",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

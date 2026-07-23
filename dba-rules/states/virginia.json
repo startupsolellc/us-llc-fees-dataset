@@ -1,0 +1,44 @@
+{
+  "stateName": "Virginia",
+  "stateAbbr": "VA",
+  "stateSlug": "virginia",
+  "dbaTerm": "assumed or fictitious name",
+  "filingLevel": "state",
+  "llcFilesWith": "Virginia State Corporation Commission (Certificate of Assumed or Fictitious Name, Form SCC59.1-70)",
+  "soleProprietorFilesWith": "Virginia State Corporation Commission as well; since January 1, 2020 individuals file the same certificate centrally with the Commission, and the old circuit-court filing was eliminated",
+  "llcFee": 10,
+  "feeBasis": "The clerk of the State Corporation Commission charges $10 to file a certificate of assumed or fictitious name (§ 59.1-70(C)), the same fee for an entity or an individual.",
+  "duration": "Perpetual (until released)",
+  "renewalRule": "A certificate of assumed or fictitious name does not expire and is not renewed; when the name is no longer used, the filer records a Certificate of Release with the Commission.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed or fictitious name is disclosure only and grants no exclusive right. Unlike most states in this dataset, Virginia keeps assumed names out of the entity-name distinguishability screen: § 13.1-1012(E) provides that the use of assumed or fictitious names under Chapter 5 of Title 59.1 does not affect the LLC naming chapter, so a registered assumed name does not block a later entity name and an entity name does not block a later assumed name.",
+  "searchUrl": "https://cis.scc.virginia.gov/EntitySearch/Index",
+  "searchNote": "Certificates of assumed or fictitious name are filed with and searchable through the State Corporation Commission's Clerk's Information System. Because the 2020 reform centralized filing, there is one statewide record rather than 133 separate circuit-court indexes.",
+  "filingUrl": "https://cis.scc.virginia.gov/",
+  "statuteCitation": "Va. Code § 59.1-69; § 59.1-70",
+  "statuteUrl": "https://law.lis.virginia.gov/vacode/title59.1/chapter5/section59.1-70/",
+  "notes": "Virginia centralized its DBA system on January 1, 2020: every filer, entity or individual, records a Certificate of Assumed or Fictitious Name with the clerk of the State Corporation Commission for $10, replacing the prior requirement to file with the circuit court in each locality. The certificate does not expire and there is no publication requirement. The distinctive rule is § 13.1-1012(E): assumed names sit outside the entity-name distinguishability test, so a fictitious name gives no defensive block against later entity names the way it does in Indiana, Oklahoma, or Tennessee.",
+  "sources": [
+    {
+      "citation": "Va. Code § 59.1-70",
+      "title": "Transacting Business under Assumed Name — Filing a certificate with State Corporation Commission; fee ($10)",
+      "url": "https://law.lis.virginia.gov/vacode/title59.1/chapter5/section59.1-70/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Va. Code § 13.1-1012(E)",
+      "title": "Virginia Limited Liability Company Act — assumed/fictitious names not affected by the naming chapter",
+      "url": "https://law.lis.virginia.gov/vacode/title13.1/chapter12/section13.1-1012/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Virginia State Corporation Commission",
+      "title": "Fictitious names (central filing since 2020; Certificate of Assumed or Fictitious Name instructions)",
+      "url": "https://www.scc.virginia.gov/businesses/business-faqs/fictitious-names/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

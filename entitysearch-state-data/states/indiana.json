@@ -51,8 +51,8 @@
     "llcFeeNotes": "Domestic LLC Articles of Organization: $95 online ($75 statutory electronic fee under IC 23-0.5-9-19 plus $20 enhanced access under 75 IAC 8-3-4); $100 paper/non-electronic (IC 23-0.5-9-19).",
     "annualReport": 32,
     "annualReportDue": "End of anniversary month (Biennial)",
-    "nameReservation": null,
-    "nameReservationNotes": "Name reservation is available through INBiz; current public fee amount remains null pending direct INBiz fee-schedule verification (portal often bot-blocked)."
+    "nameReservation": 10,
+    "nameReservationNotes": "Name reservation is $10 filed online through INBiz, valid 120 days and renewable (Ind. Code § 23-0.5-3-3). Verified 2026-07-23 against INBiz and Secretary of State guidance."
   },
   "sources": [
     {

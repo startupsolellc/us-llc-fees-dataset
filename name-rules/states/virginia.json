@@ -1,0 +1,42 @@
+{
+  "stateName": "Virginia",
+  "stateAbbr": "VA",
+  "stateSlug": "virginia",
+  "entitySuffixRule": "Must contain the words \"limited company\" or \"limited liability company,\" or the abbreviations \"L.C.,\" \"LC,\" \"L.L.C.,\" or \"LLC.\" The name may not contain any word or abbreviation that states or implies the company is a corporation, a limited partnership, a registered limited liability partnership, or a protected series of a series LLC, or any word prohibited by law.",
+  "entitySuffixCitation": "Va. Code § 13.1-1012",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the State Corporation Commission from every domestic and registered foreign LLC, corporation, business trust, and limited partnership, and from names reserved or registered for those entity types. Words and abbreviations required or permitted to show the entity type are disregarded in the comparison. A name that is not distinguishable may be used only if the other entity consents in writing and undertakes, in a form satisfactory to the Commission, to change its own name. Virginia is administered by the State Corporation Commission, not a Secretary of State.",
+  "distinguishabilityCitation": "Va. Code § 13.1-1012",
+  "restrictedWords": [
+    "bank",
+    "trust"
+  ],
+  "nameReservationFee": 10,
+  "nameReservationTotalCost": 10.0,
+  "nameReservationCostBasis": "The $10 State Corporation Commission fee (Application for Reservation or Renewal of Reservation of a Business Entity Name, Form SCC631) is the full cost, the same amount whether filed online or by mail.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://cis.scc.virginia.gov/",
+  "namingStatuteUrl": "https://law.lis.virginia.gov/vacode/title13.1/chapter12/section13.1-1012/",
+  "notes": "Virginia's LLC name statute bars words that imply a different entity type: an LLC name may not state or imply that it is a corporation, a limited partnership, an LLP, or a protected series. There is no long banned-word list in § 13.1-1012, which prohibits only such implications and words \"prohibited by law\"; \"bank\" and \"trust\" require clearance from the Bureau of Financial Institutions and certain professional terms need board approval. A reservation lasts 120 days, renews for successive 120-day periods when the renewal is filed in the 45-day window before expiration, and may be transferred by notice to the Commission (§ 13.1-1013). Assumed or fictitious names are handled under a separate chapter (§ 59.1-69 et seq.) and, by § 13.1-1012(E), do not enter the entity-name distinguishability screen.",
+  "sources": [
+    {
+      "citation": "Va. Code § 13.1-1012",
+      "title": "Virginia Limited Liability Company Act — Name",
+      "url": "https://law.lis.virginia.gov/vacode/title13.1/chapter12/section13.1-1012/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Va. Code § 13.1-1013",
+      "title": "Virginia Limited Liability Company Act — Reserved name (120 days, renewable, transferable)",
+      "url": "https://law.lis.virginia.gov/vacode/title13.1/chapter12/section13.1-1013/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Virginia State Corporation Commission",
+      "title": "Business entity names (distinguishability standard; Form SCC631 reservation, $10)",
+      "url": "https://www.scc.virginia.gov/businesses/business-faqs/business-entity-names/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
