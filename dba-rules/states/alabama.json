@@ -1,0 +1,44 @@
+{
+  "stateName": "Alabama",
+  "stateAbbr": "AL",
+  "stateSlug": "alabama",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "Alabama Secretary of State (Application to Register or Renew a Trademark, Service Mark, or Trade Name, Form LAT-1)",
+  "soleProprietorFilesWith": "Alabama Secretary of State as well, on the same trade name application; Alabama has no mandatory DBA filing, so registration is optional for any owner",
+  "llcFee": 30,
+  "feeBasis": "The $30 Secretary of State fee registers a trade name for five years (a $1.20 processing fee applies online). Registration is voluntary; Alabama does not require a business to register a name it trades under.",
+  "duration": "5 years",
+  "renewalRule": "Renewable for successive five-year terms; a renewal application must be filed within six months before the registration expires while the name is still in use.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "exclusive-registration",
+  "protectionNote": "Alabama is unusual in having no separate assumed-name or DBA statute; the only way to register a name you trade under is to register it as a trade name under the trademark chapter (Title 8, Chapter 12). That registration is more than disclosure: it gives the registrant a claim of ownership in the mark and access to the infringement remedies in § 8-12-16, so it functions like a state trademark rather than a bare notice filing. It sits in the trademark register, separate from the entity-name distinguishability records used at formation.",
+  "searchUrl": "https://www.sos.alabama.gov/government-records/trademarks-service-marks",
+  "searchNote": "Registered trade names and marks are searched in the Secretary of State's trademark records, which are separate from the business-entity records. Because Alabama does not require DBA registration, an unregistered trade name in actual use will not appear in either search.",
+  "filingUrl": "https://www.sos.alabama.gov/administrative-services/trademarks",
+  "statuteCitation": "Ala. Code § 8-12-6 et seq.",
+  "statuteUrl": "https://law.justia.com/codes/alabama/title-8/chapter-12/article-2/section-8-12-6/",
+  "notes": "Alabama has no mandatory DBA system. A business that wants to secure a name it trades under registers it as a trade name with the Secretary of State under the trademark chapter for $30, good for five years and renewable, and that registration carries trademark-style protection rather than mere disclosure. This is the reverse of most states, where DBA registration is required but confers no rights: in Alabama it is optional but does confer rights.",
+  "sources": [
+    {
+      "citation": "Ala. Code § 8-12-6 et seq.",
+      "title": "Alabama Commercial Law — Trademarks, Names, Marks (trade name registration and remedies)",
+      "url": "https://law.justia.com/codes/alabama/title-8/chapter-12/article-2/section-8-12-6/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Alabama Secretary of State",
+      "title": "Instructions to register a trademark, service mark, or trade name (Form LAT-1, $30, five-year term)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/form-files/lat-1.pdf",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Alabama Secretary of State",
+      "title": "Trademarks program (trade name registration and renewal)",
+      "url": "https://www.sos.alabama.gov/administrative-services/trademarks",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

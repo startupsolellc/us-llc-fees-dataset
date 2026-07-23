@@ -1,0 +1,44 @@
+{
+  "stateName": "Kentucky",
+  "stateAbbr": "KY",
+  "stateSlug": "kentucky",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"LLC,\" \"L.L.C.,\" \"LC,\" or \"L.C.\" The word \"limited\" may be abbreviated \"Ltd.\" and \"company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "KRS 275.100",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every other business entity name, reserved name, registered name, and assumed name on file. Words and abbreviations that indicate the entity type are disregarded. A name that is not distinguishable may be used with the written consent of the other holder, filed with the Secretary of State.",
+  "distinguishabilityCitation": "KRS 14A.3-010",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "insurance",
+    "cooperative"
+  ],
+  "nameReservationFee": 15,
+  "nameReservationTotalCost": 15.0,
+  "nameReservationCostBasis": "The $15 Secretary of State fee (Reservation or Renewal of Reserved Name) is the full cost.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sos.ky.gov/bus/business-filings/Pages/default.aspx",
+  "namingStatuteUrl": "https://law.justia.com/codes/kentucky/chapter-275/section-275-100/",
+  "notes": "Kentucky places name standards in the Business Entity Filing Act (KRS Chapter 14A), which all entity types share, while the LLC designator list sits in KRS 275.100. \"Bank,\" \"trust,\" and \"insurance\" require clearance from the relevant regulator, and \"cooperative\" and \"credit union\" are reserved to those entity types. A name reservation lasts 120 days and can be renewed for successive 120-day periods. Kentucky's LLC formation fee is one of the lowest in the country at $40.",
+  "sources": [
+    {
+      "citation": "KRS 275.100",
+      "title": "Kentucky Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/kentucky/chapter-275/section-275-100/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "KRS 14A.3-010",
+      "title": "Kentucky Business Entity Filing Act — Entity name (distinguishability)",
+      "url": "https://law.justia.com/codes/kentucky/chapter-14a/section-14a-3-010/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Kentucky Secretary of State",
+      "title": "Business filings (name reservation $15, 120 days)",
+      "url": "https://sos.ky.gov/bus/business-filings/Pages/default.aspx",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

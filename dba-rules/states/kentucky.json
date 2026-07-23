@@ -1,0 +1,38 @@
+{
+  "stateName": "Kentucky",
+  "stateAbbr": "KY",
+  "stateSlug": "kentucky",
+  "dbaTerm": "assumed name",
+  "filingLevel": "split",
+  "llcFilesWith": "Kentucky Secretary of State (Certificate of Assumed Name), and the certificate marked filed by the Secretary of State must then be recorded with the county clerk of the county where the LLC's registered office is located",
+  "soleProprietorFilesWith": "County clerk of the county where the individual maintains the principal place of business",
+  "llcFee": 20,
+  "feeBasis": "The Secretary of State charges $20 to file an LLC's certificate of assumed name; the LLC must then record the filed certificate with its county clerk, which charges a separate recording fee set by KRS 64.012. Individuals pay only the county clerk fee.",
+  "duration": "5 years",
+  "renewalRule": "An assumed name is effective for five years and is renewed for successive five-year terms by filing a renewal certificate within the six months before it expires.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "An assumed name discloses the name a business trades under and grants no exclusive trademark right. Kentucky does, however, screen entity assumed names for distinguishability: KRS 365.015 provides that no certificate filed with the Secretary of State may set forth an assumed name that is not distinguishable upon the Secretary of State's records, so a registered entity assumed name blocks a later entity or assumed name that is not distinguishable from it while active.",
+  "searchUrl": "https://sosbes.sos.ky.gov/BusSearchNProfile/Search.aspx",
+  "searchNote": "Assumed names filed by entities appear in the Secretary of State's business search, since they must be distinguishable upon those records. Assumed names filed by sole proprietors sit only in the relevant county clerk's records and are not in the state search.",
+  "filingUrl": "https://web.sos.ky.gov/ftshow/(S())/ftsearch.aspx",
+  "statuteCitation": "KRS 365.015",
+  "statuteUrl": "https://law.justia.com/codes/kentucky/chapter-365/section-365-015/",
+  "notes": "Kentucky splits its DBA system with an extra wrinkle. LLCs and other entities file a certificate of assumed name with the Secretary of State ($20), where it must be distinguishable, and then record the filed certificate with their county clerk, so an entity effectively files in two places. Individuals and sole proprietors file only with the county clerk where they do business. The assumed name is effective for five years and renewable, with no publication requirement at either level.",
+  "sources": [
+    {
+      "citation": "KRS 365.015",
+      "title": "Kentucky Trade Practices — Certificate of assumed name; filing with state and county; filing fees",
+      "url": "https://law.justia.com/codes/kentucky/chapter-365/section-365-015/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Kentucky Secretary of State",
+      "title": "Certificate of Assumed Name (Form ASN, $20, five-year term)",
+      "url": "https://web.sos.ky.gov/forms/corp/ASN-Certificate%20of%20Assumed%20Name.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

@@ -1,0 +1,38 @@
+{
+  "stateName": "Massachusetts",
+  "stateAbbr": "MA",
+  "stateSlug": "massachusetts",
+  "dbaTerm": "business certificate",
+  "filingLevel": "county",
+  "llcFilesWith": "City or town clerk in every city or town where the business maintains an office (there is no state-level DBA filing)",
+  "soleProprietorFilesWith": "City or town clerk in every city or town where the business maintains an office, on the same business certificate",
+  "llcFee": 50,
+  "feeBasis": "Each city or town sets its own fee, commonly in the $30 to $65 range (Boston charges $65). A business with offices in more than one municipality files, and pays, in each.",
+  "duration": "4 years",
+  "renewalRule": "A business certificate is effective for four years and is renewed by filing again with the same city or town clerk.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A business certificate, known in Massachusetts as a d/b/a, is a municipal notice filing that identifies who is behind a business name; it grants no exclusive right. Because it is filed with the city or town clerk and not the Secretary of the Commonwealth, it is not part of the state entity-name screen, so it neither blocks nor is blocked by names in the Corporations Division records.",
+  "searchUrl": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+  "searchNote": "Business certificates are held in each city or town clerk's records, not in the Secretary of the Commonwealth's business search, so a full check means contacting the clerk in every municipality where a business operates. There is no statewide index of d/b/a filings.",
+  "filingUrl": "https://www.mass.gov/info-details/business-certificates-dba-in-massachusetts",
+  "statuteCitation": "M.G.L. c. 110, § 5",
+  "statuteUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter110/Section5",
+  "notes": "Massachusetts keeps DBAs entirely at the municipal level. Every business, whether an LLC, corporation, or sole proprietor, that operates under a name other than its legal name files a business certificate with the city or town clerk in each municipality where it has an office (M.G.L. c. 110, § 5). Fees are set locally, the certificate lasts four years, and there is no newspaper-publication requirement and no statewide filing. Because these certificates sit outside the state records, they do not enter the LLC name distinguishability test.",
+  "sources": [
+    {
+      "citation": "M.G.L. c. 110, § 5",
+      "title": "Massachusetts General Laws — Business under name other than true name; certificate",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter110/Section5",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Commonwealth of Massachusetts",
+      "title": "Business certificates (DBA) in Massachusetts (city/town clerk, four-year term)",
+      "url": "https://www.mass.gov/info-details/business-certificates-dba-in-massachusetts",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

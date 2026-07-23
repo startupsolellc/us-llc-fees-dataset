@@ -1,0 +1,44 @@
+{
+  "stateName": "Alabama",
+  "stateAbbr": "AL",
+  "stateSlug": "alabama",
+  "entitySuffixRule": "Must contain the words \"Limited Liability Company\" or the abbreviation \"L.L.C.\" or \"LLC.\"",
+  "entitySuffixCitation": "Ala. Code § 10A-1-5.06",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every entity name, reserved name, and registered name already on file. Entity-type designators (LLC, Inc., Corp., and the like) are disregarded in the comparison, so a different ending alone does not make a name distinguishable. Alabama is one of the few states where a name reservation is mandatory: a domestic LLC must obtain a Certificate of Name Reservation before it can file its Certificate of Formation, and the reserved name must match the name on the formation document.",
+  "distinguishabilityCitation": "Ala. Code § 10A-1-5.04",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "insurance",
+    "engineer"
+  ],
+  "nameReservationFee": 25,
+  "nameReservationTotalCost": 28.0,
+  "nameReservationCostBasis": "The Secretary of State fee is $25 by paper and $28 online (the online path carries the small electronic-access surcharge). Because the reservation is a required step before formation, this is a mandatory cost for every domestic Alabama LLC, not an optional hold.",
+  "nameReservationDuration": "1 year",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.alabama.gov/business-entities/llcs",
+  "namingStatuteUrl": "https://law.justia.com/codes/alabama/title-10a/chapter-1/article-5/division-a/section-10a-1-5-06/",
+  "notes": "Alabama's defining rule is the mandatory name reservation: unlike almost every other state, you cannot file LLC formation documents until the Secretary of State has issued a Certificate of Name Reservation for that exact name (§ 10A-1-4.02(f)). The reservation is effective for one year or until the applicant withdraws it (§ 10A-1-5.14) and can be renewed. If an LLC name includes \"bank,\" \"trust,\" \"insurance,\" or \"engineer,\" the applicant must attach a letter of approval from the governing agency; the flat bans on \"corporation\"/\"incorporated\" apply to limited partnerships rather than LLCs. Alabama has no LLC annual report (it collects a separate Business Privilege Tax instead).",
+  "sources": [
+    {
+      "citation": "Ala. Code § 10A-1-5.06",
+      "title": "Alabama Business and Nonprofit Entities Code — Name of limited liability company",
+      "url": "https://law.justia.com/codes/alabama/title-10a/chapter-1/article-5/division-a/section-10a-1-5-06/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Ala. Code § 10A-1-5.14",
+      "title": "Alabama Business and Nonprofit Entities Code — Duration of reservation of name (one year)",
+      "url": "https://law.justia.com/codes/alabama/title-10a/chapter-1/article-5/division-b/section-10a-1-5-14/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Alabama Secretary of State",
+      "title": "LLCs (mandatory Certificate of Name Reservation; $25 paper / $28 online)",
+      "url": "https://www.sos.alabama.gov/business-entities/llcs",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

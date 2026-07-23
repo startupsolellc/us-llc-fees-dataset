@@ -1,0 +1,43 @@
+{
+  "stateName": "Massachusetts",
+  "stateAbbr": "MA",
+  "stateSlug": "massachusetts",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"L.C.,\" \"LLC,\" or \"LC.\"",
+  "entitySuffixCitation": "M.G.L. c. 156C, § 3",
+  "distinguishabilityNote": "Must not be the same as, or so similar as to be deceptively similar to, the name of any corporation, limited partnership, or limited liability company (domestic or foreign) already on file with or reserved at the Corporations Division. Massachusetts applies the older \"same as or deceptively similar\" test rather than the modern \"distinguishable upon the records\" standard, so it looks past exact matches to confusingly close names. A similar name may be used only with the written consent of the other entity, filed with the State Secretary.",
+  "distinguishabilityCitation": "M.G.L. c. 156C, § 3",
+  "restrictedWords": [
+    "bank",
+    "trust",
+    "insurance"
+  ],
+  "nameReservationFee": 30,
+  "nameReservationTotalCost": 30.0,
+  "nameReservationCostBasis": "The $30 Corporations Division fee reserves a name for 60 days; a single 60-day extension costs another $30.",
+  "nameReservationDuration": "60 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+  "namingStatuteUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter156C/Section3",
+  "notes": "Massachusetts keeps the stricter \"same as or deceptively similar\" naming standard from its older corporate law, so a proposed LLC name can be refused for being confusingly close to an existing corporation, LP, or LLC even when it is technically different. Section 3 lists no banned words, but the Corporations Division still requires approvals for regulated terms drawn from other chapters (\"bank\" and \"trust\" under the banking laws, \"insurance\" under c. 175). A reservation lasts 60 days and may be extended once for another 60. Massachusetts pairs a high LLC filing fee ($500) with an equally high $500 annual report.",
+  "sources": [
+    {
+      "citation": "M.G.L. c. 156C, § 3",
+      "title": "Massachusetts Limited Liability Company Act — Name of limited liability company",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter156C/Section3",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "M.G.L. c. 156C, § 6",
+      "title": "Massachusetts Limited Liability Company Act — Reservation of name (60 days, one 60-day extension)",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter156C/Section6",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Massachusetts Secretary of the Commonwealth",
+      "title": "Corporations Division (name reservation $30, 60 days)",
+      "url": "https://www.sec.state.ma.us/divisions/corporations/corporations.htm",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
