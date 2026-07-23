@@ -1,0 +1,39 @@
+{
+  "stateName": "Rhode Island",
+  "stateAbbr": "RI",
+  "stateSlug": "rhode-island",
+  "entitySuffixRule": "Must end with the words \"limited liability company\" or the letters \"L.L.C.\" (with or without punctuation). A low-profit LLC ends with \"low-profit limited liability company\" or the abbreviation \"L3C.\" Rhode Island does not accept \"limited company,\" \"LC,\" or \"L.C.\"",
+  "entitySuffixCitation": "R.I. Gen. Laws § 7-16-9",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of any corporation, non-business corporation or other association, limited partnership, or domestic or foreign limited liability company organized, registered, or qualified in Rhode Island, and from any name filed, reserved, or registered under Title 7. Statutory entity-type designators are disregarded when comparing names. The Secretary of State issues rules defining \"distinguishable upon the record.\"",
+  "distinguishabilityCitation": "R.I. Gen. Laws § 7-16-9",
+  "restrictedWords": [],
+  "nameReservationFee": 50,
+  "nameReservationTotalCost": 52.5,
+  "nameReservationCostBasis": "The reservation fee is $50 (Form 620); a $2.50 enhanced-access fee is added to online filings, so the online cost is $52.50.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sos.ri.gov/divisions/business-services",
+  "namingStatuteUrl": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-9/",
+  "notes": "Rhode Island's LLC Act (R.I. Gen. Laws ch. 7-16) puts naming and fictitious names in a single section, § 7-16-9. The name must end with \"limited liability company\" or \"L.L.C.\" (Rhode Island does not accept \"limited company,\" \"LC,\" or \"L.C.\"), or the L3C form for a low-profit LLC. Entity-type designators are disregarded in the distinguishability comparison. The reservation lasts 120 days and is non-renewable. Rhode Island's costs run high: LLC formation is $150 ($156 online) and the annual report is $50 ($52.50 online), due between February 1 and May 1.",
+  "sources": [
+    {
+      "citation": "R.I. Gen. Laws § 7-16-9",
+      "title": "The Rhode Island Limited Liability Company Act — Name; Fictitious business names",
+      "url": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-9/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "R.I. Gen. Laws § 7-16-10",
+      "title": "The Rhode Island Limited Liability Company Act — Reservation of name (120 days)",
+      "url": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-10/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Rhode Island Department of State",
+      "title": "Business Services Division (name reservation $50, 120 days non-renewable)",
+      "url": "https://sos.ri.gov/divisions/business-services",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

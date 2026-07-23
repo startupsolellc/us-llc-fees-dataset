@@ -1,0 +1,44 @@
+{
+  "stateName": "New Hampshire",
+  "stateAbbr": "NH",
+  "stateSlug": "new-hampshire",
+  "dbaTerm": "trade name",
+  "filingLevel": "state",
+  "llcFilesWith": "New Hampshire Secretary of State, Corporation Division (trade name registration, Form TN-1, under RSA 349)",
+  "soleProprietorFilesWith": "New Hampshire Secretary of State (the same statewide trade name registration applies to individuals and sole proprietors)",
+  "llcFee": 50,
+  "feeBasis": "The Secretary of State fee to register a trade name is $50, and renewal is also $50.",
+  "duration": "5 years",
+  "renewalRule": "A registration expires after five years (RSA 349:6) and must be re-registered; the Secretary of State mails renewal notices, and a name not renewed within 30 days of expiration is abandoned and freed (RSA 349:8).",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "New Hampshire folds registered trade names into the LLC name screen (RSA 304-C:32), so an active trade name blocks later entity names that are not distinguishable from it. Registration is a public claim rather than a trademark, and ownership ultimately turns on actual use.",
+  "searchUrl": "https://quickstart.sos.nh.gov/online/BusinessInquire",
+  "searchNote": "Registered trade names appear in the Secretary of State's QuickStart business name search.",
+  "filingUrl": "https://www.sos.nh.gov/corporations-0/forms-and-fees/trade-names",
+  "statuteCitation": "RSA 349:1",
+  "statuteUrl": "https://law.justia.com/codes/new-hampshire/title-xxxi/chapter-349/section-349-1/",
+  "notes": "New Hampshire registers trade names statewide with the Secretary of State under RSA 349. LLCs and sole proprietors alike file a trade name registration for $50; unlike most states, the registration expires after five years and must be renewed for another $50, or the name is abandoned and freed. New Hampshire is stricter than most: a registered trade name is part of the RSA 304-C:32 entity-name screen, so it can block later LLC names, though registration is notice rather than a trademark.",
+  "sources": [
+    {
+      "citation": "RSA 349:1",
+      "title": "Trade Names — Registration; Generally",
+      "url": "https://law.justia.com/codes/new-hampshire/title-xxxi/chapter-349/section-349-1/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "RSA 349:6",
+      "title": "Trade Names — Term of registration (5 years) and renewal",
+      "url": "https://law.justia.com/codes/new-hampshire/title-xxxi/chapter-349/section-349-6/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "New Hampshire Secretary of State",
+      "title": "Trade Names forms and fees (Form TN-1, $50 registration / $50 renewal)",
+      "url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/trade-names",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

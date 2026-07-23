@@ -1,0 +1,33 @@
+{
+  "stateName": "New Hampshire",
+  "stateAbbr": "NH",
+  "stateSlug": "new-hampshire",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC\" (or a similar abbreviation). The name may include the name of a member or manager.",
+  "entitySuffixCitation": "RSA 304-C:32",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of any entity incorporated, authorized, formed, or registered in New Hampshire under RSA 292, 293-A, 293-B, 294-A, 301, 301-A, 304-A, 304-B, 304-C, 305-A, or the trade name chapter RSA 349. New Hampshire spells out differences that do not make a name distinguishable, including a prefix, suffix, or other derivative of the same word, a change in an entity-status word, an added numeral (absent the current holder's consent), and punctuation or special-character differences that do not change the meaning. A non-distinguishable name may be used with written consent, or by adding words when the name is identical.",
+  "distinguishabilityCitation": "RSA 304-C:32",
+  "restrictedWords": [],
+  "nameReservationFee": 15,
+  "nameReservationTotalCost": 15,
+  "nameReservationCostBasis": "The Secretary of State fee for an Application for Reservation of Name is $15.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
+  "namingStatuteUrl": "https://law.justia.com/codes/new-hampshire/title-xxviii/chapter-304-c/section-304-c-32/",
+  "notes": "New Hampshire's LLC Act (RSA 304-C) sets a strict distinguishability test. Section 304-C:32 folds registered trade names (RSA 349) into the entity-name screen and lists what does not count as a difference, so a prefix, a plural, an added number, or a punctuation change will not clear a conflicting name. There is no banned-word list in the section. A reservation lasts 120 days. New Hampshire's LLC formation fee and annual report are each $102 (a $100 fee plus a $2 online surcharge), and the annual report is due April 1.",
+  "sources": [
+    {
+      "citation": "RSA 304-C:32",
+      "title": "Limited Liability Companies — Name Set Forth in Certificate of Formation",
+      "url": "https://law.justia.com/codes/new-hampshire/title-xxviii/chapter-304-c/section-304-c-32/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "New Hampshire Secretary of State",
+      "title": "Limited Liability Companies forms and fees (name reservation $15, 120 days)",
+      "url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

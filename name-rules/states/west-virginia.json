@@ -1,0 +1,39 @@
+{
+  "stateName": "West Virginia",
+  "stateAbbr": "WV",
+  "stateSlug": "west-virginia",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "W. Va. Code § 31B-1-105",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of any corporation, limited partnership, limited liability partnership, or limited liability company organized or authorized to transact business in West Virginia, from any name reserved or registered under §§ 31B-1-106 or 31B-1-107, and from a fictitious name approved under § 31B-10-1005 for a foreign company. The statute defines \"distinguishable\" as a difference that lets a person recognize the name as noticeably different, including at least a one-word difference when the words are common terms. A name that is not distinguishable may be used with the authorization of the Secretary of State.",
+  "distinguishabilityCitation": "W. Va. Code § 31B-1-105",
+  "restrictedWords": [],
+  "nameReservationFee": 15,
+  "nameReservationTotalCost": 15,
+  "nameReservationCostBasis": "The Secretary of State fee for a name reservation is $15; an additional $1 online processing fee applies to online filings.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sos.wv.gov/business",
+  "namingStatuteUrl": "https://law.justia.com/codes/west-virginia/chapter-31b/article-1/section-31b-1-105/",
+  "notes": "West Virginia adopted the Uniform Limited Liability Company Act (W. Va. Code ch. 31B). Section 31B-1-105 is unusual in that it defines \"distinguishable\" in the statute itself, requiring at least a one-word difference when the compared words are common terms, so close names are refused on a bright-line test. There is no banned-word list. A reservation lasts 120 days. The LLC formation fee is $100 and an annual report ($25) is due between January 1 and June 30. Filings run through the West Virginia One Stop Business Portal.",
+  "sources": [
+    {
+      "citation": "W. Va. Code § 31B-1-105",
+      "title": "Uniform Limited Liability Company Act — Name",
+      "url": "https://law.justia.com/codes/west-virginia/chapter-31b/article-1/section-31b-1-105/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "W. Va. Code § 31B-1-106",
+      "title": "Uniform Limited Liability Company Act — Reserved name (120 days)",
+      "url": "https://law.justia.com/codes/west-virginia/chapter-31b/article-1/section-31b-1-106/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "West Virginia Secretary of State",
+      "title": "Business & Licensing (name reservation $15)",
+      "url": "https://sos.wv.gov/business",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

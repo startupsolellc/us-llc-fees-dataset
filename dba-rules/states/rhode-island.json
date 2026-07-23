@@ -1,0 +1,44 @@
+{
+  "stateName": "Rhode Island",
+  "stateAbbr": "RI",
+  "stateSlug": "rhode-island",
+  "dbaTerm": "fictitious business name",
+  "filingLevel": "state",
+  "llcFilesWith": "Rhode Island Department of State, Business Services Division (Fictitious Business Name Statement, Form 624B, under § 7-16-9), filed through the online Corporate Filing System",
+  "soleProprietorFilesWith": "Rhode Island Department of State (trade name registration; Rhode Island recently moved trade names from its 39 city and town clerks to the Department of State, though a trade name is still limited to one municipality)",
+  "llcFee": 50,
+  "feeBasis": "An LLC's Fictitious Business Name Statement costs $50 (a $2.50 enhanced-access fee applies online). A sole proprietor's trade name registration costs $20.",
+  "duration": "Perpetual (no expiration)",
+  "renewalRule": "A fictitious business name statement stays on file until the LLC amends or cancels it; there is no periodic renewal.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "A fictitious business name or trade name discloses the name a business uses and grants no exclusive right; a sole proprietor's trade name is limited to a single city or town rather than the whole state.",
+  "searchUrl": "https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx",
+  "searchNote": "Fictitious business names and trade names registered with the Department of State appear in the online business search.",
+  "filingUrl": "https://docs.sos.ri.gov/documents/BusinessServices/624B-fictitious-business-name-statement-Limited-Liability-Company.pdf",
+  "statuteCitation": "R.I. Gen. Laws § 7-16-9",
+  "statuteUrl": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-9/",
+  "notes": "Rhode Island splits its DBA vocabulary by filer but now files both at the state level. An LLC that trades under another name files a Fictitious Business Name Statement with the Department of State ($50, § 7-16-9). Individuals and general partnerships register a trade name ($20); Rhode Island recently centralized trade names from its 39 municipalities to the Department of State, but a trade name is still tied to one city or town rather than being statewide. Neither filing grants an exclusive right and neither requires publication.",
+  "sources": [
+    {
+      "citation": "R.I. Gen. Laws § 7-16-9",
+      "title": "The Rhode Island Limited Liability Company Act — Name; Fictitious business names (LLC $50)",
+      "url": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-9/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "R.I. Gen. Laws § 6-1-1",
+      "title": "Filing of Trade Name — business trade name requirements (sole proprietors)",
+      "url": "https://law.justia.com/codes/rhode-island/title-6/chapter-6-1/section-6-1-1/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Rhode Island Department of State",
+      "title": "Trade Names / Register a Trade Name (sole proprietor trade name $20, centralized to the state)",
+      "url": "https://www.sos.ri.gov/divisions/business-services/ri-trade-names",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
