@@ -1,0 +1,43 @@
+{
+  "stateName": "Minnesota",
+  "stateAbbr": "MN",
+  "stateSlug": "minnesota",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"LLC.\" The name may not contain the word \"corporation\" or \"incorporated,\" or an abbreviation of either, and may not indicate or imply a purpose other than a permitted one.",
+  "entitySuffixCitation": "Minn. Stat. § 322C.0108, subd. 1",
+  "distinguishabilityNote": "Must be distinguishable, upon the records of the Secretary of State, from every domestic and foreign LLC, LLP, corporation, and limited partnership (profit or nonprofit) on file, authorized, or registered in Minnesota, and from names reserved or assumed under the related chapters. The Secretary of State decides distinguishability. A non-distinguishable name may still be used with the other holder's written consent, a court decree of prior right, or an affidavit that the other entity has been inactive for at least three years.",
+  "distinguishabilityCitation": "Minn. Stat. § 322C.0108, subd. 1-2",
+  "restrictedWords": [
+    "bank",
+    "insurance",
+    "trust"
+  ],
+  "nameReservationFee": 35,
+  "nameReservationTotalCost": 55.0,
+  "nameReservationCostBasis": "Minnesota charges $35 to reserve a name by mail but $55 filed in person or online, and the online path is the one most filers use, so the real cost is usually $55.",
+  "nameReservationDuration": "12 months",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://www.sos.state.mn.us/business-liens/business-forms-fees/business-filing-certification-fee-schedule/",
+  "namingStatuteUrl": "https://www.revisor.mn.gov/statutes/cite/322C.0108",
+  "notes": "Minnesota's LLC naming statute is light on banned words: it bars only \"corporation\" and \"incorporated\" and any language implying a purpose the LLC is not organized for. Because running a bank, insurance, or trust business is such a non-permitted purpose without separate authorization, those terms are effectively restricted through other Minnesota regulatory law rather than through § 322C.0108. A name reservation lasts twelve months and can be renewed for additional twelve-month periods, and the fee differs by channel ($35 by mail, $55 in person or online).",
+  "sources": [
+    {
+      "citation": "Minn. Stat. § 322C.0108",
+      "title": "Minnesota Revised Uniform Limited Liability Company Act — Limited liability company name",
+      "url": "https://www.revisor.mn.gov/statutes/cite/322C.0108",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Minn. Stat. § 322C.0109",
+      "title": "Minnesota Revised Uniform Limited Liability Company Act — Reservation of name (one year, renewable)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/322C.0109",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Minnesota Secretary of State",
+      "title": "Business Filing & Certification Fee Schedule (name reservation $35 mail / $55 in person or online)",
+      "url": "https://www.sos.state.mn.us/business-liens/business-forms-fees/business-filing-certification-fee-schedule/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

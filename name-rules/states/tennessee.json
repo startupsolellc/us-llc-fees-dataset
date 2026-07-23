@@ -1,0 +1,43 @@
+{
+  "stateName": "Tennessee",
+  "stateAbbr": "TN",
+  "stateSlug": "tennessee",
+  "entitySuffixRule": "Must contain the words \"limited liability company,\" the abbreviation \"L.L.C.\" or \"LLC,\" or words or abbreviations of like import in another language written in roman characters. The name may not contain the word \"corporation\" or \"incorporated,\" or an abbreviation of either.",
+  "entitySuffixCitation": "Tenn. Code Ann. § 48-249-106(a)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of, or for, every other entity, whether that name is true, assumed, reserved, or registered. Tennessee screens against assumed names too, not just live entity names. A name that is not distinguishable may still be used with the other holder's written consent (Application for Use of Indistinguishable Name).",
+  "distinguishabilityCitation": "Tenn. Code Ann. § 48-249-106",
+  "restrictedWords": [
+    "bank",
+    "insurance",
+    "trust"
+  ],
+  "nameReservationFee": 20,
+  "nameReservationTotalCost": 20.0,
+  "nameReservationCostBasis": "The $20 Secretary of State fee (Application for Name Reservation, SS-9425) is the full cost.",
+  "nameReservationDuration": "4 months",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://sos.tn.gov/businesses/services/business-forms-fees",
+  "namingStatuteUrl": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
+  "notes": "Tennessee does not publish a fixed list of banned words; instead § 48-249-106(a)(2) bars any language stating or implying that the LLC may transact a business needing state authorization (banking, insurance, trust powers, and the like) unless the appropriate commission or official certifies the authorization to the Secretary of State, and it bars implying sponsorship by a fraternal, veterans', religious, charitable, or similar organization. A name reservation lasts four months and can be transferred (Application for Transfer of Reserved Name, $20). Separately, Tennessee's LLC formation fee is charged per member ($50 per member, $300 minimum, $3,000 maximum), which is unusual.",
+  "sources": [
+    {
+      "citation": "Tenn. Code Ann. § 48-249-106",
+      "title": "Tennessee Revised Limited Liability Company Act — LLC name",
+      "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Tenn. Code Ann. § 48-249-107",
+      "title": "Tennessee Revised Limited Liability Company Act — Reserved name (four-month exclusive reservation)",
+      "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-107/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Business Forms & Fees (Application for Name Reservation SS-9425, $20)",
+      "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

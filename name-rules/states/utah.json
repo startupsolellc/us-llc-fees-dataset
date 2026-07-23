@@ -1,0 +1,54 @@
+{
+  "stateName": "Utah",
+  "stateAbbr": "UT",
+  "stateSlug": "utah",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviation \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" \"Limited\" may be abbreviated as \"Ltd.\" and \"company\" as \"Co.\"",
+  "entitySuffixCitation": "Utah Code § 48-3a-108(1)",
+  "distinguishabilityNote": "Must be distinguishable, on the records of the Division of Corporations and Commercial Code, from the actual name, reserved name, or assumed/fictitious name of any entity registered with the Division, and from any tradename, trademark, or service mark registered with the Division. Words and abbreviations that only indicate the entity type (LLC, Inc., Corp., LP, LLP, and the like) are not taken into account.",
+  "distinguishabilityCitation": "Utah Code § 48-3a-108(2), (4)",
+  "restrictedWords": [
+    "bank",
+    "banking",
+    "escrow",
+    "university",
+    "college",
+    "institute",
+    "olympic",
+    "trust"
+  ],
+  "nameReservationFee": 22,
+  "nameReservationTotalCost": 22.0,
+  "nameReservationCostBasis": "The $22 Division of Corporations fee is the full cost of a name reservation.",
+  "nameReservationDuration": "120 days",
+  "nameReservationProcessingTime": null,
+  "nameReservationUrl": "https://commerce.utah.gov/corporations/business-entities/business-name-information/",
+  "namingStatuteUrl": "https://le.utah.gov/xcode/Title48/Chapter3A/48-3a-S108.html",
+  "notes": "Restricted words need written consent before the Division will register the name: bank and related terms (Bank, Banker, Banking, Banc, Bancorp, Savings Association, Escrow, etc.) require the Department of Financial Institutions; \"university,\" \"college,\" and \"institute\" require the Division of Consumer Protection under § 53B-5-114; and \"Olympic\"/\"Olympiad\" require the U.S. Olympic Committee. \"Business trust\" must appear as the last words of the name. A name reservation lasts 120 days and can be transferred by signed notice. Note: Utah reorganized its unincorporated-entity code effective 2026-10-01 (Chapter 93, 2026 General Session renumbers/repeals parts of Title 48, Chapter 3a), so re-verify the section numbers after that date; the requirements above are current as of 2026-07-23.",
+  "sources": [
+    {
+      "citation": "Utah Code § 48-3a-108",
+      "title": "Utah Revised Uniform Limited Liability Company Act — Name",
+      "url": "https://le.utah.gov/xcode/Title48/Chapter3A/48-3a-S108.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Utah Code § 48-3a-109",
+      "title": "Utah Revised Uniform Limited Liability Company Act — Reservation of name (120 days, transferable)",
+      "url": "https://le.utah.gov/xcode/Title48/Chapter3A/48-3a-S109.html",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Utah Division of Corporations and Commercial Code",
+      "title": "Business Name Conventions and Policies (restricted words and required agency approvals)",
+      "url": "https://corporations.utah.gov/business-entities/business-name-conventions-and-policies/",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Utah Department of Commerce",
+      "title": "Fiscal Year 2026 Fee Schedule (name reservation $22)",
+      "url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

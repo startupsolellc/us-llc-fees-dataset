@@ -1,0 +1,44 @@
+{
+  "stateName": "Tennessee",
+  "stateAbbr": "TN",
+  "stateSlug": "tennessee",
+  "dbaTerm": "assumed name",
+  "filingLevel": "state",
+  "llcFilesWith": "Tennessee Secretary of State (Application for Registration of Assumed Name, SS-4402)",
+  "soleProprietorFilesWith": "Not filed with the Secretary of State; the state assumed-name registration is for entities (LLCs, corporations, LPs), and Tennessee has no statewide DBA registry for sole proprietors",
+  "llcFee": 20,
+  "feeBasis": "The $20 Secretary of State fee registers an assumed name for an LLC or corporation. The registration lasts five years and renews for another $20.",
+  "duration": "5 years",
+  "renewalRule": "Renewable in five-year terms (Application for Renewal of Registration of Assumed Name, $20), filed before the registration expires.",
+  "publicationRequired": false,
+  "publicationRule": null,
+  "protectionLevel": "none",
+  "protectionNote": "Registering an assumed name discloses the name an entity trades under; it grants no exclusive trademark right. It does carry a practical effect: because § 48-249-106 screens new names against assumed names as well as true, reserved, and registered names, an active assumed name blocks a later entity or assumed name that is not distinguishable from it.",
+  "searchUrl": "https://tncab.tnsos.gov/business-entity-search",
+  "searchNote": "Assumed names registered by entities appear in the Secretary of State's business search alongside the entities themselves, since they are part of the same distinguishability records.",
+  "filingUrl": "https://tnbear.tn.gov/Ecommerce/AssumedNameInstr.aspx",
+  "statuteCitation": "Tenn. Code Ann. § 48-249-106",
+  "statuteUrl": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
+  "notes": "Tennessee's assumed name is an entity filing: an LLC or corporation registers one $20 assumed name with the Secretary of State, good for five years and renewable. Sole proprietors are not part of this system, and there is no newspaper-publication requirement. Because assumed names sit in the same records the state screens for distinguishability, a registered assumed name behaves defensively like an entity name while it is active.",
+  "sources": [
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Instructions to Register an Assumed Name (online, $20, five-year term)",
+      "url": "https://tnbear.tn.gov/Ecommerce/AssumedNameInstr.aspx",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Business Forms & Fees (Application for Registration of Assumed Name SS-4402, $20)",
+      "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Tenn. Code Ann. § 48-249-106",
+      "title": "Tennessee Revised Limited Liability Company Act — LLC name (assumed names in the distinguishability records)",
+      "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}

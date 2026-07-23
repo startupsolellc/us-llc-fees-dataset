@@ -1,0 +1,38 @@
+{
+  "stateName": "Minnesota",
+  "stateAbbr": "MN",
+  "stateSlug": "minnesota",
+  "dbaTerm": "assumed name",
+  "filingLevel": "state",
+  "llcFilesWith": "Minnesota Secretary of State (Certificate of Assumed Name, Minn. Stat. ch. 333)",
+  "soleProprietorFilesWith": "Minnesota Secretary of State (the same Certificate of Assumed Name)",
+  "llcFee": 50,
+  "feeBasis": "The Certificate of Assumed Name is $50 filed in person or online and $30 by mail. On top of the filing, Minnesota requires newspaper publication, which is a separate variable cost, and the certificate must be renewed each calendar year to stay active.",
+  "duration": "Annual renewal",
+  "renewalRule": "The certificate does not expire on its own, but it must be renewed with the Secretary of State each calendar year, beginning the year after the original filing, to stay active.",
+  "publicationRequired": true,
+  "publicationRule": "After filing, the certificate must be published in a qualified newspaper in the county where the person has a principal or registered office, for two successive issues (Minn. Stat. § 333.01).",
+  "protectionLevel": "none",
+  "protectionNote": "Section 333.01 grants no exclusive right to an assumed name; filing and publishing it is a disclosure requirement. It does carry a defensive effect: assumed names on record are among the names the Secretary of State screens for distinguishability under § 322C.0108, so an active assumed name blocks a later name that is not distinguishable from it.",
+  "searchUrl": "https://mblsportal.sos.state.mn.us/Business/Search",
+  "searchNote": "Assumed names filed with the Secretary of State appear in the state business search alongside entities, since they are part of the same distinguishability records.",
+  "filingUrl": "https://www.sos.state.mn.us/business-liens/business-forms-fees/",
+  "statuteCitation": "Minn. Stat. § 333.01",
+  "statuteUrl": "https://www.revisor.mn.gov/statutes/cite/333.01",
+  "notes": "Minnesota runs its assumed name at the state level (Secretary of State) rather than the county, but unlike most state-level systems it keeps a newspaper-publication requirement and an annual renewal. So the sticker filing fee understates the real cost, which also includes the legal-notice publication and yearly renewals.",
+  "sources": [
+    {
+      "citation": "Minn. Stat. § 333.01",
+      "title": "Certificate of assumed name (Secretary of State filing; two-issue newspaper publication)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/333.01",
+      "lastAccessed": "2026-07-23"
+    },
+    {
+      "citation": "Minnesota Secretary of State",
+      "title": "Business Filing & Certification Fee Schedule (Assumed Name $30 mail / $50 in person or online)",
+      "url": "https://www.sos.state.mn.us/business-liens/business-forms-fees/business-filing-certification-fee-schedule/",
+      "lastAccessed": "2026-07-23"
+    }
+  ],
+  "lastVerified": "2026-07-23"
+}
