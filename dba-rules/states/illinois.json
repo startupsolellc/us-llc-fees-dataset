@@ -18,13 +18,13 @@
   "searchNote": "The Secretary of State's business search returns LLC and corporate assumed names filed with the state, because they share the entity records used for the distinguishability screen. County assumed-name certificates for sole proprietors and partnerships sit in each county clerk's records and are not in the state search.",
   "filingUrl": "https://www.ilsos.gov/departments/business-services/assumed-name-adoptions/llcinstructions.html",
   "statuteCitation": "805 ILCS 180/1-20; 805 ILCS 405/1",
-  "statuteUrl": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-20.htm",
+  "statuteUrl": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K1-20.htm",
   "notes": "Illinois splits its DBA system. LLCs and corporations adopt an assumed name centrally with the Secretary of State (Form LLC-1.20), where it joins the state entity records and the Section 1-10 distinguishability screen. Sole proprietors and general partnerships instead file an assumed-business-name certificate with the county clerk under 805 ILCS 405 and must publish notice in a local newspaper. The state assumed-name fee is prorated so a registration always expires in the next year divisible by five.",
   "sources": [
     {
       "citation": "805 ILCS 180/1-20",
       "title": "Limited Liability Company Act — Registration of assumed name",
-      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K1-20.htm",
+      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K1-20.htm",
       "lastAccessed": "2026-07-23"
     },
     {
@@ -36,7 +36,7 @@
     {
       "citation": "805 ILCS 405/1",
       "title": "Assumed Business Name Act — county clerk filing for sole proprietors and partnerships",
-      "url": "https://www.ilga.gov/legislation/ilcs/documents/080504050K1.htm",
+      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080504050K1.htm",
       "lastAccessed": "2026-07-23"
     }
   ],
