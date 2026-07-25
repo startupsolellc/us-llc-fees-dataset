@@ -4,10 +4,11 @@ Structured state-level dataset for sidebar components. This data is designed for
 
 ## Status
 
-As of `2026-05-12`, detailed enrichment batch operations have been completed for all 50 states.
+Enrichment is complete for **51 of 51 jurisdictions**: all 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). Initial batch enrichment finished 2026-05-12; the full set was re-verified against official sources during the July 2026 campaign (see `../CHANGELOG.md`).
 
-- **Coverage:** `AL` through `WY`
-- **Last completed batch:** `WI / WY`
+Note that root `../states.json` deliberately remains a **50-state** map and does not include DC.
+
+- **Coverage:** all 50 states, `AL` through `WY`, plus `DC`
 - Each state file contains contact info, addresses, hours, renewal links, LLC filing facts, name reservation details, and official sources — or consciously left as `null` if not available from official sources.
 - Root [`../states.json`](../states.json) records have been aligned with official fee/source corrections.
 - Batch audit outputs are generated locally under `entitysearch-state-data/audits/`. This folder is under `.gitignore`.

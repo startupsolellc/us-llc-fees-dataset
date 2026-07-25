@@ -122,13 +122,25 @@ See `LICENSE`.
 
 > **Note on a previous version of this file.** Earlier revisions declared MIT for everything and asked users to place a backlink to a maintainer website "as a condition of use". That condition was not part of MIT, is not enforceable as written, and requiring a link in exchange for use is a link scheme under search engine guidelines. It has been removed. Attribution is now handled by CC BY 4.0, which asks for credit rather than a specific hyperlink.
 
+## Projects using this dataset
+
+These are built on the namespaces above and are maintained by the same author. They are listed here as downstream consumers and as a disclosure, not as a recommendation.
+
+| Project | What it does | Namespaces used |
+|---|---|---|
+| [entitysearch.us](https://entitysearch.us) | Business entity search guides for all 50 states, with official portal walkthroughs | `states.json`, `entitysearch-state-data` |
+| [businessnamesearch.us](https://businessnamesearch.us) | Pre-formation business name availability checker and naming-rule reference | `name-rules`, `dba-rules`, `entitysearch-state-data` |
+| [formation.legal](https://formation.legal) | Guides for non-US founders forming a US LLC | `states.json` |
+
+Two of these pages are worth naming because they are the widest public views of the data: the [51-jurisdiction name reservation comparison](https://businessnamesearch.us/name-reservation/) and the [nationwide Secretary of State search directory](https://entitysearch.us/resources/secretary-of-state-business-search/).
+
 ## Maintainer and disclosure
 
 Maintained by **StartupSole LLC** (Muhammet Dikyurt).
 
-The maintainer also operates commercial websites that consume this dataset, including [entitysearch.us](https://entitysearch.us) and [businessnamesearch.us](https://businessnamesearch.us), some of which carry affiliate links to formation services. **The dataset itself carries no affiliate links, no tracking, and no commercial content.** This disclosure is here so anyone evaluating the data as a source can weigh it.
+The sites listed above are commercial, and some of them carry affiliate links to formation services. **The dataset itself carries no affiliate links, no tracking, and no commercial content, and using it is not conditioned on linking anywhere.** This disclosure is here so that anyone evaluating the data as a source can weigh it rather than have to discover it.
 
-Data errors are treated as bugs regardless of which project reports them.
+The dataset is maintained on its own terms: a data error is treated as a bug no matter which project reports it, and corrections from outside contributors are held to the same sourcing standard as the maintainer's own.
 
 ## Contributing
 
