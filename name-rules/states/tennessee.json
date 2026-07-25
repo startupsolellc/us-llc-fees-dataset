@@ -4,7 +4,7 @@
   "stateSlug": "tennessee",
   "entitySuffixRule": "Must contain the words \"limited liability company,\" the abbreviation \"L.L.C.\" or \"LLC,\" or words or abbreviations of like import in another language written in roman characters. The name may not contain the word \"corporation\" or \"incorporated,\" or an abbreviation of either.",
   "entitySuffixCitation": "Tenn. Code Ann. § 48-249-106(a)",
-  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of, or for, every other entity, whether that name is true, assumed, reserved, or registered. Tennessee screens against assumed names too, not just live entity names. A name that is not distinguishable may still be used with the other holder's written consent (Application for Use of Indistinguishable Name).",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from the name of, or for, every other entity, whether that name is true, assumed, reserved, or registered. Tennessee screens against assumed names too, not just live entity names. Section 48-249-106(c) gives three routes past a conflict: the prior holder consents in writing AND undertakes to cancel or change its own name (Written Consent for Use of Indistinguishable Name, SS-9411, $20); the applicant delivers a certified copy of a final court judgment establishing its right to the name; or the prior holder consents in writing and both parties agree to use the same registered agent. Consent on its own is not one of the three.",
   "distinguishabilityCitation": "Tenn. Code Ann. § 48-249-106",
   "restrictedWords": [
     "bank",
@@ -17,27 +17,39 @@
   "nameReservationDuration": "4 months",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://sos.tn.gov/businesses/services/business-forms-fees",
-  "namingStatuteUrl": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
-  "notes": "Tennessee does not publish a fixed list of banned words; instead § 48-249-106(a)(2) bars any language stating or implying that the LLC may transact a business needing state authorization (banking, insurance, trust powers, and the like) unless the appropriate commission or official certifies the authorization to the Secretary of State, and it bars implying sponsorship by a fraternal, veterans', religious, charitable, or similar organization. A name reservation lasts four months and can be transferred (Application for Transfer of Reserved Name, $20). Separately, Tennessee's LLC formation fee is charged per member ($50 per member, $300 minimum, $3,000 maximum), which is unusual.",
+  "namingStatuteUrl": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-106/",
+  "notes": "Tennessee does not publish a fixed list of banned words; instead § 48-249-106(a)(2) bars any language stating or implying that the LLC may transact a business needing state authorization (banking, insurance, trust powers, and the like) unless the appropriate commission or official certifies the authorization to the Secretary of State, and it bars implying affiliation with a fraternal, veterans', religious, charitable, or professional organization or with an agency of the United States. A reservation lasts four months with no renewal step; § 48-249-107 says that once it expires the same party or any other party may apply for the same name, and a reservation may be transferred by notice (Notice of Cancellation or Transfer of Reserved Name, SS-4406, $20). On fees, the official schedule prints Articles of Organization (SS-4270) as $300 with an asterisk for per-member variation, and the Secretary of State's business FAQ states the LLC annual report rule verbatim: $300 minimum, increasing by an additional $50 per member for every member over 6, up to a $3,000 maximum.",
   "sources": [
     {
       "citation": "Tenn. Code Ann. § 48-249-106",
-      "title": "Tennessee Revised Limited Liability Company Act — LLC name",
+      "title": "Tennessee Revised Limited Liability Company Act, LLC name (full text read 2026-07-25: designator, barred words, distinguishability, three exceptions)",
+      "url": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-106/",
+      "lastAccessed": "2026-07-25"
+    },
+    {
+      "citation": "Tenn. Code Ann. § 48-249-107",
+      "title": "Tennessee Revised Limited Liability Company Act, reserved name (four-month period, re-application after expiry, transfer by notice)",
+      "url": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-107/",
+      "lastAccessed": "2026-07-25"
+    },
+    {
+      "citation": "Tenn. Code Ann. § 48-249-106",
+      "title": "Tennessee Revised Limited Liability Company Act, LLC name (Justia mirror; blocks this network, cited for readers)",
       "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
       "lastAccessed": "2026-07-23"
     },
     {
-      "citation": "Tenn. Code Ann. § 48-249-107",
-      "title": "Tennessee Revised Limited Liability Company Act — Reserved name (four-month exclusive reservation)",
-      "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-107/",
-      "lastAccessed": "2026-07-23"
+      "citation": "Tennessee Secretary of State",
+      "title": "Business Forms & Fees (SS-9425 name reservation $20, SS-4406 cancellation or transfer $20, SS-4270 Articles of Organization $300*, SS-9411 written consent for use of indistinguishable name $20)",
+      "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
+      "lastAccessed": "2026-07-25"
     },
     {
       "citation": "Tennessee Secretary of State",
-      "title": "Business Forms & Fees (Application for Name Reservation SS-9425, $20)",
-      "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
-      "lastAccessed": "2026-07-23"
+      "title": "Business services FAQs (LLC annual report $300 minimum plus $50 per member over 6 to a $3,000 maximum; a name that is not distinguishable is listed among the most common reasons a filing is rejected)",
+      "url": "https://sos.tn.gov/businesses/faqs",
+      "lastAccessed": "2026-07-25"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-07-25"
 }
