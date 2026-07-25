@@ -19,13 +19,13 @@
   "filingUrl": "https://www.sos.state.mn.us/business-liens/business-forms-fees/",
   "statuteCitation": "Minn. Stat. § 333.01",
   "statuteUrl": "https://www.revisor.mn.gov/statutes/cite/333.01",
-  "notes": "Minnesota runs its assumed name at the state level (Secretary of State) rather than the county, but unlike most state-level systems it keeps a newspaper-publication requirement and an annual renewal. So the sticker filing fee understates the real cost, which also includes the legal-notice publication and yearly renewals.",
+  "notes": "Minnesota runs its assumed name at the state level (Secretary of State) rather than the county, but unlike most state-level systems it keeps a newspaper-publication requirement and an annual renewal, so the sticker filing fee understates the real cost. Two content rules come straight from § 333.01: the assumed name may NOT contain corporation, incorporated, limited, chartered, professional association, cooperative, limited partnership, limited liability company, professional limited liability company, limited liability partnership or professional limited liability partnership (or their abbreviations) unless the filer would be entitled to use the phrase anyway; and subdivision 2 separately bars using an assumed name to intentionally misrepresent the geographic origin or location of the business.",
   "sources": [
     {
       "citation": "Minn. Stat. § 333.01",
       "title": "Certificate of assumed name (Secretary of State filing; two-issue newspaper publication)",
       "url": "https://www.revisor.mn.gov/statutes/cite/333.01",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-07-25"
     },
     {
       "citation": "Minnesota Secretary of State",
@@ -34,5 +34,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-07-25"
 }

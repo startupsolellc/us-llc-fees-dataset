@@ -4,7 +4,7 @@
   "stateSlug": "minnesota",
   "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"LLC.\" The name may not contain the word \"corporation\" or \"incorporated,\" or an abbreviation of either, and may not indicate or imply a purpose other than a permitted one.",
   "entitySuffixCitation": "Minn. Stat. § 322C.0108, subd. 1",
-  "distinguishabilityNote": "Must be distinguishable, upon the records of the Secretary of State, from every domestic and foreign LLC, LLP, corporation, and limited partnership (profit or nonprofit) on file, authorized, or registered in Minnesota, and from names reserved or assumed under the related chapters. The Secretary of State decides distinguishability. A non-distinguishable name may still be used with the other holder's written consent, a court decree of prior right, or an affidavit that the other entity has been inactive for at least three years.",
+  "distinguishabilityNote": "Must be distinguishable, upon the records of the Secretary of State, from every domestic and foreign LLC, LLP, corporation, and limited partnership (profit or nonprofit) on file, authorized, or registered in Minnesota, and from every name reserved or registered under §§ 5.35, 302A.117, 317A.117, 321.0109, 322C.0109 or 333.001 to 333.54. Three documents can be filed WITH the articles of organization to get past a conflict, and there is no advance approval step: (i) the written consent of the other holder; (ii) a certified copy of a final decree of a Minnesota court establishing the applicant's prior right; or (iii) the applicant's own affidavit that the conflicting record has been organized, incorporated, on file, authorized or registered here for at least three years, that it has filed NOTHING with the secretary of state during those three years, and that the applicant has mailed it written notice by certified mail, return receipt requested. The affidavit route is self-help: it needs no cooperation from the other party.",
   "distinguishabilityCitation": "Minn. Stat. § 322C.0108, subd. 1-2",
   "restrictedWords": [
     "bank",
@@ -12,25 +12,25 @@
     "trust"
   ],
   "nameReservationFee": 35,
-  "nameReservationTotalCost": 55.0,
+  "nameReservationTotalCost": 55,
   "nameReservationCostBasis": "Minnesota charges $35 to reserve a name by mail but $55 filed in person or online, and the online path is the one most filers use, so the real cost is usually $55.",
   "nameReservationDuration": "12 months",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.sos.state.mn.us/business-liens/business-forms-fees/business-filing-certification-fee-schedule/",
   "namingStatuteUrl": "https://www.revisor.mn.gov/statutes/cite/322C.0108",
-  "notes": "Minnesota's LLC naming statute is light on banned words: it bars only \"corporation\" and \"incorporated\" and any language implying a purpose the LLC is not organized for. Because running a bank, insurance, or trust business is such a non-permitted purpose without separate authorization, those terms are effectively restricted through other Minnesota regulatory law rather than through § 322C.0108. A name reservation lasts twelve months and can be renewed for additional twelve-month periods, and the fee differs by channel ($35 by mail, $55 in person or online).",
+  "notes": "Minnesota's LLC naming statute is light on banned words: it bars only \"corporation\" and \"incorporated\" and any language implying a purpose the LLC is not organized for. Because running a bank, insurance, or trust business is such a non-permitted purpose without separate authorization, those terms are effectively restricted through other Minnesota regulatory law rather than through § 322C.0108. § 322C.0109 reserves a name for the applicant's exclusive use for a one-year period and lets the owner transfer it by signed notice; the Secretary of State renews reservations for further twelve-month periods. The fee differs by channel ($35 by mail, $55 in person or online), and so does the renewal.",
   "sources": [
     {
       "citation": "Minn. Stat. § 322C.0108",
       "title": "Minnesota Revised Uniform Limited Liability Company Act — Limited liability company name",
       "url": "https://www.revisor.mn.gov/statutes/cite/322C.0108",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-07-25"
     },
     {
       "citation": "Minn. Stat. § 322C.0109",
       "title": "Minnesota Revised Uniform Limited Liability Company Act — Reservation of name (one year, renewable)",
       "url": "https://www.revisor.mn.gov/statutes/cite/322C.0109",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-07-25"
     },
     {
       "citation": "Minnesota Secretary of State",
@@ -39,5 +39,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-07-25"
 }
