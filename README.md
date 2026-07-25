@@ -3,8 +3,7 @@
 ![Jurisdictions](https://img.shields.io/badge/Jurisdictions-51-blue?style=flat-square)
 ![Sources](https://img.shields.io/badge/Verified-Official_.gov_sources-blue?style=flat-square)
 ![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)
-![Data license](https://img.shields.io/badge/Data-CC_BY_4.0-purple?style=flat-square)
-![Code license](https://img.shields.io/badge/Code-MIT-purple?style=flat-square)
+![License](https://img.shields.io/badge/License-CC_BY_4.0-purple?style=flat-square)
 
 An open, machine-readable dataset of **US limited liability company formation costs, naming rules, and assumed-name (DBA) filing rules**, covering all 50 states and the District of Columbia.
 
@@ -115,10 +114,9 @@ When citing a specific figure, cite the record's own `lastVerified` date alongsi
 
 ## Licence
 
-- **Data** (all JSON files, schemas, and namespace documentation): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it commercially, modify it, redistribute it; credit the source. Full text in [`LICENSE`](./LICENSE).
-- **Scripts** (`scripts/`): MIT. Full text in [`scripts/LICENSE`](./scripts/LICENSE).
+Everything published here is data and documentation, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it commercially, modify it, redistribute it; credit the source. Full text in [`LICENSE`](./LICENSE); copyright, attribution wording, and the disclaimer in [`NOTICE`](./NOTICE).
 
-Copyright, attribution wording, and the disclaimer are in [`NOTICE`](./NOTICE).
+The maintainer's research and verification scripts are not part of this repository. Everything needed to consume the data is here; nothing is withheld that a consumer would need.
 
 > **Note on a previous version of this file.** Earlier revisions declared MIT for everything and asked users to place a backlink to a maintainer website "as a condition of use". That condition was not part of MIT, is not enforceable as written, and requiring a link in exchange for use is a link scheme under search engine guidelines. It has been removed. Attribution is now handled by CC BY 4.0, which asks for credit rather than a specific hyperlink.
 

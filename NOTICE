@@ -5,11 +5,15 @@ Copyright (c) 2026 StartupSole LLC (Muhammet Dikyurt)
 Licensing
 ================================================================================
 
-DATA — Creative Commons Attribution 4.0 International (CC BY 4.0)
+Everything published in this repository is licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
-  Applies to all dataset content: states.json and every JSON file under
-  name-rules/, dba-rules/, and entitysearch-state-data/, together with the
-  schema files and the per-namespace documentation.
+  That is: states.json and every JSON file under name-rules/, dba-rules/,
+  and entitysearch-state-data/, together with the schema files and all
+  documentation.
+
+  The maintainer's research and verification scripts are not published
+  here, so no separate code licence applies to this repository.
 
   Full licence text: ./LICENSE
   Summary: https://creativecommons.org/licenses/by/4.0/
@@ -24,13 +28,6 @@ DATA — Creative Commons Attribution 4.0 International (CC BY 4.0)
   A hyperlink is one acceptable form of credit, but this licence does not
   require a hyperlink to any particular website, and use of the data is not
   conditioned on providing one.
-
-CODE — MIT Licence
-
-  Applies to the contents of scripts/ and to any other executable code in
-  this repository.
-
-  Full licence text: ./scripts/LICENSE
 
 ================================================================================
 Note on factual content
