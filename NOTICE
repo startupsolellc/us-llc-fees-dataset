@@ -1,0 +1,50 @@
+US LLC State Requirements Dataset
+Copyright (c) 2026 StartupSole LLC (Muhammet Dikyurt)
+
+================================================================================
+Licensing
+================================================================================
+
+DATA — Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+  Applies to all dataset content: states.json and every JSON file under
+  name-rules/, dba-rules/, and entitysearch-state-data/, together with the
+  schema files and the per-namespace documentation.
+
+  Full licence text: ./LICENSE
+  Summary: https://creativecommons.org/licenses/by/4.0/
+
+  Suggested attribution:
+
+    US LLC State Requirements Dataset. StartupSole LLC, 2026.
+    https://github.com/startupsolellc/us-llc-fees-dataset
+    Licensed under CC BY 4.0.
+
+  Attribution is satisfied by crediting the source in any reasonable manner.
+  A hyperlink is one acceptable form of credit, but this licence does not
+  require a hyperlink to any particular website, and use of the data is not
+  conditioned on providing one.
+
+CODE — MIT Licence
+
+  Applies to the contents of scripts/ and to any other executable code in
+  this repository.
+
+  Full licence text: ./scripts/LICENSE
+
+================================================================================
+Note on factual content
+================================================================================
+
+Individual facts such as statutory fees, filing deadlines, and statute
+citations are not themselves copyrightable. The licence above covers the
+compilation, structure, schema, and editorial content of the dataset.
+
+================================================================================
+Disclaimer
+================================================================================
+
+This dataset is provided for informational purposes and is not legal advice.
+State requirements change without notice. Verify any figure against the
+official source cited in the record before relying on it. Only the relevant
+state agency can decide an actual filing.

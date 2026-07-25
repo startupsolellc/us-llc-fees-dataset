@@ -115,10 +115,10 @@ When citing a specific figure, cite the record's own `lastVerified` date alongsi
 
 ## Licence
 
-- **Data** (all JSON files): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it commercially, modify it, redistribute it; attribute the source.
-- **Scripts** (`scripts/`): MIT.
+- **Data** (all JSON files, schemas, and namespace documentation): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it commercially, modify it, redistribute it; credit the source. Full text in [`LICENSE`](./LICENSE).
+- **Scripts** (`scripts/`): MIT. Full text in [`scripts/LICENSE`](./scripts/LICENSE).
 
-See `LICENSE`.
+Copyright, attribution wording, and the disclaimer are in [`NOTICE`](./NOTICE).
 
 > **Note on a previous version of this file.** Earlier revisions declared MIT for everything and asked users to place a backlink to a maintainer website "as a condition of use". That condition was not part of MIT, is not enforceable as written, and requiring a link in exchange for use is a link scheme under search engine guidelines. It has been removed. Attribution is now handled by CC BY 4.0, which asks for credit rather than a specific hyperlink.
 
@@ -131,6 +131,7 @@ These are built on the namespaces above and are maintained by the same author. T
 | [entitysearch.us](https://entitysearch.us) | Business entity search guides for all 50 states, with official portal walkthroughs | `states.json`, `entitysearch-state-data` |
 | [businessnamesearch.us](https://businessnamesearch.us) | Pre-formation business name availability checker and naming-rule reference | `name-rules`, `dba-rules`, `entitysearch-state-data` |
 | [formation.legal](https://formation.legal) | Guides for non-US founders forming a US LLC | `states.json` |
+| [llcrehberi.tr](https://llcrehberi.tr) | Turkish-language US LLC cost calculator and 50-state comparison, with fees converted at the central bank rate on the build date | `states.json` |
 
 Two of these pages are worth naming because they are the widest public views of the data: the [51-jurisdiction name reservation comparison](https://businessnamesearch.us/name-reservation/) and the [nationwide Secretary of State search directory](https://entitysearch.us/resources/secretary-of-state-business-search/).
 
