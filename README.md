@@ -1,142 +1,87 @@
-# 🇺🇸 US LLC Fees Dataset (2026) - 50 States Formation & Annual Costs JSON
+# US LLC State Requirements Dataset
 
-![Updated for 2026](https://img.shields.io/badge/Updated_For-2026-brightgreen?style=flat-square)
-![Data Integrity](https://img.shields.io/badge/Verified-Official_.gov_Sources-blue?style=flat-square)
+![Jurisdictions](https://img.shields.io/badge/Jurisdictions-51-blue?style=flat-square)
+![Sources](https://img.shields.io/badge/Verified-Official_.gov_sources-blue?style=flat-square)
 ![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
+![Data license](https://img.shields.io/badge/Data-CC_BY_4.0-purple?style=flat-square)
+![Code license](https://img.shields.io/badge/Code-MIT-purple?style=flat-square)
 
-A comprehensive, open-source dataset providing highly accurate, machine-readable information on **United States LLC formation fees, recurring annual reporting costs, and state compliance requirements** across all 50 states.
+An open, machine-readable dataset of **US limited liability company formation costs, naming rules, and assumed-name (DBA) filing rules**, covering all 50 states and the District of Columbia.
 
-All data is manually verified against official Secretary of State and Department of Revenue `.gov` portals to ensure 100% accuracy.
+Every field is hand-verified against official state government sources: statutes, administrative codes, Secretary of State pages, and state fee schedules. Every record carries the sources it was built from and the date it was last checked.
 
----
+## Why it exists
 
-## 🤝 Sponsored By Formation.Legal
+State-level LLC requirements are public information, but they are not published in any comparable form. Each state uses its own vocabulary, its own fee structure, and its own page layout, and several states publish a statutory fee that is not the amount you actually pay. Comparing 51 jurisdictions means reading 51 different websites.
 
-This dataset is created, sponsored, and actively maintained by **[Formation.Legal - The Non-US Founder's Guide to US LLCs](https://formation.legal)**.
+Aggregations that do exist are mostly lead magnets for formation services, and they go stale quietly. This dataset exists so the comparison can be done from a single machine-readable source with its provenance attached.
 
-Are you a non-US resident looking to start a business in the USA? Formation.Legal provides completely free, unbiased guides on how to:
-*   Form a US LLC from anywhere in the world.
-*   Get an EIN without an ITIN or SSN.
-*   Open US business bank accounts (Mercury, Relay, Stripe, Wise).
-*   Choose the best state (Wyoming vs. Delaware vs. New Mexico) for your startup.
+## Coverage
 
----
+| Namespace | Records | What it covers |
+|---|---|---|
+| `states.json` | 50 states | Formation fee, annual report fee and due date, official links |
+| `entitysearch-state-data/states/` | 51 | Agency contact details, addresses, hours, business entity search portals, renewal links, filing facts |
+| `name-rules/states/` | 51 | LLC name designators, distinguishability standard, restricted words, name reservation cost, hold period and processing time, naming statutes |
+| `dba-rules/states/` | 51 | DBA terminology, filing level (state or county), fees, duration and renewal, publication requirements, protection level, statutes |
 
-## 🚀 Why This Dataset Exists
+"51" means the 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). `states.json` predates the DC addition and covers 50 states only.
 
-Finding accurate, up-to-date LLC fees is surprisingly difficult. Most business blogs hide their fee schedules behind paywalls, use them as lead magnets for expensive registered agent services, or display severely outdated information.
+Each namespace is additive and independent. Adding one never modifies another, so downstream consumers of one namespace are unaffected by work on the others.
 
-We created this dataset to provide developers, financial researchers, and global entrepreneurs with a **single source of truth** for state fees, verified directly from the source.
+## Methodology
 
----
+This matters more than the data itself, because a number without provenance is not usable for research.
 
-## 💻 How to Use (JSON API)
+**Sourcing.** Every field is read from an official state government source. Statutes and administrative codes are preferred for rules, and the agency's own fee or how-to page is preferred for costs. Third-party blogs, formation-service pages, and aggregator sites are not accepted as sources, including as corroboration.
 
-You can use this dataset directly in your applications (React, Node.js, Python, Astro, Next.js, etc.) as a free, raw JSON API.
+**Provenance per record.** Each JSON file carries a `sources` array (`citation`, `title`, `url`, `lastAccessed`) and a `lastVerified` ISO date. `lastVerified` means a human opened the cited sources on that date and confirmed the values, not that an automated check ran.
 
-### JavaScript / TypeScript Example
+**Cost basis.** Published filing fees and real out-of-pocket costs differ in several states, because service charges and card fees are added at the point of filing. Where they differ, `nameReservationFee` holds the statutory figure and `nameReservationTotalCost` holds the real cost on the common filing path, with `nameReservationCostBasis` explaining the gap. **Use the total for any cross-state comparison.** Six of the 51 jurisdictions currently charge more than the fee their statute names.
+
+**What is excluded.** Expedited-processing surcharges, third-party registered agent fees, county-level publication costs where they vary by county (for example New York and Nebraska), and any pricing from formation services.
+
+### Known limitations
+
+- Fees and rules change without notice, and a record is only as current as its `lastVerified` date. Check the cited source before relying on a figure.
+- `restrictedWords` lists words that are prohibited *or* that require approval from a named regulator. Which of the two applies is described in `notes`, not encoded structurally.
+- Some states publish no processing time; `nameReservationProcessingTime` is `null` there rather than estimated.
+- County-level DBA regimes are represented at the state level with a `filingLevel` value and a note. The dataset does not enumerate individual counties.
+- This is a dataset, not legal advice. Only the relevant state agency can decide an actual filing.
+
+## Usage
+
+Files are served directly from GitHub as raw JSON.
+
+```
+https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/states.json
+https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/name-rules/states/{state-slug}.json
+https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/dba-rules/states/{state-slug}.json
+https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/entitysearch-state-data/states/{state-slug}.json
+```
 
 ```javascript
-// Fetch the live, always-updated 2026 dataset directly from GitHub
-const DATASET_URL = "https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/states.json";
+const BASE = "https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main";
 
-fetch(DATASET_URL)
-  .then(response => response.json())
-  .then(data => {
-    const wyoming = data.states.WY;
-    console.log(`Wyoming Formation Fee: $${wyoming.formation_fee}`);
-    console.log(`Wyoming Annual Fee: $${wyoming.annual_report_fee}`);
-    console.log(`Official Source: ${wyoming.source_url}`);
-  })
-  .catch(error => console.error("Error fetching LLC data:", error));
+const rules = await fetch(`${BASE}/name-rules/states/georgia.json`).then((r) => r.json());
+
+console.log(rules.nameReservationTotalCost); // 35
+console.log(rules.nameReservationDuration);  // "30 days"
+console.log(rules.sources[0].url);           // official source it was verified against
 ```
 
----
+```python
+import json, urllib.request
 
-## 🔗 Attribution & How to Cite (Required)
+BASE = "https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main"
 
-This dataset is open-sourced under the MIT License, meaning you can use it freely in your commercial SaaS applications, pricing calculators, blogs, or internal tools. 
+with urllib.request.urlopen(f"{BASE}/name-rules/states/georgia.json") as r:
+    rules = json.load(r)
 
-**However, as a condition of use and to support the open-source maintenance of this data, we kindly require a backlink/attribution.**
-
-If you use this data on a website, blog, or public application, please copy and paste one of the following HTML snippets to give credit:
-
-**Standard Attribution (HTML):**
-```html
-<p>State fee data provided by <a href="https://formation.legal" target="_blank" rel="noopener">Formation.Legal - US LLC Guide</a>.</p>
+print(rules["nameReservationTotalCost"], rules["nameReservationDuration"])
 ```
 
-**Markdown / Blog Attribution:**
-```markdown
-*Data sourced from the open-source LLC fee dataset maintained by [Formation.Legal](https://formation.legal).*
-```
-
----
-
-## 🗂 Data Schema (`states.json`)
-
-The dataset is structured as a dictionary with 2-letter state abbreviations as keys (e.g., `DE`, `WY`, `NM`).
-
-| Field | Type | Description |
-| :--- | :--- | :--- |
-| `name` | String | Full name of the state (e.g., "Delaware"). |
-| `formation_fee` | Number | The state's one-time base filing fee for Articles of Organization. |
-| `annual_report_fee` | Number | The recurring annual report fee, franchise tax, or minimum license fee. |
-| `annual_report_due_date` | String | Description of when the recurring fee is due (e.g., "Anniversary month", "April 15"). |
-| `official_link` | String | Link to the Secretary of State's portal. |
-| `source_url` | String | The exact `.gov` URL where the fee was verified. |
-| `last_verified` | String | The YYYY-MM-DD date the fee was last checked against the `.gov` source. |
-
-*(Note: Fees represent state-mandated costs for standard, online domestic LLC filings. Optional expedited fees, third-party registered agent fees, and variable county-level publication fees (like in NY or NE) are excluded from the base numbers.)*
-
----
-
-## 📦 Extended Dataset: EntitySearch State Data
-
-For sidebar components and enhanced state reference pages, we provide a separate extended dataset in the `entitysearch-state-data/` directory.
-
-### What's Included
-
-| Feature | Description |
-|---------|-------------|
-| **50 States Complete** | All US states with structured contact info, addresses, and hours |
-| **Business Entity Search** | Direct URLs to official state business entity search portals |
-| **Filing Facts** | LLC formation fees, annual report requirements, name reservation info |
-| **Renewal Links** | Online and paper renewal URLs for each state |
-| **Schema Validated** | JSON schema validation available (`entitysearch-state-data/schema/state.schema.json`) |
-
-### Directory Structure
-
-```
-entitysearch-state-data/
-├── README.md              # Detailed documentation
-├── schema/
-│   └── state.schema.json  # JSON validation schema
-├── states/                # Individual state JSON files
-│   ├── alabama.json
-│   ├── alaska.json
-│   └── ...                # All 50 states
-└── assets/
-    ├── seals/             # State seal images (WebP)
-    └── provider-logos/    # Formation partner logos
-```
-
-### Quick Example
-
-```javascript
-// Fetch extended state data for sidebar
-const stateData = require('./entitysearch-state-data/states/wyoming.json');
-
-console.log(stateData.stateName);              // "Wyoming"
-console.log(stateData.businessEntitySearch.url); // Official search portal URL
-console.log(stateData.filingFacts.llcFee);      // Formation fee
-console.log(stateData.secretaryOfState.website); // SOS website
-```
-
-### Validation
-
-Validate all state JSON files against the schema:
+Per-namespace schema documentation lives in `name-rules/README.md`, `dba-rules/README.md`, and `entitysearch-state-data/README.md`. A JSON Schema for the entity-search namespace is at `entitysearch-state-data/schema/state.schema.json`:
 
 ```bash
 npx ajv-cli validate --strict=false \
@@ -144,28 +89,55 @@ npx ajv-cli validate --strict=false \
   -d 'entitysearch-state-data/states/*.json'
 ```
 
----
+## How to cite
 
-## 🌐 Built With This Dataset
-
-### EntitySearch.us
-*   **[EntitySearch.us](https://entitysearch.us)** — A comprehensive guide to business entity search for all 50 US states. Each state page features step-by-step screenshots, official portal links, and LLC formation facts powered by this dataset.
-*   **[Secretary of State Business Search Directory](https://entitysearch.us/resources/secretary-of-state-business-search/)** — A nationwide matrix matching synced local state JSON data with FRED active business application activity.
-*   **[EntitySearch.us Business Name Checker Chrome Extension](https://entitysearch.us)** — Instantly search any business name in official state registries from your browser context menu or popup.
+The data is licensed **CC BY 4.0**, so attribution is a condition of the licence. Any reasonable citation format is fine.
 
 ```
-https://entitysearch.us/texas/
-https://entitysearch.us/wyoming/
-https://entitysearch.us/delaware/
+US LLC State Requirements Dataset. StartupSole LLC, 2026.
+https://github.com/startupsolellc/us-llc-fees-dataset
 ```
 
----
+BibTeX:
 
-## 🛠 Contributing & Data Integrity
+```bibtex
+@misc{usllcdataset2026,
+  title  = {US LLC State Requirements Dataset},
+  author = {Dikyurt, Muhammet},
+  year   = {2026},
+  howpublished = {\url{https://github.com/startupsolellc/us-llc-fees-dataset}}
+}
+```
 
-**Data integrity is our #1 priority.** We strictly enforce that all PRs must cite official `.gov` sources. 
+GitHub reads `CITATION.cff` in this repository, so the "Cite this repository" button produces the same reference.
 
-Did a state change its fee structure? Help us keep the data accurate!
-1. Check the state's official Secretary of State / Division of Corporations website.
-2. Fork the repository and update `states.json`.
-3. Submit a Pull Request including the `.gov` link verifying the change.
+When citing a specific figure, cite the record's own `lastVerified` date alongside it. Fees change, and a citation without a date will go stale.
+
+## Licence
+
+- **Data** (all JSON files): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it commercially, modify it, redistribute it; attribute the source.
+- **Scripts** (`scripts/`): MIT.
+
+See `LICENSE`.
+
+> **Note on a previous version of this file.** Earlier revisions declared MIT for everything and asked users to place a backlink to a maintainer website "as a condition of use". That condition was not part of MIT, is not enforceable as written, and requiring a link in exchange for use is a link scheme under search engine guidelines. It has been removed. Attribution is now handled by CC BY 4.0, which asks for credit rather than a specific hyperlink.
+
+## Maintainer and disclosure
+
+Maintained by **StartupSole LLC** (Muhammet Dikyurt).
+
+The maintainer also operates commercial websites that consume this dataset, including [entitysearch.us](https://entitysearch.us) and [businessnamesearch.us](https://businessnamesearch.us), some of which carry affiliate links to formation services. **The dataset itself carries no affiliate links, no tracking, and no commercial content.** This disclosure is here so anyone evaluating the data as a source can weigh it.
+
+Data errors are treated as bugs regardless of which project reports them.
+
+## Contributing
+
+Corrections are welcome, and a correction with an official source attached will be merged quickly.
+
+1. Check the state's own Secretary of State, Division of Corporations, or statute page.
+2. Update the relevant JSON file, including its `sources` entry and `lastVerified` date.
+3. Open a pull request citing the official URL that verifies the change.
+
+Pull requests that change a value without an official source will be asked for one. Third-party blogs and formation-service pages are not accepted as sources.
+
+Found an error but do not want to open a PR? Open an issue with the state, the field, and the official link.

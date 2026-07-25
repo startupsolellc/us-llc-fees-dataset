@@ -6,9 +6,10 @@ guidance, and (where filing is county-level) official county filing-office pages
 This directory is independent of `entitysearch-state-data/` and `name-rules/` and
 never modifies them; consumers of the existing namespaces are unaffected.
 
-Coverage starts with 5 pilot states (GA, TX, CA, FL, OH) and grows over time
-(Colorado added 2026-07-17). A missing `{state-slug}.json` usually means that
-state has not been researched yet.
+**Coverage is complete: 51 of 51 jurisdictions**, meaning all 50 states plus the
+District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). The namespace
+began with 5 pilot states (GA, TX, CA, FL, OH) and reached full coverage on
+2026-07-23.
 
 **Schema extended 2026-07-18:** `filingLevel` gained a fourth value, `"none"`, for
 states with **no DBA / assumed-name registration** for LLCs, corporations, and sole

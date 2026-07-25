@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: US LLC State Requirements Dataset
+message: >-
+  If you use this dataset, please cite it. When citing a specific
+  figure, include that record's own lastVerified date, because state
+  fees and rules change.
+type: dataset
+authors:
+  - family-names: Dikyurt
+    given-names: Muhammet
+    affiliation: StartupSole LLC
+repository-code: https://github.com/startupsolellc/us-llc-fees-dataset
+url: https://github.com/startupsolellc/us-llc-fees-dataset
+abstract: >-
+  An open, machine-readable dataset of United States limited liability
+  company formation costs, naming rules, and assumed-name (DBA) filing
+  rules, covering all 50 states and the District of Columbia. Fields
+  include formation and annual report fees, LLC name designators, the
+  distinguishability standard, restricted words, name reservation cost,
+  hold period and processing time, DBA terminology, filing level, fees
+  and renewal rules, and the governing statutes. Every field is
+  hand-verified against official state government sources, and every
+  record carries its sources and the date it was last verified.
+keywords:
+  - limited liability company
+  - business registration
+  - company formation
+  - business names
+  - assumed name
+  - fictitious business name
+  - state statutes
+  - United States
+  - open data
+license: CC-BY-4.0
+date-released: '2026-07-25'
