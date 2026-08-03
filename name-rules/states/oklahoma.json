@@ -14,7 +14,7 @@
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.sos.ok.gov/business/",
   "namingStatuteUrl": "https://law.justia.com/codes/oklahoma/title-18/section-18-2008/",
-  "notes": "Oklahoma's LLC name section (§ 2008) sets only a designator rule and a distinguishability test; it carries no list of banned or regulated words, so restrictedWords is empty. Bank and trust powers are policed separately by the Oklahoma banking code (Title 6) rather than by the name statute. The defining feature is the three-year distinguishability tail: § 2008 screens against entity, trade, fictitious, and reserved names that were in good standing at any point in the preceding three years, the longest such lookback in this dataset. A name reservation lasts 60 days, renews for a further 60 days for another $10, and may be transferred to another person by notice to the Secretary of State (§ 2009).",
+  "notes": "Oklahoma's LLC name section (§ 2008) sets only a designator rule and a distinguishability test; it carries no list of banned or regulated words, so restrictedWords is empty. Bank and trust powers are policed separately by the Oklahoma banking code (Title 6) rather than by the name statute. The defining feature is the three-year distinguishability tail: § 2008 screens against LLC, corporation, and partnership names that were in good standing or registered at any point in the preceding three years, the longest such lookback in this dataset; the trade-name, fictitious-name, and reserved-name prong carries no three-year limit. A name reservation lasts 60 days and may be transferred to another person by filed notice (§ 2009); the statute provides no renewal route, so a longer hold means re-applying when the 60 days run out.",
   "sources": [
     {
       "citation": "Okla. Stat. tit. 18, § 2008",
@@ -24,9 +24,9 @@
     },
     {
       "citation": "Okla. Stat. tit. 18, § 2009",
-      "title": "Oklahoma Limited Liability Company Act — Reservation of name (60 days, renewable, transferable)",
+      "title": "Oklahoma Limited Liability Company Act — Reservation and transfer of company name (60 days, transferable; no renewal provision)",
       "url": "https://law.justia.com/codes/oklahoma/title-18/section-18-2009/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-03"
     },
     {
       "citation": "Oklahoma Secretary of State",
@@ -35,5 +35,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-03"
 }
