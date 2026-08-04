@@ -4,41 +4,71 @@
   "stateSlug": "louisiana",
   "dbaTerm": "trade name",
   "filingLevel": "state",
-  "llcFilesWith": "Louisiana Secretary of State (Application to Register Trade Name, Trademark, or Service Mark, Form 309), filed through the GeauxBiz portal",
-  "soleProprietorFilesWith": "Louisiana Secretary of State as well; individuals and partnerships register the same trade name centrally, and Louisiana has no county-level DBA filing",
+  "llcFilesWith": "Louisiana Secretary of State (Application to Register Trade Name, Trademark, or Service Mark, Form 309), online through the GeauxBiz portal or by mail to the Commercial Division",
+  "soleProprietorFilesWith": "Louisiana Secretary of State as well; individuals and partnerships register the same trade name centrally, and Louisiana has no parish-level DBA filing",
   "llcFee": 75,
-  "feeBasis": "The $75 Secretary of State fee registers a trade name for ten years for any filer, entity or individual.",
+  "feeBasis": "La. R.S. 49:222(B)(5)(b) sets $75 for registering, renewing, assigning, or terminating a trade name, trademark, or service mark, for any filer, entity or individual. Act 921 of the 2026 Regular Session raises it to $95 on October 1, 2026.",
   "duration": "10 years",
-  "renewalRule": "Renewable for successive ten-year terms by filing a renewal before the registration expires.",
+  "renewalRule": "Registration is effective for ten years from the date of registration and may be renewed for successive ten-year terms on an application filed within the six months before the term expires. After expiry the previous registrant may still renew at any time, while anyone else must first give the former registrant sixty days' notice by certified mail.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "A trade name registration is a notice filing; exclusive rights in a name come from a registered trademark or service mark, not from the trade name registration. It carries a practical effect at the state level: because § 1306 screens new entity names against registered trade names, a registered trade name blocks a later corporation, LLC, or partnership name that is not distinguishable from it while active.",
+  "protectionNote": "A trade name registration is a notice filing. Louisiana's infringement action and its remedies under La. R.S. 51:222 and 51:223 run to the owner of a registered mark, and R.S. 51:211(C) defines a mark as a trademark or service mark, which a trade name (defined separately in (D)) is not. The registration does carry a practical effect at the state level in both directions: R.S. 51:215(A)(1) lets the Secretary of State issue the certificate only if the trade name is distinguishable from, or not the same as, a trade name, LLC, partnership, or corporate name already in use, and R.S. 12:1306(A)(3) screens new entity names against registered trade names, so an active registration blocks a later name that is not distinguishable from it.",
   "searchUrl": "https://coraweb.sos.la.gov/commercialsearch/commercialsearch.aspx",
   "searchNote": "Trade names registered with the Secretary of State appear in the same Commercial Division records search as entities, since they are part of the § 1306 distinguishability records. Louisiana keeps DBA filings entirely at the state level, so there is no separate parish (county) index to check.",
   "filingUrl": "https://geauxbiz.sos.la.gov/",
-  "statuteCitation": "La. R.S. 51:211",
-  "statuteUrl": "https://law.justia.com/codes/louisiana/revised-statutes/title-51/rs-51-211/",
-  "notes": "Louisiana runs a clean state-level DBA system: every filer, whether an LLC, corporation, sole proprietor, or partnership, registers a trade name with the Secretary of State on Form 309 for $75, good for ten years and renewable. There is no newspaper-publication requirement and no parish-level filing. Because registered trade names sit in the same records the state screens for distinguishability, a trade name behaves defensively like an entity name while active, though registration alone grants no trademark right.",
+  "statuteCitation": "La. R.S. 51:214",
+  "statuteUrl": "https://www.legis.la.gov/legis/Law.aspx?d=104231",
+  "notes": "Louisiana runs a clean state-level DBA system: every filer, whether an LLC, corporation, sole proprietor, or partnership, registers a trade name with the Secretary of State on Form 309 for $75, good for ten years and renewable. R.S. 51:214 sets out the application and routes the fee to R.S. 49:222; R.S. 51:216(A)(2) sets the ten-year term. Form 309 is filed with the Commercial Division by mail, but business owners in fourteen named parishes (Ascension, Bossier, Caddo, Calcasieu, East Baton Rouge, Jefferson, Lafayette, Livingston, Orleans, Ouachita, Rapides, St. Tammany, Tangipahoa and Terrebonne) must file all available business documents online through GeauxBiz. There is no newspaper-publication requirement and no parish-level filing. Because registered trade names sit in the same records the state screens for distinguishability, a trade name behaves defensively like an entity name while active, though registration alone grants no trademark right. Re-verify the fee after October 1, 2026, when Act 921 of the 2026 Regular Session raises trade name registration to $95.",
   "sources": [
     {
-      "citation": "La. R.S. 51:211 et seq.",
-      "title": "Louisiana Trademarks and Trade Names — registration with the Secretary of State",
-      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-51/rs-51-211/",
-      "lastAccessed": "2026-07-23"
+      "citation": "La. R.S. 51:214",
+      "title": "Louisiana Trademarks and Trade Names: Application for registration (fee as provided in R.S. 49:222)",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=104231",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "La. R.S. 51:216",
+      "title": "Louisiana Trademarks and Trade Names: Duration and renewal (ten years, renewal within six months of expiry)",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=104241",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "La. R.S. 51:215",
+      "title": "Louisiana Trademarks and Trade Names: Certificate of registration (screened against entity names in use)",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=104233",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "La. R.S. 51:211",
+      "title": "Louisiana Trademarks and Trade Names: Definitions (mark means trademark or service mark; trade name defined separately)",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=104224",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "La. R.S. 51:222",
+      "title": "Louisiana Trademarks and Trade Names: Infringement (runs to the owner of a registered mark)",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=104271",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "La. R.S. 49:222(B)(5)",
+      "title": "Secretary of State fees: $75 for registering, renewing, assigning, or terminating a trade name",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=103670",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Louisiana Secretary of State",
-      "title": "Application to Register Trade Name, Trademark, or Service Mark (Form 309, $75, ten-year term)",
-      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/250212/309%20-%20Trade%20Name%20Trade%20Mark%20and%20Service%20Mark%20Registration.pdf",
-      "lastAccessed": "2026-07-23"
+      "title": "Application to Register Trade Name, Trademark, or Service Mark (Form 309, SS984 rev. 01/25; $75 filing fee)",
+      "url": "https://www.sos.la.gov/media/wxil3o5g/309-trade-name-trade-mark-and-service-mark-registration.pdf",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Louisiana Secretary of State",
-      "title": "Fee Schedule (trade name registration $75)",
-      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/332FeeSchedule.pdf",
-      "lastAccessed": "2026-07-23"
+      "title": "Fee schedule effective 10/1/26 under Act 921 of the 2026 Regular Session (trade name registration $95)",
+      "url": "https://static.sos.la.gov/shared/fee_changes_2026.pdf",
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

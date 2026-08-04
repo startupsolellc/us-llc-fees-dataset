@@ -2,47 +2,75 @@
   "stateName": "Louisiana",
   "stateAbbr": "LA",
   "stateSlug": "louisiana",
-  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"L.C.\" A low-profit LLC must contain \"low-profit limited liability company\" or the abbreviation \"L3C\" or \"l3c.\"",
-  "entitySuffixCitation": "La. R.S. 12:1306",
-  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every corporation, partnership, and LLC organized in Louisiana, every foreign entity registered to do business here, every reserved name, and every registered trade name. A name that is not distinguishable may be used only if the other entity consents in writing and first changes its own name.",
-  "distinguishabilityCitation": "La. R.S. 12:1306",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"L.C.\" A low-profit LLC must contain \"low-profit limited liability company\" or the abbreviation \"L3C\" or \"l3c.\" The name may not contain the phrase \"doing business as\" or the abbreviation \"d/b/a.\"",
+  "entitySuffixCitation": "La. R.S. 12:1306(A)(1)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the secretary of state from the name of any corporation, partnership, or other LLC organized in Louisiana, any foreign corporation, partnership, or LLC registered or qualified here, any name reserved under R.S. 12:1307 or R.S. 12:1-402(A), and any trade name registered with the secretary of state. Section 1306(A)(3) then lists six escapes: the other registrant consents in writing and files to change its own name effective no later than the new use, or the other company has been authorized for over two years without ever actively engaging in business, has not paid state taxes for five consecutive years, is an unauthorized foreign corporation that has not filed a franchise tax return for two years, has had its charter revoked on the same two-year record, or filed for dissolution or withdrawal more than five years ago without obtaining tax clearances.",
+  "distinguishabilityCitation": "La. R.S. 12:1306(A)(3)",
   "restrictedWords": [
     "bank",
     "banker",
+    "banking",
+    "savings",
+    "safe deposit",
     "trust",
+    "trustee",
+    "building and loan",
+    "homestead",
     "credit union",
     "insurance",
     "engineer",
+    "engineering",
     "surveyor",
-    "architect"
+    "surveying",
+    "architect",
+    "architectural",
+    "architecture"
   ],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 25.0,
-  "nameReservationCostBasis": "The $25 Secretary of State fee (Reservation of Corporate, LLC, L3C or Partnership Name, Form 398) is the full cost.",
+  "nameReservationCostBasis": "The $25 Secretary of State fee set by La. R.S. 49:222(B)(1)(a) for reserving an LLC name (Form 398) is the full cost. Expedite service is optional and extra ($30 routine, $50 priority).",
   "nameReservationDuration": "120 days (non-renewable)",
   "nameReservationProcessingTime": null,
-  "nameReservationUrl": "https://www.sos.la.gov/BusinessServices/Pages/default.aspx",
-  "namingStatuteUrl": "https://law.justia.com/codes/louisiana/revised-statutes/title-12/rs-12-1306/",
-  "notes": "Louisiana attaches several word restrictions to § 1306. \"Bank,\" \"banker,\" \"trust,\" and \"credit union\" need the written approval of the Commissioner of the Office of Financial Institutions (14 days' notice); \"insurance\" is allowed only for a genuine insurance agency or brokerage; \"engineer\" or \"surveyor\" and \"architect\" require prior notice to the Louisiana professional boards; and \"charitable\" or \"nonprofit\" language is barred unless the company truly is one. The name reservation is a single 120-day exclusive right that cannot be renewed, though it may be transferred (§ 1307). Louisiana also announced fee increases effective October 1, 2026 (Articles of Organization to $125, annual report to $35); the reservation fee is unaffected but re-verify formation fees after that date.",
+  "nameReservationUrl": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+  "namingStatuteUrl": "https://www.legis.la.gov/legis/Law.aspx?d=76253",
+  "notes": "Louisiana attaches its word restrictions to § 1306 itself. Under (F)(2), \"bank,\" \"banker,\" \"banking,\" \"savings,\" \"safe deposit,\" \"trust,\" \"trustee,\" \"building and loan,\" \"homestead,\" and \"credit union\" require written approval from the commissioner of the office of financial institutions dated at least fourteen days before the certificate of organization issues; under (F)(1) \"insurance\" is allowed only if the company is an independent insurance agency or brokerage firm; under (E) \"engineer,\" \"engineering,\" \"surveyor,\" \"surveying\" and their derivatives require ten days' written notice to the Louisiana Professional Engineering and Land Surveying Board, or that board's waiver; and under (G) \"architect,\" \"architectural,\" and \"architecture\" require the same ten-day notice to the Louisiana State Board of Architectural Examiners, or its waiver. Subsection (D) bars language deceptively or falsely suggesting a charitable or nonprofit nature, and (A)(4) and (A)(5) bar names implying a government agency or consisting of immoral, deceptive, or scandalous matter. The reservation is a single 120-day exclusive right that cannot be renewed, though it may be transferred (§ 1307). Act 921 of the 2026 Regular Session raises Commercial Division fees on October 1, 2026 (LLC articles of organization $100 to $125, annual report $30 to $35); the $25 name reservation fee is unchanged by it.",
   "sources": [
     {
       "citation": "La. R.S. 12:1306",
-      "title": "Louisiana Limited Liability Company Law — Name",
-      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-12/rs-12-1306/",
-      "lastAccessed": "2026-07-23"
+      "title": "Louisiana Limited Liability Company Law: Name (designator in (A)(1), distinguishability and its six exceptions in (A)(3), regulated words in (D) to (G))",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=76253",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "La. R.S. 12:1307",
-      "title": "Louisiana Limited Liability Company Law — Reservation of name; transfer of reserved name (120 days, nonrenewable)",
-      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-12/rs-12-1307/",
-      "lastAccessed": "2026-07-23"
+      "title": "Louisiana Limited Liability Company Law: Reservation of name, transfer of reserved name (nonrenewable 120 days)",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=76254",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "La. R.S. 49:222(B)(1)",
+      "title": "Secretary of State fees: $25 to reserve an LLC name, $100 for articles of organization, $30 for annual reports",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=103670",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Louisiana Secretary of State",
-      "title": "Name reservation instructions and Fee Schedule (Form 398, $25, 120 days)",
-      "url": "https://www.sos.la.gov/BusinessServices/PublishedDocuments/332FeeSchedule.pdf",
-      "lastAccessed": "2026-07-23"
+      "title": "Name Reservation, Corporation, Limited Liability Company, L3C and Partnership (Form 398; $25, 120 days)",
+      "url": "https://www.sos.la.gov/media/xdolpapg/398-name-reservation-corporation-and-limited-liability-company.pdf",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Louisiana Secretary of State",
+      "title": "Forms and fee schedule (name reservation $25)",
+      "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Louisiana Secretary of State",
+      "title": "Fee schedule effective 10/1/26 under Act 921 of the 2026 Regular Session",
+      "url": "https://static.sos.la.gov/shared/fee_changes_2026.pdf",
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

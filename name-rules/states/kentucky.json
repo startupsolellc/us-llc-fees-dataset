@@ -2,43 +2,81 @@
   "stateName": "Kentucky",
   "stateAbbr": "KY",
   "stateSlug": "kentucky",
-  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"LLC,\" \"L.L.C.,\" \"LC,\" or \"L.C.\" The word \"limited\" may be abbreviated \"Ltd.\" and \"company\" may be abbreviated \"Co.\"",
-  "entitySuffixCitation": "KRS 275.100",
-  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from every other business entity name, reserved name, registered name, and assumed name on file. Words and abbreviations that indicate the entity type are disregarded. A name that is not distinguishable may be used with the written consent of the other holder, filed with the Secretary of State.",
-  "distinguishabilityCitation": "KRS 14A.3-010",
+  "entitySuffixRule": "The name shall end with the phrase \"limited liability company\" or \"limited company\" or the abbreviation \"LLC\" or \"LC.\" A professional limited liability company's name shall end with \"professional limited liability company,\" \"professional limited company,\" \"PLLC,\" or \"PLC.\" In either name the word \"limited\" may be abbreviated \"Ltd.\" and the word \"company\" may be abbreviated \"Co.\"",
+  "entitySuffixCitation": "KRS 14A.3-010(3)",
+  "distinguishabilityNote": "The real name of an entity or foreign entity must be distinguishable from any name of record with the Secretary of State, which KRS 14A.1-070(21) defines as any real, fictitious, reserved, registered, or assumed name of an entity or foreign entity. The only exception in the section is the real name of a general partnership under subsection (24). The section sets out no consent route for a name that is not distinguishable.",
+  "distinguishabilityCitation": "KRS 14A.3-010(1)",
   "restrictedWords": [
     "bank",
+    "banker",
+    "banking",
     "trust",
     "insurance",
     "cooperative"
   ],
   "nameReservationFee": 15,
   "nameReservationTotalCost": 15.0,
-  "nameReservationCostBasis": "The $15 Secretary of State fee (Reservation or Renewal of Reserved Name) is the full cost.",
+  "nameReservationCostBasis": "The $15 Secretary of State fee for an application or renewal of an application for a reserved name (KRS 14A.2-060(1)(b)) is the full cost.",
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://sos.ky.gov/bus/business-filings/Pages/default.aspx",
-  "namingStatuteUrl": "https://law.justia.com/codes/kentucky/chapter-275/section-275-100/",
-  "notes": "Kentucky places name standards in the Business Entity Filing Act (KRS Chapter 14A), which all entity types share, while the LLC designator list sits in KRS 275.100. \"Bank,\" \"trust,\" and \"insurance\" require clearance from the relevant regulator, and \"cooperative\" and \"credit union\" are reserved to those entity types. A name reservation lasts 120 days and can be renewed for successive 120-day periods. Kentucky's LLC formation fee is one of the lowest in the country at $40.",
+  "namingStatuteUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=45775",
+  "notes": "Kentucky keeps entity name standards in the Business Entity Filing Act (KRS Chapter 14A), which every entity type shares. KRS 275.100, the naming section of the LLC Act, states no rule of its own: it says only that the name of each limited liability company shall satisfy the requirements of KRS 14A.3-010. The LLC designator list is KRS 14A.3-010(3) and the distinguishability test is KRS 14A.3-010(1). \"Cooperative\" may not be used in the name of any entity doing business in the Commonwealth except as that section otherwise provides (subsection (13)). \"Bank,\" \"banker,\" \"banking\" and \"trust\" are barred by KRS 286.3-027 to anyone not authorized both to use the term and to conduct the business, on a civil penalty of $1,000 to $5,000 per violation, and insurer names are screened separately by the Department of Insurance under KRS 304.3-100. A reservation runs 120 days and may be renewed for a further 120 days by applying during the 30 days before it expires. Kentucky's LLC formation fee is one of the lowest in the country at $40.",
   "sources": [
     {
-      "citation": "KRS 275.100",
-      "title": "Kentucky Limited Liability Company Act — Name",
-      "url": "https://law.justia.com/codes/kentucky/chapter-275/section-275-100/",
-      "lastAccessed": "2026-07-23"
+      "citation": "KRS 14A.3-010",
+      "title": "Kentucky Business Entity Filing Act: Entity name (distinguishability in (1), LLC designator in (3))",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=45775",
+      "lastAccessed": "2026-08-04"
     },
     {
-      "citation": "KRS 14A.3-010",
-      "title": "Kentucky Business Entity Filing Act — Entity name (distinguishability)",
-      "url": "https://law.justia.com/codes/kentucky/chapter-14a/section-14a-3-010/",
-      "lastAccessed": "2026-07-23"
+      "citation": "KRS 14A.3-020",
+      "title": "Kentucky Business Entity Filing Act: Reserved name (120 days, renewable in the 30 days before expiry)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36546",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "KRS 14A.2-060",
+      "title": "Kentucky Business Entity Filing Act: Fees and miscellaneous charges (reserved name $15)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50475",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "KRS 275.100",
+      "title": "Kentucky Limited Liability Company Act: Name (defers entirely to KRS 14A.3-010)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36706",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "KRS 14A.1-070",
+      "title": "Kentucky Business Entity Filing Act: Definitions (name of record with the Secretary of State)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50474",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "KRS 286.3-027",
+      "title": "Kentucky Financial Services Code: Prohibition against use of certain banking-related words",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54492",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "KRS 304.3-100",
+      "title": "Kentucky Insurance Code: Name of insurer",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=16706",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Kentucky Secretary of State",
-      "title": "Business filings (name reservation $15, 120 days)",
+      "title": "Application for Reservation or Renewal of Reserved Name (form RES, rev. 04/26; filing fee $15, 120-day period)",
+      "url": "https://web.sos.ky.gov/forms/corp/RES-Reservation%20or%20Renewal%20of%20Reserved%20Name.pdf",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Kentucky Secretary of State",
+      "title": "Business Filings Information (name availability check, links the reservation form)",
       "url": "https://sos.ky.gov/bus/business-filings/Pages/default.aspx",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }
