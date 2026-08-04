@@ -45,6 +45,7 @@ Third-party blogs, formation-service pages, and commercial legal aggregators (Ju
 | `search.sunbiz.org` | Florida Division of Corporations |
 | `api.realfile.rtsclients.com` | New Mexico Secretary of State's document host |
 | `www.gwinnettcourts.com`, `dksuperiorclerk.com` | Georgia Clerks of Superior Court, the offices that take a Georgia trade-name filing |
+| `nmonesource.com` | New Mexico Compilation Commission, the state's official legal publisher and the only place New Mexico publishes NMSA 1978; the Legislature's own `www.nmlegis.gov` links to it as "New Mexico Law (Statutes)" and carries no statute text itself |
 
 **A state's own `state.XX.us` domain counts the same as its `.gov`.** Several states publish from that legacy government namespace instead: `www.sec.state.ma.us`, `www.sos.state.tx.us`, `www.leg.state.nv.us`, `www.sos.state.mn.us`, `mibusinessregistry.lara.state.mi.us`, `secure.sos.state.or.us`, `www.leg.state.fl.us`. It is delegated to the state governments themselves, so a source there is as official as the same state's `.gov`, and 45 URLs in this dataset rely on it. This is deliberately narrower than accepting `.us` as a whole: `.us` is open to general registration, so a host on plain `.us` is official only when it is named as a publisher, the way the Pennsylvania General Assembly's `www.palegis.us` is.
 
@@ -71,7 +72,7 @@ The rules above are the standard the dataset is held to, and as of **2026-08-04*
 
 | Gap | Extent | Status |
 |---|---|---|
-| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 80 URLs across 17 jurisdictions, in `name-rules` and `dba-rules` only (down from 145 across 29) | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section |
+| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 69 URLs across 14 jurisdictions, in `name-rules` and `dba-rules` only (down from 145 across 29) | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section |
 | `restrictedWords` is an empty array where the state's list has not yet been read | 24 of 51 | an empty array here means *not yet researched*, not *the state restricts nothing* |
 | Some cited URLs have gone dead since they were last opened | 17 confirmed | being re-sourced; a dead link is never replaced by a guess |
 

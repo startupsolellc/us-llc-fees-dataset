@@ -3,37 +3,43 @@
   "stateAbbr": "NM",
   "stateSlug": "new-mexico",
   "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"limited\" may be abbreviated \"ltd.\" and \"company\" may be abbreviated \"co.\"",
-  "entitySuffixCitation": "NMSA 1978 § 53-19-3",
-  "distinguishabilityNote": "Must be distinguishable from the name of any LLC, limited partnership, or corporation existing under New Mexico law, any foreign LLC or corporation authorized to transact business in New Mexico, and any name reserved under § 53-19-4. A name that is not distinguishable may be used only under a certified copy of a final court decree establishing the applicant's prior right to it.",
-  "distinguishabilityCitation": "NMSA 1978 § 53-19-3",
+  "entitySuffixCitation": "NMSA 1978 § 53-19-3(A)",
+  "distinguishabilityNote": "Must be distinguishable from the name of any LLC, limited partnership, or corporation existing under New Mexico law, any foreign LLC or corporation authorized to transact business in New Mexico, and any name reserved under § 53-19-4. There is no consent route: the only way past a conflicting name is to file with the Secretary of State a certified copy of a final court decree establishing the applicant's prior right to use the name in New Mexico.",
+  "distinguishabilityCitation": "NMSA 1978 § 53-19-3(B)",
   "restrictedWords": [],
   "nameReservationFee": 20,
   "nameReservationTotalCost": 20.0,
-  "nameReservationCostBasis": "The $20 Secretary of State fee (Application for Reservation of a Domestic LLC Name) is the full cost.",
+  "nameReservationCostBasis": "NMSA 1978 § 53-19-63(H) sets the fee at twenty dollars for accepting an application to reserve a name or for filing a notice of transfer of a reservation, and that is the full cost.",
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://enterprise.sos.nm.gov/",
-  "namingStatuteUrl": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
-  "notes": "New Mexico's LLC name section sets a designator rule and a distinguishability test but lists no banned or regulated words, so restrictedWords is empty; regulated terms such as bank, trust, and insurance are handled by their own licensing statutes rather than § 53-19-3. The only route past a conflicting name is a certified court decree, not a simple consent letter. New Mexico LLCs file no annual report, which pairs with the state's privacy-friendly reputation, and formation is a low $50.",
+  "namingStatuteUrl": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18556/index.do",
+  "notes": "New Mexico's LLC name section sets a designator rule and a distinguishability test but lists no banned or regulated words, so restrictedWords is empty; regulated terms such as bank, trust, and insurance are handled by their own licensing statutes rather than § 53-19-3. The only route past a conflicting name is a certified court decree, not a simple consent letter, which makes New Mexico stricter than most states on this point. The reservation runs 120 days from the date the application is filed, with no renewal provision in the statute; it may be transferred to another person, but § 53-19-4(C) says the transfer does not extend the term. Formation is a low $50 (§ 53-19-63(A)) and New Mexico LLCs file no annual report, which pairs with the state's privacy-friendly reputation. NMSA 1978 is published by the New Mexico Compilation Commission on NMOneSource; the Legislature's own site carries no statute text and links there.",
   "sources": [
     {
       "citation": "NMSA 1978 § 53-19-3",
-      "title": "New Mexico Limited Liability Company Act — Name",
-      "url": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
-      "lastAccessed": "2026-07-23"
+      "title": "NMSA 1978 Chapter 53, Article 19 (Limited Liability Companies): Name, designators in (A), distinguishability in (B), court-decree exception in (C)",
+      "url": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18556/index.do",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "NMSA 1978 § 53-19-4",
-      "title": "New Mexico Limited Liability Company Act — Reserved name (120 days)",
-      "url": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-4/",
-      "lastAccessed": "2026-07-23"
+      "title": "NMSA 1978 Chapter 53, Article 19: Reservation of name (120 days, transferable, transfer does not extend the term)",
+      "url": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18556/index.do",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "NMSA 1978 § 53-19-63",
+      "title": "NMSA 1978 Chapter 53, Article 19: Filing, service and copying fees ($20 name reservation in (H), $50 articles of organization in (A))",
+      "url": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18556/index.do",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "New Mexico Secretary of State",
-      "title": "Business Services (name reservation $20, 120 days)",
+      "title": "Business Services filing portal (name reservation filing)",
       "url": "https://enterprise.sos.nm.gov/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

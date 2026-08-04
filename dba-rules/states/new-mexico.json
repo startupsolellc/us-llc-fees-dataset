@@ -13,26 +13,32 @@
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "With no DBA registration available, trading under another name in New Mexico creates no state record and no rights in the name. Nothing is checked for conflicts, and the name never enters a state index.",
+  "protectionNote": "With no DBA registration available, trading under another name in New Mexico creates no state record and no rights in the name. Nothing is checked for conflicts, and the name never enters a state index. The Trademark Act is not a substitute: NMSA 1978 § 57-3B-3(C) defines a registrable \"mark\" as a trademark or service mark, and § 57-3B-4 tests registrability only against the goods or services of others, so a name used to identify a business as such is outside it.",
   "searchUrl": null,
   "searchNote": "New Mexico has no statewide DBA index. The Secretary of State's business search lists formed entities only, so a trade name in daily use can look clear in the state search.",
   "filingUrl": null,
-  "statuteCitation": "NMSA 1978 Chapter 53 (no DBA registration statute exists)",
-  "statuteUrl": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
-  "notes": "New Mexico is one of the few states with no DBA, trade name, or assumed name registration for LLCs, corporations, or sole proprietors. A business that wants a distinct trade name secures it through a trademark filing or by forming an entity, not through a DBA registry, because none exists. The name a business trades under may still appear on tax and licensing forms, but that does not register or protect it.",
+  "statuteCitation": "NMSA 1978 §§ 57-3-1 to 57-3-12 (repealed 1997; no trade name registration exists)",
+  "statuteUrl": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18560/index.do",
+  "notes": "New Mexico is one of the few states with no DBA, trade name, or assumed name registration for LLCs, corporations, or sole proprietors. It is an absence by decision rather than by omission: New Mexico did have a trade name article, NMSA 1978 §§ 57-3-1 to 57-3-12, and the legislature repealed all twelve sections in Laws 1997, ch. 197, § 17, the same act that enacted the current Trademark Act. What survives in Article 3 is a single narrow relic, the laundry service trademark registration in §§ 57-3-13 and 57-3-14. A business that wants a distinct trade name therefore secures it through a trademark filing or by forming an entity, not through a DBA registry, because none exists. The name a business trades under may still appear on tax and licensing forms, but that does not register or protect it.",
   "sources": [
+    {
+      "citation": "NMSA 1978 §§ 57-3-1 to 57-3-12",
+      "title": "NMSA 1978 Chapter 57, Article 3: the trade name sections, each shown as Repealed by Laws 1997, ch. 197, section 17",
+      "url": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18560/index.do",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "NMSA 1978 §§ 57-3B-3, 57-3B-4",
+      "title": "NMSA 1978 Chapter 57, Article 3B (Trademark Act): \"mark\" means a trademark or service mark, and registrability is tested against goods or services",
+      "url": "https://nmonesource.com/nmos/nmsa-unanno/en/item/18560/index.do",
+      "lastAccessed": "2026-08-04"
+    },
     {
       "citation": "New Mexico Secretary of State",
       "title": "Business Services (entity registration only; no DBA registry)",
       "url": "https://www.sos.nm.gov/business-services/",
-      "lastAccessed": "2026-07-23"
-    },
-    {
-      "citation": "NMSA 1978 § 53-19-3",
-      "title": "New Mexico Limited Liability Company Act — Name (naming and reservation; no DBA provision)",
-      "url": "https://law.justia.com/codes/new-mexico/chapter-53/article-19/section-53-19-3/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

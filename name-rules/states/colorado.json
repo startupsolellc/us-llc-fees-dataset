@@ -3,9 +3,9 @@
   "stateAbbr": "CO",
   "stateSlug": "colorado",
   "entitySuffixRule": "Must contain the term or abbreviation \"limited liability company,\" \"ltd. liability company,\" \"limited liability co.,\" \"ltd. liability co.,\" \"limited,\" \"l.l.c.,\" \"llc,\" or \"ltd.\"",
-  "entitySuffixCitation": "C.R.S. § 7-90-601",
-  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from every other entity name and reserved name. Capitalization, punctuation, and spacing do not make a name distinguishable, though a different entity designator, such as LLC instead of Inc., can.",
-  "distinguishabilityCitation": "C.R.S. § 7-90-601(3)",
+  "entitySuffixCitation": "C.R.S. § 7-90-601(3)(c)",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from every other entity name and from every name reserved with the Secretary of State for another person as an entity name. Capitalization and punctuation do not make a name distinguishable, so ABC Inc, abc inc, A.B.C. Inc and ABC, Inc. are all the same name. Spacing and hyphenation do: the Secretary of State treats ABC LLC, A B C LLC and A-B-C LLC as distinguishable from each other. A different entity designator also distinguishes, so ABC LLC is distinguishable from both ABC Inc and ABC Limited Liability Company.",
+  "distinguishabilityCitation": "C.R.S. § 7-90-601(2)",
   "restrictedWords": [
     "bank",
     "trust",
@@ -17,37 +17,37 @@
   ],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 25,
-  "nameReservationCostBasis": "The $25 is the Secretary of State's online filing fee, and Colorado accepts the reservation online only, so there is no separate service charge (fee schedule revised July 1, 2024). Unusual among the states, the reservation can be renewed for another 120 days for another $25.",
+  "nameReservationCostBasis": "The $25 is the Secretary of State's online filing fee. Colorado's business fee schedule prices a Reservation of Name at $25.00 online and lists no paper fee at all, because the office accepts these filings online only, so there is no separate service charge. Unusual among the states, the reservation can be renewed for another 120 days, and the Reserved Name Renewal is priced at the same $25.",
   "nameReservationDuration": "120 days",
   "nameReservationUrl": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
   "nameReservationProcessingTime": "Immediate; Colorado processes online filings in real time",
-  "namingStatuteUrl": "https://www.coloradosos.gov/pubs/business/FAQs/entityNames.html",
-  "notes": "Banking and insurance terms (bank, trust, credit union, savings and loan, insurance, casualty, surety) are restricted and need consent from the associated state department before the filing is accepted. Colorado files online in real time, so a reservation takes effect immediately, and unlike most states it can be renewed for another 120 days.",
+  "namingStatuteUrl": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-07.pdf",
+  "notes": "C.R.S. § 7-90-601(1) is the hook for restricted terms: an entity name may not contain any term whose inclusion would violate another Colorado statute, which is how the banking and insurance words in this list are restricted rather than by an enumerated list in the naming section itself. § 7-90-602(1) gives the reservation its 120-day term and allows it to be renewed successively for further 120-day periods, and (2) lets the holder transfer it to another person. Colorado files online in real time, so a reservation takes effect immediately. Trade names are outside all of this: the Secretary of State says any trade name may be registered even if it is identical to a name already in the records, and trade names and trademarks are excluded from the name-availability search. The Colorado Revised Statutes are printed for the General Assembly by LexisNexis; the Office of Legislative Legal Services also publishes free uncertified title downloads, and the § 7-90-601 text cited here is the same in the 2024 and 2025 editions, its last amendment being SB 19-086, effective July 1, 2020.",
   "sources": [
     {
-      "citation": "Colorado Secretary of State",
-      "title": "Business FAQs: Entity Names",
-      "url": "https://www.coloradosos.gov/pubs/business/FAQs/entityNames.html",
-      "lastAccessed": "2026-07-17"
-    },
-    {
-      "citation": "Colorado Secretary of State",
-      "title": "Business filing fees",
-      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
-      "lastAccessed": "2026-07-17"
-    },
-    {
-      "citation": "Colorado Secretary of State",
-      "title": "Reserve a name (help)",
-      "url": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
-      "lastAccessed": "2026-07-17"
-    },
-    {
       "citation": "C.R.S. § 7-90-601",
-      "title": "Entity name",
-      "url": "https://codes.findlaw.com/co/title-7-corporations-and-associations/co-rev-st-sect-7-90-601/",
-      "lastAccessed": "2026-07-17"
+      "title": "Colorado Revised Statutes 2024, Title 7 Corporations and Associations (entity name; distinguishability in (2); LLC designators in (3)(c); reserved entity name in § 7-90-602)",
+      "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-07.pdf",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business FAQs: Entity Names (what makes a name distinguishable; 120-day renewable reservation)",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/entityNames.html",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business Organizations Fee Schedule (Reservation of Name $25.00 online, no paper fee; Reserved Name Renewal $25.00)",
+      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Statement of Reservation of Name (filing instructions)",
+      "url": "https://www.coloradosos.gov/pubs/business/helpFiles/RS_HELP.html",
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-04"
 }
