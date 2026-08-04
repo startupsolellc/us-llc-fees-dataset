@@ -46,6 +46,8 @@ Third-party blogs, formation-service pages, and commercial legal aggregators (Ju
 | `api.realfile.rtsclients.com` | New Mexico Secretary of State's document host |
 | `www.gwinnettcourts.com`, `dksuperiorclerk.com` | Georgia Clerks of Superior Court, the offices that take a Georgia trade-name filing |
 
+**A state's own `state.XX.us` domain counts the same as its `.gov`.** Several states publish from that legacy government namespace instead: `www.sec.state.ma.us`, `www.sos.state.tx.us`, `www.leg.state.nv.us`, `www.sos.state.mn.us`, `mibusinessregistry.lara.state.mi.us`, `secure.sos.state.or.us`, `www.leg.state.fl.us`. It is delegated to the state governments themselves, so a source there is as official as the same state's `.gov`, and 45 URLs in this dataset rely on it. This is deliberately narrower than accepting `.us` as a whole: `.us` is open to general registration, so a host on plain `.us` is official only when it is named as a publisher, the way the Pennsylvania General Assembly's `www.palegis.us` is.
+
 **The one exception, and its conditions.** A few jurisdictions license their statutory code to a commercial publisher and put no free, citable copy of the code text online. There, and only there, a record may cite a verbatim mirror of the statute. The exception holds only when both of these are true:
 
 1. the record carries at least one official source that independently supports the same fact, and
