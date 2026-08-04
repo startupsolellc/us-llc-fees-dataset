@@ -10,8 +10,8 @@
   "feeBasis": "The $70 Department of State fee registers a fictitious name for any filer, entity or individual.",
   "duration": "Perpetual (decennial report every 10 years)",
   "renewalRule": "A fictitious name registration does not expire; every ten years the registrant files a decennial report to confirm the name is still in use.",
-  "publicationRequired": false,
-  "publicationRule": "When an individual is a party to the registration (a sole proprietor or partnership), the filer must officially publish notice in two newspapers in the proper county, one of which must be the legal newspaper if there is one. An entity-only registration, such as an LLC filing, has no publication requirement.",
+  "publicationRequired": true,
+  "publicationRule": "54 Pa.C.S. § 311(g) requires an entity which includes an individual party to officially publish notice of its intention to file, or of the filing of, the fictitious name application, in the county where the entity's principal office or place of business is or will be located. Officially publishing means two newspapers of general circulation in that county, one of which must be the legal newspaper designated by the rules of court for legal notices if there is one; where the county has only one newspaper of general circulation, that one is sufficient. The notice may run before or after the filing date and is kept with the permanent records of the business. A registration with no individual party, such as an LLC filing in its own name, has no publication step.",
   "protectionLevel": "none",
   "protectionNote": "Pennsylvania law is explicit that registering a fictitious name creates no exclusive right to use it (54 Pa.C.S. § 332); two different businesses may register the same fictitious name. A fictitious name also does not have to be distinguishable from existing entity names, and it does not block a later entity name, so it protects neither the registrant nor anyone else.",
   "searchUrl": "https://file.dos.pa.gov/search/business",
@@ -40,5 +40,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

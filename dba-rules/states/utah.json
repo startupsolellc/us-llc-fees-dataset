@@ -9,30 +9,48 @@
   "llcFee": 22,
   "feeBasis": "The Division of Corporations charges a flat $22 to register a DBA, the same amount for an LLC or a sole proprietor. Expedited processing is an extra $75.",
   "duration": "3 years",
-  "renewalRule": "Renewed every three years from the registration date (most Utah entities renew annually, but a DBA is a three-year cycle). A DBA name cannot be amended, so changing the name means a new filing, and an expired DBA cannot be reinstated.",
+  "renewalRule": "Renewed every three years from the registration date (most Utah entities renew annually, but a DBA is a three-year cycle). Renewal costs $18, which the Division's fee schedule marks as including a $5 surcharge for the state's single sign-on portal, and a late renewal adds $10. A DBA name cannot be amended, so changing the name means a new filing, and an expired DBA cannot be reinstated.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "The Division states that registering a DBA does not authorize using the name in violation of another party's rights under federal, state, or common law, so it grants no exclusive right. It does sit in the records the Division screens for distinguishability, so while active a DBA blocks a later entity or DBA name that is not distinguishable from it.",
+  "protectionNote": "Utah Code § 42-2-9(2)(b) provides that a filing under the chapter does not of itself authorize using an assumed name in violation of the rights of another under the chapter, the state Registration and Protection of Trademarks and Service Marks Act, entity-name law, the federal Trademark Act of 1946, or the common law, so registration grants no exclusive right. It does sit in the records the Division screens for distinguishability, so while active a DBA blocks a later entity or DBA name that is not distinguishable from it.",
   "searchUrl": "https://businessregistration.utah.gov/EntitySearch/OnlineEntitySearch",
   "searchNote": "DBAs are registered with the Division of Corporations and appear in the same business search as LLCs and corporations, since they share the distinguishability records.",
   "filingUrl": "https://commerce.utah.gov/corporations/business-entities/dba/",
   "statuteCitation": "Utah Code Title 42, Chapter 2 (Conducting Business Under Assumed Name)",
   "statuteUrl": "https://le.utah.gov/xcode/Title42/Chapter2/42-2.html",
-  "notes": "Utah runs a clean state-level DBA: one $22 registration with the Division of Corporations, statewide, renewable every three years, with no county filing and no publication. Registration is a disclosure filing, not a grant of rights, but it does join the Division's distinguishability records.",
+  "notes": "Utah runs a clean state-level DBA: one $22 registration with the Division of Corporations, statewide, renewable every three years, with no county filing and no publication. Registration is a disclosure filing, not a grant of rights, but it does join the Division's distinguishability records. Utah has scheduled a restructure of Title 42, Chapter 2 effective 2026-10-01: the chapter is retitled Conducting Business As A D.B.A. and splits into two parts, with §§ 42-2-5 and 42-2-8 repealed and §§ 42-2-6.6, 42-2-7 and 42-2-9 renumbered, so the section citations here need re-checking after that date.",
   "sources": [
+    {
+      "citation": "Utah Code Title 42, Chapter 2 (Conducting Business Under Assumed Name)",
+      "title": "Utah Code Title 42 Names, Chapter 2 Conducting Business Under Assumed Name (chapter index; § 42-2-5 requires the assumed name certificate to be filed with the Division of Corporations and Commercial Code)",
+      "url": "https://le.utah.gov/xcode/Title42/Chapter2/42-2.html",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Utah Code § 42-2-8",
+      "title": "Expiration of filing, notice, removal from active index (a filing is effective for a period of three years from the date of filing)",
+      "url": "https://le.utah.gov/xcode/Title42/Chapter2/42-2-S8.html",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Utah Code § 42-2-9",
+      "title": "Corporate names, limited liability company names, and trademark, service mark, and trade name rights not affected",
+      "url": "https://le.utah.gov/xcode/Title42/Chapter2/42-2-S9.html",
+      "lastAccessed": "2026-08-04"
+    },
     {
       "citation": "Utah Division of Corporations and Commercial Code",
       "title": "DBA (registration $22, three-year term, no name protection, cannot be amended)",
       "url": "https://commerce.utah.gov/corporations/business-entities/dba/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Utah Department of Commerce",
-      "title": "Fiscal Year 2026 Fee Schedule (DBA registration $22)",
+      "title": "Fiscal Year 2026 Fee Schedule effective July 1, 2025 (DBA registration $22, renewal $18, late renewal $10, expedited processing $75 per filing)",
       "url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

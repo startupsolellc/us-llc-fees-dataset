@@ -70,7 +70,6 @@ The rules above are the standard the dataset is held to, and as of **2026-08-04*
 | Gap | Extent | Status |
 |---|---|---|
 | `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 145 URLs across 29 jurisdictions, in `name-rules` and `dba-rules` only | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section |
-| `filingFacts.nameReservation` holds the statutory fee instead of the real cost | Alabama and Texas | correction pending; use `name-rules`'s `nameReservationTotalCost` in the meantime |
 | `restrictedWords` is an empty array where the state's list has not yet been read | 24 of 51 | an empty array here means *not yet researched*, not *the state restricts nothing* |
 | Some cited URLs have gone dead since they were last opened | 17 confirmed | being re-sourced; a dead link is never replaced by a guess |
 

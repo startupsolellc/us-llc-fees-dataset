@@ -19,7 +19,7 @@
   "nameReservationDuration": "180 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.sos.wa.gov/corporations-charities/business-entities/filings-forms-information",
-  "namingStatuteUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=23.95.305",
+  "namingStatuteUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=23.95.300",
   "notes": "Washington places entity naming in the Uniform Business Organizations Code, so LLCs, corporations, and other entities share one distinguishability register. The LLC name may not carry another entity type's words or abbreviations (\"Cooperative,\" \"partnership,\" \"corporation,\" \"incorporated,\" \"LP,\" \"LLP,\" \"LLLP\"). \"Bank,\" \"banking,\" \"trust,\" and related terms are barred unless the requirements of the statute that protects them are met. A reservation is a single 180-day exclusive right that cannot be renewed, though it may be transferred to a person that is not an individual by written notice. A name reserved with the Secretary of State is separate from a trade name (DBA), which is registered with the Department of Revenue.",
   "sources": [
     {

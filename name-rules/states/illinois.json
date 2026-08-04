@@ -13,7 +13,7 @@
   ],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 25.0,
-  "nameReservationCostBasis": "The $25 filing fee on Form LLC-1.15 is the full cost when filed by mail; online credit-card filings add a payment-processor fee. The $25 cannot be applied toward any other filing fee.",
+  "nameReservationCostBasis": "The $25 filing fee on Form LLC-1.15 is the full cost. Name reservation is not one of the Secretary of State's LLC online services, so the application is filed on paper and no payment-processor fee attaches; the $50 expedited fee is additional and must be requested in person rather than by mail. A Guide for Organizing Domestic Limited Liability Companies states that the $25 cannot be applied to the fee required to file the Articles of Organization.",
   "nameReservationDuration": "90 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.ilsos.gov/publications/business-services/llc.html",
@@ -24,26 +24,26 @@
       "citation": "805 ILCS 180/1-10",
       "title": "Limited Liability Company Act — Limited liability company name",
       "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K1-10.htm",
-      "lastAccessed": "2026-07-25"
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "805 ILCS 180/1-15",
       "title": "Limited Liability Company Act — Reservation of name (90-day exclusive right, transferable)",
       "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K1-15.htm",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Illinois Secretary of State",
-      "title": "Limited Liability Company Publications and Forms (Form LLC-1.15, $25 Application to Reserve a Name)",
+      "title": "Limited Liability Company Publications and Forms (Form LLC 1.15, Application to Reserve a Name, $25 filing fee and a $50 additional expedited fee)",
       "url": "https://www.ilsos.gov/publications/business-services/llc.html",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Illinois Secretary of State",
       "title": "Guide for Organizing Domestic Limited Liability Companies (C 334)",
       "url": "https://www.ilsos.gov/content/dam/publications/pdf_publications/c334.pdf",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

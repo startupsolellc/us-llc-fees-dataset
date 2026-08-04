@@ -51,8 +51,8 @@
     "llcFeeNotes": "Domestic LLC Certificate of Formation filing fee is $200 (Ala. SOS). Name reservation is required separately ($25 paper / $28 online).",
     "annualReport": null,
     "annualReportDue": "N/A",
-    "nameReservation": 25,
-    "nameReservationNotes": "Name reservation is required before domestic LLC formation; paper filing is $25 and online filing is $28."
+    "nameReservation": 28,
+    "nameReservationNotes": "A name reservation is required before a domestic LLC can file its Certificate of Formation. The figure shown is the online cost of $28 for non-subscribers, which the fee schedule describes as the statutory fee plus a portal fee for the vendor. By mail the fee schedule lists $25, while the domestic request form itself offers $10 standard processing or $25 expedited."
   },
   "sources": [
     {
@@ -68,7 +68,7 @@
     {
       "name": "Business Entities Division Fees (2021 schedule PDF)",
       "url": "https://www.sos.alabama.gov/sites/default/files/2022-01/2021FeeSchedule.pdf",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-04"
     },
     {
       "name": "Official Business Forms Source",
@@ -78,7 +78,12 @@
     {
       "name": "Official Name Reservation Fee Source",
       "url": "https://www.sos.alabama.gov/sites/default/files/2022-01/2021FeeSchedule.pdf",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "name": "Domestic Entity Name Reservation Request Form (online non-subscriber fee $28; mailed form lists $10 standard or $25 expedited)",
+      "url": "https://www.sos.alabama.gov/sites/default/files/form-files/domesticEntityNameReservation.pdf",
+      "lastAccessed": "2026-08-04"
     },
     {
       "name": "Official Domestic Entity Guidance",
@@ -86,5 +91,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-04"
 }

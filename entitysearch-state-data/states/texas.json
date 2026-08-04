@@ -51,8 +51,8 @@
     "llcFeeNotes": "Certificate of Formation for a Texas LLC. Texas SOS Form 205 instructions list a $300 filing fee.",
     "annualReport": 0,
     "annualReportDue": "May 15",
-    "nameReservation": 40,
-    "nameReservationNotes": "Application for reservation or renewal of reservation of an entity name is $40 and reserves the name for 120 days."
+    "nameReservation": 41.08,
+    "nameReservationNotes": "An entity name may be reserved for 120 days on Form 501, and a reservation may be renewed by filing a new application during the 30 days before it expires. The filing fee is $40 for both the application and the renewal. The figure shown is the credit card total of $41.08, because the Secretary of State adds a statutorily authorized convenience fee of 2.7 percent of the total fees to card payments. Paying by personal check or money order keeps the cost at $40."
   },
   "sources": [
     {
@@ -68,17 +68,17 @@
     {
       "name": "Texas LLC certificate of formation instructions",
       "url": "https://www.sos.state.tx.us/corp/instructions/205.shtml",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-04"
     },
     {
       "name": "Texas entity name reservation instructions",
       "url": "https://www.sos.state.tx.us/corp/instructions/501.shtml",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-04"
     },
     {
       "name": "Texas Comptroller franchise tax",
       "url": "https://comptroller.texas.gov/taxes/franchise/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-04"
     },
     {
       "name": "Texas Comptroller file and pay",
@@ -86,5 +86,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-18"
+  "lastVerified": "2026-08-04"
 }
