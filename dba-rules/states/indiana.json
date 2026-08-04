@@ -18,14 +18,14 @@
   "searchNote": "Assumed business names adopted by LLCs and corporations appear in the Secretary of State's INBiz business search alongside the entities, because they share the state entity records. County-recorded assumed names for sole proprietors and general partnerships sit in each county recorder's office and are not in the state search.",
   "filingUrl": "https://inbiz.in.gov",
   "statuteCitation": "Ind. Code § 23-0.5-3-4",
-  "statuteUrl": "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-3/section-23-0-5-3-4/",
+  "statuteUrl": "https://iga.in.gov/laws/2025/ic/titles/23#23-0.5-3-4",
   "notes": "Indiana splits its DBA system. LLCs and corporations file a Certificate of Assumed Business Name centrally with the Secretary of State through INBiz ($20; $21 online, $30 by mail), where it joins the state entity records and the distinguishability screen and never expires. Sole proprietors and general partnerships instead record an assumed-name certificate with the county recorder in each county where they do business. There is no newspaper-publication requirement at either level.",
   "sources": [
     {
       "citation": "Ind. Code § 23-0.5-3-4",
-      "title": "Uniform Business Organizations Code — Filing of certificate of assumed name; fees",
-      "url": "https://law.justia.com/codes/indiana/title-23/article-0-5/chapter-3/section-23-0-5-3-4/",
-      "lastAccessed": "2026-07-23"
+      "title": "Uniform Business Organizations Code: filing of certificate of assumed name; fees",
+      "url": "https://iga.in.gov/laws/2025/ic/titles/23#23-0.5-3-4",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Indiana Secretary of State (IN.gov FAQ)",
@@ -40,5 +40,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

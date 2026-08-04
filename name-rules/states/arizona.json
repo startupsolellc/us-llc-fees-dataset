@@ -13,27 +13,27 @@
   "nameReservationDuration": "120 days (nonrenewable)",
   "nameReservationUrl": "https://azcc.gov/corporations/forms",
   "nameReservationProcessingTime": "No published day count (expedited option available)",
-  "namingStatuteUrl": "https://law.justia.com/codes/arizona/title-29/section-29-3112/",
+  "namingStatuteUrl": "https://www.azleg.gov/ars/29/03112.htm",
   "notes": "Arizona runs LLCs through the Corporation Commission, not a Secretary of State, and its distinguishability test reaches across both agencies: a new LLC name must clear existing Commission entities and Secretary of State trade names alike. Designator words are ignored in the comparison and administratively dissolved names do not block, so a dead company's name can free up. The $10 reservation is among the cheapest in the country but does not renew. Arizona LLCs file no annual report, though most must publish a notice of formation in a newspaper unless the statutory agent sits in Maricopa or Pima County.",
   "sources": [
     {
       "citation": "A.R.S. § 29-3112",
       "title": "Permitted names (designator, distinguishability across both agencies, dissolved-name and court-judgment rules)",
-      "url": "https://law.justia.com/codes/arizona/title-29/section-29-3112/",
-      "lastAccessed": "2026-07-22"
+      "url": "https://www.azleg.gov/ars/29/03112.htm",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "A.R.S. § 29-3113",
       "title": "Reserved name (120 days, $10)",
-      "url": "https://law.justia.com/codes/arizona/title-29/section-29-3113/",
-      "lastAccessed": "2026-07-22"
+      "url": "https://www.azleg.gov/ars/29/03113.htm",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Arizona Corporation Commission",
       "title": "Schedule of LLC fees ($50 Articles of Organization, $10 name reservation)",
       "url": "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-llcs.pdf",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-22"
+  "lastVerified": "2026-08-04"
 }

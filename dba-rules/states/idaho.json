@@ -18,21 +18,21 @@
   "searchNote": "Assumed business names appear in the Secretary of State's SOSBiz business search alongside entities, since they share the same distinguishability records. Idaho keeps DBAs at the state level, so there is no separate county index to check.",
   "filingUrl": "https://sosbiz.idaho.gov/",
   "statuteCitation": "Idaho Code § 30-21-805",
-  "statuteUrl": "https://law.justia.com/codes/idaho/title-30/chapter-21/part-8/",
+  "statuteUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title30/T30CH21/SECT30-21-805/",
   "notes": "Idaho runs a clean state-level DBA system: every owner, whether an LLC, corporation, sole proprietor, or partnership, files a Certificate of Assumed Business Name with the Secretary of State ($25 online, $45 paper). The certificate never expires and there is no publication requirement. Because Idaho screens assumed business names for distinguishability in the same records as entities, a filed ABN behaves defensively like an entity name while active, though registration alone grants no trademark right.",
   "sources": [
     {
-      "citation": "Idaho Code § 30-21-801 et seq.",
-      "title": "Idaho Uniform Business Organizations Code — Assumed Business Names (Part 8)",
-      "url": "https://law.justia.com/codes/idaho/title-30/chapter-21/part-8/",
-      "lastAccessed": "2026-07-23"
+      "citation": "Idaho Code § 30-21-805",
+      "title": "Idaho Uniform Business Organizations Code: filing of certificate of assumed business name required",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title30/T30CH21/SECT30-21-805/",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Idaho Secretary of State",
-      "title": "Assumed Business Names FAQ ($25 online / $45 paper, no expiration)",
+      "title": "Assumed Business Names FAQ: an ABN stays active until cancelled, is no longer subject to renewal, and does not expire (the page no longer states a filing fee)",
       "url": "https://sos.idaho.gov/business-services-resources/business-entities-assumed-business-names-faq/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

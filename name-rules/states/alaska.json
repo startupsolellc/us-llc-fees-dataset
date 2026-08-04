@@ -13,27 +13,27 @@
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.commerce.alaska.gov/web/cbpl/Corporations/ReservingRegisteringBusinessName.aspx",
-  "namingStatuteUrl": "https://law.justia.com/codes/alaska/title-10/chapter-50/article-2/section-10-50-020/",
+  "namingStatuteUrl": "https://www.akleg.gov/basis/statutes.asp#10.50.025",
   "notes": "Alaska is not a Secretary of State state: LLCs are named and searched at the Department of Commerce, Community, and Economic Development (Division of Corporations, Business and Professional Licensing). AS 10.50.020 sets the designator and lets a name use a city, borough, or village name so long as it does not imply the company is a municipality; AS 10.50.025 requires the name be distinguishable on the department's records. A reservation lasts 120 days for $25. Alaska's costs run high for a small state: the LLC filing fee is $250 and a biennial report ($100) is due January 2 of the filing years.",
   "sources": [
     {
       "citation": "AS 10.50.020",
-      "title": "Alaska Revised Limited Liability Company Act — Limited liability company name",
-      "url": "https://law.justia.com/codes/alaska/title-10/chapter-50/article-2/section-10-50-020/",
-      "lastAccessed": "2026-07-23"
+      "title": "Alaska Revised Limited Liability Company Act: limited liability company name",
+      "url": "https://www.akleg.gov/basis/statutes.asp#10.50.020",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "AS 10.50.025",
-      "title": "Alaska Revised Limited Liability Company Act — Distinguishable name",
-      "url": "https://law.justia.com/codes/alaska/title-10/chapter-50/article-2/section-10-50-025/",
-      "lastAccessed": "2026-07-23"
+      "title": "Alaska Revised Limited Liability Company Act: distinguishable name",
+      "url": "https://www.akleg.gov/basis/statutes.asp#10.50.025",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Alaska Division of Corporations, Business and Professional Licensing",
-      "title": "Reserving/Registering a Business Name (name reservation $25, 120 days)",
+      "title": "Reserve or Register a Name (reservation 120 days, registration 5 years; the page links the fee schedule rather than stating the fee)",
       "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/ReservingRegisteringBusinessName.aspx",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

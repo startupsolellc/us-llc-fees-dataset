@@ -13,27 +13,27 @@
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://corp.delaware.gov",
-  "namingStatuteUrl": "https://law.justia.com/codes/delaware/title-6/chapter-18/subchapter-i/section-18-102/",
+  "namingStatuteUrl": "https://delcode.delaware.gov/title6/c018/sc01/index.html#18-102",
   "notes": "Delaware's LLC Act (6 Del. C. ch. 18) sets a narrow designator: only \"Limited Liability Company,\" \"L.L.C.,\" or \"LLC\" (it does not list \"limited company,\" \"LC,\" or \"L.C.\"). Names are checked against the Division of Corporations records, and Delaware's registered-series entities are part of that screen. A reservation lasts 120 days for $75, one of the pricier holds. Delaware LLCs file no annual report but pay a flat $300 annual tax due June 1, and the state's draw is its Court of Chancery rather than low fees.",
   "sources": [
     {
       "citation": "6 Del. C. § 18-102",
       "title": "Limited Liability Company Act — Name set forth in certificate",
-      "url": "https://law.justia.com/codes/delaware/title-6/chapter-18/subchapter-i/section-18-102/",
-      "lastAccessed": "2026-07-23"
+      "url": "https://delcode.delaware.gov/title6/c018/sc01/index.html#18-102",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "6 Del. C. § 18-103",
       "title": "Limited Liability Company Act — Reservation of name (120 days)",
-      "url": "https://law.justia.com/codes/delaware/title-6/chapter-18/subchapter-i/section-18-103/",
-      "lastAccessed": "2026-07-23"
+      "url": "https://delcode.delaware.gov/title6/c018/sc01/index.html#18-103",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Delaware Division of Corporations",
-      "title": "Fee schedule (name reservation $75)",
-      "url": "https://corp.delaware.gov",
-      "lastAccessed": "2026-07-23"
+      "title": "How to Form a New Business Entity: name reservation is $75 and holds the name 120 days",
+      "url": "https://corp.delaware.gov/howtoform/",
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

@@ -3,42 +3,48 @@
   "stateAbbr": "DE",
   "stateSlug": "delaware",
   "dbaTerm": "trade, business, or fictitious name",
-  "filingLevel": "county",
-  "llcFilesWith": "Prothonotary of the Superior Court in each Delaware county (New Castle, Kent, or Sussex) where the business is transacted (Registration of Trade, Business & Fictitious Name Certificate)",
-  "soleProprietorFilesWith": "Prothonotary of the Superior Court in each county where the business is transacted (the same county-court registration applies to individuals and sole proprietors)",
+  "filingLevel": "state",
+  "llcFilesWith": "Delaware Division of Revenue, online through Delaware One Stop (statewide Trade, Business & Fictitious Name registration; a Delaware business license is required alongside it)",
+  "soleProprietorFilesWith": "Delaware Division of Revenue, online through Delaware One Stop (the same statewide registration applies to individuals and sole proprietors)",
   "llcFee": 25,
-  "feeBasis": "The Prothonotary's fee is $25 per county; a business operating in more than one county must file with each county's Prothonotary.",
+  "feeBasis": "The registration fee is $25. Since February 2, 2026 the DBA is registered statewide, so a business operating in more than one county pays the fee once instead of per county.",
   "duration": "Perpetual (no expiration)",
-  "renewalRule": "The registration stays in effect until the owner files a termination affidavit; there is no periodic renewal, and there is no fee to terminate.",
+  "renewalRule": "The registration stays in effect until the owner terminates it; there is no periodic renewal of the DBA itself, though the Delaware business license it sits alongside follows the standard business licence renewal cycle.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
   "protectionNote": "The trade name certificate discloses who is behind a business name and grants no exclusive right to the name.",
-  "searchUrl": "https://courts.delaware.gov/tradenames/",
-  "searchNote": "Delaware trade names are held by the county Prothonotary offices, and the Superior Court runs a trade name search that is separate from the Division of Corporations entity search.",
-  "filingUrl": "https://www.courts.delaware.gov/Superior/trade_names.aspx",
+  "searchUrl": "https://revenue.delaware.gov/trade-business-and-fictitious-names-search/",
+  "searchNote": "The Division of Revenue publishes the statewide Trade, Business and Fictitious Names registry, refreshed daily and lagging One Stop registrations by up to 72 hours. Names registered with a county Prothonotary before February 2, 2026 remain in the Superior Court's historic database and were not migrated automatically.",
+  "filingUrl": "https://onestop.delaware.gov/",
   "statuteCitation": "6 Del. C. § 3101",
-  "statuteUrl": "https://law.justia.com/codes/delaware/title-6/chapter-31/section-3101/",
-  "notes": "Delaware is unusual: its DBA is not a Secretary of State filing at all. LLCs and sole proprietors register a Trade, Business & Fictitious Name Certificate with the Prothonotary of the Superior Court in each county where they do business (6 Del. C. ch. 31), $25 per county, with no expiration and no fee to terminate. Because it is county-court based, a Delaware trade name search runs through the courts rather than the Division of Corporations.",
+  "statuteUrl": "https://delcode.delaware.gov/title6/c031/index.html#3101",
+  "notes": "Delaware moved its DBA off the county courts on February 2, 2026. LLCs and sole proprietors now register a Trade, Business & Fictitious Name statewide with the Division of Revenue through Delaware One Stop (6 Del. C. ch. 31, which names the Division of Revenue as the filing office and creates the Delaware Tradename Registry). The fee is $25 once, not $25 per county, notarisation is no longer required, and registration requires an active Delaware business license; an entity that holds a Delaware LLC but does no business in Delaware uses a Trade Name Only business license instead. Registrations made with a Prothonotary before that date stay valid but sit in the Superior Court's historic list unless the owner re-registers them, at no cost, in the Revenue registry.",
   "sources": [
     {
       "citation": "6 Del. C. § 3101",
-      "title": "Registration of Trade, Business & Fictitious Names — Certificate required",
-      "url": "https://law.justia.com/codes/delaware/title-6/chapter-31/section-3101/",
-      "lastAccessed": "2026-07-23"
+      "title": "Registration of Trade, Business & Fictitious Names: certificate required, filed with the Division of Revenue",
+      "url": "https://delcode.delaware.gov/title6/c031/index.html#3101",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "6 Del. C. § 3103",
-      "title": "Registration of Trade, Business & Fictitious Names — Filing with the Prothonotary",
-      "url": "https://law.justia.com/codes/delaware/title-6/chapter-31/section-3103/",
-      "lastAccessed": "2026-07-23"
+      "title": "Registration of Trade, Business & Fictitious Names: Delaware Trade Name Registry kept by the Division of Revenue, $25 filing fee",
+      "url": "https://delcode.delaware.gov/title6/c031/index.html#3103",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Delaware Division of Revenue",
+      "title": "Trade Names FAQs: as of February 2, 2026 the Division of Revenue administers the statewide DBA registry through One Stop; the fee remains $25 and is no longer charged per county",
+      "url": "https://revenue.delaware.gov/trade-names-faqs/",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Delaware Superior Court",
-      "title": "Trade, Business & Fictitious Names ($25 per county, filed with the Prothonotary)",
+      "title": "Trade, Business and Fictitious Names: notice that effective February 2, 2026 all trade name registrations are filed with the Division of Revenue",
       "url": "https://www.courts.delaware.gov/Superior/trade_names.aspx",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }
