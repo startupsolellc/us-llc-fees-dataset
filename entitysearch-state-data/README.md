@@ -58,9 +58,21 @@ The following fields are **not mandatory core data** for the entity search exper
 
 **Core data target:** Official search URL, agency website, contact info (phone/email if available), address, hours, filing/renewal facts, and source tracking — practical information for the entity search user.
 
+## Cross-namespace contract
+
+`filingFacts.nameReservation` holds the **real out-of-pocket reservation cost**, not the
+statutory filing fee. It mirrors `name-rules/states/<slug>.json`'s `nameReservationTotalCost`,
+which is the authoritative field, and the two must agree. Where a state's statutory fee and
+real cost differ, `nameReservationNotes` explains the gap.
+
+`stateName`, `stateAbbr`, and `stateSlug` must match the `name-rules` and `dba-rules` records
+for the same jurisdiction.
+
 ## Data Rules
 
-- **Official sources only** (.gov domains)
+- **Official sources only.** "Official" means the government body that publishes the fact,
+  not the domain suffix. See **Methodology** in the [repository README](../README.md#methodology)
+  for the list of official non-`.gov` hosts and the narrow mirror exception.
 - **Fee and requirement verification:** Every fee, due date, and filing requirement is verified against the official state government portal, official fee schedule, official statute, or official filing portal
 - **Source requirement:** `sources[]`, root `official_link`, and root `source_url` fields must point to official sources
 - **No third-party sources:** Legal service providers, blogs, SEO pages, news sites, or commercial summary sources are not used

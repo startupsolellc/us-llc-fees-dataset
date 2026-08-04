@@ -47,13 +47,19 @@ describe the absence and the nearest real instrument, and `llcFee` stays `null`.
 
 ## Sourcing rules
 
-Same integrity protocol as the root dataset (see repository `AGENTS.md`): every
-fact verified against official government sources (statutes, administrative codes,
-Secretary of State and county filing-office pages); no third-party blogs; every
-file carries its `sources` and `lastVerified`. Where a state's code has no free
-official host (Georgia's O.C.G.A.), the statute link points at an accessible
-verbatim copy and the facts are cross-verified against official state and county
-pages listed alongside it.
+Same integrity protocol as the root dataset: see **Methodology** in the
+[repository README](../README.md#methodology) for what counts as an official
+source, which non-`.gov` hosts are official, and the exact conditions of the
+exception below. Every fact is verified against official government sources
+(statutes, administrative codes, Secretary of State and county filing-office
+pages); every file carries its `sources` and `lastVerified`.
+
+A handful of states license their code to a commercial publisher and put no free
+citable copy online (Georgia's O.C.G.A. is the clearest case). Only there may
+`statuteUrl` point at a verbatim mirror, and only when the record also carries an
+official source that independently supports the same fact and its `notes` field
+says the state publishes no free official copy. Everywhere an official copy of the
+statute is reachable, a mirror is a defect.
 
 Copy style: no em dashes in any string field (they render on consumer sites);
 en dash only between numbers.

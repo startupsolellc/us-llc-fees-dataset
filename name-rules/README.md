@@ -26,17 +26,23 @@ began with 5 pilot states (GA, TX, CA, FL, OH) and reached full coverage on
 | `nameReservationDuration` | `string \| null` | e.g. `"120 days"`, `"120 days (non-renewable)"` |
 | `nameReservationProcessingTime` | `string \| null` | Published turnaround, where the state publishes one |
 | `nameReservationUrl` | `string \| null` | Official page describing how to reserve |
-| `namingStatuteUrl` | `string \| null` | Official statute / administrative-rule link |
+| `namingStatuteUrl` | `string \| null` | Official statute / administrative-rule link. **Points at the source behind `distinguishabilityCitation`** — the provision that decides whether a name is available — and falls back to `entitySuffixCitation`'s source only where the state has no separate distinguishability provision. In most states one section carries both. |
 | `notes` | `string \| null` | Nuances: approval authorities, renewal rules, service charges |
 | `sources` | `{citation, title, url, lastAccessed}[]` | Official sources used for verification (`citation` = authority or statute number, `title` = document title) |
 | `lastVerified` | `string` | ISO date of last manual verification |
 
 ## Sourcing rules
 
-Same integrity protocol as the root dataset (see repository `AGENTS.md`): every
-fact verified against official state government sources (statutes, administrative
-codes, Secretary of State pages); no third-party blogs; every file carries its
-`sources` and `lastVerified`.
+Same integrity protocol as the root dataset: see **Methodology** in the
+[repository README](../README.md#methodology) for what counts as an official
+source, which non-`.gov` hosts are official, and the narrow exception for
+jurisdictions that publish no free copy of their own code. Every fact is verified
+against official sources; commercial statute mirrors are not accepted; every file
+carries its `sources` and `lastVerified`.
+
+`nameReservationTotalCost` is the authoritative reservation cost for this dataset.
+`entitysearch-state-data`'s `filingFacts.nameReservation` mirrors it and must agree
+with it.
 
 ## Usage
 

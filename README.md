@@ -32,13 +32,49 @@ Each namespace is additive and independent. Adding one never modifies another, s
 
 This matters more than the data itself, because a number without provenance is not usable for research.
 
-**Sourcing.** Every field is read from an official state government source. Statutes and administrative codes are preferred for rules, and the agency's own fee or how-to page is preferred for costs. Third-party blogs, formation-service pages, and aggregator sites are not accepted as sources, including as corroboration.
+**Sourcing.** Every field is read from an official source, meaning the government body that publishes the fact: a Secretary of State, a Division of Corporations, a Department of Financial Institutions, a state legislature or law revisor, or the county office that actually takes the filing. Statutes and administrative codes are preferred for rules; the agency's own fee or how-to page is preferred for costs.
+
+Third-party blogs, formation-service pages, and commercial legal aggregators (Justia, FindLaw, and similar statute mirrors) are not accepted as sources, including as corroboration.
+
+**"Official" is a question about the publisher, not the domain suffix.** Most official sources sit on `.gov`, but not all of them do, and a `.gov`-only test would wrongly reject sources this dataset legitimately depends on. These hosts are official and are used deliberately:
+
+| Host | Publisher |
+|---|---|
+| `sos-corp-search.ark.org` | Arkansas Secretary of State, entity search |
+| `www.njportal.com` | New Jersey's official business filing portal |
+| `search.sunbiz.org` | Florida Division of Corporations |
+| `api.realfile.rtsclients.com` | New Mexico Secretary of State's document host |
+| `www.gwinnettcourts.com`, `dksuperiorclerk.com` | Georgia Clerks of Superior Court, the offices that take a Georgia trade-name filing |
+
+**The one exception, and its conditions.** A few jurisdictions license their statutory code to a commercial publisher and put no free, citable copy of the code text online. There, and only there, a record may cite a verbatim mirror of the statute. The exception holds only when both of these are true:
+
+1. the record carries at least one official source that independently supports the same fact, and
+2. the record's own `notes` field states that the jurisdiction publishes no free official copy of its code.
+
+A mirror is never the only source for a fact, and never a substitute for an official page that exists. Where an official copy of the statute is reachable, a mirror is a defect rather than a choice.
 
 **Provenance per record.** Each JSON file carries a `sources` array (`citation`, `title`, `url`, `lastAccessed`) and a `lastVerified` ISO date. `lastVerified` means a human opened the cited sources on that date and confirmed the values, not that an automated check ran.
 
 **Cost basis.** Published filing fees and real out-of-pocket costs differ in several states, because service charges and card fees are added at the point of filing. Where they differ, `nameReservationFee` holds the statutory figure and `nameReservationTotalCost` holds the real cost on the common filing path, with `nameReservationCostBasis` explaining the gap. **Use the total for any cross-state comparison.** Six of the 51 jurisdictions currently charge more than the fee their statute names.
 
+The entity-search namespace carries a single reservation figure, `filingFacts.nameReservation`. It is defined to hold the **real out-of-pocket cost**, mirroring `name-rules`'s `nameReservationTotalCost`, which is the authoritative field. A consumer reading either namespace should therefore quote a price a filer can actually pay.
+
+**One fact, one field.** Where the same fact appears in more than one namespace, one field is defined as authoritative and the others must agree with it, not paraphrase it. A number that a visitor could be asked to pay is held to this strictly: a value that disagrees across namespaces is a bug in this repository, regardless of which copy happens to be right.
+
 **What is excluded.** Expedited-processing surcharges, third-party registered agent fees, county-level publication costs where they vary by county (for example New York and Nebraska), and any pricing from formation services.
+
+### Where the data does not yet meet this standard
+
+The rules above are the standard the dataset is held to, and as of **2026-08-04** parts of it do not meet them. An audit of the whole repository found the following, and a phased remediation is under way. Publishing the gap is preferable to letting a reader assume it is not there.
+
+| Gap | Extent | Status |
+|---|---|---|
+| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 145 URLs across 29 jurisdictions, in `name-rules` and `dba-rules` only | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section |
+| `filingFacts.nameReservation` holds the statutory fee instead of the real cost | Alabama and Texas | correction pending; use `name-rules`'s `nameReservationTotalCost` in the meantime |
+| `restrictedWords` is an empty array where the state's list has not yet been read | 24 of 51 | an empty array here means *not yet researched*, not *the state restricts nothing* |
+| Some cited URLs have gone dead since they were last opened | 17 confirmed | being re-sourced; a dead link is never replaced by a guess |
+
+`states.json` and `entitysearch-state-data` carry no mirror citations. Nothing in this table affects a fee amount in `states.json`.
 
 ### Known limitations
 
