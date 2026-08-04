@@ -13,20 +13,14 @@
   "nameReservationDuration": "1 year",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://firststop.sos.nd.gov/",
-  "namingStatuteUrl": "https://codes.findlaw.com/nd/title-10-corporations/nd-cent-code-sect-10-32-1-11/",
-  "notes": "North Dakota adopted the Uniform Limited Liability Company Act (N.D.C.C. ch. 10-32.1). The name must carry an LLC designator and be distinguishable on Secretary of State records; North Dakota folds registered trade names into that screen because a trade name here carries an exclusive right. Filings run through the FirstStop portal, where a name reservation costs $10 and lasts a full year, one of the longest holds in the country. The LLC formation fee is $135 and an annual report ($50) is due November 15.",
+  "namingStatuteUrl": "https://ndlegis.gov/cencode/t10c32-1.pdf",
+  "notes": "North Dakota adopted the Uniform Limited Liability Company Act (N.D.C.C. ch. 10-32.1). The name must carry an LLC designator and be distinguishable in Secretary of State records; § 10-32.1-11(1)(e) folds reserved names, fictitious names (ch. 45-11), registered trade names (ch. 47-25), and trademarks (ch. 47-22) into that screen. Filings run through the FirstStop portal, where a name reservation costs $10 and lasts twelve months, renewable for successive twelve-month periods (§ 10-32.1-12), one of the longest holds in the country. The LLC formation fee is $135 and an annual report ($50) is due November 15.",
   "sources": [
     {
-      "citation": "N.D.C.C. § 10-32.1-11",
-      "title": "North Dakota Uniform Limited Liability Company Act — Limited liability company name",
-      "url": "https://codes.findlaw.com/nd/title-10-corporations/nd-cent-code-sect-10-32-1-11/",
-      "lastAccessed": "2026-07-23"
-    },
-    {
-      "citation": "N.D.C.C. § 10-32.1-12",
-      "title": "North Dakota Uniform Limited Liability Company Act — Reserved name (1 year)",
-      "url": "https://codes.findlaw.com/nd/title-10-corporations/nd-cent-code-sect-10-32-1-12/",
-      "lastAccessed": "2026-07-23"
+      "citation": "N.D.C.C. §§ 10-32.1-11, 10-32.1-12",
+      "title": "North Dakota Century Code ch. 10-32.1 - Limited liability company name; reserved name (12 months, renewable)",
+      "url": "https://ndlegis.gov/cencode/t10c32-1.pdf",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "North Dakota Secretary of State",
@@ -35,5 +29,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

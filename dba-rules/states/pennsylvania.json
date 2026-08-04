@@ -11,27 +11,33 @@
   "duration": "Perpetual (decennial report every 10 years)",
   "renewalRule": "A fictitious name registration does not expire; every ten years the registrant files a decennial report to confirm the name is still in use.",
   "publicationRequired": true,
-  "publicationRule": "54 Pa.C.S. § 311(g) requires an entity which includes an individual party to officially publish notice of its intention to file, or of the filing of, the fictitious name application, in the county where the entity's principal office or place of business is or will be located. Officially publishing means two newspapers of general circulation in that county, one of which must be the legal newspaper designated by the rules of court for legal notices if there is one; where the county has only one newspaper of general circulation, that one is sufficient. The notice may run before or after the filing date and is kept with the permanent records of the business. A registration with no individual party, such as an LLC filing in its own name, has no publication step.",
+  "publicationRule": "54 Pa.C.S. § 311(g) requires an entity which includes an individual party to officially publish notice of its intention to file, or of the filing of, the fictitious name application, in the county where the entity's principal office or place of business is or will be located. Officially publishing is defined in 15 Pa.C.S. § 102 as publication in two newspapers of general circulation in the county, one of which must be the legal newspaper designated by the rules of court for legal notices if there is one; where the county has only one newspaper of general circulation, that one is sufficient, and absent a specified frequency the notice runs one time. The notice may appear before or after the filing date and is kept with the permanent records of the business. A registration with no individual party, such as an LLC filing in its own name, has no publication step.",
   "protectionLevel": "none",
-  "protectionNote": "Pennsylvania law is explicit that registering a fictitious name creates no exclusive right to use it (54 Pa.C.S. § 332); two different businesses may register the same fictitious name. A fictitious name also does not have to be distinguishable from existing entity names, and it does not block a later entity name, so it protects neither the registrant nor anyone else.",
+  "protectionNote": "Pennsylvania law is explicit that registering a fictitious name creates no exclusive right to use it: 54 Pa.C.S. § 332 provides that registration imparts no legal right beyond escaping the § 331 penalties for doing business under an unregistered fictitious name and giving the registered name the same force and effect as the entity's proper name. Because § 311(e) screens a new fictitious name against entity, agency, and reserved names but not against other fictitious names, two different businesses may register the same fictitious name. The screen also runs one way only: 15 Pa.C.S. § 202(b)(2) makes a filed fictitious name render a name unavailable to a later entity only to the extent 54 Pa.C.S. Ch. 3 expressly provides, and Ch. 3 provides no such block.",
   "searchUrl": "https://file.dos.pa.gov/search/business",
   "searchNote": "Fictitious names are searchable in the Department of State's business filing search alongside entities, but because they carry no exclusive right, finding one does not by itself stop another filer from registering the same fictitious name.",
   "filingUrl": "https://file.dos.pa.gov/",
   "statuteCitation": "54 Pa.C.S. § 311",
-  "statuteUrl": "https://law.justia.com/codes/pennsylvania/title-54/chapter-3/section-311/",
-  "notes": "Pennsylvania registers fictitious names centrally with the Department of State for $70, for entities and individuals alike, with no county filing. The registration never expires but requires a decennial (ten-year) report. The two distinctive rules are that a fictitious name registration grants no exclusive right (§ 332), so it is disclosure only, and that publication in two newspapers is required only when an individual is a party, not for an entity-only filing such as an LLC.",
+  "statuteUrl": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/54/00.003.011.000..HTM",
+  "notes": "Pennsylvania registers fictitious names centrally with the Department of State for $70, for entities and individuals alike, with no county filing. The registration never expires but requires a decennial (ten-year) report. The two distinctive rules are that a fictitious name registration grants no exclusive right (§ 332), so it is disclosure only, and that publication in two newspapers is required only when an individual is a party, not for an entity-only filing such as an LLC. Note that the name is still screened on the way in: § 311(e) requires the fictitious name to be distinguishable on the Department's records from registered entity names, Commonwealth agency names, and reserved names, even though registering it confers nothing against anyone else.",
   "sources": [
     {
       "citation": "54 Pa.C.S. § 311",
-      "title": "Pennsylvania Consolidated Statutes — Registration of fictitious names",
-      "url": "https://law.justia.com/codes/pennsylvania/title-54/chapter-3/section-311/",
-      "lastAccessed": "2026-07-23"
+      "title": "Pennsylvania Consolidated Statutes - Registration of fictitious names (duplicate use of names, advertisement)",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/54/00.003.011.000..HTM",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "54 Pa.C.S. § 332",
-      "title": "Pennsylvania Consolidated Statutes — Effect of registration (no exclusive right)",
-      "url": "https://law.justia.com/codes/pennsylvania/title-54/chapter-3/section-332/",
-      "lastAccessed": "2026-07-23"
+      "title": "Pennsylvania Consolidated Statutes - Effect of registration (no exclusive right)",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/54/00.003.032.000..HTM",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "15 Pa.C.S. § 102",
+      "title": "Pennsylvania Consolidated Statutes - Definitions (\"Officially publish\": two newspapers, legal newspaper designated by rules of court)",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/15/00.001.002.000..HTM",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Pennsylvania Department of State",

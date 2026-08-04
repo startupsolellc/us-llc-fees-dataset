@@ -7,9 +7,9 @@
   "llcFilesWith": "Maryland State Department of Assessments and Taxation (Trade Name Application)",
   "soleProprietorFilesWith": "Maryland State Department of Assessments and Taxation (the same statewide trade name registration applies to individuals and sole proprietors)",
   "llcFee": 25,
-  "feeBasis": "The SDAT fee to register a trade name is $25.",
+  "feeBasis": "The SDAT fee to register a trade name is $25; § 1-406(e) sets the same $25 for each amendment, cancellation, or renewal of the certificate.",
   "duration": "5 years",
-  "renewalRule": "A trade name filing is effective for five years from the date SDAT accepts it and may be renewed for successive five-year terms.",
+  "renewalRule": "A certificate is effective for five years from the date it is filed and is renewed by filing an application for renewal within the six months before the end of that period; a renewal extends the certificate for five years from the end of the previous period (§ 1-406(f)).",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
@@ -18,14 +18,14 @@
   "searchNote": "Registered trade names appear in the Maryland Business Express entity search.",
   "filingUrl": "https://dat.maryland.gov/SDAT%20Forms/nameappl.pdf",
   "statuteCitation": "Md. Code, Corps. & Ass'ns § 1-406",
-  "statuteUrl": "https://law.justia.com/codes/maryland/corporations-and-associations/title-1/subtitle-4/section-1-406/",
-  "notes": "Maryland registers trade names statewide through the State Department of Assessments and Taxation (§ 1-406). LLCs and sole proprietors alike file a Trade Name Application for $25; the filing lasts five years and renews for like terms. There is no publication requirement, and registration is disclosure rather than a trademark, so it does not by itself grant exclusive rights.",
+  "statuteUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gca&section=1-406&enactments=false",
+  "notes": "Maryland registers trade names statewide through the State Department of Assessments and Taxation (§ 1-406). LLCs and sole proprietors alike file a Trade Name Application for $25; the filing lasts five years and renews for like terms. Section 1-406(b) sends the name itself through Title 1, Subtitle 5, the same subtitle that carries the entity-name rules. There is no publication requirement, and registration is disclosure rather than a trademark, so it does not by itself grant exclusive rights.",
   "sources": [
     {
       "citation": "Md. Code, Corps. & Ass'ns § 1-406",
-      "title": "General Provisions — Trade names",
-      "url": "https://law.justia.com/codes/maryland/corporations-and-associations/title-1/subtitle-4/section-1-406/",
-      "lastAccessed": "2026-07-23"
+      "title": "General Provisions - Trade names (certificate, $25 fee, 5-year term)",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gca&section=1-406&enactments=false",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Maryland State Department of Assessments and Taxation",
@@ -34,5 +34,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

@@ -24,20 +24,20 @@
   "nameReservationDuration": "120 days (non-renewable)",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.pa.gov/agencies/dos/programs/business/information-services/name-availability.html",
-  "namingStatuteUrl": "https://law.justia.com/codes/pennsylvania/title-15/chapter-2/section-204/",
+  "namingStatuteUrl": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/15/00.002.002.000..HTM",
   "notes": "Pennsylvania carries one of the longest word-approval lists in this dataset. \"Bank,\" \"trust company,\" and \"savings bank\" need banking authorization; \"insurance,\" \"annuity,\" \"assurance,\" \"surety,\" and \"title\" need Insurance Department clearance; \"engineer,\" \"architect,\" and \"surveyor\" need a licensed professional on record; \"college,\" \"university,\" and \"seminary\" need State Board of Education approval; and \"credit union,\" \"cooperative,\" and government-agency references are restricted. The $70 reservation fee is among the highest in the country (most states charge $10 to $30), and the reservation is a single 120-day period that cannot be renewed, though the same form transfers it. Pennsylvania also added an annual report requirement in 2025 (LLC report due September 30, $7).",
   "sources": [
     {
       "citation": "15 Pa.C.S. § 204",
-      "title": "Pennsylvania Consolidated Statutes — Additional provisions applicable to names of certain associations (LLC designator)",
-      "url": "https://law.justia.com/codes/pennsylvania/title-15/chapter-2/section-204/",
-      "lastAccessed": "2026-07-23"
+      "title": "Pennsylvania Consolidated Statutes - Partnership and limited liability company names (LLC designator, § 204(c))",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/15/00.002.004.000..HTM",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "15 Pa.C.S. § 202",
-      "title": "Pennsylvania Consolidated Statutes — Requirements for names generally (distinguishability and restricted words)",
-      "url": "https://law.justia.com/codes/pennsylvania/title-15/chapter-2/section-202/",
-      "lastAccessed": "2026-07-23"
+      "title": "Pennsylvania Consolidated Statutes - Requirements for names generally (duplicate use of names, required approvals)",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/15/00.002.002.000..HTM",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Pennsylvania Department of State",
@@ -46,5 +46,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }
