@@ -52,7 +52,7 @@
     "annualReport": 25,
     "annualReportDue": "Feb 15",
     "nameReservation": 25,
-    "nameReservationNotes": "Application for Reservation of Name (Form 540) for LLC is $25 per official Filing Fees schedule; LLC names may be reserved for 180 days. (Corporation name reservation remains $10.)"
+    "nameReservationNotes": "Application for Reservation of Name (Form 540) for LLC is $25 per official Filing Fees schedule; MCL 450.4205(1) holds the name to the end of the sixth full calendar month after the month of filing, which LARA's naming page rounds to 180 days. (Corporation name reservation remains $10.)"
   },
   "sources": [
     {

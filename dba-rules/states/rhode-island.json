@@ -4,34 +4,34 @@
   "stateSlug": "rhode-island",
   "dbaTerm": "fictitious business name",
   "filingLevel": "state",
-  "llcFilesWith": "Rhode Island Department of State, Business Services Division (Fictitious Business Name Statement, Form 624B, under § 7-16-9), filed through the online Corporate Filing System",
-  "soleProprietorFilesWith": "Rhode Island Department of State (trade name registration; Rhode Island recently moved trade names from its 39 city and town clerks to the Department of State, though a trade name is still limited to one municipality)",
+  "llcFilesWith": "Rhode Island Department of State, Business Services Division (Fictitious Business Name Statement, Form 624B, under § 7-16-9(b)), filed through the online Corporate Filing System",
+  "soleProprietorFilesWith": "Rhode Island Department of State (trade name registration; Rhode Island moved trade names from its 39 city and town clerks to the Department of State effective January 1, 2023, though a trade name is still screened only within one municipality)",
   "llcFee": 50,
   "feeBasis": "An LLC's Fictitious Business Name Statement costs $50 (a $2.50 enhanced-access fee applies online). A sole proprietor's trade name registration costs $20.",
   "duration": "Perpetual (no expiration)",
-  "renewalRule": "A fictitious business name statement stays on file until the LLC amends or cancels it; there is no periodic renewal.",
+  "renewalRule": "A fictitious business name statement stays on file until the LLC files a statement of abandonment, or until the LLC dissolves or a foreign LLC's registration is cancelled; there is no periodic renewal (§ 7-16-9(b)(3)).",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "A fictitious business name or trade name discloses the name a business uses and grants no exclusive right; a sole proprietor's trade name is limited to a single city or town rather than the whole state.",
+  "protectionNote": "A fictitious business name or trade name discloses the name a business uses and grants no exclusive right; a sole proprietor's trade name is screened only against trade names on file in the same city or town rather than statewide. Filing is not merely administrative: under § 7-16-9(b)(5) an LLC that transacts business under an unfiled fictitious name, or its assignee, cannot maintain an action in a Rhode Island court on a contract made in that name until the statement is filed.",
   "searchUrl": "https://business.sos.ri.gov/CorpWeb/CorpSearch/CorpSearch.aspx",
-  "searchNote": "Fictitious business names and trade names registered with the Department of State appear in the online business search.",
+  "searchNote": "Fictitious business names and trade names registered with the Department of State appear in the online business search. Search for an exact match, not a near one: § 7-16-9(b)(6) screens a fictitious business name only against names that are the same as an existing entity or reserved name, a weaker test than the \"distinguishable upon the records\" standard § 7-16-9(a)(2) applies to the LLC's own name.",
   "filingUrl": "https://docs.sos.ri.gov/documents/BusinessServices/624B-fictitious-business-name-statement-Limited-Liability-Company.pdf",
-  "statuteCitation": "R.I. Gen. Laws § 7-16-9",
-  "statuteUrl": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-9/",
-  "notes": "Rhode Island splits its DBA vocabulary by filer but now files both at the state level. An LLC that trades under another name files a Fictitious Business Name Statement with the Department of State ($50, § 7-16-9). Individuals and general partnerships register a trade name ($20); Rhode Island recently centralized trade names from its 39 municipalities to the Department of State, but a trade name is still tied to one city or town rather than being statewide. Neither filing grants an exclusive right and neither requires publication.",
+  "statuteCitation": "R.I. Gen. Laws § 7-16-9(b)",
+  "statuteUrl": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-9.htm",
+  "notes": "Rhode Island splits its DBA vocabulary by filer but now files both at the state level. An LLC that trades under another name files a Fictitious Business Name Statement with the Department of State ($50, § 7-16-9(b)). Individuals and general partnerships register a trade name ($20); Rhode Island centralized trade names from its 39 municipalities to the Department of State effective January 1, 2023 (P.L. 2022, ch. 237 and ch. 238), but § 6-1-1(b) still screens a trade name only against trade names on file in the municipality where the business is located rather than statewide. Neither filing grants an exclusive right and neither requires publication. Two consequences are worth knowing: an unfiled fictitious name bars the LLC from suing on contracts made in that name (§ 7-16-9(b)(5)), and the fictitious-name screen in § 7-16-9(b)(6) is a same-as test rather than the distinguishability test applied to entity names.",
   "sources": [
     {
       "citation": "R.I. Gen. Laws § 7-16-9",
-      "title": "The Rhode Island Limited Liability Company Act — Name; Fictitious business names (LLC $50)",
-      "url": "https://law.justia.com/codes/rhode-island/title-7/chapter-7-16/section-7-16-9/",
-      "lastAccessed": "2026-07-23"
+      "title": "Rhode Island Limited Liability Company Act, Name; Fictitious business names (LLC fictitious name regime in (b): filing (b)(2), expiry on abandonment (b)(3), no-action bar (b)(5), same-as screen (b)(6))",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-9.htm",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "R.I. Gen. Laws § 6-1-1",
-      "title": "Filing of Trade Name — business trade name requirements (sole proprietors)",
-      "url": "https://law.justia.com/codes/rhode-island/title-6/chapter-6-1/section-6-1-1/",
-      "lastAccessed": "2026-07-23"
+      "title": "Filing of Trade Name, business trade name requirements (application filed with the secretary of state (a); distinguishable only within the municipality (b))",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE6/6-1/6-1-1.htm",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Rhode Island Department of State",
@@ -40,5 +40,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }

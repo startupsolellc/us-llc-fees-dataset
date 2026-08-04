@@ -3,31 +3,54 @@
   "stateAbbr": "MI",
   "stateSlug": "michigan",
   "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC\" (periods and punctuation optional). A low-profit LLC uses \"low-profit limited liability company\" or the abbreviation \"L3C.\"",
-  "entitySuffixCitation": "MCL 450.4204",
-  "distinguishabilityNote": "The name must not be indistinguishable from the name of any domestic LLC or authorized foreign LLC in good standing, a corporation under the Business Corporation Act, a nonprofit corporation, a limited partnership, or any name reserved, registered, or assumed under this act or the other corporate acts. The name also may not contain a word or phrase implying a purpose other than the one permitted by the articles of organization. A conflicting name may be used with the other holder's written consent.",
-  "distinguishabilityCitation": "MCL 450.4204",
-  "restrictedWords": [],
+  "entitySuffixCitation": "MCL 450.4204(1), (2)",
+  "distinguishabilityNote": "The name must distinguish itself in the records of the administrator from the name of any domestic LLC or authorized foreign LLC in good standing, a corporation under the Business Corporation Act, a nonprofit corporation, a limited partnership, or any name reserved, registered, or assumed under this act or the other corporate acts. The name also may not contain a word or phrase implying a purpose other than the one permitted by the articles of organization, and may not contain a word, abbreviation or derivative whose use is prohibited or restricted by any other Michigan statute. MCL 450.4204 provides no consent route: unlike many states, Michigan's LLC Act does not let a conflicting name through on the written consent of the incumbent holder. A foreign LLC that cannot clear the screen may instead add a distinguishing element to its name in the application, or adopt an available assumed name for use in Michigan.",
+  "distinguishabilityCitation": "MCL 450.4204(3)",
+  "restrictedWords": [
+    "corporation",
+    "incorporated",
+    "corp.",
+    "inc."
+  ],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 25,
-  "nameReservationCostBasis": "The LARA fee for an Application for Reservation of Name (Form 540) is $25 for an LLC.",
-  "nameReservationDuration": "180 days",
+  "nameReservationCostBasis": "The LARA fee for an Application for Reservation of Name (Form 540) is $25 for an LLC. The Corporations Division's filing-fee schedule prices Form 540 at $10 for corporations and limited partnerships, so the $25 is the LLC line, not a single flat fee.",
+  "nameReservationDuration": "Until the end of the sixth full calendar month after the month of filing (LARA's own page rounds this to 180 days; re-reservable by filing another application and fee)",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
-  "namingStatuteUrl": "https://law.justia.com/codes/michigan/chapter-450/statute-act-23-of-1993/article-2/section-450-4204/",
-  "notes": "Michigan is not a Secretary of State state for businesses: LLCs are formed, named, and searched at the Department of Licensing and Regulatory Affairs (LARA), Corporations, Securities & Commercial Licensing Bureau. MCL 450.4204 folds reserved, registered, and assumed names into the distinguishability screen, so an assumed name already on file can block a later LLC name. A reservation lasts 180 days for $25. Michigan is inexpensive to form in ($50 LLC) with a low $25 annual statement due February 15.",
+  "namingStatuteUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-4204",
+  "notes": "Michigan is not a Secretary of State state for businesses: LLCs are formed, named, and searched at the Department of Licensing and Regulatory Affairs (LARA), Corporations, Securities & Commercial Licensing Bureau. MCL 450.4204(3)(c) folds reserved, registered, and assumed names into the distinguishability screen, so an assumed name already on file can block a later LLC name, and (3)(b) bars the corporate designators outright. There is no written-consent route: the word does not appear in MCL 450.4204, in MCL 450.4206, or in either of LARA's own naming pages. The reservation costs $25 and runs to the end of the sixth full calendar month after the month it was filed (MCL 450.4205(1)), which is longer than the flat 180 days LARA's naming page quotes; file on August 4 and the hold runs to the end of February, not to early February. It can be re-reserved by filing again. Michigan is inexpensive to form in ($50 LLC) with a low $25 annual statement due February 15.",
   "sources": [
     {
       "citation": "MCL 450.4204",
-      "title": "Michigan Limited Liability Company Act — Name; requirements; rights",
-      "url": "https://law.justia.com/codes/michigan/chapter-450/statute-act-23-of-1993/article-2/section-450-4204/",
-      "lastAccessed": "2026-07-23"
+      "title": "Michigan Limited Liability Company Act, Name; requirements; rights (designator (1), L3C (2), prohibited words and distinguishability (3), foreign-LLC workaround (4), no substantive rights (5); the section contains no consent provision)",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-4204",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "MCL 450.4205",
+      "title": "Michigan Limited Liability Company Act, Reservation of name (expires at the end of the sixth full calendar month following the month of filing; transferable by notice)",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-450-4205",
+      "lastAccessed": "2026-08-04"
     },
     {
       "citation": "Michigan LARA, Corporations Division",
-      "title": "LLC filing fees (name reservation $25, 180 days)",
-      "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps",
-      "lastAccessed": "2026-07-23"
+      "title": "Filing Fees (LLC section: Form 540 Application for Reservation of Name $25)",
+      "url": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Michigan LARA, Corporations Division",
+      "title": "About Name Reservations (required and excluded words by entity type; a reservation may be filed again on expiration)",
+      "url": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/NonImages_new/Corps/Name_Reservations.pdf",
+      "lastAccessed": "2026-08-04"
+    },
+    {
+      "citation": "Michigan LARA, Corporations Division",
+      "title": "Naming a Limited Liability Company (states the reservation as a flat 180 days, which is LARA's rounding of the calendar-month rule in MCL 450.4205(1))",
+      "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/limited-liability-co/filing/naming-a-limited-liability-company",
+      "lastAccessed": "2026-08-04"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-04"
 }
