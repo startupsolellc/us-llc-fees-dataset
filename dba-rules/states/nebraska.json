@@ -7,38 +7,62 @@
   "llcFilesWith": "Nebraska Secretary of State (Application for Registration of Trade Name), followed by newspaper publication and proof of publication filed with the Secretary of State",
   "soleProprietorFilesWith": "Nebraska Secretary of State (the same statewide trade name registration applies to individuals and sole proprietors)",
   "llcFee": 100,
-  "feeBasis": "The Secretary of State fee to register a trade name is $110 filed in writing or $100 filed electronically. Nebraska also requires the registrant to publish the trade name in a newspaper; the newspaper sets its own charge, but filing the proof of publication with the Secretary of State carries no fee.",
+  "feeBasis": "Neb. Rev. Stat. § 87-210(1)(f) sets the fee to register a trade name at $110 filed in writing and $100 filed electronically under § 84-511, and the Secretary of State's form and fee schedule print the same pair. Renewal costs the same $110 or $100 (§ 87-211(1)). Nebraska also requires the registrant to publish the trade name; the newspaper sets its own charge, but filing the proof of publication with the Secretary of State carries no fee.",
   "duration": "10 years",
-  "renewalRule": "A trade name registration is effective for ten years and may be renewed for successive ten-year terms.",
+  "renewalRule": "A trade name registration runs ten years from the date of registration and may be renewed for successive ten-year terms, but the renewal application must be filed in duplicate within the six months before the term expires, with a $110 written or $100 electronic renewal fee and a statement that the name is still in use (Neb. Rev. Stat. § 87-211). The Secretary of State writes to the registrant's last known address during the year before expiry.",
   "publicationRequired": true,
-  "publicationRule": "The registrant must publish the trade name once in a newspaper of general circulation in the city or village where the business is located (or, if none, in a newspaper of general circulation in the county) and file proof of publication with the Secretary of State within 45 days of registration.",
+  "publicationRule": "The registrant must publish the duplicate of the registration once in a newspaper of general circulation published in the city or village where the business is to be located, or, if there is no newspaper there, in a newspaper of general circulation in the county, and file proof of publication with the Secretary of State within 45 days of the date of registration. If the proof is not filed within those 45 days, the Secretary of State cancels the registration (Neb. Rev. Stat. § 87-219).",
   "protectionLevel": "none",
-  "protectionNote": "Nebraska folds registered trade names into the LLC name screen, so an active trade name blocks later entity names that are the same as or deceptively similar to it (§ 21-108), and the Secretary of State will not register a trade name confusingly similar to one already on file. The registration is a public claim to the name rather than a trademark, and ownership ultimately turns on actual use under common law.",
+  "protectionNote": "Nebraska folds registered trade names into the LLC name screen, so an active trade name blocks later entity names that are the same as or deceptively similar to it (§ 21-108), and § 87-209(6) bars registering a trade name that so resembles a registered trade name or an entity name on file as to be likely to cause confusion, mistake, or deception, unless the affected entity consents in writing and the consent is filed. A holder of an existing registration also gets a cancellation route: under § 87-219.01 it may protest a new registration within 60 days of that name's publication, and the Secretary of State cancels the new name if it violates § 87-209. The registration is still a public claim rather than a trademark, and ownership ultimately turns on actual use under common law.",
   "searchUrl": "https://www.nebraska.gov/sos/corp/corpsearch.cgi",
   "searchNote": "Registered trade names appear in the Secretary of State's corporate and business name search.",
   "filingUrl": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Forms/ApplicationforTradeName.pdf",
   "statuteCitation": "Neb. Rev. Stat. § 87-210",
-  "statuteUrl": "https://law.justia.com/codes/nebraska/chapter-87/statute-87-210/",
-  "notes": "Nebraska registers trade names statewide with the Secretary of State under Neb. Rev. Stat. §§ 87-208 to 87-219.01. LLCs and sole proprietors file the same Application for Registration of Trade Name ($110 written / $100 electronic), then publish the name once in a local newspaper and file proof of publication within 45 days. A registration lasts ten years and renews for like terms. Nebraska is stricter than most: a registered trade name is part of the § 21-108 entity-name screen, so it can block later LLC names, though registration is a public claim rather than a trademark.",
+  "statuteUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-210",
+  "notes": "Nebraska registers trade names statewide with the Secretary of State under Neb. Rev. Stat. §§ 87-208 to 87-219.01, and the article does not split by filer type: an LLC and a sole proprietor file the same Application for Registration of Trade Name for $110 written or $100 electronic. A \"trade name\" is defined broadly in § 87-208(4) as every name under which a person transacts business other than that person's true name. Section 87-209 is a real content screen and is easy to miss because it sits before the application section: a trade name may not be registered if it is immoral, deceptive, or scandalous, if it disparages or falsely suggests a connection with persons, institutions, beliefs, or national symbols, if it simulates a flag, coat of arms, or other insignia, if it uses a living individual's name, signature, or portrait without consent, if it is merely descriptive, geographically descriptive, or primarily a surname (unless five years of continuous use have made it distinctive), if it is likely to cause confusion with a registered trade name or an entity name on file, or if it contains \"geologist\" without meeting § 81-3528(6). The words \"incorporated,\" \"inc.,\" and \"corporation\" may not be part of a trade name unless the filer is actually incorporated somewhere. After registering, the applicant must publish once in a local newspaper and file proof within 45 days or the registration is cancelled (§ 87-219), and a rival registrant then has 60 days from that publication to protest under § 87-219.01. A registration lasts ten years and is renewed within the six months before it expires.",
   "sources": [
     {
       "citation": "Neb. Rev. Stat. § 87-210",
-      "title": "Trade name; application for registration; requirements; publication; Secretary of State",
-      "url": "https://law.justia.com/codes/nebraska/chapter-87/statute-87-210/",
-      "lastAccessed": "2026-07-23"
+      "title": "Trade name; application for registration; requirements; Secretary of State ($110 written / $100 electronic)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-210",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 87-208",
+      "title": "Terms, defined (trade name means every name other than the person's true name)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-208",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 87-209",
+      "title": "Trade name; not registered; when (the content and likelihood-of-confusion screen)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-209",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "Neb. Rev. Stat. § 87-211",
-      "title": "Trade name; registration; term effective (10 years); renewal; fee",
-      "url": "https://law.justia.com/codes/nebraska/chapter-87/statute-87-211/",
-      "lastAccessed": "2026-07-23"
+      "title": "Trade name; registration; term effective (10 years); renewal within the six months before expiry; fee",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-211",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 87-219",
+      "title": "Trade name; publication; file; failure; effect (registration cancelled if proof is not filed within 45 days)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-219",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 87-219.01",
+      "title": "Trade name; protest registration; procedure (60 days from publication)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=87-219.01",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "Nebraska Secretary of State",
-      "title": "Application for Registration of Trade Name ($110 in-office / $100 online)",
+      "title": "Application for Registration of Trade Name, rev. 07/01/2021 ($110 in-office / $100 online; quotes the § 87-219 publication requirement)",
       "url": "https://sos.nebraska.gov/sites/default/files/doc/business-services/Corporations/Forms/ApplicationforTradeName.pdf",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-05"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }

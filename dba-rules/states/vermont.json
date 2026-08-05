@@ -4,35 +4,65 @@
   "stateSlug": "vermont",
   "dbaTerm": "assumed business name",
   "filingLevel": "state",
-  "llcFilesWith": "Vermont Secretary of State (Assumed Business Name Registration)",
-  "soleProprietorFilesWith": "Vermont Secretary of State (the same statewide assumed business name registration applies to individuals and sole proprietors)",
+  "llcFilesWith": "Vermont Secretary of State (Assumed Business Name Registration, filed by a business organization under 11 V.S.A. § 1653)",
+  "soleProprietorFilesWith": "Vermont Secretary of State (the same statewide assumed business name registry; individuals, partnerships, and unincorporated nonprofit associations register under 11 V.S.A. § 1621)",
   "llcFee": 70,
-  "feeBasis": "The Secretary of State fee to register an assumed business name is $70.",
+  "feeBasis": "The Secretary of State fee to register an assumed business name is $70 under 11 V.S.A. § 1625(a); reregistration every five years costs $65 under § 1635(a). Online filing carries no extra fee.",
   "duration": "5 years",
-  "renewalRule": "An assumed business name registration must be renewed every five years to stay in force.",
+  "renewalRule": "A registrant must reregister every five years, filing with the Secretary of State no sooner than 60 days before the current registration or last reregistration expires, for a $65 fee (11 V.S.A. § 1635(a)). If the reregistration is not made, the name is open to the first person who applies for an original registration (§ 1635(b)).",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "An assumed business name discloses the name a business trades under and grants no exclusive right to it.",
+  "protectionNote": "An assumed business name discloses the name a business trades under and grants no exclusive right to it. It is screened, however: under 11 V.S.A. § 1621(c) the Secretary of State declines a business name unless it is distinguishable in the records from every other name registered or reserved with the office, so a live registration does block a later confusingly similar filing.",
   "searchUrl": "https://bizfilings.vermont.gov/business/businesssearch",
-  "searchNote": "Registered assumed business names appear in the Secretary of State's online business search.",
+  "searchNote": "Registered assumed business names appear in the Secretary of State's online business search. Only registrations with a status of Active, Terminated, Expiration Pending, Registered, Reserved, or Hold are counted when the office tests distinguishability.",
   "filingUrl": "https://sos.vermont.gov/business-services/business-filings/assumed-name",
   "statuteCitation": "11 V.S.A. § 1621",
-  "statuteUrl": "https://law.justia.com/codes/vermont/title-11/chapter-15/section-1621/",
-  "notes": "Vermont registers assumed business names statewide with the Secretary of State (11 V.S.A. ch. 15). LLCs and sole proprietors alike file for $70; the registration lasts five years and must be renewed to stay in force. There is no publication requirement, and registration is disclosure rather than a trademark, so it grants no exclusive right.",
+  "statuteUrl": "https://legislature.vermont.gov/statutes/section/11/015/01621",
+  "notes": "Vermont registers assumed business names statewide with the Secretary of State (11 V.S.A. ch. 15). Since 2025 Act 10, effective 2025-07-01, an LLC or other business organization registers under § 1653 in subchapter 3, while § 1621 covers individuals, partnerships, and unincorporated nonprofit associations; both file the same $70 registration and the state charges no extra fee for filing online. Section 1621(b) requires the registration to be filed no later than 10 days after business commences, and § 1628(a) requires a certificate of cessation within 10 days of stopping. Failure to register is not a nullity but it is expensive: under § 1626 an unregistered business may not maintain an action, counterclaim, crossclaim, or affirmative defense in Vermont until it registers, and it is liable to the State for $50 per day up to $10,000 per year plus the fees it should have paid. C.V.R. 04-020-001, Rule 3(b) additionally bars an assumed business name that uses a business entity identifier such as Company, Co., Limited, or Ltd., that implies governmental affiliation, or that consists merely of a registrant's own proper name. There is no publication requirement, and registration is disclosure rather than a trademark, so it grants no exclusive right. 2025 Act 10 also repealed §§ 1621a, 1623, 1624, 1627, and 1629 to 1634; the Secretary of State's fee schedule and name-rules page still cite several of those repealed sections, so read the statute for the operative rule.",
   "sources": [
     {
       "citation": "11 V.S.A. § 1621",
-      "title": "Registration of assumed business names",
-      "url": "https://law.justia.com/codes/vermont/title-11/chapter-15/section-1621/",
-      "lastAccessed": "2026-07-23"
+      "title": "Registration of assumed business names, partnership, and unincorporated nonprofit association (10-day filing deadline; distinguishability screen in subsection (c))",
+      "url": "https://legislature.vermont.gov/statutes/section/11/015/01621",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "11 V.S.A. § 1653",
+      "title": "Assumed business name of business organization (the LLC route, added by 2025 Act 10)",
+      "url": "https://legislature.vermont.gov/statutes/section/11/015/01653",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "11 V.S.A. § 1625",
+      "title": "Fees (assumed business name registration $70)",
+      "url": "https://legislature.vermont.gov/statutes/section/11/015/01625",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "11 V.S.A. § 1635",
+      "title": "Reregistration (five-year term, $65, 60-day window, name lost to the first applicant if missed)",
+      "url": "https://legislature.vermont.gov/statutes/section/11/015/01635",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "11 V.S.A. § 1626",
+      "title": "Failure to register; enforcing compliance (bar on maintaining an action; $50 per day penalty)",
+      "url": "https://legislature.vermont.gov/statutes/section/11/015/01626",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "Vermont Secretary of State",
-      "title": "Assumed Name Registration ($70, 5-year renewal)",
+      "title": "Assumed Name Registration (who files; online filing at no extra fee)",
       "url": "https://sos.vermont.gov/business-services/business-filings/assumed-name",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Vermont Secretary of State",
+      "title": "Business Services Division Fees (assumed business name registration $70, reregistration $65)",
+      "url": "https://sos.vermont.gov/business-services/fees-statutes",
+      "lastAccessed": "2026-08-05"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }

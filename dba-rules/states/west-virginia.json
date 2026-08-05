@@ -4,41 +4,53 @@
   "stateSlug": "west-virginia",
   "dbaTerm": "trade name",
   "filingLevel": "state",
-  "llcFilesWith": "West Virginia Secretary of State, Business & Licensing Division (trade name/DBA registration, Form TN-1, filed through the One Stop Business Portal); the business must first be registered with the West Virginia State Tax Department",
-  "soleProprietorFilesWith": "West Virginia Secretary of State (the same trade name registration; individuals and sole proprietors register with the State Tax Department and then the Secretary of State)",
+  "llcFilesWith": "West Virginia Secretary of State, Business & Licensing Division (Application for Trade Name (DBA), Form NR-3, filed online through the One Stop Business Portal or on paper)",
+  "soleProprietorFilesWith": "West Virginia Secretary of State (the same trade name registry, but on Form TN-1 and with no filing fee; the Secretary of State directs individuals, sole proprietorships, and general partnerships to the West Virginia State Tax Department to check name availability)",
   "llcFee": 25,
-  "feeBasis": "The Secretary of State fee to register a trade name is $25, plus a $1 online processing fee for online filings.",
+  "feeBasis": "The Secretary of State fee to register a trade name is $25 for a corporation, LLC, limited partnership, limited liability partnership, voluntary association, or business trust, and is stated as the filing fee on Form NR-3 (rev. 07/2026). An individual, sole proprietorship, or general partnership pays no filing fee. A $1 online processing fee applies to all online filings, and expedite service costs extra.",
   "duration": "Perpetual (no expiration)",
-  "renewalRule": "A trade name registration stays in effect until the owner files a certificate of withdrawal when it stops using the name (§ 47-8-4); there is no periodic renewal.",
+  "renewalRule": "A trade name registration stays in effect until the owner files a certificate of withdrawal on discontinuing use of the name (W. Va. Code § 47-8-4(c)); there is no periodic renewal.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "The Secretary of State states plainly that trade names are not protected from use by other businesses through registration; a business that wants exclusive rights files a trademark or service mark instead.",
+  "protectionNote": "A trade name registration is notice rather than a trademark and confers no exclusive right; a business that wants exclusive rights registers a trademark or service mark. It is screened on the way in, though: W. Va. Code § 47-8-4(a)(2) requires the trade name to be distinguishable from the name of every other registered entity and from every reserved or registered name, and the Secretary of State applies a second filter on top of that, refusing a name that shows a \"likelihood of confusion\" with a name already on record.",
   "searchUrl": "https://apps.wv.gov/SOS/BusinessEntitySearch/",
-  "searchNote": "Registered trade names appear in the Secretary of State's business entity search.",
+  "searchNote": "Registered trade names appear in the Secretary of State's Business Organizations Search. The office also offers an informal availability check by telephone through the Business Division before filing.",
   "filingUrl": "https://sos.wv.gov/file-trade-name-dba-registration",
-  "statuteCitation": "W. Va. Code § 47-8-2",
-  "statuteUrl": "https://law.justia.com/codes/west-virginia/chapter-47/article-8/section-47-8-2/",
-  "notes": "West Virginia registers trade names centrally with the Secretary of State (W. Va. Code ch. 47, art. 8). LLCs and sole proprietors alike file a trade name (DBA) registration for $25 after the business is registered with the State Tax Department; the fastest path is the One Stop Business Portal. A registration does not expire and is ended by filing a certificate of withdrawal. Registration is notice only: the Secretary of State says trade names are not protected from use by other businesses.",
+  "statuteCitation": "W. Va. Code § 47-8-4",
+  "statuteUrl": "https://code.wvlegislature.gov/47-8-4",
+  "notes": "West Virginia registers trade names centrally with the Secretary of State (W. Va. Code ch. 47, art. 8), but the article splits by filer type: § 47-8-4 is the section that governs an LLC, corporation, limited partnership, limited liability partnership, business trust, or voluntary association, while § 47-8-2 covers individuals, sole proprietorships, and general partnerships. An LLC therefore files Form NR-3 for $25; the TN-1 form is the individual and sole proprietorship route and carries no fee. Section 47-8-4(e) subjects an LLC's trade name to W. Va. Code § 31B-1-105(b), (c), and (d), so the LLC naming rules, the distinguishability test, and the consent and merger escapes all apply to the trade name as well. A registration does not expire and is ended by filing a certificate of withdrawal under § 47-8-4(c). Willful failure to comply with either § 47-8-2 or § 47-8-4 is a misdemeanor under § 47-8-5, punishable by a fine of $25 to $100, up to thirty days in the county jail, or both. The office directs entity filers to its own Business Organizations Search for availability and directs individuals and sole proprietorships to the State Tax Department instead; registration with the Tax Department is not a stated prerequisite to an LLC's trade name filing.",
   "sources": [
     {
-      "citation": "W. Va. Code § 47-8-2",
-      "title": "Fictitious business names — Registration of trade name with the Secretary of State",
-      "url": "https://law.justia.com/codes/west-virginia/chapter-47/article-8/section-47-8-2/",
-      "lastAccessed": "2026-07-23"
+      "citation": "W. Va. Code § 47-8-4",
+      "title": "Corporations, associations, limited partnerships, limited liability partnerships, and limited liability companies not to conduct business under assumed name without certificate of trade name",
+      "url": "https://code.wvlegislature.gov/47-8-4",
+      "lastAccessed": "2026-08-05"
     },
     {
-      "citation": "W. Va. Code § 47-8-4",
-      "title": "Fictitious business names — Withdrawal of trade name registration",
-      "url": "https://law.justia.com/codes/west-virginia/chapter-47/article-8/section-47-8-4/",
-      "lastAccessed": "2026-07-23"
+      "citation": "W. Va. Code § 47-8-2",
+      "title": "Business not to be conducted under assumed name without filing certificate of true name (the individual, sole proprietorship, and general partnership route)",
+      "url": "https://code.wvlegislature.gov/47-8-2",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "W. Va. Code § 47-8-5",
+      "title": "Penalty for violations (misdemeanor, $25 to $100 fine, up to thirty days)",
+      "url": "https://code.wvlegislature.gov/47-8-5",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "West Virginia Secretary of State",
-      "title": "What Is a Trade Name (DBA)? / File a Trade Name (DBA) Registration ($25, not protected)",
+      "title": "Trade Name (DBA) Registration (fee table: $25 for entities, no fee for individuals; distinguishability and likelihood-of-confusion screen)",
       "url": "https://sos.wv.gov/file-trade-name-dba-registration",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "West Virginia Secretary of State",
+      "title": "Application for Trade Name (DBA), Form NR-3, rev. 07/2026 (filing fee $25; the LLC form)",
+      "url": "https://sos.wv.gov/media/306/download?inline",
+      "lastAccessed": "2026-08-05"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }

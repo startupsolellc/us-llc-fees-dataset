@@ -2,32 +2,44 @@
   "stateName": "Vermont",
   "stateAbbr": "VT",
   "stateSlug": "vermont",
-  "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
-  "entitySuffixCitation": "11 V.S.A. § 4005",
-  "distinguishabilityNote": "Must be distinguishable in the records of the Secretary of State from the name of each person that is not an individual and is incorporated, organized, or authorized to transact business in Vermont. A name that is not distinguishable may be used if the other holder consents in a signed record and undertakes to change its noncomplying name, or if the applicant delivers a certified copy of a final judgment establishing its right to use the name.",
-  "distinguishabilityCitation": "11 V.S.A. § 4005",
+  "entitySuffixRule": "Except for a low-profit limited liability company, the name must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"limited\" may be abbreviated \"Ltd.\" and \"company\" may be abbreviated \"Co.\" The name of a low-profit limited liability company must instead contain the abbreviation \"L3C.\"",
+  "entitySuffixCitation": "11 V.S.A. § 4005(a)",
+  "distinguishabilityNote": "Must be distinguishable in the records of the Secretary of State from the name of each person that is not an individual and is incorporated, organized, or authorized to transact business in Vermont, and from each name reserved under 11 V.S.A. §§ 1621a, 4006, and 3403, 11A V.S.A. § 4.02, 11B V.S.A. § 4.02, and 11C V.S.A. § 112. A name that is not distinguishable may be used only if the present user, registrant, or owner consents in a signed record and submits an undertaking to change its own name, or if the applicant delivers a certified copy of a final judgment establishing its right to use the name. The Secretary of State applies C.V.R. 04-020-001, Rule 3: a different word order, an added or different word, a synonym, or a homophone makes a name distinguishable, while punctuation, spacing, articles and prepositions, prefixes and suffixes, entity identifiers, internet domain suffixes, abbreviations and alternate spellings, numerals written another way, and the addition of \"Vermont\" or \"Green Mountains\" do not.",
+  "distinguishabilityCitation": "11 V.S.A. § 4005(b)",
   "restrictedWords": [],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 25,
-  "nameReservationCostBasis": "The Secretary of State fee to reserve a name is $25.",
+  "nameReservationCostBasis": "The Secretary of State fee for an LLC Application for Reserved Name is $25 under 11 V.S.A. § 4012, as published on the Business Services Division fee schedule.",
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://sos.vermont.gov/business-services/fees-statutes",
-  "namingStatuteUrl": "https://law.justia.com/codes/vermont/title-11/chapter-25/section-4005/",
-  "notes": "Vermont's LLC Act (11 V.S.A. ch. 25) uses the standard distinguishable-on-the-records test and clears a conflict only with the other holder's consent-plus-undertaking or a certified final judgment. There is no banned-word list. A reservation lasts 120 days for $25. The LLC formation fee is $155 and the annual report ($45) is due within three months after the LLC's fiscal year end.",
+  "namingStatuteUrl": "https://legislature.vermont.gov/statutes/section/11/025/04005",
+  "notes": "Vermont's LLC Act (11 V.S.A. ch. 25) uses the distinguishable-in-the-records test and clears a conflict only two ways under § 4005(c): consent in a signed record from the present holder plus an undertaking to change that holder's own name, or a certified copy of a final judgment. Vermont does not enumerate restricted words. C.V.R. 04-020-001, Rule 3(d) instead bars whole categories, discriminatory, indecent, and obscene language, and words such as \"bank\" and \"insurance\" are controlled by their own licensing statutes rather than by ch. 25. Section 4005(a)(2) requires a low-profit LLC to carry the abbreviation \"L3C\" instead of an LLC designator. 2025 Act 10 rewrote § 4006 so that a reservation is now delivered through 11 V.S.A. § 1652, which holds the name for the applicant's exclusive use for 120 days; the fee is $25. Section 4005(b)(2)(A) still cross-references § 1621a, which the same Act repealed effective 2025-07-01, and the Secretary of State's fee schedule still cites that repealed section as well. Section 4005(e) requires a person intending to operate a postsecondary school to hold a State Board of Education certificate of approval before registering a name. The LLC formation fee is $155 and the annual report ($45) is due within three months after the LLC's fiscal year end.",
   "sources": [
     {
       "citation": "11 V.S.A. § 4005",
-      "title": "Vermont Limited Liability Company Act — Name",
-      "url": "https://law.justia.com/codes/vermont/title-11/chapter-25/section-4005/",
-      "lastAccessed": "2026-07-23"
+      "title": "Vermont Limited Liability Company Act, Name",
+      "url": "https://legislature.vermont.gov/statutes/section/11/025/04005",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "11 V.S.A. § 1652",
+      "title": "Reserved name (120-day exclusive hold; § 4006 now delivers LLC reservations through this section)",
+      "url": "https://legislature.vermont.gov/statutes/section/11/015/01652",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "Vermont Secretary of State",
-      "title": "Business Name Rules & Availability / Fees (name reservation $25, 120 days)",
+      "title": "Business Name Rules & Availability (C.V.R. 04-020-001, Rule 3 distinguishability and content rules)",
       "url": "https://sos.vermont.gov/business-services/fees-statutes/business-name-rules",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Vermont Secretary of State",
+      "title": "Business Services Division Fees (LLC Application for Reserved Name $25, Articles of Organization $155, Annual Report $45)",
+      "url": "https://sos.vermont.gov/business-services/fees-statutes",
+      "lastAccessed": "2026-08-05"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }

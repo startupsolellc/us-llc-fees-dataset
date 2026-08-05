@@ -3,37 +3,55 @@
   "stateAbbr": "NE",
   "stateSlug": "nebraska",
   "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
-  "entitySuffixCitation": "Neb. Rev. Stat. § 21-108",
-  "distinguishabilityNote": "The name must not be the same as or deceptively similar to, on the records of the Secretary of State, the name of any person that is not an individual and is incorporated, organized, or authorized to transact business in Nebraska, or any name reserved under § 21-109 or registered under other state laws, including fictitious, assumed, and trade name statutes. A company may apply to the Secretary of State for authorization to use a name that is deceptively similar to an existing one.",
-  "distinguishabilityCitation": "Neb. Rev. Stat. § 21-108",
+  "entitySuffixCitation": "Neb. Rev. Stat. § 21-108(a)",
+  "distinguishabilityNote": "The name must not be the same as or deceptively similar to, in the records of the Secretary of State, the name of each person that is not an individual and is incorporated, organized, or authorized to transact business in Nebraska, or each name reserved under § 21-109 or under other state laws allowing the reservation or registration of business names, including fictitious and assumed name statutes. A company may apply to the Secretary of State for authorization to use a deceptively similar name, and the Secretary of State must grant it if, as to each noncomplying name, either the present user, registrant, or owner consents in a signed record, or the applicant delivers a certified copy of a final judgment of a court establishing its right to the name (§ 21-108(c)). Nebraska's consent route is unusually light: consent alone is enough, and unlike most states the consenting holder does not also have to undertake to change its own name. Subject to § 21-159, the same test applies to a foreign LLC holding or applying for a certificate of authority.",
+  "distinguishabilityCitation": "Neb. Rev. Stat. § 21-108(b)",
   "restrictedWords": [],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 30,
-  "nameReservationCostBasis": "Nebraska charges $30 to reserve a name filed in writing but $25 filed electronically; the electronic path is the cheaper and more common one.",
+  "nameReservationCostBasis": "Neb. Rev. Stat. § 21-192(1) sets the fee for all filings under the Nebraska Uniform Limited Liability Company Act, name reservation included, at $30 filed in writing and $25 filed electronically under § 84-511. The Secretary of State's published fee schedule prints \"Application for Reserved Name $30\" flat, with no online column, even though neighbouring rows on the same table show the $30 / $25 split explicitly. The statute governs; $30 is recorded as the total because it is the figure the state publishes and the amount a paper filer pays.",
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
-  "namingStatuteUrl": "https://law.justia.com/codes/nebraska/chapter-21/statute-21-108/",
-  "notes": "Nebraska's Uniform Limited Liability Company Act (Neb. Rev. Stat. ch. 21) uses a stricter \"same as or deceptively similar\" name standard rather than the usual \"distinguishable\" test, and it folds reserved, fictitious, assumed, and trade names into the screen (§ 21-108). Section 21-108 carries no banned-word list; words such as \"bank,\" \"insurance,\" and \"trust\" are governed by separate licensing statutes. A reservation lasts 120 days. Nebraska keeps a distinctive formation step: § 21-193 requires a new LLC to publish a Notice of Organization for three successive weeks in a legal newspaper near its designated office and then file proof with the Secretary of State. The LLC formation fee is $100 and a biennial report ($25) is due in odd-numbered years.",
+  "namingStatuteUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-108",
+  "notes": "Nebraska's Uniform Limited Liability Company Act (Neb. Rev. Stat. ch. 21) uses a stricter \"same as or deceptively similar\" standard rather than the usual \"distinguishable\" test, and it folds reserved, fictitious, and assumed names into the screen (§ 21-108(b)). The Act does not enumerate restricted words; terms such as \"bank,\" \"insurance,\" and \"trust\" are controlled by their own licensing statutes, and the content restrictions Nebraska does publish sit in the trade name article at § 87-209 rather than in ch. 21. A reservation under § 21-109 runs 120 days with no statutory renewal. On the fee, the statute and the agency disagree: § 21-192(1) gives $30 written and $25 electronic for a name reservation, while the Secretary of State's fee schedule lists a flat $30 for the Application for Reserved Name. Nebraska keeps a distinctive formation step: § 21-193(1) requires a new LLC to publish a Notice of Organization for three successive weeks in a legal newspaper of general circulation near its designated office, showing the information § 21-117(b) requires in the certificate of organization, and § 21-193(3) requires proof of publication to be filed with the Secretary of State. The LLC formation fee is $100 online ($110 in office) and a biennial report ($25) is due between January 1 and April 1 of each odd-numbered year (§ 21-125(c)).",
   "sources": [
     {
       "citation": "Neb. Rev. Stat. § 21-108",
-      "title": "Uniform Limited Liability Company Act — Name",
-      "url": "https://law.justia.com/codes/nebraska/chapter-21/statute-21-108/",
-      "lastAccessed": "2026-07-23"
+      "title": "Nebraska Uniform Limited Liability Company Act, Name",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-108",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "Neb. Rev. Stat. § 21-109",
-      "title": "Uniform Limited Liability Company Act — Reservation of name (120 days)",
-      "url": "https://law.justia.com/codes/nebraska/chapter-21/statute-21-109/",
-      "lastAccessed": "2026-07-23"
+      "title": "Reservation of name (120 days)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-109",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 21-192",
+      "title": "Fees ($30 written / $25 electronic for name reservation; $110 / $100 for a certificate of organization)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-192",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "Neb. Rev. Stat. § 21-193",
-      "title": "Uniform Limited Liability Company Act — Notice of organization; publication",
-      "url": "https://law.justia.com/codes/nebraska/chapter-21/statute-21-193/",
-      "lastAccessed": "2026-07-23"
+      "title": "Notice; publication required; filing (three successive weeks, proof filed with the Secretary of State)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-193",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Neb. Rev. Stat. § 21-125",
+      "title": "Biennial report (January 1 to April 1 of each odd-numbered year)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-125",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "Nebraska Secretary of State",
+      "title": "Forms and Fee Information (Application for Reserved Name listed flat at $30)",
+      "url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
+      "lastAccessed": "2026-08-05"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }
