@@ -4,41 +4,59 @@
   "stateSlug": "new-hampshire",
   "dbaTerm": "trade name",
   "filingLevel": "state",
-  "llcFilesWith": "New Hampshire Secretary of State, Corporation Division (trade name registration, Form TN-1, under RSA 349)",
-  "soleProprietorFilesWith": "New Hampshire Secretary of State (the same statewide trade name registration applies to individuals and sole proprietors)",
+  "llcFilesWith": "New Hampshire Secretary of State, Corporation Division (trade name registration, Form TN-1, under RSA 349). RSA 349:1, II expressly exempts an LLC registered under RSA 304-C from the chapter, except where it does business under a trade name other than the name it is registered under, so an LLC files only for a genuinely different name.",
+  "soleProprietorFilesWith": "New Hampshire Secretary of State. RSA 349:1, I makes registration mandatory for every sole proprietor doing business under any name other than the proprietor's own, and for every partnership, trust or association; that duty is the chapter's main subject, and the LLC case is the carve-back in paragraph II.",
   "llcFee": 50,
-  "feeBasis": "The Secretary of State fee to register a trade name is $50, and renewal is also $50.",
+  "feeBasis": "RSA 349:7 sets the fee for filing a trade name registration and issuing the certificate at $50 and the renewal fee at $50. The same section sets $10 for a notice of discontinuance, addition or withdrawal.",
   "duration": "5 years",
-  "renewalRule": "A registration expires after five years (RSA 349:6) and must be re-registered; the Secretary of State mails renewal notices, and a name not renewed within 30 days of expiration is abandoned and freed (RSA 349:8).",
+  "renewalRule": "Registration runs five years from the date of filing (RSA 349:6) and reregistration is required at expiry (RSA 349:8). The Secretary of State forwards a renewal notice and form at least six months before expiry and mails a second notice at least 30 days before. Unless the registration is renewed within 30 days after expiration it is discontinued and the name is abandoned and free, and the Secretary of State cancels from the register every registration more than five years old and not renewed.",
   "publicationRequired": false,
   "publicationRule": null,
-  "protectionLevel": "none",
-  "protectionNote": "New Hampshire folds registered trade names into the LLC name screen (RSA 304-C:32), so an active trade name blocks later entity names that are not distinguishable from it. Registration is a public claim rather than a trademark, and ownership ultimately turns on actual use.",
+  "protectionLevel": "exclusive-registration",
+  "protectionNote": "RSA 349:10 gives a person, proprietorship, partnership or association that has adopted and registered a trade name an express statutory remedy: it may sue to enjoin any other party's use or display of the name, the court may order the defendant to pay over all profits derived from the use, and it may order counterfeits and imitations destroyed. Fraudulent registration is separately actionable in damages and is a misdemeanor for a natural person, a felony for any other. The register is also screened in both directions: RSA 349:1, IV(a) tests a proposed trade name against entity and reserved names, and RSA 304-C:32, III(a) puts RSA 349 trade names into the LLC name screen, so an active trade name blocks a later entity name that is not distinguishable from it. Two limits: RSA 349:11 preserves common-law rights acquired in good faith, and RSA 304-C:32, VIII lets the owner of a registered trade name form an LLC under that same name.",
   "searchUrl": "https://quickstart.sos.nh.gov/online/BusinessInquire",
   "searchNote": "Registered trade names appear in the Secretary of State's QuickStart business name search.",
   "filingUrl": "https://www.sos.nh.gov/corporations-0/forms-and-fees/trade-names",
   "statuteCitation": "RSA 349:1",
-  "statuteUrl": "https://law.justia.com/codes/new-hampshire/title-xxxi/chapter-349/section-349-1/",
-  "notes": "New Hampshire registers trade names statewide with the Secretary of State under RSA 349. LLCs and sole proprietors alike file a trade name registration for $50; unlike most states, the registration expires after five years and must be renewed for another $50, or the name is abandoned and freed. New Hampshire is stricter than most: a registered trade name is part of the RSA 304-C:32 entity-name screen, so it can block later LLC names, though registration is notice rather than a trademark.",
+  "statuteUrl": "https://www.gencourt.state.nh.us/rsa/html/XXXI/349/349-1.htm",
+  "notes": "New Hampshire registers trade names statewide with the Secretary of State under RSA 349, for $50, and unlike most states the registration expires after five years and must be renewed for another $50 or the name is abandoned and freed. Who must file is narrower than it looks: RSA 349:1, I imposes the duty on sole proprietors trading under a name other than their own and on partnerships, trusts and associations, and RSA 349:1, II takes LLCs, corporations, LPs, LLPs and registered foreign entities out of the chapter altogether except where they do business under a trade name other than the one they are registered under. RSA 349:9 makes non-compliance a violation for a natural person and a misdemeanor for any other person. The screen in RSA 349:1, IV mirrors the LLC test in RSA 304-C:32 clause for clause, including the ten factors that do not make a name distinguishable and the three authorizations, and it adds that \"farmers' market\" may not be used in a trade name unless the business meets the RSA 21:34-a, V definition, with a grandfather clause for names already lawfully registered. RSA 304-C:32, VIII lets the owner of a registered trade name form an LLC under that same name.",
   "sources": [
     {
       "citation": "RSA 349:1",
-      "title": "Trade Names — Registration; Generally",
-      "url": "https://law.justia.com/codes/new-hampshire/title-xxxi/chapter-349/section-349-1/",
-      "lastAccessed": "2026-07-23"
+      "title": "Trade Names, Registration; Generally (paragraph II exempts RSA 304-C limited liability companies except when trading under a different name; paragraph IV is the distinguishability screen)",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/XXXI/349/349-1.htm",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "RSA 349:6",
-      "title": "Trade Names — Term of registration (5 years) and renewal",
-      "url": "https://law.justia.com/codes/new-hampshire/title-xxxi/chapter-349/section-349-6/",
-      "lastAccessed": "2026-07-23"
+      "title": "Trade Names, Effect of Registration (effective on filing, continues 5 years from the date of filing)",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/XXXI/349/349-6.htm",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "RSA 349:7",
+      "title": "Trade Names, Record; Fees ($50 registration, $50 renewal, $10 notice of discontinuance, addition or withdrawal)",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/XXXI/349/349-7.htm",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "RSA 349:8",
+      "title": "Trade Names, Reregistration (notices at 6 months and 30 days before expiry; abandoned and free if not renewed within 30 days after)",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/XXXI/349/349-8.htm",
+      "lastAccessed": "2026-08-05"
+    },
+    {
+      "citation": "RSA 349:10",
+      "title": "Trade Names, Fraudulent Registration; Civil Rights (registrant may enjoin use and recover all profits)",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/XXXI/349/349-10.htm",
+      "lastAccessed": "2026-08-05"
     },
     {
       "citation": "New Hampshire Secretary of State",
-      "title": "Trade Names forms and fees (Form TN-1, $50 registration / $50 renewal)",
+      "title": "Trade Names forms and fees (Form TN-1, $50 registration / $50 renewal); not reopened on 2026-08-05, the host returns 403 to scripted clients",
       "url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/trade-names",
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }

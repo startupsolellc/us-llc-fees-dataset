@@ -72,7 +72,8 @@ The rules above are the standard the dataset is held to, and as of **2026-08-05*
 
 | Gap | Extent | Status |
 |---|---|---|
-| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 36 URLs across 8 jurisdictions, in `name-rules` and `dba-rules` only (down from 145 across 29) | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section |
+| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 25 URLs across 5 jurisdictions, in `name-rules` and `dba-rules` only (down from 145 across 29) | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section |
+| Mirror citations retained under the exception above, because the jurisdiction publishes no free official copy of its code | 5 URLs, Arkansas only (`name-rules` and `dba-rules`) | proven rather than assumed, as of 2026-08-05: the Arkansas Bureau of Legislative Research links its code off-site to a commercial publisher and disclaims responsibility for it. Both records carry the enacted text of the Act as an official corroborating source, and both say so in `notes` |
 | `restrictedWords` is an empty array where the state's list has not yet been read | 20 of 51 | an empty array here means *not yet researched*, not *the state restricts nothing* |
 | Some cited URLs have gone dead since they were last opened | 17 confirmed | being re-sourced; a dead link is never replaced by a guess |
 

@@ -9,21 +9,27 @@
   "llcFee": 22.5,
   "feeBasis": "The Secretary of State fee for an entity fictitious name is $22.50 online and $25 by paper; the county clerk then charges a separate recording fee. Sole proprietors pay only the county clerk fee.",
   "duration": "Perpetual (no expiration)",
-  "renewalRule": "A fictitious name does not expire; it stays in effect until the entity cancels it.",
+  "renewalRule": "A fictitious name does not expire and there is no renewal. Cancellation is an obligation rather than an option: under § 4-38-122(e) an LLC that dissolves, or that surrenders or forfeits its right to do business in Arkansas, or that simply stops using the fictitious name, must file a cancellation with the Secretary of State, and if it does not the Secretary of State may cancel the privilege on satisfactory evidence.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "A fictitious name discloses the name a business trades under and grants no exclusive right. Arkansas ties a consequence to not filing rather than a reward for filing: an LLC that does business under a fictitious name without registering it may be blocked from enforcing contracts made under that name and can face a civil penalty (§ 4-38-122).",
+  "protectionNote": "A fictitious name discloses the name a business trades under and grants no exclusive right. Arkansas ties a consequence to not filing rather than a reward for filing, and § 4-38-122(f) is specific and one-sided: where an unregistered LLC is party to a contract, deed, conveyance, assignment or instrument of encumbrance that names it exclusively by the fictitious name, the obligations imposed on the company and the rights the instrument confers on third parties are still enforceable against it, while the company's own rights under that instrument may not be enforced in Arkansas courts until it complies with the section and pays a $300 civil penalty to the Treasurer of State. The filing does carry one screening effect: under § 4-38-122(c) the Secretary of State will not accept a fictitious name that is the same as, or confusingly similar to, an existing entity or reserved name, which is a lower bar than the distinguishability test § 4-38-112 applies to entity names.",
   "searchUrl": "https://sos-corp-search.ark.org/corps",
   "searchNote": "Entity fictitious names filed with the Secretary of State appear in the state business search. Sole proprietor fictitious names sit only in county clerk records, so a full check of individual DBAs means searching the relevant county.",
   "filingUrl": "https://www.sos.arkansas.gov/uploads/bcs/DN-18.pdf",
   "statuteCitation": "Ark. Code § 4-38-122",
   "statuteUrl": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-122/",
-  "notes": "Arkansas splits its DBA system. LLCs and other entities file an Application for Fictitious Name with the Secretary of State ($22.50 online, $25 paper) and then record the returned certificate with their county clerk, except when the registered office is in Pulaski County, so an entity effectively files in two places. Sole proprietors and general partnerships file only with the county clerk. There is no publication requirement, and an entity that skips the filing risks a civil penalty and loss of contract enforcement.",
+  "notes": "Arkansas publishes no free official copy of its code. The Bureau of Legislative Research routes \"Arkansas Code\" from arkleg.state.ar.us to lexisnexis.com behind an interstitial disclaiming responsibility for the destination, and the Secretary of State publishes no copy either, so the citation below is to a verbatim mirror under the exception in this repository's methodology. The corroborating official text is the enacted act on arkleg.state.ar.us: § 4-38-122 was enacted by Act 1041 of the 2021 Regular Session and was read in full for this record. That act is authoritative as enacted but is a 2021 snapshot, and arkleg's Code Sections Amended table is JavaScript-only, so any later amendment could not be checked from here. Arkansas splits its DBA system. LLCs and other entities file an Application for Fictitious Name with the Secretary of State ($22.50 online, $25 paper) and then record the returned certificate with their county clerk, except when the registered office is in Pulaski County, so an entity effectively files in two places; that county-recording step comes from the Secretary of State's own form instructions, not from § 4-38-122, which is silent on it. Sole proprietors and general partnerships file only with the county clerk. There is no publication requirement. Section 4-38-122(b) requires the form to be executed without verification in duplicate, with one counterpart returned bearing the Secretary of State's file marks, and subsection (d) makes certified copies of filed forms admissible in evidence.",
   "sources": [
     {
+      "citation": "Act 1041 of the 2021 Regular Session",
+      "title": "Arkansas Bureau of Legislative Research, enacted text of the Uniform Limited Liability Company Act (§ 4-38-122 read in full at pages 78 to 80); the official corroborating source for this record",
+      "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2FACT1041.pdf",
+      "lastAccessed": "2026-08-05"
+    },
+    {
       "citation": "Ark. Code § 4-38-122",
-      "title": "Arkansas Uniform Limited Liability Company Act — Use of fictitious names",
+      "title": "Arkansas Uniform Limited Liability Company Act, Use of fictitious names (mirror, cited under the methodology exception; Arkansas publishes no free official copy of its code)",
       "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-122/",
       "lastAccessed": "2026-07-23"
     },
@@ -34,5 +40,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }

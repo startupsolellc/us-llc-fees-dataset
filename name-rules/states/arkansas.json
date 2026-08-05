@@ -3,9 +3,9 @@
   "stateAbbr": "AR",
   "stateSlug": "arkansas",
   "entitySuffixRule": "Must contain the words \"limited liability company\" or \"limited company,\" or the abbreviations \"L.L.C.,\" \"LLC,\" \"L.C.,\" or \"LC.\" The word \"Limited\" may be abbreviated \"Ltd.\" and \"Company\" may be abbreviated \"Co.\"",
-  "entitySuffixCitation": "Ark. Code § 4-38-112",
-  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of any existing entity whose formation required a state filing and that is not administratively dissolved, any limited liability partnership with a statement of qualification in effect, any name under which a person is registered to do business in Arkansas, and any name reserved under § 4-38-113. A name that is not distinguishable may be used with the other holder's consent or under a court judgment.",
-  "distinguishabilityCitation": "Ark. Code § 4-38-112",
+  "entitySuffixCitation": "Ark. Code § 4-38-112(a), (f)",
+  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from six categories: the name of an existing person whose formation required a filing with the Secretary of State and that is not administratively dissolved; the name of a limited liability partnership whose statement of qualification is in effect; a name under which a person is registered to do business in Arkansas; a name reserved under § 4-38-113 or another reservation law; a name registered under § 4-38-114 or another registration law; and a name registered under §§ 4-26-405, 4-27-404, 4-38-122 or 4-42-707, which puts entity fictitious names into the screen. Words indicating a type of person, such as \"corporation,\" \"Inc.,\" \"L.P.,\" \"LLP\" or \"LLC,\" are not taken into account. Three separate routes through: the other person consents in a record and submits an undertaking satisfactory to the Secretary of State to change its own name (subsection (c)); the other person consents in a record where the only difference between the two names is an entity-type word, in which case it need not change its name at all (subsection (e)); or the company delivers a certified copy of a final judgment of a court of competent jurisdiction establishing its right to the name (subsection (g)).",
+  "distinguishabilityCitation": "Ark. Code § 4-38-112(b) through (g)",
   "restrictedWords": [
     "bank",
     "trust"
@@ -17,17 +17,23 @@
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
   "namingStatuteUrl": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-112/",
-  "notes": "Arkansas adopted the Uniform Limited Liability Company Act (Act 1041 of 2021), which places LLC naming in § 4-38-112. The naming section carries no general banned-word list; \"bank\" and \"trust\" are governed by the state's banking law rather than the name statute. A reservation lasts 120 days. Online filing is cheaper for both the reservation ($22.50 vs $25) and formation ($45 vs $50), and Arkansas charges a $150 annual franchise tax due May 1.",
+  "notes": "Arkansas publishes no free official copy of its code. The Bureau of Legislative Research routes \"Arkansas Code\" from arkleg.state.ar.us to lexisnexis.com behind an interstitial disclaiming responsibility for the destination, and the Secretary of State publishes no copy either, so the citation below is to a verbatim mirror under the exception in this repository's methodology. The corroborating official text is the enacted act on arkleg.state.ar.us: Arkansas adopted the Uniform Limited Liability Company Act as Act 1041 of the 2021 Regular Session, which placed LLC naming in § 4-38-112 and was read in full for this record. That act is authoritative as enacted but is a 2021 snapshot, and arkleg's Code Sections Amended table is JavaScript-only, so any later amendment could not be checked from here. Beyond the distinguishability screen, § 4-38-112(f) bars an LLC name from containing the name of any person who is not a member, except that the name of a former member, or of a member of a predecessor organization, may continue to be used. The naming section carries no general banned-word list; \"bank\" and \"trust\" are governed by the state's banking law rather than the name statute. A reservation lasts 120 days under § 4-38-113 and may be transferred to another person by a signed notice in a record; the section provides no renewal. Online filing is cheaper for both the reservation ($22.50 vs $25) and formation ($45 vs $50), and Arkansas charges a $150 annual franchise tax due May 1.",
   "sources": [
     {
+      "citation": "Act 1041 of the 2021 Regular Session",
+      "title": "Arkansas Bureau of Legislative Research, enacted text of the Uniform Limited Liability Company Act (§§ 4-38-112 and 4-38-113 read in full at pages 72 to 74); the official corroborating source for this record",
+      "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2FACT1041.pdf",
+      "lastAccessed": "2026-08-05"
+    },
+    {
       "citation": "Ark. Code § 4-38-112",
-      "title": "Arkansas Uniform Limited Liability Company Act — Permitted names",
+      "title": "Arkansas Uniform Limited Liability Company Act, Permitted names (mirror, cited under the methodology exception; Arkansas publishes no free official copy of its code)",
       "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-112/",
       "lastAccessed": "2026-07-23"
     },
     {
       "citation": "Ark. Code § 4-38-113",
-      "title": "Arkansas Uniform Limited Liability Company Act — Reservation of name (120 days)",
+      "title": "Arkansas Uniform Limited Liability Company Act, Reservation of name (120 days, transferable by signed notice; mirror, cited under the methodology exception)",
       "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-3/chapter-38/subchapter-1/section-4-38-113/",
       "lastAccessed": "2026-07-23"
     },
@@ -38,5 +44,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-05"
 }
