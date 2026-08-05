@@ -2,47 +2,66 @@
   "stateName": "Mississippi",
   "stateAbbr": "MS",
   "stateSlug": "mississippi",
-  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" Mississippi does not accept \"limited company,\" \"L.C.,\" or \"LC.\"",
-  "entitySuffixCitation": "Miss. Code § 79-29-109",
-  "distinguishabilityNote": "Must be distinguishable on the records of the Secretary of State from the name of any domestic or foreign corporation, nonprofit corporation, limited partnership, limited liability partnership, or limited liability company, and from any name reserved or registered and not yet expired. A name that is not distinguishable may be used only with the written consent of the other holder (who agrees to change its name) or under a certified copy of a court judgment establishing the applicant's right to use the name in Mississippi.",
-  "distinguishabilityCitation": "Miss. Code § 79-29-109",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviation \"L.L.C.\" or \"LLC.\" Mississippi does not accept \"limited company,\" \"L.C.,\" or \"LC.\" The name may contain the name of a member or manager.",
+  "entitySuffixCitation": "Miss. Code § 79-29-109(1)(a)",
+  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State from (i) the name of any domestic or foreign corporation, nonprofit corporation, limited partnership, limited liability partnership or limited liability company that is organized or registered under Mississippi law and has not been dissolved, and (ii) any name reserved or registered with the Secretary of State for one of those entities whose reservation or registration has not expired. A name that is not distinguishable may still be authorized in two cases: the other holder consents in writing and submits an undertaking satisfactory to the Secretary of State to change its own name, or the applicant delivers a certified copy of a final judgment of a court of competent jurisdiction establishing its right to the name in Mississippi.",
+  "distinguishabilityCitation": "Miss. Code § 79-29-109(1)(c), (3)",
   "restrictedWords": [
     "bank",
     "banker",
+    "bankers",
     "banking",
-    "trust",
     "trust company",
     "insurance",
+    "trust",
     "corporation",
     "incorporated"
   ],
   "nameReservationFee": 25,
   "nameReservationTotalCost": 25,
-  "nameReservationCostBasis": "The Secretary of State fee for an Application for Name Reservation is $25.",
-  "nameReservationDuration": "180 days",
+  "nameReservationCostBasis": "Miss. Code § 79-29-1203(1)(a) sets $25 for filing a reservation of a limited liability company name, or a transfer or cancellation of one. The Secretary of State's Fees and Forms Directory no longer lists any business entity form, so the figure is traced to the statute rather than to a fee page. The office publishes a Business fee schedule PDF that could not be read from this network.",
+  "nameReservationDuration": "180 days, renewable once",
   "nameReservationProcessingTime": null,
-  "nameReservationUrl": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+  "nameReservationUrl": "https://corp.sos.ms.gov/corp/portal/c/page/corpnewfilings/portal.aspx",
   "namingStatuteUrl": "https://law.justia.com/codes/mississippi/title-79/chapter-29/article-1/section-79-29-109/",
-  "notes": "Mississippi's Revised LLC Act (Miss. Code Title 79, ch. 29) sets an unusually short designator list, only \"limited liability company,\" \"L.L.C.,\" or \"LLC\" (it does not accept \"limited company,\" \"LC,\" or \"L.C.\"). Section 79-29-109 also bars financial-sounding words such as \"bank,\" \"trust,\" \"insurance,\" \"corporation,\" and \"incorporated.\" A reservation lasts 180 days and may be renewed once. Mississippi files everything through its online business services portal, the LLC formation fee is $50, and Mississippi is one of the few states that charges no fee for the LLC annual report (due April 15).",
+  "notes": "Mississippi publishes no free official copy of the Mississippi Code. The Legislature's own \"Mississippi Code\" item on legislature.ms.gov links straight to lexisnexis.com, and the Secretary of State links the same commercial platform, so the naming sections are cited to a verbatim mirror and corroborated by the enacted acts the Legislature itself publishes at billstatus.ls.state.ms.us. Section 79-29-109 sets an unusually short designator list, only \"limited liability company,\" \"L.L.C.\" or \"LLC\"; \"limited company,\" \"LC\" and \"L.C.\" are not among them. Subsection (1)(d) bars \"bank,\" \"banker,\" \"bankers,\" \"banking,\" \"trust company,\" \"insurance,\" \"trust,\" \"corporation\" and \"incorporated,\" plus any combination or abbreviation of them and any word of similar import; \"partnership\" and \"limited partnership\" were on that list until House Bill 1105 of the 2024 Regular Session removed them, effective 2024-07-01, so older copies of the section list eleven words rather than nine. A reservation runs 180 days and may be renewed once, but only by filing the renewal application within the 30 days before the initial period expires (§ 79-29-111(2), as amended by Senate Bill 2511 of 2014); the reserved name is transferable by notice and may be cancelled. Every business document in Mississippi is filed through the Secretary of State's online portal. The certificate of formation fee is $50 and a domestic LLC's annual report carries no fee (§ 79-29-1203(1)(d) and (1)(j)); the report is due April 15.",
   "sources": [
     {
       "citation": "Miss. Code § 79-29-109",
-      "title": "Revised Mississippi Limited Liability Company Act — Name",
+      "title": "Revised Mississippi Limited Liability Company Act, Name. Statute mirror, cited under the README exception; its history line reports Laws 2010, ch. 532 and Laws 2024, ch. 404",
       "url": "https://law.justia.com/codes/mississippi/title-79/chapter-29/article-1/section-79-29-109/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Miss. Code § 79-29-111",
-      "title": "Revised Mississippi Limited Liability Company Act — Reservation of name (180 days, one renewal)",
+      "title": "Revised Mississippi Limited Liability Company Act, Reservation of name. Statute mirror, cited under the README exception; its history line reports Laws 2010, ch. 532 and Laws 2014, ch. 468",
       "url": "https://law.justia.com/codes/mississippi/title-79/chapter-29/article-1/section-79-29-111/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "House Bill 1105, 2024 Regular Session",
+      "title": "Mississippi Legislature, HB 1105 as sent to the Governor: amends Section 79-29-109 to remove \"partnership\" and \"limited partnership\" from the prohibited words, effective July 1, 2024. Current official text of the section",
+      "url": "https://billstatus.ls.state.ms.us/documents/2024/pdf/HB/1100-1199/HB1105SG.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Senate Bill 2511, 2014 Regular Session",
+      "title": "Mississippi Legislature, SB 2511 as sent to the Governor: amends Section 79-29-111 so the 180 day reservation may be renewed once, by application filed within the 30 days before it expires",
+      "url": "https://billstatus.ls.state.ms.us/documents/2014/pdf/SB/2500-2599/SB2511SG.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Senate Bill 2542, 2015 Regular Session",
+      "title": "Mississippi Legislature, SB 2542 as sent to the Governor: Section 79-29-1203 fee schedule, $25 name reservation, $50 certificate of formation, no fee for a domestic LLC annual report",
+      "url": "https://billstatus.ls.state.ms.us/documents/2015/pdf/SB/2500-2599/SB2542SG.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Mississippi Secretary of State",
-      "title": "Business Services fees and forms directory (name reservation $25)",
-      "url": "https://www.sos.ms.gov/business-services/fees-forms-directory",
-      "lastAccessed": "2026-07-23"
+      "title": "Business Services and External Affairs, which routes every business filing to the corp.sos.ms.gov portal. The Fees and Forms Directory it links lists only securities, preneed, trademark and notary forms and no longer states the name reservation fee",
+      "url": "https://www.sos.ms.gov/business-services-external-affairs",
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-06"
 }

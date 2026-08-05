@@ -7,38 +7,44 @@
   "llcFilesWith": "Mississippi Secretary of State, Business Services Division (online Fictitious Business Name Registration under the Fictitious Business Name Registration Act)",
   "soleProprietorFilesWith": "Mississippi Secretary of State, Business Services Division (the same statewide registration applies to sole proprietors)",
   "llcFee": 25,
-  "feeBasis": "The Secretary of State fee to register a fictitious business name is $25, the same for LLCs and sole proprietors.",
+  "feeBasis": "Miss. Code § 75-93-21(2) sets $25 to register or renew a fictitious business name and $25 for a withdrawal, cancellation, amendment or assignment, with $10 for a certified copy. Subsection (3) waives the registration or renewal fee for an entity that is required to file annual reports with the Secretary of State, provided the application is filed with that annual report, so a Mississippi LLC that registers alongside its (free) annual report pays nothing. The $25 is the fee on the ordinary standalone path. The Secretary of State's Fees and Forms Directory no longer lists any business entity form, so these figures are traced to the statute rather than to a fee page.",
   "duration": "5 years",
-  "renewalRule": "A registration is effective for five years and may be renewed indefinitely for successive five-year terms.",
+  "renewalRule": "The registration period is five years, and the registration expires on December 31 of the year in which its fifth anniversary falls rather than on the anniversary itself. A renewal may be filed at any time between January 1 and December 31 of that expiration year, and a timely renewal continues the registration for a further five years. If it is not renewed by December 31 of the expiration year the registration expires, and the Secretary of State removes and may purge it. Miss. Code § 75-93-11.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
-  "protectionNote": "The application requires the filer to acknowledge that registering a fictitious business name does not create any exclusive right to the name (Miss. Code § 75-93-7). It provides public notice only.",
+  "protectionNote": "Miss. Code § 75-93-13 is explicit: registration is for public notice only, gives rise to no presumption of an exclusive right to own or use the name, does not affect trademark, service mark, trade name or other name rights previously acquired by others in the same or a similar name, and does not preserve the name against future use or registration by anyone else. The application itself must carry the filer's acknowledgment of that (§ 75-93-7(1)(f)), and § 75-93-7(4) bars the Secretary of State from refusing a registration on the ground that the name is indistinguishable from an existing fictitious business name, registered trademark or entity name.",
   "searchUrl": "https://corp.sos.ms.gov/corp/portal/c/page/corpBusinessIdSearch/portal.aspx",
-  "searchNote": "Registered fictitious business names are searchable through the Secretary of State's online business search.",
-  "filingUrl": "https://www.sos.ms.gov/business-services/fees-forms-directory",
+  "searchNote": "Registered fictitious business names are searchable through the Secretary of State's online business search, and § 75-93-27 requires the office to keep the register open to public examination. Because § 75-93-7(4) forbids refusing a name for being indistinguishable from one already on file, a clear search result is not evidence that the name is free to use.",
+  "filingUrl": "https://corp.sos.ms.gov/corp/portal/c/page/corpnewfilings/portal.aspx",
   "statuteCitation": "Miss. Code § 75-93-7",
   "statuteUrl": "https://law.justia.com/codes/mississippi/title-75/chapter-93/section-75-93-7/",
-  "notes": "Mississippi runs a single statewide DBA system under the Fictitious Business Name Registration Act (Miss. Code Title 75, ch. 93). LLCs and sole proprietors alike register the fictitious business name online with the Secretary of State for $25; the registration lasts five years and renews indefinitely. There is no newspaper publication requirement, and the filer must acknowledge on the application that registration creates no exclusive right to the name.",
+  "notes": "Mississippi publishes no free official copy of the Mississippi Code. The Legislature's own \"Mississippi Code\" item on legislature.ms.gov links straight to lexisnexis.com, and the Secretary of State links the same commercial platform, so this chapter is cited to a verbatim mirror and corroborated by the enacted act the Legislature itself publishes at billstatus.ls.state.ms.us. Mississippi runs a single statewide DBA system under the Fictitious Business Name Registration Act, and registration is voluntary: § 75-93-3 describes the chapter as a voluntary system and § 75-93-7(1) says an entity \"may\" apply. LLCs and sole proprietors register the same way, online, for $25. Two limits the register does impose: § 75-93-25 requires the Secretary of State to refuse a name that is potentially misleading in the office's sole discretion, or that uses an entity type term such as \"Corporation,\" \"Inc.,\" \"Limited Liability Company,\" \"LLC,\" \"Business Trust,\" \"P.C.,\" \"Professional Association\" or \"Ltd.\" unless the filer really is that kind of entity, or that uses a word needing governmental consent without written evidence of it; and § 75-93-31 makes procuring a registration by a knowingly false representation a misdemeanor carrying a fine of up to $500. Going the other way, § 75-93-23 says a fictitious business name is not required to contain any entity type designation at all. A registrant must file an amendment within 30 days of a material change in the registered information (§ 75-93-9), may withdraw the registration (§ 75-93-15) or assign it (§ 75-93-19), and the Secretary of State cancels a registration on withdrawal, non renewal, a court order or a fraudulently obtained filing (§ 75-93-17). There is no newspaper publication requirement. Every business document in Mississippi is filed through the Secretary of State's online portal.",
   "sources": [
     {
       "citation": "Miss. Code § 75-93-7",
-      "title": "Fictitious Business Name Registration Act — Registration (no exclusive right)",
+      "title": "Fictitious Business Name Registration Act, Registration. Statute mirror, cited under the README exception; its history line reports Laws 2010, ch. 401 as the only act",
       "url": "https://law.justia.com/codes/mississippi/title-75/chapter-93/section-75-93-7/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Miss. Code § 75-93-1",
-      "title": "Fictitious Business Name Registration Act — Short title",
+      "title": "Fictitious Business Name Registration Act, short title. Statute mirror, cited under the README exception; the chapter runs from § 75-93-1 to § 75-93-31",
       "url": "https://law.justia.com/codes/mississippi/title-75/chapter-93/section-75-93-1/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Senate Bill 2003, 2010 Regular Session",
+      "title": "Mississippi Legislature, SB 2003 as sent to the Governor: the act that created the Fictitious Business Name Registration Act, effective July 1, 2010. The act directs codification at Sections 25-93-1 to 25-93-31 while the Code publishes the chapter at 75-93-1 to 75-93-31, and the section texts are identical",
+      "url": "https://billstatus.ls.state.ms.us/documents/2010/pdf/SB/2001-2099/SB2003SG.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Mississippi Secretary of State",
-      "title": "Business Services fees and forms directory (fictitious business name $25, 5-year term)",
-      "url": "https://www.sos.ms.gov/business-services/fees-forms-directory",
-      "lastAccessed": "2026-07-23"
+      "title": "Business Services and External Affairs, which routes every business filing to the corp.sos.ms.gov portal. The portal states that business documents in Mississippi may only be filed through the online filing system",
+      "url": "https://www.sos.ms.gov/business-services-external-affairs",
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-06"
 }

@@ -4,47 +4,47 @@
   "stateSlug": "georgia",
   "dbaTerm": "trade name",
   "filingLevel": "county",
-  "llcFilesWith": "Clerk of Superior Court of the county of the entity's legal domicile",
+  "llcFilesWith": "Clerk of Superior Court of the county where the business is chiefly carried on, or of the county of the entity's legal domicile",
   "soleProprietorFilesWith": "Clerk of Superior Court of the county where the business is chiefly carried on",
   "llcFee": null,
-  "feeBasis": "Each county clerk sets the fee. Verified examples in July 2026: Gwinnett $172 plus a $40 publication fee, DeKalb $174, Dade $170.50. Where the clerk does not collect the publication fee, it is paid to the newspaper directly.",
+  "feeBasis": "Each county clerk sets the fee and the publication charge is separate. Verified on 2026-08-06: Gwinnett County charges $172.00 to the Clerk of Superior Court plus a $40.00 publication fee payable to the Gwinnett Daily Post; DeKalb County charges $174.00, effective 2024-07-01, with publication paid directly to The Champion before filing. Amendments and cancellations are priced the same as a new registration in DeKalb. Where the clerk does not collect the publication charge, it is paid to the county legal organ directly.",
   "duration": "No expiration",
-  "renewalRule": "Trade names are not renewed. A new registration is filed when ownership or the registered details change.",
+  "renewalRule": "Trade names are not renewed. A registrant already on the county index is not required to re-register except on a change of ownership, and a change to the name itself is made by filing a new registration with amendments and paying the fee again.",
   "publicationRequired": true,
-  "publicationRule": "Notice of the filing runs once a week for two weeks in the county legal organ, the newspaper that carries the sheriff's advertisements. O.C.G.A. § 10-1-490.",
+  "publicationRule": "Notice of the filing runs once a week for two weeks in the county legal organ, the newspaper the sheriff's office uses for legal advertisements. Keep the publisher's affidavit as proof. O.C.G.A. § 10-1-490.",
   "protectionLevel": "none",
-  "protectionNote": "Registration is public notice of who owns the business, not a grant of rights in the name. Gwinnett County's own guidance warns against assuming that registration secures exclusive use of the name.",
+  "protectionNote": "Registration is public notice of who owns the business, not a grant of rights in the name. Gwinnett County's own guidance warns against assuming that registration secures exclusive use of the name. A county clerk will, however, refuse a registration for a name already on that county's index: DeKalb tells filers to confirm availability first and does not refund a rejected duplicate. That is an administrative screen within one county's records, not a statewide right in the name.",
   "searchUrl": null,
-  "searchNote": "There is no statewide trade name database. Registrations are indexed county by county at each Clerk of Superior Court, so clearing a name in Georgia means checking the counties where conflicts are likely. The Secretary of State's eCorp search does not include trade names.",
+  "searchNote": "There is no statewide trade name database. Registrations are indexed county by county at each Clerk of Superior Court, so clearing a name in Georgia means checking the counties where conflicts are likely. The Secretary of State's eCorp search does not include trade names. Procedures differ by county: DeKalb accepts trade name applications, amendments and cancellations only through eFileGA, and moved its trade name searches to the Odyssey Portal on 2026-07-24.",
   "filingUrl": "https://georgia.gov/file-dba-doing-business",
   "statuteCitation": "O.C.G.A. § 10-1-490",
   "statuteUrl": "https://law.justia.com/codes/georgia/title-10/chapter-1/article-16/part-3/section-10-1-490/",
-  "notes": "Registration is due within 30 days of starting to do business under the name, verified by affidavit. Georgia is the most expensive pilot state for a DBA even though the state itself files nothing: the county fee plus publication runs a little over $210 in the Atlanta metro counties we verified, against $25 to $50 for the state-level filings elsewhere.",
+  "notes": "Georgia publishes no free official copy of the O.C.G.A. The General Assembly's own \"Georgia Code\" link on legis.ga.gov and the Secretary of State's \"Official Code of Georgia\" link both hand off to LexisNexis, and no Georgia government host carries the code text, so this record cites a verbatim mirror and is corroborated by the offices that actually take the filing. Both of those offices quote the section: DeKalb County states that O.C.G.A. § 10-1-490 requires every person, firm or partnership carrying on a trade or business under a trade name to register within 30 days of commencing to do business, with the Clerk of Superior Court in the county where the business is chiefly carried on or the county of its legal domicile, and Gwinnett County states that notice of the filing must be published in the county legal organ once a week for two weeks and that carrying on business without registering is a misdemeanor. Owners' signatures are notarized on the application. Georgia is the most expensive jurisdiction in this dataset for a DBA even though the state itself files nothing: the county fee plus publication runs a little over $210 in the Atlanta metro counties verified here, against $25 to $50 for the state level filings elsewhere.",
   "sources": [
     {
       "citation": "O.C.G.A. § 10-1-490",
-      "title": "Registration of businesses using trade names",
+      "title": "Registration of businesses using trade names. Statute mirror, cited under the README exception because Georgia publishes no free official copy of its code",
       "url": "https://law.justia.com/codes/georgia/title-10/chapter-1/article-16/part-3/section-10-1-490/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Georgia.gov",
-      "title": "File for a DBA (Doing Business As)",
+      "title": "File for a DBA (Doing Business As): county filing, publication once a week for two consecutive weeks in the sheriff's legal organ, notarized owner signatures, no renewal. Page last updated May 2026",
       "url": "https://georgia.gov/file-dba-doing-business",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Gwinnett County Clerk of Superior Court",
-      "title": "Trade Name Registration",
+      "title": "Trade Name Registration: quotes the registration and publication duty and the misdemeanor for carrying on business without registering; $172.00 filing fee plus a $40.00 publication fee",
       "url": "https://www.gwinnettcourts.com/superior/trade-name",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "DeKalb County Clerk of Superior Court",
-      "title": "Trade Names",
+      "title": "Trade Names: quotes O.C.G.A. § 10-1-490 on the 30 day deadline and the county of filing; $174.00 effective 2024-07-01, eFileGA only, no re-registration except on a change of ownership",
       "url": "https://dksuperiorclerk.com/trade-names/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-06"
 }
