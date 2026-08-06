@@ -1,0 +1,57 @@
+{
+  "stateName": "Alabama",
+  "stateAbbr": "AL",
+  "stateSlug": "alabama",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "DOMESTIC LIMITED LIABILITY COMPANIES Certificate of Formation $200.00 Ala. Code § 10A-1-4.31 Amended and Restated Certificate of Formation $100.00 Ala. Code § 10A-1-4.31 Amendment to Formation/Organization $100.00 Ala. Code § 10A-1-4.31 Any other document required or permitted under Title 10A $100.00 Ala. Code § 10A-1-4.31 Articles of Dissolution $100.00 Ala. Code § 10A-1-4.31",
+      "url": "https://www.sos.alabama.gov/sites/default/files/form-files/FeeSchedule.pdf"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "*You may file the Certificate of Formation online in the time it takes to type this request.",
+    "sourceUrl": "https://www.sos.alabama.gov/sites/default/files/2022-09/DomesticLLCFormation.pdf",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Alabama's 'no' rests on the office's own complete fee compilation rather than on a page that was not found. The Secretary of State Fee Schedule prices every fee it collects and prints the statutory authority beside each one; the block quoted here is everything a domestic LLC can be charged, and none of it buys speed. The same schedule does carry an expedite line - 'Expedite Fee for Searches $100/search', Ala. Code § 7-9A-525 - but that is a UCC search fee, which is the useful part of the evidence: the office charges for expediting where it is authorised to, and has no such line for entity filings. Ala. Code § 10A-1-4.31, Filing Fees; All Entities, was read in full and enumerates the fees the Secretary of State 'shall collect' without an expedited-service charge anywhere in them. The Certificate of Formation form closes it from the third side: its payment slip has a 'Service Requested' block whose only service is the $200.00 formation filing fee, beside a hold-for-pickup option and the payment methods - the place an expedite box would be if there were one, and the shape Maine's form uses to sell exactly that. This corrects the earlier discovery note that Alabama's fee schedule was frozen in 2021: that was /2022-01/2021FeeSchedule.pdf, a second, older PDF still linked from the page. The schedule the office links as Fee Schedule is /form-files/FeeSchedule.pdf and its own header records revisions through August 23, 2023. On standardProcessing: the only thing the state says about turnaround is the form's line that an online formation takes the time it takes to type the request. It is recorded verbatim and deliberately not converted into a day range - the sentence is not a duration - so basis stays null rather than claiming a stated range the office never stated. Nothing at all is published for the mail route, which the form otherwise treats as the primary one.",
+  "needsReview": "Standard processing time for the mail route: not published anywhere found. The LLC page, the fee schedule and the Certificate of Formation form all describe mailing two copies to Montgomery without stating how long the office then takes, and the state publishes no queue page. Only the online route has a stated turnaround, and only in the loose phrasing quoted in standardProcessing.",
+  "sources": [
+    {
+      "citation": "Alabama Secretary of State",
+      "title": "Alabama Secretary of State Fee Schedule, revised through August 23, 2023 - complete fee compilation with statutory authority per line; domestic LLC Certificate of Formation $200.00, no expedited-filing line for any entity type; the only expedite fee is $100/search for UCC searches",
+      "url": "https://www.sos.alabama.gov/sites/default/files/form-files/FeeSchedule.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Alabama Secretary of State",
+      "title": "Domestic Limited Liability Company Certificate of Formation - $200.00 filing fee; the payment slip's Service Requested block offers no expedited service; states an online filing takes the time it takes to type the request",
+      "url": "https://www.sos.alabama.gov/sites/default/files/2022-09/DomesticLLCFormation.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Code of Alabama 1975",
+      "title": "Ala. Code § 10A-1-4.31, Filing Fees; All Entities - consulted in full; enumerates the fees the Secretary of State shall collect and establishes no expedited-service fee",
+      "url": "https://alison.legislature.state.al.us/code-of-alabama?section=10A-1-4.31",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Alabama Secretary of State",
+      "title": "LLCs - domestic LLC filing fee $200.00 and the filing procedure; carries no expedited option and no processing time",
+      "url": "https://www.sos.alabama.gov/business-entities/llcs",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

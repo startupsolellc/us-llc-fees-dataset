@@ -1,0 +1,57 @@
+{
+  "stateName": "Indiana",
+  "stateAbbr": "IN",
+  "stateSlug": "indiana",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "IC 23-0.5-9-19 Articles of organization; domestic limited liability company Sec. 19. The secretary of state shall collect the following fees for filing the articles of organization of a domestic limited liability company: (1) Seventy-five dollars ($75) for an electronic filing. (2) One hundred dollars ($100) for filing in a manner other than electronically.",
+      "url": "https://iga.in.gov/ic/2026/Title_23.html"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Indiana prices the channel and not the clock. IC 23-0.5-9 is the fee chapter for business entity filings and it runs to fifty-nine sections, one per filing type, with no expedited-service section among them; section 19 sets the LLC formation fee at $75 electronic and $100 on paper, and that pair of numbers is the whole of what the Secretary of State may collect for the filing. The word 'expedited' occurs exactly twice in the entire Title 23, both times about a court disposing of a shareholder's inspection application on an expedited basis - nothing to do with the filing office. The current paper form agrees: State Form 49459 (R12 / 01-26) states FILING FEE: $100.00 and offers no service option beside it, where Maine's and Alabama's equivalent forms both have a services block. INBiz's own fee calculator was opened in a browser and, for Business Type 'Domestic Limited Liability Company' and Transaction Type 'Filings', offers nineteen filing types - Formation among them - and no expedited option; that check is recorded here but nothing is bound to it, because the calculator is client-rendered and the quote check cannot read it. Two corrections to carry. The lead that Indiana's expedite fee lives in an administrative rule, 'Title 50, rule 112, Expedited services', points at the Indiana UCC Administrative Rules, whose rule 112 reads in full 'Expedited services are not available.' - so it is the wrong subject matter (UCC filings, not entity filings) and it says the opposite of what the lead promised. Its table of contents still advertises a '112.1 Description of expedited service and fee' that the body does not contain, which is presumably how the lead was formed; do not chase that heading again. And iga.in.gov does not have to be read in a browser: the React viewer loads the plain, complete text of a title from /ic/<year>/Title_<n>.html, which curl fetches and which is what the evidence here is quoted from and re-checked against.",
+  "needsReview": "Standard processing time: no figure found. The Secretary of State's business pages and the Articles of Organization form state no turnaround for either channel, and INBiz publishes no queue or status page; the parts of INBiz that might carry one are client-rendered.",
+  "sources": [
+    {
+      "citation": "Indiana Code",
+      "title": "IC 23-0.5-9, Fees - consulted in full; fifty-nine sections, one per filing type, with no expedited-service fee. Section 19 sets the domestic LLC articles of organization fee at $75 electronic / $100 non-electronic. Served as the plain full text of Title 23 that the Indiana Code viewer loads",
+      "url": "https://iga.in.gov/ic/2026/Title_23.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Indiana Secretary of State, Business Services Division",
+      "title": "Articles of Organization, Domestic Limited Liability Company, State Form 49459 (R12 / 01-26) - FILING FEE: $100.00; no expedited-service option on the form",
+      "url": "https://forms.in.gov/Download.aspx?id=16989",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Indiana Secretary of State",
+      "title": "Indiana UCC Administrative Rules - rule 112, Expedited services: 'Expedited services are not available.' Governs UCC filings only; cited here to close the lead that pointed at it, not as evidence about entity filings",
+      "url": "https://inbiz.in.gov/Assets/UCC_ADMINSTATIVE_RULES.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Indiana Secretary of State, INBiz",
+      "title": "Fee Calculator - consulted in a browser; Secretary of State / Filings / Domestic Limited Liability Company offers nineteen filing types including Formation and no expedited option. Client-rendered, so no value is bound to it",
+      "url": "https://inbiz.in.gov/Inbiz/FeeCalculator/Index",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

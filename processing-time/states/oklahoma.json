@@ -1,0 +1,69 @@
+{
+  "stateName": "Oklahoma",
+  "stateAbbr": "OK",
+  "stateSlug": "oklahoma",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "filed same day",
+        "turnaround": "filed same day",
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": "The packet gives the service no name and no time-of-day cut-off; it prices it in the same paragraph as the $100 filing fee, as an additional charge on the in-person channel. It is the only paid acceleration the state publishes anywhere.",
+        "evidence": {
+          "quote": "Pay to the Secretary of State a filing fee of One Hundred Dollars ($100.00). (Title 18, Sec tion 2055) 3. Make checks, cashier's checks, or money orders payable to the Oklahoma Secretary of State. In struments may be mailed, delivered in person, or filed on- line at www.sos.ok.gov. The address of the Secretary of State is 421 N.W. 13th, Suite 210, Oklahoma City, Oklahoma 73103. If delivered in person, there will be an additional Twenty- five Dollar ($25.00) fee for each document filed same day.",
+          "url": "https://www.sos.ok.gov/forms/FM0074.PDF"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Oklahoma's same-day service is agency practice, not a statutory fee, and the record keeps it on that footing. The packet cites Title 18, Section 1142 in the same breath as the credit-card surcharge, but § 1142 as it now reads - amended by Laws 2025, HB 2762, eff. 2025-11-01 - enumerates the Secretary of State's fees without a same-day or in-person charge anywhere in them, and neither do the three superseded versions OSCN carries back to 1986. § 2055, the LLC fee section, does not price one either. This is the F19.4 shape and it is settled the same way: the office really does charge it, the record says so, and the statutory silence is written down here so a later session neither deletes the tier nor invents a section for it. What makes this a tier rather than a channel surcharge (the Massachusetts trap) is that the packet names the turnaround it sells - 'filed same day' - rather than pricing the counter for its own sake. Two consequences worth carrying: the charge is per document, so an LLC formation that files anything alongside its articles pays it more than once, and it is unavailable by mail or online, which are the two routes the packet otherwise offers. The quotation reproduces the PDF text layer's own breaks ('Sec tion', 'In struments', 'on- line', 'Twenty- five') because that is the extraction the check compares against.",
+  "needsReview": "Standard processing time: no figure found and no page that would settle it. The fee list, the forms list, the filing page, the help page and this LLC packet all state a turnaround for nothing except the in-person same-day option. The remaining route is the Oklahoma Administrative Code, which cannot be read from here - rules.ok.gov returns 403 to scripted clients and the Secretary of State's own /oar/ paths return 401 - so this needs a browser session, not another fetch.",
+  "sources": [
+    {
+      "citation": "Oklahoma Secretary of State",
+      "title": "Oklahoma Limited Liability Company Forms and Procedures (SOS Form 0074) - articles of organization filing fee $100.00; additional $25.00 per document for same-day filing when delivered in person",
+      "url": "https://www.sos.ok.gov/forms/FM0074.PDF",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Oklahoma Statutes",
+      "title": "18 O.S. § 1142, Filing and Other Service Fees - consulted in full, current text and all three superseded versions; enumerates the Secretary of State's fees and establishes no same-day or in-person charge",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=67153",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Oklahoma Statutes",
+      "title": "18 O.S. § 2055, Fees - consulted in full; the limited liability company fee section prices no expedited or same-day service",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=67225",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Oklahoma Secretary of State",
+      "title": "Filing Fees - complete fee table, consulted; carries no expedite, same-day or in-person line for any entity type",
+      "url": "https://www.sos.ok.gov/business/fees.aspx",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

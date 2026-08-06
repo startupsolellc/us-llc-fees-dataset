@@ -1,0 +1,77 @@
+{
+  "stateName": "Maine",
+  "stateAbbr": "ME",
+  "stateSlug": "maine",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": false,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Immediate expedited filing (same business day)",
+        "turnaround": "same business day",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "Priced per entity, not per document. The form's cover letter prices the tier without naming a submission channel; the separate expedited-services rule linked from the same page provides for requests made by mail.",
+        "evidence": {
+          "quote": "Immediate expedited filing (same business day): $100 additional filing fee per entity",
+          "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc6.pdf"
+        }
+      },
+      {
+        "tierName": "24-hour expedited filing (next business day) service",
+        "turnaround": "next business day",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "Priced per entity, not per document. The form's cover letter prices the tier without naming a submission channel; the separate expedited-services rule linked from the same page provides for requests made by mail.",
+        "evidence": {
+          "quote": "24-hour expedited filing (next business day) service: $50 additional filing fee per entity",
+          "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc6.pdf"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": { "min": 40, "max": 55 },
+    "statement": "Expedited Filings: Due to the high volume of expedited filing requests, there may be a delay in processing. Procesing Time: Corporate filing processing time is currently 40-55 business days.",
+    "sourceUrl": "https://www.maine.gov/sos/corporations-commissions/corporations/forming-a-business",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Maine has the widest gap in this namespace between waiting and paying: the office's own Forming a Business page states 40-55 business days for a corporate filing, and $100 buys the same business day. The two tiers are printed on the Customer Contact Cover Letter of MLLC-6 itself, the Certificate of Formation form (rev. 6/26/2024), beside the $175.00 filing fee, so they are the state's terms for this exact filing rather than a general schedule read across. Two qualifications belong with the numbers. First, the expedite fee is per entity, not per document: the form says only one expedite fee is required when several documents are filed for the same entity at the same time, which is why feeIsPerDocument is false. Second, the state qualifies its own promise - the same page that states the queue warns that the volume of expedited requests may itself delay processing. The turnaround strings are the form's parenthetical labels; no time-of-day cut-off is published for either tier, so cutoff is null rather than guessed. The LLC forms page also links a Word document, Rules For The Use Of Expedited Service, which was read from the bytes the state serves and agrees with the form at $50 and $100, defines 24-hour service as completion within twenty-four hours of receipt (extended over weekends and holidays) and immediate service as completion at the time the request is made, makes availability depend on staffing levels at the time of the request, and routes mailed requests to the Division in Augusta. It is cited as consulted and nothing is bound to it: it is a binary Word file, and the quote check cannot read one, so no value in this record rests on it. On standardProcessing: the office states one figure for 'corporate filing' without distinguishing a channel, and the formation route the state documents is the paper form, so the range is recorded against the mail field and the online field is left null rather than mirrored into a channel this record has not evidenced.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Maine Secretary of State, Division of Corporations, UCC and Commissions",
+      "title": "Form MLLC-6, Certificate of Formation (rev. 6/26/2024) - filing fee $175.00; cover letter offers 24-hour expedited filing (next business day) $50 and immediate expedited filing (same business day) $100, per entity",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc6.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Maine Secretary of State",
+      "title": "Forming a Business - states corporate filing processing time is currently 40-55 business days and warns that expedited filings may themselves be delayed",
+      "url": "https://www.maine.gov/sos/corporations-commissions/corporations/forming-a-business",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Maine Secretary of State, Bureau of Corporations, Elections and Commissions",
+      "title": "Rules For The Use Of Expedited Service - consulted; defines 24-hour and immediate service, prices them at $50.00 and $100.00 per request, and makes availability dependent on staffing at the time of the request",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/content/assets/250c200-4.doc",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

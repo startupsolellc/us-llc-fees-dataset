@@ -1,0 +1,63 @@
+{
+  "stateName": "Colorado",
+  "stateAbbr": "CO",
+  "stateSlug": "colorado",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": false,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited Service, business organization document filing",
+        "turnaround": "fulfilled within 3 business days",
+        "feeUsd": 150,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Expedite requests received after 4pm may not be reviewed until the following business day.",
+        "channels": null,
+        "note": "Priced only in the fee schedule's Paper fee column; the Online fee column for this row reads n/a. The schedule does not say whether a paper filing may be delivered in person or only by mail, so no channel is recorded.",
+        "evidence": {
+          "quote": "Expedited Service, business organization document filing (fulfilled within 3 business days) - additional fee n/a $150.00",
+          "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": { "min": 0, "max": 0 },
+    "mailBusinessDays": { "min": 7, "max": 10 },
+    "statement": "Q7. How long will it take to process documents I have submitted for filing? Can I expedite the process? A7. Online filings (most documents must be filed online): Documents submitted online are filed in real-time, which means that the document is immediately processed after you receive your payment confirmation. Specific documents that can't be filed online (paper-only) : These will typically be processed by our office within 7-10 business days from the date received. Please note that USPS mail is picked up by a state distribution center prior to being delivered to our office so it may be delayed a couple more days than expected. Documents are not processed on weekends or holidays. You may expedite the process with payment of an additional fee. Expedited documents are processed within 3 business days of being received by our office. Expedite requests received after 4pm may not be reviewed until the following business day.",
+    "sourceUrl": "https://www.coloradosos.gov/pubs/business/FAQs/filing.html",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Colorado sells expedited service and an LLC formation cannot buy it, which is why `offered` is true while `appliesToLlcFormation` is false. The $150 sits in the fee schedule's Paper fee column and the Online fee column for the same row reads n/a, so the tier prices the paper route only. On the forms list, the Limited liability companies block gives Articles of Organization an online filing and a Paper form of 'Not available' - the state publishes no paper route for LLC formation at all. What is left is the online route, and the office's own answer to 'How long will it take' is that online filings are processed in real time on payment. So the expedite fee has nothing to accelerate here: it reaches the paper-only documents (and the three-business-day promise is measured against the 7-10 business days those take), not the formation filing. Recording the tier with appliesToLlcFormation false keeps both halves visible; dropping it would hide a service the state really does sell, and marking it true would put a fee against a filing that cannot be made on paper. On standardProcessing: 'filed in real-time' and 'immediately processed' is encoded as min 0 / max 0 online, and '7-10 business days' as the mail range - the statement is the artifact, the ranges are convenience. The 4pm cut-off recorded on the tier is quoted inside that same statement, so it is mechanically checked with it.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business organizations fee schedule - Expedited Service, business organization document filing, fulfilled within 3 business days, $150.00 paper / n/a online; Articles of Organization $50.00 online",
+      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business FAQs, Filing documents - Q7 states online filings are processed in real time, paper-only documents take 7-10 business days, and expedited documents are processed within 3 business days",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/filing.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Colorado Secretary of State",
+      "title": "Business forms list - consulted in full; under Limited liability companies, Articles of Organization has an online filing and a Paper form of 'Not available'",
+      "url": "https://www.coloradosos.gov/pubs/business/forms_main.html",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}
