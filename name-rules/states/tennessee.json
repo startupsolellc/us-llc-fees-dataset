@@ -18,13 +18,13 @@
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://sos.tn.gov/businesses/services/business-forms-fees",
   "namingStatuteUrl": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-106/",
-  "notes": "Tennessee does not publish a fixed list of banned words; instead § 48-249-106(a)(2) bars any language stating or implying that the LLC may transact a business needing state authorization (banking, insurance, trust powers, and the like) unless the appropriate commission or official certifies the authorization to the Secretary of State, and it bars implying affiliation with a fraternal, veterans', religious, charitable, or professional organization or with an agency of the United States. A reservation lasts four months with no renewal step; § 48-249-107 says that once it expires the same party or any other party may apply for the same name, and a reservation may be transferred by notice (Notice of Cancellation or Transfer of Reserved Name, SS-4406, $20). On fees, the official schedule prints Articles of Organization (SS-4270) as $300 with an asterisk for per-member variation, and the Secretary of State's business FAQ states the LLC annual report rule verbatim: $300 minimum, increasing by an additional $50 per member for every member over 6, up to a $3,000 maximum.",
+  "notes": "Tennessee publishes no free official copy of its code: the General Assembly's own 'Tennessee Code' link (wapp.capitol.tn.gov Links page) hands off to lexisnexis.com/hottopics/tncode, and no state host carries the code text, so the mirror citations below are kept under the README exception with the enacted Public Chapters as the corroborating official source. Per the code's history line, § 48-249-106 was enacted by Acts 2005, ch. 286, § 1 and amended once by Acts 2006, ch. 620, § 16 (deleting the last sentence of former (d)(3)); § 48-249-107 was enacted by Acts 2005, ch. 286, § 1 and never amended. Both chapters were read in full from the Legislature's own PDF archive and match the mirrors' 2024 code text. Tennessee does not publish a fixed list of banned words; instead § 48-249-106(a)(2) bars any language stating or implying that the LLC may transact a business needing state authorization (banking, insurance, trust powers, and the like) unless the appropriate commission or official certifies the authorization to the Secretary of State, and it bars implying affiliation with a fraternal, veterans', religious, charitable, or professional organization or with an agency of the United States. A reservation lasts four months with no renewal step; § 48-249-107 says that once it expires the same party or any other party may apply for the same name, and a reservation may be transferred by notice (Notice of Cancellation or Transfer of Reserved Name, SS-4406, $20). On fees, the official schedule prints Articles of Organization (SS-4270) as $300 with an asterisk for per-member variation, and the Secretary of State's business FAQ states the LLC annual report rule verbatim: $300 minimum, increasing by an additional $50 per member for every member over 6, up to a $3,000 maximum.",
   "sources": [
     {
       "citation": "Tenn. Code Ann. § 48-249-106",
-      "title": "Tennessee Revised Limited Liability Company Act, LLC name (full text read 2026-07-25: designator, barred words, distinguishability, three exceptions)",
+      "title": "Tennessee Revised Limited Liability Company Act, LLC name (full text re-read 2026-08-06: designator, barred words, distinguishability, three exceptions; mirror kept under the README exception, no free official code)",
       "url": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-106/",
-      "lastAccessed": "2026-07-25"
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Tenn. Code Ann. § 48-249-107",
@@ -34,9 +34,21 @@
     },
     {
       "citation": "Tenn. Code Ann. § 48-249-106",
-      "title": "Tennessee Revised Limited Liability Company Act, LLC name (Justia mirror; blocks this network, cited for readers)",
+      "title": "Tennessee Revised Limited Liability Company Act, LLC name (Justia mirror, 2024 code; carries the history line: Acts 2005, ch. 286, § 1; 2006, ch. 620, § 16)",
       "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Acts 2005, ch. 286 (Public Chapter 286, 104th General Assembly)",
+      "title": "Tennessee Revised Limited Liability Company Act as enacted, corroborating official source read in full 2026-08-06 (act §§ 106 and 107 match the mirrors' 2024 code text)",
+      "url": "https://www.capitol.tn.gov/Bills/104/Chapter/PC0286.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Acts 2006, ch. 620, § 16 (Public Chapter 620, 104th General Assembly)",
+      "title": "Only amendment to § 48-249-106 per the history line, corroborating official source read 2026-08-06 (deletes the last sentence of former (d)(3))",
+      "url": "https://www.capitol.tn.gov/Bills/104/Chapter/PC0620.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Tennessee Secretary of State",
@@ -51,5 +63,5 @@
       "lastAccessed": "2026-07-25"
     }
   ],
-  "lastVerified": "2026-07-25"
+  "lastVerified": "2026-08-06"
 }

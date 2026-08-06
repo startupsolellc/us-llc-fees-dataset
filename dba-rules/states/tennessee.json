@@ -9,7 +9,7 @@
   "llcFee": 20,
   "feeBasis": "The $20 Secretary of State fee registers an assumed name for an LLC or corporation. The registration lasts five years and renews for another $20.",
   "duration": "5 years",
-  "renewalRule": "Renewable in five-year terms (Application for Renewal of Registration Assumed Name, SS-4481, $20), filed before the registration expires. Changing or cancelling an assumed LLC name is SS-4229, $20.",
+  "renewalRule": "Renewable in successive five-year terms (Application for Renewal of Registration Assumed Name, SS-4481, $20), and § 48-249-106(d)(5) opens the renewal window only within the two months preceding expiration. Changing or cancelling an assumed LLC name is SS-4229, $20; under § 48-249-106(g) the Secretary of State cancels the right to the assumed name if it is not renewed before it expires or if the LLC dissolves.",
   "publicationRequired": false,
   "publicationRule": null,
   "protectionLevel": "none",
@@ -19,7 +19,7 @@
   "filingUrl": "https://tnbear.tn.gov/Ecommerce/AssumedNameInstr.aspx",
   "statuteCitation": "Tenn. Code Ann. § 48-249-106",
   "statuteUrl": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-106/",
-  "notes": "Tennessee's assumed name is an entity filing: an LLC or corporation registers one $20 assumed name with the Secretary of State, good for five years and renewable. Sole proprietors are not part of this system, and there is no newspaper-publication requirement. Because assumed names sit in the same records the state screens for distinguishability, a registered assumed name behaves defensively like an entity name while it is active.",
+  "notes": "Tennessee publishes no free official copy of its code: the General Assembly's own 'Tennessee Code' link hands off to lexisnexis.com/hottopics/tncode and no state host carries the code text, so the mirror citations below are kept under the README exception with the enacted Public Chapters (read in full 2026-08-06 from the Legislature's own PDF archive) as the corroborating official source. Tennessee's assumed name is an entity filing: an LLC or corporation registers one $20 assumed name with the Secretary of State, good for five years and renewable. Sole proprietors are not part of this system, and there is no newspaper-publication requirement. Because assumed names sit in the same records the state screens for distinguishability, a registered assumed name behaves defensively like an entity name while it is active.",
   "sources": [
     {
       "citation": "Tennessee Secretary of State",
@@ -35,16 +35,22 @@
     },
     {
       "citation": "Tenn. Code Ann. § 48-249-106",
-      "title": "Tennessee Revised Limited Liability Company Act — LLC name (assumed names in the distinguishability records) (Justia mirror; blocks this network, cited for readers)",
+      "title": "Tennessee Revised Limited Liability Company Act, LLC name (Justia mirror, 2024 code, re-read 2026-08-06: assumed name in (d), five-year term, two-month renewal window, cancellation in (g))",
       "url": "https://law.justia.com/codes/tennessee/title-48/limited-liability-companies/chapter-249/part-1/section-48-249-106/",
-      "lastAccessed": "2026-07-23"
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Acts 2005, ch. 286 (Public Chapter 286, 104th General Assembly)",
+      "title": "Tennessee Revised Limited Liability Company Act as enacted, corroborating official source read in full 2026-08-06 (assumed-name provisions of act § 106 match the mirrors' 2024 code text; the one later amendment, Acts 2006, ch. 620, § 16, deleted the last sentence of former (d)(3))",
+      "url": "https://www.capitol.tn.gov/Bills/104/Chapter/PC0286.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Tenn. Code Ann. § 48-249-106",
-      "title": "LLC name statute read in full 2026-07-25: new names are screened against assumed names as well as true, reserved and registered names",
+      "title": "LLC name statute read in full, most recently 2026-08-06: new names are screened against assumed names as well as true, reserved and registered names (mirror kept under the README exception, no free official code)",
       "url": "https://codes.findlaw.com/tn/title-48-corporations-and-associations/tn-code-sect-48-249-106/",
-      "lastAccessed": "2026-07-25"
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-25"
+  "lastVerified": "2026-08-06"
 }
