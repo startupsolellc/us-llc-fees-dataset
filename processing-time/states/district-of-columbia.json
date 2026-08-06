@@ -1,0 +1,101 @@
+{
+  "stateName": "District of Columbia",
+  "stateAbbr": "DC",
+  "stateSlug": "district-of-columbia",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited same-day service",
+        "turnaround": "same-day",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "in-person",
+          "online"
+        ],
+        "note": "The quote is taken from the sentence that introduces both tiers rather than from the tier line alone, because the introduction is what carries appliesToLlcFormation - 'expedited service for each of the filings below', where the filings below are the Corporations Division's eleven per-entity fee pages and one of them is Limited Liability Company. This is the tier the District makes compulsory rather than optional at the counter: 'Expedited service fee is required for all walk-in customers that receive service at the Business License Center.' No cut-off hour is published for the tier itself; the office publishes counter hours instead - 8:30 am to 4:30 pm Monday, Tuesday, Wednesday and Friday, 10:30 am to 4:30 pm Thursday, with in-person service closing to visitors at 4 pm - and those are hours of business rather than a stated deadline for same-day work, so they are recorded here and not in cutoff.",
+        "evidence": {
+          "quote": "The Department of Licensing and Consumer Protection Corporations Division also offers expedited service for each of the filings below: Expedited same-day service: $100, in addition to all other fees required by statute or regulation",
+          "url": "https://dlcp.dc.gov/node/1621901"
+        }
+      },
+      {
+        "tierName": "Expedited 3-day service",
+        "turnaround": "3-day",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "in-person",
+          "online"
+        ],
+        "note": "turnaround reproduces the District's own '3-day' without a unit, because the page attaches none. Reading it as three business days would add the distinction Arizona and Idaho forced this namespace to stop making, and nothing on the fee schedule or in Title 29 says whether the count excludes weekends.",
+        "evidence": {
+          "quote": "Expedited 3-day service: $50, in addition to all other fees required by statute or regulation.",
+          "url": "https://dlcp.dc.gov/node/1621901"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "The District states its own applicability instead of leaving it to be inferred, which no other record in this namespace has been able to say. 'The Department of Licensing and Consumer Protection Corporations Division also offers expedited service for each of the filings below' sits at the head of a page whose 'filings below' are eleven per-entity fee schedules, and Corporations Division Fees - Limited Liability Company is one of them; that page prices a domestic certificate of organization at $99.00 and twenty-seven other LLC filings, none of them by speed, because speed is priced once for all of them upstairs. So appliesToLlcFormation is read off the page rather than reasoned from an exclusion list the way West Virginia's had to be. Two things about the tiers are unusual enough to record. First, the same-day tier is not optional at the counter: 'Expedited service fee is required for all walk-in customers that receive service at the Business License Center', so a walk-in filer does not choose between standard and expedited, and $100 is the price of the in-person channel rather than a premium over it. That is the inverse of the Massachusetts channel surcharge - the same structural fact, a price attached to a way of filing, but here it buys a real turnaround rather than none. Second, the channel picture is asymmetric and the record follows only what the page states affirmatively: expedited is required in person, 'available for certain web filings at CorpOnline site', and 'may be limited or not available for mail-in filings'. Mail is therefore left out of channels rather than listed, because a hedge is not an offer. The statute behind this is a delegation, not a schedule. D.C. Code § 29-102.12(a) has the Mayor adopt rules to 'establish or revise fees for entity filings', with the proposed rules going to the Council for a 45-day review, so the figures live in regulation and the agency page carries them; the schedule itself says 'These fees went into effect on January 1, 2012'. § 29-102.13(a)(2) is the only place Title 29 uses the word: the Corporate Recordation Fund is credited with fees 'that are identified as expedited fees', which recognises the product without pricing it. chargedIfRejected is left null even though that section is the closest any state has come to answering it. § 29-102.13(d) refunds 'overpayments and duplicate and erroneous payments' and says 'a mere change of purpose after the payment of money, as when a party desires to withdraw a filing, shall not entitle a party to a refund', and (e) deems all other fees nonrefundable processing fees; § 29-102.12(c) likewise denies a refund on withdrawal or correction. Every one of those addresses a filer who changes their mind, and none addresses a filing the Division rejects, which is the question this field asks. Timing matters for this record more than for most: it was read during the District's changeover. DLCP's licensing systems went offline 2026-08-05, CorpOnline was unavailable 2026-08-06 through 2026-08-10, and the Division's own maintenance page says that when it relaunches on August 10 'it will have become BOSS (boss.dc.gov), the District's new one-stop platform for business registration and licensing'. The fee schedule read here is the pre-migration one and is still the page the agency publishes; whether BOSS restates these two tiers is unknown and worth a re-read after the launch.",
+  "needsReview": "standardProcessing is unresearched rather than absent, and isPublished is null for that reason. No page reachable on dlcp.dc.gov - the Corporations fee schedules, the Corporate Registration page, the DLCP HUB migration page - states a turnaround, a range or a queue date for corporate filings, but the system where such a figure would normally appear could not be opened at all: corponline.dlcp.dc.gov answered 403 with a scheduled-maintenance notice for the whole 2026-08-06 to 2026-08-10 window. Re-check at boss.dc.gov after the 2026-08-10 launch, and re-read the two expedite tiers at the same time, since a platform replacement is exactly the event that restates a fee schedule dated 2012.",
+  "sources": [
+    {
+      "citation": "District of Columbia Department of Licensing and Consumer Protection",
+      "title": "Fees for Corporate Registration Services - the Corporations Division's expedite schedule: expedited same-day service $100 and expedited 3-day service $50, each in addition to all other fees required by statute or regulation, offered 'for each of the filings below', required for all walk-in customers at the Business License Center, available for certain web filings at CorpOnline and possibly limited or unavailable for mail-in filings; in effect since January 1, 2012",
+      "url": "https://dlcp.dc.gov/node/1621901",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "District of Columbia Department of Licensing and Consumer Protection",
+      "title": "Corporations Division Fees - Limited Liability Company - one of the eleven per-entity schedules the expedite sentence refers to; prices a domestic certificate of organization at $99.00 and twenty-seven further LLC filings, with no expedited-service line of its own",
+      "url": "https://dlcp.dc.gov/node/1621921",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "District of Columbia Department of Licensing and Consumer Protection",
+      "title": "DLCP License & Corporate Filing Fees - the department-wide fee summary that links the Corporations schedule, and which carries the migration notice that DLCP licensing systems went offline 2026-08-05 and that BOSS launches 2026-08-10",
+      "url": "https://dlcp.dc.gov/page/dlcp-license-corporate-filing-fees",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Code of the District of Columbia",
+      "title": "D.C. Code § 29-102.12, Fees - delegates the entity filing fee schedule to rules adopted by the Mayor subject to a 45-day Council review, and denies a refund of the filing fee on withdrawal or correction of a filed record",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.12",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Code of the District of Columbia",
+      "title": "D.C. Code § 29-102.13, Establishment of Corporate Recordation Fund; disposition of entity filing fees - subsection (a)(2) credits the Fund with fees 'identified as expedited fees', the only recognition of expedited service in Title 29; subsections (d) and (e) govern refunds and deem all other fees nonrefundable processing fees",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/29-102.13",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "District of Columbia Department of Licensing and Consumer Protection",
+      "title": "CorpOnline - the Division's filing system; answered 403 with 'System Under Maintenance. CorpOnline is currently offline for a scheduled upgrade. When it relaunches on August 10, it will have become BOSS (boss.dc.gov)'",
+      "url": "https://corponline.dlcp.dc.gov/",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -1,0 +1,63 @@
+{
+  "stateName": "Nebraska",
+  "stateAbbr": "NE",
+  "stateSlug": "nebraska",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "Limited Liability Companies (Domestic) Name of Filing Fee Online Filing Certificate of Organization $110 (In-Office) / $100 (Online) eDelivery",
+      "url": "https://sos.nebraska.gov/business-services/forms-and-fee-information"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "An evidenced no in which the state's fee table has a second money column that is not about speed, which is the whole point of the quotation. Nebraska's Forms and Fees page prices every filing the Business Services Division takes, entity type by entity type, under three headings - Name of Filing, Fee, Online Filing - and the second heading resolves into a pair, '$110 (In-Office) / $100 (Online)' for a certificate of organization and '$30 (In-Office) / $25 (Online)' for most of the rest. A page that prices a filing twice has already answered the question this namespace asks, and the answer is that Nebraska splits by channel and never by time. It is the Arkansas lever rather than the Massachusetts one: the state discounts the online route by $10 on formation and $5 elsewhere instead of surcharging speed, so the cheaper number is the faster one and nothing is sold on top. That is confirmed rather than inferred, because the office's own site search returns nothing at all. Both 'expedite' and 'expedited' yield 'Your search yielded no results' across the whole of sos.nebraska.gov, which is the strongest form the negative search can take and avoids the trap of searching for a word the page would not have used - the office does have the vocabulary, it simply never uses it for business filings. The statute agrees and is where the channel split comes from: Neb. Rev. Stat. § 21-192 prices 'all filings under the Nebraska Uniform Limited Liability Company Act, including amendments and name reservation' at thirty dollars in writing and twenty-five electronically, with certificates of organization and foreign certificates of authority carved out at one hundred ten and one hundred, and it establishes no fee for speed anywhere in its five subsections. § 84-511, the section § 21-192 points at for what 'electronically' means, is a grant of authority to accept electronic filings and prices nothing. One correction to record, because it runs the other way from what this repository currently believes: the agency fee table no longer omits the electronic rate. It prints both halves of every pair, matching § 21-192 figure for figure, so the divergence between agency page and statute noted for Nebraska elsewhere in the campaign's technique file is stale as measured today. On standardProcessing: Nebraska publishes comparatives and no durations. The only processing language reachable anywhere on the site is 'For Corporations and UCC please utilize online filings for the fastest processing' on a COVID-19 notice and, on the new filing system's page, a promise of 'quicker turnaround processing times' among that system's new features. Both say one route is faster than another and neither attaches a number, a range or a queue date to either route, which is the South Carolina shape exactly - a comparison with no time in it. isPublished false records that Nebraska publishes no standard processing time, not that filings are instant.",
+  "needsReview": "www.nebraska.gov, which hosts the eDelivery online filing application the fee table links from every row, could not be opened. The local resolver returns no address for it at all while Cloudflare DoH returns 206.16.212.82, and pinning that address with --resolve still established no TCP connection in repeated attempts, so this is the F24.6 shape where a resolution anomaly is a reason to pin and not a promise that pinning works. The checkout inside that application is the one place an unadvertised expedited option or a published queue figure would appear, and it is unread. Worth noting for whoever retries it: West Virginia's One Stop Business Portal is dark on the same route and sits in the same 206.16.212.0/24 block, so the two may be one network condition rather than two.",
+  "sources": [
+    {
+      "citation": "Nebraska Secretary of State",
+      "title": "Forms and Fee Information - the Business Services Division's complete fee list by entity type under the headings Name of Filing, Fee and Online Filing; the Limited Liability Companies (Domestic) block prices a certificate of organization at $110 (In-Office) / $100 (Online) and carries no expedited-service line",
+      "url": "https://sos.nebraska.gov/business-services/forms-and-fee-information",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nebraska Revised Statutes",
+      "title": "Neb. Rev. Stat. § 21-192, Fees - the Nebraska Uniform Limited Liability Company Act's fee section, read in full; thirty dollars in writing and twenty-five electronically for all filings, one hundred ten and one hundred for a certificate of organization, and no fee for expedited service in any subsection",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=21-192",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nebraska Revised Statutes",
+      "title": "Neb. Rev. Stat. § 84-511, Electronic transmission and filing of documents - the authority § 21-192's electronic rate depends on; a grant of power to accept electronic filings that establishes no fee and no service level",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=84-511",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nebraska Secretary of State",
+      "title": "New Online Business Filing System - describes the system's features including 'quicker turnaround processing times', a comparative with no duration attached, and the credit card and ACH payment surcharges",
+      "url": "https://sos.nebraska.gov/new-online-business-filing-system",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nebraska Secretary of State",
+      "title": "COVID-19 Information - carries the office's only other statement about speed, 'For Corporations and UCC please utilize online filings for the fastest processing', again with no duration attached",
+      "url": "https://sos.nebraska.gov/covid-19-information",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

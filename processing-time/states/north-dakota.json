@@ -1,0 +1,57 @@
+{
+  "stateName": "North Dakota",
+  "stateAbbr": "ND",
+  "stateSlug": "north-dakota",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "10-32.1-92. Secretary of state - Fees and charges. The secretary of state shall charge and collect for: 1. Filing articles of organization and issuing a certificate of organization, one hundred thirty-five dollars. 2. Filing articles of amendment, fifty dollars. 3. Filing statement of correction, fifty dollars. 4. Filing restated articles of organization, one hundred twenty-five dollars. 5. Filing a statement of authority or a statement amending or canceling the statement of authority of a limited liability company, twenty dollars. 6. Filing articles of conversion of a limited liability company, fifty dollars and: a. If the organization resulting from the conversion will be a domestic organization governed by the laws of this state, then the fees provided by the governing laws to establish or register a new organization like the organization resulting from the conversion; or b. If the organization resulting from the conversion will be a foreign organization that will transact business in this state, then the fees provided by the governing laws to obtain a certificate of authority or register an organization like the organization resulting from the conversion. 7. Filing abandonment of conversion, fifty dollars. 8. Articles of domestication, fifty dollars and: a. If the organization resulting from the domestication will be a domestic organization governed by the laws of this state, then the fees provided by the governing laws to establish or register a new organization like the organization resulting from the domestication; or b. If the organization resulting from the domestication will be a foreign organization that will transact business in this state, then the fees provided by the governing laws to obtain a certificate of authority or register an organization like the organization resulting from the domestication. 9. Filing articles of merger or exchange and issuing a certificate of merger or exchange, fifty dollars. 10. Filing abandonment of merger or exchange, fifty dollars. 11. Filing an application to reserve a name, ten dollars. 12. Filing a notice of transfer of a reserved name, ten dollars. 13. Filing a cancellation of reserved name, ten dollars. 14. Filing a consent to use a name, ten dollars. 15. Filing a statement of change of address of registered office or change of registered agent or both, or a statement of change of address of registered office by registered agent, the fee provided in section 10-01.1-03. 16. Filing a resolution for the establishment of a class or series of membership interests, fifty dollars. 17. Filing a notice of dissolution, ten dollars. 18. Filing a statement of revocation of voluntary dissolution proceedings, ten dollars. 19. Filing articles of dissolution and termination, twenty dollars. 20. Filing an application of a foreign limited liability company for a certificate of authority to transact business in this state and issuing a certificate of authority, one hundred thirty-five dollars. 21. Filing an amendment to the certificate of authority by a foreign limited liability company, fifty dollars. 22. Filing a certificate of fact stating a merger of a foreign limited liability company holding a certificate of authority to transact business in this state, fifty dollars. 23. Filing a certified statement of conversion of a foreign limited liability company, fifty dollars. Page No. 61 24. Filing an application for withdrawal of a foreign limited liability company and issuing a certificate of withdrawal, twenty dollars. 25. Filing an annual report of a limited liability company or foreign limited liability company, fifty dollars. a. The secretary of state shall charge and collect additional fees for late filing of the annual report as follows: (1) After the date provided in subsection 3 of section 10 -32.1-89, fifty dollars; and (2) After the termination of the limited liability company, or the revocation of the certificate of authority of a foreign limited liability company, the reinstatement fee of one hundred thirty-five dollars. b. Fees paid to the secretary of state according to this subsection are not refundable if an annual report submitted to the secretary of state cannot be filed because it lacks information required by section 10-32.1-89, or the annual report lacks sufficient payment as required by this subsection. 26. Filing any process, notice, or demand for service, the fee provided in section 10-01.1-03. 27. Submitting any record for approval before the actual time of submission for filing, one-half of the fee provided in this section for filing the record. 28. Filing any other statement or report of a limited liability company or foreign limited liability company, ten dollars. 29. Furnishing a copy of any record, or paper relating to a limited liability company or a foreign limited liability company: a. The fee provided in section 54-09-04 for copying a record; and b. Five dollars for a search of records. 30. Furnishing a certificate of good standing, existence, or authorization: a. Fifteen dollars; and b. Five dollars for a search of records.",
+      "url": "https://ndlegis.gov/cencode/t10c32-1.pdf"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "The New Mexico shape: one exhaustive statutory fee list, quoted whole because its completeness is the evidence. N.D.C.C. § 10-32.1-92, 'Secretary of state - Fees and charges', opens with 'The secretary of state shall charge and collect for:' and then runs thirty numbered subsections covering every filing the LLC chapter permits, from articles of organization at one hundred thirty-five dollars through certificates of good standing. Not one of them prices time. Two subsections are worth naming because they are the near misses a careless reading would take for an expedite. Subsection 27 charges 'one-half of the fee provided in this section' for 'Submitting any record for approval before the actual time of submission for filing' - that is preclearance, the same product California gates its fastest tier behind, and it buys review of a draft rather than speed on a filing. Subsection 25.b makes annual report fees non-refundable when the report cannot be filed, which is the only place the chapter addresses money and rejection together and says nothing about expedited service. The agency side agrees and was checked in three independent ways. The Secretary of State's own Limited Liability Company page carries a Fees block for each of the four LLC types North Dakota recognises - plain, farming or ranching, ALF and professional - and each block lists registration, annual report, amendment, dissolution or termination and withdrawal, with no sixth line. No page under www.sos.nd.gov/business contains the string 'expedit' at all, the Business Services landing page and the Start, Register and Maintain pages included. And FirstStop, the state's filing portal, is a React application serving a 594-byte shell whose 5.6 MB bundle also contains no occurrence of 'expedit', 'rush', 'same day' or '24-hour'; its route table, 138 endpoints recovered from the bundle, has no fee, queue or processing controller in it, and the one date endpoint that answers unauthenticated, /api/Date, returns two lobbyist registration window dates and nothing about filing turnaround. The general Secretary of State chapter closes the last door: N.D.C.C. §§ 54-09-04 and 54-09-11 are the office-wide fee sections, the place South Dakota keeps its office-wide expedite, and both were read in full. § 54-09-04 prices signatures and seals, record searches, 'filing any transaction not otherwise provided for' at ten dollars and compilations; § 54-09-11 prices programming charges and listings. Chapter 54-09 contains no occurrence of 'expedit', 'rush', 'priority', 'special handling', 'same day' or 'twenty-four'. On standardProcessing: nothing on any reachable North Dakota page states a turnaround, a range or a queue date for business filings, not even the comparative form Nebraska and South Carolina use. isPublished false records that absence rather than a claim that filings are instant.",
+  "needsReview": "The logged-in FirstStop filing flow was not opened. Its public bundle and its 138-endpoint route table name no expedited service and no processing time, which is strong negative evidence, but §11.9's qualification holds: a logged-out route table is not a logged-in one, and the checkout is where an unadvertised administrative charge of the Oklahoma kind would appear.",
+  "sources": [
+    {
+      "citation": "North Dakota Century Code",
+      "title": "N.D.C.C. ch. 10-32.1, North Dakota Limited Liability Company Act - chapter PDF read in full; § 10-32.1-92 'Secretary of state - Fees and charges' is a closed list of thirty subsections with no expedited-service fee, and § 10-32.1-92(27) prices preclearance at half the filing fee",
+      "url": "https://ndlegis.gov/cencode/t10c32-1.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Dakota Century Code",
+      "title": "N.D.C.C. ch. 54-09, Secretary of State - the office-wide chapter read in full; §§ 54-09-04 and 54-09-11 are its fee sections and neither establishes an expedited-service fee, nor does any section of the chapter use the word",
+      "url": "https://ndlegis.gov/cencode/t54c09.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Dakota Secretary of State",
+      "title": "Limited Liability Company (LLC) - the division's LLC page; a Fees block for each of the four LLC types listing registration $135, annual report $50, amendment $50, dissolution/termination $20 and withdrawal $20, with no expedited-service line",
+      "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Dakota Secretary of State",
+      "title": "FirstStop, the state's business filing portal - a React application serving a 594-byte shell; its bundle /static/js/main.09b0c981.js contains no occurrence of 'expedit' and its recovered route table holds no fee, queue or processing endpoint",
+      "url": "https://firststop.sos.nd.gov/",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

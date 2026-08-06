@@ -1,0 +1,128 @@
+{
+  "stateName": "West Virginia",
+  "stateAbbr": "WV",
+  "stateSlug": "west-virginia",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "In-Person Same Day",
+        "turnaround": "In-Person Same Day",
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "in-person"
+        ],
+        "note": "The one tier that appears only on the paper Customer Order Request form and not in the Expedite Service page's Fee Schedule, which is why its evidence is the form rather than the schedule. It is priced identically to Next Business Day, $25, and is distinguished from it only by being handed over a counter; the form carries no cut-off hour for it and the guidelines document does not cover it at all. The guidelines' Next Business Day section says separately that 'Under most circumstances, each filing submitted receives same day filing date and may be picked up in the office by the end of the same business day', which describes the same practice but is attached to the $25 next-business-day tier rather than to this option, so it is not imported here.",
+        "evidence": {
+          "quote": "In-Person Same Day -$25 in addition to filing fee",
+          "url": "https://sos.wv.gov/media/267/download?inline"
+        }
+      },
+      {
+        "tierName": "24-Hour",
+        "turnaround": "24-Hour",
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Filings to be mailed the next business day if received by 2:00 pm of receipt date and no later than the 2nd business day if received after 2:00 pm",
+        "channels": [
+          "online",
+          "mail"
+        ],
+        "note": "The state names this same $25 tier three ways. The Expedite Service page's Fee Schedule calls it '24-Hour' under a column headed 'Expedite Time'; the Customer Order Request form calls it 'Next Business Day - $25 in addition to filing fee'; and the guidelines document heads its section 'NEXT BUSINESS DAY EXPEDITE SERVICE' and then describes it in the body as 'a 24-hour expedite service on most business organization filings processed by this office', pricing it at 'The fee for 24-hour handling is $25.00 in addition to the usual fee for service.' tierName and turnaround take the Fee Schedule's wording because that table is the state's published schedule and the column it sits in is headed with the time; the cut-off is the guidelines' own time constraint for this tier and is the only clock hour West Virginia publishes for any tier.",
+        "evidence": {
+          "quote": "Expedite service is now available for Business Division filings. Fee Schedule Expedite Time Expedite Fee * 24-Hour $25.00 2-Hour $250.00 1-Hour $500.00 * Fee is in addition to the regular filing fee for the specific filing request.",
+          "url": "https://sos.wv.gov/business/general-information/expedite-service"
+        }
+      },
+      {
+        "tierName": "2-Hour",
+        "turnaround": "2-Hour",
+        "feeUsd": 250,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "online",
+          "mail"
+        ],
+        "note": "The quote is the whole Fee Schedule block rather than this row alone, because the table renders as a flat run in which a row carries no headers of its own and the footnote that makes the figure a surcharge rather than a total - 'Fee is in addition to the regular filing fee' - applies to all three rows at once. The guidelines document states the same price in its own words, 'please enclose with your filing an additional $250.00 per filing and/or order', and adds that filings for this tier and the 1-Hour tier 'will be acknowledged by fax or e-mail within expedite service time'. No cut-off hour is published for this tier; what the state publishes instead is a start point, 'Expedite period begins when filing or service request is received in this office in fileable form', and a reservation that the office 'reserves the right to extend the expedite period in times of extreme volume, staff shortages or equipment malfunction'.",
+        "evidence": {
+          "quote": "Expedite service is now available for Business Division filings. Fee Schedule Expedite Time Expedite Fee * 24-Hour $25.00 2-Hour $250.00 1-Hour $500.00 * Fee is in addition to the regular filing fee for the specific filing request.",
+          "url": "https://sos.wv.gov/business/general-information/expedite-service"
+        }
+      },
+      {
+        "tierName": "1-Hour",
+        "turnaround": "1-Hour",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "online",
+          "mail"
+        ],
+        "note": "The top tier sits exactly at the statutory ceiling: W. Va. Code § 59-1-2(k) provides that 'after July 1, 2017, the Secretary of State may offer a fee for expedited services which shall not exceed, $500', so $500 is not merely the most expensive option the office sells but the most it is permitted to charge. The guidelines state the same figure in their own words, 'please enclose with your filing an additional $500.00 per filing and/or order'. Same absent cut-off and same fileable-form start point as the 2-Hour tier.",
+        "evidence": {
+          "quote": "Expedite service is now available for Business Division filings. Fee Schedule Expedite Time Expedite Fee * 24-Hour $25.00 2-Hour $250.00 1-Hour $500.00 * Fee is in addition to the regular filing fee for the specific filing request.",
+          "url": "https://sos.wv.gov/business/general-information/expedite-service"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Standard (5-10 business days) - No additional cost",
+    "sourceUrl": "https://sos.wv.gov/media/267/download?inline",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "A four-tier state whose tiers are split across two official documents that do not agree with each other, and the disagreements are the useful part. The Expedite Service page publishes a Fee Schedule of three tiers - 24-Hour $25.00, 2-Hour $250.00, 1-Hour $500.00 - each 'in addition to the regular filing fee'. The Customer Order Request form, which the same page links as the paper route, offers five options instead: Standard, In-Person Same Day at $25, Next Business Day at $25, 2 Hour at $250 and 1 Hour at $500. So the form carries a fourth purchasable tier the schedule does not, and renames the schedule's 24-Hour to Next Business Day. Both are current, both are the office's own, and the record carries all four rather than picking one. On appliesToLlcFormation: no page names LLC formation and expedited service in the same sentence, and the inference is stated here rather than hidden in the field. It rests on the applicability sentence 'Expedite service is now available for Business Division filings' plus two independent exclusion lists, neither of which reaches articles of organization. The web page excludes dissolutions and withdrawals of corporations, voluntary associations and business trusts, and Licensing Division filings; the order form excludes dissolutions and withdrawals, Credit Service Organization registrations, trademark filings, and sole proprietor and general partnership trade names. Those two lists themselves conflict - the web page says Credit Service Organization filings are an exception that may be expedited, the form says they are not available - which shows the lists are maintained separately and is exactly why an inference resting on both is worth more than one resting on either. Domestic LLC formation is a Business Division filing and is absent from both. On feeIsPerDocument, left null on a documented contradiction rather than on silence: the order form's footnote reads '*Fees apply to each business.', which prices the unit as the entity, while the guidelines document says three times that the fee is 'per filing and/or order' and 'in addition to the standard fee charged on each filing and/or order'. Two documents from the same division, one saying per business and one saying per filing; a filer submitting two documents for one entity would pay once under the form and twice under the guidelines, and nothing found resolves it. chargedIfRejected is null for a different reason - nothing addresses refunds at all. What the state does publish about the boundary is when the clock starts, not what happens if the filing fails: 'Expedite period begins when filing or service request is received in this office in fileable form', with the office reserving the right to extend the period 'in times of extreme volume, staff shortages or equipment malfunction'. The statute behind all of this is a ceiling rather than a schedule. W. Va. Code § 59-1-2(k) lets the Secretary of State 'offer a fee for expedited services which shall not exceed, $500' and § 59-1-2(l) keeps the section's fees in effect 'until such time as the Legislature has approved rules promulgated by the Secretary of State ... establishing a schedule of fees for services', so the four tiers are agency schedule under a capped statutory power - neither Idaho, where both tiers are in the statute, nor Oklahoma, where the charge has no statute behind it at all. § 59-1-2a was read in full and is the annual and biennial report fee section, not an expedite one. On standardProcessing: the 5-10 business days is the Standard option printed on the order form itself, which is the only place West Virginia states a turnaround anywhere reachable this session. onlineBusinessDays and mailBusinessDays are both left null on purpose. The sentence names no channel - it is one option line on a form covering every submission the Business Division takes - and the parsed fields are per channel, so filling either would invent the channel that the office did not state. The online half could not be checked independently because business4.wv.gov, the One Stop Business Portal that the expedite page names as the online route, establishes no TCP connection on this route in three attempts.",
+  "needsReview": "business4.wv.gov, the West Virginia One Stop Business Portal, makes no TCP connection on the vpn-on route across three attempts, so the online filing flow was not opened. That flow is where the expedite options are said to be selectable and added to the cart, and it is the one place that could resolve the per-business against per-filing contradiction, confirm whether the In-Person Same Day tier exists outside the paper form, and show whether the portal publishes its own processing time for the online channel.",
+  "sources": [
+    {
+      "citation": "West Virginia Secretary of State",
+      "title": "Expedite Service - the Business Division's published expedite Fee Schedule (24-Hour $25.00, 2-Hour $250.00, 1-Hour $500.00, each in addition to the regular filing fee), the paper and online submission routes, and the list of filings that cannot be expedited",
+      "url": "https://sos.wv.gov/business/general-information/expedite-service",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "West Virginia Secretary of State",
+      "title": "Customer Order Request (form only) - the paper order form the Expedite Service page links; prints five expediting service options including In-Person Same Day at $25 and Standard at 5-10 business days, its own list of filings for which expediting is not available, and the footnote 'Fees apply to each business'",
+      "url": "https://sos.wv.gov/media/267/download?inline",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "West Virginia Secretary of State",
+      "title": "Customer Order Request with Guidelines - the same form followed by the Next Business Day, 2-Hour and 1-Hour expedite service guidelines: the $25 24-hour handling fee, the 2:00 pm mailing cut-off, the fileable-form start point, acknowledgment by fax or e-mail, and the office's reservation to extend the expedite period",
+      "url": "https://sos.wv.gov/media/269/download?inline",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "West Virginia Code",
+      "title": "W. Va. Code § 59-1-2, Fees to be charged by Secretary of State - subsection (k) permits a fee for expedited services 'which shall not exceed, $500' after July 1, 2017, and subsection (l) keeps the section's fees in effect until the Legislature approves a rule-made fee schedule",
+      "url": "https://code.wvlegislature.gov/59-1-2",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "West Virginia Code",
+      "title": "W. Va. Code § 59-1-2a, Annual and biennial business fees to be paid to the Secretary of State - read in full; the annual and biennial report fee section, with no expedited-service provision",
+      "url": "https://code.wvlegislature.gov/59-1-2a",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -1,0 +1,69 @@
+{
+  "stateName": "Vermont",
+  "stateAbbr": "VT",
+  "stateSlug": "vermont",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "Thank you for visiting the Business Services Division Fees page. Use the dropdowns below to quickly find the applicable fees for your registration type or service needs. ADMINISTRATIVE FEES Activity Fee Plain Copies $0.00 Certified Copies $25.00 Returned Check $20.00 Charge Back $25.00",
+      "url": "https://sos.vermont.gov/business-services/fees-statutes"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "An evidenced no built from three independent places, and the office's own filing application is the strongest of them. The Business Services Division fee page is a complete schedule by registration type - twenty-six blocks from ADMINISTRATIVE FEES through AMUSEMENT RIDE OPERATOR, every filing priced with both its filing citation and its fee citation - and no block on it prices speed. The quoted passage is the ADMINISTRATIVE FEES block rather than the LLC block on purpose: an expedite is a service rather than a filing type, and the office-wide service block is exactly where South Dakota, Rhode Island and Arkansas each put theirs. Vermont's holds four lines - plain copies, certified copies, returned check, charge back - and no fifth. The DOMESTIC LIMITED LIABILITY COMPANY block was read in full and prices twenty-one documents, articles of organization at $155.00, none of them by turnaround. 11 V.S.A. § 4012 is the statute behind every one of those figures and is a closed list, (a)(1) through (a)(22) plus (b)(1) and (b)(2), the New Mexico and South Carolina shape; the chapter 25 table of contents carries no fee or service section besides it, and 3 V.S.A. chapter 3, the Secretary of State's own chapter, contains the word expedited nowhere. The third place is bizfilings.vermont.gov, the Online Business Service Center, which is the channel Vermont files through and is an Angular application serving a 29 KB shell: its 2.1 MB main bundle contains no occurrence of 'expedit', 'rush', 'same day', 'next day' or '24-hour'. That is what rules out the Oklahoma shape here, an administrative charge sold inside the filing flow with no statute and no schedule behind it. On standardProcessing: Vermont publishes no turnaround for business filings anywhere reachable this session. The division's pages are silent, the Secretary of State's own site-wide search for 'processing time' returns only Office of Professional Regulation licensing pages, and the filing application's bundle contains no occurrence of 'business day', 'processing time', 'turnaround' or 'how long'. The single 'business day' string on the division's contact page is about how quickly staff answer an inquiry - 'We typically respond by the next business day' - not how quickly a filing is processed, and is deliberately not recorded as a processing time. One staleness worth flagging even though nothing here rests on it: the fee page's ASSUMED BUSINESS NAME block still cites 11 V.S.A. §§ 1621, 1625 and 1635 while the division links its own Act 10 engagement notice about the 2025 rewrite of that chapter. It cuts the safe way for this record, because a schedule too old to have dropped an expedite line would still be printing one.",
+  "needsReview": "The logged-in filing flow on bizfilings.vermont.gov was not opened. Its client bundle names no expedited service and no processing time, which is stronger negative evidence than New Mexico's or Utah's checkout produced, but a charge or a turnaround rendered from a server response rather than from the bundle would not appear in that check.",
+  "sources": [
+    {
+      "citation": "Vermont Secretary of State",
+      "title": "Business Services Division Fees - the complete fee schedule by registration type, each filing carrying its filing citation and its fee citation; the ADMINISTRATIVE FEES block lists plain copies, certified copies, returned check and charge back and no expedited service, and the DOMESTIC LIMITED LIABILITY COMPANY block prices articles of organization at $155.00 under 11 V.S.A. § 4012",
+      "url": "https://sos.vermont.gov/business-services/fees-statutes",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Statutes Online",
+      "title": "11 V.S.A. § 4012, Fees - the LLC chapter's fee section, a closed list of twenty-two filing fees plus service of process and certification, with no expedited-service fee (added 2015, No. 17, § 2; amended 2023, No. 77, § 37)",
+      "url": "https://legislature.vermont.gov/statutes/section/11/025/04012",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Statutes Online",
+      "title": "11 V.S.A. chapter 25, Limited Liability Companies - chapter table of contents read in full; § 4012 is the only fee section and no section in the chapter provides expedited service",
+      "url": "https://legislature.vermont.gov/statutes/chapter/11/025",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Statutes Online",
+      "title": "3 V.S.A. chapter 3, Secretary of State - chapter table of contents; no expedited-service provision and no general office fee section",
+      "url": "https://legislature.vermont.gov/statutes/chapter/03/003",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Secretary of State",
+      "title": "Online Business Service Center (bizfilings.vermont.gov), the state's business filing application - an Angular client serving a 29 KB shell whose main bundle main.8335198d7796a902.js contains no occurrence of 'expedit' and no processing-time language",
+      "url": "https://bizfilings.vermont.gov/",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Secretary of State",
+      "title": "Contact Business Services - the division's contact page; its only business-day statement is 'We typically respond by the next business day', which is a response time for inquiries and not a filing turnaround",
+      "url": "https://sos.vermont.gov/business-services/contact-us/",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
