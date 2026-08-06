@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://www.kansas.gov/annual-reports/index.do",
     "paperRenewalUrl": null,
-    "notes": "Kansas LLCs file an annual report with the Secretary of State. Online fee $53; paper $55 (Form LC fee schedule). Due after tax year end — for a calendar-year entity, between January 1 and April 15. Online: https://www.kansas.gov/annual-reports/index.do"
+    "notes": "Kansas LLCs file an annual report with the Secretary of State. Online fee $53; paper $55 (Form LC fee schedule). Due after tax year end; for a calendar-year entity, between January 1 and April 15. Online: https://www.kansas.gov/annual-reports/index.do"
   },
   "corporateDocuments": {
     "operatingAgreement": null,
