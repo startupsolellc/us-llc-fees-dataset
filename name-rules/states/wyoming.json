@@ -2,9 +2,9 @@
   "stateName": "Wyoming",
   "stateAbbr": "WY",
   "stateSlug": "wyoming",
-  "entitySuffixRule": "Must contain the words \"Limited Liability Company\" or \"Limited Company,\" or the abbreviations \"LLC,\" \"L.L.C.,\" \"LC,\" \"L.C.,\" or \"Ltd. Liability Company.\"",
+  "entitySuffixRule": "Must contain the words \"limited liability company\" or the abbreviations \"LLC\" or \"L.L.C.,\" the words \"limited company\" or the abbreviations \"LC\" or \"L.C.,\" or \"Ltd. liability company,\" \"Ltd. liability co.\" or \"limited liability co.\" A low-profit LLC must instead use \"L3C,\" \"l3c,\" \"low profit ltd. liability company,\" \"low profit ltd. liability co.\" or \"low profit limited liability co.\"",
   "entitySuffixCitation": "W.S. § 17-29-108",
-  "distinguishabilityNote": "Must be distinguishable upon the records of the Secretary of State as provided in W.S. 17-16-401. A name is distinguishable if it has one or more different letters or numerals, or a different sequence of letters or numerals, from other names on record. Differences that do not make a name distinguishable include entity-type words or abbreviations (corporation, company, incorporated, limited, L.P., LLC, and the like), the words \"the,\" \"and,\" or \"a,\" and punctuation or special characters. A conflicting name may be used with the other holder's consent or under a certified court judgment.",
+  "distinguishabilityNote": "Three restrictions in § 17-29-108(a): the name may not imply a purpose other than those in the articles of organization; it may not be the same as or deceptively similar to any trademark or service mark registered in Wyoming, and must be distinguishable upon the Secretary of State's records as provided in W.S. 17-16-401; and it may not imply the company is organized under the Business Corporation Act, the Statutory Close Corporation Supplement or the Nonprofit Corporation Act. Under § 17-16-401(f) a name is distinguishable if it has one or more different letters or numerals, or a different sequence of them; the five differences that do NOT distinguish are entity-type words and abbreviations (corporation, company, incorporated, limited partnership, L.P., limited, ltd., limited liability company, limited company, L.C., L.L.C.), the words \"the,\" \"and\" or \"a,\" punctuation and special characters, capitalization, and singular versus plural forms. Under § 17-16-401(c), which the LLC Act incorporates, an indistinguishable name may be authorized only on the other holder's irrevocable written consent accompanied by an undertaking to change its own name to something distinguishable, or on a certified final court judgment establishing the applicant's right; § 17-16-401(d) separately allows using another entity's name after a merger, a reorganization, an acquisition of substantially all assets including the name, or an affiliate's consent tied to a corporate action that ends the coexistence within 120 days.",
   "distinguishabilityCitation": "W.S. § 17-29-108",
   "restrictedWords": [],
   "nameReservationFee": 60,
@@ -13,20 +13,20 @@
   "nameReservationDuration": "120 days",
   "nameReservationProcessingTime": null,
   "nameReservationUrl": "https://sos.wyo.gov/Business/Default.aspx",
-  "namingStatuteUrl": "https://law.justia.com/codes/wyoming/title-17/chapter-29/article-1/section-17-29-108/",
-  "notes": "Wyoming's LLC Act (W.S. Title 17, ch. 29) defines \"distinguishable\" by statute through the Business Corporation Act (§ 17-16-401): entity-type words, the articles \"the/and/a,\" and punctuation are ignored, so a real letter or number difference is required to clear a conflict. There is no banned-word list. Wyoming is a formation-haven state, with strong owner privacy and no member disclosure on the public record. The LLC filing fee is $100 and an annual report license tax ($60 minimum) is due the first day of the anniversary month. A reservation ($60, 120 days) is optional.",
+  "namingStatuteUrl": "https://wyoleg.gov/statutes/compress/title17.pdf",
+  "notes": "Wyoming's LLC Act (W.S. Title 17, ch. 29) defines \"distinguishable\" by statute through the Business Corporation Act (§ 17-16-401): entity-type words, the articles \"the/and/a,\" punctuation, capitalization, and singular/plural differences are all ignored, so a real letter or number difference is required to clear a conflict. The statute contains no enumerated list of restricted words, so restrictedWords is empty; the only word rules are the three implication restrictions of § 17-29-108(a) and the trademark prong, and words implying banking or insurance are policed by other codes, not the LLC name section. Wyoming is a formation-haven state, with strong owner privacy and no member disclosure on the public record. The LLC filing fee is $100 and an annual report license tax ($60 minimum) is due the first day of the anniversary month. A reservation ($60, 120 days, § 17-29-109) is optional and transferable by filed notice; unlike the corporate reservation section (§ 17-16-402, expressly nonrenewable), § 17-29-109 is silent on renewal. Statute read from the Legislative Service Office's per-title PDF (wyoleg.gov/statutes/compress/title17.pdf), which carries the current compilation; the PDF is title-level, so citations land on the title, not the section.",
   "sources": [
     {
       "citation": "W.S. § 17-29-108",
-      "title": "Wyoming Limited Liability Company Act — Name",
-      "url": "https://law.justia.com/codes/wyoming/title-17/chapter-29/article-1/section-17-29-108/",
-      "lastAccessed": "2026-07-23"
+      "title": "Wyoming LSO per-title statute PDF, Title 17 — LLC Act § 17-29-108 Name (designators incl. L3C; three restrictions; § 17-29-109 reservation, 120 days, transferable)",
+      "url": "https://wyoleg.gov/statutes/compress/title17.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "W.S. § 17-16-401",
-      "title": "Wyoming Business Corporation Act — Corporate name (definition of distinguishable)",
-      "url": "https://law.justia.com/codes/wyoming/title-17/chapter-16/article-4/section-17-16-401/",
-      "lastAccessed": "2026-07-23"
+      "title": "Wyoming LSO per-title statute PDF, Title 17 — Business Corporation Act § 17-16-401 Corporate name (distinguishability definition, five non-distinguishing differences, consent-plus-undertaking and court-judgment routes, merger and affiliate routes)",
+      "url": "https://wyoleg.gov/statutes/compress/title17.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Wyoming Secretary of State",
@@ -35,5 +35,5 @@
       "lastAccessed": "2026-07-23"
     }
   ],
-  "lastVerified": "2026-07-23"
+  "lastVerified": "2026-08-06"
 }
