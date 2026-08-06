@@ -1,0 +1,63 @@
+{
+  "stateName": "Utah",
+  "stateAbbr": "UT",
+  "stateSlug": "utah",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited processing fee",
+        "turnaround": null,
+        "feeUsd": 75,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "Priced but not described: the Division publishes the $75 in its fee schedule and nowhere states what it buys for a filing - no hours, no days, no cut-off, no channel. Do not import the '1-2 business day process time' the Division does publish; that sentence is on the in-house documents page and governs orders for certificates and copies, not entity filings. The quote is long because the PDF's text layer prints section 11 as a column of sixteen labels followed by a column of sixteen amounts, so the label and its price are only contiguous across the whole block. The positional mapping is checked, not assumed: label 5 'Certificate of existence - short form' lands on $12, which is what section 10 of the same schedule charges for it, and label 16 'Photocopies' lands on '$.30 per page', which is what the in-house documents page charges for a non-certified copy.",
+        "evidence": {
+          "quote": "11. Other Filings & Fees Expedited processing fee Statement of correction Statement of authority (LLC) Statement of certification Certificate of existence - short form Certificate of existence - long form Corporation search in-house Statement of certification (certification stamp) Business trust Real estate investment trust Commercial registered agent registration Commercial registered agent changes Commercial registered agent terminations Out of state motorist summons Collection agency application/renewal Photocopies $75 per filing",
+          "url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Most filings are instantly processed and approved. All others, please allow 2-4 business days from receipt for processing.",
+    "sourceUrl": "https://commerce.utah.gov/corporations/",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Utah sells expedited processing and says nothing about it. 'Expedited processing fee ... $75 per filing' is a line in section 11 of the Division of Corporations and Commercial Code's Fiscal Year 2026 Fee Schedule (effective July 1, 2025) and it is the only place on the Division's site where an expedite is priced against filings. Nothing else - not the LLC pages, not the FAQ set, not the how-to-register page - mentions expedited service for a filing at all, which is why appliesToLlcFormation is null rather than true: the schedule prices the service per filing without naming a filing type, and no page confirms that a certificate of organization is one of the filings it may be bought for. The second $75 in Utah is a trap worth naming. The in-house documents page sells 'an expedite service ... for an additional $75 per document for a 1-2 business day process time' against a 3-10 working day standard, and repeats it as 'Expedited Fee : An additional $75 (Processing time is up to 2 business days)'. Same price, different product: that page is about ordering certificates of existence, certified copies, plain copies and archive searches. Its turnaround is not recorded here, because attributing a document-order promise to a formation filing is precisely the failure the collection protocol warns about - it would pass every mechanical check and be wrong. Whether the two $75 lines are one fee the Division applies to both is not stated anywhere and is not assumed. feeIsPerDocument is true on the schedule's own words, 'per filing'. chargedIfRejected is left null: the schedule's header does say '**ALL PROCESSING FEES ARE NONREFUNDABLE**' and the documents page repeats it, but a refund policy is not a statement about what happens to a rejected filing, and Utah says nothing about rejection. On standardProcessing: the Division's home page carries one sentence covering every filing type it lists, and it splits by outcome rather than by channel - 'most' are instant, everything else is 2-4 business days. Neither parsed field fits: onlineBusinessDays and mailBusinessDays are per-channel and Utah names no channel, so both stay null and the statement carries the figure. This is the first record in the namespace where a business-day range could not be parsed for that reason, and the offline gate was narrowed to match rather than the record bent to satisfy it. Two host notes. corporations.utah.gov now 301s to commerce.utah.gov/corporations/ and the Division's pages live under the department's WordPress site; the final URLs are recorded here. The filing portal itself, businessregistration.utah.gov, returns 403 to any scripted client, so the checkout - the one place an unpublished expedite option would show itself, as it would have in New Mexico - was not read.",
+  "needsReview": "Two fields sit behind the same silence. (1) appliesToLlcFormation: no Division page states that a certificate of organization may be expedited, only that an expedited processing fee of $75 per filing exists; the LLC pages, the FAQs and the how-to-register page are silent. (2) The tier's turnaround: Utah publishes no commitment for an expedited filing at all. Both would be settled by the filing portal's checkout at businessregistration.utah.gov, which returns 403 to scripted clients and needs a browser session, or by an administrative rule or fee-schedule footnote defining expedited processing.",
+  "sources": [
+    {
+      "citation": "Utah Department of Commerce, Division of Corporations and Commercial Code",
+      "title": "Fiscal Year 2026 Fee Schedule, effective July 1, 2025 - section 11 Other Filings & Fees prices the Expedited processing fee at $75 per filing; section 1 prices a domestic LLC certificate of organization at $59",
+      "url": "https://commerce.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Utah Department of Commerce, Division of Corporations and Commercial Code",
+      "title": "Corporations home - most filings are instantly processed and approved, all others 2-4 business days from receipt; corporations.utah.gov redirects here",
+      "url": "https://commerce.utah.gov/corporations/",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Utah Department of Commerce, Division of Corporations and Commercial Code",
+      "title": "Ordering In-House Documents - a separate $75 expedite covering orders for certificates and copies, 1-2 business day process time against a 3-10 working day standard; cited to distinguish it from the filing expedite, not as evidence about filings",
+      "url": "https://commerce.utah.gov/corporations/ordering-in-house-documents/",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

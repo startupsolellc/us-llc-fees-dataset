@@ -1,0 +1,84 @@
+{
+  "stateName": "South Dakota",
+  "stateAbbr": "SD",
+  "stateSlug": "south-dakota",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited Fee",
+        "turnaround": "completion sooner than the normal course of business upon request",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "One office-wide tier, and the only time South Dakota states anywhere is that the work is done 'sooner than the normal course of business' - a comparison, not a duration, and the state publishes no hours, no cut-off and no channel for it. The quote is taken from the Miscellaneous Business Fees block rather than the General Office block at the top of the same page, which prints the identical fee and the identical definition under the label 'Expedited Service'; the two blocks are one fee described twice, and the business block is the one that sits among the entity filings.",
+        "evidence": {
+          "quote": "Miscellaneous Business Fees Service Fee Reservation of Name $25 Certificate of Good Standing/Existence Filed Electronically online $20 Filed via Paper (includes paper filing fee) $35 Copies $2 per page Certified Copies $15 + $2 per page Expedited Fee (Expedited service is defined as: completion sooner than the normal course of business upon request.) $50",
+          "url": "https://sdsos.gov/general-information/filing-fees.aspx"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": {
+      "min": 1,
+      "max": 3
+    },
+    "statement": "What is the turnaround time for new filings? On average, new paper filings are processed within 1-3 business days. Online filings are processed immediately.",
+    "sourceUrl": "https://sdsos.gov/business-services/corporations/contact.aspx",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "South Dakota's expedited service is statutory and office-wide rather than an entity-division product. SDCL 1-8-12, Fee for expedited services, reads 'The secretary of state shall charge a fee of fifty dollars for any expedited service. Expedited service is defined as completion sooner than the normal course of business upon request.' - the same fifty dollars and the same definition the fee schedule prints, so agency page and statute agree and nothing here has to be resolved between them. 'Any expedited service' is what carries appliesToLlcFormation: the statute names no filing type and excludes none, and the fee schedule prints the line a second time inside its Miscellaneous Business Fees block among the entity filings. No page found on sdsos.gov names LLC formation and expedited service in the same sentence, so that inference and its basis are stated here rather than hidden in the field. Neither the LLC fee statutes carries an expedite line: SDCL 47-34A-212 (articles of organization $150 domestic, $750 foreign, series $200/$800) and SDCL 47-34A-1206 were both read in full and price filings only. feeIsPerDocument is left null on purpose - 'for any expedited service' is priced per request, and nothing states whether a request may cover more than one document, which is exactly the question New Hampshire's RSA 5:10 answers explicitly and South Dakota's statute does not. Do not read South Dakota's $15 as a second tier: SDCL 1-8-13.1 collects it when a document 'is not filed electronically, but is able to be filed electronically', which is the channel surcharge shape, not a purchased turnaround - domestic articles of organization are $150 online and $165 on paper before any expedite. On standardProcessing: the office answers the turnaround question itself in the Business/UCC Filings Division FAQ. Only the paper half is parsed. 'Online filings are processed immediately' is not a business-day range and converting it into one would add a unit the office did not use, so onlineBusinessDays stays null while mailBusinessDays carries the 1-3 business days the same sentence states for paper. Statutes are cited at sdlegislature.gov/api/Statutes/<section>.html: the human-facing /Statutes/ path is a Vue application that serves a 6 KB shell to any scripted client, and the .html path behind it is the plain, complete section text the application renders (the sibling /api/Statutes/Statute/<section> returns the same text as escaped HTML inside JSON, which the quote checker cannot read).",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "South Dakota Secretary of State",
+      "title": "Filing Fees, effective July 1, 2016 - complete list of all fees collected by the office; Expedited Fee $50 in the Miscellaneous Business Fees block and Expedited Service $50 in the General Office block, both defined as completion sooner than the normal course of business upon request; LLC domestic articles of organization $150 online / $165 paper",
+      "url": "https://sdsos.gov/general-information/filing-fees.aspx",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Dakota Secretary of State",
+      "title": "Business Services Contact Us & FAQs - 'What is the turnaround time for new filings?' answered as 1-3 business days for paper and immediately for online filings",
+      "url": "https://sdsos.gov/business-services/corporations/contact.aspx",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Dakota Codified Laws",
+      "title": "SDCL 1-8-12, Fee for expedited services - $50 for any expedited service, defined as completion sooner than the normal course of business upon request",
+      "url": "https://sdlegislature.gov/api/Statutes/1-8-12.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Dakota Codified Laws",
+      "title": "SDCL 1-8-13.1, Fee for certain documents not filed electronically - the $15 charged when a filing that could be made electronically is not; a channel surcharge, not an expedite tier",
+      "url": "https://sdlegislature.gov/api/Statutes/1-8-13.1.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Dakota Codified Laws",
+      "title": "SDCL 47-34A-212, Fees - consulted in full; prices articles of organization and the annual report and establishes no expedited-service fee",
+      "url": "https://sdlegislature.gov/api/Statutes/47-34A-212.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Dakota Codified Laws",
+      "title": "SDCL 47-34A-1206, Fees - consulted in full; the LLC chapter's general fee list, no expedited-service fee anywhere in it",
+      "url": "https://sdlegislature.gov/api/Statutes/47-34A-1206.html",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

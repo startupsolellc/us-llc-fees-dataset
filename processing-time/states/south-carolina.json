@@ -1,0 +1,63 @@
+{
+  "stateName": "South Carolina",
+  "stateAbbr": "SC",
+  "stateSlug": "south-carolina",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "SECTION 33-44-1204. Fees. (a) The Secretary of State shall collect the following fees when the documents described in this subsection are delivered to him for filing: (1) articles of organization of a limited liability company: one hundred ten dollars. (2) amendment or restatement of the articles of organization of a limited liability company: one hundred ten dollars. (3) articles of merger involving a domestic or foreign limited liability company: one hundred ten dollars.",
+      "url": "https://www.scstatehouse.gov/code/t33c044.php"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "South Carolina's 'no' is the New Mexico shape: a fee section that is one exhaustive list. S.C. Code Ann. § 33-44-1204 tells the Secretary of State what to 'collect ... when the documents described in this subsection are delivered to him for filing' and then enumerates fourteen documents, from the LLC's articles of organization at one hundred ten dollars down to 'other document required or authorized to be filed pursuant to this chapter: two dollars', followed by the service-of-process fee in (b) and the copying and certification fees in (c). There is no expedited-service charge anywhere in it, and nothing in the section leaves room for one to be set administratively. The office's own system agrees. The Business Entities Online downloadable-forms page lists every paper form the office accepts with the fee beside it - the domestic LLC's Articles of Organization under §§ 33-44-202 and 33-44-203 at $110.00 - and offers no expedited option on any of them; the FAQ set answers eighteen questions about business entities without the subject coming up; and neither the Business Entities page nor the File and Search Online page mentions it. Note what South Carolina does with speed instead: it advertises the online channel as the fast one without pricing it. The forms page opens with 'Wait! Save Time When You File Online' and the note that 'Online filing provides faster processing time, and allows you to save the filing and/or correct errors until the filing is accepted' - a comparison between channels, offered free, which is the opposite lever from a purchased turnaround and the same one Arkansas pulls with its online discount. On standardProcessing: isPublished is false because that sentence is the only thing the state says about speed and it states no time at all - no days, no hours, no queue date, and nothing for the paper route it still accepts. The pages read for this are the four on sos.sc.gov listed in sources, the filing system's home and search pages, and the downloadable-forms page; none carries a figure.",
+  "needsReview": "standardProcessing rests on absence rather than on a statement: no page found on sos.sc.gov or businessfilings.sc.gov publishes a processing time, a queue date or a target for either the online or the paper route, so isPublished false records that South Carolina does not publish one rather than that filings are instant. A logged-in checkout in Business Entities Online was not read and is the one place an unadvertised expedited option would appear.",
+  "sources": [
+    {
+      "citation": "South Carolina Code of Laws",
+      "title": "S.C. Code Ann. § 33-44-1204, Fees (Uniform Limited Liability Company Act) - consulted in full; fourteen filing fees, the service-of-process fee and the copying fees, with no expedited-service fee among them; articles of organization $110",
+      "url": "https://www.scstatehouse.gov/code/t33c044.php",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Carolina Secretary of State, Business Entities Online",
+      "title": "Downloadable Paper Forms - every paper form with its fee, domestic LLC Articles of Organization $110.00; no expedited option on any form, and the page's own note that online filing provides faster processing time",
+      "url": "https://businessfilings.sc.gov/BusinessFiling/Home/DownloadForms?pdfCategoryId=1",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Carolina Secretary of State",
+      "title": "FAQs About Business Entities - eighteen questions on business filings; none concerns expedited service or processing time",
+      "url": "https://sos.sc.gov/faqs-about-business-entities",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Carolina Secretary of State",
+      "title": "Business Entities - the division's main page for corporate filings and the statute map for each entity type; no expedited service and no processing time",
+      "url": "https://sos.sc.gov/online-filings/business-entities",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "South Carolina Secretary of State",
+      "title": "File and Search Online - describes what the Business Entities Online system does; no expedited service and no processing time",
+      "url": "https://sos.sc.gov/online-filings/business-entities/file-and-search-online",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

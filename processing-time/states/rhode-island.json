@@ -1,0 +1,69 @@
+{
+  "stateName": "Rhode Island",
+  "stateAbbr": "RI",
+  "stateSlug": "rhode-island",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "Limited Liability Company - Rhode Island Form Description Online Filing Fee Enhanced Fee 400 ARTICLES OF ORGANIZATION YES $150.00 $6.00 401 AMENDMENT TO ARTICLES OF ORGANIZATION YES $50.00 $2.50 402 RESTATED ARTICLES OF ORGANIZATION YES $50.00 $2.50 403 CERTFICATE OF CORRECTION NO $50.00 404 ARTICLES OF DISSOLUTION YES $50.00 $2.50",
+      "url": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "STEP 4 Confirm your filing Before proceeding to Step 5, be sure to confirm your registration filing was accepted. Your filing may take between one to three business days to process.",
+    "sourceUrl": "https://www.sos.ri.gov/divisions/business-services/ri-business/start-your-rhode-island-business",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Rhode Island prices a channel, not a clock. The Department of State's business forms fee schedule is a nineteen-page compilation covering every entity type it registers, and every table in it has exactly two money columns - Filing Fee and Enhanced Fee - where the Enhanced Fee is the surcharge for filing through the online system ($6.00 on the LLC's $150 articles of organization, $2.50 on most $50 filings). The whole document contains no occurrence of the word 'expedite' in any form, and no rush, same-day, priority or 24-hour line anywhere. The statutes close it from the other side: R.I. Gen. Laws § 7-16-65, Filing, service, and copying fees, enumerates in twenty numbered paragraphs everything the Secretary of State 'shall charge and collect' under the LLC Act and no paragraph buys speed, and § 42-8-20, the Department of State's own fee section, is four items long and older than the subject. One string on the site cuts the other way and this record will not hide it. The refund policy page lists what the office will not refund and the third item is 'Expedited/Enhanced access fees' - the only appearance of the word 'expedited' found anywhere on sos.ri.gov. Read against the fee schedule, where the second column is called Enhanced Fee and nothing is called expedited, the likeliest reading is that the phrase is one thing named twice, the enhanced-access online surcharge. That is a reading, not a source, and it is why appliesToLlcFormation and the other qualifiers stay null and needsReview says what would settle it. On standardProcessing: the office publishes two different figures for the same thing and neither is wrong on its face. The registration flow's own STEP 4, which is where someone forming an LLC would look, says a filing may take between one and three business days; the Filing Confirmation/Rejection page says 'Filings are processed within two business days of receipt' for business filings, trade names and UCC, and five business days for trademarks. The formation flow's sentence is the one recorded, and the tighter general figure is noted here rather than averaged with it. Neither parsed field is filled: both sentences give business days but attribute them to no channel, and onlineBusinessDays / mailBusinessDays are per-channel fields. Rhode Island takes the LLC's articles of organization both ways - the fee schedule marks form 400 as online YES and the start-a-business table offers File Online and PDF - so choosing a channel for the range would be inventing one.",
+  "needsReview": "The refund policy page's non-refundable list includes 'Expedited/Enhanced access fees' while no fee schedule, statute or service page on sos.ri.gov names an expedited service. Whether that phrase is a second name for the enhanced-access online surcharge or the trace of an expedited service published nowhere else is unresolved. It would be settled by the online filing system at business.sos.ri.gov, which is a client-rendered ASP.NET application and was not read, or by the Document Library at docs.sos.ri.gov, whose fee table is loaded by postback and did not render to a scripted client.",
+  "sources": [
+    {
+      "citation": "Rhode Island Department of State, Business Services Division",
+      "title": "Business Forms & Fee Schedule - complete per-entity fee compilation, Filing Fee and Enhanced Fee columns only; LLC form 400 Articles of Organization $150.00 filing fee plus $6.00 enhanced fee; no expedited-service line anywhere in the document",
+      "url": "https://docs.sos.ri.gov/documents/BusinessServices/business-forms-fee-schedule.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Rhode Island Department of State, Business Services Division",
+      "title": "Start your Rhode Island business - STEP 4 states a filing may take between one to three business days to process; the entity table prices an LLC at $150 under R.I. Gen. Laws Chapter 7-16 and offers File Online or PDF",
+      "url": "https://www.sos.ri.gov/divisions/business-services/ri-business/start-your-rhode-island-business",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Rhode Island Department of State, Business Services Division",
+      "title": "Filing Confirmation/Rejection - business filings, trade name filings and UCC filings processed within two business days of receipt; trademark applications within five",
+      "url": "https://www.sos.ri.gov/divisions/business-services/filing-confirmation-rejection",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Rhode Island Department of State, Business Services Division",
+      "title": "Refund Policy - non-refundable items include 'Expedited/Enhanced access fees'; cited because it is the only occurrence of the word expedited found on the site, not as evidence that an expedited filing service exists",
+      "url": "https://www.sos.ri.gov/divisions/business-services/refund-policy",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Rhode Island General Laws",
+      "title": "R.I. Gen. Laws § 7-16-65, Filing, service, and copying fees - consulted in full; twenty numbered paragraphs enumerating what the Secretary of State shall charge under the LLC Act, with no expedited-service fee among them",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-65.htm",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Rhode Island General Laws",
+      "title": "R.I. Gen. Laws § 42-8-20, Fees and charges of secretary - consulted in full; four items, none of them an expedited-service fee",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE42/42-8/42-8-20.htm",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}
