@@ -49,12 +49,12 @@ Held to the same standard as the rest of the repository: the published policy in
 page, or the statute that sets the fee. No blogs, no formation-service pages, no commercial
 aggregators — including as corroboration.
 
-**One conflict to resolve before this ships.** The root README's *What is excluded* list
-currently reads "Expedited-processing surcharges [...] are excluded." That was written about
-cost basis — it means an expedite surcharge is not folded into `formation_fee`, which stays
-true. But as written it is an unqualified exclusion and this namespace would contradict it. The
-sentence needs narrowing to its actual meaning before publication. **Owner decision, not a
-maintenance edit.**
+**The one conflict is resolved.** The root README's *What is excluded* list used to read
+"Expedited-processing surcharges [...] are excluded." That was written about cost basis — an
+expedite surcharge is not folded into a fee or total-cost field — but read as an unqualified
+exclusion, this namespace would have contradicted it. The heading is now *What is excluded from
+the fee figures*, and the sentence says explicitly that expedite surcharges are excluded from the
+cost basis, not from the repository, and are recorded as their own value where recorded at all.
 
 ## Field dictionary
 

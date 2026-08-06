@@ -67,7 +67,7 @@ The entity-search namespace carries a single reservation figure, `filingFacts.na
 
 **One fact, one field.** Where the same fact appears in more than one namespace, one field is defined as authoritative and the others must agree with it, not paraphrase it. A number that a visitor could be asked to pay is held to this strictly: a value that disagrees across namespaces is a bug in this repository, regardless of which copy happens to be right.
 
-**What is excluded.** Expedited-processing surcharges, third-party registered agent fees, county-level publication costs where they vary by county (for example New York and Nebraska), and any pricing from formation services.
+**What is excluded from the fee figures.** Third-party registered agent fees, county-level publication costs where they vary by county (for example New York and Nebraska), and any pricing from formation services. **Expedited-processing surcharges are excluded from the cost basis**, not from the repository: no fee or total-cost field folds in an expedite surcharge, because these fields describe the ordinary filing path and a surcharge is optional. Where an expedite fee is recorded at all it is recorded as its own value, never added to a published fee.
 
 ### Where the data does not yet meet this standard
 
