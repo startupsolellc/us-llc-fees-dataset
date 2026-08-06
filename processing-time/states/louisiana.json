@@ -1,0 +1,65 @@
+{
+  "stateName": "Louisiana",
+  "stateAbbr": "LA",
+  "stateSlug": "louisiana",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "priority expedite or waiting",
+        "turnaround": "Documents processed while you wait.",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": "The tier name is the state's own label, from the schedule's 'Referred to as' wording. While-you-wait processing is over-the-counter by nature, which is the basis for the channel recorded here.",
+        "evidence": {
+          "quote": "Special handling instructions Form Fee Documents processed while you wait. Referred to as \"priority expedite or waiting.\" $50 Documents processed within 24 hours available for pick-up or mail. Referred to as \"expedite.\" $30",
+          "url": "https://www.sos.la.gov/business-services/forms-fee-schedule"
+        }
+      },
+      {
+        "tierName": "expedite",
+        "turnaround": "Documents processed within 24 hours available for pick-up or mail.",
+        "feeUsd": 30,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "The schedule states how the processed document is returned ('available for pick-up or mail'), not the channel a filing may be submitted through, so no submission channel is recorded.",
+        "evidence": {
+          "quote": "Special handling instructions Form Fee Documents processed while you wait. Referred to as \"priority expedite or waiting.\" $50 Documents processed within 24 hours available for pick-up or mail. Referred to as \"expedite.\" $30",
+          "url": "https://www.sos.la.gov/business-services/forms-fee-schedule"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Both tiers come from the 'Special handling instructions' section that closes the Commercial Division's single forms-and-fees page, below the per-entity tables; it speaks of 'documents' generally, and the same page lists Articles of Organization-Louisiana Limited Liability Company #365 at $100, which is why appliesToLlcFormation is recorded as true. The two tiers are one quotation because they are two lines of one small table. Time-sensitive: the page announces that 'Effective October 1, 2026, the fees for the Commercial Division of the Secretary of State will increase in accordance with Act 921 of the 2026 Regular Legislative Session' — the values here are the in-effect schedule as of the retrieval date and must be re-read after 2026-10-01.",
+  "needsReview": "Three items: (1) standard processing time, not researched; (2) whether the special-handling fee is charged per document and whether it is retained on rejection — the page states neither; (3) re-read the whole schedule after 2026-10-01, when Act 921's increases take effect.",
+  "sources": [
+    {
+      "citation": "Louisiana Secretary of State, Commercial Division",
+      "title": "Business Services Forms & Fee Schedule — special handling: 'priority expedite or waiting' $50 while-you-wait, 'expedite' $30 within 24 hours; LLC Articles of Organization #365 $100; Act 921 increases effective 2026-10-01",
+      "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

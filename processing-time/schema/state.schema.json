@@ -69,9 +69,15 @@
               "feeUsdMax": { "type": ["number", "null"], "minimum": 0 },
               "cutoff": { "type": ["string", "null"] },
               "channels": {
-                "type": "array",
-                "items": { "enum": ["online", "mail", "in-person", "fax"] },
-                "minItems": 1
+                "oneOf": [
+                  { "type": "null" },
+                  {
+                    "type": "array",
+                    "items": { "enum": ["online", "mail", "in-person", "fax"] },
+                    "minItems": 1
+                  }
+                ],
+                "description": "null where the schedule prices the tier without stating the submission channel — Louisiana's 24-hour tier states only how the processed document is returned. Listing a channel the page does not state would be a derived value."
               },
               "note": { "type": ["string", "null"] },
               "evidence": { "$ref": "#/definitions/evidence" }

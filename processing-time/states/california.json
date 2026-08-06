@@ -56,16 +56,16 @@
   "standardProcessing": {
     "isPublished": true,
     "basis": "queue-date",
-    "queueAsOfOnline": "2026-08-04",
+    "queueAsOfOnline": "2026-08-05",
     "queueAsOfMail": "2026-07-31",
     "onlineBusinessDays": null,
     "mailBusinessDays": null,
-    "statement": "3. Limited Liability Company Filings Document Type We are reviewing requests received via the following methods on the date indicated: Online In Person Mail Formations/Registrations 08/04/2026 07/31/2026 07/31/2026",
+    "statement": "3. Limited Liability Company Filings Document Type We are reviewing requests received via the following methods on the date indicated: Online In Person Mail Formations/Registrations 08/05/2026 08/03/2026 07/31/2026",
     "sourceUrl": "https://www.sos.ca.gov/business-programs/business-entities/processing-times",
     "observedOn": "2026-08-06",
     "volatile": true
   },
-  "notes": "California is the case this schema is shaped around: the state publishes no duration at all, only the date its reviewers have reached in the queue, and that date moves continuously. Converting it to a number of days would produce a figure the Secretary of State never published, so the record keeps the queue dates and the state's own row. The page carried 'Last updated: August 5, 2026' when read. Two cautions for anyone re-reading this page: it also contains an older copy of the same tables carrying 2021 dates, so the section heading must be matched before a row is trusted; and the live table's columns are Online, In Person and Mail, while the stale copy has a fourth eForms column. Separately, California sells a 24-Hour Preclearance Service at $500.00, drop-off only — that is a review of a document before filing rather than a filing tier, so it is not listed among the expedite tiers and appears only as the prerequisite that makes the 4-Hour service reachable.",
+  "notes": "California is the case this schema is shaped around: the state publishes no duration at all, only the date its reviewers have reached in the queue, and that date moves continuously. Converting it to a number of days would produce a figure the Secretary of State never published, so the record keeps the queue dates and the state's own row. The page carried 'Last updated: August 6, 2026' when last read, and the queue rows here have already been refreshed once because the previous day's quotation had stopped matching — that is this object working as designed, not a defect. Two cautions for anyone re-reading this page: it also contains an older copy of the same tables carrying 2021 dates, so the section heading must be matched before a row is trusted; and the live table's columns are Online, In Person and Mail, while the stale copy has a fourth eForms column. Separately, California sells a 24-Hour Preclearance Service at $500.00, drop-off only — that is a review of a document before filing rather than a filing tier, so it is not listed among the expedite tiers and appears only as the prerequisite that makes the 4-Hour service reachable.",
   "needsReview": null,
   "sources": [
     {

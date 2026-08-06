@@ -169,7 +169,7 @@ processing-time record.
 
 ## Pilot records
 
-`states/` currently holds twelve of the fifty-one, and between them they cover every shape the
+`states/` currently holds seventeen of the fifty-one, and between them they cover every shape the
 model has had to absorb so far:
 
 | State | What it exercises |
@@ -186,3 +186,8 @@ model has had to absorb so far:
 | Pennsylvania | The steepest ladder in the set, where the cut-off times rather than the clock are what separate the tiers |
 | Iowa | Priced in **days** rather than hours, very cheap at the bottom, and **not charged when a filing is rejected** — the inverse of North Carolina |
 | Texas | An agency host that blocks automated access; the record is honest-empty with `needsReview` |
+| Massachusetts | A state whose "expedite fee" prices a **channel, not a turnaround**: a surcharge on fax and electronic filings scaled to the transaction cost, with no time commitment anywhere in the schedule — recorded as an evidenced "no" rather than a tier |
+| Louisiana | Two general-purpose tiers in the fee schedule's closing "Special handling" section ($50 while-you-wait, $30 within 24 hours); the page itself announces a statutory fee increase effective 2026-10-01 |
+| Kentucky | An evidenced "no" resting on three pages read in full — the FAQ that answers the turnaround question, the complete fee list, and the fee statute — and the first record with a populated `standardProcessing` (`stated-range`: usually same day, up to three business days) |
+| Arkansas | Same shape as Kentucky, with the inverse lever made visible: the state **discounts online filings** below paper rather than surcharging speed |
+| Connecticut | Honest-empty by **network** rather than by silence: the host that publishes the expedited-service document answers no route from the collection machine, and the reachable statutes establish no fee |
