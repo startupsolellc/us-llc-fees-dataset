@@ -1,0 +1,85 @@
+{
+  "stateName": "California",
+  "stateAbbr": "CA",
+  "stateSlug": "california",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "24-Hour Filing Service (Class C)",
+        "turnaround": "Filing response guaranteed within 24 hours, excluding weekends and holidays.",
+        "feeUsd": 350,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "our Filing Service (Class C) - $350.00 : Online or Drop-Off in Sacramento. Filing response guaranteed within 24 hours (e.g., submitted Wednesday at 11:00 a.m., filing confirmation or filing response available Thursday by 11:00 a.m.), excluding weekends and holidays.",
+          "url": "https://www.sos.ca.gov/business-programs/business-entities/service-options"
+        }
+      },
+      {
+        "tierName": "Same Day Filing Service (Class B)",
+        "turnaround": "Filing response guaranteed by 4:00 p.m. the same day.",
+        "feeUsd": 750,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "The document must be received by the Secretary of State by 9:30 a.m.",
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "Day Filing Service (Class B) - $750.00 : Online or Drop-Off in Sacramento. Filing response guaranteed by 4:00 p.m. the same day. Note: The document must be received by the Secretary of State by 9:30 a.m.",
+          "url": "https://www.sos.ca.gov/business-programs/business-entities/service-options"
+        }
+      },
+      {
+        "tierName": "4-Hour Filing Service (Class A)",
+        "turnaround": "Filing response guaranteed within 4 hours.",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": "Drop-off only in Sacramento, and conditional: a document must be precleared and approved to be eligible. Preclearance is a separate $500.00 charge, so the real cost of reaching this tier is $1,000.00.",
+        "evidence": {
+          "quote": "our Filing Service (Class A) - $500.00 : Drop-Off-Only in Sacramento. Filing response guaranteed within 4 hours (e.g., submitted Monday at 10:00 a.m., filing confirmation or filing response available Monday by 2:00 p.m.)",
+          "url": "https://www.sos.ca.gov/business-programs/business-entities/service-options"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "queue-date",
+    "queueAsOfOnline": "2026-08-04",
+    "queueAsOfMail": "2026-07-31",
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "3. Limited Liability Company Filings Document Type We are reviewing requests received via the following methods on the date indicated: Online In Person Mail Formations/Registrations 08/04/2026 07/31/2026 07/31/2026",
+    "sourceUrl": "https://www.sos.ca.gov/business-programs/business-entities/processing-times",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "California is the case this schema is shaped around: the state publishes no duration at all, only the date its reviewers have reached in the queue, and that date moves continuously. Converting it to a number of days would produce a figure the Secretary of State never published, so the record keeps the queue dates and the state's own row. The page carried 'Last updated: August 5, 2026' when read. Two cautions for anyone re-reading this page: it also contains an older copy of the same tables carrying 2021 dates, so the section heading must be matched before a row is trusted; and the live table's columns are Online, In Person and Mail, while the stale copy has a fourth eForms column. Separately, California sells a 24-Hour Preclearance Service at $500.00, drop-off only — that is a review of a document before filing rather than a filing tier, so it is not listed among the expedite tiers and appears only as the prerequisite that makes the 4-Hour service reachable.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "California Secretary of State, Business Programs Division",
+      "title": "Service Options — 24-Hour Filing Service $350.00, Same Day Filing Service $750.00, 4-Hour Filing Service $500.00, 24-Hour Preclearance Service $500.00",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/service-options",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "California Secretary of State, Business Programs Division",
+      "title": "Current Processing Dates — queue dates by submission method, LLC filings",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/processing-times",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

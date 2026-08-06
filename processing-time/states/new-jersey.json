@@ -1,0 +1,93 @@
+{
+  "stateName": "New Jersey",
+  "stateAbbr": "NJ",
+  "stateSlug": "new-jersey",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited service fee, per filing",
+        "turnaround": null,
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": "The fee schedule states the price and the channel restriction but not what turnaround it buys.",
+        "evidence": {
+          "quote": "Expedited service fee (applies only to over-the-counter transactions): per filing Same Day service fee (FAX filing only) 2 hour service fee, per document 1 hour service fee, per document $25.00 $50.00 $500.00 $1000.00 Limited Liability Partnership (LLP) Filing Fees",
+          "url": "https://www.nj.gov/treasury/revenue/fees.shtml"
+        }
+      },
+      {
+        "tierName": "Same Day service fee (FAX filing only)",
+        "turnaround": "Same Day",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["fax"],
+        "note": null,
+        "evidence": {
+          "quote": "Expedited service fee (applies only to over-the-counter transactions): per filing Same Day service fee (FAX filing only) 2 hour service fee, per document 1 hour service fee, per document $25.00 $50.00 $500.00 $1000.00 Limited Liability Partnership (LLP) Filing Fees",
+          "url": "https://www.nj.gov/treasury/revenue/fees.shtml"
+        }
+      },
+      {
+        "tierName": "2 hour service fee, per document",
+        "turnaround": "2 hour",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "Expedited service fee (applies only to over-the-counter transactions): per filing Same Day service fee (FAX filing only) 2 hour service fee, per document 1 hour service fee, per document $25.00 $50.00 $500.00 $1000.00 Limited Liability Partnership (LLP) Filing Fees",
+          "url": "https://www.nj.gov/treasury/revenue/fees.shtml"
+        }
+      },
+      {
+        "tierName": "1 hour service fee, per document",
+        "turnaround": "1 hour",
+        "feeUsd": 1000,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "Expedited service fee (applies only to over-the-counter transactions): per filing Same Day service fee (FAX filing only) 2 hour service fee, per document 1 hour service fee, per document $25.00 $50.00 $500.00 $1000.00 Limited Liability Partnership (LLP) Filing Fees",
+          "url": "https://www.nj.gov/treasury/revenue/fees.shtml"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "New Jersey's expedite ladder is not available online: the schedule limits it to over-the-counter transactions, with Same Day restricted further to fax filings. The base Certificate of formation fee on the same page is $100.00. Every tier here is read from the Limited Liability Company (LLC) Filing Fees block; the LLP block immediately below carries an identically priced ladder, which is why the quotation is anchored on the LLP heading that follows it — without that anchor the two blocks are indistinguishable in the page text.",
+  "needsReview": "Two items: (1) what turnaround the $25.00 per-filing expedited fee buys, which the schedule does not state; (2) standard processing time — not researched.",
+  "sources": [
+    {
+      "citation": "New Jersey Division of Revenue and Enterprise Services",
+      "title": "Business Filing Fees — LLC expedited service $25.00 per filing, Same Day (fax) $50.00, 2 hour $500.00, 1 hour $1000.00",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

@@ -1,0 +1,65 @@
+{
+  "stateName": "North Carolina",
+  "stateAbbr": "NC",
+  "stateSlug": "north-carolina",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": true,
+    "tiers": [
+      {
+        "tierName": "Same business day",
+        "turnaround": "for the filing by the end of the same business day of a document received by 12:00 noon Eastern Standard Time",
+        "feeUsd": 200,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "12:00 noon Eastern Standard Time",
+        "channels": ["online", "mail", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "Two hundred dollars ($200.00) for the filing by the end of the same business day of a document received by 12:00 noon Eastern Standard Time",
+          "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration"
+        }
+      },
+      {
+        "tierName": "24 hours",
+        "turnaround": "for the filing of a document within 24 hours after receipt, excluding weekends and holidays",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["online", "mail", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "One hundred dollars ($100.00) for the filing of a document within 24 hours after receipt, excluding weekends and holidays",
+          "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "North Carolina states its expedited service as a guarantee rather than an aspiration — the Secretary of State 'shall guarantee the expedited filing of a document upon receipt of the document in proper form and the payment of the required filing fee' — and satisfies the request either by filing the document or by notifying the filer that it was rejected. That matters for what the fee buys: it purchases a decision within the window, not an acceptance. The fee is charged per document and there are no refunds of the expedited fee once the document has been processed.",
+  "needsReview": "Standard processing time not researched; no agency page for it consulted yet.",
+  "sources": [
+    {
+      "citation": "North Carolina Secretary of State",
+      "title": "Business Registration fees — expedited filing $200.00 same business day, $100.00 within 24 hours",
+      "url": "https://www.sosnc.gov/fees/by_title/_Business_Registration",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

@@ -1,0 +1,65 @@
+{
+  "stateName": "Iowa",
+  "stateAbbr": "IA",
+  "stateSlug": "iowa",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": false,
+    "tiers": [
+      {
+        "tierName": "Two Business Days",
+        "turnaround": "Two Business Days",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "These fees will not be charged if the filing is rejected. Two Business Days: $50 Five Business Days: $15",
+          "url": "https://sos.iowa.gov/businesses/preclearance-and-expedited-services"
+        }
+      },
+      {
+        "tierName": "Five Business Days",
+        "turnaround": "Five Business Days",
+        "feeUsd": 15,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "These fees will not be charged if the filing is rejected. Two Business Days: $50 Five Business Days: $15",
+          "url": "https://sos.iowa.gov/businesses/preclearance-and-expedited-services"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Iowa prices expedite in days rather than hours, and at the bottom end very cheaply — $15 buys a five-business-day commitment. Two things set it apart from every other record here so far: the fee is explicitly not charged when the filing is rejected, which is the opposite of North Carolina and New York, and the office also sells a separate preclearance review that checks a document before submission without issuing a filing date. Iowa lists document types for which expedited service is not available; whether a Certificate of Organization is among them is not asserted from the excerpt read.",
+  "needsReview": "Two items: (1) confirm a Certificate of Organization is not on the excluded-documents list on this page; (2) standard processing time, not researched.",
+  "sources": [
+    {
+      "citation": "Iowa Secretary of State",
+      "title": "Preclearance and Expedited Services — Two Business Days $50, Five Business Days $15, per document, refunded on rejection",
+      "url": "https://sos.iowa.gov/businesses/preclearance-and-expedited-services",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

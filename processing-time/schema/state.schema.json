@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/us-llc-fees-dataset/processing-time/schema/state.schema.json",
+  "title": "LLC formation processing time and expedited service, per jurisdiction",
+  "description": "DRAFT. Two objects with deliberately different contracts: `expedite` is a stable, purchasable commitment covered by `lastVerified`; `standardProcessing` is a volatile observation covered by its own `observedOn` and must never be rendered as a current value.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "stateName",
+    "stateAbbr",
+    "stateSlug",
+    "expedite",
+    "standardProcessing",
+    "notes",
+    "sources",
+    "lastVerified"
+  ],
+  "properties": {
+    "stateName": { "type": "string", "minLength": 2 },
+    "stateAbbr": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "stateSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+
+    "expedite": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["offered", "offeredEvidence", "appliesToLlcFormation", "feeIsPerDocument", "chargedIfRejected", "tiers"],
+      "properties": {
+        "offered": {
+          "type": ["boolean", "null"],
+          "description": "false is a researched finding; null means not yet researched."
+        },
+        "offeredEvidence": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/evidence" }
+          ],
+          "description": "Required when offered is false: the passage that shows the agency's own service list, so that 'no expedite' rests on a page that would have said so."
+        },
+        "appliesToLlcFormation": {
+          "type": ["boolean", "null"],
+          "description": "Several states publish one schedule headed 'corporations' that covers LLC filings by reference. Where that is the case, notes must say so."
+        },
+        "feeIsPerDocument": { "type": ["boolean", "null"] },
+        "chargedIfRejected": {
+          "type": ["boolean", "null"],
+          "description": "Whether the expedite fee is retained when the filing is rejected."
+        },
+        "tiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["tierName", "turnaround", "feeUsd", "feeUsdMin", "feeUsdMax", "cutoff", "channels", "note", "evidence"],
+            "properties": {
+              "tierName": {
+                "type": "string",
+                "description": "The state's own label, verbatim."
+              },
+              "turnaround": {
+                "type": ["string", "null"],
+                "description": "The state's own commitment, verbatim. Not normalised into hours. null where the agency publishes an expedite fee without stating what it buys — a real and common case, and not the same as an unresearched one."
+              },
+              "feeUsd": {
+                "type": ["number", "null"],
+                "minimum": 0,
+                "description": "Exact published fee. null only when the state publishes a range instead."
+              },
+              "feeUsdMin": { "type": ["number", "null"], "minimum": 0 },
+              "feeUsdMax": { "type": ["number", "null"], "minimum": 0 },
+              "cutoff": { "type": ["string", "null"] },
+              "channels": {
+                "type": "array",
+                "items": { "enum": ["online", "mail", "in-person", "fax"] },
+                "minItems": 1
+              },
+              "note": { "type": ["string", "null"] },
+              "evidence": { "$ref": "#/definitions/evidence" }
+            },
+            "allOf": [
+              {
+                "description": "A tier carries a point fee or a range, never both, and never neither.",
+                "oneOf": [
+                  {
+                    "properties": {
+                      "feeUsd": { "type": "number" },
+                      "feeUsdMin": { "type": "null" },
+                      "feeUsdMax": { "type": "null" }
+                    }
+                  },
+                  {
+                    "properties": {
+                      "feeUsd": { "type": "null" },
+                      "feeUsdMin": { "type": "number" },
+                      "feeUsdMax": { "type": "number" }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    "standardProcessing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["isPublished", "basis", "queueAsOfOnline", "queueAsOfMail", "onlineBusinessDays", "mailBusinessDays", "statement", "sourceUrl", "observedOn", "volatile"],
+      "properties": {
+        "isPublished": {
+          "type": ["boolean", "null"],
+          "description": "false means the state publishes no standard processing time — it does not mean filings are instant. null means not yet researched, and requires needsReview."
+        },
+        "basis": {
+          "enum": ["queue-date", "stated-range", "guarantee", null],
+          "description": "How the state expresses the time. A queue date is never rewritten as a duration."
+        },
+        "queueAsOfOnline": { "type": ["string", "null"], "format": "date" },
+        "queueAsOfMail": { "type": ["string", "null"], "format": "date" },
+        "onlineBusinessDays": { "$ref": "#/definitions/dayRange" },
+        "mailBusinessDays": { "$ref": "#/definitions/dayRange" },
+        "statement": {
+          "type": ["string", "null"],
+          "description": "The state's wording, verbatim. The primary artifact; parsed fields are convenience."
+        },
+        "sourceUrl": { "type": ["string", "null"], "format": "uri" },
+        "observedOn": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "The date a human read this value. Deliberately not lastVerified. Consumers render it as 'as observed on X'."
+        },
+        "volatile": {
+          "const": true,
+          "description": "A literal, so no consumer can read this object without meeting the word."
+        }
+      },
+      "allOf": [
+        {
+          "description": "basis and the populated fields must agree.",
+          "if": { "properties": { "basis": { "const": "queue-date" } } },
+          "then": {
+            "properties": {
+              "onlineBusinessDays": { "type": "null" },
+              "mailBusinessDays": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "basis": { "const": "stated-range" } } },
+          "then": {
+            "properties": {
+              "queueAsOfOnline": { "type": "null" },
+              "queueAsOfMail": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "isPublished": { "const": false } } },
+          "then": { "properties": { "basis": { "type": "null" } } }
+        }
+      ]
+    },
+
+    "notes": { "type": ["string", "null"] },
+    "needsReview": {
+      "type": ["string", "null"],
+      "description": "A field that could not be sourced, and why. Preferred over any estimated value."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["citation", "title", "url", "lastAccessed"],
+        "properties": {
+          "citation": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "lastAccessed": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "lastVerified": {
+      "type": "string",
+      "format": "date",
+      "description": "Covers the expedite object only. standardProcessing carries its own observedOn."
+    }
+  },
+  "definitions": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote", "url"],
+      "description": "A value is admissible only if it is bound to a passage that occurs verbatim in the cited page as retrieved. The quote is checked mechanically as a substring of the page text; a quote that does not occur is a rejected record, not a warning.",
+      "properties": {
+        "quote": {
+          "type": "string",
+          "minLength": 12,
+          "description": "Copied from the page, not summarised, not re-punctuated. Long enough to be unambiguous within the page."
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The page the quote was taken from. Must appear in sources[]."
+        }
+      }
+    },
+    "dayRange": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["min", "max"],
+          "properties": {
+            "min": { "type": "integer", "minimum": 0 },
+            "max": { "type": "integer", "minimum": 0 }
+          }
+        }
+      ]
+    }
+  }
+}

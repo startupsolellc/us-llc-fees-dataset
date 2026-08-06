@@ -1,0 +1,79 @@
+{
+  "stateName": "Pennsylvania",
+  "stateAbbr": "PA",
+  "stateSlug": "pennsylvania",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "1 hour service",
+        "turnaround": "1 hour service",
+        "feeUsd": 1000,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "received before 4:00 p.m.",
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "1 hour service (received before 4:00 p.m.) - $1,000",
+          "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/expedited-services"
+        }
+      },
+      {
+        "tierName": "3 hour service",
+        "turnaround": "3 hour service",
+        "feeUsd": 300,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "received before 2:00 p.m.",
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "3 hour service (received before 2:00 p.m.) - $300",
+          "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/expedited-services"
+        }
+      },
+      {
+        "tierName": "Same-day service",
+        "turnaround": "Same-day service",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "received before 10:00 a.m.",
+        "channels": ["online", "in-person"],
+        "note": null,
+        "evidence": {
+          "quote": "Same-day service (received before 10:00 a.m.) - $100",
+          "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/expedited-services"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Pennsylvania's ladder is unusually steep at the top — $1,000 for one hour against $100 for same day — and the cut-offs are what make the tiers distinguishable rather than the clock alone. The Department states that expedited requests are not accepted through the mail: they may be requested with online filings, or delivered in person with an expedited service request form for each request. All fees are nonrefundable.",
+  "needsReview": "Standard processing time not researched.",
+  "sources": [
+    {
+      "citation": "Pennsylvania Department of State, Bureau of Corporations and Charitable Organizations",
+      "title": "Expedited Services — 1 hour $1,000; 3 hour $300; same-day $100",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/expedited-services",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

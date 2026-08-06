@@ -1,0 +1,39 @@
+{
+  "stateName": "Florida",
+  "stateAbbr": "FL",
+  "stateSlug": "florida",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "How can I expedite my filing? We do not offer expedited services. We do offer walk-in services and some online filings.",
+      "url": "https://dos.fl.gov/sunbiz/about-us/faqs/"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Florida is the first researched 'no' in this namespace, and it is a real finding rather than a gap: the Division of Corporations answers the question directly on its own FAQ — it does not offer expedited services, and offers walk-in service instead, most of which it completes while the filer waits. Recording this as null would have implied the question was never asked. Nothing here says how long a routine filing takes; that is a separate question this record does not answer.",
+  "needsReview": "Standard processing time not researched; the Division publishes no figure on the page cited here.",
+  "sources": [
+    {
+      "citation": "Florida Department of State, Division of Corporations",
+      "title": "Division FAQs — question 17, expedited service is not offered",
+      "url": "https://dos.fl.gov/sunbiz/about-us/faqs/",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

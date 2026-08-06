@@ -1,0 +1,51 @@
+{
+  "stateName": "Hawaii",
+  "stateAbbr": "HI",
+  "stateSlug": "hawaii",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited Review",
+        "turnaround": null,
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["online", "mail", "in-person"],
+        "note": "The Division publishes a single expedited-review price per document and states no turnaround for it on this page.",
+        "evidence": {
+          "quote": "DOMESTIC LIMITED LIABILITY COMPANY FILING FEE EXPEDITED REVIEW Articles of Organization $50.00 $25.00",
+          "url": "https://cca.hawaii.gov/breg/registration/dllc/fees/"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Hawaii is the simplest shape in the namespace so far: one flat expedited-review price of $25.00 applied per document, sitting in a column beside the base fee for every filing type rather than sold as a separate service with its own turnaround. Articles of Organization are $50.00 plus $25.00 for expedited review. Because the price is attached to the document rather than to a promised time, there is nothing on this page that says what the $25.00 buys.",
+  "needsReview": "Two items: (1) what turnaround expedited review buys — the fee schedule states none; (2) standard processing time, not researched.",
+  "sources": [
+    {
+      "citation": "Hawaii Department of Commerce and Consumer Affairs, Business Registration Division",
+      "title": "Domestic Limited Liability Company fees — Articles of Organization $50.00, expedited review $25.00",
+      "url": "https://cca.hawaii.gov/breg/registration/dllc/fees/",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

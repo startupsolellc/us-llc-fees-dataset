@@ -1,0 +1,36 @@
+{
+  "stateName": "Texas",
+  "stateAbbr": "TX",
+  "stateSlug": "texas",
+  "expedite": {
+    "offered": null,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Unfilled on purpose. The Secretary of State's business-formation FAQ was reachable and states nothing about turnaround or expedited service, and the two pages that would carry the figures — the fee-and-payment schedule and the expedited-services page — returned HTTP 403 to automated access on the date below. Texas is widely reported to charge a flat expedite fee set by statute, but no official page was opened to confirm the amount, the turnaround it buys, or whether it applies to a Certificate of Formation, so nothing is recorded here. An unfilled field is recoverable; a plausible wrong number is not.",
+  "needsReview": "Every expedite field and the standard-processing fields. Blocked by bot protection on www.sos.state.tx.us, not by absence of a source. Retry on a direct connection: (1) the Secretary of State's fee and payment schedule, (2) its expedited-services page, and (3) the Government Code section that sets the expedite fee, read from the Legislature's own statute site rather than any mirror.",
+  "sources": [
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Business formation FAQs — consulted; carries no processing-time or expedited-service figures",
+      "url": "https://www.sos.state.tx.us/corp/formationfaqs.shtml",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

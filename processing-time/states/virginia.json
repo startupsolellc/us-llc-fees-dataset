@@ -1,0 +1,65 @@
+{
+  "stateName": "Virginia",
+  "stateAbbr": "VA",
+  "stateSlug": "virginia",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Next Day",
+        "turnaround": "receive a filing response by 4:00PM EST the following business day",
+        "feeUsd": null,
+        "feeUsdMin": 50,
+        "feeUsdMax": 100,
+        "cutoff": "Submit by 2:00PM EST",
+        "channels": ["online"],
+        "note": "The Commission publishes this tier as a choice between two fees without saying on this page which filing draws which. The figure for Articles of Organization has not been read from a page that states it.",
+        "evidence": {
+          "quote": "Next Day: Pay the fee ($50 or $100) Submit by 2:00PM EST to receive a filing response by 4:00PM EST the following business day",
+          "url": "https://www.scc.virginia.gov/pages/Expedited-Services"
+        }
+      },
+      {
+        "tierName": "Same Day",
+        "turnaround": "receive a filing response by 4:00PM EST the same business day",
+        "feeUsd": 200,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Submit by 10:00AM EST",
+        "channels": ["online"],
+        "note": null,
+        "evidence": {
+          "quote": "Same Day: Pay the fee ($200) Submit by 10:00AM EST to receive a filing response by 4:00PM EST the same business day",
+          "url": "https://www.scc.virginia.gov/pages/Expedited-Services"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Virginia sells expedited service only on filings submitted online through its Clerk's Information System; the Commission states plainly that a paper submission may not be expedited, which makes the channel part of the offer rather than a detail. Expedite fees are nonrefundable and a resubmission is not automatically expedited, so a rejected filing costs the fee twice. The Next Day tier is published as a choice of two fees rather than one.",
+  "needsReview": "Two items: (1) which of the two Next Day fees applies to Articles of Organization, which needs the Commission's fee schedule rather than this services page; (2) standard processing time — not researched, no agency page for it consulted yet.",
+  "sources": [
+    {
+      "citation": "Virginia State Corporation Commission, Office of the Clerk",
+      "title": "Online Expedited Services — Next Day $50 or $100; Same Day $200; online submissions only",
+      "url": "https://www.scc.virginia.gov/pages/Expedited-Services",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

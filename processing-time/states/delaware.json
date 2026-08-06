@@ -1,0 +1,93 @@
+{
+  "stateName": "Delaware",
+  "stateAbbr": "DE",
+  "stateSlug": "delaware",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "One Hour Service",
+        "turnaround": "Completed within one hour of receipt.",
+        "feeUsd": 1000,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Filing must be received by 9:00pm EST or EDT.",
+        "channels": ["online", "fax"],
+        "note": null,
+        "evidence": {
+          "quote": "One Hour Service – $1,000.00 Completed within one hour of receipt. Filing must be received by 9:00pm EST or EDT.",
+          "url": "https://corp.delaware.gov/expserv/"
+        }
+      },
+      {
+        "tierName": "Two Hour Service",
+        "turnaround": "Completed within two hours of receipt.",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Filing must be received by 7:00pm EST or EDT.",
+        "channels": ["online", "fax"],
+        "note": null,
+        "evidence": {
+          "quote": "Two Hour Service – $500.00",
+          "url": "https://corp.delaware.gov/expserv/"
+        }
+      },
+      {
+        "tierName": "Same Day Service",
+        "turnaround": "Must be received before 2:00pm EST or EDT.",
+        "feeUsd": null,
+        "feeUsdMin": 100,
+        "feeUsdMax": 200,
+        "cutoff": "Must be received before 2:00pm EST or EDT.",
+        "channels": ["online", "fax"],
+        "note": "The Division publishes this tier as a range because the figure charged depends on the document filed, and directs the reader to its Schedule of Fees for the document-specific amount. The figure for an LLC Certificate of Formation within that range has not been read from that schedule.",
+        "evidence": {
+          "quote": "Same Day Service – ranges from $100.00 to $200 for filings. Must be received before 2:00pm EST or EDT.",
+          "url": "https://corp.delaware.gov/expserv/"
+        }
+      },
+      {
+        "tierName": "Next Day Service",
+        "turnaround": "Request will be completed the next business day of receipt, excluding weekends and holidays.",
+        "feeUsd": null,
+        "feeUsdMin": 50,
+        "feeUsdMax": 100,
+        "cutoff": "Filing must be received by 7:00pm EST or EDT.",
+        "channels": ["online", "fax"],
+        "note": "Published as a range, as with Same Day Service.",
+        "evidence": {
+          "quote": "Next Day Service – ranges from $50.00 to $100 for filings. Request will be completed the next business day of receipt, excluding weekends and holidays.",
+          "url": "https://corp.delaware.gov/expserv/"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Delaware sells the deepest expedite ladder in the dataset, from next-business-day up to a one-hour filing at $1,000, and the fastest tiers run late into the evening. Two of the four tiers are published as ranges because the fee varies by document; the Division points to its Schedule of Fees for the exact figure. The expedited page publishes no standard processing time for routine filings. The tiers recorded here are the ones the Division lists for corporate filings; the page also carries a separate ladder for UCC filings, which is out of scope, and whether every corporate tier applies identically to an LLC Certificate of Formation is not asserted.",
+  "needsReview": "Two open items, both requiring the Division's Schedule of Fees rather than the expedited-services summary page: (1) the exact Same Day and Next Day charge for an LLC Certificate of Formation within the published ranges, and (2) confirmation that the corporate expedite ladder governs LLC filings.",
+  "sources": [
+    {
+      "citation": "Delaware Division of Corporations",
+      "title": "Expedited Services — one hour $1,000.00; two hour $500.00; same day $100.00–$200; next day $50.00–$100",
+      "url": "https://corp.delaware.gov/expserv/",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}
