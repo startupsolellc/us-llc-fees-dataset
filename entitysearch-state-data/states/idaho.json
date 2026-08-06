@@ -82,9 +82,14 @@
     },
     {
       "name": "Official Name Reservation Form Source",
-      "url": "https://sos.idaho.gov/CORP/forms/MISC/name%20reservation.pdf",
-      "lastAccessed": "2026-07-17"
+      "url": "https://archive.sos.idaho.gov/CORP/forms/MISC/Name%20Reservation.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "name": "Official Certificate of Organization Form Source",
+      "url": "https://archive.sos.idaho.gov/CORP/forms/LLC/LLC%20Cert%20Org.pdf",
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-06"
 }

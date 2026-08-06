@@ -57,23 +57,23 @@
   "sources": [
     {
       "name": "Official Contact Source",
-      "url": "https://www.sos.la.gov/OurOffice/ContactUs/Pages/default.aspx",
-      "lastAccessed": "2026-07-17"
+      "url": "https://www.sos.la.gov/our-office/contact-us",
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Commercial Division Contact Source",
-      "url": "https://www.sos.la.gov/BusinessServices/ContactUs/Pages/default.aspx",
-      "lastAccessed": "2026-07-17"
+      "url": "https://www.sos.la.gov/business-services/contact-us",
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Business Services Source",
-      "url": "https://www.sos.la.gov/BusinessServices/",
-      "lastAccessed": "2026-07-17"
+      "url": "https://www.sos.la.gov/business-services",
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Forms & Fee Schedule (current)",
       "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Future Fee Schedule PDF (effective 2026-10-01)",
@@ -86,5 +86,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-06"
 }

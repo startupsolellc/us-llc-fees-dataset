@@ -10,7 +10,7 @@
   "secretaryOfState": {
     "agency": "New Hampshire Department of State Corporation Division",
     "officialName": null,
-    "website": "https://sos.nh.gov/corporation-division",
+    "website": "https://www.sos.nh.gov/corporations-0",
     "phone": "603-271-3246",
     "email": "corporate@sos.nh.gov"
   },
@@ -58,7 +58,7 @@
     {
       "name": "Official LLC Forms and Fees Source",
       "url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Certificate of Formation Form LLC-1",
@@ -67,8 +67,8 @@
     },
     {
       "name": "Application for Reservation of Name Form 1",
-      "url": "https://sos.nh.gov/media/e10fhmrs/form_1_-09-2015.pdf",
-      "lastAccessed": "2026-07-17"
+      "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/documents/2023-11/form_1_-08-2018.pdf",
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "New Hampshire RSA 304-C:191 Limited Liability Company Fees",
@@ -81,5 +81,5 @@
       "lastAccessed": "2026-07-17"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-06"
 }
