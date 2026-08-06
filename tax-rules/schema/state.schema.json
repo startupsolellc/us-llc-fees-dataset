@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/us-llc-fees-dataset/tax-rules/schema/state.schema.json",
+  "title": "Recurring state-level LLC taxes, per jurisdiction",
+  "description": "DRAFT — the pilot's starting contract, expected to change while the pilot runs. `franchiseTax` records a recurring state-level levy on the LLC's existence or privilege of doing business, keyed to substance rather than to the state's label; `stateIncomeTax` records the state's posture toward default pass-through taxation, orientation only. Root states.json stays authoritative for the annual-report payment; `collectedWithAnnualReport` marks the overlap so no consumer counts it twice.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "stateName",
+    "stateAbbr",
+    "stateSlug",
+    "franchiseTax",
+    "stateIncomeTax",
+    "notes",
+    "needsReview",
+    "sources",
+    "lastVerified"
+  ],
+  "properties": {
+    "stateName": { "type": "string", "minLength": 2 },
+    "stateAbbr": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "stateSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+
+    "franchiseTax": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "applies",
+        "appliesEvidence",
+        "taxName",
+        "basis",
+        "minimumAnnualUsd",
+        "firstYearExemption",
+        "filedWith",
+        "collectedWithAnnualReport",
+        "dueDate",
+        "evidence"
+      ],
+      "properties": {
+        "applies": {
+          "type": ["boolean", "null"],
+          "description": "false is a researched finding; null means not yet researched."
+        },
+        "appliesEvidence": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/evidence" }
+          ],
+          "description": "Required when applies is false: a passage from a page that would have named a recurring entity tax if one existed — the state's own statement of what an LLC owes annually, so that 'no franchise tax' rests on a page that would have said so."
+        },
+        "taxName": {
+          "type": ["string", "null"],
+          "description": "The state's own label, verbatim: 'Franchise Tax', 'Annual Tax', 'Business Privilege Tax', 'Annual Report License Tax'. The label is data precisely because it disagrees with the substance so often."
+        },
+        "basis": {
+          "oneOf": [
+            { "type": "null" },
+            { "enum": ["flat", "net-worth", "revenue", "hybrid"] }
+          ],
+          "description": "What the amount scales with. null when applies is false or not yet researched. A regime with a flat floor and a scaled component above it is hybrid, and notes must name both parts."
+        },
+        "minimumAnnualUsd": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "The floor an existing LLC pays in an ordinary year. null where the state publishes no minimum, which is not the same as zero: a published $0 minimum (a real case — no-tax-due thresholds) is 0, an absent one is null."
+        },
+        "firstYearExemption": {
+          "type": ["boolean", "null"],
+          "description": "Statutory first-year waivers. Expiry dates and conditions go to notes."
+        },
+        "filedWith": {
+          "type": ["string", "null"],
+          "description": "The collecting agency's name, verbatim. Most franchise taxes belong to a tax authority, not the Secretary of State; a record that names the wrong agency has copied someone's table."
+        },
+        "collectedWithAnnualReport": {
+          "type": ["boolean", "null"],
+          "description": "true where this tax IS the annual-report payment that root states.json annual_report_fee already carries. A total-cost consumer must not add the two together."
+        },
+        "dueDate": {
+          "type": ["string", "null"],
+          "description": "The state's own statement, verbatim. Not normalised into a date format — 'the 15th day of the 4th month after the tax year begins' is the fact."
+        },
+        "evidence": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/evidence" }
+          ],
+          "description": "The passage establishing the tax and its figure. null only while applies is null."
+        }
+      }
+    },
+
+    "stateIncomeTax": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passThroughApplies", "topRatePercent", "hasPTETElection", "evidence"],
+      "properties": {
+        "passThroughApplies": {
+          "type": ["boolean", "null"],
+          "description": "Whether members owe state personal income tax on the LLC's pass-through income. false for the no-income-tax states, and that too needs evidence."
+        },
+        "topRatePercent": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Top marginal individual rate, orientation only. Brackets are out of scope by design."
+        },
+        "hasPTETElection": {
+          "type": ["boolean", "null"],
+          "description": "Whether the state offers a pass-through entity tax election."
+        },
+        "evidence": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/evidence" }
+          ]
+        }
+      }
+    },
+
+    "notes": {
+      "type": "string",
+      "description": "Anything the fields cannot carry without lying. The definitional judgment calls live here: why a levy was or was not treated as a franchise-type tax."
+    },
+    "needsReview": {
+      "type": ["string", "null"],
+      "description": "What is missing and what would settle it."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["citation", "title", "url", "type", "lastAccessed"],
+        "properties": {
+          "citation": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string", "pattern": "^https?://" },
+          "type": {
+            "oneOf": [
+              { "type": "null" },
+              { "enum": ["statute", "agency-page", "fee-schedule", "official-pdf"] }
+            ],
+            "description": "Trial field, this namespace only: the source class, for deriving record confidence mechanically. null where none of the classes fits; if the field does not survive contact with real sources, dropping it is a pilot outcome, not a failure."
+          },
+          "lastAccessed": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+        }
+      }
+    },
+    "lastVerified": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "The date the cited pages were retrieved and every quoted passage was mechanically confirmed to occur in them."
+    }
+  },
+
+  "definitions": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote", "url"],
+      "properties": {
+        "quote": {
+          "type": "string",
+          "minLength": 20,
+          "description": "One contiguous verbatim passage, copied from the page as retrieved, artefacts included. Never assembled across an ellipsis, never taken from a search snippet, never tidied."
+        },
+        "url": { "type": "string", "pattern": "^https?://" }
+      }
+    }
+  }
+}
