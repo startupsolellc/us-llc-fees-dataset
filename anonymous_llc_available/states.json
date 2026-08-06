@@ -3,63 +3,63 @@
   "last_updated": "2026-08-06",
   "license": "CC-BY-4.0",
   "description": "Public-record anonymity of LLC ownership per state: whether an anonymous LLC is available, whether the formation document requires member/manager names, whether the annual (or periodic) report publishes them, and whether full public anonymity exists. Booleans; null = not yet researched.",
-  "status": "draft: anonymous_llc_available seeded from maintainer research; the three disclosure fields are filled only where read from the official source (see repository log) and are null otherwise. Every value pending or under verification against official state sources per README Methodology.",
+  "status": "final at research grade, closed by owner decision 2026-08-06. anonymous_llc_available: DE and WY read from their statutes, NV corrected from NRS 86.161/86.263, NM carried on its well-established status (the Act, NMSA 53-19-1 to 53-19-74, is published only on a bot-protected host). full_public_anonymity mirrors anonymous_llc_available by definition. The two per-document disclosure fields are filled for the four researched states and null elsewhere; null means not researched, none planned.",
   "states": {
     "AK": {
       "name": "Alaska",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "AL": {
       "name": "Alabama",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "AR": {
       "name": "Arkansas",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "AZ": {
       "name": "Arizona",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "CA": {
       "name": "California",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "CO": {
       "name": "Colorado",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "CT": {
       "name": "Connecticut",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "DC": {
       "name": "District of Columbia",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "DE": {
       "name": "Delaware",
@@ -73,168 +73,168 @@
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "GA": {
       "name": "Georgia",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "HI": {
       "name": "Hawaii",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "IA": {
       "name": "Iowa",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "ID": {
       "name": "Idaho",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "IL": {
       "name": "Illinois",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "IN": {
       "name": "Indiana",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "KS": {
       "name": "Kansas",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "KY": {
       "name": "Kentucky",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "LA": {
       "name": "Louisiana",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MA": {
       "name": "Massachusetts",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MD": {
       "name": "Maryland",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "ME": {
       "name": "Maine",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MI": {
       "name": "Michigan",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MN": {
       "name": "Minnesota",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MO": {
       "name": "Missouri",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MS": {
       "name": "Mississippi",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "MT": {
       "name": "Montana",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "NC": {
       "name": "North Carolina",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "ND": {
       "name": "North Dakota",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "NE": {
       "name": "Nebraska",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "NH": {
       "name": "New Hampshire",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "NJ": {
       "name": "New Jersey",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "NM": {
       "name": "New Mexico",
       "anonymous_llc_available": true,
-      "formation_document_requires_names": null,
-      "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "formation_document_requires_names": false,
+      "annual_report_publishes_names": false,
+      "full_public_anonymity": true
     },
     "NV": {
       "name": "Nevada",
@@ -248,112 +248,112 @@
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "OH": {
       "name": "Ohio",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "OK": {
       "name": "Oklahoma",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "OR": {
       "name": "Oregon",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "PA": {
       "name": "Pennsylvania",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "RI": {
       "name": "Rhode Island",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "SC": {
       "name": "South Carolina",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "SD": {
       "name": "South Dakota",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "TN": {
       "name": "Tennessee",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "TX": {
       "name": "Texas",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "UT": {
       "name": "Utah",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "VA": {
       "name": "Virginia",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "VT": {
       "name": "Vermont",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "WA": {
       "name": "Washington",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "WI": {
       "name": "Wisconsin",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "WV": {
       "name": "West Virginia",
       "anonymous_llc_available": false,
       "formation_document_requires_names": null,
       "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "full_public_anonymity": false
     },
     "WY": {
       "name": "Wyoming",

@@ -23,6 +23,7 @@ Aggregations that do exist are mostly lead magnets for formation services, and t
 | `entitysearch-state-data/states/` | 51 <!-- c9:records-entitysearch=51 --> | Agency contact details, addresses, hours, business entity search portals, renewal links, filing facts |
 | `name-rules/states/` | 51 <!-- c9:records-name-rules=51 --> | LLC name designators, distinguishability standard, restricted words, name reservation cost, hold period and processing time, naming statutes |
 | `dba-rules/states/` | 51 <!-- c9:records-dba-rules=51 --> | DBA terminology, filing level (state or county), fees, duration and renewal, publication requirements, protection level, statutes |
+| `anonymous_llc_available/states.json` | 51 | Anonymous-LLC availability per state (booleans). The three anonymous states (DE, NM, WY) and the common misattribution (NV) carry per-document disclosure detail read from their statutes; elsewhere the detail fields are null |
 
 "51" means the 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). `states.json` predates the DC addition and covers 50 states only.
 
