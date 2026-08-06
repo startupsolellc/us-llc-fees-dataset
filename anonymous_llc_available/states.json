@@ -358,9 +358,9 @@
     "WY": {
       "name": "Wyoming",
       "anonymous_llc_available": true,
-      "formation_document_requires_names": null,
-      "annual_report_publishes_names": null,
-      "full_public_anonymity": null
+      "formation_document_requires_names": false,
+      "annual_report_publishes_names": false,
+      "full_public_anonymity": true
     }
   }
 }
