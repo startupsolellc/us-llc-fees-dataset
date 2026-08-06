@@ -140,9 +140,9 @@
       "annual_report_fee": 32,
       "annual_report_due_date": "End of anniversary month (Biennial)",
       "state_income_tax_rate": null,
-      "official_link": "https://inbiz.in.gov/start-business/fee-schedule",
-      "last_verified": "2026-07-17",
-      "source_url": "https://inbiz.in.gov/start-business/fee-schedule"
+      "official_link": "https://inbiz.in.gov/start-business",
+      "last_verified": "2026-08-06",
+      "source_url": "https://www.in.gov/sos/business/files/20250326-IR-075250155FNA.pdf"
     },
     "IA": {
       "name": "Iowa",
@@ -201,7 +201,7 @@
       "annual_report_due_date": "Apr 15",
       "state_income_tax_rate": null,
       "official_link": "https://dat.maryland.gov/businesses/Documents/FEES.pdf",
-      "last_verified": "2026-07-17",
+      "last_verified": "2026-08-06",
       "source_url": "https://dat.maryland.gov/businesses/Documents/FEES.pdf"
     },
     "MA": {

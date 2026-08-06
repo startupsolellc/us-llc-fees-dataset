@@ -48,7 +48,7 @@
   },
   "filingFacts": {
     "llcFee": 95,
-    "llcFeeNotes": "Domestic LLC Articles of Organization: $95 online ($75 statutory electronic fee under IC 23-0.5-9-19 plus $20 enhanced access under 75 IAC 8-3-4); $100 paper/non-electronic (IC 23-0.5-9-19).",
+    "llcFeeNotes": "Domestic LLC Articles of Organization: $95 online ($75 statutory electronic fee under IC 23-0.5-9-19 plus $20 enhanced access under 75 IAC 8-3-4); $100 paper/non-electronic (IC 23-0.5-9-19). INBiz withdrew its public fee-schedule page and publishes no replacement, so these figures rest on the statute and the Secretary of State's enhanced-access rule rather than on an agency fee table.",
     "annualReport": 32,
     "annualReportDue": "End of anniversary month (Biennial)",
     "nameReservation": 10,
@@ -66,9 +66,9 @@
       "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Official Filing Fee Source",
-      "url": "https://inbiz.in.gov/start-business/fee-schedule",
-      "lastAccessed": "2026-07-17"
+      "name": "Official Start a Business Source",
+      "url": "https://inbiz.in.gov/start-business",
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Business Entity Report Source",
@@ -88,8 +88,8 @@
     {
       "name": "75 IAC 8-3-4 Articles of organization enhanced access (SOS notice PDF)",
       "url": "https://www.in.gov/sos/business/files/20250326-IR-075250155FNA.pdf",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-06"
 }
