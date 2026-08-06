@@ -1,7 +1,7 @@
 # US LLC State Requirements Dataset
 
 ![Jurisdictions](https://img.shields.io/badge/Jurisdictions-51-blue?style=flat-square)
-![Sources](https://img.shields.io/badge/Verified-Official_.gov_sources-blue?style=flat-square)
+![Sources](https://img.shields.io/badge/Verified-Official_state_publishers-blue?style=flat-square)
 ![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-purple?style=flat-square)
 
@@ -19,10 +19,10 @@ Aggregations that do exist are mostly lead magnets for formation services, and t
 
 | Namespace | Records | What it covers |
 |---|---|---|
-| `states.json` | 50 states | Formation fee, annual report fee and due date, official links |
-| `entitysearch-state-data/states/` | 51 | Agency contact details, addresses, hours, business entity search portals, renewal links, filing facts |
-| `name-rules/states/` | 51 | LLC name designators, distinguishability standard, restricted words, name reservation cost, hold period and processing time, naming statutes |
-| `dba-rules/states/` | 51 | DBA terminology, filing level (state or county), fees, duration and renewal, publication requirements, protection level, statutes |
+| `states.json` | 50 states <!-- c9:records-states.json=50 --> | Formation fee, annual report fee and due date, official links |
+| `entitysearch-state-data/states/` | 51 <!-- c9:records-entitysearch=51 --> | Agency contact details, addresses, hours, business entity search portals, renewal links, filing facts |
+| `name-rules/states/` | 51 <!-- c9:records-name-rules=51 --> | LLC name designators, distinguishability standard, restricted words, name reservation cost, hold period and processing time, naming statutes |
+| `dba-rules/states/` | 51 <!-- c9:records-dba-rules=51 --> | DBA terminology, filing level (state or county), fees, duration and renewal, publication requirements, protection level, statutes |
 
 "51" means the 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). `states.json` predates the DC addition and covers 50 states only.
 
@@ -56,6 +56,8 @@ Third-party blogs, formation-service pages, and commercial legal aggregators (Ju
 
 A mirror is never the only source for a fact, and never a substitute for an official page that exists. Where an official copy of the statute is reachable, a mirror is a defect rather than a choice.
 
+**Where this policy lives.** This section is the canonical statement of the sourcing standard for this dataset. The working notes used to maintain it restate this policy operationally; they are held to this section, not the other way round, and where a restatement disagrees with what is written here, what is written here is what the data is checked against. The allowlist above and the counts in the table below are recomputed from the data on every maintenance run rather than kept by hand, so they can be re-derived from the published files and this section cannot quietly drift away from what it describes.
+
 **Provenance per record.** Each JSON file carries a `sources` array (`citation`, `title`, `url`, `lastAccessed`) and a `lastVerified` ISO date. `lastVerified` means a human opened the cited sources on that date and confirmed the values, not that an automated check ran.
 
 **Cost basis.** Published filing fees and real out-of-pocket costs differ in several states, because service charges and card fees are added at the point of filing. Where they differ, `nameReservationFee` holds the statutory figure and `nameReservationTotalCost` holds the real cost on the common filing path, with `nameReservationCostBasis` explaining the gap. **Use the total for any cross-state comparison.** Six of the 51 jurisdictions currently charge more than the fee their statute names.
@@ -72,10 +74,10 @@ The rules above are the standard the dataset is held to, and as of **2026-08-06*
 
 | Gap | Extent | Status |
 |---|---|---|
-| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 10 URLs across 2 jurisdictions (Oklahoma, Wyoming), in `name-rules` and `dba-rules` only (down from 145 across 29) | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section; both remaining jurisdictions are blocked on their publisher's reachability, not on research |
-| Mirror citations retained under the exception above, because the jurisdiction publishes no free official copy of its code | 20 URLs across 4 jurisdictions: Arkansas, Georgia, Mississippi and Tennessee | proven rather than assumed, each on the date it was applied: the Arkansas Bureau of Legislative Research links its code off-site to a commercial publisher and disclaims responsibility for it; in Georgia and Mississippi both the legislature and the Secretary of State link the code to the same commercial publisher while no state host carries the text; and Tennessee's General Assembly links its code to the same commercial publisher with no state-hosted text either. Every record carries official corroboration — the enacted acts in Arkansas, Mississippi and Tennessee, and the county filing offices in Georgia — and every record says so in `notes` |
-| `restrictedWords` is an empty array where the state's list has not yet been read | 20 of 51 | an empty array here means *not yet researched*, not *the state restricts nothing* |
-| Some cited URLs have gone dead since they were last opened | 17 confirmed | being re-sourced; a dead link is never replaced by a guess |
+| `namingStatuteUrl`, `statuteUrl` and some `sources[].url` values point at commercial statute mirrors rather than the state's own publisher | 10 URLs across 2 jurisdictions (Oklahoma, Wyoming), in `name-rules` and `dba-rules` only (down from 145 across 29) <!-- c9:mirror-urls=10,2 --> | being migrated jurisdiction by jurisdiction, each replacement opened and checked against the cited section; both remaining jurisdictions are blocked on their publisher's reachability, not on research |
+| Mirror citations retained under the exception above, because the jurisdiction publishes no free official copy of its code | 20 URLs across 4 jurisdictions: Arkansas, Georgia, Mississippi and Tennessee <!-- c9:exception-urls=20,4 --> | proven rather than assumed, each on the date it was applied: the Arkansas Bureau of Legislative Research links its code off-site to a commercial publisher and disclaims responsibility for it; in Georgia and Mississippi both the legislature and the Secretary of State link the code to the same commercial publisher while no state host carries the text; and Tennessee's General Assembly links its code to the same commercial publisher with no state-hosted text either. Every record carries official corroboration — the enacted acts in Arkansas, Mississippi and Tennessee, and the county filing offices in Georgia — and every record says so in `notes` |
+| `restrictedWords` is an empty array where the state's list has not yet been read | 20 of 51 <!-- c9:restricted-empty=20,51 --> | an empty array here means *not yet researched*, not *the state restricts nothing*. Two of the 20 are settled rather than pending: the state publishes no enumerated list, and the record's `notes` says so <!-- c9:restricted-unjustified=18 --> |
+| Some cited URLs have gone dead since they were last opened | 11 open, of 17 found | the other 6 were re-sourced or turned out to be bot protection rather than a dead page; a dead link is never replaced by a guess |
 
 `states.json` and `entitysearch-state-data` carry no mirror citations. Nothing in this table affects a fee amount in `states.json`.
 
