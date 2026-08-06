@@ -10,8 +10,8 @@
   "secretaryOfState": {
     "agency": "Illinois Secretary of State Business Services",
     "officialName": null,
-    "website": "https://www.ilsos.gov/departments/business_services/home.html",
-    "phone": "217-782-6961",
+    "website": "https://www.ilsos.gov/departments/business-services.html",
+    "phone": "800-252-8980",
     "email": null
   },
   "hours": {
@@ -30,10 +30,10 @@
     },
     {
       "label": "Chicago Business Services",
-      "street": "69 W. Washington St., Suite 1240",
+      "street": "160 N. LaSalle Street",
       "city": "Chicago",
       "state": "IL",
-      "zip": "60602",
+      "zip": "60601",
       "country": "USA"
     }
   ],
@@ -65,29 +65,29 @@
   "sources": [
     {
       "name": "Official Business Services Source",
-      "url": "https://www.ilsos.gov/departments/business_services/",
-      "lastAccessed": "2026-07-17"
+      "url": "https://www.ilsos.gov/departments/business-services.html",
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Contact Source",
       "url": "https://apps.ilsos.gov/ContactFormsWeb/businessservices_contact.jsp",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://www.ilsos.gov/publications/business-services/llc.html",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Annual Report Source",
       "url": "https://www.ilsos.gov/departments/business-services/annual-reports.html",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     },
     {
       "name": "Official Name Reservation Source",
       "url": "https://www.ilsos.gov/publications/business-services/llc.html",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-06"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-06"
 }
