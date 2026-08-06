@@ -1,0 +1,57 @@
+{
+  "stateName": "New Mexico",
+  "stateAbbr": "NM",
+  "stateSlug": "new-mexico",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "53 - 19 - 63. F iling, service and copying fees. The public regulation commission [secretary of state] shall c harge and collect: A. for filing the original artic les of organization and issuing a certificate of organi- zation, a fee of fifty dollars ($50.00); B . for filing amended or restated artic les of merger and issuing a certificate of amended or restated artic les , a fee of fifty dollars ($50.00); C . for filing artic les of merger , conversion or consolidation and issuing a certificate of consolidation, a fee of one hundred dollars ($100); D . for filing artic les of dissolution or revocation of dissolution, a fee of twenty - five dollars ($25.00); E. for issuing a certificate for any purpose not otherwise specified, a fee of twenty - five dollars ($25.00); F . for furnishing written information on any limited liability company , a fee of twenty - five dollars ($25.00); G . for providing from the commission's [secretary of state' s] records any document or instrument, a fee of one dollar ($1.00) per page , but in one [sic] case less than ten dollars ($10.00), and a fee of twenty - five dollars ($25.00) for certification of documents or instru- ments; 166 53 - 19 - 64 LIMITED LIABILITY COMP ANIES 53 - 19 - 66.1 H. for accepting an application for reservation of a name or for filing a notice of the transfer of any name reservation, a fee of twenty dollars ($20.00); I. for filing a statement of c hange of address of registered office or registered agent, or both, a fee of twenty dollars ($20.00); J . for filing an agent's statement of c hange of address of registered agent for eac h affected limited liability company , twenty dollars ($20.00); K. for issuing a registration to a foreign limited liability company , a fee of one hun- dred dollars ($100); L. for filing an amendment of the registration of a foreign limited liability company , a fee of fifty dollars ($50.00); and M. for filing an application for cancellation of registration of a foreign limited liabil- ity company and issuing a certificate of cancellation, a fee of twenty - five dollars ($25.00).",
+      "url": "https://api.realfile.rtsclients.com/publicfiles/ee3072ab0d43456cb15a51f7d82c77a2/1c940b98-cdb8-45ad-839f-7645c176a0c7/ch53art19.pdf"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "queue-date",
+    "queueAsOfOnline": "2026-07-16",
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "\"Name\":\"Business Filings\",\"AppSettingBypassName\":\"BusinessProcessedThroughDate\",\"Date\":\"2026-07-16T00:00:00\"",
+    "sourceUrl": "https://enterprise.sos.nm.gov/api/ProcessedThroughDate/GetAll",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "New Mexico has one filing channel and one price list, and neither carries an expedite. The Business Services page states the channel plainly - 'All business filings have moved to online process. We will no longer accept paper filings for any business applications.' - so there is no form cover letter and no counter service where an administrative surcharge could be printed. The price list is the statute: NMSA 53-19-63 tells the office what it 'shall charge and collect' and runs A through M over every LLC filing, certificate, copy and foreign registration, with no line for speed; it is the Indiana shape, an exhaustive fee section whose completeness is what makes the absence evidence. The state's own guide to the only filing channel agrees by silence: the Business Online Filing Help guide walks a formation through payment and says only that 'Application fees vary depending on the type of entity and are in the description of each of the forms' and that filing fees are non-refundable, a rejected document requiring resubmission and a new filing fee. Two limits on this 'no', both worth stating. The portal's checkout sits behind a login, so an administratively priced expedite of the Oklahoma shape - a charge with no statute behind it, printed only where a filer meets it - could not be ruled out from published pages. And the copy of Article 19 quoted here is the PDF the Secretary of State posts on its own file service, which carries no edition date and no amendment history; nmonesource.com, the publisher the office names for the statutes, serves its text inside an iframe behind a Continue interstitial that a scripted client cannot pass, so the compilation could not be re-read there. The queue figure comes from the portal's own data endpoint rather than a page, because the portal is client-rendered: the endpoint returns the processed-through date the office maintains for business filings, 2026-07-16 when read on 2026-08-06, about three weeks behind the day it was read.",
+  "needsReview": "Whether the online checkout offers a paid acceleration: enterprise.sos.nm.gov is client-rendered and its filing type endpoint returns 403 without an account, so the only page where an unstatutory expedite would appear was not read. Currency of the fee section: the SOS-posted Article 19 PDF has no edition date, and the state's named publisher nmonesource.com cannot be read by a scripted client.",
+  "sources": [
+    {
+      "citation": "NMSA 1978, Chapter 53, Article 19 (Limited Liability Company Act)",
+      "title": "53-19-63, Filing, service and copying fees - the complete list of fees the Secretary of State shall charge and collect for LLC filings, $50.00 for the original articles of organization, with no expedited-service fee. Posted by the Secretary of State on its own file service",
+      "url": "https://api.realfile.rtsclients.com/publicfiles/ee3072ab0d43456cb15a51f7d82c77a2/1c940b98-cdb8-45ad-839f-7645c176a0c7/ch53art19.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "New Mexico Secretary of State",
+      "title": "Business Services - all business filings have moved to an online process and paper filings are no longer accepted; walk-in hours Monday through Thursday",
+      "url": "https://www.sos.nm.gov/business-services/",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "New Mexico Secretary of State",
+      "title": "Business Online Filing Help - the official guide to the only filing channel; fees are stated in each form's description, are non-refundable, and no expedited option appears anywhere in the flow",
+      "url": "https://api.realfile.rtsclients.com/PublicFiles/ee3072ab0d43456cb15a51f7d82c77a2/c32ddb0d-44ba-4b43-aa86-b6ebdbb624ba/Business%20Online%20Filing%20Help.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "New Mexico Secretary of State, New Mexico Business Portal",
+      "title": "Processed Through Date data endpoint - Business Filings processed through 2026-07-16; read directly because the portal interface is client-rendered",
+      "url": "https://enterprise.sos.nm.gov/api/ProcessedThroughDate/GetAll",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

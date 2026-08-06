@@ -1,0 +1,77 @@
+{
+  "stateName": "Montana",
+  "stateAbbr": "MT",
+  "stateSlug": "montana",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "24 Hour Processing Fee",
+        "turnaround": null,
+        "feeUsd": 20,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "Printed in the fee sheet's 'Miscellaneous Business Charges' block, which prices services rather than filings and names no filing type. The fee's own name is the only time the state states anywhere; no page on sosmt.gov says what the service commits to, so no turnaround is recorded.",
+        "evidence": {
+          "quote": "Miscellaneous Business Charges: Certificate Of Fact $15.00 Certified Copy Requests $10.00 Documents/Copies Returned By Fax $5.00 24 Hour Processing Fee $20.00 1 Hour Processing Fee $100.00",
+          "url": "https://sosmt.gov/business/fees/"
+        }
+      },
+      {
+        "tierName": "1 Hour Processing Fee",
+        "turnaround": null,
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "Same block and same silence as the 24 hour tier: a price with no published commitment and no cut-off time.",
+        "evidence": {
+          "quote": "Miscellaneous Business Charges: Certificate Of Fact $15.00 Certified Copy Requests $10.00 Documents/Copies Returned By Fax $5.00 24 Hour Processing Fee $20.00 1 Hour Processing Fee $100.00",
+          "url": "https://sosmt.gov/business/fees/"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Montana sells speed but publishes nothing about what speed it sells. The Business Services filing fee sheet is one page for the whole office: it prices Articles Of Organization at $35.00 in the Limited Liability Companies block, then prices '24 Hour Processing Fee $20.00' and '1 Hour Processing Fee $100.00' in a separate 'Miscellaneous Business Charges' block that sits after trademarks and lists certificates, copies and fax returns beside them. That block names no filing type, so whether the two processing fees can be bought on an Articles Of Organization filing is not stated on the page and appliesToLlcFormation is left unrecorded rather than inferred. The help centre confirms the service is really sold on business filings - it carries an article headed 'I paid for 24-hour processing, but I have not received a response from your office.' - but that article too says only to check the payment and call Business Services, and never says what 24-hour processing promises. Where the authority sits: MCA 2-15-405 requires the Secretary of State to 'set by administrative rule each fee authorized by law', so the operative text is an administrative rule, not a statute; rules.mt.gov answers every request with a 'Human Verification' interstitial that a scripted client cannot pass, so the rule itself could not be read on this route and the fee sheet is the only readable publication of these two prices. The filing portal biz.sosmt.gov is a client-rendered application whose JavaScript bundle contains no expedite, priority or processing strings, so the checkout wording could not be read either; Montana takes no paper forms, so there is no form cover letter of the Maine or Oklahoma kind to fall back on.",
+  "needsReview": "Turnaround for both tiers, and whether either applies to LLC formation: the fee sheet prices them without saying what they buy or which filings they attach to, and the administrative rule that sets them is behind a human-verification wall on rules.mt.gov. Standard processing time: no figure on sosmt.gov, in the help centre, or in the portal shell; the portal is client-rendered and was not read past its shell.",
+  "sources": [
+    {
+      "citation": "Montana Secretary of State, Business Services",
+      "title": "Business Services Filing Fees - Limited Liability Companies: Domestic Filings, Articles Of Organization $35.00; Miscellaneous Business Charges, 24 Hour Processing Fee $20.00 and 1 Hour Processing Fee $100.00",
+      "url": "https://sosmt.gov/business/fees/",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Montana Code Annotated 2025",
+      "title": "2-15-405, Fees charged by secretary of state - deposit to account - rulemaking: every fee charged by the office is set by administrative rule and must be commensurate with the office's costs",
+      "url": "https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/part_0040/section_0050/0020-0150-0040-0050.html",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Montana Secretary of State, Business Services help centre",
+      "title": "I paid for 24-hour processing, but I have not received a response from your office. - confirms the service is sold on business filings; states no turnaround",
+      "url": "https://help.sosmt.gov/en/article/i-paid-for-24-hour-processing-but-i-have-not-received-a-response-from-your-office-1ptmch3/",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

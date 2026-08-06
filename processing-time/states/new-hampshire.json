@@ -1,0 +1,63 @@
+{
+  "stateName": "New Hampshire",
+  "stateAbbr": "NH",
+  "stateSlug": "new-hampshire",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": false,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "expedited service",
+        "turnaround": null,
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "Priced in batches, not per document: $25 buys expedited service for every ten documents or any part of ten, which is why feeIsPerDocument is false. RSA 5:10 is the Department of State's general office fee list and names no filing type, so what the service commits to and whether it can be bought on an LLC certificate of formation are not stated in the statute.",
+        "evidence": {
+          "quote": "for engrossing private acts, $1 for each page of 240 words; for expedited service of every 10 documents or any part thereof, $25.",
+          "url": "https://gc.nh.gov/rsa/html/I/5/5-10.htm"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "New Hampshire is a half record on purpose: the statute is readable and the agency is not. RSA 5:10, the Department of State's office fee list, ends with 'for expedited service of every 10 documents or any part thereof, $25' - a batch price rather than a per-document one, and the only expedited-service fee anywhere in the readable law. RSA 304-C:191 is the LLC fee section and does not mention speed at all: it prices the certificate of formation at $100 and then, in paragraph III, hands the detail to the agency - 'The secretary of state shall establish, and may from time to time amend, a schedule of specific fees payable under this section.' That schedule, and the LLC forms-and-fees page that would say what $25 buys and whether it attaches to a formation filing, sit on www.sos.nh.gov, which answers every scripted request with an Akamai Access Denied 403; the apex sos.nh.gov redirects into the same block and the QuickStart filing portal 403s as well, so nothing on the agency side could be read on this route. FIELD_GUIDE records the same host behaviour for the main campaign, and a 403 is never treated as link rot here. One nearby charge that is not speed: RSA 5:10-a adds $2 to every fee the office collects electronically, a channel handling charge of the kind Massachusetts and Idaho also carry.",
+  "needsReview": "Turnaround, channel, applicability to LLC formation and standard processing time are all unread, and all four sit on the same blocked host. A browser session on www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies plus the department's fee schedule would settle them; the state is therefore carried into the browser batch rather than closed here.",
+  "sources": [
+    {
+      "citation": "New Hampshire Revised Statutes Annotated",
+      "title": "RSA 5:10, Office Fees - the Department of State's general fee list, ending with expedited service of every 10 documents or any part thereof, $25",
+      "url": "https://gc.nh.gov/rsa/html/I/5/5-10.htm",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "New Hampshire Revised Statutes Annotated",
+      "title": "RSA 304-C:191, Fees - $100 on receipt for filing of a certificate of formation; paragraph III requires the secretary of state to establish a schedule of specific fees. No expedited-service provision",
+      "url": "https://gc.nh.gov/rsa/html/XXVIII/304-C/304-C-191.htm",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "New Hampshire Revised Statutes Annotated",
+      "title": "RSA 5:10-a, Handling Charge - $2 added to every fee paid electronically, including by Internet or facsimile. A channel charge, not a purchased turnaround",
+      "url": "https://gc.nh.gov/rsa/html/I/5/5-10-a.htm",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}

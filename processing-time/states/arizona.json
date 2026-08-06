@@ -1,0 +1,123 @@
+{
+  "stateName": "Arizona",
+  "stateAbbr": "AZ",
+  "stateSlug": "arizona",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": true,
+    "tiers": [
+      {
+        "tierName": "Expedite",
+        "turnaround": "the estimated processing time is typically 3-5 days",
+        "feeUsd": 35,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "The ordinary expedite, distinct from the Same Day/Next Day ladder below and the only tier the LLC fee schedule prices: there, Articles of Organization is $50.00 for regular processing and $85.00 for expedited processing, the same $35 stated here as an addition to the filing fee. Priced as an estimate, not as a guarantee.",
+        "evidence": {
+          "quote": "Expedite ($35 in addition to the filing fee; the estimated processing time is typically 3-5 days)",
+          "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs"
+        }
+      },
+      {
+        "tierName": "Next day",
+        "turnaround": "the filing will be reviewed by the C.O.B. on the following business day",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Must be received before 5:00pm; a filing received after 5:00pm is processed by 5:00pm the following business day",
+        "channels": [
+          "online",
+          "fax",
+          "in-person"
+        ],
+        "note": "Part of the Same Day/Next Day accelerated services, which the Corporations Division describes as a guarantee of examination and not of approval. Mailed documents, including overnight couriers, are not accepted for this service.",
+        "evidence": {
+          "quote": "Next day ($100 in addition to the filing fee; the filing will be reviewed by the C.O.B. on the following business day)",
+          "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs"
+        }
+      },
+      {
+        "tierName": "Same day",
+        "turnaround": "the filing will be reviewed by the C.O.B. on the same business day",
+        "feeUsd": 200,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Must be received before 10:00am; a filing received after 10:00am is processed by 5:00pm the next business day",
+        "channels": [
+          "online",
+          "fax",
+          "in-person"
+        ],
+        "note": "Same accelerated-services rules as the next day tier: examination guaranteed, approval not; no mailed documents.",
+        "evidence": {
+          "quote": "Same day ($200 in addition to the filing fee; the filing will be reviewed by the C.O.B. on the same business day)",
+          "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs"
+        }
+      },
+      {
+        "tierName": "2 hour",
+        "turnaround": "The filing will be reviewed within 2 hours of receipt",
+        "feeUsd": 400,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Must be received before 3:00pm; a filing received after 3:00pm is processed by 10:00am the next business day. Service available 8am - 3pm",
+        "channels": [
+          "online",
+          "fax",
+          "in-person"
+        ],
+        "note": "The fastest tier the state sells. The clock starts only once the document is complete and paid for, and does not start at all until any required statutory agent acceptance is on file.",
+        "evidence": {
+          "quote": "2 hour ($400 in addition to the filing fee; The filing will be reviewed within 2 hours of receipt)",
+          "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Depending on the type of filing you are completing, you are generally able to select from the following options: Regular (no additional fee; the estimated processing time is typically 14-16 days)",
+    "sourceUrl": "https://www.azcc.gov/faqs/BusinessServicesFAQs",
+    "observedOn": "2026-08-06",
+    "volatile": true
+  },
+  "notes": "Arizona is the fullest ladder in the namespace so far: one page of the Corporations Division FAQ prices regular processing, an ordinary $35 expedite and a three-step Same Day/Next Day service ($100 / $200 / $400) in a single list, each with the time it buys. Every one of the four is stated as an addition to the filing fee, so the numbers here are surcharges, not totals. The LLC fee schedule (Rev. 3.2026) prints the same thing the other way round, as totals: Articles of Organization $50.00 for regular processing and $85.00 for expedited processing, which is where appliesToLlcFormation comes from - the expedite column is priced for the LLC formation document itself, not for corporations by reference. Day ranges are deliberately not parsed into the business-day fields: the agency says 'days' and defines processing time as 'the estimated number of days it will take for our staff to review your filing', so reading 14-16 or 3-5 as business days would add a qualifier the page does not carry. What the accelerated tiers buy is examination, not acceptance: 'The accelerated service guarantees the examination of a document within the specified service time' and 'Same day/next day filing does not guarantee approval of a filing' - the North Carolina shape. chargedIfRejected is true on the strength of the division's own payment page, which states that all filing fees are NONREFUNDABLE pursuant to A.R.S. 10-122, 10-3122 and 29-3213; the softer half is that a rejected document, when resubmitted, is processed under the accelerated service originally paid for unless a faster one is bought. Two more conditions worth carrying: the accelerated clock starts only when the document is complete and paid for, and does not start until a required statutory agent acceptance has been accepted, which for an online formation means manually accepting the electronic version from the dashboard. Mailed documents, FedEx included, are not accepted for Same Day/Next Day at all.",
+  "needsReview": "Standard processing time is the FAQ's estimate, not the live figure. The division's current processing times are published at arizonabusinesscenter.azcc.gov/processingTimes, which returned HTTP 403 on this route; the routing plan measured that host as reachable only with the VPN down, so it is a route-dependent read rather than a dead page and should be taken on the other route or in a browser.",
+  "sources": [
+    {
+      "citation": "Arizona Corporation Commission, Corporations Division",
+      "title": "Business Services FAQs, question 9 (How long will it take to process my document?) - Regular 14-16 days, Expedite $35 / 3-5 days, Next day $100, Same day $200, 2 hour $400, each in addition to the filing fee",
+      "url": "https://www.azcc.gov/faqs/BusinessServicesFAQs",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Arizona Corporation Commission, Corporations Division",
+      "title": "Schedule of Fees, Limited Liability Companies, A.R.S. Title 29 (Rev. 3.2026) - Articles of Organization $50.00 regular / $85.00 expedited; Same Day/Next Day accelerated processing services 2-Hour $400, Same Day $200, Next Day $100",
+      "url": "https://azcc.gov/docs/default-source/corps-files/fee-schedules/fee-schedule-llcs.pdf",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Arizona Corporation Commission, Corporations Division",
+      "title": "Accelerated Services - cut-off times, the guarantee of examination rather than approval, no mailed documents, and the statutory agent acceptance condition on the clock",
+      "url": "https://www.azcc.gov/corporations/accelerated-services",
+      "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Arizona Corporation Commission, Corporations Division",
+      "title": "Fee and Payment Information - all filing fees are NONREFUNDABLE pursuant to A.R.S. 10-122, 10-3122, 29-3213",
+      "url": "https://www.azcc.gov/corporations/fee-and-payment-info",
+      "lastAccessed": "2026-08-06"
+    }
+  ],
+  "lastVerified": "2026-08-06"
+}
