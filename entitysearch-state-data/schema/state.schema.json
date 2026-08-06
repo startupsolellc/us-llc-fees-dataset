@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://example.com/schema/state.schema.json",
+  "$id": "https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/entitysearch-state-data/schema/state.schema.json",
   "title": "State Entity Search Data",
   "description": "Schema for state-level entity search sidebar data",
   "type": "object",

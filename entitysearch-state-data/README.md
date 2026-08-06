@@ -4,14 +4,13 @@ Structured state-level dataset for sidebar components. This data is designed for
 
 ## Status
 
-Enrichment is complete for **51 of 51 jurisdictions**: all 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). Initial batch enrichment finished 2026-05-12; the full set was re-verified against official sources during the July 2026 campaign (see `../CHANGELOG.md`).
+Enrichment is complete for **51 of 51 jurisdictions**: all 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). Initial batch enrichment finished 2026-05-12, and the full set was re-verified against official sources during the 2026 verification campaign.
 
 Note that root `../states.json` deliberately remains a **50-state** map and does not include DC.
 
 - **Coverage:** all 50 states, `AL` through `WY`, plus `DC`
 - Each state file contains contact info, addresses, hours, renewal links, LLC filing facts, name reservation details, and official sources — or consciously left as `null` if not available from official sources.
 - Root [`../states.json`](../states.json) records have been aligned with official fee/source corrections.
-- Batch audit outputs are generated locally under `entitysearch-state-data/audits/`. This folder is under `.gitignore`.
 
 ## Structure
 
@@ -20,12 +19,13 @@ entitysearch-state-data/
 ├── README.md
 ├── schema/
 │   └── state.schema.json      # JSON validation schema
-├── states/                    # Individual state JSON files
-│   └── alabama.json           # Example state file
-└── assets/
-    ├── seals/                 # State seal images (.webp)
-    └── provider-logos/       # Bizee, Northwest, IncAuthority logos
+└── states/                    # Individual state JSON files, one per jurisdiction
+    └── alabama.json           # Example state file
 ```
+
+That is the whole published surface: a schema and 51 records. The dataset ships **no images and
+no logos of any kind**, which is why `stateSeal` is `null` in every record. An application that
+wants a seal supplies its own; see [Optional Enrichment Fields](#optional-enrichment-fields).
 
 ## Schema Fields
 
@@ -190,21 +190,13 @@ In root `states.json`, only update if official data changed or source link was c
 - If online and paper fees differ, the most practical/current online fee can be used as the main value; paper fee should be clearly noted in notes.
 - If there's a minimum/maximum or asset-based fee, write the minimum fee as the main value; explain variable structure in `filingFacts.*Notes` and `renewals.notes`.
 
-### Batch Audit
+### Link health
 
-Generate URL audit at the end of each batch:
-
-```bash
-scripts/.venv/bin/python scripts/audit_state_urls.py --state WI --state WY --insecure --timeout 8 --output entitysearch-state-data/audits/url-audit-batch-wi-wy-2026-05-12.json
-```
-
-To extract audit summary:
-
-```bash
-jq -r '.states | to_entries[] as $s | $s.value.urls[] | [$s.key, (.fetched.status // "ERR"), .url, (.fetched.error // "")] | @tsv' entitysearch-state-data/audits/url-audit-batch-wi-wy-2026-05-12.json
-```
-
-The audit folder is kept out of git. Audit file can be linked in the final report but not included in commits.
+Every batch ends with a liveness pass over the URLs it touched. The maintenance tooling that
+performs it is not part of the published dataset, and its output is not committed. What matters
+for anyone reading the data is the rule the pass applies, which is stated above: a `403`, a
+timeout, or a connection reset is bot protection or a network condition, **not** a dead page, and
+no URL is moved without `404` evidence read from the page itself.
 
 ### Batch End Checklist
 
@@ -220,8 +212,8 @@ jq empty states.json entitysearch-state-data/states/*.json
 npx ajv-cli validate --strict=false -s entitysearch-state-data/schema/state.schema.json -d 'entitysearch-state-data/states/*.json'
 ```
 
-3. Run batch audit and note caveats.
-4. If `handoff.md` exists, write current batch, audit file, caveats, and next step.
+3. Re-check the URLs the batch touched, and note any that could not be read.
+4. Record the batch scope, the caveats, and the next step in the maintenance notes.
 5. Check with `git diff` that only expected files changed.
 6. Write commit message to describe batch scope.
 
