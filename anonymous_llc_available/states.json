@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-08-06",
+  "license": "CC-BY-4.0",
+  "description": "Whether a state permits formation of an anonymous LLC (members/managers not disclosed in public formation records).",
+  "status": "draft: seeded from maintainer research; each value pending verification against the official state source per README Methodology",
+  "states": {
+    "AK": {
+      "name": "Alaska",
+      "anonymous_llc_available": false
+    },
+    "AL": {
+      "name": "Alabama",
+      "anonymous_llc_available": false
+    },
+    "AR": {
+      "name": "Arkansas",
+      "anonymous_llc_available": false
+    },
+    "AZ": {
+      "name": "Arizona",
+      "anonymous_llc_available": false
+    },
+    "CA": {
+      "name": "California",
+      "anonymous_llc_available": false
+    },
+    "CO": {
+      "name": "Colorado",
+      "anonymous_llc_available": false
+    },
+    "CT": {
+      "name": "Connecticut",
+      "anonymous_llc_available": false
+    },
+    "DE": {
+      "name": "Delaware",
+      "anonymous_llc_available": true
+    },
+    "FL": {
+      "name": "Florida",
+      "anonymous_llc_available": false
+    },
+    "GA": {
+      "name": "Georgia",
+      "anonymous_llc_available": false
+    },
+    "HI": {
+      "name": "Hawaii",
+      "anonymous_llc_available": false
+    },
+    "IA": {
+      "name": "Iowa",
+      "anonymous_llc_available": false
+    },
+    "ID": {
+      "name": "Idaho",
+      "anonymous_llc_available": false
+    },
+    "IL": {
+      "name": "Illinois",
+      "anonymous_llc_available": false
+    },
+    "IN": {
+      "name": "Indiana",
+      "anonymous_llc_available": false
+    },
+    "KS": {
+      "name": "Kansas",
+      "anonymous_llc_available": false
+    },
+    "KY": {
+      "name": "Kentucky",
+      "anonymous_llc_available": false
+    },
+    "LA": {
+      "name": "Louisiana",
+      "anonymous_llc_available": false
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "anonymous_llc_available": false
+    },
+    "MD": {
+      "name": "Maryland",
+      "anonymous_llc_available": false
+    },
+    "ME": {
+      "name": "Maine",
+      "anonymous_llc_available": false
+    },
+    "MI": {
+      "name": "Michigan",
+      "anonymous_llc_available": false
+    },
+    "MN": {
+      "name": "Minnesota",
+      "anonymous_llc_available": false
+    },
+    "MO": {
+      "name": "Missouri",
+      "anonymous_llc_available": false
+    },
+    "MS": {
+      "name": "Mississippi",
+      "anonymous_llc_available": false
+    },
+    "MT": {
+      "name": "Montana",
+      "anonymous_llc_available": false
+    },
+    "NC": {
+      "name": "North Carolina",
+      "anonymous_llc_available": false
+    },
+    "ND": {
+      "name": "North Dakota",
+      "anonymous_llc_available": false
+    },
+    "NE": {
+      "name": "Nebraska",
+      "anonymous_llc_available": false
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "anonymous_llc_available": false
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "anonymous_llc_available": false
+    },
+    "NM": {
+      "name": "New Mexico",
+      "anonymous_llc_available": true
+    },
+    "NV": {
+      "name": "Nevada",
+      "anonymous_llc_available": true
+    },
+    "NY": {
+      "name": "New York",
+      "anonymous_llc_available": false
+    },
+    "OH": {
+      "name": "Ohio",
+      "anonymous_llc_available": false
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "anonymous_llc_available": false
+    },
+    "OR": {
+      "name": "Oregon",
+      "anonymous_llc_available": false
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "anonymous_llc_available": false
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "anonymous_llc_available": false
+    },
+    "SC": {
+      "name": "South Carolina",
+      "anonymous_llc_available": false
+    },
+    "SD": {
+      "name": "South Dakota",
+      "anonymous_llc_available": false
+    },
+    "TN": {
+      "name": "Tennessee",
+      "anonymous_llc_available": false
+    },
+    "TX": {
+      "name": "Texas",
+      "anonymous_llc_available": false
+    },
+    "UT": {
+      "name": "Utah",
+      "anonymous_llc_available": false
+    },
+    "VA": {
+      "name": "Virginia",
+      "anonymous_llc_available": false
+    },
+    "VT": {
+      "name": "Vermont",
+      "anonymous_llc_available": false
+    },
+    "WA": {
+      "name": "Washington",
+      "anonymous_llc_available": false
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "anonymous_llc_available": false
+    },
+    "WV": {
+      "name": "West Virginia",
+      "anonymous_llc_available": false
+    },
+    "WY": {
+      "name": "Wyoming",
+      "anonymous_llc_available": true
+    }
+  }
+}
