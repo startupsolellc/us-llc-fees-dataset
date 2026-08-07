@@ -1,0 +1,135 @@
+{
+  "stateName": "New York",
+  "stateAbbr": "NY",
+  "stateSlug": "new-york",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Partnership, LLC, and LLP annual filing fee",
+    "basis": "revenue",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Department of Taxation and Finance",
+    "collectedWithAnnualReport": false,
+    "dueDate": "You must file Form IT-204-LL on or before the 15th day of the third month following the close of the tax year.",
+    "evidence": [
+      {
+        "quote": "Certain partnerships, limited liability companies (LLCs), and limited liability partnerships (LLPs) must pay an annual filing fee using Form IT-204-LL , Partnership, Limited Liability Company, and Limited Liability Partnership Filing Fee Payment Form",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "applies and taxName"
+      },
+      {
+        "quote": "The amount of the filing fee will be based on the New York source gross income for the tax year immediately preceding the tax year for which the fee is due (preceding tax year). If an LLC or LLP did not have any New York Source gross income for the preceding tax year, the filing fee is $25.",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "basis"
+      },
+      {
+        "quote": "LLC/LLP filing fee table If the New York source gross income of an LLC or LLP for the preceding tax year is more than: but not more than: the filing fee is: $0 $100,000 $25 100,000 250,000 50 250,000 500,000 175 500,000 1,000,000 500 1,000,000 5,000,000 1,500 5,000,000 25,000,000 3,000 25,000,000 4,500",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "basis: the bands the fee scales through, $25 to $4,500"
+      },
+      {
+        "quote": "The amount of the filing fee for an LLC that is treated as a disregarded entity for federal income tax purposes, and that has any income, gain, loss or deduction from New York Sources, is $25.",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "basis: a single-member LLC pays a flat $25 rather than a banded amount"
+      },
+      {
+        "quote": "Form IT-204-LL should not be filed by: a partnership, LLC, or LLP with no income, gain, loss, or deduction from New York sources, who is filing a partnership return solely because it has a New York resident partner; or a partnership, LLC, or LLP with no income, gain, loss, or deduction from New York sources in the current taxable year, regardless of whether or not it is formed under the laws of New York State or is dormant; or an LLC or LLP that has elected to be treated as a corporation for federal income tax purposes.",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "minimumAnnualUsd"
+      },
+      {
+        "quote": "You must file Form IT-204-LL on or before the 15th day of the third month following the close of the tax year. There is no extension of time allowed to file Form IT-204-LL or to pay the fee.",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "There is no proration of the filing fee if the LLC, LLP, or partnership has a short tax year for federal purposes.",
+        "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+        "supports": "firstYearExemption: a short first year is not prorated, and the fee is set by the preceding year's New York source gross income rather than waived"
+      },
+      {
+        "quote": "The law allows the Tax Department to charge a $50 fee when a check, money order, or electronic payment is returned by a bank for nonpayment.",
+        "url": "https://www.tax.ny.gov/forms/current-forms/it/it204lli.htm",
+        "supports": "filedWith: the fee is remitted to the Tax Department"
+      },
+      {
+        "quote": "Both domestic LLCs and LLPs are required to register with the New York State Department of State. In addition, foreign LLCs and LLPs that wish to carry on or conduct business or other activities in New York State must also register with the Department of State.",
+        "url": "https://www.tax.ny.gov/pit/efile/llc_llp.htm",
+        "supports": "collectedWithAnnualReport: registration, and therefore the biennial statement root states.json carries, belongs to a different agency from the one that collects this fee"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 10.9,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "The New York personal income tax and the corporate franchise tax conform to the federal income tax classification of LLCs and LLPs. An LLC or LLP treated as a partnership for federal income tax purposes is treated as a partnership for New York tax purposes.",
+        "url": "https://www.tax.ny.gov/pit/efile/llc_llp.htm",
+        "supports": "passThroughApplies"
+      },
+      {
+        "quote": "An LLC treated as a sole proprietorship must report its business income and expenses on the member's New York State personal income tax return.",
+        "url": "https://www.tax.ny.gov/pit/efile/llc_llp.htm",
+        "supports": "passThroughApplies: the income is reported on the member's own return"
+      },
+      {
+        "quote": "Single and married filing separately-filing status ① and ③ If line 38 is: The tax is: over but not over $0 $8,500 4% of line 38 8,500 11,700 $340 plus 4.5% of the excess over $8,500 11,700 13,900 484 plus 5.25% of the excess over 11,700 13,900 80,650 600 plus 5.5% of the excess over 13,900 80,650 215,400 4,271 plus 6% of the excess over 80,650 215,400 1,077,550 12,356 plus 6.85% of the excess over 215,400 1,077,550 5,000,000 71,413 plus 9.65% of the excess over 1,077,550 5,000,000 25,000,000 449,929 plus 10.3% of the excess over 5,000,000 25,000,000 ---- 2,509,929 plus 10.9% of the excess over 25,000,000",
+        "url": "https://www.tax.ny.gov/forms/html-instructions/2025/it/it201i-2025.htm",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "The PTET is an optional tax that partnerships or New York S corporations may annually elect to pay on certain income for tax years beginning on or after January 1, 2021.",
+        "url": "https://www.tax.ny.gov/bus/ptet/",
+        "supports": "hasPTETElection"
+      },
+      {
+        "quote": "The following types of businesses are not eligible to opt in: single-member LLCs (unless they elect to be treated as an S corporation for New York purposes) sole proprietorships trusts non-profit corporations corporations that are not New York S corporations",
+        "url": "https://www.tax.ny.gov/bus/ptet/",
+        "supports": "hasPTETElection: the election is closed to a single-member LLC taxed as a disregarded entity"
+      }
+    ]
+  },
+  "notes": "New York calls this a filing fee and it is not one in substance, which is the reason this namespace keys records to substance and records the label separately. It is annual, it is imposed on the entity rather than on the members, it is computed on New York source gross income rather than on anyone's distributive share, and it is paid to the Department of Taxation and Finance on Form IT-204-LL. It is not the filing fee of an annual report, which the inclusion test excludes: registration belongs to the Department of State, and no report is filed with this payment. Recorded as a franchise-type levy on the privilege of doing business in New York, basis revenue.\nminimumAnnualUsd is 0 and it is the same published zero Texas carries. An LLC with no income, gain, loss or deduction from New York sources in the current taxable year owes nothing and is told not to file the form at all, and the Department says this holds \"regardless of whether or not it is formed under the laws of New York State or is dormant\". The floor for an LLC that does have New York source income is $25, and the bands run to $4,500; a single-member LLC treated as a disregarded entity pays a flat $25 whatever its income. Those figures are in the evidence, not in minimumAnnualUsd, because the field carries the floor of an ordinary year and New York's ordinary year can be zero.\nfirstYearExemption is false. The fee is set by the preceding tax year's New York source gross income, so a first-year LLC that had no preceding year pays the $25 band rather than nothing, and the Department states there is no proration for a short tax year. New York gives a new LLC a smaller fee by construction, not a waiver.\ncollectedWithAnnualReport is false. Root states.json carries annual_report_fee 9 for New York, which is the Department of State's biennial statement, a different filing at a different agency. A total-cost consumer adds the two.\ntopRatePercent 10.9 is the top band of the 2025 New York State tax rate schedule in the Form IT-201 instructions, quoted from the single and married-filing-separately schedule; the top band is the same in every filing status and only the threshold moves. It excludes New York City and Yonkers resident taxes and the metropolitan commuter transportation mobility tax, all of which are local or regional and out of this namespace's scope.\nThe pass-through entity tax election reaches an LLC treated as a partnership. A single-member LLC cannot opt in unless it elects to be treated as an S corporation for New York purposes, which takes it out of the default treatment this namespace describes.",
+  "needsReview": "Every value here comes from the Department of Taxation and Finance's own pages; the provision that imposes the fee is not cited. Reading New York Tax Law article 22 section 658(c)(3) would confirm that the bands and the $25 floor are statutory rather than administrative, and would give the record a statute source alongside the agency pages. Nothing on the agency pages contradicts any value recorded here.",
+  "sources": [
+    {
+      "citation": "New York State Department of Taxation and Finance, Partnership, LLC, and LLP annual filing fee",
+      "title": "Partnership, LLC, and LLP annual filing fee",
+      "url": "https://www.tax.ny.gov/pit/efile/annual_filing_fee.htm",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York State Department of Taxation and Finance, Limited Liability Companies (LLCs) and Limited Liability Partnerships (LLPs)",
+      "title": "Limited Liability Companies (LLCs) and Limited Liability Partnerships (LLPs)",
+      "url": "https://www.tax.ny.gov/pit/efile/llc_llp.htm",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York State Department of Taxation and Finance, Instructions for Form IT-204-LL",
+      "title": "Instructions for Form IT-204-LL, Partnership, Limited Liability Company, and Limited Liability Partnership Filing Fee Payment Form",
+      "url": "https://www.tax.ny.gov/forms/current-forms/it/it204lli.htm",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York State Department of Taxation and Finance, Instructions for Form IT-201, New York State tax rate schedule, 2025",
+      "title": "Instructions for Form IT-201 Full-Year Resident Income Tax Return",
+      "url": "https://www.tax.ny.gov/forms/html-instructions/2025/it/it201i-2025.htm",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York State Department of Taxation and Finance, Pass-through entity tax (PTET)",
+      "title": "Pass-through entity tax (PTET)",
+      "url": "https://www.tax.ny.gov/bus/ptet/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

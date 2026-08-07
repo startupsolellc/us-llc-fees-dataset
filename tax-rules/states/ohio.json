@@ -1,0 +1,111 @@
+{
+  "stateName": "Ohio",
+  "stateAbbr": "OH",
+  "stateSlug": "ohio",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Commercial Activity Tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "tax commissioner",
+    "collectedWithAnnualReport": false,
+    "dueDate": "Not later than the tenth day of the second month after the end of each calendar quarter, every taxpayer shall file with the tax commissioner a tax return in such form as the commissioner prescribes.",
+    "evidence": [
+      {
+        "quote": "there is hereby levied a commercial activity tax on each person with taxable gross receipts for the privilege of doing business in this state. For the purposes of this chapter, \"doing business\" means engaging in any activity, whether legal or illegal, that is conducted for, or results in, gain, profit, or income, at any time during a calendar year.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "applies and taxName"
+      },
+      {
+        "quote": "The tax imposed by this section is an annual privilege tax for the calendar year that contains all tax periods in the calendar year. A taxpayer is subject to the annual privilege tax for doing business during any portion of such calendar year.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "applies and firstYearExemption: the levy is annual, and any part of a calendar year makes an entity subject to the whole of it"
+      },
+      {
+        "quote": "The rate of tax levied under section 5751.02 of the Revised Code for each tax period shall be two and six-tenths mills per dollar times the taxpayer's taxable gross receipts for the tax period after subtracting the exclusion amount for the calendar year.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "basis"
+      },
+      {
+        "quote": "(R) \"Exclusion amount\" means three million dollars beginning in 2024 and six million dollars beginning in 2025.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "minimumAnnualUsd: the amount subtracted before the rate applies, so receipts up to it produce no tax"
+      },
+      {
+        "quote": "(B) Not later than thirty days after a person's taxable gross receipts for a calendar year first exceed the exclusion amount, each person subject to this chapter shall register with the tax commissioner on the form prescribed by the commissioner.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "minimumAnnualUsd: below the exclusion amount there is no registration either, so an ordinary LLC owes nothing and files nothing"
+      },
+      {
+        "quote": "(E) \"Excluded person\" means any of the following: (1) Any person with not more than one hundred fifty thousand dollars of taxable gross receipts during the calendar year.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "minimumAnnualUsd: the separate floor below which a person is not a taxpayer under the chapter at all"
+      },
+      {
+        "quote": "Not later than the tenth day of the second month after the end of each calendar quarter, every taxpayer shall file with the tax commissioner a tax return in such form as the commissioner prescribes.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+        "supports": "dueDate and filedWith"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 3,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "there is hereby levied on every individual, trust, and estate residing in or earning or receiving income in this state",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+        "supports": "passThroughApplies"
+      },
+      {
+        "quote": "(4)(a) In the case of individuals, the tax imposed by this section on taxable business income shall equal three per cent of the result obtained by subtracting any amount allowed under division (A)(4)(b) of this section from the individual's taxable business income.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "(c) For taxable years beginning in 2026 and thereafter, $332.00 plus 2.75% of the amount in excess of $26,050.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+        "supports": "topRatePercent: the non-business schedule, which tops out below the business-income rate"
+      },
+      {
+        "quote": "(1) \"Electing pass-through entity\" means a qualifying pass-through entity that elects to be subject to the tax levied under this section for a taxable year pursuant to division (C) of this section.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.38",
+        "supports": "hasPTETElection"
+      },
+      {
+        "quote": "(3) \"Income\" means the sum of owners' distributive shares of the income, gain, expense, or loss of an electing pass-through entity for the taxable year, as reported for federal income tax purposes.",
+        "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.38",
+        "supports": "passThroughApplies: the statute's own description of what a member receives from the entity"
+      }
+    ]
+  },
+  "notes": "The Commercial Activity Tax passes the inclusion test in the statute's own words: it is levied \"for the privilege of doing business in this state\" and it is \"an annual privilege tax for the calendar year\". It is measured on gross receipts rather than on income, so basis is revenue, and it is a tax on the entity that the chapter forbids being billed on to anyone else.\nminimumAnnualUsd is 0 and it is a published zero of the Texas kind, reached by two independent routes in the same chapter. The rate applies to taxable gross receipts after subtracting the exclusion amount, and the exclusion amount is $6,000,000 from 2025 onward, so an LLC below that produces no tax; and registration is only required within thirty days of receipts first exceeding that amount, so such an LLC does not even enter the system. A person with no more than $150,000 of taxable gross receipts is an excluded person and not a taxpayer under the chapter at all. Note also what the chapter no longer contains: the phrase \"minimum tax\" does not occur in it, so the annual minimum the CAT once carried is gone rather than merely reduced.\nfirstYearExemption is false. The chapter says a taxpayer is subject to the annual privilege tax for doing business during any portion of a calendar year, which is the opposite of a first-year waiver.\ncollectedWithAnnualReport is false. Root states.json carries annual_report_fee 0 for Ohio because Ohio LLCs file no annual report with the Secretary of State, so there is no payment on that side for this tax to be part of.\ntopRatePercent is 3 and the choice needs saying, because Ohio taxes an LLC member's income at a different rate from everyone else's. Taxable business income, which is what a distributive share from an LLC is, is taxed at a flat three per cent; the non-business schedule tops out at 2.75 per cent for taxable years beginning in 2026 and thereafter. Three per cent is both the higher figure and the one that actually reaches this namespace's reader. Both passages are in the evidence.\nfiledWith names the office the statute names. Ohio's tax authority publishes at tax.ohio.gov and that host answered nothing usable on either route measured this session, so this record is built entirely on the Revised Code rather than on agency pages, which is the reverse of every other record in this namespace.",
+  "needsReview": "This record is statute-only. The Department of Taxation's own pages were not read, so three things that agencies usually state in plainer terms are carried as the Revised Code phrases them rather than as the department publishes them: the collecting agency's public name, the annual filing calendar for a taxpayer that has just crossed the exclusion amount mid-year, and whether the department publishes any per-industry or sector variation on the flat two and six-tenths mills. Nothing in the chapter contradicts any value recorded here, and section 5751.03's rate and section 5751.01's exclusion amount are both current text with their enacting bill named on the page.",
+  "sources": [
+    {
+      "citation": "Ohio Revised Code, Chapter 5751, Commercial Activity Tax",
+      "title": "Chapter 5751 - Ohio Revised Code | Ohio Laws",
+      "url": "https://codes.ohio.gov/ohio-revised-code/chapter-5751",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ohio Revised Code, Section 5747.02, Tax rates",
+      "title": "Section 5747.02 - Ohio Revised Code | Ohio Laws",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ohio Revised Code, Section 5747.38, Pass-through entity income tax",
+      "title": "Section 5747.38 - Ohio Revised Code | Ohio Laws",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.38",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

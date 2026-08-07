@@ -1,0 +1,167 @@
+{
+  "stateName": "Alabama",
+  "stateAbbr": "AL",
+  "stateSlug": "alabama",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Business Privilege Tax",
+    "basis": "net-worth",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Alabama Department of Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "Form PPT and CPT are due on the same date as the corresponding federal income returns are required to be filed as provided under federal law.",
+    "evidence": [
+      {
+        "quote": "The Alabama Business Privilege Tax is levied for the privilege of being organized under the laws of Alabama or doing business in Alabama (if organized under the laws of another state or country).",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+        "supports": "applies"
+      },
+      {
+        "quote": "The Business Privilege Tax remains due every registered year until the entity is legally dissolved/withdrawn through Alabama Secretary of State, regardless of whether such entity is actively doing business in Alabama.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+        "supports": "applies: the levy recurs for being registered rather than for trading, which is what puts it inside this namespace's inclusion test"
+      },
+      {
+        "quote": "S-corporations, limited liability entities and disregarded entities must file Alabama Form PPT.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+        "supports": "applies: the return a default-taxed LLC files"
+      },
+      {
+        "quote": "For the taxable years beginning after December 31, 2023, there is a full exemption from the business privilege tax on tax due of $100 or less (Act 2022-252, §40-14(A)-22, Code of Ala., 1975). Taxpayers whose business privilege tax is calculated to be $100 or less are not required to file a Business Privilege Tax Return (BPTIN/CPT/PPT).",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+        "supports": "minimumAnnualUsd"
+      },
+      {
+        "quote": "19 Privilege Tax Due (line 17 less line 18) If $100 or less, STOP. You do not have a filing requirement. Do not submit return. For maximum see instructions.",
+        "url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/26fppt.pdf",
+        "supports": "minimumAnnualUsd: the same exemption stated on the 2026 return itself"
+      },
+      {
+        "quote": "ADOR Alabama Department of Revenue Balance Sheet - Net Worth Computation (FOR FORMS CPT AND PPT) WORKSHEET BPT-NW BUSINESS PRIVILEGE TAX YEAR 2026",
+        "url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/26fppt.pdf",
+        "supports": "basis and filedWith"
+      },
+      {
+        "quote": "15 Taxable Alabama net worth (line 8 less line 14) .................................................................. 16a Federal Taxable Income Apportioned to AL .. 16b Tax rate (see instructions) ................................................. 17 Gross privilege tax calculated (multiply line 15 by line 16b)",
+        "url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/26fppt.pdf",
+        "supports": "basis: the tax is net worth multiplied by a rate the taxpayer's apportioned federal taxable income selects"
+      },
+      {
+        "quote": "Form PPT and CPT are due on the same date as the corresponding federal income returns are required to be filed as provided under federal law.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "Form BPT-IN must be filed within two- and one-half months after the entity incorporates, organizes, qualifies, or starts doing business in the state.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+        "supports": "firstYearExemption: the first year carries an extra initial return rather than a waiver"
+      },
+      {
+        "quote": "There is hereby levied an annual privilege tax on every corporation, limited liability entity, and disregarded entity doing business in Alabama, or organized, incorporated, qualified, or registered under the laws of Alabama.",
+        "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+        "supports": "applies: the statutory levy, in the words of the section the agency page cites"
+      },
+      {
+        "quote": "The amount of the tax due shall be determined by multiplying the taxpayer's net worth in Alabama by the rate determined in subsection (b).",
+        "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+        "supports": "basis"
+      },
+      {
+        "quote": "(b) Rate of tax. For all taxable years of taxpayers that begin after December 31, 1999, the rate of tax shall be as set forth below. If taxable income of the taxpayer is: at least but less than The tax rate shall be $1 $0.25 per $1,000 $1 $200,000 $1.00 per $1,000 $200,000 $500,000 $1.25 per $1,000 $500,000 $2,500,000 $1.50 per $1,000 $2,500,000 $1.75 per $1,000",
+        "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+        "supports": "basis: the graduated rate per $1,000 of net worth, selected by the taxpayer's taxable income"
+      },
+      {
+        "quote": "(3) For taxable years beginning after December 31, 2023, taxpayers who would otherwise be subject to the minimum tax due provided for in subdivisions (c)(1) or (c)(2) shall be exempt from the privilege tax levied by this article and the associated filing requirement.",
+        "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+        "supports": "minimumAnnualUsd: the exemption in the statute itself, which the agency page paraphrases"
+      },
+      {
+        "quote": "For each taxable year thereafter, the maximum tax shall not exceed $15,000 for any taxpayer, except as provided in subdivision (2).",
+        "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+        "supports": "basis: the statutory ceiling on the tax, which no schema field carries"
+      },
+      {
+        "quote": "The tax shall accrue as of January 1 of every taxable year, or in the case of a taxpayer organized, incorporated, qualified, or registered during the year, or doing business in Alabama for the first time, as of the date the taxpayer is organized, incorporated, registered, or qualifies to do business, or begins to do business in Alabama, as the case may be.",
+        "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+        "supports": "firstYearExemption: the tax accrues from the day the entity is organized, so the first year is charged rather than waived"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Domicile - Individuals who are domiciled in (or residents of) Alabama are subject to tax on their entire income whether earned within or without Alabama.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/individual-income-tax-filing-information/",
+        "supports": "passThroughApplies"
+      },
+      {
+        "quote": "Composite Returns: Partnerships follow §40-18-24.2, Code of Ala. 1975, and S corporations follow §40-18-176, Code of Ala. 1975, when filing a composite return (Form PTE-C). Each entity pays a tax at the rate of 5 percent on behalf of its nonresidents.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/pass-thru-entities-subchapter-k-entities-partnerships-and-s-corporations/",
+        "supports": "passThroughApplies: the entity remits on behalf of its members, which is the pass-through posture stated from the entity side"
+      },
+      {
+        "quote": "Individual Income Tax Rate. Alabama has a graduated individual income tax, with rates ranging from 2% to 5% depending on taxable income and filing status.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/individual-income-tax-filing-information/",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "For tax years beginning on or after January 1, 2021, any Alabama S corporation, as is defined by §40-18-160, Code of Ala. 1975, and any Subchapter K Entity as is defined by §40-18-1, Code of Ala. 1975, may elect to be taxed as an Electing Pass-Through Entity.",
+        "url": "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+        "supports": "hasPTETElection"
+      }
+    ]
+  },
+  "notes": "The Business Privilege Tax passes the inclusion test on the Department of Revenue's own wording: it is levied \"for the privilege of being organized under the laws of Alabama or doing business in Alabama\" and it \"remains due every registered year until the entity is legally dissolved/withdrawn\" whether or not the entity trades. It is a levy on being registered, not on income and not on a filing event.\nminimumAnnualUsd is 0 and it is a published zero, not an absent minimum. For taxable years beginning after 2023-12-31 (Act 2022-252) the tax is fully exempt where the calculated amount is $100 or less, and the 2026 Form PPT prints the same rule on the computation line: \"If $100 or less, STOP. You do not have a filing requirement. Do not submit return.\" So an Alabama LLC below that threshold pays nothing and files nothing. The $100 figure that reads like a minimum is the ceiling of the exemption, not a floor.\nThe rate bands and the ceiling are recorded, from the section the agency page itself cites. Section 40-14A-22(b) sets the rate at $0.25 per $1,000 of net worth at the bottom and $1.75 per $1,000 above $2,500,000, with the band chosen by the taxpayer's taxable income rather than by its net worth; subsection (d) caps the tax at $15,000 for an ordinary taxpayer, with a higher ceiling for financial institution groups and insurers that this record does not carry because no schema field holds a maximum. The section's own amendment history ends at Act 2022-252, which is the act that created the exemption, so the text read here is the text that produced the $0 minimum.\nfirstYearExemption is false, and the statute is blunter than the agency page about why: the tax accrues on the date the entity is organized, incorporated, registered or qualifies to do business, not from the following January. Alabama gives a new entity the opposite of a waiver, and Form BPT-IN is due within two and one-half months of organizing, an extra return the later years do not require. The $100-or-less exemption does reach BPT-IN by its own terms, but it is an exemption by amount and not by year, which is a different fact from the one this field carries.\ncollectedWithAnnualReport is false. Root states.json carries annual_report_fee 0 for Alabama because the Secretary of State no longer requires an annual report, so this tax is not the payment root already counts and a total-cost consumer must add it rather than choose between them. Read the form title with care before changing this: Form PPT is called \"Alabama Business Privilege Tax Return and Annual Report\", but that Annual Report is the Department of Revenue's own attachment, not the Secretary of State filing root's figure refers to.\nThe Electing Pass-Through Entity election reaches a multi-member LLC as a Subchapter K entity; a single-member LLC is disregarded and has no entity-level return to elect on. topRatePercent 5 is the top band of the individual rate schedule, which is also the rate the composite return uses for nonresident members.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Alabama Department of Revenue, Alabama Business Privilege Tax",
+      "title": "Alabama Business Privilege Tax - Alabama Department of Revenue",
+      "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-business-privilege-tax-and-corporate-share-tax/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ala. Code sec. 40-14A-22, Levy and Amount of Tax",
+      "title": "Section 40-14A-22 Levy and Amount of Tax.",
+      "url": "https://alison.legislature.state.al.us/graphql?query=query%20codeOfAlabamaSection%28%24displayId%3A%20String%21%29%20%7B%20codesOfAlabama%28where%3A%20%7B%20type%3A%20%7B%20eq%3A%20Section%20%7D%2C%20displayId%3A%20%7B%20eq%3A%20%24displayId%20%7D%20%7D%2C%20versions%3A%20true%29%20%7B%20data%20%7B%20displayId%20title%20content%20history%20%7D%20%7D%20%7D&variables=%7B%22displayId%22%3A%20%2240-14A-22%22%7D",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alabama Department of Revenue, Form PPT, Alabama Business Privilege Tax Return and Annual Report, tax year 2026",
+      "title": "Form PPT: Alabama Business Privilege Tax Return and Annual Report",
+      "url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/26fppt.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alabama Department of Revenue, Individual Income Tax: General Information for Individuals",
+      "title": "Individual Income Tax: General Information for Individuals - Alabama Department of Revenue",
+      "url": "https://www.revenue.alabama.gov/individual-corporate/individual-income-tax-filing-information/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alabama Department of Revenue, General Information for Partnership and S Corporations",
+      "title": "Pass Thru Entities Subchapter K Entities Partnerships and S Corporations - Alabama Department of Revenue",
+      "url": "https://www.revenue.alabama.gov/individual-corporate/pass-thru-entities-subchapter-k-entities-partnerships-and-s-corporations/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alabama Department of Revenue, Electing Pass-Through Entity FAQ",
+      "title": "Electing Pass Through Entities - Alabama Department of Revenue",
+      "url": "https://www.revenue.alabama.gov/individual-corporate/electing-pass-through-entities/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
