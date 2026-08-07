@@ -5,7 +5,7 @@
   "expedite": {
     "offered": true,
     "offeredEvidence": null,
-    "appliesToLlcFormation": null,
+    "appliesToLlcFormation": true,
     "feeIsPerDocument": false,
     "chargedIfRejected": null,
     "tiers": [
@@ -15,9 +15,11 @@
         "feeUsd": 25,
         "feeUsdMin": null,
         "feeUsdMax": null,
-        "cutoff": null,
-        "channels": null,
-        "note": "Priced in batches, not per document: $25 buys expedited service for every ten documents or any part of ten, which is why feeIsPerDocument is false. RSA 5:10 is the Department of State's general office fee list and names no filing type, so what the service commits to and whether it can be bought on an LLC certificate of formation are not stated in the statute.",
+        "cutoff": "In the Customer Lobby, 8:30am to 4:00pm M-F",
+        "channels": [
+          "in-person"
+        ],
+        "note": "Priced in batches, not per document: $25 buys expedited service for every ten documents or any part of ten, which is why feeIsPerDocument is false. The statute is the department's general office fee list and names no filing type, so what the service commits to is not stated there - and it is not stated by the agency either. Both agency pages that sell the service describe it only by its channel and its price: the business FAQ answers the processing-time question with 'If you require a faster turnaround, expedited service is available in person in our Customer Lobby for an additional $25 fee', and the filing system's own announcement says pending filings 'may be expedited in-person in our Customer Lobby (8:30am to 4:00pm M-F) for an additional fee of $25'. Neither names a turnaround, so turnaround stays null on a documented silence rather than on an unread page - this is the priced-and-undescribed shape Montana and Utah also produced. channels and the lobby hours come from those two pages; the fee comes from the statute, and the agency's $25 agrees with it.",
         "evidence": {
           "quote": "for engrossing private acts, $1 for each page of 240 words; for expedited service of every 10 documents or any part thereof, $25.",
           "url": "https://gc.nh.gov/rsa/html/I/5/5-10.htm"
@@ -26,19 +28,19 @@
     ]
   },
   "standardProcessing": {
-    "isPublished": null,
+    "isPublished": true,
     "basis": null,
     "queueAsOfOnline": null,
     "queueAsOfMail": null,
     "onlineBusinessDays": null,
     "mailBusinessDays": null,
-    "statement": null,
-    "sourceUrl": null,
-    "observedOn": null,
+    "statement": "Current Processing Times As of 8/5/26, processing time for business filings may run up to 5 business days. Today, we are processing filings received on 8/3/26. Filings currently pending (status of HOLD) may be expedited in-person in our Customer Lobby (8:30am to 4:00pm M-F) for an additional fee of $25.",
+    "sourceUrl": "https://quickstart.sos.nh.gov/online",
+    "observedOn": "2026-08-07",
     "volatile": true
   },
-  "notes": "New Hampshire is a half record on purpose: the statute is readable and the agency is not. RSA 5:10, the Department of State's office fee list, ends with 'for expedited service of every 10 documents or any part thereof, $25' - a batch price rather than a per-document one, and the only expedited-service fee anywhere in the readable law. RSA 304-C:191 is the LLC fee section and does not mention speed at all: it prices the certificate of formation at $100 and then, in paragraph III, hands the detail to the agency - 'The secretary of state shall establish, and may from time to time amend, a schedule of specific fees payable under this section.' That schedule, and the LLC forms-and-fees page that would say what $25 buys and whether it attaches to a formation filing, sit on www.sos.nh.gov, which answers every scripted request with an Akamai Access Denied 403; the apex sos.nh.gov redirects into the same block and the QuickStart filing portal 403s as well, so nothing on the agency side could be read on this route. FIELD_GUIDE records the same host behaviour for the main campaign, and a 403 is never treated as link rot here. One nearby charge that is not speed: RSA 5:10-a adds $2 to every fee the office collects electronically, a channel handling charge of the kind Massachusetts and Idaho also carry.",
-  "needsReview": "Turnaround, channel, applicability to LLC formation and standard processing time are all unread, and all four sit on the same blocked host. A browser session on www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies plus the department's fee schedule would settle them; the state is therefore carried into the browser batch rather than closed here.",
+  "notes": "New Hampshire was a half record and is now whole, and the missing half was never on the page the earlier pass expected. The statute side is unchanged: the Department of State's office fee list ends with 'for expedited service of every 10 documents or any part thereof, $25' - a batch price rather than a per-document one, and the only expedited-service fee anywhere in the readable law - while the limited liability company fee section prices the certificate of formation at $100 and, in paragraph III, hands the detail to the agency: 'The secretary of state shall establish, and may from time to time amend, a schedule of specific fees payable under this section.' The agency side turned out not to be a fee schedule at all. The limited liability company forms-and-fees page was read in full and contains no occurrence of expedite; so does the forms-and-fees index above it. What settles the record is a site-wide search on the office's own site, which returns eleven results for the word, and two of them are the operative ones: the business FAQ, which answers 'How long does it take to process my business registration?' with 'Processing times will vary by filing type and time of year. Check our current processing date by viewing the Announcements on the NH Quickstart login page. If you require a faster turnaround, expedited service is available in person in our Customer Lobby for an additional $25 fee', and the filing system's landing page, whose Current Processing Times announcement carries the figures. So the state does publish a standard processing time, and it publishes it in two forms at once - a ceiling of up to five business days and a queue position, the office processing filings received two days earlier as of the stamp on the announcement. Neither is parsed. The office states one figure for 'business filings' without splitting online from paper, and the parsed fields here are per channel, so filling either would invent the channel; the figures stay in the statement, which is the same choice Utah and Rhode Island forced for a different reason. basis is null for that reason rather than because nothing was found, and isPublished is true. One trap on the same FAQ that the record does not fall into: the page carries a second $25, attached to certified copies of charter documents rather than to filings, and it is the same office fee rather than a second product - but the sentence a filer would reach for is the processing-time one, and that is the one used. The agency host refuses every scripted client with an access-denied response and its filing system does the same, so all three agency pages were read in a browser on the retrieval date and the processing-time quotation is checked against a text snapshot taken the same day; that is a weaker guarantee than a live re-fetch and a later session on a friendlier route should retire it. The statute quotation is unaffected and still verifies live.",
+  "needsReview": "Two fields remain open and both are genuine silences rather than unread pages. turnaround is null because no official page says what the $25 buys - the statute prices it without describing it, and both agency pages that sell it name only the channel, the lobby hours and the price. chargedIfRejected is null for the same kind of reason: nothing read says whether the fee survives a filing the office returns. A counter visit or a fee schedule adopted under the paragraph III rulemaking power would settle the first; only the office can settle the second.",
   "sources": [
     {
       "citation": "New Hampshire Revised Statutes Annotated",
@@ -57,7 +59,25 @@
       "title": "RSA 5:10-a, Handling Charge - $2 added to every fee paid electronically, including by Internet or facsimile. A channel charge, not a purchased turnaround",
       "url": "https://gc.nh.gov/rsa/html/I/5/5-10-a.htm",
       "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "New Hampshire Secretary of State",
+      "title": "Business FAQs - answers the processing-time question and states that expedited service is available in person in the Customer Lobby for an additional $25 fee; also carries a separate $25 expedited charge for certified copies of charter documents",
+      "url": "https://www.sos.nh.gov/corporations-0/business-faqs",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Hampshire Secretary of State",
+      "title": "NH Quickstart - the office's online filing system; its Current Processing Times announcement states the up-to-five-business-days ceiling, the date the office is processing filings received on, and the in-person expedite with its Customer Lobby hours",
+      "url": "https://quickstart.sos.nh.gov/online",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Hampshire Secretary of State",
+      "title": "Limited Liability Companies forms and fees - consulted in full; carries the electronic handling charge and the forms, and contains no expedited-service statement, which is why the answer had to be found elsewhere on the site",
+      "url": "https://www.sos.nh.gov/corporations-0/forms-and-fees/limited-liability-companies",
+      "lastAccessed": "2026-08-07"
     }
   ],
-  "lastVerified": "2026-08-06"
+  "lastVerified": "2026-08-07"
 }

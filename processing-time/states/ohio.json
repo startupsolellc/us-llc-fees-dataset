@@ -1,0 +1,109 @@
+{
+  "stateName": "Ohio",
+  "stateAbbr": "OH",
+  "stateSlug": "ohio",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedite Service 1",
+        "turnaround": "2 business days after receipt",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "mail"
+        ],
+        "note": "The form prints its service types as one column of labels followed by one column of fee-and-time bullets, so each tier's quotation is the whole block: the label and its price are contiguous only across the block. The positional mapping is a claim and it is corroborated twice inside the same document. It runs monotonically in both directions - $100 for two business days, $200 for one, $300 for noon the next day - so no other pairing of the five labels to the five bullets is consistent. And the form's mailing block names two different addresses, 'Regular Service: P.O. Box 670 Columbus, OH 43216 OR Expedite Service: P.O. Box 1390 Columbus, OH 43216', which confirms that the first label really is the unpaid service and that the paid ones arrive by mail. channels is mail because the expedite post office box is the only route this form states for a paid service that does not require in-person delivery; whether the online filing system sells the same levels was not read.",
+        "evidence": {
+          "quote": "SERVICE TYPE - Check only ONE item below.Expedited Fees are IN ADDITION to the filing fee on the form. Regular Service Expedite Service 1 Expedite Service 2 Expedite Service 3 (in-person delivery is required) Preclearance Filing · No Expedite Fee. · Processing Time: 3-7 business days. · Fee: $100 · Processing Time: 2 business days after receipt. · Fee: $200 · Processing Time: 1 business day after receipt. · Fee: $300 · processed by noon the following business day. · Fee: $50 · Processing Time: 1-2 business days after receipt.",
+          "url": "https://www.ohiosos.gov/assets/610.pdf"
+        }
+      },
+      {
+        "tierName": "Expedite Service 2",
+        "turnaround": "1 business day after receipt",
+        "feeUsd": 200,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "mail"
+        ],
+        "note": "The form prints its service types as one column of labels followed by one column of fee-and-time bullets, so each tier's quotation is the whole block: the label and its price are contiguous only across the block. The positional mapping is a claim and it is corroborated twice inside the same document. It runs monotonically in both directions - $100 for two business days, $200 for one, $300 for noon the next day - so no other pairing of the five labels to the five bullets is consistent. And the form's mailing block names two different addresses, 'Regular Service: P.O. Box 670 Columbus, OH 43216 OR Expedite Service: P.O. Box 1390 Columbus, OH 43216', which confirms that the first label really is the unpaid service and that the paid ones arrive by mail. Same channel reasoning as the level below it.",
+        "evidence": {
+          "quote": "SERVICE TYPE - Check only ONE item below.Expedited Fees are IN ADDITION to the filing fee on the form. Regular Service Expedite Service 1 Expedite Service 2 Expedite Service 3 (in-person delivery is required) Preclearance Filing · No Expedite Fee. · Processing Time: 3-7 business days. · Fee: $100 · Processing Time: 2 business days after receipt. · Fee: $200 · Processing Time: 1 business day after receipt. · Fee: $300 · processed by noon the following business day. · Fee: $50 · Processing Time: 1-2 business days after receipt.",
+          "url": "https://www.ohiosos.gov/assets/610.pdf"
+        }
+      },
+      {
+        "tierName": "Expedite Service 3",
+        "turnaround": "processed by noon the following business day",
+        "feeUsd": 300,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "In-person delivery is required",
+        "channels": [
+          "in-person"
+        ],
+        "note": "The form prints its service types as one column of labels followed by one column of fee-and-time bullets, so each tier's quotation is the whole block: the label and its price are contiguous only across the block. The positional mapping is a claim and it is corroborated twice inside the same document. It runs monotonically in both directions - $100 for two business days, $200 for one, $300 for noon the next day - so no other pairing of the five labels to the five bullets is consistent. And the form's mailing block names two different addresses, 'Regular Service: P.O. Box 670 Columbus, OH 43216 OR Expedite Service: P.O. Box 1390 Columbus, OH 43216', which confirms that the first label really is the unpaid service and that the paid ones arrive by mail. This is the only level whose channel the form states outright, and it states it as a requirement rather than an option: the label itself reads 'in-person delivery is required'.",
+        "evidence": {
+          "quote": "SERVICE TYPE - Check only ONE item below.Expedited Fees are IN ADDITION to the filing fee on the form. Regular Service Expedite Service 1 Expedite Service 2 Expedite Service 3 (in-person delivery is required) Preclearance Filing · No Expedite Fee. · Processing Time: 3-7 business days. · Fee: $100 · Processing Time: 2 business days after receipt. · Fee: $200 · Processing Time: 1 business day after receipt. · Fee: $300 · processed by noon the following business day. · Fee: $50 · Processing Time: 1-2 business days after receipt.",
+          "url": "https://www.ohiosos.gov/assets/610.pdf"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "· No Expedite Fee. · Processing Time: 3-7 business days.",
+    "sourceUrl": "https://www.ohiosos.gov/assets/610.pdf",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "Ohio was a half record for one working day and the half that was missing was never a discovery problem. The statute side, done first, located the gap exactly: the Secretary of State's fee section is an exhaustive list from division (A) to division (V) that prices articles of organization of a limited liability company at ninety-nine dollars and contains no occurrence of the word expedite, while section 111.23 commands the service and gives the price away - 'The secretary of state, by rule, shall establish, and prescribe guidelines and fees for the use of, an expedited filing service that provides, at the option of the person making a filing, expeditious processing of any filing with the secretary of state under Chapter 1309. or 1329. or Title XVII of the Revised Code.' Title XVII contains the limited liability company act, and the verb is shall against the may that governs the same section's other two services. The delegated rule is not in the administrative code either; the office's agency chapter there carries four rules and none of them is this one. So the schedule is published only by the office, and the answer turned out to be printed not on a fee schedule at all but on the face of the filing form, which is the Oklahoma shape. Form 610 sells four service types above the signature block and prices three of them, and because the block sits on the Articles of Organization form itself there is no inference left to make about whether the ladder reaches an LLC formation - appliesToLlcFormation is true by position. Two things the form settles that a fee schedule would not have. It states the unpaid case as well as the paid ones, which is what makes standardProcessing publishable here: regular service carries no expedite fee and a processing time of three to seven business days. Neither parsed field carries it, because the form attributes the range to no channel - it is the paper form's own service block, the office also files online, and the parsed fields are per channel, so filling either would invent one. And it prices a preclearance review at $50 for one to two business days, which is not an expedite tier and is not carried as one: like Iowa's, it checks a document before submission rather than buying a faster filing. The form's revision stamp reads September 2025. On access, the record of the day is worth keeping because it is not about the host: every path on the office's site, this form included, answers a scripted client with a security-check interstitial of about 1.28 megabytes at HTTP 403, and on the first route tried it did not complete in a real browser either - three attempts, the last with a twenty-five second wait. On the second route the same page opened in about one second. The block is on the address the request comes from, not on the client: the interstitial prints the address it is judging, and the one it refused was a data-centre address. The form is a PDF the host refuses to a scripted client, so it was fetched inside the browser and its text recovered there; the quotations are checked against a snapshot of that extraction taken on the retrieval date, which is weaker than a live re-fetch and weaker again than a publisher's own bytes. A later session on the readable route should retire it.",
+  "needsReview": "chargedIfRejected is null. The form says double-sided and illegible forms will be rejected but says nothing about what happens to the expedite fee when they are, and no page read states a refund rule. Also unread: whether the online filing system sells the same three levels, and at the same prices - the form is the paper route and names an expedite post office box, while the office's forms page advertises online filing as having a faster processing time without stating one. That is why the two paid levels carry mail rather than mail and online.",
+  "sources": [
+    {
+      "citation": "Ohio Secretary of State",
+      "title": "Form 610, Articles of Organization for a Domestic Limited Liability Company - the filing form; its SERVICE TYPE block prices three expedited levels and a preclearance review against their processing times, and states the regular service time of 3-7 business days. Revised September 2025",
+      "url": "https://www.ohiosos.gov/assets/610.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ohio Secretary of State",
+      "title": "Business Filing Forms & Fee Schedule - the office's forms and fee page; carries the $99 minimum filing fee and links Form 610, and advertises online filing as having a faster processing time without stating one",
+      "url": "https://www.ohiosos.gov/business/business-filing-forms",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ohio Revised Code",
+      "title": "Section 111.16, Fees to be charged and collected by secretary of state - consulted in full; an exhaustive list from division (A) to division (V) that prices articles of organization of a limited liability company at ninety-nine dollars and contains no expedited-service fee",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-111.16",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ohio Revised Code",
+      "title": "Section 111.23, Expedited filing - bulk filing - alternative filing procedures - requires the secretary of state to establish by rule an expedited filing service, and to prescribe its guidelines and fees, for any filing under Title XVII of the Revised Code, which contains the limited-liability company act",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-111.23",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Ohio Administrative Code",
+      "title": "Chapter 111-1, Secretary of State - consulted; carries four rules, on rulemaking notice, confidential personal information systems, the address confidentiality program and service of process, and none of them is the expedited-filing rule section 111.23 requires",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-111-1",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

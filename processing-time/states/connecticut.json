@@ -22,21 +22,33 @@
     "observedOn": null,
     "volatile": true
   },
-  "notes": "Unfilled on purpose, blocked by network, not by absence of a service. The Secretary of the State's expedited-service document lives on business.ct.gov, and that host — like portal.ct.gov — establishes no TCP connection from this machine on either network route, with DNS pinned to its public addresses included; the same is true of the retired CONCORD hosts. The statutes the state does publish reachably were read in full: the Uniform LLC Act (chapter 613a) contains no occurrence of 'expedit' at all, and chapter 601's only 'expedited' language is about court procedure, so the expedite fee is administrative rather than statutory and only the unreachable host states it. service.ct.gov answers and titles itself 'Connecticut Business', but it is a client-rendered application that serves no quotable text to a scripted client. Nothing is recorded rather than anything guessed.",
-  "needsReview": "Every expedite field and the standard-processing fields. Two follow-ups, both for a browser session: (1) service.ct.gov/s/ renders in a real browser and may carry the expedited-service content that used to live on business.ct.gov — read it there and verify against a saved snapshot; (2) if it names a fee document, fetch that document from whatever host serves it. business.ct.gov itself is closed as a network matter from this machine — do not re-probe it.",
+  "notes": "Unfilled on purpose, blocked by network, not by absence of a service - and the lead that was supposed to open it is now disproved rather than untested. The Secretary of the State's expedited-service document lived on a host that still does not answer: on the retrieval date the local resolver returned no address at all for it or for the department portal beside it, while a public resolver answered for both with the same pair of content-delivery addresses, and pinning either of those addresses with the certificate check left intact still made no TCP connection. So the classification is unchanged and the mechanism is now recorded one level finer - this is a name that resolves elsewhere and refuses to connect here, not a name that has been retired. The statutes the state does publish reachably were read in full in an earlier pass and are not repeated: the uniform limited liability company act contains no occurrence of 'expedit' at all, and the business corporations chapter's only expedited language is about court procedure, so the fee is administrative rather than statutory and only the unreachable host states it. What is new is the other half. The state's business service site was read in a browser and it is not what it was taken for: it renders as a business-assistance portal headed 'Start a New Business Checklist' that walks a founder through a personalised checklist, and it carries no fee schedule and no expedited-service page. That is not a judgement from one page - the site publishes its own enumeration, and it was read: seventeen views, all of them search, checklist, contact or account pages, and one hundred seventy-seven knowledge articles, none of which is about filing fees or expedited handling. An enumeration the publisher wrote itself rules out the site's own publications in a way a silent page cannot, so the expectation that this host had inherited the expedited-service content is closed as wrong. Nothing is recorded rather than anything guessed.",
+  "needsReview": "Every expedite field and every standard-processing field, and there is now no known readable address for any of them. The two follow-ups this record used to name are both closed: the state's business service site was read and does not carry the content, proved against the site's own enumeration rather than against one page, and the department's own host is still unreachable from this network by name, by public-resolver address and by pinned address alike. What would settle it is a route on which that host connects, or a printed fee schedule published somewhere the office also controls. Until one of those exists this state cannot be closed from here, and re-probing the dead host is not the way to find out.",
   "sources": [
     {
       "citation": "Connecticut General Assembly",
-      "title": "General Statutes chapter 613a (Uniform Limited Liability Company Act) — consulted in full; contains no expedited-service provision",
+      "title": "General Statutes chapter 613a (Uniform Limited Liability Company Act) - consulted in full; contains no expedited-service provision",
       "url": "https://www.cga.ct.gov/current/pub/chap_613a.htm",
       "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Connecticut General Assembly",
-      "title": "General Statutes chapter 601 (Business Corporations) — consulted; 'expedited' occurs only in court-procedure provisions, no service fee",
+      "title": "General Statutes chapter 601 (Business Corporations) - consulted; 'expedited' occurs only in court-procedure provisions, no service fee",
       "url": "https://www.cga.ct.gov/current/pub/chap_601.htm",
       "lastAccessed": "2026-08-06"
+    },
+    {
+      "citation": "Connecticut Business Services",
+      "title": "Start a New Business Checklist - the state's business service site, read in a browser; a business-assistance portal with no fee schedule and no expedited-service page",
+      "url": "https://service.ct.gov/business/s/",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Connecticut Business Services",
+      "title": "Site index for the state business service site - the publisher's own enumeration, seventeen views and one hundred seventy-seven knowledge articles, none of them a fee schedule or an expedited-service page",
+      "url": "https://service.ct.gov/business/s/sitemap.xml",
+      "lastAccessed": "2026-08-07"
     }
   ],
-  "lastVerified": "2026-08-06"
+  "lastVerified": "2026-08-07"
 }

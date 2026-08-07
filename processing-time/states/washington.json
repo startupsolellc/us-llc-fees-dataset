@@ -1,0 +1,131 @@
+{
+  "stateName": "Washington",
+  "stateAbbr": "WA",
+  "stateSlug": "washington",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": false,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited service",
+        "turnaround": "generally processed within three working days",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "online",
+          "mail"
+        ],
+        "note": "Priced per business entity rather than per document, which is why feeIsPerDocument is false. The online channel is stated on the Certificate of Formation filing instructions - 'You may add expedited priority for an additional $100 at checkout' - and the mail channel on the same fee page and on the LLC resource page, which asks for $100 per entity and the word EXPEDITE in bold on the envelope. The two agency pages state the same service in two different units: this one says three working days, the LLC resource page says three business days, and the administrative rule says the request 'will be completed within three working days of submission'. Neither wording is corrected here and neither is parsed into a day count.",
+        "evidence": {
+          "quote": "Expedited service: $100 per business entity, generally processed within three working days. To expedite by mail, include an additional $100 per business entity and label the outside of the envelope \"EXPEDITE\". Same-day service: This service charges a \"same-day\" fee of $150 per business entity .",
+          "url": "https://www.sos.wa.gov/corporations-charities/frequently-asked-questions-faqs/fee-scheduleexpedited-service"
+        }
+      },
+      {
+        "tierName": "Same-day service",
+        "turnaround": "processed the same day",
+        "feeUsd": 150,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "in-person"
+        ],
+        "note": "The rule prices this at the division's front counter for paper transactions, and paragraph (5) extends a $150 immediate-filing fee to a record already submitted online, so the counter is the only channel the price is stated for. The office's own LLC resource page says the fee is currently not being collected: 'Due to system limitations, the same-day service fee ($150 per business entity) will not be assessed. Same-day service fee for front-counter transactions will be charged as an expedited fee and processed the same day if received before 3:30 p.m.' - and promises a 30-day notice before the $150 is implemented. Both figures are carried because the rule and the fee schedule state the $150 and the resource page states the suspension; a filer at the counter today pays the expedited fee and gets a 3:30 p.m. cutoff.",
+        "evidence": {
+          "quote": "(1) Same-day service is available at the division's front counter for a service fee of $150 for single or multiple transactions on paper within each new or existing division program filing. In addition, the filing fee for each transaction applies.",
+          "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-080"
+        }
+      },
+      {
+        "tierName": "Same-day service on an expedited record",
+        "turnaround": null,
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "An add-on rather than a standalone service: it is the surcharge for asking that a record already carrying the $100 expedited fee be handled the same day. The rule says the fee 'may be assessed', so it is permissive rather than fixed, and it states no turnaround of its own, which is why turnaround is null.",
+        "evidence": {
+          "quote": "(3) Expedited service requests for filing records will be completed within three working days of submission for an expedited service fee of $100. If a request is made for same-day service on an expedited record, an additional same-day service fee of $50 may be assessed.",
+          "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-080"
+        }
+      },
+      {
+        "tierName": "Emergency services outside regular business hours",
+        "turnaround": null,
+        "feeUsd": 200,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "An hourly rate, not a flat price: feeUsd carries the $200 one-hour minimum the rule states and the charge continues at $200 per hour beyond it. The rule attaches no turnaround to it and conditions it on staff notifying the customer of the fee and the customer agreeing to pay or holding a waiver, so turnaround is null. It is carried because the office sells it, in the same way West Virginia's counter offers an option its printed schedule does not.",
+        "evidence": {
+          "quote": "(7) Emergency services outside regular business hours requiring employee overtime are $200 per hour (minimum fee of $200/one hour's rate) plus transaction fees due on any filing.",
+          "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-080"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": {
+      "min": 0,
+      "max": 15
+    },
+    "statement": "(4) Nonexpedited service requests for filing paper records received by mail are processed within 15 business days.",
+    "sourceUrl": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-080",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "Washington is the fullest ladder in this namespace after Arizona, and the only one whose top two rungs are priced by an administrative rule rather than by an agency page - WAC 434-112-080 states the $150 same-day fee, the $100 expedited fee with its three-working-day commitment, the $50 same-day surcharge on an already expedited record and the $200-per-hour out-of-hours rate, and it is also where the standard processing figure lives. The agency's own fee page and its LLC resource page repeat the first two and disagree with the rule in two places, both recorded rather than smoothed: the unit of the expedited commitment (three working days on the fee page and in the rule, three business days on the LLC resource page) and the status of the $150, which the LLC resource page says is not being assessed at all while front-counter same-day work is charged at the expedited fee and finished the same day if received before 3:30 p.m. That is the West Virginia shape - two official documents that are each current and do not agree - so every tier is carried with the document it came from named in its note, and nothing is averaged or preferred. appliesToLlcFormation is true on direct evidence rather than by inference: the Certificate of Formation online filing instructions sell the $100 expedited priority at checkout on the LLC formation filing itself. feeIsPerDocument is false because both the fee page and the resource page price the service per business entity, and the rule prices same-day service for single or multiple transactions alike. standardProcessing rests on the rule's paragraph (4), which is channel-specific - it speaks only of paper records received by mail - so mailBusinessDays carries the 15 and onlineBusinessDays stays null, because nothing read states a standard duration for an online filing. The processing guidelines page adds the queue behaviour without a duration: 'Filings are worked in the order received. Same-day and Expedited orders are in a separate queue that takes priority over all other filings.' Every source here was read live over an ordinary HTTP client and every quotation verifies against a live re-fetch; no snapshot was needed. The fee schedule page's address is not the one an earlier pass recorded - it sits under the frequently-asked-questions path, and the shorter address returns the office's own 404 page rather than a block.",
+  "needsReview": "chargedIfRejected is null and is the one field the read documents do not settle. The rule's paragraph (9) says 'Same-day, online, or expedited service fees are not refundable.' and the fee page says payments submitted to the office are not refundable, but neither says whether the expedited fee is assessed on a filing the office returns for correction, and the two claims are not the same one. Iowa states the opposite case in plain words, so the sentence exists where a state means it. Also unread: whether an online filing has a published standard processing time, which no page consulted states.",
+  "sources": [
+    {
+      "citation": "Washington Secretary of State",
+      "title": "Fee Schedule/Expedited Service - the Corporations and Charities Division's fee page; states the $100 expedited fee with a three-working-day commitment, the mail EXPEDITE instruction, and the $150 same-day fee",
+      "url": "https://www.sos.wa.gov/corporations-charities/frequently-asked-questions-faqs/fee-scheduleexpedited-service",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Secretary of State",
+      "title": "Limited Liability Company (LLC) & Professional LLC (PLLC) Filing Resource Page - states the same two fees in business days rather than working days, and records that the $150 same-day fee is not currently assessed and that front-counter same-day work is charged as an expedited fee before a 3:30 p.m. cutoff",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/limited-liability-company-llc-professional-llc-pllc-filing-resource-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Secretary of State",
+      "title": "Start a Domestic (WA) Limited Liability Company (LLC) Online - the Certificate of Formation filing instructions; sells expedited priority for an additional $100 at checkout, which is what makes appliesToLlcFormation true",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/online-filing-instructions/start-domestic-wa-limited-liability-company-llc-online",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Secretary of State",
+      "title": "Processing Guidelines and Procedure - describes the queue without stating a duration; same-day and expedited orders sit in a separate queue that takes priority",
+      "url": "https://www.sos.wa.gov/corporations-charities/processing-guidelines-and-procedure",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Administrative Code",
+      "title": "WAC 434-112-080, Same-day and expedited service - Special fees - the rule that prices every tier and states the 15-business-day standard for nonexpedited paper records received by mail",
+      "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-080",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Administrative Code",
+      "title": "WAC 434-112-085, Fees and penalties - the division's general fee rule; its paragraph (6) refers expedited and immediate processing fees to WAC 434-112-080 and carries no turnaround of its own",
+      "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=434-112-085",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

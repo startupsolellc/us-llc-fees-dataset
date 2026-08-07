@@ -1,0 +1,71 @@
+{
+  "stateName": "Illinois",
+  "stateAbbr": "IL",
+  "stateSlug": "illinois",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited services - articles of organization",
+        "turnaround": "services rendered within the same day, or within 24 hours from the time, the request therefor is submitted",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "in-person"
+        ],
+        "note": "One service sold at one speed and priced by document type, not a ladder of speeds: the same section prices restated articles and mergers at $200, amendments, reinstatements and applications for admission at $100, a computer abstract at $20 and everything else at $50, and articles of organization sit at $100. The turnaround is the statute's own definition of the service rather than a separate promise. channels is in-person because that is what the office's own LLC forms-and-fees page requires - 'Requests for expedited service must be made in person, not by mail in the Department's Springfield or Chicago office' - while the statute defining the service is wider, allowing a request submitted 'physically in person or, at the Secretary of State's discretion, by electronic means'. The narrower agency rule is the one a filer meets, and the two are carried rather than reconciled.",
+        "evidence": {
+          "quote": "(e) Fees for expedited services shall be as follows: Restated articles of organization, $200; Merger, $200; Articles of organization, $100; Articles of amendment, $100; Reinstatement, $100; Application for admission to transact business, $100; Computer abstract, $20; All other filings, copies of documents and copies of documents of dissolved or revoked limited liability companies, $50.",
+          "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K50-50.htm"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "Illinois is the cleanest statute-and-agency agreement in this namespace and it took a browser only to prove it. The LLC Act carries its own expedited-services section, which creates the fund the service is paid into, defines the service as same-day or within 24 hours of submission, prices it by document type, and closes by withdrawing it from two things: 'The Secretary may not provide expedited services for the online electronic filing of annual reports or requests for certificates of good standing.' The office's LLC forms-and-fees page prints the same numbers in a per-form table - Articles of Organization at a $150 filing fee with a $100 expedited fee in a column headed 'Expedited Fee (additional)', and the series version of the same form at $400 and $100 - so the statutory figure and the counter figure agree, which is not what the Massachusetts or West Virginia records found. Two things do not agree and both are recorded: the statute allows an expedited request to be made in person or, at the Secretary's discretion, by electronic means, while the agency page says such requests must be made in person and not by mail, and it adds a Chicago office that the statute's definition does not name. feeIsPerDocument is true because the expedited fee is stated per document type in the statute and per form in the agency table, and the page says the amounts 'are in addition to the applicable filing fees, franchise taxes, penalties and interest'. standardProcessing is false rather than null: the LLC forms-and-fees page, the LLC services page and the fee section of the Act itself were all read and none states a standard processing time, and the forms page carries no turnaround language at all - the only speed anywhere in the readable material is the one the expedited service buys. The agency side of this state is browser-only: every path on the office's host, its PDFs included, refuses a scripted client, so the two agency pages were read in a browser on the retrieval date. Nothing in this record's evidence rests on them - both quoted values come from the legislature's host, which serves plain files and verifies live - so no snapshot was needed. One address correction worth carrying: the department's old business-services path still redirects, and the page now lives at the hyphenated address recorded in the sources below.",
+  "needsReview": "chargedIfRejected is null. Neither the statute nor the office's LLC forms-and-fees page says whether the expedited fee is kept when a filing is rejected or returned for correction, and the page contains no occurrence of reject at all. New York states the opposite case in plain words, so the sentence exists where a state means it. Also unread: whether the electronic route the statute permits at the Secretary's discretion is offered in practice through the online filing application, which was not opened; the agency page's in-person requirement suggests it is not, but the page and the statute disagree and neither settles the online case.",
+  "sources": [
+    {
+      "citation": "Illinois Compiled Statutes",
+      "title": "805 ILCS 180/50-50, Department of Business Services Special Operations Fund - the LLC Act's expedited-services section; defines the service as same-day or within 24 hours, prices articles of organization at $100, and withdraws the service from online annual reports and certificates of good standing",
+      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K50-50.htm",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Illinois Compiled Statutes",
+      "title": "805 ILCS 180/50-10, Fees - the LLC Act's filing-fee list; prices articles of organization at $150 and $400 for a company with a series, and contains no expedited-service fee of its own",
+      "url": "https://www.ilga.gov/Documents/legislation/ilcs/documents/080501800K50-10.htm",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Illinois Secretary of State",
+      "title": "Limited Liability Company Publications and Forms - the office's per-form fee table with an Expedited Fee (additional) column; LLC 5.5 Articles of Organization at $150 and $100, and the rule that expedited requests must be made in person in the Springfield or Chicago office",
+      "url": "https://www.ilsos.gov/publications/business-services/llc.html",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Illinois Secretary of State",
+      "title": "Business Services - the department landing page reached after the older business-services address redirects; consulted for the route to the LLC forms-and-fees page and carries no processing-time statement",
+      "url": "https://www.ilsos.gov/departments/business-services.html",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

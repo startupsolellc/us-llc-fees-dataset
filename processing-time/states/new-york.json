@@ -1,0 +1,100 @@
+{
+  "stateName": "New York",
+  "stateAbbr": "NY",
+  "stateSlug": "new-york",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": true,
+    "tiers": [
+      {
+        "tierName": "Within 24 hours of the request",
+        "turnaround": "Within 24 hours of the request (not counting weekends, holidays, or any other days on which the Department of State is not open for business)",
+        "feeUsd": 25,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "24 hour expedited processing service requests are accepted between 9:00 a.m. and 4:00 p.m.",
+        "channels": null,
+        "note": "channels is null because the page restricts this level by clock time rather than by how the request arrives, and the same page accommodates mail and overnight courier for expedited work by asking that the envelope be marked 'Expedited Processing'. Naming a subset would misstate it.",
+        "evidence": {
+          "quote": "Expedited Handling Service Additional Fee Within 24 hours of the request (not counting weekends, holidays, or any other days on which the Department of State is not open for business) $25",
+          "url": "https://dos.ny.gov/expedited-handling-services-division-corporations"
+        }
+      },
+      {
+        "tierName": "On the same business day of the request",
+        "turnaround": "On the same business day of the request",
+        "feeUsd": 75,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "request must be submitted no later than 12:00 p.m. on a day on which the Department of State is open for business",
+        "channels": null,
+        "note": "The deadline is hard rather than advisory: a request arriving after noon 'will not be processed' and is returned so the filer can choose a different level. channels is null for the same reason as the 24-hour level.",
+        "evidence": {
+          "quote": "On the same business day of the request (request must be submitted no later than 12:00 p.m. on a day on which the Department of State is open for business) $75",
+          "url": "https://dos.ny.gov/expedited-handling-services-division-corporations"
+        }
+      },
+      {
+        "tierName": "Within 2 hours of receipt of the request",
+        "turnaround": "Within 2 hours of receipt of the request",
+        "feeUsd": 150,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "request must be hand delivered or faxed no later than 2:30 p.m. on a day on which the Department of State is open for business",
+        "channels": [
+          "in-person",
+          "fax"
+        ],
+        "note": "This is the one level whose channels the page states exhaustively - hand delivery or fax - and it is also the one the Division's own current-notice page has undercut: that page says 'The Division no longer accepts filings or requests via fax. Please submit all filings and requests via email or mail.' while this page still prints two fax numbers and conditions the level on fax or hand delivery. Both are carried and neither is corrected here; if the withdrawal governs, hand delivery is the only surviving route to this level.",
+        "evidence": {
+          "quote": "Within 2 hours of receipt of the request (request must be hand delivered or faxed no later than 2:30 p.m. on a day on which the Department of State is open for business) $150",
+          "url": "https://dos.ny.gov/expedited-handling-services-division-corporations"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "New York is the clearest 'charged either way' record in this namespace, and the sentence that settles it is the state's own: 'For documents submitted for filing, such documents are considered processed when they are either filed or rejected as deficient. The fee for expedited processing is charged to the filer regardless of whether or not the document is accepted for filing.' The page goes further and prices the failure case - a deficient document sent by mail has its expedite fee retained, a deficient document sent by fax has the card debited, and a corrected resubmission needs a fresh expedite fee - so chargedIfRejected is true on direct statement rather than on the adjacent non-refundability wording that Washington leaves unresolved. feeIsPerDocument is true on the LLC filing page's own unit: it sells the same three levels as '$25.00 per document for processing within 24 hours, $75.00 per document for processing within the same day, or $150.00 per document for processing within 2 hours', which is also what makes appliesToLlcFormation true - the ladder is offered on the Articles of Organization filing itself, not only in a general services page. The record carries one live contradiction between two current official pages, the West Virginia shape: the expedited-handling page conditions the 2-hour level on hand delivery or fax and prints two fax numbers, while the Division's Important Updates page and the Form a Corporation or Business page both announce that the Division no longer accepts filings or requests via fax and asks for email or mail instead. Neither page is dated, so there is no revision stamp to order them by, and both are carried with the disagreement named in the 2-hour tier's note. standardProcessing is false rather than null: four pages that would carry a standard duration if one were published were read - the expedited-handling page, the Articles of Organization page with its Overview, Fees and Expedited Processing sections, the Form a Corporation or Business landing page and the Division's own Important Updates page, which is where a current backlog would be posted - and none of them states one. The office describes when the clock starts and stops for a purchased level and says nothing about the unpurchased case. Every page here was read in a browser on the retrieval date and the tier quotations are checked against a text snapshot taken the same day, because this host answers a scripted client with a Cloudflare interstitial on every path, a full browser header set included. That is a weaker guarantee than a live re-fetch and a later session on a friendlier route should retire the snapshot by re-running the check live.",
+  "needsReview": "Whether the fax withdrawal has retired the 2-hour level or only its fax half is unresolved, and it is the one thing a filer would need to know before paying $150. The expedited-handling page was not updated to match the announcement. Also unread: whether email, which the announcement offers in place of fax, is accepted for expedited requests at all - the expedited-handling page does not mention email.",
+  "sources": [
+    {
+      "citation": "New York Department of State",
+      "title": "Expedited Handling Services for Division of Corporations - the fee table for all three levels, the submission deadlines, the payment rules, and the statement that the fee is charged whether or not the document is accepted for filing",
+      "url": "https://dos.ny.gov/expedited-handling-services-division-corporations",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York Department of State",
+      "title": "Articles of Organization for Domestic Limited Liability Company - the LLC formation page; prices the same three levels per document and is what makes the ladder applicable to an LLC formation filing",
+      "url": "https://dos.ny.gov/articles-organization-domestic-limited-liability-company-0",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York Department of State",
+      "title": "Important Updates: Division of Corporations, State Records and Uniform Commercial Code - the Division's current-notice page; announces that fax filings and requests are no longer accepted, and states no standard processing time",
+      "url": "https://dos.ny.gov/important-updates-division-corporations-state-records-and-uniform-commercial-code",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New York Department of State",
+      "title": "Form a Corporation or Business - the Division's formation landing page; repeats the fax withdrawal at the top and carries no processing-time statement",
+      "url": "https://dos.ny.gov/form-corporation-or-business",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

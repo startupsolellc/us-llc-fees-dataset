@@ -1,0 +1,112 @@
+{
+  "stateName": "Nevada",
+  "stateAbbr": "NV",
+  "stateSlug": "nevada",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "24-Hour Expedite",
+        "turnaround": "Each filing submitted receives same day filing date and may be picked up within 24 hours",
+        "feeUsd": 125,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Filings to be mailed the next business day if received by 2:00 pm of receipt date and no later than the 2nd business day if received after 2:00 pm",
+        "channels": [
+          "mail",
+          "in-person"
+        ],
+        "note": "The quotation is the whole first block of the schedule rather than one line, because the price is stated as '24-Hour Expedite fee for above filings' and only the block establishes which filings those are - Articles of Organization is the first of them. The positional reading is a claim and it is corroborated twice: the office's own expedite guidelines say 'The fee for 24-hour handling ranges from $25.00 to $125.00. Please consult our fee schedules for the appropriate 24-hour expedite fee.', so $125.00 is the top of the stated range and this is the most expensive block, and the schedule's three remaining blocks land on $75.00, $50.00 and $25.00, the last of which is the bottom of the same range. The extractor's run-together 'filings$125.00' is the two-column layout printing label and amount as adjacent runs and is reproduced rather than tidied.",
+        "evidence": {
+          "quote": "Articles of Organization $75.00 Registration of Foreign Limited-Liability Company $75.00 Reinstatement Fee $300.00 Certificate of Amendment $175.00 Restated Articles $175.00 Certificate of Correction $175.00 Certificate of Termination (pursuant to NRS 86.226) $175.00 Merger $350.00 Termination Pursuant to NRS 92A $350.00 Dissolution of Domestic Limited-Liability Company $100.00 Dissolution of Foreign Limited-Liability Company $100.00 Preclearance of any Document $125.00 Articles of Conversion contact office for fee information Articles of Domestication contact office for fee information Revival of Limited-Liability Company contact office for fee information Ceremonial Charter $100.00 Certificate of Good Standing $50.00 Ceremonial Certificate of Good Standing $100.00 Initial List of Managers or Members $150.00 Annual or Amended List of Managers or Members $150.00 24-Hour Expedite fee for above filings$125.00",
+          "url": "https://www.nvsos.gov/home/showpublisheddocument/1047/638308047406100000"
+        }
+      },
+      {
+        "tierName": "2-Hour Expedite",
+        "turnaround": "2-hour expedite service",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "mail",
+          "in-person"
+        ],
+        "note": "Priced per item rather than per block, and available across the whole schedule rather than on a subset. The guidelines add the acknowledgement condition: a 1-hour or 2-hour filing is acknowledged by fax or e-mail within the service time, and failing to name a method or giving a wrong number may stop the office acknowledging it.",
+        "evidence": {
+          "quote": "2-Hour Expedite is available on all of the above filings at the fee of $500.00 per item.",
+          "url": "https://www.nvsos.gov/home/showpublisheddocument/1047/638308047406100000"
+        }
+      },
+      {
+        "tierName": "1-Hour Expedite",
+        "turnaround": "1-hour expedite service",
+        "feeUsd": 1000,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "mail",
+          "in-person"
+        ],
+        "note": "The most expensive single tier in this namespace. Same per-item unit and same acknowledgement condition as the 2-hour service.",
+        "evidence": {
+          "quote": "1-Hour Expedite is available on all of the above filings at the fee of $1000.00 per item.",
+          "url": "https://www.nvsos.gov/home/showpublisheddocument/1047/638308047406100000"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "queue-date",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": "2026-07-30",
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Please note: Most transactions are available via the online portal, SilverFlume, and will be processed the same day for no additional charge.",
+    "sourceUrl": "https://www.nvsos.gov/businesses/processing-dates",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "Nevada is the namespace's third queue-date record after California and New Mexico, and the only one whose queue and whose expedite ladder belong to different channels. The office publishes a Processing Dates table headed 'Processing Dates - Paper Filings' with two columns, 'Mailroom Scanning date' and 'Processing Date'; the New Filings row read 07/31/2026 and 07/30/2026 against a page stamped 'Last updated 08/06/2026', and queueAsOfMail carries the Processing Date because that is the date the office is working to. queueAsOfOnline is null rather than a date because the online path is not a queue at all - the same page says most transactions filed through the state portal are processed the same day for no additional charge, which is carried in statement. So the ladder below is a paper-filing ladder, and channels say so. The 24-hour fee is the one value that had to be read positionally, and it is the Utah shape: the schedule prices four blocks of filings and states each block's expedite fee as 'for above filings', so the whole block is the quotation and the mapping was corroborated against the guidelines' stated $25.00 to $125.00 range before it was trusted. feeIsPerDocument is true on the schedule's own words, 'per item' for the two fast tiers and 'in addition to the standard filing fee charged on each filing and/or order' for all of them. One thing worth recording about the document rather than the data: the fee schedule prints 'Limited-Liability Company Fee Schedule Effective 7-1-08' and its filing fees still match what the office charges today, so the date is a stamp on an old but live document rather than a sign of a superseded copy. On the statute side, chapter 86 of the state code was read in full: it prices the LLC filings and contains exactly one use of 'expedited', in the replacement-page provision, so the expedite ladder is administrative rather than statutory, and section 86.561 subsection 3 sends the fees to a corporation-chapter section instead. Every agency page and document here was read in a browser on the retrieval date and the quotations are checked against text snapshots taken the same day, because this host answers every scripted request, its PDFs included, with a 212-byte interstitial that returns HTTP 200 without being the page. Both documents are PDFs whose text was recovered inside the browser rather than by a PDF reader, so the snapshots carry that extraction and not the publisher's own bytes; that is a weaker guarantee than a live re-fetch and a later session on a friendlier route should retire it.",
+  "needsReview": "chargedIfRejected is null: neither the fee schedule nor the expedite guidelines says what happens to the expedite fee when a filing is rejected or returned, and neither document contains the words refund or reject at all. Also unread: the corporation-chapter fee section that section 86.561 subsection 3 makes applicable to limited-liability companies, which is where a statutory expedite fee would sit if one exists - the chapter file that would carry it decodes badly on this host and its section body was not reached this session. Nothing in the record depends on it.",
+  "sources": [
+    {
+      "citation": "Nevada Secretary of State",
+      "title": "Fee Schedule - LLC - the Limited-Liability Company fee schedule; prices Articles of Organization and states the 24-hour expedite fee for that block at $125.00 and the 2-hour and 1-hour services at $500.00 and $1000.00 per item",
+      "url": "https://www.nvsos.gov/home/showpublisheddocument/1047/638308047406100000",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nevada Secretary of State",
+      "title": "Expedite Guidelines - the 24-hour, 2-hour and 1-hour service guidelines; states the $25.00 to $125.00 range for 24-hour handling that corroborates the block mapping, the time constraints, and the office's right to extend the period in times of extreme volume",
+      "url": "https://www.nvsos.gov/home/showpublisheddocument/1041/638308944134170000",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nevada Secretary of State",
+      "title": "Processing Dates - the paper-filing queue table with its Mailroom Scanning date and Processing Date columns, and the note that most transactions filed through the state portal are processed the same day for no additional charge",
+      "url": "https://www.nvsos.gov/businesses/processing-dates",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nevada Secretary of State",
+      "title": "Forms & Fees - the Commercial Recordings page that publishes the per-entity fee schedules and the expedite guidelines, and is where the current document identifiers for both were found",
+      "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings/forms-fees",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nevada Revised Statutes",
+      "title": "Chapter 86, Limited-Liability Companies - consulted in full; prices the LLC filings and contains no expedited-service fee, its single use of expedited being the replacement-page provision",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-086.html",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
