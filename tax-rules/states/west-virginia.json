@@ -1,0 +1,134 @@
+{
+  "stateName": "West Virginia",
+  "stateAbbr": "WV",
+  "stateSlug": "west-virginia",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Business Registration Tax",
+    "basis": "flat",
+    "minimumAnnualUsd": 30,
+    "firstYearExemption": false,
+    "filedWith": "Tax Commissioner of the State of West Virginia",
+    "collectedWithAnnualReport": false,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "No person shall, without a business registration certificate, engage in or prosecute, in the State of West Virginia, any business activity without first obtaining a business registration certificate from the Tax Commissioner of the State of West Virginia.",
+        "url": "https://code.wvlegislature.gov/11-12-3/",
+        "supports": "applies and filedWith: the certificate is the state's own condition for doing business, issued by the Tax Commissioner"
+      },
+      {
+        "quote": "The business registration tax hereby levied shall be $15 for each annual business registration certificate: Provided, That for registration periods beginning on or after July 1, 1999, the business registration tax shall be $30, except as otherwise provided in this article: Provided, however, That after June 30, 2010, the business registration tax shall be $30.00 for each business registration certificate, including business registration certificates granted upon application after cessation of a business, or after suspension, revocation, cancellation or lapse of a prior business registration certificate.",
+        "url": "https://code.wvlegislature.gov/11-12-3/",
+        "supports": "taxName, minimumAnnualUsd and basis: the flat $30 per annual certificate, with no measure of the business"
+      },
+      {
+        "quote": "shall be exempt from both registration and payment of the tax imposed by this article, if such person had gross income from business activity of $4,000 or less during that person's tax year for state income tax purposes immediately preceding the registration period for which a registration certificate is otherwise required by this article.",
+        "url": "https://code.wvlegislature.gov/11-12-3/",
+        "supports": "firstYearExemption: no first-year waiver exists; the exemptions are income-class exemptions, not a first-year rule"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2015, there shall be no tax due under the provisions of this article.",
+        "url": "https://code.wvlegislature.gov/11-23-6/",
+        "supports": "excluded levy: the article literally captioned Business Franchise Tax produces no tax due from 2015 on"
+      },
+      {
+        "quote": "This business franchise tax on corporations and partnerships is enacted pursuant to the provision of article X, section one of the Constitution of this state, granting to the Legislature the authority to tax privileges, franchises and incomes of persons and corporations.",
+        "url": "https://code.wvlegislature.gov/11-23-1/",
+        "supports": "excluded levy: the Business Franchise Tax Act's own subject frame is corporations and partnerships"
+      },
+      {
+        "quote": "§11-13-2a. Repealed. Acts, 1989, 1st Ex. Sess., Ch. 2.",
+        "url": "https://code.wvlegislature.gov/11-13-2a/",
+        "supports": "excluded levy: the general business-and-occupation rate sections are repealed; only utility and power B&O sections remain"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.58,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "A partnership or other pass-through entity as such shall not be subject to tax under this article, unless the partnership or other pass-through entity elects to be subject to the tax levied under this section for a taxable year pursuant to §11-21-3a of this code. Persons carrying on business as partners or owners of a pass-through entity shall be liable for tax under this article only in their separate or individual capacities",
+        "url": "https://code.wvlegislature.gov/11-21-3/",
+        "supports": "passThroughApplies: a default LLC is not taxed at the entity level, its owners are, in their individual capacities"
+      },
+      {
+        "quote": "\"Pass-through entity\" means any partnership or other business entity that is not subject to tax under §11-24-1 et seq . of this code.",
+        "url": "https://code.wvlegislature.gov/11-21-3a/",
+        "supports": "passThroughApplies: an LLC outside the corporation net income tax is a pass-through entity under the statute's own definition"
+      },
+      {
+        "quote": "Over $60,000 $1,950.50 plus 4.58% of excess over $60,000",
+        "url": "https://code.wvlegislature.gov/11-21-4j/",
+        "supports": "topRatePercent: the top bracket for taxable years beginning on or after January 1, 2026"
+      },
+      {
+        "quote": "A pass-through entity that is not a disregarded entity for federal income tax purposes may elect to be subject to the tax levied under this section by filing with the Tax Commissioner a form prescribed by the commissioner making such election on or before the deadline to file the return, as specified in §11-21-51 of this code.",
+        "url": "https://code.wvlegislature.gov/11-21-3a/",
+        "supports": "hasPTETElection: the annual entity-level election"
+      },
+      {
+        "quote": "A tax equal to the top marginal rate on individuals under this article on the West Virginia taxable income of an electing pass-through entity that makes the election provided under this section, is hereby annually imposed.",
+        "url": "https://code.wvlegislature.gov/11-21-3a/",
+        "supports": "hasPTETElection: the elected tax is the top individual marginal rate, payable by the entity"
+      }
+    ]
+  },
+  "notes": "West Virginia's recurring entity-level levy on an LLC is the Business Registration Tax of W. Va. Code § 11-12-3: no person may engage in any business activity in the state without an annual business registration certificate from the Tax Commissioner, and the tax is a flat $30 per certificate (per business location). It passes the inclusion test as the state's own annual condition for doing business - the Delaware 'annual tax' shape under another label. The exemptions do not change the ordinary case: a person with gross business income of $4,000 or less in the prior tax year who is not required to collect or withhold a tax and does not claim a sales-tax exemption is exempt from both registration and payment; a person required to register who had gross income of $10,000 or less is exempt from the tax but must still hold the certificate; 501(c) organizations are exempt from payment. firstYearExemption is false: there is no first-year waiver, and the exemptions are annual-income classes, not entity-age rules. dueDate is null: the statute sets no fixed calendar date - the tax accompanies the annual certificate - and the State Tax Department's own site does not answer from this network to add one.\nThe tax literally named 'Business Franchise Tax' (article 23 of chapter 11) is the trap this record exists to catch: a copied table would record it as West Virginia's levy, but § 11-23-6(b)(11) says 'For taxable years beginning on or after January 1, 2015, there shall be no tax due under the provisions of this article.' Its subject class was corporations and partnerships, and the article is now a zero-liability shell. The general Business and Occupation Tax rates were repealed in 1989 (§ 11-13-2a, -2b); the B&O sections that remain are utility and power-industry rates, not an ordinary LLC's. The corporate license tax (article 12C) and the corporation net income tax (article 24) are corporation-only.\ncollectedWithAnnualReport is false: root states.json carries annual_report_fee 25 for West Virginia, the Secretary of State's annual report fee, a separate payment with no tax to overlap.\nstateIncomeTax: members owe West Virginia personal income tax on their pass-through shares - § 11-21-3(b) taxes owners only in their separate or individual capacities unless the entity elects otherwise. The top marginal rate is 4.58% for taxable years beginning on or after January 1, 2026 (§ 11-21-4j; the 2025 rate was 4.82% under § 11-21-4i). West Virginia offers the elective pass-through entity tax of § 11-21-3a: a pass-through entity that is not a disregarded entity may elect, annually and irrevocably for the year, to pay a tax equal to the top individual marginal rate at the entity level, with owners receiving a credit (an IRS Notice 2020-75 design).",
+  "needsReview": "The State Tax Department's own site (tax.wv.gov) did not answer on the VPN-up route on 2026-08-07 (TCP timeouts on three tries), so this record is statute-only - the Ohio model. The code carries every recorded value; an agency page would only corroborate the current administration of the business registration certificate and its $30 fee.",
+  "sources": [
+    {
+      "citation": "W. Va. Code § 11-12-3, Business registration certificate required; tax levied",
+      "title": "West Virginia Code § 11-12-3",
+      "url": "https://code.wvlegislature.gov/11-12-3/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "W. Va. Code § 11-23-1, Business Franchise Tax - Legislative finding",
+      "title": "West Virginia Code § 11-23-1",
+      "url": "https://code.wvlegislature.gov/11-23-1/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "W. Va. Code § 11-23-6, Business Franchise Tax - Imposition of tax; change in rate of tax",
+      "title": "West Virginia Code § 11-23-6",
+      "url": "https://code.wvlegislature.gov/11-23-6/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "W. Va. Code § 11-13-2a, Business and Occupation Tax - Repealed",
+      "title": "West Virginia Code § 11-13-2a",
+      "url": "https://code.wvlegislature.gov/11-13-2a/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "W. Va. Code § 11-21-3, Personal Income Tax - Imposition of tax; persons subject to tax",
+      "title": "West Virginia Code § 11-21-3",
+      "url": "https://code.wvlegislature.gov/11-21-3/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "W. Va. Code § 11-21-3a, Personal Income Tax - Electing pass-through entities",
+      "title": "West Virginia Code § 11-21-3a",
+      "url": "https://code.wvlegislature.gov/11-21-3a/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "W. Va. Code § 11-21-4j, Personal Income Tax - Rate of tax, taxable years beginning on and after January 1, 2026",
+      "title": "West Virginia Code § 11-21-4j",
+      "url": "https://code.wvlegislature.gov/11-21-4j/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -1,0 +1,142 @@
+{
+  "stateName": "Vermont",
+  "stateAbbr": "VT",
+  "stateSlug": "vermont",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Minimum tax",
+    "basis": "flat",
+    "minimumAnnualUsd": 250,
+    "firstYearExemption": false,
+    "filedWith": "Commissioner of Taxes, Vermont Department of Taxes",
+    "collectedWithAnnualReport": false,
+    "dueDate": "on or before the due date prescribed for the filing of the entity's federal return",
+    "evidence": [
+      {
+        "quote": "A partnership or a limited liability company that is taxed as a partnership under the Internal Revenue Code and is subject to the provisions of section 5920 of this title shall pay an annual tax of $250.00 to the Commissioner of Taxes on or before the due date prescribed for the filing of the entity's federal return.",
+        "url": "https://legislature.vermont.gov/statutes/section/32/151/05921",
+        "supports": "applies, taxName, minimumAnnualUsd, filedWith and dueDate: the statute's own imposition on a partnership-taxed LLC"
+      },
+      {
+        "quote": "A partnership or limited liability company, which engages in activities in Vermont that would subject a C corporation to the requirement to file a return under section 5862 of this title, shall file with the Commissioner an annual return, in the form prescribed by the Commissioner, on or before the due date prescribed for the filing of the entity's federal return.",
+        "url": "https://legislature.vermont.gov/statutes/section/32/151/05920",
+        "supports": "applies and dueDate: section 5920's subject scope and return due date"
+      },
+      {
+        "quote": "Subchapter S Corporations, Partnerships and Limited Liability Companies engaged in activities in Vermont must file a Business Entity Income Tax return with the Commissioner of Taxes.",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+        "supports": "applies: the collector's own statement that an LLC files the Business Entity Income Tax return"
+      },
+      {
+        "quote": "It is only liable for the Business Entity Income Tax, also known as the $250 minimum tax",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax/business-income-tax-form-set-faqs",
+        "supports": "taxName: the collector's own equation of the two labels"
+      },
+      {
+        "quote": "Generally, a minimum tax of $250 is due.",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+        "supports": "minimumAnnualUsd: the collector's statement of the flat figure"
+      },
+      {
+        "quote": "The Vermont minimum entity tax of $250 must be paid with the return.",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+        "supports": "minimumAnnualUsd: the flat entity tax stated by the collector"
+      },
+      {
+        "quote": "Income Tax Return\nDue on the date established for filing under the Internal Revenue Code.",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+        "supports": "dueDate: the collector's restatement of the federal due date"
+      },
+      {
+        "quote": "Partnerships whose activities are limited to the maintenance and management of their intangible investments and whose annual investment income does not exceed $5,000.00 and whose total assets are not in excess of $20,000.00 shall be exempt from the tax imposed by this section.",
+        "url": "https://legislature.vermont.gov/statutes/section/32/151/05921",
+        "supports": "firstYearExemption: no first-year waiver exists; the only exemption is a narrow passive-investment partnership class"
+      },
+      {
+        "quote": "There is imposed upon every business entity that qualifies as and has elected to be taxed as a digital business entity an annual franchise tax",
+        "url": "https://legislature.vermont.gov/statutes/section/32/151/05832a",
+        "supports": "excluded levy: the digital business entity franchise tax reaches only electing digital business entities and is measured on capital stock, not a default LLC"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 8.75,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "The income of S-Corporations, Partnerships and Limited Liability Companies attributable to Vermont passes through to the shareholders, partners, or members and is taxed at the individual or corporate income tax rate. Each shareholder, partner, or member must also file a Vermont Income Tax return.",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+        "supports": "passThroughApplies: the collector's own statement that LLC income passes through to members"
+      },
+      {
+        "quote": "249,700 - 16,175.00 8.75% 249,700",
+        "url": "https://tax.vermont.gov/sites/tax/files/documents/TaxRateSched-2025.pdf",
+        "supports": "topRatePercent: the 2025 Schedule X top bracket for single filers"
+      },
+      {
+        "quote": "304,000 - 18,428.00 8.75% 304,000",
+        "url": "https://tax.vermont.gov/sites/tax/files/documents/TaxRateSched-2025.pdf",
+        "supports": "topRatePercent: the 2025 Schedule Y-1 top bracket for married filing jointly"
+      },
+      {
+        "quote": "The Commissioner may permit a partnership or limited liability company to file composite returns and to make composite payments of tax on behalf of some or all of its nonresident partners or members.",
+        "url": "https://legislature.vermont.gov/statutes/section/32/151/05920",
+        "supports": "hasPTETElection: the statute's entity-level composite payment election, nonresident owners only"
+      },
+      {
+        "quote": "Business entities may elect to file a composite return, and pay income tax at the entity level on behalf of all owners who are nonresidents of Vermont.",
+        "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+        "supports": "hasPTETElection: the collector's description of the election's scope"
+      }
+    ]
+  },
+  "notes": "Vermont's recurring entity-level levy on a default LLC is the $250 minimum tax of 32 V.S.A. § 5921: a partnership-taxed limited liability company subject to § 5920 'shall pay an annual tax of $250.00 to the Commissioner of Taxes on or before the due date prescribed for the filing of the entity's federal return'. The Department of Taxes administers it through the Business Entity Income Tax return (BI-471 or BI-476) and calls it 'the Business Entity Income Tax, also known as the $250 minimum tax'. basis is flat: the $250 figure does not scale with any measure of the LLC's activity. The due date is the federal return due date (for calendar-year entities, March 15 / the next business day; the collector's 2026 calendar prints March 16). firstYearExemption is false: the statute states no first-year waiver, and the only exemption is the narrow class of partnerships limited to maintaining intangible investments with annual investment income not over $5,000 and total assets not over $20,000 - an entity class, not a first-year rule.\ncollectedWithAnnualReport is false: root states.json carries annual_report_fee 45 for Vermont, the Secretary of State's annual report fee, a separate payment with no tax to overlap. The minimum tax is paid to the Commissioner of Taxes with the Business Entity Income Tax return.\nTwo other Vermont franchise-type taxes are excluded from this record. The corporate income tax's minimum (32 V.S.A. § 5832, receipts-scaled $100 to $100,000) applies to active corporations, and the Department's own corporate page says LLCs electing C treatment are the only LLCs it reaches. The digital business entity franchise tax of § 5832a applies only to business entities that qualify as and elect digital business entity status, and its measures (authorized capital stock) are corporate measures, not a default LLC's.\nstateIncomeTax: members owe Vermont personal income tax on their pass-through shares; the Department's own page says LLC income 'passes through to the shareholders, partners, or members and is taxed at the individual or corporate income tax rate'. The 2025 rate schedule tops out at 8.75% on every filing status. Vermont's only entity-level payment election is the composite return of 32 V.S.A. § 5920(b) - the Commissioner may permit a partnership or LLC to file composite returns and make composite payments on behalf of some or all of its NONRESIDENT partners or members; resident owners file their own returns. That is why hasPTETElection is true with this scope spelled out: it is a genuine entity-level election, but not a full pass-through entity tax covering resident owners.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "32 V.S.A. § 5921, Minimum tax",
+      "title": "32 V.S.A. § 5921 - Minimum tax",
+      "url": "https://legislature.vermont.gov/statutes/section/32/151/05921",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "32 V.S.A. § 5920, Returns and mandatory payments",
+      "title": "32 V.S.A. § 5920 - Returns and mandatory payments",
+      "url": "https://legislature.vermont.gov/statutes/section/32/151/05920",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "32 V.S.A. § 5832a, Digital business entity franchise tax",
+      "title": "32 V.S.A. § 5832a - Digital business entity franchise tax",
+      "url": "https://legislature.vermont.gov/statutes/section/32/151/05832a",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Department of Taxes, Business Entity Income Tax",
+      "title": "Business Entity Income Tax - Vermont Department of Taxes",
+      "url": "https://tax.vermont.gov/business/business-entity-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Department of Taxes, Business Income Tax Form Set FAQs",
+      "title": "Business Income Tax Form Set FAQs - Vermont Department of Taxes",
+      "url": "https://tax.vermont.gov/business/business-entity-income-tax/business-income-tax-form-set-faqs",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Vermont Department of Taxes, 2025 Vermont Tax Rate Schedules",
+      "title": "2025 Vermont Tax Rate Schedules",
+      "url": "https://tax.vermont.gov/sites/tax/files/documents/TaxRateSched-2025.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

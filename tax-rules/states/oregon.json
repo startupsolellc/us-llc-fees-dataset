@@ -1,0 +1,155 @@
+{
+  "stateName": "Oregon",
+  "stateAbbr": "OR",
+  "stateSlug": "oregon",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Corporate Activity Tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Oregon Department of Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "The return is due the 15th day of the fourth month following the end of the tax year.",
+    "evidence": [
+      {
+        "quote": "317A.116 Corporate activity tax imposed on commercial activity. (1) A corporate activity tax is imposed on each person with taxable commercial activity for the privilege of doing business in this state.",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "applies and taxName: the statute's own label and the privilege framing, imposed on each person"
+      },
+      {
+        "quote": "includes individuals, combinations of individuals of any form, receivers, assignees, trustees in bankruptcy, firms, companies, joint-stock companies, business trusts, estates, partnerships, limited liability partnerships, limited liability companies, associations, joint ventures, clubs, societies, entities organized as for-profit corporations under ORS chapter 60, C corporations, S corporations, qualified subchapter S subsidiaries, qualified subchapter S trusts, trusts, entities that are disregarded for federal income tax purposes and any other entities.",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "applies: an LLC is a 'person' under ORS 317A.100(14)'s own definition"
+      },
+      {
+        "quote": "The Corporate Activity Tax (CAT) is an annual tax, established in 2019, and applicable to tax years beginning on or after January 1, 2020. The CAT is imposed on taxpayers for the privilege of doing business in Oregon. The CAT is not a transactional tax, such as a retail sales tax, nor is it an income tax.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+        "supports": "applies and taxName: the collector's own description of the annual privilege levy"
+      },
+      {
+        "quote": "The CAT is imposed on businesses for the privilege of doing business in Oregon. It is measured on a business's commercial activity, which is the total amount a business realizes from transactions and activity in Oregon.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+        "supports": "basis: the amount scales with commercial activity, the revenue measure"
+      },
+      {
+        "quote": "for each tax year shall equal $250 plus the product of the taxpayer",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "minimumAnnualUsd: ORS 317A.125's $250 floor above the threshold"
+      },
+      {
+        "quote": "in excess of $1 million for the tax year multiplied by 0.57 percent",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "basis and minimumAnnualUsd: ORS 317A.125's rate on the excess above $1 million"
+      },
+      {
+        "quote": "A tax is not owed under this section if the",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "minimumAnnualUsd: 0, a published no-tax-due threshold below $1 million"
+      },
+      {
+        "quote": "The CAT is applied to taxable Oregon commercial activity more than $1 million. The tax is computed as $250 plus 0.57 percent of taxable Oregon commercial activity of more than $1 million. Only taxpayers with more than $1 million of taxable Oregon commercial activity will have a payment obligation.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+        "supports": "minimumAnnualUsd: the collector's own statement of the $0 minimum below the tax payment threshold"
+      },
+      {
+        "quote": "Business or unitary group with $750,000 or less of Oregon commercial activity is excluded from all CAT requirements.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+        "supports": "minimumAnnualUsd: below $750,000 an LLC has no CAT obligation at all"
+      },
+      {
+        "quote": "Any person or unitary group with commercial activity in excess of $750,000 in a tax year shall register with the Department of Revenue.",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "firstYearExemption: no first-year waiver is stated; the obligation attaches to the year's activity from the first year it crosses the threshold"
+      },
+      {
+        "quote": "every person doing business in this state with commercial activity for the tax year in excess of $1 million shall file an annual return not later than the 15th day of the fourth month following the end of the tax year.",
+        "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+        "supports": "dueDate: ORS 317A.137's own sentence"
+      },
+      {
+        "quote": "The return is due the 15th day of the fourth month following the end of the tax year.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+        "supports": "dueDate: the collector's restatement"
+      },
+      {
+        "quote": "The CAT legislation excludes certain types of business entities from any CAT liability, unless such business has unrelated business taxable income under federal law. Exempted entities include but are not limited to:",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+        "supports": "applies: a default LLC is not in the collector's list of exempt entity classes"
+      },
+      {
+        "quote": "If a corporation is doing business in Oregon, they generally must file an excise tax return for the privilege of doing business in Oregon.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+        "supports": "excluded levy: the corporation excise tax and its minimum tax are corporation-only, on the collector's own subject wording"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 9.9,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "I'm a limited liability company (LLC). How do I file in Oregon? File the same way for Oregon as you did for federal. For example, if you filed a partnership return for federal, then file a partnership return for Oregon.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+        "supports": "passThroughApplies: a default LLC files as its federal classification, a partnership return for a partnership-taxed LLC"
+      },
+      {
+        "quote": "Does Oregon follow the federal entity classification regulations? Yes. If an entity is classified or taxed as a corporation for federal income tax purposes, we treat it as a corporation for Oregon tax purposes.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+        "supports": "passThroughApplies: corporate treatment is the elected exception, not the default"
+      },
+      {
+        "quote": "If your taxable income is over $125,000 .....................................................your tax is $10,627 plus 9.9% of excess over $125,000",
+        "url": "https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-inst_101-040-1_2025.pdf",
+        "supports": "topRatePercent: the 2025 instructions' Chart S top bracket"
+      },
+      {
+        "quote": "For tax years beginning on or after January 1, 2022, entities taxed as S corporations and partnerships may elect annually to be subject to the PTE-E Tax at a rate of 9 percent tax on the first $250,000 of distributive proceeds and 9.9 percent tax on any amount exceeding $250,000.",
+        "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Pass-Through-Entity-Elective-Tax.aspx",
+        "supports": "hasPTETElection: the annual elective pass-through entity tax, with its two-tier rate"
+      }
+    ]
+  },
+  "notes": "Oregon's recurring entity-level levy on an LLC is the Corporate Activity Tax (CAT), ORS 317A. It passes the inclusion test on the statute's own terms: ORS 317A.116(1) imposes it on each person with taxable commercial activity for the privilege of doing business in this state, ORS 317A.100(14) defines a person to include limited liability companies, and it is annual (ORS 317A.137's annual return) and measured on commercial activity. The label is the state's own: 'Corporate Activity Tax'. basis is revenue: the amount scales with commercial activity (total amount realized from transactions and activity, without deduction for expenses). minimumAnnualUsd is 0, the published no-tax-due case: ORS 317A.125(2) says a tax is not owed if taxable commercial activity does not exceed $1 million, and the Department's own page says only taxpayers with more than $1 million of taxable Oregon commercial activity have a payment obligation. Above that the floor is the $250 flat component plus 0.57 percent of the excess. Registration begins at $750,000 (ORS 317A.131), filing above $1 million (ORS 317A.137), and the return is due the 15th day of the fourth month following the end of the tax year. This is the Ohio-CAT shape, threshold-gated with a $0 minimum for an ordinary LLC, and there is no first-year waiver: the obligation attaches to the year's activity from the first year the thresholds are crossed.\nThe corporation excise tax and its minimum tax are excluded: the Department's own Corporation Excise and Income Tax page imposes them on corporations, and its FAQ answers 'I'm a limited liability company (LLC). How do I file in Oregon?' with 'File the same way for Oregon as you did for federal' - a partnership-taxed LLC files a partnership return, so the corporate minimum tax does not reach a default LLC.\ncollectedWithAnnualReport is false: root states.json carries annual_report_fee 100 for Oregon, the Secretary of State's annual report fee, a separate payment with no tax to overlap. The CAT is filed with the Oregon Department of Revenue.\nstateIncomeTax: members owe Oregon personal income tax on pass-through income. The 2025 Form OR-40 instructions put the top marginal rate at 9.9% (Chart S, over $125,000). Oregon created the Pass-Through Entity Elective (PTE-E) Tax for tax years beginning on or after 2022-01-01: entities taxed as S corporations and partnerships may elect annually to pay 9 percent on the first $250,000 of distributive proceeds and 9.9 percent on the excess, with members claiming a credit on their individual returns; the law expires if the federal SALT deduction limitation expires or is repealed.",
+  "needsReview": "The CAT statute (ORS 317A) was read from the legislature's chapter page and the collector's pages were read in full, so nothing recorded here is ungrounded. What is missing is only the 2026 regular session's amendment-and-repeal table referenced at the top of the ORS chapter page: the text read is the 2025 Edition, and the chapter page notes that sections were amended or repealed during the 2026 regular session. Reading the 2026 A&R table would confirm no recorded figure changed before the 2026 tax year.",
+  "sources": [
+    {
+      "citation": "Oregon Revised Statutes, Chapter 317A - Corporate Activity Tax (2025 Edition)",
+      "title": "Oregon Revised Statutes: Chapter 317A - Corporate Activity Tax",
+      "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Oregon Department of Revenue, Corporate Activity Tax (CAT)",
+      "title": "Oregon Department of Revenue: Corporate Activity Tax (CAT) - Businesses",
+      "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Oregon Department of Revenue, Corporation Excise and Income Tax",
+      "title": "Oregon Department of Revenue: Corporation Excise and Income Tax - Businesses",
+      "url": "https://www.oregon.gov/dor/programs/businesses/Pages/corp-requirements.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Oregon Department of Revenue, Pass-Through Entity Elective (PTE-E) Tax",
+      "title": "Oregon Department of Revenue: Pass-Through Entity Elective (PTE-E) Tax - Businesses",
+      "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Pass-Through-Entity-Elective-Tax.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Oregon Department of Revenue, 2025 Form OR-40 Instructions (150-101-040-1)",
+      "title": "2025 Form OR-40 Instructions",
+      "url": "https://www.oregon.gov/dor/forms/FormsPubs/form-or-40-inst_101-040-1_2025.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

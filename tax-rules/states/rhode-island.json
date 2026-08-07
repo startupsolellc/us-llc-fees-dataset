@@ -1,0 +1,137 @@
+{
+  "stateName": "Rhode Island",
+  "stateAbbr": "RI",
+  "stateSlug": "rhode-island",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Annual charge",
+    "basis": "flat",
+    "minimumAnnualUsd": 400,
+    "firstYearExemption": false,
+    "filedWith": "Rhode Island Division of Taxation",
+    "collectedWithAnnualReport": false,
+    "dueDate": "The due date for a limited liability company that is not treated as a corporation for purposes of federal income taxation shall be on or before the fifteenth day of the fourth month following the close of the fiscal year.",
+    "evidence": [
+      {
+        "quote": "An annual charge shall be due on the filing of the limited liability company's return filed with the tax administrator and shall be paid to the division of taxation as follows:",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-67.HTM",
+        "supports": "taxName and filedWith: the statute's own label and collector"
+      },
+      {
+        "quote": "If the limited liability company is not treated as a corporation for purposes of federal income taxation, it shall pay a fee in an amount equal to the minimum tax imposed upon a corporation under § 44-11-2(e).",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-67.HTM",
+        "supports": "applies and minimumAnnualUsd: the LLC's annual charge is the corporate minimum tax by reference"
+      },
+      {
+        "quote": "Minimum tax. The tax imposed upon any corporation under this section, including a small business corporation having an election in effect under subchapter S, 26 U.S.C. § 1361 et seq., shall not be less than four hundred fifty dollars ($450). For tax years beginning on or after January 1, 2017, the tax imposed shall not be less than four hundred dollars ($400).",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-11/44-11-2.HTM",
+        "supports": "minimumAnnualUsd: the $400 figure the annual charge is equal to"
+      },
+      {
+        "quote": "All of these entities except for general partnerships are also subject to a tax or fee equal to a minimum tax imposed upon a corporation currently equal to $400.",
+        "url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+        "supports": "minimumAnnualUsd: the collector's own statement of the $400 pass-through charge"
+      },
+      {
+        "quote": "By statute, a pass-through entity is defined as a corporation that for the applicable tax year is treated as an S Corporation under IRC § 1362(a) [26 U.S.C. § 1362(a)], and a general partnership, limited partnership, limited liability partnership, trust, or limited liability company that for the applicable tax year is not taxed as a corporation for federal tax purposes under the state's check-the-box regulation.",
+        "url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+        "supports": "applies: a default LLC is a pass-through entity under the Division's own definition"
+      },
+      {
+        "quote": "The due date for a limited liability company that is not treated as a corporation for purposes of federal income taxation shall be on or before the fifteenth day of the fourth month following the close of the fiscal year.",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-67.HTM",
+        "supports": "dueDate: the statute's own sentence"
+      },
+      {
+        "quote": "An annual charge shall be due on the filing of the limited liability company's return filed with the tax administrator",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-67.HTM",
+        "supports": "firstYearExemption: the charge is due on the LLC's first return and the statute states no first-year waiver"
+      },
+      {
+        "quote": "The corporate tax section also handles many miscellaneous income-based taxes such as a minimum tax for S-corporations, annual charges for various pass-through entities, as well as the taxation of banks, insurance companies, public service corporations and political organizations.",
+        "url": "https://tax.ri.gov/tax-sections/corporate-tax",
+        "supports": "applies: the Division's own frame for the annual charge as a pass-through entity levy"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.99,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "A pass-through entity shall withhold income tax at the highest Rhode Island withholding tax rate provided for individuals or seven percent (7%) for corporations on the member's share of income of the entity that is derived from or attributable to sources within this state distributed to each nonresident member",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-11/44-11-2.2.HTM",
+        "supports": "passThroughApplies: the member's share of the entity's income is Rhode Island income, withheld at the individual rate"
+      },
+      {
+        "quote": "Pass-through entities are also subject to R.I. Gen. Laws § 44-11-2.2 which requires income taxes to be withheld at the highest income tax rate (currently 5.99% for individuals or 7% for corporations) for income attributable to this state for non-resident members/shareholders/partners.",
+        "url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+        "supports": "topRatePercent: the Division's own statement of the current highest individual rate"
+      },
+      {
+        "quote": "A pass-through entity may file a composite income tax return on behalf of electing nonresident members reporting and paying income tax at the state's highest marginal rate (currently 5.99%) on the members' pro rata or distributive shares of income of the pass-through entity from doing business in, or deriving income from sources within, this State.",
+        "url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+        "supports": "topRatePercent: the highest marginal individual rate as the Division states it"
+      },
+      {
+        "quote": "For tax years beginning on or after January 1, 2019, a pass-through entity may elect to pay the state tax at the entity level at the rate of five and ninety-nine hundredths percent (5.99%).",
+        "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-11/44-11-2.3.HTM",
+        "supports": "hasPTETElection: the statutory election, with its rate"
+      },
+      {
+        "quote": "In July of 2019, RI legislature created a pass-through entity election to pay all taxes at the entity level for individuals.",
+        "url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+        "supports": "hasPTETElection: the Division's own description"
+      }
+    ]
+  },
+  "notes": "Rhode Island's recurring entity-level levy on a default LLC is the annual charge of R.I. Gen. Laws § 7-16-67: a return is filed with the tax administrator and 'an annual charge shall be due' on that filing, and an LLC not treated as a corporation for federal income tax purposes 'shall pay a fee in an amount equal to the minimum tax imposed upon a corporation under § 44-11-2(e)'. That minimum is $400 for tax years beginning on or after 2017. The label is the statute's own - 'Annual charge' - and the Division of Taxation describes the same payment as 'a tax or fee equal to a minimum tax imposed upon a corporation currently equal to $400'. basis is flat: the charge is the fixed $400 figure, not a measure of the LLC's activity. firstYearExemption is false: the charge is due on the filing of the LLC's first return and the statute states no first-year waiver. The due date for a default LLC is on or before the 15th day of the fourth month following the close of the fiscal year (calendar-year LLCs: April 15; a separate March 15 return schedule applied to pre-2016 years).\ncollectedWithAnnualReport is false: root states.json carries annual_report_fee 52.5 for Rhode Island, the Secretary of State's annual report fee under § 7-16-66 (filed between February 1 and May 1 with the SOS), a separate payment with no tax to overlap. The annual charge is paid to the Division of Taxation on the LLC's own return.\nstateIncomeTax: members owe Rhode Island personal income tax on their pass-through shares; the Division's own pages state the highest individual rate as currently 5.99%, and the statute's pass-through section withholds on nonresident members at that rate. A pass-through entity may elect, for tax years beginning on or after 2019, to pay the state tax at the entity level at 5.99% (R.I. Gen. Laws § 44-11-2.3); for tax years beginning on or after 2025 the state tax credit passed through to owners is 90% of the entity-level tax paid. The business corporation income tax itself (7% of net income under § 44-11-2(a)) applies to corporations, not to a default LLC, and is not part of this record.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "R.I. Gen. Laws § 7-16-67, Filing of returns with the tax administrator - Annual charge",
+      "title": "R.I. Gen. Laws § 7-16-67",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE7/7-16/7-16-67.HTM",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "R.I. Gen. Laws § 44-11-2, Imposition of tax",
+      "title": "R.I. Gen. Laws § 44-11-2",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-11/44-11-2.HTM",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "R.I. Gen. Laws § 44-11-2.2, Pass-through entities - Definitions - Withholding - Returns",
+      "title": "R.I. Gen. Laws § 44-11-2.2",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-11/44-11-2.2.HTM",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "R.I. Gen. Laws § 44-11-2.3, Pass-through entities - Election to pay state income tax at the entity level",
+      "title": "R.I. Gen. Laws § 44-11-2.3",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-11/44-11-2.3.HTM",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Rhode Island Division of Taxation, Pass-through Entities",
+      "title": "Pass-through Entities - RI Division of Taxation",
+      "url": "https://tax.ri.gov/tax-sections/corporate-tax/pass-through-entities",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Rhode Island Division of Taxation, Corporate Tax",
+      "title": "Corporate Tax - RI Division of Taxation",
+      "url": "https://tax.ri.gov/tax-sections/corporate-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

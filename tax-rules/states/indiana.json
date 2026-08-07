@@ -1,0 +1,102 @@
+{
+  "stateName": "Indiana",
+  "stateAbbr": "IN",
+  "stateSlug": "indiana",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Limited Liability Company : If the LLC qualifies under IRS guidelines, it may be taxed only once. Like a partnership at the employee or member level, LLCs do not face the same restrictions as an S Corporation. One of the following forms would need to be filed in Indiana: IT-40, IT-40PNR or IT-65.",
+      "url": "https://www.in.gov/dor/i-am-a/business-corp/choosing-the-proper-income-tax-form",
+      "supports": "applies: the Department's own statement of what an LLC files names member-level forms and no franchise-type tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "There is imposed on each taxpayer a franchise tax measured by the taxpayer's apportioned income for the privilege of exercising its franchise or the corporate privilege of transacting the business of a financial institution in Indiana.",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "applies: the only franchise tax in Indiana's tax code is the financial institution franchise tax, imposed on each taxpayer for transacting the business of a financial institution"
+      },
+      {
+        "quote": "If a corporation is: (1) transacting the business of a financial institution (as defined in IC 6-5.5-1-17 (d)); and (2) is a partner in a partnership or the grantor and beneficiary of a trust transacting business in Indiana",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "applies: even the franchise tax's pass-through reach starts from a corporation transacting the business of a financial institution, not from an ordinary LLC"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 2.95,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Each taxable year, a tax at the following rate of adjusted gross income is imposed upon the adjusted gross income of every resident person, and on that part of the adjusted gross income derived from sources within Indiana of every nonresident person",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "passThroughApplies: members, as resident or nonresident persons, owe the adjusted gross income tax on their shares"
+      },
+      {
+      "quote": "Limited Liability Company : If the LLC qualifies under IRS guidelines, it may be taxed only once. Like a partnership at the employee or member level, LLCs do not face the same restrictions as an S Corporation. One of the following forms would need to be filed in Indiana: IT-40, IT-40PNR or IT-65.",
+        "url": "https://www.in.gov/dor/i-am-a/business-corp/choosing-the-proper-income-tax-form",
+        "supports": "passThroughApplies: the Department's own statement that LLC income is taxed once, at the member level"
+      },
+      {
+        "quote": "For taxable years beginning after December 31, 2025, and before January 1, 2027, two and ninety-five hundredths percent (2.95%).",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "topRatePercent: the flat adjusted gross income rate for the 2026 taxable year"
+      },
+      {
+        "quote": "Each taxable year, an authorized person may elect, on behalf of the electing entity, to have the adjusted gross income tax under IC 6-3-1 through IC 6-3-7 imposed upon the electing entity. The entity owners shall remain liable for adjusted gross income tax under IC 6-3-1 through IC 6-3-7 on their share of the electing entity's adjusted gross income but with the credit provided to the entity owners as set forth in section 5 of this chapter.",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "hasPTETElection: the annual election to have the AGI tax imposed on the entity, with owners receiving the credit"
+      },
+      {
+        "quote": "\"Electing entity\" means a pass through entity described in IC 6-3-1-35 that is subject to Subchapter K or Subchapter S of the Internal Revenue Code and makes the election under this chapter.",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "hasPTETElection: the election's scope includes Subchapter K entities, a default LLC's class"
+      },
+      {
+        "quote": "This chapter applies to taxable years beginning after December 31, 2021.",
+        "url": "https://iga.in.gov/ic/2026/Title_6.html",
+        "supports": "hasPTETElection: the pass through entity tax chapter's effective date"
+      }
+    ]
+  },
+  "notes": "Indiana has no franchise-type levy on a default LLC: applies is false, resting on the Department of Revenue's own choosing-the-proper-income-tax-form page, which states that an LLC may be taxed only once, at the member level, and names the forms it files (IT-40, IT-40PNR or IT-65) without any entity-level franchise tax. The only franchise tax in the Indiana Code is the financial institution franchise tax of IC 6-5.5: it is imposed for the privilege of transacting the business of a financial institution, and even its pass-through rule starts from a corporation that is a partner in a partnership - an ordinary LLC is outside the article's subject class. The general B&O-style levies and the corporate adjusted gross income tax (IC 6-3) apply to corporations, not to a default LLC. Local county income and property taxes are out of scope by the namespace's rule.\ncollectedWithAnnualReport is null: no franchise-type levy exists for a default LLC, and root states.json carries annual_report_fee 32 for Indiana, the Secretary of State's biennial report fee, a separate payment with no tax to overlap.\nstateIncomeTax: members owe Indiana adjusted gross income tax on their pass-through shares. The rate is flat: 2.95% for taxable years beginning in 2026 (IC 6-3-2-1(b)(7); 3% in 2025 under (b)(6), falling to 2.9% for 2027-2029 under (b)(8)). Indiana offers the pass through entity tax of IC 6-3-2.1, effective for taxable years beginning after December 31, 2021: an authorized person may elect annually to have the AGI tax imposed upon the electing entity at the same flat rate, owners remain liable on their shares but receive a credit for the entity-level tax paid.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Indiana Code IC 6-3-2-1, Imposition of tax; tax rate (2026 edition)",
+      "title": "Indiana Code Title 6, IC 6-3-2-1",
+      "url": "https://iga.in.gov/ic/2026/Title_6.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Indiana Code IC 6-3-2.1, Pass Through Entity Tax (2026 edition)",
+      "title": "Indiana Code Title 6, IC 6-3-2.1",
+      "url": "https://iga.in.gov/ic/2026/Title_6.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Indiana Code IC 6-5.5, Franchise Tax (2026 edition)",
+      "title": "Indiana Code Title 6, IC 6-5.5",
+      "url": "https://iga.in.gov/ic/2026/Title_6.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Indiana Department of Revenue, Choosing the Proper Income Tax Form",
+      "title": "Choosing the Proper Income Tax Form - Indiana Department of Revenue",
+      "url": "https://www.in.gov/dor/i-am-a/business-corp/choosing-the-proper-income-tax-form",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
