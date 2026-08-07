@@ -1,0 +1,151 @@
+{
+  "stateName": "Hawaii",
+  "stateAbbr": "HI",
+  "stateSlug": "hawaii",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "General Excise Tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Hawaii Department of Taxation",
+    "collectedWithAnnualReport": false,
+    "dueDate": "The due date is the 20th day of the fourth month following the close of the taxable year. For calendar year filers, the due date is April 20th of the following year.",
+    "evidence": [
+      {
+        "quote": "There is hereby levied and shall be assessed and collected annually privilege taxes against persons on account of their business and other activities in the State measured by the application of rates against values of products, gross proceeds of sales, or gross income, whichever is specified, as follows:",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-0013.htm",
+        "supports": "applies and basis: the statute levies privilege taxes annually against persons for their business activities, measured by rates against values of products, gross proceeds of sales, or gross income"
+      },
+      {
+        "quote": "\"Business\" includes all activities (personal, professional, or corporate) engaged in or caused to be engaged in with the object of gain or economic benefit either direct or indirect, but does not include casual sales.",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-0002.htm",
+        "supports": "applies: \"business\" is defined to include all activities engaged in with the object of gain, so an operating LLC is a subject of chapter 237"
+      },
+      {
+        "quote": "Hawaii does not have a sales tax; instead, we have the GET, which is assessed on all business activities. The tax rate is 0.15% for Insurance Commission, 0.5% for Wholesaling, Manufacturing, Producing, Wholesale Services, and Use Tax on Imports For Resale, and 4% for all others.",
+        "url": "https://tax.hawaii.gov/geninfo/get/",
+        "supports": "taxName and basis: the Department's own description of the GET - assessed on all business activities, with rates applied to activity classes measured on gross proceeds or gross income"
+      },
+      {
+        "quote": "The tax is on the business and not on the customer.",
+        "url": "https://tax.hawaii.gov/geninfo/get/",
+        "supports": "applies: the Department states the GET is a tax on the business, not a tax on the customer"
+      },
+      {
+        "quote": "The due date is the 20th day of the fourth month following the close of the taxable year. For calendar year filers, the due date is April 20th of the following year.",
+        "url": "https://tax.hawaii.gov/geninfo/get/",
+        "supports": "dueDate: the annual GET return is due the 20th day of the fourth month following the close of the taxable year"
+      },
+      {
+        "quote": "What is the fee for a GET license? A one-time $20 fee.",
+        "url": "https://tax.hawaii.gov/geninfo/get/",
+        "supports": "notes: the GET license fee is a one-time registration charge, not the recurring levy"
+      },
+      {
+        "quote": "Mail the completed application to: Hawaii Department of Taxation P.O. Box 1425 Honolulu, HI 96806-1425",
+        "url": "https://tax.hawaii.gov/geninfo/get/",
+        "supports": "filedWith: the Department's own mailing instruction names Hawaii Department of Taxation"
+      },
+      {
+        "quote": "There is hereby levied and shall be assessed and collected annually privilege taxes against persons on account of their business and other activities in the State measured by the application of rates against values of products, gross proceeds of sales, or gross income, whichever is specified, as follows:",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-0013.htm",
+        "supports": "firstYearExemption: the privilege tax is levied on business activities as they occur and no first-year waiver is stated"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 11,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "(a) There is hereby imposed on the taxable income of every: (1) Taxpayer who files a joint return under section 235-93; and (2) Surviving spouse, a tax determined in accordance with the following table:",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm",
+        "supports": "passThroughApplies: Hawaii's income tax is imposed on individuals (taxpayers), which is where a default LLC's income reaches the state"
+      },
+      {
+        "quote": "Over $650,000 $51,932.00 plus 11.00% of excess over $650,000.",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm",
+        "supports": "topRatePercent: the top marginal rate is 11.00% in the table for taxable years beginning after December 31, 2024, the table in force for 2026"
+      },
+      {
+        "quote": "\"Corporation\" means the same as in the Internal Revenue Code.",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0001.htm",
+        "supports": "passThroughApplies: the income tax chapter defines a corporation by federal classification, so a partnership-classified LLC is not a corporation"
+      },
+      {
+        "quote": "(a) A tax at the rates herein provided shall be assessed, levied, collected, and paid for each taxable year on the taxable income of every corporation, including a corporation carrying on business in partnership",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+        "supports": "passThroughApplies: the corporate income tax is imposed on corporations, and a default LLC is not one"
+      },
+      {
+        "quote": "(a) A partnership or S corporation may elect to be taxed pursuant to this section as an electing pass-through entity in any tax year",
+        "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051_0005.htm",
+        "supports": "hasPTETElection: partnerships (including partnership-taxed LLCs) and S corporations may elect entity-level taxation under section 235-51.5"
+      }
+    ]
+  },
+  "notes": "Hawaii's recurring entity-level levy on an operating LLC is the General Excise Tax (GET) of HRS chapter 237. HRS §237-13 levies privilege taxes annually against persons on account of their business and other activities, measured by rates against values of products, gross proceeds of sales, or gross income; HRS §237-2 defines \"business\" to include all activities engaged in with the object of gain or economic benefit; and the Department's own GET page says the GET \"is assessed on all business activities\" and \"is on the business and not on the customer.\" That is the Washington/Ohio/Oregon gross-receipts shape recorded elsewhere in this namespace, not the Arizona transaction-privilege-tax shape: GET is not confined to enumerated transaction classifications, and the DOR's own words make the LLC's activity the subject. minimumAnnualUsd is 0 in the Washington sense - the tax is a percentage of gross income with no published floor, and an LLC with no business activity owes nothing and files nothing. The GET license is a one-time $20 registration charge, not the recurring levy, and the county GET surcharges are local levies, out of scope. collectedWithAnnualReport is false: root states.json carries annual_report_fee 12.5 for Hawaii, the Department of Commerce and Consumer Affairs annual report fee, a separate payment with no overlap.\nstateIncomeTax: members owe Hawaii individual income tax on pass-through income. HRS §235-51 imposes the tax on individuals; HRS §235-1 defines \"corporation\" by federal classification and HRS §235-71 imposes the corporate income tax on corporations, so a default partnership-taxed LLC is outside the corporate tax and its income reaches the State on the members' individual returns. The top marginal rate is 11.00% (the table for taxable years beginning after December 31, 2024, in force for 2026, applies it over $650,000; the 2027 and 2029 tables keep 11.00% as the top rate over higher thresholds). Hawaii has the pass-through entity tax of HRS §235-51.5: partnerships and S corporations may elect to pay 9% on the sum of qualified members' distributive shares and guaranteed payments, with a member credit (Act 50, SLH 2023, as amended by Act 50, SLH 2024 and Act 58, SLH 2025).\nThe legislature's HRS pages serve a Cloudflare challenge to the quote checker's default client; each cited HRS page was retrieved on 2026-08-08 with HTTP/1.1 and browser headers and is verified against the dated snapshot in the quote-checker cache directory.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "HRS §237-13, Imposition of tax",
+      "title": "Hawaii Revised Statutes §237-13",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-0013.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "HRS §237-2, \"Business\", \"engaging\" in business, defined",
+      "title": "Hawaii Revised Statutes §237-2",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0237/HRS_0237-0002.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "HRS §235-51, Tax imposed on individuals; rates",
+      "title": "Hawaii Revised Statutes §235-51",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "HRS §235-1, Definitions",
+      "title": "Hawaii Revised Statutes §235-1",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0001.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "HRS §235-71, Tax on corporations; rates",
+      "title": "Hawaii Revised Statutes §235-71",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0071.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "HRS §235-51.5, Pass-through entity taxation election",
+      "title": "Hawaii Revised Statutes §235-51.5",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0051_0005.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Hawaii Department of Taxation, General Excise Tax (GET) Information",
+      "title": "General Excise Tax (GET) Information - Department of Taxation",
+      "url": "https://tax.hawaii.gov/geninfo/get/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Hawaii Department of Taxation, Pass-Through Entity Taxation",
+      "title": "Pass-Through Entity Taxation - Department of Taxation",
+      "url": "https://tax.hawaii.gov/pte/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

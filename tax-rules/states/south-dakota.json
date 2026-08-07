@@ -1,0 +1,65 @@
+{
+  "stateName": "South Dakota",
+  "stateAbbr": "SD",
+  "stateSlug": "south-dakota",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Every financial institution regularly engaged in business in South Dakota at any time during the year must file a bank franchise tax return. A financial institution is defined as any banking institution, production credit association, or savings and loan association organized under the laws of the United States and located or doing business in this state.",
+      "url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+      "supports": "applies: the only franchise-type levy South Dakota names is the bank franchise tax, and its own subject definition confines it to financial institutions; a default LLC is not one"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "South Dakota does not impose a corporate income tax.",
+        "url": "https://dor.sd.gov/businesses/taxes/",
+        "supports": "applies: the Department's business-taxes page says in terms that South Dakota does not impose a corporate income tax, so no corporate income or franchise-type levy exists for a default LLC to fall under"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "South Dakota is one of seven states that does not impose a state income tax.",
+        "url": "https://dor.sd.gov/individuals/taxes/",
+        "supports": "passThroughApplies, topRatePercent and hasPTETElection: there is no state income tax, so members owe no tax on pass-through income, there is no rate to carry, and there is no income tax an entity-level election could elect into"
+      }
+    ]
+  },
+  "notes": "South Dakota imposes no franchise-type levy on a default LLC. The Department of Revenue's business-taxes page says in terms that South Dakota does not impose a corporate income tax, and the only franchise tax the state names is the Bank Franchise Tax, whose own page confines it to financial institutions - banking institutions, production credit associations, and savings and loan associations - so a default LLC is outside it. The remaining business taxes the Department administers (sales and use, contractors' excise, tourism, amusement machines, motor fuel, and the other excises) are transaction or activity taxes, out of scope under the namespace's inclusion test.\nstateIncomeTax: South Dakota is one of seven states that does not impose a state income tax, in the Department's own words, so members owe no personal income tax on pass-through income (passThroughApplies false), topRatePercent is null, and hasPTETElection is false - there is no income tax for an entity-level election to elect into.\ncollectedWithAnnualReport is null because no franchise-type levy exists; root states.json carries annual_report_fee 55 for South Dakota, the Secretary of State's annual report fee, with no tax to overlap.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "South Dakota Department of Revenue, Business Taxes hub",
+      "title": "Taxes - South Dakota Department of Revenue",
+      "url": "https://dor.sd.gov/businesses/taxes/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Dakota Department of Revenue, Bank Franchise Tax page",
+      "title": "Bank Franchise Tax - South Dakota Department of Revenue",
+      "url": "https://dor.sd.gov/businesses/taxes/bank-franchise-tax/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Dakota Department of Revenue, Individual Taxes page",
+      "title": "Taxes - South Dakota Department of Revenue (Individuals)",
+      "url": "https://dor.sd.gov/individuals/taxes/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
