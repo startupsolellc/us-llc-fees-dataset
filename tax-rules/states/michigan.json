@@ -1,0 +1,102 @@
+{
+  "stateName": "Michigan",
+  "stateAbbr": "MI",
+  "stateSlug": "michigan",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Financial institutions are subject to a franchise tax under Chapter 13 of the Income Tax Act. MCL 206.653. The franchise tax is levied at a rate of 0.29% on a financial institution's net capital for tax years beginning before January 1, 2018, and total equity capital for tax years beginning after December 31, 2018. MCL 206.653; MCL 206.655.",
+      "url": "https://www.michigan.gov/taxes/questions/cit/nexus/nexus-apportionment-10--does-the-protection-of-public-law-86-272-apply-to-financial-institutions",
+      "supports": "applies: the Department's own FAQ names Michigan's franchise tax and confines its subject to financial institutions under Chapter 13 of the Income Tax Act; a default LLC is not a financial institution"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "The Michigan Corporate Income Tax (CIT) was signed into law by Governor Rick Snyder on May 25, 2011. The CIT imposes a 6% corporate income tax on C corporations and taxpayers taxed as corporations federally.",
+        "url": "https://www.michigan.gov/taxes/business-taxes/corporate-income-tax",
+        "supports": "applies: the state's corporate-level income tax is imposed on C corporations and taxpayers taxed as corporations federally, and a default partnership-taxed LLC is in neither class"
+      },
+      {
+        "quote": "The CIT replaces the Michigan Business Tax (MBT) for most taxpayers, effective January 1, 2012.",
+        "url": "https://www.michigan.gov/taxes/business-taxes/corporate-income-tax",
+        "supports": "applies: the last broad Michigan entity-level business tax (the MBT, itself the successor of the Single Business Tax) was replaced by the CIT, so no broad franchise-type levy remains for a default LLC"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.25,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Individuals and fiduciaries subject to tax under Part 1 of the Income Tax Act, MCL 206.1 et seq., are subject to tax at the rate provided under Section 51 of the Income Tax Act, MCL 206.51.",
+        "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year",
+        "supports": "passThroughApplies: Michigan's income tax is imposed on individuals and fiduciaries, which is where a default LLC's pass-through income reaches the state"
+      },
+      {
+        "quote": "As a result, the rate in effect under Section 51 for the 2026 tax year is 4.25%.",
+        "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year",
+        "supports": "topRatePercent: the Department's notice states the rate in effect for the 2026 tax year is 4.25%"
+      },
+      {
+        "quote": "The Michigan FTE tax is levied and imposed on certain electing flow-through entities with business activity in Michigan.",
+        "url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+        "supports": "hasPTETElection: the Department states the Michigan flow-through entity tax is levied on electing entities"
+      },
+      {
+        "quote": "The following types of common flow-through entities may elect to pay the Michigan FTE tax:\n- Limited liability companies (LLCs) that file federal income tax returns as partnerships.",
+        "url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+        "supports": "hasPTETElection: LLCs that file federal income tax returns as partnerships are expressly eligible to elect"
+      },
+      {
+        "quote": "allows a flow-through entity to elect to pay tax on certain income at the individual income tax rate. If this election is made and the tax is paid by the entity, members of the entity are eligible to receive a refundable income tax credit. Although the flow-through entity effectively pays the income tax, members must comply with reporting or return filing requirements under Part 1 or Part 2 of the Income Tax Act.",
+        "url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+        "supports": "passThroughApplies: even when the entity elects, members remain subject to the income tax and receive a credit; absent the election the income is attributed to members under Part 1"
+      },
+      {
+        "quote": "A flow-through entity is defined as an S corporation or a partnership under the internal revenue code for federal income tax purposes.",
+        "url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+        "supports": "passThroughApplies: a default LLC is a partnership for federal income tax purposes and therefore a flow-through entity whose income is attributed to its members"
+      }
+    ]
+  },
+  "notes": "Michigan imposes no franchise-type levy on a default LLC: applies is false. The Department of Treasury's own FAQ says the state's franchise tax under Chapter 13 of the Income Tax Act (MCL 206.653) attaches to financial institutions - the franchise tax on net capital or total equity capital is a financial-institution tax, not an LLC tax. The broad entity-level business tax history ended with the Corporate Income Tax: the CIT page says the CIT imposes a 6% corporate income tax on C corporations and taxpayers taxed as corporations federally, and that the CIT replaced the Michigan Business Tax (MBT) for most taxpayers effective January 1, 2012 (the MBT page says the MBT replaced the Single Business Tax effective January 1, 2008). A default LLC files as a partnership for federal purposes and is in neither class, so no recurring franchise or privilege levy applies to it.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 25 for Michigan, the Department of Licensing and Regulatory Affairs annual report fee - a separate payment with no tax to overlap.\nstateIncomeTax: a default LLC is a pass-through entity. Michigan's individual income tax is imposed on individuals and fiduciaries under Part 1 of the Income Tax Act; the Department's notice states the rate in effect for the 2026 tax year is 4.25%. The Michigan flow-through entity (FTE) tax is an elective entity-level income tax: the Department's FAQ says LLCs that file federal income tax returns as partnerships may elect, the entity pays tax at the individual income tax rate, and members receive a refundable credit but must comply with reporting or return filing requirements under Part 1 or Part 2 of the Income Tax Act. The election is for three years and is irrevocable; single-member disregarded LLCs and LLCs filing as corporations are excluded, and the continued levy is contingent on the federal SALT deduction limitation (IRC 164(b)(6)(B)).\nAll cited pages were retrieved on 2026-08-08 through a browser-rendering page reader and are verified against the dated snapshots in the quote-checker cache directory; the state hosts refuse scripted clients from this network (Akamai 403 on www.michigan.gov).",
+  "needsReview": "The record rests on the Department of Treasury's own pages. MCL text on www.legislature.mi.gov could not be opened from this network (TCP 443 refused, and the browser-rendering reader also failed), so the statutory citations behind these agency statements are not yet quoted in the record; a route that can read the MCL pages could add them.",
+  "sources": [
+    {
+      "citation": "Michigan Department of Treasury, Business Taxes - Corporate Income Tax",
+      "title": "Corporate Income Tax | Michigan Treasury",
+      "url": "https://www.michigan.gov/taxes/business-taxes/corporate-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Michigan Department of Treasury, CIT Nexus & Apportionment FAQ 10",
+      "title": "Nexus & Apportionment 10. Does the protection of Public Law 86-272 apply to financial institutions? | Michigan Treasury",
+      "url": "https://www.michigan.gov/taxes/questions/cit/nexus/nexus-apportionment-10--does-the-protection-of-public-law-86-272-apply-to-financial-institutions",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Michigan Department of Treasury, Flow-Through Entity Tax FAQ",
+      "title": "Flow-Through Entity Tax Frequently Asked Questions (FAQ) | Michigan Treasury",
+      "url": "https://www.michigan.gov/taxes/business-taxes/flowthrough-entity-tax/frequently-asked-questions",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Michigan Department of Treasury taxpayer notice, 4.25% Income Tax Rate for Individuals and Fiduciaries in 2026 Tax Year, 2026-04-15",
+      "title": "4.25% Income Tax Rate for Individuals and Fiduciaries in 2026 Tax Year",
+      "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2026/04/15/425-income-tax-rate-for-individuals-and-fiduciaries-in-2026-tax-year",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
