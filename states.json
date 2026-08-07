@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "maintained_by": "https://formation.legal",
   "license": "CC-BY-4.0",
   "states": {
@@ -77,11 +77,11 @@
     "DE": {
       "name": "Delaware",
       "formation_fee": 110,
-      "annual_report_fee": 300,
+      "annual_report_fee": 400,
       "annual_report_due_date": "June 1",
       "state_income_tax_rate": null,
       "official_link": "https://corp.delaware.gov/fee/",
-      "last_verified": "2026-07-17",
+      "last_verified": "2026-08-07",
       "source_url": "https://corp.delaware.gov/alt-entitytaxinstructions/"
     },
     "FL": {

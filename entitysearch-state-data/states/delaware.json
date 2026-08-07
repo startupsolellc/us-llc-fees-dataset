@@ -39,7 +39,7 @@
   "renewals": {
     "onlineRenewalUrl": "https://corp.delaware.gov/alt-entitytaxinstructions/",
     "paperRenewalUrl": null,
-    "notes": "Delaware LLCs, LPs, and GPs do not file annual reports with the Division of Corporations; they pay the $300 annual tax on or before June 1."
+    "notes": "Delaware LLCs, LPs, and GPs do not file annual reports with the Division of Corporations; they pay the $400 annual tax on or before June 1."
   },
   "corporateDocuments": {
     "operatingAgreement": null,
@@ -48,8 +48,8 @@
   },
   "filingFacts": {
     "llcFee": 110,
-    "llcFeeNotes": "Domestic LLC Certificate of Formation state filing fee is $110 (fee schedule revised Aug 1, 2024; also stated on official LLC Formation form).",
-    "annualReport": 300,
+    "llcFeeNotes": "Domestic LLC Certificate of Formation state filing fee is $110 (fee schedule revised Aug 1, 2026; also stated on official LLC Formation form).",
+    "annualReport": 400,
     "annualReportDue": "June 1",
     "nameReservation": 75,
     "nameReservationNotes": "All entity name reservations require an application; the fee is $75 and the reservation is effective for 120 days."
@@ -58,17 +58,17 @@
     {
       "name": "Official Contact Source",
       "url": "https://corp.delaware.gov/contact/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-07"
     },
     {
       "name": "Official Filing Fee Source",
       "url": "https://corp.delaware.gov/fee/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-07"
     },
     {
       "name": "Official Annual Report or Tax Source",
       "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
-      "lastAccessed": "2026-07-17"
+      "lastAccessed": "2026-08-07"
     },
     {
       "name": "Official Name Reservation Source",
@@ -76,10 +76,10 @@
       "lastAccessed": "2026-07-17"
     },
     {
-      "name": "Delaware Corporate Fee Schedule PDF (Aug 1, 2024)",
-      "url": "https://corpfiles.delaware.gov/AugustFee2024.pdf",
-      "lastAccessed": "2026-07-17"
+      "name": "Delaware Corporate Fee Schedule PDF (Aug 1, 2026)",
+      "url": "https://corpfiles.delaware.gov/Fee_Schedule/AugustFee2026.pdf",
+      "lastAccessed": "2026-08-07"
     }
   ],
-  "lastVerified": "2026-07-17"
+  "lastVerified": "2026-08-07"
 }
