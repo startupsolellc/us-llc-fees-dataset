@@ -1,0 +1,82 @@
+{
+  "stateName": "Mississippi",
+  "stateAbbr": "MS",
+  "stateSlug": "mississippi",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "How do I file if my corporation is a Limited Liability Company (LLC)? A domestic or foreign limited liability company (\"LLC\") is classified as an entity for purposes of Mississippi income tax laws in the same manner as the entity is classified for federal income tax purposes. If an LLC is treated as a partnership for federal income tax purposes, it will file as a pass-through entity for Mississip​pi purposes. If an LLC is treated as a corporation for federal income tax purposes, it will file as a corporation for Mississippi income and franchise tax purposes.",
+      "url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+      "supports": "applies: the Department's own classification rule - a default, partnership-taxed LLC files as a pass-through entity and only a corporation-classified LLC files for franchise tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "What is franchise tax? A franchise tax is imposed on corporations for the privilege of doing business in the State of Mississippi. Franchise tax is due annually as long as the corporation remains incorporated, domesticated, or continues to do business in Mississippi.",
+        "url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+        "supports": "applies: the levy Mississippi does impose is on corporations, in the Department's own words"
+      },
+      {
+        "quote": "What is the minimum franchise tax due? The minimum franchise tax due is $25.00",
+        "url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+        "supports": "the corporate franchise minimum, recorded in notes for the LLC that elects corporate classification"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.4,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "At what rate does Mississippi tax my income? The first $10,000 of taxable income is exempt; and the remaining taxable income is taxed at 4.4%.",
+        "url": "https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions",
+        "supports": "passThroughApplies, topRatePercent: a flat 4.4% above a $10,000 exemption"
+      },
+      {
+        "quote": "For calendar year 2022 and each calendar year thereafter, any partnership, S Corporation or similar pass-through entity can elect to be treated as an electing pass-through entity.",
+        "url": "https://www.dor.ms.gov/sites/default/files/business/Updated%20EPTE%20FAQ.pdf",
+        "supports": "hasPTETElection"
+      }
+    ]
+  },
+  "notes": "Mississippi imposes a corporate franchise tax - annually, for the privilege of doing business, $25 minimum - but its subjects are corporations, and the Department of Revenue's own FAQ supplies the classification rule that keeps a default LLC out of it: an LLC is classified for Mississippi tax purposes as it is classified federally, so a partnership-taxed LLC files as a pass-through entity and only an LLC that elected corporate treatment files for income and franchise tax as a corporation. applies is therefore false for the default LLC this namespace describes, on the Department's own pages rather than on a silence - the Florida model of evidence of absence. An LLC that elects corporate classification inherits the corporate regime, including the $25 franchise minimum.\nThe annual report is the other recurring obligation and it is not this record's business: root states.json carries annual_report_fee 0 for Mississippi, and with no franchise-type levy on a default LLC there is no overlap to flag, so collectedWithAnnualReport is null.\nstateIncomeTax: members owe Mississippi income tax on pass-through income at a flat 4.4% above a $10,000 exemption, and since calendar year 2022 a partnership-taxed LLC can elect to be an electing pass-through entity taxed at the entity level (Form 84-381). The corporate FAQ also states Mississippi has no minimum corporate income tax, and PTE returns are due on or before the 15th day of the 3rd month following the close of the taxable year.\nThe imposing statutes are not quoted: Mississippi publishes no free official code - the Department's own Laws and Regulations section sends readers to Mississippi Code at Lexis Publishing for Title 27, chapters 7 (income) and 13 (franchise), the same no-free-official-copy posture already registered for this state's mirror exceptions elsewhere in the dataset. The FAQ answers the questions this record asks in the state's own words.",
+  "needsReview": "The franchise tax's imposing provision (Miss. Code Ann. § 27-13-5) and the income tax rate statute (§ 27-7-5) are not quoted from statutory text: no state host publishes the code, and the enacted-acts route on billstatus.ls.state.ms.us would require locating the latest amending act per section. The Department of Revenue's FAQs carry every value recorded here. A session wanting statutory grounding should follow the acts route, not a mirror.",
+  "sources": [
+    {
+      "citation": "Mississippi Department of Revenue, Business Tax Frequently Asked Questions",
+      "title": "Business Tax Frequently Asked Questions",
+      "url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Mississippi Department of Revenue, Individual Income Tax Frequently Asked Questions",
+      "title": "Individual Income Tax FAQs",
+      "url": "https://www.dor.ms.gov/individual/individual-income-tax-frequently-asked-questions",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Mississippi Department of Revenue, Updated Electing Pass-Through Entity FAQs (2024-03-04)",
+      "title": "Updated Electing Pass-Through Entity FAQs",
+      "url": "https://www.dor.ms.gov/sites/default/files/business/Updated%20EPTE%20FAQ.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Mississippi Department of Revenue, Corporate Income and Franchise Tax",
+      "title": "Corporate Income and Franchise Tax",
+      "url": "https://www.dor.ms.gov/business/corporate-income-and-franchise-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

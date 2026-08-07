@@ -1,0 +1,129 @@
+{
+  "stateName": "Washington",
+  "stateAbbr": "WA",
+  "stateSlug": "washington",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Business and occupation (B&O) tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Washington State Department of Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "Monthly returns are due the 25th of every month. Quarterly returns are due the end of the month following the tax quarter. Annual returns are due April 15.",
+    "evidence": [
+      {
+        "quote": "Washington has a unique business tax structure. Most businesses in Washington are subject to a gross receipts tax known as business and occupation (B&O) tax. What is the B&O tax? The B&O tax is a gross receipts tax in Washington state. It is calculated on the total value of products sold or the total income the business earns.",
+        "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+        "supports": "applies, taxName, basis"
+      },
+      {
+        "quote": "(1) There is levied and collected from every person that has a substantial nexus with this state, as provided in RCW 82.04.067 , a tax for the act or privilege of engaging in business activities. The tax is measured by the application of rates against value of products, gross proceeds of sales, or gross income of the business, as the case may be.",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220",
+        "supports": "applies, basis: the imposing provision, a levy on the act or privilege of engaging in business measured on gross receipts"
+      },
+      {
+        "quote": "(2)(a) A person who establishes or reestablishes a substantial nexus with this state after the first day of the current calendar year under the provisions of RCW 82.04.067 is subject to the tax imposed under this chapter for the current calendar year only on business activity occurring on and after the date that the person established or reestablished a substantial nexus with this state in the current calendar year.",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220",
+        "supports": "firstYearExemption: a business is subject to the tax from the date it establishes nexus, first calendar year included; the statute grants no first-year waiver"
+      },
+      {
+        "quote": "Active non-reporting status means you are actively doing business in Washington, but you are not required to file tax returns. To qualify, your business must meet all the following criteria: Business activity does not require the collection of retail sales tax . For calendar years starting Jan. 1, 2023, or later, gross proceeds of sales, gross income, or value of products for all business and occupation (B&O) tax classifications is less than $125,000 per year.",
+        "url": "https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates",
+        "supports": "minimumAnnualUsd: the tax is a percentage of gross receipts with no published floor, and a qualifying business under $125,000 of gross income is not even required to file"
+      },
+      {
+        "quote": "Due dates Monthly returns are due the 25th of every month. (e.g. The June tax return is due July 25.) Quarterly returns are due the end of the month following the tax quarter. (e.g. The Quarter 1 (Jan, Feb, Mar) tax return is due April 30.) Annual returns are due April 15. (e.g. The Annual 2019 tax return is due April 15, 2020) If the due date falls on a weekend or legal holiday , the due date is extended to the next business day.",
+        "url": "https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "You must report and pay B&O tax on the Excise Tax Return using MyDOR , the department's online filing tool.",
+        "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Starting Jan. 1, 2026, there is an additional .5% surcharge on some Washington taxable gross income exceeding $250,000,000 in a calendar year. This surcharge is in addition to the business and occupation (B&O) tax. This surcharge expires Dec. 31, 2029.",
+        "url": "https://dor.wa.gov/taxes-rates/other-taxes/high-grossing-business-surcharge",
+        "supports": "the high-grossing business surcharge, a temporary B&O companion levy noted in notes rather than carried as a field"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "The Washington state legislature recently enacted an income tax on individuals with an annual adjusted gross income of $1,000,000 or more. Washington also levies other types of taxes such as business and occupation (B&O) tax, retail sales or use tax , public utility tax , and other taxes .",
+        "url": "https://dor.wa.gov/taxes-rates/income-tax",
+        "supports": "passThroughApplies, hasPTETElection: the Department of Revenue's own income tax page, whose complete statement of Washington's income tax posture names no tax on pass-through business income and no PTET"
+      },
+      {
+        "quote": "(b) Beginning January 1, 2025, an additional excise tax is imposed on the sale or exchange of long-term capital assets, which equals 2.90 percent multiplied by the portion of an individual's Washington capital gains exceeding $1,000,000.",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.87.040",
+        "supports": "passThroughApplies: the statutory referent of the income tax page's $1,000,000 sentence is an excise on capital gains, not a tax on pass-through operating income"
+      },
+      {
+        "quote": "This tax only applies to individuals. However, individuals can be liable for the tax because of their ownership interest in a pass-through or disregarded entity that sells or exchanges long-term capital assets.",
+        "url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+        "supports": "passThroughApplies: the one individual-level tax that can reach an LLC member does so only for long-term capital gains allocated to Washington"
+      }
+    ]
+  },
+  "notes": "Washington's recurring levy on doing business is the business and occupation (B&O) tax: a gross receipts tax paid by every person engaging in business activities in the state, administered by the Department of Revenue on the Excise Tax Return. It passes this namespace's substance test the way Ohio's Commercial Activity Tax does - RCW 82.04.220 imposes it for the act or privilege of engaging in business - so applies is true and basis is revenue. Rates vary across more than 50 activity classifications, so no single rate is carried; the rate tables live on the Department's B&O rates page.\nminimumAnnualUsd is 0 in the Texas/Ohio sense of a real zero rather than an absent value: the tax is a percentage of gross receipts with no published floor, a Small Business B&O Tax Credit reduces small liabilities, and a qualifying business under $125,000 of B&O gross income can hold active non-reporting status and file nothing at all.\nfirstYearExemption is false on RCW 82.04.220(2)(a): a business that establishes nexus mid-year is subject to the tax for that first calendar year from the date of nexus - taxed from day one, no waiver.\ncollectedWithAnnualReport is false. Root states.json carries annual_report_fee 70, the Secretary of State's annual report; the B&O tax is a different payment to a different agency and a total-cost consumer must count both.\nTwo companion levies are noted rather than carried as fields. (1) The high-grossing business surcharge: from 2026-01-01 through 2029-12-31, an additional 0.5% on Washington taxable gross income exceeding $250,000,000, reported as a B&O classification - a scaled component far above any floor, so the basis stays revenue rather than hybrid. (2) The capital gains excise (RCW 82.87): 7% on an individual's Washington long-term capital gains above an inflation-adjusted standard deduction ($278,000 for 2025), plus 2.90% on gains exceeding $1,000,000 from 2025-01-01. It reaches LLC members through their ownership interest when the entity sells long-term capital assets.\nstateIncomeTax is false on both booleans with a null rate, and the Department's own income tax page is the evidence-of-absence page: its complete statement of the state's income tax posture names one individual tax, whose statutory referent (RCW 82.87.040(1)(b)) is the capital gains excise above, an excise on capital gains rather than a tax on pass-through operating income. The page's own label for it - an income tax on individuals with adjusted gross income of $1,000,000 or more - does not match the statute it describes, which taxes capital gains exceeding $1,000,000 regardless of AGI; the statute's text is taken over the page's paraphrase. Members owe no Washington tax on the LLC's ordinary pass-through income, and with no income tax there is no PTET election.",
+  "needsReview": "The DOR income tax page describes the recently enacted levy as an income tax on individuals with an annual adjusted gross income of $1,000,000 or more, while RCW 82.87.040(1)(b) - the only enacted provision matching the description - imposes 2.90% on capital gains exceeding $1,000,000, an excise with no AGI test. The record takes the statute over the paraphrase. If Washington has in fact enacted a separate AGI-based income tax this page is early notice of it, and a later session should re-read the page for a link or a new RCW chapter; nothing else on the Department's site named one.",
+  "sources": [
+    {
+      "citation": "Washington Department of Revenue, Business & occupation tax",
+      "title": "Business & occupation tax",
+      "url": "https://dor.wa.gov/taxes-rates/business-occupation-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "RCW 82.04.220, Business and occupation tax imposed",
+      "title": "RCW 82.04.220: Business and occupation tax imposed.",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.220",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Department of Revenue, Filing frequencies & due dates",
+      "title": "Filing frequencies & due dates",
+      "url": "https://dor.wa.gov/file-pay-taxes/filing-frequencies-due-dates",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Department of Revenue, High grossing business surcharge",
+      "title": "High grossing business surcharge",
+      "url": "https://dor.wa.gov/taxes-rates/other-taxes/high-grossing-business-surcharge",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Department of Revenue, Income tax",
+      "title": "Income tax",
+      "url": "https://dor.wa.gov/taxes-rates/income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Washington Department of Revenue, Capital gains tax",
+      "title": "Capital gains tax",
+      "url": "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "RCW 82.87.040, Tax imposed - Long-term capital assets",
+      "title": "RCW 82.87.040: Tax imposed—Long-term capital assets.",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.87.040",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -1,0 +1,105 @@
+{
+  "stateName": "District of Columbia",
+  "stateAbbr": "DC",
+  "stateSlug": "district-of-columbia",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Unincorporated Business Franchise Tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 250,
+    "firstYearExemption": false,
+    "filedWith": "Office of Tax and Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "on or before the 15th day of April of each year; except, that such returns, if made on the basis of a fiscal year, shall be filed on or before the 15th day of the 4th month following the close of such fiscal year",
+    "evidence": [
+      {
+        "quote": "(a) Except as exempted under subchapter II of this chapter , for the privilege of carrying on or engaging in any trade or business within the District and of receiving income from sources within the District, there is levied:",
+        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03",
+        "supports": "applies: the imposing provision is a privilege-of-doing-business levy"
+      },
+      {
+        "quote": "(8) For taxable years beginning after December 31, 2017, a tax at the rate of 8.25% upon the taxable income of every unincorporated business, whether domestic or foreign. (b) The minimum tax payable under this section shall be $250. If District gross receipts are greater than $1 million, the minimum tax payable shall be $1,000.",
+        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03",
+        "supports": "minimumAnnualUsd, basis, and the excluded income-measured component: the floor is $250, stepped to $1,000 on gross receipts above $1 million, payable regardless of income; the 8.25% on taxable income is the part the inclusion test excludes"
+      },
+      {
+        "quote": "Unincorporated Business Franchise Tax Unincorporated business must report income as follows: Net income of unincorporated businesses on a combined reporting basis with gross receipts more than $12,000. A 30% salary allowance for owners and a $5,000 exemption are deductible from net income to arrive at taxable income. A business is exempt if more than 80% of gross income is derived from personal services rendered by the members of the entity and capital is not a material income-producing factor.",
+        "url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+        "supports": "taxName, and two boundaries notes carries: the $12,000 gross-receipts filing floor and the personal-services exemption"
+      },
+      {
+        "quote": "Unincorporated business must pay a minimum tax as follows: $250 minimum tax, if DC gross receipts are $1 million or less $1000 minimum tax, if DC gross receipts are greater than $1 million",
+        "url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+        "supports": "minimumAnnualUsd, basis: the agency states the same receipts-stepped floor as the statute"
+      },
+      {
+        "quote": "(2) For tax years beginning after December 31, 2015, all returns of income for the preceding taxable year required to be filed by § 47-1805.01 shall be filed with the Chief Financial Officer on or before the 15th day of April of each year; except, that such returns, if made on the basis of a fiscal year, shall be filed on or before the 15th day of the 4th month following the close of such fiscal year.",
+        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1805.03",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "otr Office of Tax and Revenue",
+        "url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+        "supports": "filedWith: the franchise tax rates page is the Office of Tax and Revenue's own; the statute's filing addressee is the Chief Financial Officer, whose tax office OTR is"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 10.75,
+    "hasPTETElection": null,
+    "evidence": [
+      {
+        "quote": "The taxable income of an individual who is domiciled in the District at any time during the tax year (or who maintains an abode in the District for 183 or more days during the year) or of a DC estate or trust is subject to tax at the following rates: Tax Rates: The tax rates for tax years beginning after 12/31/2021 are: If the taxable income is: The tax is: Not over $10,000 4% of the taxable income. Over $10,000 but not over $40,000 $400, plus 6% of the excess over $10,000. Over $40,000 but not over $60,000 $2,200, plus 6.5% of the excess over $40,000. Over $60,000 but not over $250,000 $3,500, plus 8.5% of the excess over $60,000. Over $250,000 but not over $500,000 $19,650, plus 9.25% of the excess over $250,000. Over $500,000 but not over $1,000,000 $42,775, plus 9.75% of the excess above $500,000. Over $1,000,000 $91,525, plus 10.75% of the excess above $1,000,000.",
+        "url": "https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates",
+        "supports": "passThroughApplies, topRatePercent"
+      },
+      {
+        "quote": "(D) In the case of any person entitled to the distributive share of a trade or business net income that is from an unincorporated business as defined in § 47-1808.01 , an amount equal to the pro rata distributive share, to the extent that portion of the distributive share so excluded is directly or indirectly reported by and taxed against any person under the provisions of this chapter.",
+        "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.02",
+        "supports": "passThroughApplies: the anti-double-taxation exclusion - a member's distributive share is excluded from individual gross income to the extent it was already taxed to the unincorporated business"
+      }
+    ]
+  },
+  "notes": "The District's recurring levy on an LLC is the Unincorporated Business Franchise Tax (Form D-30), and this record draws the Tennessee line through the middle of it. The tax is imposed for the privilege of carrying on a trade or business in the District, but its measure is the entity's taxable income at 8.25% - and the inclusion test excludes tax on income. What passes the substance test is the tax's floor: a $250 minimum, stepped to $1,000 when District gross receipts exceed $1 million, payable regardless of income once the business is over the filing threshold. The record therefore carries the floor - minimumAnnualUsd 250, basis revenue for the receipts-stepped minimum - and the income-measured component stays visible here: 8.25% of taxable income after a 30% salary allowance for owners and a $5,000 exemption, levied on the entity, not passed through. A reader who takes this record's franchise figures as the whole of DC's entity tax would be wrong in a loss year only; in a profitable year the 8.25% governs. This is the second entity-level income tax the namespace has met (Tennessee's excise was the first), the case its open thread said to watch for.\nTwo boundaries matter for who owes it at all. A business is exempt if more than 80% of gross income is from personal services rendered by the members and capital is not a material income-producing factor - a large class of professional LLCs is outside the tax entirely, and their income passes straight through to members. And only unincorporated businesses with gross receipts over $12,000 report at all, so a near-dormant LLC below that owes nothing; minimumAnnualUsd carries the floor an ordinary operating LLC pays, with the sub-$12,000 case here rather than as a Texas-style published 0, because the agency states $250 as the minimum tax rather than 0 as a no-tax-due tier.\nfirstYearExemption is false and is the record's weakest value: no page or provision read grants a first-year waiver, but no passage says an ordinary new LLC has none.\ncollectedWithAnnualReport is false, with a wrinkle specific to this jurisdiction: root states.json carries no DC record at all (50 states by design), so there is no annual_report_fee for this figure to be counted in. The District's report is the biennial report at the Department of Licensing and Consumer Protection, carried by the entitysearch namespace; the franchise tax is a different payment to a different agency.\nstateIncomeTax: the District taxes individuals at graduated rates topping at 10.75% above $1,000,000, so pass-through income of a UBFT-exempt LLC is taxed to its members. Where the entity itself paid the franchise tax, § 47-1803.02(a)(2)(D) excludes the member's distributive share from individual gross income to the extent it was already taxed against the business - the anti-double-taxation rule quoted in evidence. hasPTETElection is null, not false: no page read enumerates the District's elections, and the question is structurally different here because the UBFT already taxes the entity and the exclusion already does what a PTET's credit mechanism does elsewhere.",
+  "needsReview": "Three loose ends. (1) hasPTETElection is null: no OTR page found that would name a pass-through entity tax election or its absence; the D-40 or D-65 instructions would settle it. (2) firstYearExemption false rests on the absence of any waiver on the pages and provisions read, not on a passage. (3) The definition of unincorporated business (§ 47-1808.01), which determines whether a particular LLC is in or out, was not quoted; the OTR rates page's exemption sentence carries the operative boundary.",
+  "sources": [
+    {
+      "citation": "D.C. Code § 47-1808.03, Tax on unincorporated businesses - Levy and rates",
+      "title": "§ 47–1808.03. Tax on unincorporated businesses — Levy and rates.",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1808.03",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "D.C. Code § 47-1805.03, Returns - Filing",
+      "title": "§ 47–1805.03. Returns — Filing.",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1805.03",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "D.C. Code § 47-1803.02, Gross income - Items included and excluded",
+      "title": "§ 47–1803.02. Gross income — Items included and excluded; \"adjusted gross income\" defined.",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-1803.02",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "DC Office of Tax and Revenue, DC Business Franchise Tax Rates",
+      "title": "DC Business Franchise Tax Rates",
+      "url": "https://otr.cfo.dc.gov/page/dc-business-franchise-tax-rates",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "DC Office of Tax and Revenue, DC Individual and Fiduciary Income Tax Rates",
+      "title": "DC Individual and Fiduciary Income Tax Rates",
+      "url": "https://otr.cfo.dc.gov/page/dc-individual-and-fiduciary-income-tax-rates",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

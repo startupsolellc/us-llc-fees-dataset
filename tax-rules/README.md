@@ -73,7 +73,7 @@ tax existed. `null` means not yet researched, and is always preferred to a plaus
 | `applies` | boolean \| null | `false` is a researched finding and requires `appliesEvidence`; `null` means not yet researched |
 | `appliesEvidence` | evidence \| null | Required when `applies` is `false`: a passage showing the state's own statement of what recurring entity taxes exist |
 | `taxName` | string \| null | The state's own label, verbatim |
-| `basis` | enum \| null | `flat` · `net-worth` · `revenue` · `hybrid` |
+| `basis` | enum \| null | `flat` · `net-worth` · `revenue` · `hybrid` · `composite` (a measure combining more than one base, e.g. property + payroll + sales; `notes` names the components) |
 | `minimumAnnualUsd` | number \| null | The floor an existing LLC pays in an ordinary year; `null` where no minimum is published |
 | `firstYearExemption` | boolean \| null | Statutory first-year waivers; expiry dates and conditions go to `notes` |
 | `filedWith` | string \| null | The collecting agency's name, verbatim — most franchise taxes are not the Secretary of State's business |

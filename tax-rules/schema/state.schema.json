@@ -55,9 +55,9 @@
         "basis": {
           "oneOf": [
             { "type": "null" },
-            { "enum": ["flat", "net-worth", "revenue", "hybrid"] }
+            { "enum": ["flat", "net-worth", "revenue", "hybrid", "composite"] }
           ],
-          "description": "What the amount scales with. null when applies is false or not yet researched. A regime with a flat floor and a scaled component above it is hybrid, and notes must name both parts."
+          "description": "What the amount scales with. null when applies is false or not yet researched. A regime with a flat floor and a scaled component above it is hybrid, and notes must name both parts. composite is a measure combining more than one base - Minnesota's minimum fee scales with the sum of in-state property, payroll and sales, which is neither net worth nor revenue - and notes must name the components."
         },
         "minimumAnnualUsd": {
           "type": ["number", "null"],

@@ -1,0 +1,105 @@
+{
+  "stateName": "Minnesota",
+  "stateAbbr": "MN",
+  "stateSlug": "minnesota",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Minimum fee",
+    "basis": "composite",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Department of Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "The tax imposed under this paragraph is due on or before the due date of the return for the taxpayer due under section 289A.18, subdivision 1",
+    "evidence": [
+      {
+        "quote": "290.0922 MINIMUM FEE; CORPORATIONS; PARTNERSHIPS.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+        "supports": "taxName"
+      },
+      {
+        "quote": "(b) A tax is imposed for each taxable year on a corporation required to file a return under section 289A.12, subdivision 3 , that is treated as an S corporation under section 290.9725 and on a partnership required to file a return under section 289A.12, subdivision 3 , other than a partnership that derives over 80 percent of its income from farming. The tax imposed under this paragraph is due on or before the due date of the return for the taxpayer due under section 289A.18, subdivision 1 . The commissioner shall prescribe the return to be used for payment of this tax.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+        "supports": "applies, dueDate, firstYearExemption: imposed for each taxable year on every partnership-taxed filer except the farming carve-out, with no first-year waiver"
+      },
+      {
+        "quote": "The tax under this paragraph is equal to the following amounts: If the sum of the S corporation's or partnership's Minnesota property, payrolls, and sales or receipts is: the tax equals: less than $ 1,020,000 $ 0 $ 1,020,000 to $ 2,039,999 $ 210 $ 2,040,000 to $ 10,209,999 $ 610 $ 10,210,000 to $ 20,409,999 $ 2,040 $ 20,410,000 to $ 40,819,999 $ 4,090 $ 40,820,000 or more $ 10,210",
+        "url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+        "supports": "minimumAnnualUsd, basis: a stepped schedule with a published $0 bottom tier, scaled on the sum of Minnesota property, payrolls, and sales or receipts"
+      },
+      {
+        "quote": "(c) The commissioner shall annually adjust the dollar amounts of both the tax and the property, payrolls, and sales or receipts thresholds in paragraphs (a) and (b) as provided in section 270C.22 . The statutory year is taxable year 2019.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+        "supports": "the bracket dollars quoted above are statutory-year-2019 amounts, indexed annually - the current-year amounts are larger"
+      },
+      {
+        "quote": "270C.02 DEPARTMENT OF REVENUE; COMMISSIONER. § Subdivision 1. Commissioner; supervision of department and appointment. The Department of Revenue is under the supervision and control of the commissioner.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/270C.02",
+        "supports": "filedWith: the commissioner who prescribes the minimum fee return heads the Department of Revenue"
+      },
+      {
+        "quote": "(1) returns made on the basis of the calendar year must be filed on April 15 following the close of the calendar year, except that returns of corporations and partnerships must be filed on the due date for filing the federal income tax return;",
+        "url": "https://www.revisor.mn.gov/statutes/cite/289A.18",
+        "supports": "dueDate: the return the fee rides on is due on the federal partnership return's due date"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 9.85,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "(b) The income taxes imposed by this chapter upon unmarried individuals must be computed by applying to taxable net income the following schedule of rates: (1) On the first $26,520, 5.35 percent; (2) On all over $26,520, but not over $87,110, 6.8 percent; (3) On all over $87,110, but not over $161,720, 7.85 percent; (4) On all over $161,720, 9.85 percent.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/290.06",
+        "supports": "passThroughApplies, topRatePercent"
+      },
+      {
+        "quote": "\"qualifying entity\" means a partnership, limited liability company taxed as a partnership or S corporation, or S corporation including a qualified subchapter S subsidiary organized under section 1361(b)(3)(B) of the Internal Revenue Code that has at least one qualifying owner. Qualifying entity does not include a publicly traded partnership, as defined in section 7704 of the Internal Revenue Code;",
+        "url": "https://www.revisor.mn.gov/statutes/cite/289A.08",
+        "supports": "hasPTETElection: the pass-through entity tax subdivision (289A.08, subd. 7a) makes a partnership-taxed LLC a qualifying entity"
+      }
+    ]
+  },
+  "notes": "Minnesota's recurring entity-level charge is the minimum fee of M.S. 290.0922: an annual tax imposed on every partnership-taxed filer (a default multi-member LLC included) in addition to any income tax, owed to the Department of Revenue with the partnership return. It is in under this namespace's substance test on the New York precedent: keyed to the entity's Minnesota presence, paid by the entity, recurring - the state calling it a fee does not make it the annual report's filing fee, which in Minnesota is the Secretary of State's free annual renewal.\nbasis is composite, the enum value this record added: the fee scales with the sum of Minnesota property, payrolls, and sales or receipts - neither net worth nor revenue alone. The schedule is stepped, with a published $0 bottom tier below the first threshold, so minimumAnnualUsd is 0 in the Texas/Ohio sense of a real zero. The dollar amounts quoted are statutory-year-2019 figures that the commissioner indexes annually; the current-year brackets are larger and are published on the Department's minimum fee page, which this session could not read (below).\nA partnership deriving over 80 percent of its income from farming is exempt. firstYearExemption is false: the tax is imposed for each taxable year with no first-year carve-out.\ncollectedWithAnnualReport is false. Root states.json carries annual_report_fee 0 - the Secretary of State's annual renewal is free for a domestic LLC in good standing - and the minimum fee is a different payment to a different agency.\nA single-member LLC disregarded for federal tax purposes is outside 290.0922(b)'s partnership-return filers; its owner reports the income directly. The record describes the default multi-member case, the same posture the other records take.\nstateIncomeTax: members owe Minnesota income tax on pass-through income at graduated rates topping at 9.85 percent (M.S. 290.06, subd. 2c), and 289A.08, subd. 7a gives a partnership-taxed LLC a pass-through entity tax election.\nThis is a statute-only record by necessity, the Ohio shape: every deep path on www.revenue.state.mn.us - the minimum fee instructions, income tax rates, the PTE tax page, even the home page - answers a scripted client with a Radware Bot Manager captcha via validate.perfdrive.com, a 200 that is not the page, measured on the VPN-down route on 2026-08-07. The Revisor of Statutes carries every value the schema needs.",
+  "needsReview": "Two loose ends, neither a value in doubt. (1) The current-year indexed minimum fee brackets and thresholds are not recorded: the statute fixes only the statutory-year-2019 amounts and the commissioner's adjusted figures live on www.revenue.state.mn.us, which serves a Radware captcha to every scripted request on this route; a browser session could read the minimum fee page against a snapshot, or a VPN-up session should re-probe the host. The $0 bottom tier and the record's other values do not depend on the indexed figures. (2) The www.revenue.state.mn.us wall was measured on the VPN-down route only; whether the up route clears it is unmeasured.",
+  "sources": [
+    {
+      "citation": "Minn. Stat. § 290.0922, Minimum fee; corporations; partnerships",
+      "title": "290.0922 MINIMUM FEE; CORPORATIONS; PARTNERSHIPS.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/290.0922",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minn. Stat. § 290.06, subd. 2c, Schedules of rates for individuals, estates, and trusts",
+      "title": "290.06 RATES OF TAX; CREDITS.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/290.06",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minn. Stat. § 289A.08, subd. 7a, Pass-through entity tax",
+      "title": "289A.08 FILING REQUIREMENTS FOR INDIVIDUAL INCOME, FIDUCIARY INCOME, CORPORATE FRANCHISE, MINING COMPANY, AND ENTERTAINMENT TAXES.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/289A.08",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minn. Stat. § 289A.18, subd. 1, Due dates for filing of returns",
+      "title": "289A.18 DUE DATES FOR FILING OF RETURNS.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/289A.18",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minn. Stat. § 270C.02, Department of Revenue; commissioner",
+      "title": "270C.02 DEPARTMENT OF REVENUE; COMMISSIONER.",
+      "url": "https://www.revisor.mn.gov/statutes/cite/270C.02",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
