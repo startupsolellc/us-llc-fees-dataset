@@ -1,0 +1,88 @@
+{
+  "stateName": "Alaska",
+  "stateAbbr": "AK",
+  "stateSlug": "alaska",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Business License",
+    "basis": "flat",
+    "minimumAnnualUsd": 50,
+    "firstYearExemption": false,
+    "filedWith": "Alaska Department of Commerce, Community, and Economic Development, Division of Corporations, Business and Professional Licensing",
+    "collectedWithAnnualReport": false,
+    "dueDate": "1-Year Fee – Business License Expiring 12/31/2026 $ 50.00",
+    "evidence": [
+      {
+        "quote": "(a) For the privilege of engaging in a business in the state, a person shall first apply, on forms prescribed by the commissioner, and obtain a license, and pay the license fee provided for in AS 43.70.030",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.70.020&secEnd=43.70.020",
+        "supports": "applies and taxName: the statute requires a license for the privilege of engaging in a business and states no exception for an LLC"
+      },
+      {
+        "quote": "(a) The fee for each business license is $50 a year, except that the fee is $25 if the business is a sole proprietorship and the sole proprietor is",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.70.030&secEnd=43.70.030",
+        "supports": "minimumAnnualUsd: the statute sets the fee at $50 a year, with the discounted rate reserved for a sole proprietorship"
+      },
+      {
+        "quote": "Regular Fees - 12 AAC 12.010(a) License Term: 1-Year Fee – Business License Expiring 12/31/2026 $ 50.00 2-Year Fee – Business License Expiring 12/31/2027 $100.00",
+        "url": "https://www.commerce.alaska.gov/web/Portals/5/pub/bus4617.pdf",
+        "supports": "minimumAnnualUsd and dueDate: the collector's own renewal form confirms the flat $50-a-year charge and the December 31 expiration of each license term"
+      },
+      {
+        "quote": "Business Licensing PO Box 110806, Juneau, AK 99811 Website: BusinessLicense.Alaska.Gov",
+        "url": "https://www.commerce.alaska.gov/web/Portals/5/pub/bus4617.pdf",
+        "supports": "filedWith: the form's own header names the Business Licensing division of the Department of Commerce, Community, and Economic Development"
+      },
+      {
+        "quote": "(a) For the privilege of engaging in a business in the state, a person shall first apply, on forms prescribed by the commissioner, and obtain a license, and pay the license fee provided for in AS 43.70.030",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.70.020&secEnd=43.70.020",
+        "supports": "firstYearExemption: the license and fee are required before a person first engages in business, and no first-year waiver is stated"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "Does Alaska have a personal income tax? The State of Alaska currently does not have an individual income tax, therefore no employee withholding for state income tax is required.",
+        "url": "https://www.tax.alaska.gov/programs/programs/index.aspx?10001",
+        "supports": "passThroughApplies and hasPTETElection: Alaska has no individual income tax, so members owe no personal income tax on pass-through income and there is no income tax an entity-level election could elect into"
+      }
+    ]
+  },
+  "notes": "Alaska's recurring entity-level levy on an LLC is the Business License of AS 43.70, administered by the Division of Corporations, Business and Professional Licensing of the Department of Commerce, Community, and Economic Development. AS 43.70.020(a) requires the license \"for the privilege of engaging in a business in the state\" and AS 43.70.030(a) sets the fee at $50 a year, with reduced rates reserved for sole proprietors who are seniors or disabled veterans. The renewal application (form 08-4617, rev. 10/01/2025) sells one- or two-year terms for $50 or $100, both ending December 31; minimumAnnualUsd carries the $50 annual floor and dueDate carries the form's own license-term line.\nThe record treats the Business License as the franchise-type levy on substance, the same call Nevada's State Business License made: it is a recurring, state-level charge on the privilege of doing business, owed for as long as the entity operates, whatever the state calls it. collectedWithAnnualReport is false: root states.json carries annual_report_fee 100 for Alaska, the biennial report fee paid to the Corporations Section of the same division, a separate payment with no overlap.\nfirstYearExemption is false on the statute's own terms: a person must apply, obtain the license and pay the fee before first engaging in business, and no first-year waiver is stated.\nstateIncomeTax: Alaska has no individual income tax. The Department of Revenue's own Personal Income program page says so in terms, so passThroughApplies is false, topRatePercent is null and hasPTETElection is false — there is no income tax for an entity-level election to elect into. The Department's programs list also names Corporate Income Tax, which reaches corporations and is out of scope for a default LLC.\nThe Business Licensing portal (commerce.alaska.gov) serves a JavaScript challenge to scripted clients on this route, so the division's FAQ pages were not read; the statute and the official renewal form carry every recorded value.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "AS 43.70.020, License required; application",
+      "title": "Alaska Statutes 2025, Sec. 43.70.020",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.70.020&secEnd=43.70.020",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "AS 43.70.030, Levy and computation of license fee",
+      "title": "Alaska Statutes 2025, Sec. 43.70.030",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=43.70.030&secEnd=43.70.030",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Alaska Division of Corporations, Business and Professional Licensing, Business License Renewal Application (08-4617)",
+      "title": "Business License: RENEWAL Application (08-4617, Rev. 10/01/2025)",
+      "url": "https://www.commerce.alaska.gov/web/Portals/5/pub/bus4617.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Alaska Department of Revenue, Personal Income program",
+      "title": "Personal Income - Alaska Department of Revenue",
+      "url": "https://www.tax.alaska.gov/programs/programs/index.aspx?10001",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

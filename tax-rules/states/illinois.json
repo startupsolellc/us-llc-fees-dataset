@@ -1,0 +1,133 @@
+{
+  "stateName": "Illinois",
+  "stateAbbr": "IL",
+  "stateSlug": "illinois",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Partnerships, trusts, and S corporations pay a 1.5 percent replacement tax on their net Illinois income.",
+      "url": "https://tax.illinois.gov/localgovernments/personal-property-replacement-tax.html",
+      "supports": "applies: the Department's replacement-tax page names the only entity-level Illinois levy on a partnership-taxed LLC and it is measured on net income; no franchise-type charge appears anywhere on the page"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Partnerships, trusts, and S corporations pay a 1.5 percent replacement tax on their net Illinois income.",
+        "url": "https://tax.illinois.gov/localgovernments/personal-property-replacement-tax.html",
+        "supports": "applies: the only entity-level payment the Department describes for a partnership-taxed LLC is the income-measured replacement tax at 1.5%"
+      },
+      {
+        "quote": "Partnerships are subject to replacement tax but do not pay the Illinois income tax. The income tax is paid at the partner's level.",
+        "url": "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+        "supports": "applies and passThroughApplies: the partnership itself pays only the income-measured replacement tax; the income tax falls on the partners"
+      },
+      {
+        "quote": "The Illinois Individual Income Tax is imposed on every individual earning or receiving income in Illinois.",
+        "url": "https://tax.illinois.gov/research/taxinformation/income.html",
+        "supports": "applies: the Department's Income and Replacement Taxes index enumerates the income-tax side of its business taxes and names no franchise tax"
+      },
+      {
+        "quote": "If the LLC is a partnership for federal income tax purposes, and files federal Form 1065, U.S. Return of Partnership Income, for Illinois purposes the LLC will file Form IL-1065, Illinois Partnership Replacement Tax Return",
+        "url": "https://tax.illinois.gov/questionsandanswers/answer.604.html",
+        "supports": "applies: the Department's own LLC answer routes a default multi-member LLC to the partnership replacement tax return, not to any franchise-type return"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.95,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Partnerships are subject to replacement tax but do not pay the Illinois income tax. The income tax is paid at the partner's level. Generally, income from a partnership is passed on to the partners. The partners must include this income in their federal adjusted gross income (for individuals) or federal taxable income (for other taxpayers).",
+        "url": "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+        "supports": "passThroughApplies: the Department's own partnership page states partnership income passes through and is included on the partners' returns"
+      },
+      {
+        "quote": "for taxable years beginning on or after July 1, 2017, an amount equal to 4.95% of the taxpayer's net income for the taxable year.",
+        "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K201",
+        "supports": "topRatePercent: 35 ILCS 5/201(a)(5.3) sets the individual rate at 4.95% of net income"
+      },
+      {
+        "quote": "Individual Income Tax Effective July 1, 2017: 4.95 percent of net income",
+        "url": "https://tax.illinois.gov/research/taxrates/income.html",
+        "supports": "topRatePercent: the Department's Tax Rate Database states the flat individual rate"
+      },
+      {
+        "quote": "The Pass-through Entity (PTE) tax is an entity-level income tax that partnerships (other than publicly traded partnerships under IRC 7704) and subchapter S corporations may elect to pay",
+        "url": "https://tax.illinois.gov/questionsandanswers/answer.689.html",
+        "supports": "hasPTETElection: the Department's own FAQ states the PTE election and its eligible classes"
+      },
+      {
+        "quote": "Partnerships who elect to pay PTE tax are subject to this tax for the privilege of earning or receiving income in Illinois in an amount equal to 4.95 percent (.0495) of the taxpayer's net income for the taxable year.",
+        "url": "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+        "supports": "hasPTETElection: the Department's partnership page states the election is open to partnerships, the default classification of a multi-member LLC"
+      },
+      {
+        "quote": "If the LLC is a partnership for federal income tax purposes, and files federal Form 1065, U.S. Return of Partnership Income, for Illinois purposes the LLC will file Form IL-1065, Illinois Partnership Replacement Tax Return",
+        "url": "https://tax.illinois.gov/questionsandanswers/answer.604.html",
+        "supports": "hasPTETElection and passThroughApplies: a partnership-taxed LLC is a partnership for Illinois purposes, which is the class that may elect the PTE tax"
+      }
+    ]
+  },
+  "notes": "Illinois has no recurring franchise-type levy on a default LLC: applies is false. The only entity-level payment the Department of Revenue describes for a partnership-taxed LLC is the Personal Property Replacement Tax, which is measured on net income (1.5% for partnerships, per the Department's replacement-tax page) and therefore fails the inclusion test as tax on income rather than a levy on existence or privilege. It is the same judgment call Tennessee's excise half made and is kept visible here because it is paid by the entity: the partnership files Form IL-1065 and pays replacement tax even though the income tax itself is paid at the partner's level. Investment partnerships are exempt from replacement tax, and the income-tax side of the index the Department publishes names individual, partnership, S corporation, corporation, trust and fiduciary taxes - no franchise tax anywhere.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 75 for Illinois, the Secretary of State's annual report fee - a separate payment with no tax to overlap.\nstateIncomeTax: a default multi-member LLC is a partnership for Illinois purposes (the Department's LLC answer routes it to Form IL-1065) and the partnership itself does not pay the Illinois income tax; income passes through and the partners include it on their individual returns. The individual rate is a flat 4.95% of net income (35 ILCS 5/201(a)(5.3), effective July 1, 2017; the Department's Tax Rate Database agrees).\nhasPTETElection is true: the Pass-through Entity (PTE) tax is elective for partnerships and S corporations for tax years ending on or after December 31, 2021, at 4.95% of the electing entity's net income, with a partner-level credit; a partnership-taxed LLC reaches it through the partnership class.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Illinois Department of Revenue, Partnerships",
+      "title": "Partnerships - Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov/research/taxinformation/income/partnership.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Department of Revenue, Income and Replacement Taxes index",
+      "title": "Income and Replacement Taxes - Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov/research/taxinformation/income.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Department of Revenue, Personal Property Replacement Tax - Local Governments",
+      "title": "Personal Property Replacement Tax - Local Governments | Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov/localgovernments/personal-property-replacement-tax.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Department of Revenue, How does Illinois tax a Limited Liability Company (LLC)?",
+      "title": "How does Illinois tax a Limited Liability Company (LLC)? - IDOR FAQ",
+      "url": "https://tax.illinois.gov/questionsandanswers/answer.604.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Department of Revenue, What is the Pass-through Entity (PTE) tax?",
+      "title": "What is the Pass-through Entity (PTE) tax? - IDOR FAQ",
+      "url": "https://tax.illinois.gov/questionsandanswers/answer.689.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Income Tax Act, 35 ILCS 5/201(a), Imposition of tax",
+      "title": "35 ILCS 5/201 - Illinois General Assembly",
+      "url": "https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=003500050K201",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Department of Revenue, Tax Rate Database - Income",
+      "title": "Tax Rate Database: Income - Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov/research/taxrates/income.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

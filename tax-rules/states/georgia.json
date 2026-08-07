@@ -1,0 +1,114 @@
+{
+  "stateName": "Georgia",
+  "stateAbbr": "GA",
+  "stateSlug": "georgia",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Georgia has a corporate income tax on corporations. Corporations may also have to pay a net worth tax.",
+      "url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+      "supports": "applies: the collector's own corporate-tax page names Georgia's corporate-level levies and both attach to corporations; a default LLC is not in that class"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Corporate income tax is based on the net worth of a corporation levied in exchange for the privilege of doing business or exercising a corporate franchise in Georgia.",
+        "url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+        "supports": "applies: the page's own franchise-language sentence attaches the corporate levy to a corporation, not to a default LLC"
+      },
+      {
+        "quote": "Corporations may also have to pay a net worth tax. This tax is based on the net worth of a corporation, levied in exchange for the privilege of doing business or exercising a corporate franchise in Georgia.",
+        "url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+        "supports": "applies: the net worth tax, the franchise-type levy, is imposed on corporations"
+      },
+      {
+        "quote": "No. The single member LLC is not subject to the Georgia net worth tax. However, if the owner of the single member LLC is a corporation, the corporation is subject to the Georgia net worth tax if the single member LLC does business or owns property in Georgia.",
+        "url": "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+        "supports": "applies: the collector's own FAQ keeps a default single-member LLC out of the net worth tax"
+      },
+      {
+        "quote": "No. There is no net worth tax on partnerships.",
+        "url": "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+        "supports": "applies: the collector's own FAQ keeps a partnership-taxed LLC out of the net worth tax"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.19,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "The Form 700 is an information return when not electing to pay tax at the entity level and as such the income tax is paid by the partners. This also applies to an LLC that is treated as a partnership for federal income tax purposes.",
+        "url": "https://dor.georgia.gov/taxes/taxes-partnerships",
+        "supports": "passThroughApplies: the collector's own partnership page states the income tax is paid by the partners unless the entity elects, including an LLC treated as a partnership"
+      },
+      {
+        "quote": "With this second acceleration cutting the state income tax rate by another 20 basis points, the total income tax rate will now be down to just 5.19 percent - a decrease of 56 basis points from the original rate of 5.75 percent.",
+        "url": "https://dor.georgia.gov/press-releases/2025-04-17/gov-kemp-signs-legislation-delivering-more-1-billion-tax-cuts-and-relief",
+        "supports": "topRatePercent: the Department's own announcement of the accelerated cut states the state income tax rate is 5.19 percent"
+      },
+      {
+        "quote": "There is a 5.19% income tax on Partnerships that own property, do business in Georgia or receive income form Georgia sources. If the business elects to pay tax at the entity level, estimated tax payments are required.",
+        "url": "https://dor.georgia.gov/taxes/taxes-partnerships",
+        "supports": "topRatePercent and hasPTETElection: the collector's current business-tax page prints the 5.19% rate on the entity-level election"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2022, S Corporations and Partnerships may annually make an irrevocable election to pay income tax at the entity level.",
+        "url": "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+        "supports": "hasPTETElection: the collector's own HB 149 FAQ states the annual entity-level election"
+      },
+      {
+        "quote": "Single-member LLCs not taxed as a Partnership or S Corporation are not eligible to make the election.",
+        "url": "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+        "supports": "hasPTETElection: the eligibility line implies a partnership-taxed LLC is eligible and a disregarded single-member LLC is not"
+      }
+    ]
+  },
+  "notes": "Georgia has no recurring franchise-type levy on a default LLC: applies is false. The Department of Revenue's Corporate Income and Net Worth Tax page says Georgia has a corporate income tax on corporations and that corporations may also have to pay a net worth tax, and its net worth tax paragraph uses the franchise language (\"levied in exchange for the privilege of doing business or exercising a corporate franchise in Georgia\") while naming the corporation as the subject. The Department's own FAQ answers the LLC question twice: a disregarded single-member LLC is not subject to the net worth tax (the owner corporation, if any, is), and an LLC that files as a partnership is not subject because there is no net worth tax on partnerships. A default multi-member LLC is treated as a partnership for Georgia income tax purposes, so no net worth tax reaches it.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 60 for Georgia, the Secretary of State's annual registration fee - a separate payment with no tax to overlap.\nstateIncomeTax: a default LLC is a pass-through entity. The Department's Taxes for Partnerships page states the Form 700 is an information return when the entity does not elect to pay tax at the entity level, the income tax is paid by the partners, and the same applies to an LLC treated as a partnership. The state income tax rate is 5.19 percent after the accelerated cut the Department announced in April 2025 (HB 111's second acceleration; the original rate was 5.75 percent).\nhasPTETElection is true: HB 149 lets S corporations and partnerships annually and irrevocably elect to pay income tax at the entity level for taxable years beginning on or after January 1, 2022, and the eligibility line excludes only single-member LLCs not taxed as a partnership or S corporation, so a partnership-taxed LLC may elect. The entity-level rate the Department currently prints is 5.19%.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Georgia Department of Revenue, Corporate Income and Net Worth Tax",
+      "title": "Corporate Income and Net Worth Tax | Department of Revenue",
+      "url": "https://dor.georgia.gov/taxes/corporate-income-and-net-worth-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Georgia Department of Revenue, Net Worth Tax for Corporations - FAQ",
+      "title": "Net Worth Tax for Corporations - FAQ | Department of Revenue",
+      "url": "https://dor.georgia.gov/net-worth-tax-corporations-faq",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Georgia Department of Revenue, Taxes for Partnerships",
+      "title": "Taxes for Partnerships | Department of Revenue",
+      "url": "https://dor.georgia.gov/taxes/taxes-partnerships",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Georgia Department of Revenue, HB 149 Pass-Through Entity Tax FAQ",
+      "title": "HB 149 Pass-Through Entity Tax FAQ | Department of Revenue",
+      "url": "https://dor.georgia.gov/hb-149-pass-through-entity-tax-faq",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Georgia Department of Revenue press release, Gov. Kemp Signs Legislation Delivering More than $1 Billion in Tax Cuts and Relief, 2025-04-17",
+      "title": "Gov. Kemp Signs Legislation Delivering More than $1 Billion in Tax Cuts and Relief",
+      "url": "https://dor.georgia.gov/press-releases/2025-04-17/gov-kemp-signs-legislation-delivering-more-1-billion-tax-cuts-and-relief",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

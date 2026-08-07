@@ -1,0 +1,124 @@
+{
+  "stateName": "Missouri",
+  "stateAbbr": "MO",
+  "stateSlug": "missouri",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "(5) For tax years beginning on or after January 1, 2016, no annual franchise tax shall be imposed under this section.",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=147.010",
+      "supports": "applies: the imposing chapter's own text ends the annual franchise tax for tax years beginning on or after January 1, 2016"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "(5) For tax years beginning on or after January 1, 2016, no annual franchise tax shall be imposed under this section.",
+        "url": "https://revisor.mo.gov/main/OneSection.aspx?section=147.010",
+        "supports": "applies: RSMo 147.010 itself repeals the corporation franchise tax from tax year 2016 on"
+      },
+      {
+        "quote": "Limited Liability Company (LLC) taxed as a partnership income is passed directly through to the members according to the amount of stock held. Generally no income tax is paid by the LLC.",
+        "url": "https://dor.mo.gov/taxation/business/registration/small-business/types.html",
+        "supports": "applies and passThroughApplies: the collector's own small-business page says a partnership-taxed LLC generally pays no income tax and its income passes through to members"
+      },
+      {
+        "quote": "A limited liability company taxed as a partnership will file a Federal Form 1065 and a Missouri Partnership Return MO-1065. Each member will receive a Federal K-1 and will report their income on their Federal Form 1040 and on a Missouri Individual Income Tax Form 1040.",
+        "url": "https://dor.mo.gov/taxation/business/registration/small-business/types.html",
+        "supports": "applies and passThroughApplies: the default LLC files the partnership return and the members report the income on their individual returns"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.7,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Limited Liability Company (LLC) taxed as a partnership income is passed directly through to the members according to the amount of stock held. Generally no income tax is paid by the LLC.",
+        "url": "https://dor.mo.gov/taxation/business/registration/small-business/types.html",
+        "supports": "passThroughApplies: the Department's own small-business page states the LLC's income passes directly through to members"
+      },
+      {
+        "quote": "A limited liability company taxed as a partnership will file a Federal Form 1065 and a Missouri Partnership Return MO-1065. Each member will receive a Federal K-1 and will report their income on their Federal Form 1040 and on a Missouri Individual Income Tax Form 1040.",
+        "url": "https://dor.mo.gov/taxation/business/registration/small-business/types.html",
+        "supports": "passThroughApplies: members report the LLC's passed-through income on their Missouri individual returns"
+      },
+      {
+        "quote": "For tax year 2025, the top individual income tax rate is 4.7%.",
+        "url": "https://dor.mo.gov/faq/taxation/individual/capital-gains-subtraction.html",
+        "supports": "topRatePercent: the Department's own FAQ states the 2025 top individual rate"
+      },
+      {
+        "quote": "Over $9,191 $256 plus 4.70% of excess over $9,191",
+        "url": "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/",
+        "supports": "topRatePercent: the Department's 2025 rate schedule tops out at 4.70%"
+      },
+      {
+        "quote": "Only a partnership or an S corporation, as defined in Section 143.436, RSMo",
+        "url": "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+        "supports": "hasPTETElection: the Department's own FAQ states the annual entity-level election and its eligible classes"
+      },
+      {
+        "quote": "The term \"partnership\" shall include a limited liability company that is treated as a partnership for federal income tax purposes.",
+        "url": "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+        "supports": "hasPTETElection: the statutory definition the FAQ quotes includes a partnership-taxed LLC in the electing class"
+      },
+      {
+        "quote": "The pass-through entity tax rate is equal to the highest rate used to determined individual income tax.",
+        "url": "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+        "supports": "hasPTETElection: the Department's own FAQ states the election's rate is the highest individual rate"
+      },
+      {
+        "quote": "Beginning with tax years ending on or after December 31, 2022, a S corporation or partnership (pass-through entity) can annually elect to become an affected business entity required to pay the pass-through entity tax.",
+        "url": "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+        "supports": "hasPTETElection: the Department's own FAQ dates the election's availability"
+      }
+    ]
+  },
+  "notes": "Missouri has no recurring franchise-type levy on a default LLC: applies is false. The corporation franchise tax of chapter 147, RSMo is ended by its own text: subsection (5) of section 147.010 states that for tax years beginning on or after January 1, 2016, no annual franchise tax shall be imposed. Even while it existed it was a corporation levy, so it never reached a default LLC; the Department's small-business page says a partnership-taxed LLC generally pays no income tax and its income passes directly through to members. One stale signal is worth recording: several Department of Revenue pages still carry a shared meta description naming \"corporation franchise tax\" among the taxes the Department collects, but the statute is the newer and authoritative statement, and the recorded value follows the statute.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 0 for Missouri, which has no annual report requirement for LLCs.\nstateIncomeTax: members of a partnership-taxed LLC report the passed-through income on their Missouri individual returns. The top individual rate for tax year 2025 is 4.7%, per the Department's capital-gains FAQ, and the 2025 rate schedule tops out at 4.70%.\nhasPTETElection is true: the SALT Parity Act (Section 143.436, RSMo) lets a partnership or S corporation annually elect to become an affected business entity paying the pass-through entity tax, effective for tax years ending on or after December 31, 2022; the statutory definition quoted in the Department's FAQ includes a limited liability company treated as a partnership, and the election's rate is the highest individual rate.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "RSMo 147.010, Annual franchise tax, rate - exceptions",
+      "title": "Missouri Revised Statutes, Section 147.010",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=147.010",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Missouri Department of Revenue, Small Business Types",
+      "title": "Small Business Types Website - Missouri Department of Revenue",
+      "url": "https://dor.mo.gov/taxation/business/registration/small-business/types.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Missouri Department of Revenue, Pass-Through Entity Tax FAQs",
+      "title": "FAQs - Pass-Through Entity Tax | Missouri Department of Revenue",
+      "url": "https://dor.mo.gov/faq/taxation/business/entity-tax.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Missouri Department of Revenue, Capital Gains Subtraction FAQs",
+      "title": "FAQs - Capital Gains Subtraction | Missouri Department of Revenue",
+      "url": "https://dor.mo.gov/faq/taxation/individual/capital-gains-subtraction.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Missouri Department of Revenue, Individual Income Tax Year Changes",
+      "title": "Individual Income Tax Year Changes | Missouri Department of Revenue",
+      "url": "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
