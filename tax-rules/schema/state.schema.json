@@ -74,7 +74,7 @@
         },
         "collectedWithAnnualReport": {
           "type": ["boolean", "null"],
-          "description": "true where this tax IS the annual-report payment that root states.json annual_report_fee already carries. A total-cost consumer must not add the two together."
+          "description": "true where this tax IS the payment root states.json already carries in annual_report_fee. Read the flag as \"already counted there\", not as \"collected alongside a report\": Delaware LLCs file no annual report at all and the flag is still true, because root's annual_report_fee is where Delaware's annual tax lives. A total-cost consumer must not add the two together."
         },
         "dueDate": {
           "type": ["string", "null"],
@@ -83,9 +83,9 @@
         "evidence": {
           "oneOf": [
             { "type": "null" },
-            { "$ref": "#/definitions/evidence" }
+            { "$ref": "#/definitions/evidenceList" }
           ],
-          "description": "The passage establishing the tax and its figure. null only while applies is null."
+          "description": "The passages establishing this object's values, one per fact rather than one per record: the figure, the due date and the first-year waiver are routinely three passages on two pages, and a single slot could only ground one of them. Each entry names what it grounds in `supports`. null only while applies is null."
         }
       }
     },
@@ -112,8 +112,9 @@
         "evidence": {
           "oneOf": [
             { "type": "null" },
-            { "$ref": "#/definitions/evidence" }
-          ]
+            { "$ref": "#/definitions/evidenceList" }
+          ],
+          "description": "One passage per value. The rate, the pass-through posture and the PTET election are almost never on the same page."
         }
       }
     },
@@ -166,8 +167,17 @@
           "minLength": 20,
           "description": "One contiguous verbatim passage, copied from the page as retrieved, artefacts included. Never assembled across an ellipsis, never taken from a search snippet, never tidied."
         },
-        "url": { "type": "string", "pattern": "^https?://" }
+        "url": { "type": "string", "pattern": "^https?://" },
+        "supports": {
+          "type": "string",
+          "description": "Which value in the enclosing object this passage grounds, by field name (`minimumAnnualUsd`, `dueDate`, `topRatePercent`, …). A record carrying several passages is only honest if each one says what it is evidence FOR; otherwise the reader has to guess, and a passage that grounds nothing looks the same as one that grounds everything. Values a field cannot name — the scaled component behind a `hybrid` basis, an excluded levy — use a short descriptive string instead."
+        }
       }
+    },
+    "evidenceList": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/evidence" }
     }
   }
 }

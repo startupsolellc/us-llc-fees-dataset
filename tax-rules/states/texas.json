@@ -1,0 +1,88 @@
+{
+  "stateName": "Texas",
+  "stateAbbr": "TX",
+  "stateSlug": "texas",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Franchise Tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 0,
+    "firstYearExemption": false,
+    "filedWith": "Texas Comptroller of Public Accounts",
+    "collectedWithAnnualReport": false,
+    "dueDate": "The annual franchise tax report is due May 15. If May 15 falls on a weekend or holiday, the due date will be the next business day.",
+    "evidence": [
+      {
+        "quote": "The Texas franchise tax is a privilege tax imposed on each taxable entity formed or organized in Texas or doing business in Texas.",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "supports": "applies, taxName"
+      },
+      {
+        "quote": "Annual Franchise Tax Reports The annual franchise tax report is due May 15. If May 15 falls on a weekend or holiday, the due date will be the next business day.",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "Tax Rates, Thresholds and Deduction Limits Franchise tax rates, thresholds and deduction limits vary by report year. Use the rate that corresponds to the year for which you are filing. 2026 and 2027 Item Amount No Tax Due Threshold $2,650,000 Tax Rate (retail or wholesale) 0.375% Tax Rate (other than retail or wholesale) 0.75% Compensation Deduction Limit $480,000 EZ Computation Total Revenue Threshold $20 million EZ Computation Rate 0.331%",
+        "url": "https://comptroller.texas.gov/taxes/franchise/",
+        "supports": "minimumAnnualUsd, basis: the current-year threshold and rates, quoted with the \"2026 and 2027\" caption because the same page repeats the table for prior years"
+      },
+      {
+        "quote": "For the 2024 report year and later, a taxable entity whose annualized total revenue is less than or equal to the No Tax Due Threshold is not required to file a No Tax Due Report. However, the entity is required to file Form 05-102, Public Information Report (PDF) or Form 05-167, Ownership Information Report (PDF) .",
+        "url": "https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php",
+        "supports": "minimumAnnualUsd: an entity at or below the threshold owes nothing and files no tax report"
+      },
+      {
+        "quote": "Senate Bill 3, 88th Legislature, Second Called Session, repeals the requirement for a new veteran-owned business to file a no tax due report during its initial five-year period. This bill applies to franchise tax reports originally due on or after Jan. 1, 2024.",
+        "url": "https://comptroller.texas.gov/taxes/franchise/veteran-business.php",
+        "supports": "firstYearExemption: the only first-years franchise tax relief the Comptroller publishes is class-specific, for new veteran-owned businesses"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "Texas Taxes and Fees 9-1-1 Fees and Surcharge Automotive Oil Sales Fee Battery Sales Fee Boat and Boat Motor Cement Production Coastal Protection Coin-Operated Machines Tax Crude Oil Franchise Hotel Insurance Taxes, Assessments and Fees Loan Administration Fee Manufactured Housing Miscellaneous Gross Receipts Mixed Beverage Taxes Motor Fuels, IFTA and Interstate Truckers Motor Vehicle Taxes Natural Gas Oil and Gas Well Servicing Oyster Sales Fee Pari-Mutuel Property Tax Public Utility Gross Receipts Assessment Sales and Use Sexually Oriented Business Fee Texas Emissions Reduction Plan (TERP) - Off Road Heavy Duty Diesel Equipment Surcharge Tobacco, Cigarette and E-Cigarette Taxes and Fees",
+        "url": "https://comptroller.texas.gov/taxes/a-to-z.php",
+        "supports": "passThroughApplies, hasPTETElection: the Comptroller's complete A-to-Z list of the taxes and fees it administers"
+      }
+    ]
+  },
+  "notes": "The published-$0 minimum case, and it is a real zero rather than an absent one. The franchise tax is computed on margin, derived from total revenue, so the basis is recorded as revenue; below the No Tax Due Threshold ($2,650,000 of annualized total revenue for report years 2026 and 2027) an entity owes nothing at all and is not even required to file a tax report, only a Public Information Report or Ownership Information Report. minimumAnnualUsd is therefore 0, not null.\nThe rates and threshold were quoted with their \"2026 and 2027\" caption on purpose. The same page carries a Prior Years block with the 2024/2025 threshold ($2,470,000) and the 2022/2023 one ($1,230,000), and a figure lifted from either would pass a quote check while being years stale.\ncollectedWithAnnualReport is false. Texas has no annual report in the sense root states.json means, and root carries annual_report_fee 0 for Texas; the Public Information Report filed with the franchise tax report costs nothing. Root's annual_report_due_date of May 15 is the franchise tax report's date, which is why the two look related - they are not the same payment, because there is no payment on that side.\nfirstYearExemption is false, and this is the record's weakest value. There is no general first-year waiver on any page read here; the one first-years relief the Comptroller publishes is class-specific, repealing the no-tax-due filing requirement for a new veteran-owned business during its initial five-year period. An ordinary new LLC gets a later first report, not an exemption.\nstateIncomeTax rests on the Comptroller's own A-to-Z enumeration of the 100 taxes and fees it administers, which names no income tax of any kind. topRatePercent is null because there is no rate to carry, not because it went unresearched. The Texas Constitution's article VIII prohibition would be the stronger citation and could not be read: statutes.capitol.texas.gov does not answer on the route the Comptroller requires.",
+  "needsReview": "Two loose ends, neither of them a value in doubt. (1) firstYearExemption false rests on the absence of a general waiver plus a class-specific one, not on a passage saying an ordinary new LLC has none. (2) The constitutional income tax prohibition (Tex. Const. art. VIII) was not read: statutes.capitol.texas.gov timed out on the VPN-down route, which is the only route comptroller.texas.gov answers on. A session with both routes could add it.",
+  "sources": [
+    {
+      "citation": "Texas Comptroller of Public Accounts, Franchise Tax",
+      "title": "Franchise Tax",
+      "url": "https://comptroller.texas.gov/taxes/franchise/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Comptroller of Public Accounts, No Tax Due Reporting for Report Year 2024 and Later",
+      "title": "NO TAX DUE REPORTING FOR REPORT YEAR 2024 AND LATER",
+      "url": "https://comptroller.texas.gov/taxes/franchise/ntd-rpt-updates-2024.php",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Comptroller of Public Accounts, New Veteran-Owned Businesses and Texas Franchise Tax",
+      "title": "New Veteran-Owned Businesses and Texas Franchise Tax",
+      "url": "https://comptroller.texas.gov/taxes/franchise/veteran-business.php",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Comptroller of Public Accounts, Texas Taxes and Fees",
+      "title": "Texas Taxes and Fees",
+      "url": "https://comptroller.texas.gov/taxes/a-to-z.php",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

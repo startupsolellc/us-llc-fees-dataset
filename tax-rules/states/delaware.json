@@ -1,0 +1,88 @@
+{
+  "stateName": "Delaware",
+  "stateAbbr": "DE",
+  "stateSlug": "delaware",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Annual Tax",
+    "basis": "flat",
+    "minimumAnnualUsd": 400,
+    "firstYearExemption": false,
+    "filedWith": "Delaware Division of Corporations",
+    "collectedWithAnnualReport": true,
+    "dueDate": "The annual taxes for the prior year are due on or before June 1st.",
+    "evidence": [
+      {
+        "quote": "(b) Every domestic limited liability company and every foreign limited liability company registered to do business in the State of Delaware shall pay an annual tax, for the use of the State of Delaware, in the amount of $400.",
+        "url": "https://delcode.delaware.gov/title6/c018/sc11/index.html",
+        "supports": "minimumAnnualUsd"
+      },
+      {
+        "quote": "All Domestic and Foreign Limited Liability Companies, Limited Partnerships, and General Partnerships formed or registered in Delaware are required to pay an annual tax of $400.00. There is no requirement to file an Annual Report. The annual taxes for the prior year are due on or before June 1st.",
+        "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
+        "supports": "minimumAnnualUsd, dueDate, collectedWithAnnualReport"
+      },
+      {
+        "quote": "**LLCs, LPs, and GPs are not required to file Annual Franchise Tax reports with the Division of Corporations, they must pay the $400 yearly tax on or before June 1st**",
+        "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
+        "supports": "collectedWithAnnualReport"
+      },
+      {
+        "quote": "There is no proration on alternative entity taxes. Annual taxes are assessed if the entity is active in the records of the Division of Corporations anytime during January 1st through December 31st of the current tax year.",
+        "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
+        "supports": "firstYearExemption"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 6.6,
+    "hasPTETElection": null,
+    "evidence": [
+      {
+        "quote": "A partnership, as such, is not subject to tax. Instead, the partnership's partners are liable for Delaware personal income tax on their respective shares of partnership income. A non-resident partner of a partnership with income from Delaware sources must file Form PIT-NON or a Composite Return, and report their share of Delaware sourced partnership income or loss. A resident partner must file Form PIT-RES and must report their share of partnership income or loss.",
+        "url": "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/PRT-RTN_2025-01_Instructions.pdf",
+        "supports": "passThroughApplies"
+      },
+      {
+        "quote": "Delaware has a graduated tax rate ranging from 2.2% to 5.55% on income under $60,000. The maximum income tax rate is 6.60% on income of $60,000 or over.",
+        "url": "https://revenue.delaware.gov/frequently-asked-questions/personal-income-tax-faqs/",
+        "supports": "topRatePercent"
+      }
+    ]
+  },
+  "notes": "The label disagrees with the substance in both directions here and both halves matter. The Division of Corporations titles the page \"LLC/LP/GP Franchise Tax Instructions\", but the body and 6 Del. C. § 18-1107(b) both call the levy an annual tax, and it is flat: $400 for every domestic and foreign LLC, with no report to file and no proration. taxName carries the statute's and the body's word rather than the page title.\ncollectedWithAnnualReport is true, and Delaware is the case that shows what the flag really means. Delaware LLCs file no annual report at all - the page says so in terms - so the tax is not collected \"with\" one. The flag is true because this payment is the one root states.json carries in annual_report_fee for Delaware, which is the double-counting a total-cost consumer has to avoid.\nThat figure was wrong when this record was written, and the pilot is what found it. The Division of Corporations and 6 Del. C. § 18-1107(b) both say $400; root states.json and entitysearch-state-data both carried 300, live on two consumer sites. Corrected on 2026-08-07 by the maintenance line in the same session, on the owner's instruction, after the contact block and the current fee schedule were re-read on the same visit.\nfirstYearExemption is false: the tax is assessed if the entity is active in the Division's records at any time during the calendar year and there is no proration, which leaves no first-year waiver to record.\nhasPTETElection is null rather than false. Delaware's business tax forms index lists a partnership return family and no pass-through entity elective tax, but a forms index is a weaker page than a tax index: it would answer \"is there a form\", not \"is there a tax\". Tennessee's record takes false on exactly that stronger page; Delaware does not have one yet.",
+  "needsReview": "hasPTETElection is unresolved: a Division of Revenue page that enumerates the taxes Delaware levies, rather than the forms it publishes, would settle it either way. Delaware's business tax forms index lists a partnership return family and no pass-through entity elective tax, which is why the value is null and not false.",
+  "sources": [
+    {
+      "citation": "Delaware Division of Corporations, LLC/LP/GP Franchise Tax Instructions",
+      "title": "LLC/LP/GP Franchise Tax Instructions - Division of Corporations - State of Delaware",
+      "url": "https://corp.delaware.gov/alt-entitytaxinstructions/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "6 Del. C. § 18-1107, Taxation of limited liability companies and registered series",
+      "title": "Delaware Code Online, Title 6, Chapter 18, Subchapter XI. Miscellaneous",
+      "url": "https://delcode.delaware.gov/title6/c018/sc11/index.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Delaware Division of Revenue, Personal Income Tax FAQs",
+      "title": "Personal Income Tax FAQs - Division of Revenue - State of Delaware",
+      "url": "https://revenue.delaware.gov/frequently-asked-questions/personal-income-tax-faqs/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Delaware Division of Revenue, Form PRT-RTN, Delaware Partnership Return Instructions",
+      "title": "Delaware Partnership Return Instructions (PRT-RTN), revised 05/27/25",
+      "url": "https://revenuefiles.delaware.gov/2025/BusinessTaxForms_Instructions/PRT-RTN_2025-01_Instructions.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -1,0 +1,93 @@
+{
+  "stateName": "California",
+  "stateAbbr": "CA",
+  "stateSlug": "california",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Annual Tax",
+    "basis": "hybrid",
+    "minimumAnnualUsd": 800,
+    "firstYearExemption": false,
+    "filedWith": "Franchise Tax Board",
+    "collectedWithAnnualReport": false,
+    "dueDate": "Your subsequent annual tax payments will continue to be due on the 15th day of the 4th month of your taxable year.",
+    "evidence": [
+      {
+        "quote": "Annual Tax Every LLC that is doing business or organized in California must pay an annual tax of $800. This yearly tax will be due, even if you are not conducting business, until you cancel your LLC.",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "supports": "minimumAnnualUsd"
+      },
+      {
+        "quote": "Your subsequent annual tax payments will continue to be due on the 15th day of the 4th month of your taxable year.",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "Exceptions to the first year annual tax For tax years beginning on or after January 1, 2021, and before January 1, 2024, LLCs that organize, register, or file with the Secretary of State to do business in California are not subject to the annual tax of $800 for their first tax year.",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "supports": "firstYearExemption"
+      },
+      {
+        "quote": "LLC fee If your LLC will make more than $250,000, you will have to pay a fee. LLCs must estimate and pay the fee by the 15th day of the 6th month, of the current tax year. California income rounded If the total California income rounded to the nearest whole dollar is: The fee amount is: $250,000 - $499,999 $900 $500,000 - $999,999 $2,500 $1,000,000 - $4,999,999 $6,000 $5,000,000 or more $11,790",
+        "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+        "supports": "basis: the receipts-scaled LLC fee that sits above the $800 floor"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 12.3,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "LLCs classified as partnerships (more than one member) generally determine and report their California income, deductions, and credits separately under the personal income tax law. These items pass through to their owners for purposes of taxation.",
+        "url": "https://www.ftb.ca.gov/forms/misc/3556.html",
+        "supports": "passThroughApplies"
+      },
+      {
+        "quote": "Schedule X - Use if your filing status is Single or Married/RDP Filing Separately over - but not over - Enter on Form 540, line 31 of the amount over- $ 0 $ 11,079 $ 0.00 + 1 .00% $ 0 11,079 26,264 110.79 + 2.00% 11,079 26,264 41,452 414.49 + 4.00% 26,264 41,452 57 ,542 1,022.01 + 6.00% 41,452 57 ,542 72,724 1,987 .41 + 8.00% 57 ,542 72,724 371,479 3,201 .97 + 9.30% 72,724 371,479 445,771 30,986.19 + 10.30% 371,479 445,771 742,953 38,638.27 + 11 .30% 445,771 742,953 AND OVER 72,219.84 + 12.30% 742,953",
+        "url": "https://www.ftb.ca.gov/forms/2025/2025-540-tax-rate-schedules.pdf",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2021, and before January 1, 2031, qualifying pass-through entities (PTEs) may annually elect to pay an entity-level state tax on income.",
+        "url": "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+        "supports": "hasPTETElection"
+      }
+    ]
+  },
+  "notes": "Two levies, one record, which is why the basis is hybrid. The Franchise Tax Board collects a flat $800 annual tax from every LLC doing business or organized in California whether or not it trades, and above $250,000 of California income a second, receipts-scaled \"LLC fee\" on top of it ($900 / $2,500 / $6,000 / $11,790 by band). minimumAnnualUsd carries the floor; the scaled part is in the fourth evidence passage and is not a separate record.\nfirstYearExemption is false and the reason is a date: the AB 85 waiver the page describes covered only tax years beginning on or after 2021-01-01 and before 2024-01-01, so an LLC formed today pays in year one. A first-year LLC does get a later first payment (the 15th day of the 4th month from the date it files with the Secretary of State, not from the start of the tax year), and an LLC cancelled within a year of organizing by short-form cancellation escapes the tax for its first tax year. Neither is a standing exemption.\ncollectedWithAnnualReport is false: this tax is not the payment root states.json carries for California. That figure is the Secretary of State's biennial Statement of Information, a different filing at a different agency, and a total-cost consumer must add the two rather than choose between them.\ntopRatePercent is the 12.30% top bracket of the 2025 Schedule X rate schedule, the newest the Franchise Tax Board publishes. It excludes the separate 1% Mental Health Services Tax on income over $1 million, which was not read from a page in this pass and is orientation the field does not carry. The rate-schedule passage is quoted with its PDF text-layer artefacts (\"1 .00%\", \"57 ,542\") because the check compares against the same extraction.",
+  "needsReview": "The 1% Mental Health Services Tax surcharge above $1 million of taxable income was not read from an official page in this pass, so topRatePercent carries the rate schedule's 12.30% alone. Reading Revenue & Taxation Code § 19602 or an FTB page that states the surcharge would settle whether this namespace should record 12.3 or 13.3 for California.",
+  "sources": [
+    {
+      "citation": "Franchise Tax Board, Limited liability company",
+      "title": "Limited liability company | FTB.ca.gov",
+      "url": "https://www.ftb.ca.gov/file/business/types/limited-liability-company/index.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Franchise Tax Board, FTB Publication 3556, Limited Liability Company Filing Information",
+      "title": "Limited Liability Company Filing Information (FTB 3556)",
+      "url": "https://www.ftb.ca.gov/forms/misc/3556.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Franchise Tax Board, 2025 California Tax Rate Schedules",
+      "title": "2025 California Tax Rate Schedules",
+      "url": "https://www.ftb.ca.gov/forms/2025/2025-540-tax-rate-schedules.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Franchise Tax Board, Pass-through entity (PTE) elective tax",
+      "title": "Pass-through entity PTE elective tax | FTB.ca.gov",
+      "url": "https://www.ftb.ca.gov/file/business/credits/pass-through-entity-elective-tax/index.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

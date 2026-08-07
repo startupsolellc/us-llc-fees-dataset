@@ -1,0 +1,71 @@
+{
+  "stateName": "Wyoming",
+  "stateAbbr": "WY",
+  "stateSlug": "wyoming",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "License Fee",
+    "basis": "hybrid",
+    "minimumAnnualUsd": 60,
+    "firstYearExemption": false,
+    "filedWith": "Secretary of State",
+    "collectedWithAnnualReport": true,
+    "dueDate": "On or before the first day of the month of organization of every year",
+    "evidence": [
+      {
+        "quote": "17-29-209. Annual report for secretary of state. (a) Every limited liability company organized under the laws of this state and every foreign limited liability company which obtains a certificate of authority to transact and carry on business within this state shall file with the secretary of state on or before the first day of the month of organization of every year a certification, under the penalty of perjury, by its treasurer or other fiscal agent setting forth its capital, property and assets located and employed in the state of Wyoming. The statement shall give the address of its principal office. On or before the first day of the month of organization of every year the limited liability company or foreign limited liability company shall pay to the secretary of state in addition to all other statutory taxes and fees a license fee based upon the sum of its capital, property and assets reported, of sixty dollars ($60.00) or two-tenths of one mill on the dollar ($.0002), whichever is greater.",
+        "url": "https://wyoleg.gov/statutes/compress/title17.pdf",
+        "supports": "applies, taxName, basis, minimumAnnualUsd, dueDate, firstYearExemption, filedWith"
+      },
+      {
+        "quote": "For some entities, current financial information necessary for the computation of the license tax. If you wish to file electronically, we accept Visa or MasterCard credit cards and Visa or MasterCard authorized debit cards. Additional Information Information provided should be current as of the date the Annual Report is submitted on behalf of the company. Additional fees for E-filing include a credit card processing fee based on the total amount of the license tax.",
+        "url": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+        "supports": "taxName: the Secretary of State calls the same levy a license tax"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "CHAPTER 7 - INCOME TAXES 39-7-101. Repealed By Laws 1998, ch. 5, § 4. CHAPTER 8 - [RESERVED] CHAPTER 9 - [RESERVED] CHAPTER 10 - [RESERVED]",
+        "url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+        "supports": "passThroughApplies: Wyoming's income tax chapter in the taxation title is a single repealed section"
+      },
+      {
+        "quote": "CHAPTER 12 - INCOME TAX 39-12-101. Preemption by state. The state of Wyoming does hereby preempt for itself the field of imposing and levying income taxes, earning taxes, or any other form of tax based on wages or other income and no county, city, town or other political subdivision shall have the right to impose, levy or collect such taxes.",
+        "url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+        "supports": "passThroughApplies, hasPTETElection: the state reserved the income tax field to itself and legislated no tax in it"
+      }
+    ]
+  },
+  "notes": "This is the boundary the pilot was supposed to draw, and the levy is IN. W.S. 17-29-209 makes every Wyoming and foreign LLC pay the Secretary of State, every year, a charge scaled on its capital, property and assets located and employed in Wyoming, with a $60 floor - recurring, owed for being registered rather than for trading, and measured on the balance sheet. That is a franchise-type tax under this namespace's substance test whatever it is called, so it is recorded rather than dismissed as a filing fee.\nThe label goes both ways and both are the state's. The statute says \"license fee\"; the Secretary of State's own annual report page says \"license tax\" twice. taxName carries the statute's word and the second evidence passage carries the agency's, because which word the state uses is itself the data this namespace was built to keep.\nbasis is hybrid: one levy, two limbs, sixty dollars or $.0002 per dollar of in-state assets, whichever is greater. minimumAnnualUsd carries the floor.\ncollectedWithAnnualReport is true and the figures agree: this is the payment root states.json carries as Wyoming's annual_report_fee 60, due the first day of the anniversary month. Do not add the two.\nfirstYearExemption is false: the statute says every year, with no first-year carve-out and no proration language.\nNo separate franchise tax was found beside it. Title 39, Wyoming's taxation title, has no franchise tax chapter; its income tax chapter (39-7) is a single section repealed in 1998, and chapter 39-12 preempts the field for the state without levying anything in it. That is why stateIncomeTax is false on both booleans with a null rate rather than unresearched - and see needsReview for what that absence does and does not rest on.",
+  "needsReview": "\"Wyoming has no separate franchise tax\" rests on Title 39 containing no franchise tax chapter, which is an absence in a structure rather than a passage that says so. Nothing contradicts it and no page was found that would state it positively. A Department of Revenue page enumerating the taxes Wyoming levies would settle it; revenue.wyo.gov publishes divisions (Excise, Mineral, Property) and annual report PDFs behind Google Drive links, neither of which is such an enumeration.",
+  "sources": [
+    {
+      "citation": "W.S. 17-29-209, Annual report for secretary of state",
+      "title": "Wyoming Statutes Title 17, Corporations, Partnerships and Associations (LSO compiled title PDF)",
+      "url": "https://wyoleg.gov/statutes/compress/title17.pdf",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Wyoming Statutes Title 39, Taxation and Revenue, chapters 7 and 12",
+      "title": "Wyoming Statutes Title 39, Taxation and Revenue (LSO compiled title PDF)",
+      "url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Wyoming Secretary of State, Annual Report Instructions",
+      "title": "Wyoming Secretary of State, Annual Report",
+      "url": "https://wyobiz.wyo.gov/Business/AnnualReport.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

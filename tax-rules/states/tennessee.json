@@ -1,0 +1,95 @@
+{
+  "stateName": "Tennessee",
+  "stateAbbr": "TN",
+  "stateSlug": "tennessee",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Franchise Tax",
+    "basis": "net-worth",
+    "minimumAnnualUsd": 100,
+    "firstYearExemption": false,
+    "filedWith": "Tennessee Department of Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "Annual 15th day of the fourth month following the close of your books and records. For businesses with a January 1 - December 31 calendar year, this tax is due on April 15 of the following year.",
+    "evidence": [
+      {
+        "quote": "If you are a corporation, limited partnership, limited liability company, or business trust chartered, qualified, or registered in Tennessee or doing business in this state, then you must register for and pay franchise and excise taxes. The franchise tax is based on the taxpayer's net worth, which is the difference between the taxpayer's total assets less its total liabilities, as derived from the taxpayer's books and records. The excise tax is based on the taxpayer's net earnings or income for the tax year. The minimum franchise tax is $100 and is payable if you are incorporated, domesticated, qualified, or otherwise registered through the Secretary of State to do business in Tennessee, regardless of whether the company is active or inactive.",
+        "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+        "supports": "applies, basis, minimumAnnualUsd"
+      },
+      {
+        "quote": "Due Dates Annual 15th day of the fourth month following the close of your books and records. For businesses with a January 1 - December 31 calendar year, this tax is due on April 15 of the following year.",
+        "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "Tax Rates Franchise tax 0.25% of Tennessee net worth. Excise tax 6.5% of Tennessee taxable income",
+        "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+        "supports": "basis: the rate, and the excise component this record excludes"
+      },
+      {
+        "quote": "Generally, if you conduct business within any county and/or incorporated municipality in Tennessee, and your business grosses $100,000 or more, then you should register for and remit business tax. Business tax consists of two separate taxes: the state business tax and the city business tax.",
+        "url": "https://www.tn.gov/revenue/taxes/business-tax.html",
+        "supports": "the separate business tax this record excludes"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "Most Common Taxes: Business Tax Franchise & Excise Tax Sales and Use Tax Alcohol, Beer, and Tobacco Taxes: Brand Registration Alcoholic Beverage Taxes Beer Taxes Liquor-by-the-Drink Tax Tobacco Taxes Locally Administered Taxes: Litigation Fines & Fees Litigation Tax Marriage License Tax Property Tax Other Taxes: Automobile Rental Surcharge Tax Bail Bond Tax Coin-Operated Amusement Tax Fantasy Sports Tax Gross Receipts Taxes Hemp-Derived Cannabinoid Products Tax Local Occupancy Tax Motor Fuel Taxes Oil & Tire Fees Professional Privilege Tax Recordation Tax Severance Taxes Unauthorized Substances Tax Archived Taxes: Gift Tax Hall Income Tax Inheritance Tax",
+        "url": "https://www.tn.gov/revenue/taxes.html",
+        "supports": "passThroughApplies, hasPTETElection: the Department's complete list of the taxes it administers"
+      },
+      {
+        "quote": "The Hall income tax is imposed only on individuals and other entities receiving interest from bonds and notes and dividends from stock. It was enacted in 1929 and was originally called the Hall income tax for the senator who sponsored the legislation. The Hall Income tax was repealed for tax periods that begin on January 1, 2021 , or later. Please do not file a return for any tax year that begins on or after January 1, 2021.",
+        "url": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+        "supports": "passThroughApplies: the only individual income tax Tennessee levied, and its repeal"
+      }
+    ]
+  },
+  "notes": "Tennessee is the substance test's edge and the pilot had to decide it. The Department of Revenue administers franchise and excise as one registration and one return, but they are two levies with two bases, and only one of them survives the test.\nIN: the franchise tax. 0.25% of Tennessee net worth, minimum $100, and the minimum is payable \"regardless of whether the company is active or inactive\" - a recurring levy on the privilege of being registered, which is exactly what this namespace records.\nOUT: the excise tax. 6.5% of Tennessee taxable income is a tax on income, and the README's inclusion test excludes tax on income. It is recorded here in the third evidence passage and in this note rather than in a field, because a consumer adding up what a Tennessee LLC owes for existing must know the excise exists: an LLC with earnings pays it on the same return, and it is levied on the entity, not passed through to members. That is why stateIncomeTax.passThroughApplies being false does not mean Tennessee leaves the LLC's income untaxed - it means the members owe no personal income tax on it.\nALSO OUT: the separate \"business tax\", the fourth evidence passage. It is a gross-receipts tax that only starts at $100,000 of receipts, so it is not a levy on existence, and it consists of a state and a city component, and local levies are out of scope.\ncollectedWithAnnualReport is false: the franchise tax goes to the Department of Revenue, while the figure root states.json carries in annual_report_fee is the Secretary of State's annual report. Two agencies, two payments, both due in April - a total-cost consumer adds them.\nfirstYearExemption is false: no waiver appears on the Department's franchise and excise pages, and the minimum is stated as payable from registration onward.\ntopRatePercent is null because there is no individual income tax to rate, not because it was not researched.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Tennessee Department of Revenue, Franchise & Excise Tax",
+      "title": "Franchise & Excise Tax",
+      "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Department of Revenue, Franchise & Excise Tax, Due Dates and Tax Rates",
+      "title": "Due Dates and Tax Rates",
+      "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax/due-dates-and-tax-rates.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Department of Revenue, Taxes",
+      "title": "Taxes",
+      "url": "https://www.tn.gov/revenue/taxes.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Department of Revenue, Hall Income Tax",
+      "title": "Hall Income Tax",
+      "url": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Department of Revenue, Business Tax",
+      "title": "Business Tax",
+      "url": "https://www.tn.gov/revenue/taxes/business-tax.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
