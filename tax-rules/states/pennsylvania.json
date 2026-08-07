@@ -1,0 +1,109 @@
+{
+  "stateName": "Pennsylvania",
+  "stateAbbr": "PA",
+  "stateSlug": "pennsylvania",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Corporations operating in Pennsylvania are subject to corporate net income tax as well as selective business taxes covering utilities, insurance companies, financial institutions, and cooperative entities.",
+      "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes",
+      "supports": "applies: the collector's own corporation-tax overview names the corporate-level taxes Pennsylvania imposes and its subjects are corporations; a default LLC is not in that class"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Corporations operating in Pennsylvania are subject to corporate net income tax as well as selective business taxes covering utilities, insurance companies, financial institutions, and cooperative entities.",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes",
+        "supports": "applies: the Department's corporation-tax page enumerates the entity taxes Pennsylvania administers and none reaches a default LLC"
+      },
+      {
+        "quote": "Repealed Taxes Capital Stock and Foreign Franchise Taxes",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes",
+        "supports": "applies: the capital-stock and foreign-franchise taxes are listed by the Department under its own Repealed Taxes heading"
+      },
+      {
+        "quote": "members of an LLC taxed as a partnership or S corporation include their shares of income, loss and credit on their personal income tax returns and are taxed at the personal income tax rate, 3.07%.",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/partnerships-s-corporations-llcs",
+        "supports": "applies and passThroughApplies: the Department's own LLC page places an LLC's income on the members' personal returns, outside any corporate-level tax"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 3.07,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "members of an LLC taxed as a partnership or S corporation include their shares of income, loss and credit on their personal income tax returns and are taxed at the personal income tax rate, 3.07%.",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/partnerships-s-corporations-llcs",
+        "supports": "passThroughApplies and topRatePercent: the Department's own LLC page states members report LLC income on their personal returns at the 3.07% personal income tax rate"
+      },
+      {
+        "quote": "Tax Year Rate 2004 - Present 3.07%",
+        "url": "https://www.pa.gov/agencies/revenue/resources/tax-rates/personal-income-tax-rates",
+        "supports": "topRatePercent: the Department's rate table states the flat 3.07% personal income tax rate for tax years 2004 through the present"
+      },
+      {
+        "quote": "A partnership, for Pennsylvania personal income tax purposes, is any unincorporated entity that is classified as a \"partnership\" for federal income tax purposes, such as:",
+        "url": "https://www.pa.gov/agencies/revenue/forms-and-publications/pa-personal-income-tax-guide/pass-through-entities",
+        "supports": "passThroughApplies: the Personal Income Tax Guide's definition of a Pennsylvania partnership includes an LLC classified as a partnership for federal purposes"
+      },
+      {
+        "quote": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in personal income tax, further providing for definitions, providing for elective tax imposed at pass-thro . . . ugh entity level and further providing for taxability of partners, for income of a Pennsylvania S corporation and for income taxes imposed by other states.",
+        "url": "https://www.palegis.us/legislation/bills/2025/hb1703?SiteID=1",
+        "supports": "hasPTETElection: the only pass-through-entity-level election introduced in the 2025-2026 session is this bill, which has not become law (the broken word is the Assembly's own page artifact, reproduced verbatim)"
+      },
+      {
+        "quote": "Last Action: Referred to Finance , July 8, 2025",
+        "url": "https://www.palegis.us/legislation/bills/2025/hb1703?SiteID=1",
+        "supports": "hasPTETElection: the General Assembly's own status line shows the PTET bill was only referred to committee on July 8, 2025, with none of the enactment milestones reached"
+      }
+    ]
+  },
+  "notes": "Pennsylvania has no recurring franchise-type levy on a default LLC: applies is false. The Department of Revenue's corporation-tax page says corporations operating in Pennsylvania are subject to corporate net income tax and names the selective business taxes (gross receipts for utilities, gross premiums for insurers, bank and trust company shares for financial institutions); the same page lists the capital stock and foreign franchise taxes under its own Repealed Taxes heading. A default LLC is not a subject of any of them.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 7 for Pennsylvania, the Department of State's annual report filing fee - a separate payment with no tax to overlap.\nstateIncomeTax: members of a partnership-classified or S-corporation-classified LLC include their shares of Pennsylvania income, loss and credit on their personal income tax returns and are taxed at the flat 3.07% personal income tax rate (2004-present). The Personal Income Tax Guide's Pass Through Entities chapter defines a Pennsylvania partnership as any unincorporated entity classified as a partnership for federal income tax purposes and lists an LLC among the examples.\nhasPTETElection is false as of 2026-08-08. Pennsylvania has no enacted pass-through entity tax: the only PTET proposal in the 2025-2026 session, House Bill 1703, would add an elective tax imposed at the pass-through entity level, and the General Assembly's own status page shows it was referred to the Finance Committee on July 8, 2025 with none of the enactment milestones reached. No Department of Revenue page names a pass-through entity tax.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Pennsylvania Department of Revenue, Corporation Taxes",
+      "title": "Corporation Taxes - Department of Revenue",
+      "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/corporation-taxes",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania Department of Revenue, Partnerships/S Corporations/LLCs",
+      "title": "Partnerships/S Corporations/LLCs - Department of Revenue",
+      "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/partnerships-s-corporations-llcs",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania Department of Revenue, Personal Income Tax Rates",
+      "title": "Personal Income Tax Rates - Department of Revenue",
+      "url": "https://www.pa.gov/agencies/revenue/resources/tax-rates/personal-income-tax-rates",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania Department of Revenue, PA Personal Income Tax Guide, Pass Through Entities",
+      "title": "PA Personal Income Tax Guide: Pass Through Entities",
+      "url": "https://www.pa.gov/agencies/revenue/forms-and-publications/pa-personal-income-tax-guide/pass-through-entities",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania General Assembly, House Bill 1703, 2025-2026 Regular Session",
+      "title": "House Bill 1703 - 2025-2026 Regular Session",
+      "url": "https://www.palegis.us/legislation/bills/2025/hb1703?SiteID=1",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

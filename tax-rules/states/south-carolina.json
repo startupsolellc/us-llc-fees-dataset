@@ -1,0 +1,126 @@
+{
+  "stateName": "South Carolina",
+  "stateAbbr": "SC",
+  "stateSlug": "south-carolina",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Corporations transacting or conducting business in South Carolina must file a Corporate Tax return.",
+      "url": "https://dor.sc.gov/business-income-taxes/corporate",
+      "supports": "applies: the collector's own corporate tax page names the corporate-level return and its subject class; a default LLC files the partnership return instead"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Corporations transacting or conducting business in South Carolina must file a Corporate Tax return.",
+        "url": "https://dor.sc.gov/business-income-taxes/corporate",
+        "supports": "applies: the corporate income tax return belongs to corporations, not to a default LLC"
+      },
+      {
+      "quote": "You must pay the initial $25 Corporate License Fee when submitting your CL-1 .",
+        "url": "https://dor.sc.gov/business-income-taxes/corporate",
+        "supports": "applies: the only franchise-type corporate levy named on the page is the Corporate License Fee paid with the CL-1"
+      },
+      {
+        "quote": "LLCs should only complete the CL-1 if they're taxed as a corporation.",
+        "url": "https://dor.sc.gov/sites/dor/files/forms/CL1.pdf",
+        "supports": "applies: the Department's own CL-1 instructions keep the license fee out of a default LLC's obligations"
+      },
+      {
+        "quote": "Every partnership (including any multiple member LLC not taxed as a corporation), domestic or foreign, doing business or owning property in South Carolina must file SC1065.",
+        "url": "https://dor.sc.gov/business-income-taxes/partnership",
+        "supports": "applies and passThroughApplies: a default multi-member LLC is routed to the partnership return, not to any corporate-level levy"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 6,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Taxable income (loss) of a partnership flows through and is taxable to the partners in the same manner as for federal partnership income.",
+        "url": "https://dor.sc.gov/business-income-taxes/partnership",
+        "supports": "passThroughApplies: the Department's partnership page states partnership income is taxable to the partners"
+      },
+      {
+        "quote": "Every partnership (including any multiple member LLC not taxed as a corporation), domestic or foreign, doing business or owning property in South Carolina must file SC1065.",
+        "url": "https://dor.sc.gov/business-income-taxes/partnership",
+        "supports": "passThroughApplies: a default multi-member LLC files the partnership return and its income passes through"
+      },
+      {
+        "quote": "Individual Income Tax rates: 0 to a top rate of 6% for tax year 2025",
+        "url": "https://dor.sc.gov/iit",
+        "supports": "topRatePercent: the Department's individual income tax page states the 2025 top rate is 6%"
+      },
+      {
+        "quote": "Beginning with the 2021 tax year, a qualifying partnership, including an LLC taxed as a partnership, can elect to have its active trade or business income taxed at the entity level instead of the partner level.",
+        "url": "https://dor.sc.gov/business-income-taxes/partnership",
+        "supports": "hasPTETElection: the Department's own FAQ states an LLC taxed as a partnership may elect entity-level taxation"
+      },
+      {
+        "quote": "Beginning with the 2021 tax year, a qualified entity can elect to have its active trade or business income taxed at a 3% flat tax rate imposed on the entity itself instead of its qualified owners.",
+        "url": "https://dor.sc.gov/sites/dor/files/forms/I435.pdf",
+        "supports": "hasPTETElection: the current I-435 instructions state the election and its 3% flat rate"
+      },
+      {
+        "quote": "A qualified entity may elect annually under this subsection to have its income taxed on its active trade or business income at the rate provided in subsection (B)(2) imposed on the qualified entity itself.",
+        "url": "https://www.scstatehouse.gov/code/t12c006.php",
+        "supports": "hasPTETElection: S.C. Code 12-6-545(G)(2) creates the annual entity-level election, and subsection (B)(2) sets the rate at 3 percent after 2013"
+      }
+    ]
+  },
+  "notes": "South Carolina has no recurring franchise-type levy on a default LLC: applies is false. The corporate income tax page says corporations transacting or conducting business in South Carolina must file a Corporate Tax return, and the only franchise-type corporate levy it names is the $25 minimum Corporate License Fee submitted with the CL-1. The Department's own CL-1 instructions say LLCs should complete the CL-1 only if they are taxed as a corporation; a default LLC is routed to Form SC1065 instead. The Department's tax index names corporate, partnership, individual income and the other administered taxes and no franchise tax for LLCs.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 0 for South Carolina because LLCs have no annual report requirement there.\nstateIncomeTax: members of a partnership-classified LLC owe South Carolina individual income tax on their pass-through income; the Department's individual income tax page states a 0 to 6% top rate for tax year 2025. South Carolina offers the Active Trade or Business Income election under S.C. Code 12-6-545(G): a qualified entity, defined to include an LLC taxed as a partnership or S corporation, may elect annually to have the tax at the subsection (B)(2) rate (3 percent after 2013) imposed on the entity itself, and the current I-435 instructions state the 3% flat rate.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "South Carolina Department of Revenue, Corporate Income Tax",
+      "title": "Corporate - Business Income Taxes | SCDOR",
+      "url": "https://dor.sc.gov/business-income-taxes/corporate",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Carolina Department of Revenue, Partnership Income Tax",
+      "title": "Partnership - Business Income Taxes | SCDOR",
+      "url": "https://dor.sc.gov/business-income-taxes/partnership",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Carolina Department of Revenue, Individual Income Tax",
+      "title": "Individual Income Tax | SCDOR",
+      "url": "https://dor.sc.gov/iit",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Carolina Department of Revenue, CL-1 Initial Annual Report of Corporations",
+      "title": "CL-1 (Rev. 8/9/23) Initial Annual Report of Corporations",
+      "url": "https://dor.sc.gov/sites/dor/files/forms/CL1.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Carolina Department of Revenue, I-435 Active Trade or Business Income for Electing Partnerships and S Corporations",
+      "title": "I-435 Active Trade or Business Income for Electing Partnerships and S Corporations",
+      "url": "https://dor.sc.gov/sites/dor/files/forms/I435.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Carolina Code of Laws, Section 12-6-545",
+      "title": "SC Code of Laws Title 12, Chapter 6: Section 12-6-545",
+      "url": "https://www.scstatehouse.gov/code/t12c006.php",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

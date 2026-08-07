@@ -1,0 +1,102 @@
+{
+  "stateName": "Virginia",
+  "stateAbbr": "VA",
+  "stateSlug": "virginia",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Chapter 28. Corporation Charter and Related Fees, and Franchise Taxes. § 58.1-2800. Repealed. Repealed by Acts 1985, c. 470.",
+      "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter28/",
+      "supports": "applies: the only Virginia chapter titled Franchise Taxes now opens with repealed sections; its sole surviving section concerns collection of unpaid bills"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "A tax at the rate of six percent is hereby annually imposed on the Virginia taxable income for each taxable year of every corporation organized under the laws of the Commonwealth and every foreign corporation having income from Virginia sources.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article10/",
+        "supports": "applies: the corporate income tax imposition names corporations as its subjects, and a default LLC is not in that class"
+      },
+      {
+        "quote": "Chapter 28. Corporation Charter and Related Fees, and Franchise Taxes. § 58.1-2800. Repealed. Repealed by Acts 1985, c. 470.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter28/",
+        "supports": "applies: the franchise-tax chapter's imposing sections are repealed, leaving only the collection section"
+      },
+      {
+        "quote": "Except as provided for in this article, owners of pass-through entities shall be liable for tax under this chapter only in their separate or individual capacities on income passed through to the owners of pass-through entities.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article9/",
+        "supports": "applies and passThroughApplies: a default LLC's income is taxed in the owners' individual capacities, with entity-level taxes limited to the enumerated exceptions"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.75,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "\"Pass-through entity\" means any entity, including a limited partnership, a limited liability partnership, a general partnership, a limited liability company, a professional limited liability company, a business trust, or a Subchapter S corporation, that is recognized as a separate entity for federal income tax purposes, in which the partners, members, or shareholders report their share of the income, gains, losses, deductions, and credits from the entity on their federal income tax returns or make the election and pay the tax levied pursuant to § 58.1-390.3 .",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article9/",
+        "supports": "passThroughApplies: the statute's own definition lists a limited liability company among pass-through entities whose owners report the income"
+      },
+      {
+        "quote": "Except as provided for in this article, owners of pass-through entities shall be liable for tax under this chapter only in their separate or individual capacities on income passed through to the owners of pass-through entities.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article9/",
+        "supports": "passThroughApplies: the statute states owners are liable only in their separate or individual capacities on passed-through income"
+      },
+      {
+        "quote": "Five and three-quarters percent on income in excess of $17,000 for taxable years beginning on and after January 1, 1990.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article2/",
+        "supports": "topRatePercent: the individual income tax imposition sets the top marginal rate at five and three-quarters percent"
+      },
+      {
+        "quote": "For taxable years beginning on and after January 1, 2022, a pass-through entity may make an annual election, on its timely filed return pursuant to § 58.1-392 , to pay the tax levied by this section at the entity level for the taxable period covered by such return.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article9/",
+        "supports": "hasPTETElection: Code of Virginia 58.1-390.3 creates the annual entity-level election for pass-through entities"
+      },
+      {
+        "quote": "A tax at the rate of 5.75 percent is hereby annually imposed on the Virginia taxable income, as calculated pursuant to § 58.1-391 but taking into account only the pro rata or distributive share of each item of income, gain, loss, or deduction attributable to eligible owners, for each taxable year of every pass-through entity that makes the election provided under subsection A.",
+        "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article9/",
+        "supports": "hasPTETElection: the elective entity-level tax is imposed at 5.75 percent on an electing pass-through entity"
+      }
+    ]
+  },
+  "notes": "Virginia has no recurring franchise-type levy on a default LLC: applies is false. The only Virginia chapter titled Corporation Charter and Related Fees, and Franchise Taxes (Title 58.1, Chapter 28) now consists of repealed sections; its sole surviving section concerns collection of unpaid bills for registration fees and franchise taxes. The corporate income tax under Code of Virginia 58.1-400 is imposed at 6 percent on every corporation organized under Virginia law and foreign corporations with Virginia-source income, and a default LLC is not a corporation. A default LLC is a pass-through entity under 58.1-390.1 and 58.1-390.2: owners are liable only in their separate or individual capacities on income passed through to them.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 50 for Virginia, the State Corporation Commission's annual registration fee - a filing fee administered by the SCC, not a tax.\nstateIncomeTax: members of a pass-through LLC owe Virginia individual income tax on their distributive shares; the top marginal rate is five and three-quarters percent on income over $17,000 (58.1-320). Virginia offers the pass-through entity tax election under 58.1-390.3: beginning with tax years after January 1, 2022, a pass-through entity may make an annual election on its timely filed return to pay the 5.75 percent tax levied by that section at the entity level, with owners claiming a credit.\nneedsReview: www.tax.virginia.gov was unreachable on the VPN-up route on 2026-08-08 (three measurements at the transport layer; DNS resolves to public Akamai addresses and matches DoH), so the Department of Taxation's own pages could not be read. This record is statute-only from law.lis.virginia.gov; a session on a route where the tax authority answers should re-verify the Department's current pages before publication.",
+  "needsReview": "www.tax.virginia.gov did not connect on the VPN-up route on 2026-08-08 (three transport-layer failures; DNS clean and DoH-consistent, public Akamai addresses). The record is statute-only from law.lis.virginia.gov; reading the Department of Taxation's current pages on a route where the host answers would settle the remaining agency-side verification.",
+  "sources": [
+    {
+      "citation": "Code of Virginia, Title 58.1, Chapter 28 (Corporation Charter and Related Fees, and Franchise Taxes)",
+      "title": "Code of Virginia, Title 58.1, Chapter 28",
+      "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter28/",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Code of Virginia, 58.1-400 (Imposition of tax, corporations)",
+      "title": "Code of Virginia, Article 10, Taxation of Corporations (58.1-400)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article10/",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Code of Virginia, 58.1-390.1 through 58.1-391 (Taxation of Partnerships)",
+      "title": "Code of Virginia, Article 9, Taxation of Partnerships (58.1-390.1 through 58.1-391)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article9/",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Code of Virginia, 58.1-320 (Imposition of tax, individuals)",
+      "title": "Code of Virginia, Article 2, Individual Income Tax (58.1-320)",
+      "url": "https://law.lis.virginia.gov/vacodefull/title58.1/chapter3/article2/",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

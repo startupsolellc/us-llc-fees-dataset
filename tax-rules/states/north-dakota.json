@@ -1,0 +1,116 @@
+{
+  "stateName": "North Dakota",
+  "stateAbbr": "ND",
+  "stateSlug": "north-dakota",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "57-38-66. Business and corporation privilege tax. Repealed by S.L. 1979, ch. 612, § 3.",
+      "url": "https://ndlegis.gov/cencode/t57c38.pdf",
+      "supports": "applies: the income tax chapter itself records the repeal of the old business and corporation privilege tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Every corporation that does business in North Dakota, has sources of income in North Dakota, and/or has federal unrelated business taxable income (UBTI) must file a Form 40 - Corporation Income Tax Return.",
+        "url": "https://www.tax.nd.gov/business/corporate-income-tax",
+        "supports": "applies: the corporate income tax return belongs to corporations, not to a default LLC"
+      },
+      {
+        "quote": "North Dakota Income Tax Types: Corporate Income Tax Fiduciary Tax Individual Income Tax S Corp and Partnership Tax",
+        "url": "https://www.tax.nd.gov/income-tax",
+        "supports": "applies: the Office of State Tax Commissioner's own income-tax index names four tax types and no franchise tax"
+      },
+      {
+        "quote": "57-38-66. Business and corporation privilege tax. Repealed by S.L. 1979, ch. 612, § 3.",
+        "url": "https://ndlegis.gov/cencode/t57c38.pdf",
+        "supports": "applies: N.D.C.C. 57-38-66, the business and corporation privilege tax, was repealed in 1979"
+      },
+      {
+        "quote": "Limited Liability Company (LLC)- An LLC that is taxed like a partnership or S corporation for federal income tax purposes is treated in the same manner for North Dakota income tax purposes.",
+        "url": "https://www.tax.nd.gov/business/s-corp-and-partnership-tax",
+        "supports": "applies and passThroughApplies: a default LLC is treated as a pass-through entity for North Dakota income tax purposes"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 2.5,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "A passthrough entity is a type of business structure that allows the income, deductions, and credits of the business to \"pass through\" to the individual owners or partners, who then report this income on their personal tax returns. This means that the entity itself does not pay federal income tax; instead, the owners are taxed at their individual income tax rates.",
+        "url": "https://www.tax.nd.gov/business/s-corp-and-partnership-tax",
+        "supports": "passThroughApplies and hasPTETElection: the Office of State Tax Commissioner's own page states the entity does not pay the income tax and the owners are taxed individually"
+      },
+      {
+        "quote": "Limited Liability Company (LLC)- An LLC that is taxed like a partnership or S corporation for federal income tax purposes is treated in the same manner for North Dakota income tax purposes.",
+        "url": "https://www.tax.nd.gov/business/s-corp-and-partnership-tax",
+        "supports": "passThroughApplies: the LLC is routed to the partnership or S corporation treatment"
+      },
+      {
+        "quote": "Over But not over Tax Rate $0 $48,475 0.00% $48,475 $244,825 1.95% $244,825 2.50%",
+        "url": "https://www.tax.nd.gov/individual-income-tax",
+        "supports": "topRatePercent: the Department's 2025 single-filer rate table tops out at 2.50%"
+      },
+      {
+        "quote": "Composite return. Fill in this circle only if (1) the partnership has one or more nonresident partners eligible to be included in a composite filing and (2) all of them elected to include their distributive shares of North Dakota source income in a composite filing.",
+        "url": "https://www.tax.nd.gov/sites/www/files/documents/forms/software-developer/partnership-forms/2025-partnership-income-tax-instructions.pdf",
+        "supports": "hasPTETElection: the only entity-level filing election the current Form 58 instructions name is composite reporting for nonresident partners, not an entity-level income tax election"
+      }
+    ]
+  },
+  "notes": "North Dakota has no recurring franchise-type levy on a default LLC: applies is false. The corporate income tax page says every corporation doing business in North Dakota or with North Dakota-source income must file Form 40, and the Office of State Tax Commissioner's income-tax index names exactly four tax types: corporate income, fiduciary, individual income, and S corporation and partnership tax. The state's old business and corporation privilege tax was repealed in 1979 (N.D.C.C. 57-38-66), and the current chapter contains no franchise or privilege tax imposition.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 50 for North Dakota, the Secretary of State's annual report filing fee - a separate payment with no tax to overlap.\nstateIncomeTax: a default LLC is treated in the same manner as a partnership or S corporation for North Dakota income tax purposes, and the Office of State Tax Commissioner's own page says the entity itself does not pay the income tax; the owners report the income on their personal returns. The 2025 individual income tax rate table tops out at 2.50%.\nhasPTETElection is false as of 2026-08-08. No pass-through entity tax election appears in N.D.C.C. chapter 57-38 (the current chapter PDF contains no elective entity-level income tax provision), and the 2025 Form 58 instructions name only the composite-return election for nonresident partners and the passthrough withholding exemption. The record grounds the negative on the agency's flow-through statement and the Form 58 instructions rather than on a silence.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "North Dakota Office of State Tax Commissioner, Corporate Income Tax",
+      "title": "Corporate Income Tax - Office of State Tax Commissioner",
+      "url": "https://www.tax.nd.gov/business/corporate-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Office of State Tax Commissioner, Income Tax",
+      "title": "Income Tax - Office of State Tax Commissioner",
+      "url": "https://www.tax.nd.gov/income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Office of State Tax Commissioner, S Corp and Partnership Tax",
+      "title": "S Corp and Partnership Tax - Office of State Tax Commissioner",
+      "url": "https://www.tax.nd.gov/business/s-corp-and-partnership-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Office of State Tax Commissioner, Individual Income Tax",
+      "title": "Individual Income Tax - Office of State Tax Commissioner",
+      "url": "https://www.tax.nd.gov/individual-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Century Code, Title 57, Chapter 38 (Income Tax)",
+      "title": "N.D.C.C. Title 57, Chapter 38 (Income Tax)",
+      "url": "https://ndlegis.gov/cencode/t57c38.pdf",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Office of State Tax Commissioner, 2025 Partnership Income Tax Instructions (Form 58)",
+      "title": "2025 Partnership Income Tax Instructions (Form 58)",
+      "url": "https://www.tax.nd.gov/sites/www/files/documents/forms/software-developer/partnership-forms/2025-partnership-income-tax-instructions.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

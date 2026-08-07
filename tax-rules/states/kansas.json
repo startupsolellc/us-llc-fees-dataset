@@ -1,0 +1,121 @@
+{
+  "stateName": "Kansas",
+  "stateAbbr": "KS",
+  "stateSlug": "kansas",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "There is no Kansas franchise tax for tax year 2011 and after.",
+      "url": "https://www.ksrevenue.gov/bustaxtypesfranchise.html",
+      "supports": "applies: the Department of Revenue's own franchise tax page states the tax does not exist for tax year 2011 and after"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "There is no Kansas franchise tax for tax year 2011 and after.",
+        "url": "https://www.ksrevenue.gov/bustaxtypesfranchise.html",
+        "supports": "applies: the Department's own page states the franchise tax ended with tax year 2010"
+      },
+      {
+        "quote": "Privilege tax is an income tax paid by financial institutions.",
+        "url": "https://www.ksrevenue.gov/bustaxtypespriv.html",
+        "supports": "applies: the only Kansas privilege tax the Department describes is imposed on financial institutions, not on a default LLC"
+      },
+      {
+        "quote": "Corporate income tax is assessed against every corporation doing business in Kansas or deriving income from sources within Kansas.",
+        "url": "https://www.ksrevenue.gov/bustaxtypescorp.html",
+        "supports": "applies: the corporate income tax's subject class is corporations, and a default LLC is not in it"
+      },
+      {
+        "quote": "A tax is hereby imposed upon the Kansas taxable income of every corporation doing business within this state or deriving income from sources within this state.",
+        "url": "https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html",
+        "supports": "applies: K.S.A. 79-32,110(c) imposes the corporate income tax on corporations"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.58,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "S corporations are generally exempt from tax. Each shareholder includes the income, or loss, from the S corporation on his or her income tax return.",
+        "url": "https://www.ksrevenue.gov/bustaxtypessubs.html",
+        "supports": "passThroughApplies: the Department's Small Business/Sub-S page states the shareholders, not the entity, report the income"
+      },
+      {
+        "quote": "For tax year 2024, and all tax years thereafter: If the taxable income is: The tax is: Not over $46,000 5.2% of Kansas taxable income Over $46,000 $2,392 plus 5.58% of excess over $46,000",
+        "url": "https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html",
+        "supports": "topRatePercent: K.S.A. 79-32,110(a)(1)(B) sets the top individual rate at 5.58% for tax year 2024 and later"
+      },
+      {
+        "quote": "The SALT Parity Act allows electing pass-through entities to avoid the state and local tax or SALT deduction limitation for individuals at the federal level.",
+        "url": "https://www.ksrevenue.gov/bustaxtypessubs.html",
+        "supports": "hasPTETElection: the Department's own Small Business/Sub-S page describes the electing pass-through entity election"
+      },
+      {
+        "quote": "N - Mark this box if electing to be subject to tax at the entity level.",
+        "url": "https://www.ksrevenue.gov/pdf/k-120s25booklet.pdf",
+        "supports": "hasPTETElection: the 2025 K-120S instructions provide the entity-level election box"
+      },
+      {
+        "quote": "Electing pass-through entity income tax due (5.58% of line 31)",
+        "url": "https://www.ksrevenue.gov/pdf/k-120s25booklet.pdf",
+        "supports": "hasPTETElection: the 2025 K-120S instructions state the electing pass-through entity income tax is 5.58% of the electing partners' taxable income"
+      }
+    ]
+  },
+  "notes": "Kansas has no recurring franchise-type levy on a default LLC: applies is false. The Department of Revenue's franchise tax page states in terms that there is no Kansas franchise tax for tax year 2011 and after, and explains the pre-2011 tax and its rate schedule as history. The only remaining privilege tax is an income tax paid by financial institutions, and the corporate income tax under K.S.A. 79-32,110(c) is imposed on every corporation doing business in Kansas, not on a default LLC.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 53 for Kansas, the Secretary of State's annual report filing fee - a separate payment with no tax to overlap. The pre-2011 franchise-tax page notes the old combined franchise tax and Secretary of State filing fee were due with the annual report; the franchise tax half no longer exists.\nstateIncomeTax: a default LLC is a flow-through entity under Kansas law: the Department's Small Business/Sub-S page says S corporations are generally exempt from tax and each shareholder includes the income on his or her income tax return, and partnerships and LLCs file Form K-120S. Individual income tax rates for tax year 2024 and later are 5.2% up to the bracket threshold and 5.58% above it (K.S.A. 79-32,110(a)(1)(B)); the 2025 K-40 booklet confirms the same two rates.\nhasPTETElection is true: the SALT Parity Act allows electing pass-through entities to pay Kansas income tax at the entity level, and the 2025 K-120S instructions provide the election and compute the electing pass-through entity income tax at 5.58% of the electing partners' taxable income, with members claiming the Kansas Tax @ 5.58% credit on Form K-40.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Kansas Department of Revenue, Franchise Tax",
+      "title": "Franchise Tax - Kansas Department of Revenue",
+      "url": "https://www.ksrevenue.gov/bustaxtypesfranchise.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Department of Revenue, Privilege Tax",
+      "title": "Privilege Tax - Kansas Department of Revenue",
+      "url": "https://www.ksrevenue.gov/bustaxtypespriv.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Department of Revenue, Corporate Income",
+      "title": "Corporate Income - Kansas Department of Revenue",
+      "url": "https://www.ksrevenue.gov/bustaxtypescorp.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Department of Revenue, Small Business/Sub-S (SALT Parity Act)",
+      "title": "Small Business/Sub-S - Kansas Department of Revenue",
+      "url": "https://www.ksrevenue.gov/bustaxtypessubs.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Department of Revenue, 2025 K-120S Partnership or S Corporation Income Tax Form and Instructions",
+      "title": "2025 Partnership or S Corporation Income Tax Form and Instructions (K-120S)",
+      "url": "https://www.ksrevenue.gov/pdf/k-120s25booklet.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Statutes Annotated, 79-32,110",
+      "title": "K.S.A. 79-32,110 Tax imposed; classes of taxpayers; schedules of tax rates",
+      "url": "https://ksrevisor.gov/statutes/chapters/ch79/079_032_0110.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
