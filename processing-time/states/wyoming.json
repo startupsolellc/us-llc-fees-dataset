@@ -1,0 +1,92 @@
+{
+  "stateName": "Wyoming",
+  "stateAbbr": "WY",
+  "stateSlug": "wyoming",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": false,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": true,
+    "tiers": [
+      {
+        "tierName": "Expedited Filing Service - Same Business Day",
+        "turnaround": "Same-Day Service",
+        "feeUsd": 1400,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Must be received by 12:00 noon MT on a business day",
+        "channels": null,
+        "note": "The most expensive tier in this namespace by a wide margin - Pennsylvania's $1,000 same-day was the previous ceiling. The state names it twice and not identically: the Filing Fee Schedule prints 'Expedited Filing Service - Same Business Day..............................................$1,400.00' in its Other block, while the instruction sheet that the FAQ links calls it 'Same-Day Service' and is the only document carrying the cut-off hour, so tierName takes the published schedule's wording and turnaround takes the instruction sheet's. channels is null because the two routes the state names have no slot in the enumeration and a subset would misstate it: 'In person at the Secretary of State's office; or By email to expedite@wyo.gov, using a PAD account with sufficient funds.' Email submission requires a Prepaid Account Deposit funded in advance, and the request must carry a completed, signed Expedited Filing Cover Form and a subject line in a prescribed format.",
+        "evidence": {
+          "quote": "Service Tiers and Fees • Same-Day Service: $1,400.00 per document. Must be received by 12:00 noon MT on a business day.",
+          "url": "https://sos.wyo.gov/Business/Docs/HowToRequestAnExpeditedFiling.pdf"
+        }
+      },
+      {
+        "tierName": "Expedited Filing Service - Next Business Day",
+        "turnaround": "Next-Business-Day Service",
+        "feeUsd": 700,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Must be received by 5:00 p.m. MT on a business day",
+        "channels": null,
+        "note": "Half the same-day price and a later cut-off - 5:00 p.m. against noon, so the slower tier accepts work for the whole business day. Same naming split as the tier above ('Expedited Filing Service - Next Business Day' on the fee schedule, 'Next-Business-Day Service' on the instruction sheet) and the same two submission routes.",
+        "evidence": {
+          "quote": "• Next-Business-Day Service: $700.00 per document. Must be received by 5:00 p.m. MT on a business day.",
+          "url": "https://sos.wyo.gov/Business/Docs/HowToRequestAnExpeditedFiling.pdf"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": {
+      "min": 0,
+      "max": 15
+    },
+    "statement": "P rocessing time is up to 15 business days following the date of receipt in our office.",
+    "sourceUrl": "https://sos.wyo.gov/Forms/Business/LLC/LLC-ArticlesOrganization.pdf",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "The Colorado shape - a tier that exists and cannot be bought for this filing - stated by the state itself rather than inferred, and wrapped in a documented contradiction between two of the office's own papers. What Wyoming sells: two tiers, Same-Day at $1,400.00 and Next-Business-Day at $700.00, both 'per document and ... in addition to any standard statutory filing fees', both requiring a signed Expedited Filing Cover Form, and both available only in person or by email against a prepaid account. What it will not sell them for is an LLC formation. The instruction sheet's exclusion list is explicit and names the filing type: 'Not Eli gible: • Filings that can be completed online (e.g., annual reports, initial formations, UCC/EFS filings)'. An initial formation is exactly what this namespace is about, so offered is true and appliesToLlcFormation is false - the same pair Colorado carries, arrived at from the opposite direction. Colorado's $150 sits in a Paper column and LLC formation has no paper route; Wyoming's tiers are open to paper and mail filings and formation is excluded precisely because it can be done online. Two other fields are answered outright rather than inferred, which is rare here. feeIsPerDocument is true on the sheet's own sentence, 'Fees for this service are per document'. chargedIfRejected is true, and Wyoming is the sharpest statement of it in the namespace: 'Expedited service guarantees priority examination of your document within the committed time period, but it does not guarantee approval or acceptance of the filing. If the filing is rejected and not corrected, the expedited fee is nonrefundable. The fee compensates for priority examination.' That is the North Carolina model stated in full - what is bought is a decision, not an acceptance - and it names the consideration explicitly. The contradiction, and it is not the West Virginia kind. Three current documents describe the service: the Filing Fee Schedule (revised June 2026, effective July 1st, 2026), the instruction sheet (revised June 2026), and the Business FAQ, which answers 'Q. Can I expedite my filing?' with 'Expedited filing review is available for most documents with some exclusions.' A fourth, the LLC Articles of Organization instruction sheet still linked from the Forms page today, says the opposite in the state's own voice: 'W yoming statutes do not allow for expedited filing at this time. Your filing will be processed in the order it is received.' That sheet is stamped 'LLC-ArticlesOrganizationInstructions - Revised May 2022' and the form itself 'Revised June 2021', four to five years older than the other three, so this is staleness rather than a live disagreement between equally current documents, and the resolution is to take the June 2026 documents and record the older sentence rather than quietly drop it - a reader who finds it should not have to re-derive why it is wrong. Note what it means for the sequence of events: expedited filing in Wyoming is new, and its schedule took effect on 2026-07-01, five weeks before this record. On the statute: there is none for these fees, and the closest thing to one cuts the other way. A full-text read of Wyoming Statutes title 17 finds 'expedited' only in judicial-procedure provisions (the district court disposing of an inspection application 'on an expedited basis' in the corporation, nonprofit and LLC acts) and nowhere in a fee section. The LLC act's own fee section, W.S. 17-29-210(a), lists four charges by amount - $100.00 for the original articles of organization, $60.00 to amend, the annual fee, $150.00 for a foreign certificate of authority - and then (iv), the residual clause these tiers must rest on: 'Filing, service and copying fees for those services provided by his office for which a fee is not otherwise established. A fee shall not exceed the cost of providing the service.' So the authority is a cost-recovery power, not a priced schedule and not a ceiling expressed in dollars the way West Virginia's § 59-1-2(k) is. This record does not draw a conclusion from that; it records that the $1,400 and $700 are agency-set under a clause worded as cost recovery, because a later session comparing Wyoming with Idaho (both tiers in the statute) or Oklahoma (no statute at all) will want to know which of the three shapes this is, and it is a fourth. On standardProcessing: the 15 business days comes from the same May 2022 instruction sheet, and it is the only turnaround Wyoming publishes for an ordinary LLC filing anywhere reachable - the fee schedule, the FAQ set, the Forms page, the Business Division home and the wyobiz portal pages all carry none. mailBusinessDays is filled and onlineBusinessDays is not, because the sentence sits under the sheet's heading 'You're Ready to Mail in Your Documents!' with two other mail-route bullets; the channel comes from that block, not from the sentence, and saying so here is the point. The quotation reproduces the extractor's artefact, 'P rocessing', rather than tidying it, because the check compares against the same extraction. Treat the figure with the same caution the record gives the rest of that sheet: it is published, current on the state's website, and dated four years before the office started selling speed.",
+  "needsReview": "Three things. (1) The 15-business-day figure and the sentence denying that expedited filing exists come from the same May 2022 document, so the turnaround is published but old; a session that can reach a staffed channel should ask the Business Division whether it still holds now that the June 2026 expedite program is running. (2) The wyobiz queue page could not be found. The LLC instruction sheet says 'You can visit our website at http://wyobiz.wyo.gov to see what day is currently being processed', but no page on that host reachable this session publishes a processed-through date - Default.aspx, FilingSearch.aspx, AnnualReport.aspx and the sos.wyo.gov Questions and Answers page were all read. If that page still exists it would give Wyoming a queue-date basis, which is stronger than the stated range now recorded. (3) The logged-in online formation flow on wyobiz was not opened; it is the one place an online-only priority option could appear, and it matters more here than usual because online formation is the very route the expedite exclusion points filers to.",
+  "sources": [
+    {
+      "citation": "Wyoming Secretary of State",
+      "title": "How to Request an Expedited Filing (revised June 2026) - the service tiers and fees ($1,400.00 same-day by 12:00 noon MT, $700.00 next-business-day by 5:00 p.m. MT), the per-document unit, the eligibility list and the exclusion of filings that can be completed online including initial formations, the cover form and submission routes, and the nonrefundable-on-rejection rule",
+      "url": "https://sos.wyo.gov/Business/Docs/HowToRequestAnExpeditedFiling.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Wyoming Secretary of State",
+      "title": "Business Division Filing Fee Schedule, effective July 1st, 2026 (revised June 2026) - every fee the division collects; the LLC block ($100.00 articles of organization) and the Other block, which prints 'Expedited Filing Service - Same Business Day $1,400.00' and 'Expedited Filing Service - Next Business Day $700.00'",
+      "url": "https://sos.wyo.gov/Business/docs/BusinessFees.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Wyoming Secretary of State",
+      "title": "Limited Liability Company Articles of Organization with instructions (form revised June 2021, instructions revised May 2022) - the $100.00 filing fee, the 15-business-day processing time for mailed documents, and the superseded statement that Wyoming statutes do not allow for expedited filing",
+      "url": "https://sos.wyo.gov/Forms/Business/LLC/LLC-ArticlesOrganization.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Wyoming Secretary of State",
+      "title": "FAQs - Business - answers 'Q. Can I expedite my filing?' with 'Expedited filing review is available for most documents with some exclusions.' and links the instruction sheet",
+      "url": "https://sos.wyo.gov/FAQS.aspx?root=BUS",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Wyoming Statutes",
+      "title": "Wyoming Statutes title 17, Corporations, Partnerships and Associations (LSO compiled title PDF) - read in full for expedited-service provisions; W.S. 17-29-210(a) is the LLC fee section, whose subsection (iv) is the only authority for an unlisted fee and caps it at the cost of providing the service, and every occurrence of 'expedited' in the title is a judicial-procedure provision",
+      "url": "https://wyoleg.gov/statutes/compress/title17.pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

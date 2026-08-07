@@ -1,0 +1,63 @@
+{
+  "stateName": "Tennessee",
+  "stateAbbr": "TN",
+  "stateSlug": "tennessee",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "Domestic Limited Liability Companies (LLC) Application for Name Reservation ( PDF , 260.8KB ) SS-9425 $20 Notice of Cancellation or Transfer of Reserved Name ( PDF , 262.6KB ) SS-4406 $20 Notice of Cancellation or Transfer of Reserved Name ( PDF , 262.6KB ) SS-4406 $20 Articles of Organization Limited Liability Company ( PDF , 294.3KB ) SS-4270 $300* Amended and Restated Articles of Organization Limited Liability Company ( PDF , 307.1KB ) SS-4701 $20 Articles of Organization Nonprofit Limited Liability Company ( PDF , 281.4KB ) SS-4271 $300* Amended and Restated Articles of Organization Nonprofit LLC ( PDF , 376.9KB ) SS-4702 $20 Certificate of Formation ( PDF , 45.8KB ) SS-4232 $20 Obligated Member Entity Addendum Limited Liability ( PDF , 245.1KB ) SS-4600 No Fee Application for Reinstatement Following Administrative Dissolution/Revocation ( PDF , 247.1KB ) SS-9410 $70 Articles of Amendment to Articles of Organization ( PDF , 280.7KB ) SS-4247 $20 Articles of Amendment to LLC Articles of Organization ( PDF , 289.0KB ) SS-4451 $20 Change of Business Information ( PDF , 245.6KB ) SS-4800 No Fee Application for Registration of Assumed Name ( PDF , 261.3KB ) SS-4402 $20 Articles of Correction ( PDF , 247.5KB ) SS-4242 $20 Application for Change or Cancellation of Assumed Limited Liability Company Name ( PDF , 379.0KB ) SS-4229 $20 Application for Renewal of Registration Assumed Name ( PDF , 261.8KB ) SS-4481 $20 Statement of Change of Registered Agent/Office by Entity or Agent ( PDF , 270.5KB ) SS-4534 $20 Statement of Resignation of Registered Agent ( PDF , 262.4KB ) SS-4420 $20 Written Consent for Use of Indistinguishable Name ( PDF , 280.6KB ) SS-9411 $20 Articles of Termination by the Organizers ( PDF , 190.2KB ) SS-4244 $20 Notice of Dissolution ( PDF , 204.5KB ) SS-4246 $20 Revocation of Dissolution ( PDF , 161.9KB ) SS-4250 $20 Articles of Termination of Existence ( PDF , 265.0KB ) SS-4245 $20 Articles of Termination Following Administrative Dissolution ( PDF , 154.8KB ) SS-4243 $100 Written Consent to Termination ( PDF , 181.3KB ) SS-4521 No Fee Request for a Certificate or Request for Certified Copies ( PDF , 258.0KB ) SS-4461 $20*",
+      "url": "https://sos.tn.gov/businesses/services/business-forms-fees"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "The Nebraska shape - an evidenced no whose strongest single piece is the office's own site search returning nothing - laid over the Kansas shape, a complete fee list with one money column. Business Forms & Fees is the Business Services Division's whole price list, organised by entity type and printing every form the office accepts with its form number and its fee. The domestic LLC block runs from the name reservation through the articles of organization at $300*, the amendments, the agent filings, the terminations and the certified-copy request at $20*, and there is no second money column and no expedited-service line in it or in any other entity block on the page. The two footnotes the table does carry are about the fee's size, not its speed: '*Additional Fees May Apply' marks the filings that scale (the LLC's $300 is a floor - the form prices it at '$50.00 per member in existence on the date of the filing, with a minimum fee of $300.00 and a maximum fee of $3,000.00'), and '+Additional Form Fee' marks conversions that carry the destination entity's own filing fee. Then the general form of the negative: the Secretary of State's site-wide full-text search answers 'Your search yielded no results.' for expedite and, run separately, for expedited. That covers every page of sos.tn.gov, not just the business pages, so the office does not use the word anywhere - which is a stronger statement than any single silent page, and it is the same instrument that closed Nebraska. The filer-facing document agrees in detail. Form SS-4270 (rev. 01/25) sets out all three ways an LLC's articles may reach the office - E-File through TNCaB, Mail, and Walk-In at the customer service counter - and then a Filing Fee section that accounts for every charge attaching to the filing: the per-member fee with its floor and ceiling, and a convenience fee for paying by card or e-check that the instructions describe as covering transaction costs, which is a channel surcharge and not a purchased turnaround. Nothing on the form, on the counter route, or in the portal offers to move a filing forward for money. On standardProcessing: isPublished is false. Tennessee states no turnaround for a business filing anywhere reachable. The forms and fees page carries none, the LLC form's instructions carry none, the eighteen business FAQs never raise the subject, and a site search for 'processing time' returns only Library and Archives pages about manuscript processing and land grants. TNCaB, the filing system, is login-gated past its front page and its published instructions say only 'You will receive an email once we have processed your Annual Report' - a notification promise with no clock attached. One thing that could not be read at all, and it is a structural limit rather than a network one: Tennessee publishes no free official copy of its code. The Secretary of State's own footer link for 'Tennessee Code Unannotated' points at lexisnexis.com, so the fee statute behind these figures is reachable only through a commercial publisher, which this namespace does not accept as a source for a value, as corroboration, or as a lead. The finding therefore rests entirely on the agency's own documents, which is unusual here - most no records in this namespace are anchored by an exhaustive fee statute - and the record says so rather than implying a statutory reading it does not have. Reachability worth recording: sos.tn.gov answered every request normally on the vpn-off route, including the PDFs on sos-prod.tnsosgovfiles.com. Both hosts are recorded elsewhere in this project as refusing scripted clients, and in the Secretary of State's case as refusing even a real browser; both observations were made on the other route and neither held today.",
+  "needsReview": "The statutory side is unread and cannot be read on this namespace's sourcing rules: Tennessee publishes no free official code, and the Secretary of State's own link for the Tennessee Code Unannotated goes to a commercial publisher, so T.C.A. title 48 chapter 249 part 10, the LLC fee part, was not opened. The enacted acts on www.capitol.tn.gov are official and readable, but an act is not a code and reconstructing the current fee part from its amendment history was out of scope for this batch; a later session wanting statutory confirmation should do that rather than open a mirror. Also unread is the logged-in TNCaB checkout, the one place an unadvertised expedited option would appear, and the counter service at Snodgrass Tower, where an Oklahoma-shaped same-day practice with no published price could exist.",
+  "sources": [
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Business Forms & Fees - the Business Services Division's complete price list by entity type; the domestic LLC block prices every filing in a single fee column, articles of organization at $300*, with no expedited-service line and no second money column",
+      "url": "https://sos.tn.gov/businesses/services/business-forms-fees",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Articles of Organization Limited Liability Company, form SS-4270 (rev. 01/25) with filing instructions - the three submission routes (E-File, Mail, Walk-In), the $50.00 per member fee with its $300 floor and $3,000 ceiling, and the card and e-check convenience fee; no expedited option and no processing time",
+      "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4270%20LLC_0.pdf?VersionId=SHQcvmBKLxqwiWe3Ficu3Iv3gOHscm6X",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Site-wide full-text search for 'expedite' - 'Your search yielded no results.'; the same search for 'expedited' returns the same",
+      "url": "https://sos.tn.gov/search/node?keys=expedite",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "TNCaB, Tennessee's Charity and Business Filing System - the office's only online filing route; front page read in full, no expedited service and no processing time, and the filing flow itself is behind an account",
+      "url": "https://tncab.tnsos.gov/",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Tennessee Secretary of State",
+      "title": "Business Services FAQs - eighteen questions on business filings, liens and fiduciaries; neither expedited service nor processing time comes up",
+      "url": "https://sos.tn.gov/businesses/faqs",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

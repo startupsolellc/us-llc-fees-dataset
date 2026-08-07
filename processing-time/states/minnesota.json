@@ -1,0 +1,93 @@
+{
+  "stateName": "Minnesota",
+  "stateAbbr": "MN",
+  "stateSlug": "minnesota",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "In Person (Appointment Required)",
+        "turnaround": "expedited and processed while you wait",
+        "feeUsd": 20,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "in-person"
+        ],
+        "note": "Minnesota does not sell speed as a line item; it sells it as a channel, and the fee schedule says so in the state's own voice - 'Filings submitted at our customer counter (by appointment) are expedited and processed while you wait. Customers will leave with their filed documents in hand.' tierName is the fee table's own column heading. The evidence quotation here is the statute rather than that sentence because the statute is where the $20 is stated as a number; the sentence itself is carried in standardProcessing.statement, which puts it under the same quotation check. An appointment is required but no clock hour is published, so cutoff is null. This is the fastest tier in the namespace that is not priced in the hundreds: Louisiana's while-you-wait service is $50, West Virginia's one-hour is $500, Wyoming's same-day is $1,400.",
+        "evidence": {
+          "quote": "5.14 TRANSACTION SURCHARGE. The secretary of state may impose a surcharge of $20 on each transaction involving expedited service that is provided by the Office of the Secretary of State.",
+          "url": "https://www.revisor.mn.gov/statutes/cite/5.14"
+        }
+      },
+      {
+        "tierName": "Online",
+        "turnaround": "expedited, typically processed within 2-5 business days",
+        "feeUsd": 20,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "online"
+        ],
+        "note": "The odd one in this namespace: an online channel that is both the expedited option and the slow one. It costs the same $20 as the counter and buys 'typically processed within 2-5 business days' against the counter's while-you-wait, and the state still classes it as expedited because the comparison is with mail, which is 'non-expedited, first-come, first-served' and carries no published time at all. The fee table qualifies the channel rather than the price - 'not all filings are eligible for in-person or online submission' - and the LLC's articles of organization are eligible, priced $155.00 online against $135.00 by mail.",
+        "evidence": {
+          "quote": "5.14 TRANSACTION SURCHARGE. The secretary of state may impose a surcharge of $20 on each transaction involving expedited service that is provided by the Office of the Secretary of State.",
+          "url": "https://www.revisor.mn.gov/statutes/cite/5.14"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Mail Submissions: Filings submitted by mail are processed on a non-expedited, first-come, first-served basis. Completed filings will be returned to the address listed on the check unless specific return instructions are provided or a return envelope is included. In-Person Submissions: Filings submitted at our customer counter (by appointment) are expedited and processed while you wait. Customers will leave with their filed documents in hand. Online Submissions: Eligible filings submitted online are expedited, typically processed within 2-5 business days, and the completed documents are delivered via email.",
+    "sourceUrl": "https://www.sos.mn.gov/business-liens/business-forms-fees/business-filing-and-certification-fee-schedule/",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "The Massachusetts question - is a charge that varies by channel really a purchased turnaround - asked of a state that answers it the other way. Minnesota prices the same filing three times - articles of organization at $135.00 by mail, $155.00 online, $155.00 in person - and the first instinct is to call the $20 gap a channel surcharge and record no tier. It is not one, and the state settles it twice over. First it says outright which channels are the paid service: the fee schedule's own preamble calls mail 'non-expedited, first-come, first-served' and calls the other two 'expedited', attaching a turnaround to each ('processed while you wait' at the counter, 'typically processed within 2-5 business days' online). Massachusetts never attached a turnaround to anything, which is exactly why its charge was not a tier. Second, the $20 is a statutory expedite fee with its own section: Minn. Stat. § 5.14, headed TRANSACTION SURCHARGE, provides that 'The secretary of state may impose a surcharge of $20 on each transaction involving expedited service that is provided by the Office of the Secretary of State.' So the gap in the table is not a derived number - the statute states $20 and the table's differential is $20 on every LLC row that has one ($135/$155 formation, $35/$55 amendment, $65/$85 reinstatement). The identification of the two is the one inference in this record and it is stated here rather than hidden in a field. What the state publishes as totals, this record publishes as the surcharge, which is the convention Arizona set: where a state prints both forms, the tier carries the surcharge, not the total. appliesToLlcFormation is true and read off the table rather than inferred: the block headed 'Limited Liability Company (Domestic) - Chapter 322C' prices 'Articles of Organization - Original Filing' in all three columns, so both expedited channels are open to the formation filing. feeIsPerDocument is null on a mismatch of units rather than on silence. The statute prices the surcharge per transaction - 'each transaction involving expedited service' - while the fee table prices it per filing type, adding $20 to each row independently; nothing found says whether two filings submitted together in one online session are one transaction or two, and the two readings differ in price for anyone filing more than one document at a time. chargedIfRejected is null because nothing addresses refunds. On standardProcessing: isPublished is false even though statement is populated, which is a first in this namespace and deliberate. Minnesota publishes no processing time for the non-expedited route - mail gets an order of service, 'first-come, first-served', and no duration anywhere - so isPublished false is the literal reading of the field. The statement is carried anyway because the paragraph is the single most important passage in this record: it is what makes the $20 a tier rather than a surcharge, and it contains the trap. The only two times on the page belong to the paid channels, so lifting 2-5 business days into a standard-processing field would be the right words from the wrong product - the same shape Texas has, where the one duration published is the expedite tier's own. Alabama is the near precedent for a statement with no parsable duration and it went the other way, isPublished true, because its sentence at least described a speed; Minnesota's describes only a queue discipline. Retrieval, and this one has to be visible: www.sos.mn.gov sits behind Radware bot protection that answered the first requests of the session normally and then began serving a captcha page and redirecting to validate.perfdrive.com, including to the plain client the quotation checker uses. The fee schedule was therefore retrieved by curl with a full browser header set on 2026-08-07, that response stored as a text snapshot, and the quotation checked against the snapshot rather than against a live re-fetch - the procedure this project keeps for hosts that refuse a scripted client, and a weaker guarantee than every other quotation in this batch. A later session on a friendlier route should re-run the check live and retire the snapshot. The statute quotation is not affected: revisor.mn.gov answers the checker's own client normally.",
+  "needsReview": "Three open items. (1) The fee schedule quotation is snapshot-verified, not live-verified, because www.sos.mn.gov's Radware protection began refusing scripted clients partway through the session; retire the snapshot by re-running the check when the host is friendly. (2) feeIsPerDocument is unresolved between the statute's per-transaction wording and the fee table's per-filing structure; the place that would settle it is the checkout in the online filing system, mblsportal.sos.mn.gov, which was not opened. (3) Nothing found states whether the $20 is retained when a filing is rejected, and the office publishes no processing time for the mail route at all - the second is recorded as isPublished false rather than as an unresearched null.",
+  "sources": [
+    {
+      "citation": "Minnesota Secretary of State",
+      "title": "Business Filing and Certification Fee Schedule - the office's complete fee table by entity type with three price columns (By Mail, Online, In Person), the preamble classing mail as non-expedited and the other two as expedited with a turnaround each, and the domestic LLC block pricing Articles of Organization - Original Filing at $135.00 / $155.00 / $155.00. Read by curl with a full browser header set and quoted against a stored snapshot of that response; the host refuses the checker's plain client",
+      "url": "https://www.sos.mn.gov/business-liens/business-forms-fees/business-filing-and-certification-fee-schedule/",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minnesota Statutes",
+      "title": "Minn. Stat. § 5.14, Transaction surcharge - the whole section; a $20 surcharge on each transaction involving expedited service provided by the Office of the Secretary of State",
+      "url": "https://www.revisor.mn.gov/statutes/cite/5.14",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minnesota Statutes",
+      "title": "Minn. Stat. § 5.12, Certificates and certifications - the copy and certification fees ($5 certification, $3 per copy or image); read to confirm the expedite surcharge is not here and that this section prices records rather than filings",
+      "url": "https://www.revisor.mn.gov/statutes/cite/5.12",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minnesota Statutes",
+      "title": "Minn. Stat. § 322C.0205, Filing of records with secretary of state; effective time and date - the delivery and filing-fee requirement for LLC records ('the filing fee of $35 or any filing fee specified in this chapter'); no expedited-service provision in the LLC act",
+      "url": "https://www.revisor.mn.gov/statutes/cite/322C.0205",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Minnesota Secretary of State",
+      "title": "Business Forms & Fees - the division's index of per-entity form and fee pages, including the Minnesota Limited Liability Company Forms page; read to locate the fee schedule",
+      "url": "https://www.sos.mn.gov/business-liens/business-forms-fees/",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

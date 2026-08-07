@@ -1,0 +1,63 @@
+{
+  "stateName": "Kansas",
+  "stateAbbr": "KS",
+  "stateSlug": "kansas",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "(a) The secretary of state shall charge each domestic and foreign limited liability company the following fees: (1) A fee of $20 for issuing or filing and indexing any of the following documents: (A) A certificate of amendment of articles of organization; (B) restated articles of organization; (C) a certificate of cancellation, which shall be multiplied by the number of series of the limited liability company named in the certificate of cancellation; (D) a certificate of change of location of registered office or resident agent; (E) a certificate of merger or consolidation; (F) a certificate of division; and (G) any certificate, affidavit, agreement or any other paper provided for in the Kansas revised limited liability company act, for which no different fee is specifically prescribed; (2) a fee of $7.50 for each certified copy, regardless of whether the secretary of state supplies the copy; (3) a fee of $7.50 for each certificate of good standing, including a certificate of good standing for a series of a limited liability company, issued by the secretary of state; and (4) a fee of $20 for a copy of an instrument on file or prepared by the secretary of state's office, whether or not the copy is certified. (b) Every limited liability company hereafter formed in this state shall pay to the secretary of state, at the time of filing its articles of organization, an application and recording fee established by rules and regulations of the secretary of state, except that such fee shall not exceed $150.",
+      "url": "https://www.kslegislature.gov/b2025_26/laws/017_000_0000_chapter/017_076_0000_article/017_076_0136_section/017_076_0136_k/"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Processing happens within minutes and your certified copy of the Articles of Organization can be printed from the above website without delay.",
+    "sourceUrl": "https://sos.ks.gov/forms/business_services/DL.pdf",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "The New Mexico and South Carolina shape - one exhaustive fee section - reinforced here by something no other record in this namespace has had: a full-text search of the state's entire statute book, run on the legislature's own site, that puts the word nowhere near the subject. K.S.A. 17-76,136 tells the Secretary of State what to charge 'each domestic and foreign limited liability company' and then closes the list: four flat fees in (a), the formation fee in (b) and the foreign application fee in (c), each capped at $150 and set by regulation, and the reinstatement fee in (d) by cross-reference. There is no expedited-service charge in it and no residual clause that would let one be added by practice. The legislature's statute search then generalises that: a search for 'expedited' across the Kansas Statutes returns hits in fourteen chapters - courts, family law, elections, fees and salaries, minors, labor, militia, property, civil procedure, public health, roads, boards and commissions, state institutions, and administrative rules - and chapter 17, Corporations, is not among them. The same search for 'expedite' returns the same fourteen. So the word does not occur anywhere in the corporations chapter, which is where the LLC act, the Business Entity Standard Treatment Act and every filing-fee section live. The office's own filing instructions agree in the place a filer actually stands. The Articles of Organization form (DL, rev. 2/27/26) prints a block headed 'Fee Schedule' with exactly two lines - $85 online, $90 paper - and no third option anywhere on the form or in its instructions. Note what that pair is: Kansas prices the channel, not the clock, discounting the online route by $5, which is the Arkansas and Nebraska lever rather than a purchased turnaround. And note why an expedite would have little to sell here - the same instructions say online processing 'happens within minutes', which is the fastest published standard turnaround in this namespace so far and leaves nothing above it to buy. On standardProcessing: isPublished is true with basis null, the Alabama pattern. Kansas states a speed but not in a form either parsed field can hold - 'within minutes' is neither a queue date nor a range of business days, and the sentence is about the online channel only. For paper the form says only that 'Once processing the Articles of Organization are completed, a certified copy of the Articles of Organization will be mailed to the address of the sender', with no time attached, so mailBusinessDays stays null rather than inheriting the online figure. What could not be read is the Kansas Administrative Regulations, and it matters less than it looks: rules.ks.gov is now a third-party policy-library application (an S3-backed React shell whose only reachable API paths are the vendor's own and answer 403 logged out), so the regulation that sets the $85/$90 fee under 17-76,136(b) was not opened directly. The figures themselves are on the form, and the statutory cap of $150 that binds that regulation contains no expedite power for it to exercise. Reachability worth recording for the next session: sos.ks.gov is documented elsewhere in this project as geo-blocking non-US traffic by design, and it answered every request normally on the route used here - reachability is a property of the (host, route) pair, not of the host. Two soft 404s were met on the way and neither is rot: sos.ks.gov/forms/forms_results.aspx?division=BS and the KAR paths under /publications/ return HTTP 200 carrying a 'Page Not Found' body, which is the third way a probe lies, a 200 that is not the page.",
+  "needsReview": "Two things sit behind walls, neither of which changes the finding on the evidence available. (1) The Kansas Administrative Regulations were not read: rules.ks.gov is a client-rendered vendor application and its API answers 403 to a logged-out client, so the regulation that sets the LLC application and recording fee under K.S.A. 17-76,136(b) was not opened. It is bounded by a $150 statutory cap and by a fee section that grants no expedite power, but a browser session should confirm that the Secretary of State's own KAR article carries no expedited-service fee. (2) The office's site search could not be run: the form at sos.ks.gov posts to search.aspx, which answers 403 to a scripted client on GET and on POST, so the negative search that closed Nebraska is not available here and the absence rests on the statute, the statute-wide search and the LLC form instead. Also unread is the logged-in filing system at www.sos.ks.gov/eforms, the one place an unadvertised expedited option would appear at checkout.",
+  "sources": [
+    {
+      "citation": "Kansas Statutes Annotated",
+      "title": "K.S.A. 17-76,136, Fees for documents or services of secretary of state; rules and regulations - read in full; the closed fee list for domestic and foreign limited liability companies, with the formation fee delegated to regulation and capped at $150, and no expedited-service fee",
+      "url": "https://www.kslegislature.gov/b2025_26/laws/017_000_0000_chapter/017_076_0000_article/017_076_0136_section/017_076_0136_k/",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Articles of Organization, Domestic (Kansas) Limited Liability Company, form DL (rev. 2/27/26) with filing instructions - the office's own Fee Schedule for the filing ($85 online, $90 paper, no third line) and its statement that online processing happens within minutes",
+      "url": "https://sos.ks.gov/forms/business_services/DL.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Kansas Legislature",
+      "title": "Statute full-text search for 'expedited' - returns matches in fourteen chapters and none in chapter 17, Corporations, which holds the LLC act and every business filing fee section; the search for 'expedite' returns the same fourteen",
+      "url": "https://www.kslegislature.gov/b2025_26/laws/search/?q=expedited",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Register a Business - the division's registration page, listing every domestic and foreign registration form the office accepts; no expedited option and no processing time",
+      "url": "https://sos.ks.gov/businesses/register-a-business.html",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Kansas Secretary of State",
+      "title": "Copies & Certifications - how certified copies and certificates of good standing are obtained, certified on the day they are purchased and issued exclusively online; no expedited handling charge",
+      "url": "https://sos.ks.gov/businesses/copies-and-certifications.html",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

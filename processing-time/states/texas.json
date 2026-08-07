@@ -3,15 +3,61 @@
   "stateAbbr": "TX",
   "stateSlug": "texas",
   "expedite": {
-    "offered": null,
+    "offered": true,
     "offeredEvidence": null,
-    "appliesToLlcFormation": null,
-    "feeIsPerDocument": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
     "chargedIfRejected": null,
-    "tiers": []
+    "tiers": [
+      {
+        "tierName": "Same-Day Service",
+        "turnaround": "Filings received by 12:00 p.m. are processed by close of business the same day.",
+        "feeUsd": 750,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Filings received by 12:00 p.m.",
+        "channels": null,
+        "note": "channels is null because the two channels the state names for this tier have no slot in the enumeration and picking a subset would misstate it: the Texas Express page says 'Same-Day transactions may be requested in person or via email', and the rollout release says 'Same-day and next-day filing services are available for documents submitted through Texas Express email, in person, or by courier.' Email and courier are not submission channels this schema can express, and the one that is - in person - is only a third of what Texas offers. Note what is absent from both lists: SOSDirect, the state's own online filing system. Texas sells speed off the online channel rather than through it, which is the inverse of the usual arrangement and the reason the omission is recorded rather than assumed to be an oversight. The release also states that 'Preclearance review is strongly encouraged for all same-day and next-day filings', which is the California pattern of a $50 preclearance sitting in front of the fastest tier without formally gating it.",
+        "evidence": {
+          "quote": "Fastest turnaround Same-Day Service Filings received by 12:00 p.m. are processed by close of business the same day. $750 per document plus additional document filing fee",
+          "url": "https://www.sos.state.tx.us/express.shtml"
+        }
+      },
+      {
+        "tierName": "Next-Day Service",
+        "turnaround": "Filings received by 12:00 p.m. are processed by close of business the next business day.",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "Filings received by 12:00 p.m.",
+        "channels": null,
+        "note": "Same cut-off hour as the Same-Day tier and the same channel problem, so channels is null for the same reason. The two tiers are distinguished only by which close of business the clock runs to, not by when the document has to arrive - both stop taking work for that day at noon.",
+        "evidence": {
+          "quote": "Next-Day Service Filings received by 12:00 p.m. are processed by close of business the next business day. $500 per document plus additional document filing fee",
+          "url": "https://www.sos.state.tx.us/express.shtml"
+        }
+      },
+      {
+        "tierName": "Standard Expedited",
+        "turnaround": "Filings are processed before regular submissions, typically within 2-3 business days.",
+        "feeUsd": 50,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": [
+          "mail",
+          "in-person"
+        ],
+        "note": "The only tier whose turnaround is a duration rather than a clock hour, and it is hedged twice over - 'typically', and a promise stated as a queue position ('processed before regular submissions') with the duration attached to it as an estimate. channels is filled here because the Texas Express page states exactly these two - 'Standard Expedited processing is available by mail or in-person delivery' - while the rollout release adds a third, 'by mail, in person, or by courier'; a courier delivery is a form of in-person delivery and is not recorded as a separate channel. No cut-off hour is published for this tier.",
+        "evidence": {
+          "quote": "Standard Expedited Filings are processed before regular submissions, typically within 2-3 business days. $50 per document plus additional document filing fee Standard Expedited processing is available by mail or in-person delivery.",
+          "url": "https://www.sos.state.tx.us/express.shtml"
+        }
+      }
+    ]
   },
   "standardProcessing": {
-    "isPublished": null,
+    "isPublished": false,
     "basis": null,
     "queueAsOfOnline": null,
     "queueAsOfMail": null,
@@ -22,15 +68,39 @@
     "observedOn": null,
     "volatile": true
   },
-  "notes": "Unfilled on purpose. The Secretary of State's business-formation FAQ was reachable and states nothing about turnaround or expedited service, and the two pages that would carry the figures — the fee-and-payment schedule and the expedited-services page — returned HTTP 403 to automated access on the date below. Texas is widely reported to charge a flat expedite fee set by statute, but no official page was opened to confirm the amount, the turnaround it buys, or whether it applies to a Certificate of Formation, so nothing is recorded here. An unfilled field is recoverable; a plausible wrong number is not.",
-  "needsReview": "Every expedite field and the standard-processing fields. Blocked by bot protection on www.sos.state.tx.us, not by absence of a source. Retry on a direct connection: (1) the Secretary of State's fee and payment schedule, (2) its expedited-services page, and (3) the Government Code section that sets the expedite fee, read from the Legislature's own statute site rather than any mirror.",
+  "notes": "This record replaces the honest-empty one written 2026-08-06. Nothing about Texas had changed; the route had. Every page the earlier record named as blocked - the fee schedule and the expedited-services page - answered normally on the vpn-off route, reachability here is a property of the (host, route) pair rather than of the host, and this time it moved a whole agency at once. Texas sells three tiers under the name Texas Express, and the two documents that publish them agree figure for figure: the Texas Express page prices Same-Day at $750, Next-Day at $500 and Standard Expedited at $50, each 'per document plus additional document filing fee', and the July 14, 2026 rollout release restates all three in its own words with 'plus the applicable filing fee'. That agreement is worth stating because the office's own fee schedule does neither - the Business Filings & Trademarks Fee Schedule carries the row 'Expedited processing of a document submitted for filing' with no amount at all, printing the words 'Fee Details' in the fee column as a link to the Texas Express page, while the adjacent rows for copies and preclearance do print $10 and $50. So the schedule is complete for everything except the one service whose price moves. appliesToLlcFormation rests on three independent supports rather than on inference. The rollout release is explicit - 'Beginning today, all business filing handled by the Secretary of State's office are eligible for Texas Express expedited service' - and dates the moment LLC formation entered the program: 'Texas Express launched in September 2025 with expedited processing for a limited number of filings and expanded in April 2026 to include business formations and additional registration services.' The Filing Options page offers 'standard expedited service for: business organization documents', which a certificate of formation is. And Gov't Code § 405.032(a)(2) lets the Secretary of State set a fee 'for the expedited filing or reviewing of a document relating to a profit or nonprofit corporation, professional corporation or association, cooperative association, unincorporated nonprofit association, limited or general partnership, or limited liability company', naming the entity type in the statute. Two things on the pages contradict the rollout and are recorded rather than smoothed: the Filing Options page still says 'Same-day and next-day expedited services are available for select filings', which the July release superseded, and the Texas Express page's own opening sentence is still in the future tense - 'The Office of the Secretary of State will offer tiers of expedited filing services' - three months after the full rollout and after 2,600 filings had gone through it. The tense is a stale sentence on a live page, not evidence the service is unavailable; Filing Options says 'We offer expedited filings for many types of documents through Texas Express' in the present. On the statute: § 405.032 sets no amount and no ceiling. It authorises 'a fee in an amount the secretary of state prescribes' and (d) lets the office 'prescribe a varying fee schedule based on the type of business organization', which is what a three-tier ladder is, so unlike West Virginia there is no statutory cap to measure the top tier against and unlike Idaho the figures are nowhere in the code. The section's only hard number is a $10 limit on expedited copies and certificates, which is exactly what the fee schedule charges for that service - an independent check that the schedule and the statute are read against each other correctly. feeIsPerDocument is true on the state's own words, 'per document', printed on all three tiers in both documents. chargedIfRejected is null: the Texas Express page's 'Important information' block says only that 'Requesting expedited service does not guarantee a filing, as each document is reviewed for specific statutory requirements', which addresses the risk without saying who keeps the money, and the Filing Options refund sentence - 'Checks are returned, cash refunded, and credit cards are not charged when used to pay a filing fee for documents that cannot be filed' - is written about the filing fee and cannot be stretched to cover the expedite fee. On standardProcessing: isPublished is false. Texas states no turnaround for an ordinary filing anywhere found - not on Filing Options, not in the formation FAQs, not in the fee schedule, and not in the site index, which has no processing-times or status page in it. What it publishes instead is a comparison with no time in it, 'The office strongly encourages electronic filing through SOSDirect or SOSUpload to ensure swift processing times', which is the South Carolina lever exactly. The nearest thing to a figure is the Standard Expedited tier's own 'typically within 2-3 business days', and that is the paid track, so importing it would be the error this namespace is most exposed to - the right words taken from the wrong product, which passes every mechanical check.",
+  "needsReview": "Two gaps, neither blocking. (1) standardProcessing rests on absence: no page on www.sos.state.tx.us or direct.sos.state.tx.us publishes a turnaround, a queue date or a target for an unexpedited filing on either the online or the paper route, so isPublished false records that Texas does not publish one rather than that filings are instant. (2) chargedIfRejected is unresolved - nothing found states whether the $50/$500/$750 is refunded when a document is rejected, and the office's only published refund sentence is about the filing fee. The place both would be settled is the logged-in SOSDirect checkout, which was not opened, and a direct request to the TexasExpress mailbox the office publishes for these filings.",
   "sources": [
     {
       "citation": "Texas Secretary of State",
-      "title": "Business formation FAQs — consulted; carries no processing-time or expedited-service figures",
-      "url": "https://www.sos.state.tx.us/corp/formationfaqs.shtml",
-      "lastAccessed": "2026-08-06"
+      "title": "Texas Express - the expedited-filings page the office's fee schedule links in place of an amount; publishes all three tiers with fee, turnaround and submission arrangements, plus the 'Important information' block on what expedited service does and does not guarantee",
+      "url": "https://www.sos.state.tx.us/express.shtml",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Business Filings & Trademarks Fee Schedule - the complete office fee schedule; its Expedite & Preclearance Services block prints 'Fee Details' as a link instead of an amount for expedited filing, and $10 and $50 for expedited copies and preclearance",
+      "url": "https://direct.sos.state.tx.us/help/help-corp.asp?pg=fee",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "Filing Options - names the services expedited ('business organization documents'), carries the still-uncorrected 'select filings' qualifier for the same-day and next-day tiers, the $50 preclearance description, and the office's only statement about ordinary speed, that electronic filing is encouraged 'to ensure swift processing times'",
+      "url": "https://www.sos.state.tx.us/corp/options.shtml",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Secretary of State",
+      "title": "News release, July 14, 2026 - Secretary Nelson Announces Full Rollout of Texas Express Business Filing Services; restates all three tiers and their fees, dates the April 2026 expansion to business formations, and states that all business filings handled by the office are eligible",
+      "url": "https://www.sos.state.tx.us/about/newsreleases/2026/071426.shtml",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Texas Government Code",
+      "title": "Tex. Gov't Code § 405.032, Expedited Handling - authorises a fee 'in an amount the secretary of state prescribes' for expedited filing of a document relating to a limited liability company, permits a varying fee schedule by type of business organization, and caps only the copy and certificate charge at $10",
+      "url": "https://tcss.legis.texas.gov/resources/GV/htm/GV.405.htm",
+      "lastAccessed": "2026-08-07"
     }
   ],
-  "lastVerified": "2026-08-06"
+  "lastVerified": "2026-08-07"
 }
