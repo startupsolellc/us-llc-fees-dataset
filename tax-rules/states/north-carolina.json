@@ -1,0 +1,99 @@
+{
+  "stateName": "North Carolina",
+  "stateAbbr": "NC",
+  "stateSlug": "north-carolina",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "An annual franchise or privilege tax is imposed on a corporation doing business in this State for the privilege of doing business in this State and for the continuance of articles of incorporation or domestication of each corporation in this State.",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-122.pdf",
+      "supports": "applies: the imposing statute names its own subject class - a corporation - and a default LLC is not in it"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Unless specifically exempt under G.S. 105-125, all active and inactive domestic corporations, and all foreign corporations with a Certificate of Authority to do business, or which are in fact doing business in this state, are subject to the annual franchise tax levied under G.S. 105-122.",
+        "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/filing-requirements",
+        "supports": "applies: the Department's own filing-requirements page restates the subject class as corporations"
+      },
+      {
+        "quote": "The term \"partnership\" includes a limited liability company (LLC) classified for federal income tax purposes as a partnership, as well as certain publicly traded partnerships described in section 7704(c) of the Internal Revenue Code (Code).",
+        "url": "https://www.ncdor.gov/tax-forms/2025-d-403a-partnership-tax-return-instructions/open",
+        "supports": "applies: a default LLC is partnership-classified, so it files Form D-403 rather than entering the corporate franchise tax"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.25,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "The term \"partnership\" includes a limited liability company (LLC) classified for federal income tax purposes as a partnership, as well as certain publicly traded partnerships described in section 7704(c) of the Internal Revenue Code (Code).",
+        "url": "https://www.ncdor.gov/tax-forms/2025-d-403a-partnership-tax-return-instructions/open",
+        "supports": "passThroughApplies: a default LLC is a partnership-classified entity that files Form D-403, and partnership income passes through to its members"
+      },
+      {
+        "quote": "For Taxable Years beginning in 2025, the North Carolina individual income tax rate is 4.25% (0.0425).",
+        "url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "For Taxable Years after 2025, the North Carolina individual income tax rate is 3.99% (0.0399).",
+        "url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+        "supports": "topRatePercent: the scheduled post-2025 rate, noted for readers looking past the current year"
+      },
+      {
+        "quote": "A partnership may elect, on its timely filed annual return required under G.S. 105-154(c), to have the tax under this Article imposed on the partnership for any taxable period covered by the return.",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-154.1.pdf",
+        "supports": "hasPTETElection: the Taxed Partnership Election lets a partnership-classified LLC pay at the entity level"
+      }
+    ]
+  },
+  "notes": "North Carolina's franchise tax (G.S. 105-122) is imposed on a corporation doing business in the State for the privilege of doing business, and the Department of Revenue's Filing Requirements page restates that subject class in its own words. A default LLC is not in it: the 2025 D-403A instructions define 'partnership' to include an LLC classified for federal income tax purposes as a partnership, which is the default entity this namespace describes. applies is therefore false, grounded in the imposing statute and the collector's own guidance rather than in a silence. An LLC that elects federal corporate classification is out of scope here, exactly as the namespace's README says; the record does not describe that entity.\ncollectedWithAnnualReport is null: no franchise-type levy remains for a default LLC, and root states.json carries annual_report_fee 203 (due April 15) for North Carolina's annual report at the Secretary of State - a separate payment with no tax to overlap.\nstateIncomeTax: members of a partnership-classified LLC owe North Carolina individual income tax on their pass-through income. The top marginal rate for tax years beginning in 2025 is a flat 4.25%; the Tax Rate Schedules page states that for tax years after 2025 the rate is 3.99%, which is recorded in evidence and notes rather than in topRatePercent because the page frames 2025 as the current year. North Carolina offers the Taxed Partnership Election under G.S. 105-154.1 (effective for taxable years beginning on or after January 1, 2022): a partnership may elect, on its timely filed return, to have the income tax imposed at the entity level; the statute's eligible-partner list includes an entity classified as a partnership for federal income tax purposes.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "North Carolina General Statutes § 105-122 (G.S. 105-122, Franchise or privilege tax on domestic and foreign corporations)",
+      "title": "G.S. 105-122",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-122.pdf",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Carolina Department of Revenue, Corporate Income & Franchise Tax - Filing Requirements",
+      "title": "Filing Requirements - Corporate Income and Franchise Tax",
+      "url": "https://www.ncdor.gov/taxes-forms/corporate-income-franchise-tax/filing-requirements",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Carolina Department of Revenue, 2025 D-403A Partnership Income Tax Return Instructions",
+      "title": "2025 D-403A Partnership Income Tax Return Instructions",
+      "url": "https://www.ncdor.gov/tax-forms/2025-d-403a-partnership-tax-return-instructions/open",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Carolina Department of Revenue, Individual Income Tax - Tax Rate Schedules",
+      "title": "Tax Rate Schedules - Individual Income Tax",
+      "url": "https://www.ncdor.gov/taxes-forms/individual-income-tax/tax-rate-schedules",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "North Carolina General Statutes § 105-154.1 (Taxation of partnership as a taxed pass-through entity)",
+      "title": "G.S. 105-154.1",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-154.1.pdf",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

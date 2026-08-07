@@ -1,0 +1,112 @@
+{
+  "stateName": "Connecticut",
+  "stateAbbr": "CT",
+  "stateSlug": "connecticut",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "\"Taxpayer\" and \"company\" mean any corporation, foreign municipal electric utility, as defined in section 12-59 , electric distribution company, as defined in section 16-1 , electric supplier, as defined in section 16-1 , generation entity or affiliate, as defined in section 16-1 , joint stock company or association or any fiduciary thereof and any dissolved corporation which continues to conduct business, but does not include a passive investment company or municipal utility, as defined in section 12-265",
+      "url": "http://www.cga.ct.gov/current/pub/chap_208.htm",
+      "supports": "applies: the franchise-tax chapter's own definition of who pays, and a default LLC is not a \"company\" under it"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Every mutual savings bank, savings and loan association and every company engaged in the business of carrying passengers for hire over the highways of this state in common carrier motor vehicles doing business in this state, and every other company carrying on, or having the right to carry on, business in this state, including a dissolved corporation which continues to conduct business, except those companies described in subdivision (2) of this subsection, shall pay, annually, a tax or excise upon its franchise for the privilege of carrying on or doing business, owning or leasing property within the state in a corporate capacity or as an unincorporated association taxable as a corporation for federal income tax purposes or maintaining an office within the state",
+        "url": "http://www.cga.ct.gov/current/pub/chap_208.htm",
+        "supports": "applies: the franchise tax Connecticut does impose reaches only entities acting in a corporate capacity or taxed as corporations"
+      },
+      {
+        "quote": "Sections 12-610 to 12-629 , inclusive, are repealed, effective with respect to income years of unincorporated businesses commencing on or after January 1, 1983.",
+        "url": "http://www.cga.ct.gov/current/pub/chap_228.htm",
+        "supports": "applies: the Unincorporated Business Tax, the historical levy covering businesses that were not corporations, is repealed"
+      },
+      {
+        "quote": "\"Partnership\" includes a limited liability company that is treated as a partnership for federal income tax purposes",
+        "url": "http://www.cga.ct.gov/current/pub/chap_228z.htm",
+        "supports": "applies: the only entity-level tax chapter naming a default LLC is the Affected Business Entity Tax, which is income-based and elective"
+      },
+      {
+        "quote": "\"Affected business entity\" means a partnership or an S corporation, but does not include a publicly-traded partnership, as defined in Section 7704(b) of the Internal Revenue Code",
+        "url": "http://www.cga.ct.gov/current/pub/chap_228z.htm",
+        "supports": "applies: the chapter's subjects are pass-through entities, and its tax is measured on income rather than on the privilege of being registered"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 6.99,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "There is hereby imposed on the Connecticut taxable income of each resident of this state a tax",
+        "url": "http://www.cga.ct.gov/current/pub/chap_229.htm",
+        "supports": "passThroughApplies: the income tax is imposed on the individuals, not on the entity"
+      },
+      {
+        "quote": "Each person that is subject to the tax imposed under chapter 229 as a resident or a part-year resident of this state and is a member of an affected business entity shall also be entitled to a credit against the tax imposed under said chapter",
+        "url": "http://www.cga.ct.gov/current/pub/chap_228z.htm",
+        "supports": "passThroughApplies: the members are the persons subject to the income tax"
+      },
+      {
+        "quote": "For taxable years commencing on or after January 1, 2024, an affected business entity that is required to file a return under the provisions of section 12-726 may elect to pay to the commissioner a tax as determined under this section.",
+        "url": "http://www.cga.ct.gov/current/pub/chap_228z.htm",
+        "supports": "hasPTETElection"
+      },
+      {
+        "quote": "The tax due under subsection (b) of this section shall be equal to six and ninety-nine-hundredths per cent multiplied by the tax base.",
+        "url": "http://www.cga.ct.gov/current/pub/chap_228z.htm",
+        "supports": "hasPTETElection: the entity-level election is an income tax at the same 6.99 per cent rate"
+      },
+      {
+        "quote": "Over $500,000 $31,250, plus 6.99% of the excess over $500,000",
+        "url": "http://www.cga.ct.gov/current/pub/chap_229.htm",
+        "supports": "topRatePercent: the top bracket of the schedule for taxable years commencing on or after January 1, 2024"
+      },
+      {
+        "quote": "(E) For trusts or estates, the rate of tax shall be 6.99% of the Connecticut taxable income.",
+        "url": "http://www.cga.ct.gov/current/pub/chap_229.htm",
+        "supports": "topRatePercent: the schedule's flat ceiling for non-individual taxpayers"
+      }
+    ]
+  },
+  "notes": "Connecticut imposes no franchise-type tax on a default LLC. The Corporation Business Tax (ch. 208) is the state's franchise tax, but its subjects are \"companies\" as defined in section 12-213 - corporations, joint stock companies and associations - and its imposition reaches only entities acting \"in a corporate capacity or as an unincorporated association taxable as a corporation for federal income tax purposes\". A default LLC is neither. The Unincorporated Business Tax (ch. 228) was repealed for income years beginning on or after 1983. The only entity-level tax chapter naming an LLC is ch. 228z, the Affected Business Entity Tax, and it is an elective income tax: section 12-699(b) lets an affected business entity elect to pay 6.99 per cent of a Connecticut-source income base, and members then credit 87.5 per cent of the entity-level tax against their own income tax. That is the pass-through entity tax election, not a levy on being registered, so applies is false and hasPTETElection is true.\nstateIncomeTax: the income tax is imposed on \"each resident of this state\", and section 12-699(f) treats members of affected business entities as the persons subject to chapter 229, which is the pass-through posture. The top rate is 6.99 per cent for taxable years commencing on or after January 1, 2024, at $500,000 / $800,000 / $1,000,000 thresholds depending on filing status; the flat trust-and-estate rate is the same 6.99 per cent.\ncollectedWithAnnualReport is null by construction: with no franchise-type levy there is no overlap with root states.json's annual_report_fee (80 for Connecticut, the Secretary of State's annual report filing).\nThis record is statute-only. portal.ct.gov and business.ct.gov (the Department of Revenue Services' hosts) are dark on both routes measured (F24.6), so the DRS's own pages were not read; the C.G.S. text on cga.ct.gov answers only with the VPN up, which is the route this batch ran on. The main-volume text is revised to January 1, 2025; the 2026 Supplement covers the 2025 session and amends ch. 229 sections other than 12-700 (the rates) and does not touch ch. 228z at all.",
+  "needsReview": "The Department of Revenue Services' own pages were not read - portal.ct.gov and business.ct.gov are unreachable on both routes (F24.6). Agency pages would state plainly what an LLC owes annually and confirm that no separate business-entity levy exists; nothing in the C.G.S. chapters read contradicts any value recorded here.",
+  "sources": [
+    {
+      "citation": "Conn. Gen. Stat. Title 12, ch. 229, Income Tax",
+      "title": "Chapter 229 - Income Tax",
+      "url": "http://www.cga.ct.gov/current/pub/chap_229.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Conn. Gen. Stat. Title 12, ch. 228z, Affected Business Entity Tax",
+      "title": "Chapter 228z - Affected Business Entity Tax",
+      "url": "http://www.cga.ct.gov/current/pub/chap_228z.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Conn. Gen. Stat. Title 12, ch. 208, Corporation Business Tax",
+      "title": "Chapter 208 - Corporation Business Tax",
+      "url": "http://www.cga.ct.gov/current/pub/chap_208.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Conn. Gen. Stat. Title 12, ch. 228, Unincorporated Business Tax",
+      "title": "Chapter 228 - Unincorporated Business Tax",
+      "url": "http://www.cga.ct.gov/current/pub/chap_228.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

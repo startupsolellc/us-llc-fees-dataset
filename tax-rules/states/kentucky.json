@@ -1,0 +1,118 @@
+{
+  "stateName": "Kentucky",
+  "stateAbbr": "KY",
+  "stateSlug": "kentucky",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Limited Liability Entity Tax",
+    "basis": "revenue",
+    "minimumAnnualUsd": 175,
+    "firstYearExemption": false,
+    "filedWith": "Kentucky Department of Revenue",
+    "collectedWithAnnualReport": false,
+    "dueDate": "on or before the fifteenth day of the fourth month following the close of the taxpayer's taxable year",
+    "evidence": [
+      {
+        "quote": "For taxable years beginning on or after January 1, 2007, an annual limited liability entity tax shall be paid by every corporation and every limited liability pass-through entity doing business in Kentucky on all Kentucky gross receipts or Kentucky gross profits except as provided in this subsection.",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57941",
+        "supports": "applies and taxName: the statutory levy, in the words of KRS 141.0401"
+      },
+      {
+        "quote": "Kentucky imposes a tax on every business that is protected from liability by the laws of the state. This includes corporations, LLCs, S-Corporations, limited partnerships, and other types of businesses. It does not include sole proprietorships and general partnerships because these types of businesses do not have limited liability.",
+        "url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+        "supports": "applies: the Department's own statement that an LLC is a subject of the LLET"
+      },
+      {
+        "quote": "If either total gross receipts or total gross profits amounts to $3 million or less, then the company just pays a $175 minimum LLET.",
+        "url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+        "supports": "minimumAnnualUsd"
+      },
+      {
+        "quote": "it multiplies its Kentucky gross receipts by 0.095% and its Kentucky gross profits by 0.75% to figure its LLET liability",
+        "url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+        "supports": "basis: both measures are revenue measures, and the taxpayer pays the smaller of the two routes"
+      },
+      {
+        "quote": "The company then pays the smaller of the amount calculated on gross receipts or the amount calculated on gross profits.",
+        "url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+        "supports": "basis: the dual-measure mechanics in the Department's own words"
+      },
+      {
+        "quote": "The tax shall be the greater of the amount computed under paragraph (b) of this subsection or one hundred seventy-five dollars ($175), regardless of the application of any tax cred its provided under this chapter or any other provisions of the Kentucky Revised Statutes for which the business entity may qualify.",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57941",
+        "supports": "minimumAnnualUsd: the statutory floor, stated without any year or size qualifier"
+      },
+      {
+        "quote": "Each taxpayer subject to the tax imposed in this section shall file a return, on forms prepared by the department, on or before the fifteenth day of the fourth month following the close of the taxpayer's taxable year.",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57941",
+        "supports": "dueDate and filedWith"
+      },
+      {
+        "quote": "A nonrefundable credit based on the tax calculated under subsection (2) of this section shall be allowed against the tax imposed by KRS 141.020 or 141.040.",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57941",
+        "supports": "applies: the LLET is an entity-level levy that also feeds an income-tax credit, in the statute's own words"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Individual Income Tax is due on all income earned by Kentucky residents and all income earned by nonresidents from Kentucky sources.",
+        "url": "https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx",
+        "supports": "passThroughApplies: the income tax falls on the individuals who earn the income"
+      },
+      {
+        "quote": "The tax rate is four (4) percent and allows itemized deductions and certain income reducing deductions as defined in KRS 141.019",
+        "url": "https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx",
+        "supports": "topRatePercent: the Department's current flat-rate statement"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2022, an authorized person may elect annually, on behalf of the electing entity, to have the tax under KRS 141.020 imposed upon the electing entity and based upon the ordinary income and the separately stated items of income calculated under KRS 141.206.",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53597",
+        "supports": "hasPTETElection"
+      },
+      {
+        "quote": "Claimed against the tax imposed under KRS 141.020 on a return filed by the entity owner, with the ordering of credits as provided in KRS 141.0205",
+        "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53597",
+        "supports": "passThroughApplies and hasPTETElection: owners file individual returns and credit the entity-level tax against them"
+      }
+    ]
+  },
+  "notes": "Kentucky's Limited Liability Entity Tax (LLET) passes the inclusion test in the statute's own words: it is an \"annual limited liability entity tax\" paid by \"every corporation and every limited liability pass-through entity doing business in Kentucky\", and the Department of Revenue's page names LLCs among its subjects. It is a levy on being a limited-liability entity, not on income and not a filing event.\nbasis is revenue, with the dual measure named rather than flattened: the taxpayer computes the tax on Kentucky gross receipts at 0.095% and on Kentucky gross profits at 0.75%, and pays the smaller of the two routes, never less than the $175 statutory floor. Both measures are revenue-based, so the existing enum fits without a schema change; this note carries the mechanics the field alone cannot.\nminimumAnnualUsd is 175. KRS 141.0401(2)(a) makes $175 the floor for every taxpayer \"regardless of the application of any tax credits\", and the small-business exclusion keeps the floor for entities with $3,000,000 or less in gross receipts or gross profits, with a sliding scale between $3 and $6 million. An LLC below the threshold still pays the $175.\nfirstYearExemption is false: the imposition in KRS 141.0401(2)(a) is uniform across every corporation and limited liability pass-through entity doing business in Kentucky, with no first-year waiver; the small-business exclusion is by receipts, not by year.\ncollectedWithAnnualReport is false. Root states.json carries annual_report_fee 15 for Kentucky, the Secretary of State's annual report filing, while the LLET is a separate Department of Revenue payment with its own return and due date (the fifteenth day of the fourth month after the close of the taxable year, per KRS 141.0401(4)) - a total-cost consumer must add them. The LLET also feeds a nonrefundable credit against income tax for the amount above the $175 minimum (KRS 141.0401(3)).\nstateIncomeTax: members owe Kentucky income tax on pass-through income at the flat four per cent rate stated on the Department's current page. Kentucky offers a pass-through entity tax election (KRS 141.209, created by 2023 Ky. Acts ch. 148, effective March 31, 2023): an authorized person may elect annually to have the tax under KRS 141.020 imposed on the electing entity, and owners claim a refundable credit for their full proportionate share of the entity-level tax.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Kentucky Department of Revenue, Corporation Income and Limited Liability Entity Tax",
+      "title": "Corporation Income and Limited Liability Entity Tax - Department of Revenue",
+      "url": "https://revenue.ky.gov/Business/Corporation-Income-and-Limited-Liability-Entity-Tax/Pages/default.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "KRS 141.0401, Limited liability entity tax -- Exemptions -- Rate",
+      "title": "KRS 141.0401 Limited liability entity tax -- Exemptions -- Rate",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57941",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "KRS 141.209, Annual election to have tax under KRS 141.020 imposed on pass-through entity",
+      "title": "KRS 141.209 Annual election to have tax under KRS 141.020 imposed on pass-through entity -- Refundable tax credit -- Report to owner -- Administrative regulations",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53597",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Kentucky Department of Revenue, Individual Income Tax",
+      "title": "Individual Income Tax - Department of Revenue",
+      "url": "https://revenue.ky.gov/Individual/Individual-Income-Tax/Pages/default.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

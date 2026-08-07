@@ -1,0 +1,94 @@
+{
+  "stateName": "New Jersey",
+  "stateAbbr": "NJ",
+  "stateSlug": "new-jersey",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Any corporation which incorporates, qualifies, or otherwise acquires a taxable status ( nexus ) in New Jersey must file a Corporation Business Tax (CBT) return. In general, this includes all domestic corporations.",
+      "url": "https://www.nj.gov/treasury/taxation/corp_file.shtml",
+      "supports": "applies: the Division of Taxation's own filing rule - the Corporation Business Tax return belongs to corporations, which a default LLC is not"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "For New Jersey Gross Income Tax purposes, every partnership or limited liability company (LLC) that has income from sources in the State of New Jersey, or has a New Jersey resident partner, must file the New Jersey Partnership return, Form NJ-1065. Tax is imposed on the partners on income and gains derived from a partnership. Income and gains derived from a partnership are taxed whether or not they are actually distributed.",
+        "url": "https://www.nj.gov/treasury/taxation/businesses/partnerships/index.shtml",
+        "supports": "applies: the Division's own filing rule for LLCs is the partnership return, not the Corporation Business Tax"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 10.75,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Tax is imposed on the partners on income and gains derived from a partnership. Income and gains derived from a partnership are taxed whether or not they are actually distributed.",
+        "url": "https://www.nj.gov/treasury/taxation/businesses/partnerships/index.shtml",
+        "supports": "passThroughApplies: members of a partnership-taxed LLC owe New Jersey Gross Income Tax on their share whether or not it is distributed"
+      },
+      {
+        "quote": "Beginning 2018, entities preparing and filing the New Jersey Composite Return, Form NJ-1080-C, for participating taxpayers with New Jersey sourced income from the entity should apply the rate of 10.75% ( N.J.A.C. 18:35-5.2).",
+        "url": "https://www.nj.gov/treasury/taxation/taxtables.shtml",
+        "supports": "topRatePercent: 10.75% is the State's top rate, the one the Division applies to composite filings of New Jersey sourced income"
+      },
+      {
+        "quote": "$1,000,000 and over __________ \uf035 .1075 = __________ – $ 32,926.25 = _________",
+        "url": "https://www.nj.gov/treasury/taxation/pdf/current/njtaxratesch.pdf",
+        "supports": "topRatePercent: the official rate schedule's top bracket row, 10.75% (0.1075) on taxable income of $1,000,000 and over"
+      },
+      {
+        "quote": "Eligible S corporations, partnerships, and LLCs classified as a partnership or an S corporation for federal tax purposes with at least one member who is an individual, estate, or trust who is liable for tax on their share of distributive proceeds subject to the New Jersey Gross Income Tax Act may elect to pay PTE/BAIT at the entity level on the sum of each member’s share of distributive proceeds.",
+        "url": "https://www.nj.gov/treasury/taxation/baitpte/",
+        "supports": "hasPTETElection: a partnership-classified LLC may elect the Pass-Through Business Alternative Income Tax"
+      }
+    ]
+  },
+  "notes": "New Jersey's franchise-type levy is the Corporation Business Tax, and the Division of Taxation's own filing page states its subject class: \"Any corporation which incorporates, qualifies, or otherwise acquires a taxable status ( nexus ) in New Jersey must file a Corporation Business Tax (CBT) return. In general, this includes all domestic corporations.\" A default LLC is not a corporation, and the Division's partnership page says where an LLC actually files: \"every partnership or limited liability company (LLC) that has income from sources in the State of New Jersey, or has a New Jersey resident partner, must file the New Jersey Partnership return, Form NJ-1065.\" applies is therefore false, on the Division's own pages rather than on a silence. An LLC that elects corporate classification federally enters the CBT system, which is out of scope for this record.\ncollectedWithAnnualReport is null: no franchise-type levy remains for a default LLC, and root states.json carries annual_report_fee 75 for New Jersey, the annual report filing fee at the Division of Revenue and Enterprise Services, a separate payment with no tax to overlap.\nstateIncomeTax: members owe New Jersey Gross Income Tax on pass-through income - \"Tax is imposed on the partners on income and gains derived from a partnership\" whether or not distributed. The Gross Income Tax is graduated; the official rate schedule's top bracket is 10.75% (0.1075) on taxable income of $1,000,000 and over, which is the rate the Division also applies to composite returns. New Jersey offers the Pass-Through Business Alternative Income Tax (PTE/BAIT): eligible S corporations, partnerships, and LLCs classified as a partnership or S corporation for federal purposes may elect to pay at the entity level on the sum of each member's share of distributive proceeds, and members claim a refundable credit.\nThe imposing statute (N.J.S.A. 54:10A-2 et seq.) was not read directly: the legislature's statute gateway (lis.njleg.state.nj.us) is unreachable on this route, and the Division of Taxation's own pages carry the classification and filing rules recorded here.",
+  "needsReview": "N.J.S.A. 54:10A-2 and 54:10A-4 (Corporation Business Tax) were not read from the legislature's statute text (lis.njleg.state.nj.us gateway unreachable on both measured routes); the Division of Taxation's own pages carry every value recorded here. A session with a working lis.njleg connection could add the statutory imposition language.",
+  "sources": [
+    {
+      "citation": "New Jersey Division of Taxation, Corporation Business Tax - Filing Information",
+      "title": "Corporation Business Tax - Filing Information",
+      "url": "https://www.nj.gov/treasury/taxation/corp_file.shtml",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Jersey Division of Taxation, Partnerships",
+      "title": "Partnerships",
+      "url": "https://www.nj.gov/treasury/taxation/businesses/partnerships/index.shtml",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Jersey Division of Taxation, Pass-Through Business Alternative Income Tax (PTE/BAIT)",
+      "title": "Pass-Through Business Alternative Income Tax (PTE/BAIT)",
+      "url": "https://www.nj.gov/treasury/taxation/baitpte/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Jersey Division of Taxation, NJ Income Tax Rates",
+      "title": "NJ Income Tax Rates",
+      "url": "https://www.nj.gov/treasury/taxation/taxtables.shtml",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Jersey Division of Taxation, New Jersey Tax Rate Schedules (2020 and after)",
+      "title": "New Jersey Tax Rate Schedules",
+      "url": "https://www.nj.gov/treasury/taxation/pdf/current/njtaxratesch.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

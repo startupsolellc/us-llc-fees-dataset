@@ -1,0 +1,133 @@
+{
+  "stateName": "Arkansas",
+  "stateAbbr": "AR",
+  "stateSlug": "arkansas",
+  "franchiseTax": {
+    "applies": true,
+    "appliesEvidence": null,
+    "taxName": "Franchise Tax",
+    "basis": "flat",
+    "minimumAnnualUsd": 150,
+    "firstYearExemption": false,
+    "filedWith": "Arkansas Secretary of State, Business and Commercial Services Division",
+    "collectedWithAnnualReport": true,
+    "dueDate": "ALL REPORTS ARE DUE ON OR BEFORE MAY 1.",
+    "evidence": [
+      {
+        "quote": "A.C.A. § 26-54-101 et al., also known as the \"Arkansas Corporate Franchise Tax Act of 1979\", requires all Corporations, LLC's, Banks, and Insurance Companies registered in Arkansas to pay an annual franchise tax.",
+        "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+        "supports": "applies and taxName"
+      },
+      {
+        "quote": "Franchise taxes continue to accrue, even for revoked businesses, until the business is dissolved, withdrawn, or merged.",
+        "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+        "supports": "applies: the levy recurs for being registered rather than for trading"
+      },
+      {
+        "quote": "WHO FILES ANNUAL FRANCHISE TAX REPORTS : All domestic and foreign corporations, associations, organizations, and companies constituting a separate legal entity of relationship with the purpose of obtaining a privilege or franchise which is not allowed to them as individuals except those exempted by A.C.A. § 26-54-102.",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "applies: an LLC is a separate legal entity under the chapter's own definition of who files"
+      },
+      {
+        "quote": "The only exemptions are nonprofit corporations, which are organizations exempt from the federal income tax, or organizations formed pursuant to the Uniform Partnership Act, A.C.A. § 4-46-101 et seq., or the Uniform Limited Partnership Act, A.C.A. § 4-47-101 et seq.",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "applies: a default LLC is not in any exempt class"
+      },
+      {
+        "quote": "Limited Liability Company LLC or PLLC N/A $150 $150 ONLINE PDF PDF PDF",
+        "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+        "supports": "minimumAnnualUsd and basis: the LLC row is a flat $150 with no measure"
+      },
+      {
+        "quote": "If this report is timely filed, all limited liability companies are liable for only the $150.00 payment.",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "minimumAnnualUsd: the collector's own form states the flat figure without any measure"
+      },
+      {
+        "quote": "TAX YEAR: The year ending December 31 preceding the reporting year.",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "firstYearExemption: the obligation attaches to the calendar year before the report year, with no first-year exception or proration stated"
+      },
+      {
+        "quote": "ALL REPORTS ARE DUE ON OR BEFORE MAY 1.",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "dueDate"
+      },
+      {
+        "quote": "Mail Payment To: Business and Commercial Services, P.O. Box 8014, Little Rock, Arkansas 72203",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "filedWith: the report and the payment go to the Secretary of State's Business and Commercial Services Division"
+      },
+      {
+        "quote": "All companies must comply with the May 1 due date.",
+        "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+        "supports": "dueDate: the instruction's own restatement"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 3.9,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "The Elective Pass-Through Entity Tax or PET is effective for tax years beginning on or after January 1, 2022. It allows a partnership, Sub-S corporation or limited liability company to file a single income tax return on behalf of the entity and pay the income tax on behalf of all owner members.",
+        "url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/pass-through-entity-tax/",
+        "supports": "hasPTETElection and passThroughApplies: members owe the income tax and the entity may pay it on their behalf only by electing"
+      },
+      {
+        "quote": "The PET rate for all taxpayers will be the same for all owner members and will be equal to the highest income tax rate for individuals.",
+        "url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/pass-through-entity-tax/",
+        "supports": "hasPTETElection: the election's rate is anchored to the individual schedule"
+      },
+      {
+        "quote": "Pass-Through Entity Tax If you are a member of an entity that participates in Pass-Through Entity Tax, include all income from the PET return on the individual return.",
+        "url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+        "supports": "passThroughApplies: an LLC member reports the entity's income on the individual return"
+      },
+      {
+        "quote": "Individual Income Tax Rate Reduction (Act 1 of the Second Extraordinary Session of 2024) Marginal Income Tax rates for 2025 are 3.9%, as amended in 2024.",
+        "url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "PLEASE NOTE: For $100,001 and over, your tax is $3,809 + 3.9% of the excess over $100,000",
+        "url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+        "supports": "topRatePercent: the rate schedule's top bracket"
+      }
+    ]
+  },
+  "notes": "Arkansas's Franchise Tax passes the inclusion test on the collector's own wording: it is levied on the privilege of being a separate legal entity registered in Arkansas, it is annual, and it \"continue[s] to accrue, even for revoked businesses, until the business is dissolved, withdrawn, or merged\". Unusually for this namespace the collector is not the tax authority: the Arkansas Corporate Franchise Tax Act of 1979 (A.C.A. § 26-54-101 et seq.) is administered by the Secretary of State's Business and Commercial Services Division, and the annual report an LLC files with the SOS is the franchise tax report itself.\nminimumAnnualUsd is 150 and basis is flat. The fee schedule's LLC row is a flat $150 (the corporations-with-stock row is the only one carrying a minimum), and the official 2026 form repeats it: \"If this report is timely filed, all limited liability companies are liable for only the $150.00 payment.\" Root states.json carries annual_report_fee 150 for Arkansas, so collectedWithAnnualReport is true and the two figures agree exactly; a total-cost consumer must not add them.\nfirstYearExemption is false on the form's own terms: the tax year is \"the year ending December 31 preceding the reporting year\", every LLC is liable for the same $150 when its report is timely filed, and no first-year waiver or proration appears anywhere on the collector's page or form. The underlying act was not read directly - Arkansas publishes enacted acts rather than a free official code - so this rests on the collector's uniform statement; an enacted-act pass over arkleg.state.ar.us would be the way to confirm it from the statute.\ndueDate is the form's own sentence: \"ALL REPORTS ARE DUE ON OR BEFORE MAY 1.\" Extensions were eliminated by Acts 1046 and 1140 of 1991, which is why the date is stated so absolutely.\ntopRatePercent is 3.9, the 2025 top marginal rate produced by Act 1 of the Second Extraordinary Session of 2024. The state offers an Elective Pass-Through Entity Tax (PET) for tax years beginning on or after 2022-01-01; its rate is defined as the highest individual income tax rate, and a member of an electing entity still includes the income on the individual return and backs out the entity-level tax.",
+  "needsReview": "The franchise-tax statute itself (A.C.A. § 26-54-101 et seq.) was not read in an enacted-act PDF; the record rests on the collector's own page and the official 2026 LLC franchise tax report form, both of which carry the statutory citation. Nothing in the read pages contradicts any recorded value, and the act's text would only sharpen the firstYearExemption finding.",
+  "sources": [
+    {
+      "citation": "Arkansas Secretary of State, Franchise Tax / Annual Report Forms",
+      "title": "Franchise Tax / Annual Report Forms - Arkansas Secretary of State",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Arkansas Secretary of State, Annual LLC Franchise Tax Report 2026",
+      "title": "Annual LLC Franchise Tax Report 2026 (LLC1-FT)",
+      "url": "http://www.sos.arkansas.gov/uploads/bcs/LLC1_FT_2026.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Arkansas Department of Finance and Administration, Pass-through Entity Tax",
+      "title": "Pass-through Entity Tax - Arkansas Department of Finance and Administration",
+      "url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/pass-through-entity-tax/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Arkansas Department of Finance and Administration, 2025 AR1000F and AR1000NR Instructions",
+      "title": "2025 AR1000F and AR1000NR Instructions",
+      "url": "https://www.dfa.arkansas.gov/wp-content/uploads/2025_AR1000F_and_AR1000NR_Instructions.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

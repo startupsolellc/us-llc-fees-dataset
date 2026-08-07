@@ -1,0 +1,104 @@
+{
+  "stateName": "Colorado",
+  "stateAbbr": "CO",
+  "stateSlug": "colorado",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Tax Types Sales & Use Tax Business Income Tax Withholding Tax Excise & Fuel Tax Severance Tax Property Taxation (DOLA)",
+      "url": "https://tax.colorado.gov/businesses",
+      "supports": "applies: the Department of Revenue's own business-tax index enumerates the taxes Colorado levies on a business and names no franchise or privilege tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Business Income Tax Information C Corporations Filing Information Apportionment Affiliated Corporations Accepted Third-Party Software Partnerships & S Corporations Filing Information Apportionment Nonresident Partners & Shareholders Accepted Third-Party Software Filing Requirement Changes for Partnerships and S Corporations",
+        "url": "https://tax.colorado.gov/business-income-tax",
+        "supports": "applies: the business income tax is the recurring entity-level filing Colorado imposes, and it is measured on income rather than on the privilege of being registered"
+      },
+      {
+        "quote": "Any corporation, partnership, joint venture, common trust fund, limited association, pool or working agreement, limited liability company or any other combination of persons or interests, that is required to file a federal income tax return, must file a Colorado Income Tax Return.",
+        "url": "https://tax.colorado.gov/business-income-tax",
+        "supports": "applies: an LLC's only recurring Colorado levy is the income-tax filing, which is the tax on income class this namespace excludes"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.4,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "You must file a Colorado income tax return if during the year you were: A full-year resident of Colorado, or A part-year resident of Colorado with taxable income during that part of the year you were a resident, or A nonresident of Colorado with Colorado source income, AND You are required to file a federal income tax return, or You have a Colorado income tax liability for the year.",
+        "url": "https://tax.colorado.gov/individual-income-tax-filing-requirements",
+        "supports": "passThroughApplies: the individuals who own an LLC owe Colorado income tax on their share of its income"
+      },
+      {
+        "quote": "Any corporation, partnership, joint venture, common trust fund, limited association, pool or working agreement, limited liability company or any other combination of persons or interests, that is required to file a federal income tax return, must file a Colorado Income Tax Return.",
+        "url": "https://tax.colorado.gov/business-income-tax",
+        "supports": "passThroughApplies: the LLC files a Colorado income tax return, which is the pass-through reporting layer"
+      },
+      {
+        "quote": "The SALT Parity Act (SB 22-124) allows partnerships and S corporations to make an annual election that will be subject to Colorado income tax at the entity level.",
+        "url": "https://tax.colorado.gov/salt-parity-act-election",
+        "supports": "hasPTETElection: a default LLC reaches the election as a partnership for federal tax purposes"
+      },
+      {
+        "quote": "Line 13 Colorado Tax The income tax rate is currently 4.4%.",
+        "url": "https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf",
+        "supports": "topRatePercent: the flat rate printed in the 2025 individual income tax booklet"
+      },
+      {
+        "quote": "2025 Colorado Income Tax Table with tax rate of 4.4%",
+        "url": "https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf",
+        "supports": "topRatePercent: the table heading names the same rate"
+      }
+    ]
+  },
+  "notes": "Colorado imposes no franchise or privilege tax on a default LLC. The evidence is the Department of Revenue's own business-tax index, which enumerates exactly six tax types - Sales & Use Tax, Business Income Tax, Withholding Tax, Excise & Fuel Tax, Severance Tax and Property Taxation (DOLA) - and names no franchise tax; that is the index a franchise tax would appear in. The 2024 C.R.S. Title 39 text corroborates the absence: the only occurrences of \"franchise tax\" in the whole title are the apportionment provisions describing taxes other states impose, and there is no franchise-tax article. The recurring entity-level levy Colorado does impose is the business income tax, which is a tax on income and therefore outside this namespace's inclusion test.\nstateIncomeTax: members owe Colorado income tax on their pass-through shares - the filing-requirements page puts every resident and nonresident with Colorado-source income under the return requirement, and the business income tax page puts the LLC itself under a Colorado income tax return. The rate is a flat 4.4%, printed in the 2025 DR 0104 booklet (\"The income tax rate is currently 4.4%\").\nhasPTETElection is true through the SALT Parity Act (SB 22-124): partnerships and S corporations may elect annually to be subject to Colorado income tax at the entity level. The Department's page names partnerships and S corporations rather than LLCs; a default LLC is a partnership for federal tax purposes, which is how it reaches the election, and the record says so rather than overstating the page.\ncollectedWithAnnualReport is null by construction: with no franchise-type levy there is no overlap with root states.json's annual_report_fee (25 for Colorado, the SOS annual report filing).",
+  "needsReview": "Nothing is in doubt. The absence finding could be sharpened from the statute itself - the DOR index says what Colorado levies, and the C.R.S. Title 39 structure corroborates it, but no single statutory sentence states \"Colorado imposes no franchise tax on LLCs\". A future session could cite a Department publication answering what an LLC owes annually if one is published.",
+  "sources": [
+    {
+      "citation": "Colorado Department of Revenue, Businesses",
+      "title": "Businesses | Department of Revenue - Taxation",
+      "url": "https://tax.colorado.gov/businesses",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Colorado Department of Revenue, Business Income Tax",
+      "title": "Business Income Tax | Department of Revenue - Taxation",
+      "url": "https://tax.colorado.gov/business-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Colorado Department of Revenue, SALT Parity Act Election",
+      "title": "SALT Parity Act Election | Department of Revenue - Taxation",
+      "url": "https://tax.colorado.gov/salt-parity-act-election",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Colorado Department of Revenue, Individual Income Tax Filing Requirements",
+      "title": "Individual Income Tax | Filing Requirements | Department of Revenue - Taxation",
+      "url": "https://tax.colorado.gov/individual-income-tax-filing-requirements",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Colorado Department of Revenue, 2025 Colorado Individual Income Tax Booklet (DR 0104)",
+      "title": "Book104_2025.pdf",
+      "url": "https://tax.colorado.gov/sites/tax/files/documents/Book104_2025.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

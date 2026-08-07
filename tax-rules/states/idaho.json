@@ -1,0 +1,114 @@
+{
+  "stateName": "Idaho",
+  "stateAbbr": "ID",
+  "stateSlug": "idaho",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "a limited liability company as defined in subsection (5) or (6) of section 53-601 , Idaho Code, or as defined in section 30-6-102 , Idaho Code, as appropriate pursuant to section 30-6-1104 , Idaho Code, shall be classified as a partnership, corporation, unincorporated association or otherwise pursuant to the provisions of the internal revenue code. A limited liability company that is classified as a partnership pursuant to the internal revenue code shall be treated as a partnership for purposes of chapter 30, title 63 , Idaho Code.",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3006A/",
+      "supports": "applies: the income-tax chapter's own classification rule puts a default LLC outside the corporate franchise tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "For taxable years commencing on and after January 1, 2001, a franchise tax shall be imposed upon any corporation, other than an S corporation, for the privilege of exercising its corporate franchise within the state during such taxable year",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3025A/",
+        "supports": "applies: the franchise tax Idaho does impose is on corporations, in the statute's own words"
+      },
+      {
+        "quote": "The tax imposed by subsection (1) or (2) of this section shall not be less than twenty dollars ($20.00)",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3025A/",
+        "supports": "the corporate franchise minimum, recorded in notes for the LLC that elects corporate classification"
+      },
+      {
+        "quote": "You must file income tax returns for your business entity if any of the following are true: You’re transacting business in Idaho. You’re registered with the Idaho Secretary of State to do business in Idaho. You have income attributable to Idaho. You’re a fiduciary.",
+        "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+        "supports": "applies: an LLC's recurring obligation is the income-tax filing, which is the tax on income class this namespace excludes"
+      },
+      {
+        "quote": "Partnerships must pay $10 for each partner for whom it pays the Idaho income tax due.",
+        "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+        "supports": "the $10 PBF charge, recorded in notes: it attaches to entity-paid income tax, not to being registered"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.3,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "You must file individual income tax returns with Idaho if you’re any of the following: An Idaho resident A part-year Idaho resident with income from Idaho sources or income earned while an Idaho resident A nonresident of Idaho with income from Idaho sources",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+        "supports": "passThroughApplies: the individuals who own an LLC owe Idaho income tax on their share of its income"
+      },
+      {
+        "quote": "“Member” means: (i) A shareholder of an S corporation, except for exempt entities; (ii) A partner in a general partnership, a limited partnership, or a limited liability partnership, except for exempt entities; or (iii) A member of a limited liability company that is treated as a partnership or an S corporation for federal income tax purposes, except for exempt entities.",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3026B/",
+        "supports": "passThroughApplies: the statute's own description of who the members are"
+      },
+      {
+        "quote": "Income tax rate The income tax rate for 2025 is 5.3% on Idaho taxable income.",
+        "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+        "supports": "topRatePercent: the flat 2025 rate"
+      },
+      {
+        "quote": "A partnership or an S corporation may elect in the manner set forth in this section to become an affected business entity required to pay the tax under this section in any taxable year.",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3026B/",
+        "supports": "hasPTETElection"
+      },
+      {
+        "quote": "“Partnership” has the meaning provided in section 63-3006B , Idaho Code. “Partnership” includes a limited liability company that is treated as a partnership for federal income tax purposes as described in section 63-3006A , Idaho Code.",
+        "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3026B/",
+        "supports": "hasPTETElection: a default LLC reaches the election as a partnership"
+      }
+    ]
+  },
+  "notes": "Idaho has a statute literally captioned \"Franchise tax\" - I.C. § 63-3025A - and it fails the inclusion test for this namespace's reader because of its subjects, not its label: it is imposed \"upon any corporation, other than an S corporation, for the privilege of exercising its corporate franchise within the state\", measured by income, with a $20 minimum. A default LLC is not a corporation: § 63-3006A classifies an LLC under the Internal Revenue Code and treats a partnership-classified LLC as a partnership for the whole income-tax chapter. Section 63-3079's \"Franchise tax not repealed\" savings clause therefore preserves corporate and insurance-premium franchise taxes, not a levy on a default LLC. The Tax Commission's own tax-type index - individual income, business income, sales and use, fuels, and the rest - likewise lists no franchise tax for the LLC.\nThe $10 Permanent Building Fund tax (I.C. § 63-3082) is the closest thing to an annual entity charge and it is excluded for a measured reason: partnerships pay it only \"for each partner for whom it pays the Idaho income tax due\", so a default LLC whose members file their own returns owes nothing. It is a per-member surcharge on entity-paid income tax, not a levy on being registered.\nstateIncomeTax: members owe Idaho income tax on pass-through income at the flat 2025 rate of 5.3 per cent. The state has a pass-through entity tax election - I.C. § 63-3026B (added 2021, amended 2026) - under which an electing partnership or S corporation (including a partnership-taxed LLC) pays the corporate income-tax rate on its Idaho-source affected-business-entity income, and members receive credits for their share. The section was amended in the 2026 session (2026, ch. 81), and the text read here is the amended text.\ncollectedWithAnnualReport is null by construction: with no franchise-type levy on a default LLC there is no overlap with root states.json's annual_report_fee (0 for Idaho).",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Idaho Code, Title 63, ch. 30, sec. 63-3025A, Franchise Tax",
+      "title": "63-3025A. Franchise tax - Idaho State Legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3025A/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Idaho Code, Title 63, ch. 30, sec. 63-3006A, Limited Liability Company - Classification and Taxation",
+      "title": "63-3006A. Limited liability company - Classification and taxation - Idaho State Legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3006A/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Idaho Code, Title 63, ch. 30, sec. 63-3026B, Affected Business Entities - State and Local Taxation Treatment",
+      "title": "63-3026B. Affected business entities - State and local taxation treatment - Idaho State Legislature",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3026B/",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Idaho State Tax Commission, Individual Income Tax Basics Guide",
+      "title": "Individual Income Tax Basics - Idaho State Tax Commission",
+      "url": "https://tax.idaho.gov/taxes/income-tax/individual-income/online-guide/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Idaho State Tax Commission, Business Income Tax Basics Guide",
+      "title": "Business Income Tax Basics - Idaho State Tax Commission",
+      "url": "https://tax.idaho.gov/taxes/income-tax/business-income/online-guide/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

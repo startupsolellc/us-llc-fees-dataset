@@ -1,0 +1,80 @@
+{
+  "stateName": "Nebraska",
+  "stateAbbr": "NE",
+  "stateSlug": "nebraska",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "77-3802. Franchise tax imposed. (1) There is hereby imposed for each taxable year for the privilege of doing business in this state a franchise tax on all financial institutions with business locations in this state. Such franchise tax shall be based on the average deposits of the financial institution.",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802",
+      "supports": "applies: the state's only franchise tax is imposed on financial institutions, in the imposing statute's own words"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "(1) There is hereby imposed for each taxable year for the privilege of doing business in this state a franchise tax on all financial institutions with business locations in this state. Such franchise tax shall be based on the average deposits of the financial institution.",
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802",
+        "supports": "applies: the subject class is financial institutions, measured by average deposits - not a default LLC"
+      },
+      {
+        "quote": "Eligible partnerships and S corporations. An eligible partnership includes any entity, including a limited liability company (LLC), treated as a partnership for federal income tax purposes. An eligible partnership does not include a publicly traded partnership.",
+        "url": "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-faqs",
+        "supports": "applies: the Department's own classification - a default LLC is partnership-treated, so it never enters the financial-institution franchise tax"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.2,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Eligible partnerships and S corporations. An eligible partnership includes any entity, including a limited liability company (LLC), treated as a partnership for federal income tax purposes.",
+        "url": "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-faqs",
+        "supports": "passThroughApplies: a default LLC is a partnership for federal income tax purposes, so its income passes through to members"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2025, and before January 1, 2026, the tax rate is 5.20% and applied on all the Nebraska taxable income.",
+        "url": "https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf",
+        "supports": "topRatePercent: the Department's own rate chronology for tax year 2025"
+      },
+      {
+        "quote": "What pass-through entities are eligible to make the PTET election? Eligible partnerships and S corporations. An eligible partnership includes any entity, including a limited liability company (LLC), treated as a partnership for federal income tax purposes. An eligible partnership does not include a publicly traded partnership.",
+        "url": "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-faqs",
+        "supports": "hasPTETElection: a partnership-treated LLC is eligible to make the pass-through entity tax election"
+      }
+    ]
+  },
+  "notes": "Nebraska's franchise tax is the levy of Neb. Rev. Stat. § 77-3802, and its subjects are financial institutions: the statute imposes it \"for the privilege of doing business in this state\" on \"all financial institutions with business locations in this state\", measured on average deposits. A default LLC is not a financial institution, and the Department of Revenue's own pass-through entity tax FAQ states the classification that keeps it out of every corporate-style levy: an eligible partnership includes any entity, including an LLC, treated as a partnership for federal income tax purposes. applies is therefore false, on the statute and the Department's pages rather than on a silence.\ncollectedWithAnnualReport is null: no franchise-type levy remains for a default LLC, and root states.json carries annual_report_fee 25 for Nebraska, the Secretary of State's biennial report filing fee, a separate payment with no tax to overlap. Nebraska's corporate income tax applies to corporations, not to partnership-classified LLCs.\nstateIncomeTax: members owe Nebraska individual income tax on pass-through income. The Department's rate chronology states that for taxable years beginning on or after January 1, 2025, and before January 1, 2026, the tax rate is 5.20% applied on all Nebraska taxable income (the schedule's top bracket for 2025); the same chronology shows the bracket structure is being compressed by the same legislation that compresses the PTET rate. Nebraska offers a pass-through entity tax election: the Department's FAQ names the eligible entities (partnerships and S corporations, with an eligible partnership including any LLC treated as a partnership) and publishes the PTET rate schedule - 5.20% for 2025, 4.55% for 2026, 3.99% for 2027 and after.",
+  "needsReview": "The PTET's imposing statute was not read on nebraskalegislature.gov (the Department's FAQ carries the election and its rate schedule); the franchise tax's subject class is grounded in the statute itself.",
+  "sources": [
+    {
+      "citation": "Nebraska Legislature, Neb. Rev. Stat. § 77-3802, Franchise tax imposed",
+      "title": "77-3802. Franchise tax imposed",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3802",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nebraska Department of Revenue, Pass-Through Entity Tax (PTET) FAQs",
+      "title": "Pass-Through Entity Tax (PTET) FAQs",
+      "url": "https://revenue.nebraska.gov/about/frequently-asked-questions/pass-through-entity-tax-faqs",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Nebraska Department of Revenue, Nebraska Tax Rate Chronologies - Individual Income Tax",
+      "title": "Nebraska Tax Rate Chronologies - Individual Income Tax",
+      "url": "https://revenue.nebraska.gov/sites/default/files/doc/research/chronology/4-607table1.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -1,0 +1,99 @@
+{
+  "stateName": "Massachusetts",
+  "stateAbbr": "MA",
+  "stateSlug": "massachusetts",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "LLCs are classified for Massachusetts income tax purposes the same way they are for federal income tax purposes. A single-member LLC will be disregarded as an entity separate from its owner for Massachusetts income tax purposes, if it is disregarded for federal tax purposes. An LLC with two or more members will be treated as a partnership if it's treated as a partnership for federal tax purposes. An LLC will be treated as a corporation for Massachusetts income tax purposes if it is classified as such for federal tax purposes.",
+      "url": "https://www.mass.gov/info-details/ma-tax-requirements-and-registration-for-limited-liability-companies",
+      "supports": "applies: the Department's own classification page - a default LLC is partnership-classified, and only a corporation-classified LLC enters the corporate excise system"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Section 39. Except as otherwise provided in this section, every business corporation, organized under the laws of the commonwealth, or exercising its charter or other means of legal authority, or qualified to do business or actually doing business in the commonwealth, or owning or using any part or all of its capital, plant or any other property in the commonwealth, shall pay, on account of each taxable year, the excise provided in subsection (a) or (b), whichever is greater",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section39",
+        "supports": "applies: the corporate excise's subject class is the business corporation, not a partnership-classified LLC"
+      },
+      {
+        "quote": "- An LLC treated as a Partnership must register for Partnership. - An LLC treated as a corporation must register for Corporate Excise.",
+        "url": "https://www.mass.gov/info-details/ma-tax-requirements-and-registration-for-limited-liability-companies",
+        "supports": "applies: the Department's registration guidance names Corporate Excise only for corporation-classified LLCs"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 9,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "An LLC with two or more members will be treated as a partnership if it's treated as a partnership for federal tax purposes.",
+        "url": "https://www.mass.gov/info-details/ma-tax-requirements-and-registration-for-limited-liability-companies",
+        "supports": "passThroughApplies: members of a default LLC are treated as partners and owe Massachusetts income tax on pass-through income"
+      },
+      {
+        "quote": "(d) Where the sum of Part A taxable income, Part B taxable income and Part C taxable income exceeds $1,000,000 in a taxable year, the portion of such taxable income exceeding $1,000,000 shall be taxed at the rates specified in subsections (a) to (c), inclusive, plus an additional 4 per cent.",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4",
+        "supports": "topRatePercent: the statutory 4% surtax layer above the $1,000,000 threshold"
+      },
+      {
+        "quote": "If the sum is equal to or less than the surtax threshold, the required personal income tax withholding amount is 5% of the supplemental wage payment. If the sum is greater than the surtax threshold, then the supplemental wage payment is subject to withholding in an amount equal to the lesser of: (i) 9% of the supplemental wage payment or (ii) 9% of the amount by which such sum exceeds the surtax threshold, plus 5% of the remainder of the supplemental wage payment.",
+        "url": "https://www.mass.gov/info-details/massachusetts-4-surtax-on-taxable-income",
+        "supports": "topRatePercent: the Department's own computation - 5% Part B base plus the 4% surtax is 9% above the threshold"
+      },
+      {
+        "quote": "Section 2. An eligible pass-through entity may elect to pay an excise on its qualified income taxable in Massachusetts at a rate of 5 per cent. A qualified member of an electing eligible pass-through entity shall be allowed a refundable credit against the tax imposed under this chapter.",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63D/Section2",
+        "supports": "hasPTETElection"
+      }
+    ]
+  },
+  "notes": "Massachusetts's recurring entity-level levy is the corporate excise of G.L. c. 63, and its subject class is the business corporation: c. 63 § 39 imposes the excise on \"every business corporation\" for the privilege of doing business in the commonwealth. A default LLC is not in that class. The Department of Revenue's own LLC registration page states that LLCs are classified for Massachusetts income tax purposes as they are for federal purposes, that an LLC with two or more members is treated as a partnership if it is treated as a partnership federally, and that only an LLC treated as a corporation registers for Corporate Excise. applies is therefore false, on the Department's own pages rather than on a silence.\ncollectedWithAnnualReport is null: no franchise-type levy remains for a default LLC, and root states.json carries annual_report_fee 500 for Massachusetts, the Secretary of the Commonwealth's annual report filing fee, a separate payment with no tax to overlap.\nstateIncomeTax: members owe Massachusetts personal income tax on pass-through income. Part B taxable income (ordinary business income) is taxed at 5% plus the 4% surtax of G.L. c. 62 § 4(d) on taxable income above the inflation-adjusted threshold (the Department's page states the 5%/9% withholding computation in terms), so the top marginal rate on ordinary income is 9%; the Part A capital-gains rate of 12% (short-term gains 8.5%) is a separate schedule and is carried here in notes rather than in topRatePercent. Massachusetts offers an elective pass-through entity excise under G.L. c. 63D § 2: an eligible pass-through entity may elect to pay an excise on its qualified income taxable in Massachusetts at 5%, and qualified members receive a refundable credit (90% of their share of the entity-level tax); the 4% surtax cannot be added to the PTE excise.\nSourcing note: www.mass.gov blocks scripted clients (403 to curl), so the two Department pages cited here were read in a real browser on 2026-08-07 and their quoted passages were verified against dated browser-rendered snapshots stored under scripts/output/snapshots/ (acfcb07ec99a2d28.html and c7098f35a2a4ff06.html). The statute citations are live-verified.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Massachusetts Department of Revenue, MA Tax Requirements and Registration for Limited Liability Companies (browser-read snapshot)",
+      "title": "MA Tax Requirements and Registration for Limited Liability Companies",
+      "url": "https://www.mass.gov/info-details/ma-tax-requirements-and-registration-for-limited-liability-companies",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Massachusetts Department of Revenue, Massachusetts 4% Surtax on Taxable Income (browser-read snapshot)",
+      "title": "Massachusetts 4% Surtax on Taxable Income",
+      "url": "https://www.mass.gov/info-details/massachusetts-4-surtax-on-taxable-income",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Massachusetts General Laws c. 63, § 39, Corporate excise",
+      "title": "Section 39: Corporate excise",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63/Section39",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Massachusetts General Laws c. 62, § 4, Taxation of residents and non-residents",
+      "title": "Section 4: Taxation of residents and non-residents",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section4",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Massachusetts General Laws c. 63D, § 2, Refundable credit for eligible pass-through entity",
+      "title": "Section 2: Refundable credit for eligible pass-through entity",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter63D/Section2",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

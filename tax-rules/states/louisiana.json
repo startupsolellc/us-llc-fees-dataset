@@ -1,0 +1,94 @@
+{
+  "stateName": "Louisiana",
+  "stateAbbr": "LA",
+  "stateSlug": "louisiana",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "The corporation franchise tax has been repealed for franchise tax periods beginning on or after January 1, 2026. Franchise tax may still apply to earlier periods.",
+      "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-the-corporation-franchise-tax-still-required/",
+      "supports": "applies: the only franchise-type levy Louisiana imposes is repealed for every taxpayer, current periods included"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "An LLC is treated and taxed in the same manner for Louisiana income tax purposes as it is treated and taxed for federal income tax purposes. If the LLC is taxed as a corporation for federal income tax purposes, the LLC will be taxed as a corporation for Louisiana income tax purposes. If the LLC is considered a partnership for federal income tax purposes, which is the most common situation, the LLC is treated as a partnership for Louisiana income tax purposes.",
+        "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/how-are-limited-liability-companies-llcs-taxed-for-louisiana-income-and-franchise-tax-purposes/",
+        "supports": "applies: a default LLC follows partnership treatment, and the franchise tax's subject class is entities taxed as corporations for federal purposes"
+      },
+      {
+        "quote": "§601. Repealed by Acts 2024, 3rd Ex. Sess., No. 6, §3, eff. Jan. 1, 2026.",
+        "url": "https://www.legis.la.gov/legis/LawPrint.aspx?d=102366",
+        "supports": "applies: the imposing section, R.S. 47:601, is repealed in the legislature's own text"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 3,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "If the LLC is considered a partnership for federal income tax purposes, which is the most common situation, the LLC is treated as a partnership for Louisiana income tax purposes.",
+        "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/how-are-limited-liability-companies-llcs-taxed-for-louisiana-income-and-franchise-tax-purposes/",
+        "supports": "passThroughApplies: partnership-taxed LLCs are treated as partnerships for Louisiana income tax, so members bear the income tax"
+      },
+      {
+        "quote": "For taxable periods beginning on or after January 1, 2025, the individual income tax rate is a flat 3%. The graduated brackets and rates for income tax have been repealed.",
+        "url": "https://revenue.la.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/",
+        "supports": "topRatePercent"
+      },
+      {
+        "quote": "Revised Statute 47:287.732.2 allows Subchapter S Corporations, and other flow-through entities taxed as partnerships for federal income tax purposes, to elect to pay Louisiana income tax at the entity level. An individual who is a shareholder, member, or partner of the entity is allowed to exclude the income taxed at the entity level that is included in their federal adjusted gross income.",
+        "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/does-a-corporation-taxed-as-an-s-corporation-federally-have-to-make-the-pass-through-entity-tax-election/",
+        "supports": "hasPTETElection: the election is available to flow-through entities taxed as partnerships, which includes a default LLC"
+      }
+    ]
+  },
+  "notes": "Louisiana's Corporation Franchise Tax (R.S. 47:601) is repealed for franchise tax periods beginning on or after January 1, 2026, by Acts 2024, 3rd Ex. Sess., No. 6, §3 - the Department of Revenue says so in terms and the legislature's own LawPrint text says so. applies is therefore false for every taxpayer, the default LLC included.\nEven before the repeal the default LLC this namespace describes was not a subject. The Department's classification FAQ states that an LLC is classified for Louisiana income tax purposes as it is classified federally: since the 2017 franchise tax period the franchise tax reaches entities taxed as corporations under 26 U.S.C. Subtitle A, Chapter 1, Subchapter C (Act 12 of the 2016 First Extraordinary Session), with a statutory exception for LLCs qualified and eligible to elect S status; and before 2017 an LLC was not considered a corporation for franchise tax purposes at all. A partnership-taxed LLC - the default - never fell in the subject class, and the Department's own pages are the evidence of absence rather than a silence.\ncollectedWithAnnualReport is null: no franchise-type levy remains for a default LLC, and root states.json carries annual_report_fee 30 for Louisiana, the Secretary of State's annual report filing fee, which is a separate payment with no tax to overlap. Franchise tax may still apply to earlier periods (before January 1, 2026) for entities taxed as corporations, which is out of scope for this record.\nstateIncomeTax: members owe Louisiana individual income tax on pass-through income at the flat 3% rate for taxable periods beginning on or after January 1, 2025 (the graduated brackets were repealed). Louisiana offers a pass-through entity tax election under R.S. 47:287.732.2 for flow-through entities taxed as partnerships, including LLCs: the entity elects on Form R-6980 and must receive LDR acceptance of the election, and the election is effective for the taxable year it is made and all subsequent taxable years until terminated. An individual who is a shareholder, member, or partner of an electing entity excludes the income taxed at the entity level from their federal adjusted gross income.\nThe 2026-10-01 fee changes under Act 921 of the 2026 Regular Session (articles $100 to $125, annual report $30 to $35, trade name $75 to $95) are Secretary of State filing fees, not taxes, and are deliberately not recorded here.",
+  "needsReview": "R.S. 47:287.732.2's statutory text was not read directly on legis.la.gov (opaque numeric navigation on that host); the Department's own FAQ states the election and its mechanism, and the franchise-tax repeal is grounded in the legislature's LawPrint text. A session wanting the PTE statute in full should navigate the Title 47 table of contents (Laws_Toc.aspx) to the section.",
+  "sources": [
+    {
+      "citation": "Louisiana Department of Revenue FAQ, How are Limited Liability Companies (LLCs) taxed for Louisiana income and franchise tax purposes?",
+      "title": "How are Limited Liability Companies (LLCs) taxed for Louisiana income and franchise tax purposes?",
+      "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/how-are-limited-liability-companies-llcs-taxed-for-louisiana-income-and-franchise-tax-purposes/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Louisiana Department of Revenue FAQ, Is the corporation franchise tax still required?",
+      "title": "Is the corporation franchise tax still required?",
+      "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/is-the-corporation-franchise-tax-still-required/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Louisiana Department of Revenue FAQ, What are the individual income tax rates and brackets?",
+      "title": "What are the individual income tax rates and brackets?",
+      "url": "https://revenue.la.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Louisiana Department of Revenue FAQ, Does a corporation that made the federal election to be taxed as an S corporation have to make the pass-through entity tax election under LA R.S. 47:287.732.2?",
+      "title": "Does a corporation that made the federal election to be taxed in accordance with the provisions of 26 U.S.C. Subtitle A, Chapter 1, Subchapter S have to make the pass-through entity tax election under LA R.S. 47:287.732.2?",
+      "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/corporation-income-franchise-taxes/does-a-corporation-taxed-as-an-s-corporation-federally-have-to-make-the-pass-through-entity-tax-election/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Louisiana State Legislature, RS 47:601 (LawPrint), Corporation Franchise Tax",
+      "title": "RS 47:601",
+      "url": "https://www.legis.la.gov/legis/LawPrint.aspx?d=102366",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
