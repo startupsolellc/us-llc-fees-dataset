@@ -1,0 +1,114 @@
+{
+  "stateName": "Utah",
+  "stateAbbr": "UT",
+  "stateSlug": "utah",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "(1) There is imposed upon each corporation, except a corporation that is exempt under Section 59-7-102 , a tax upon the corporation's Utah taxable income for the taxable year that is derived from sources within this state other than income for any period that the corporation is required to include in the corporation's tax base under Section 59-7-104",
+      "url": "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-S201_2026050620260506.html",
+      "supports": "applies: Utah Code 59-7-201 imposes the corporate franchise and income tax on each corporation - the imposing section whose subject terms exclude a default LLC"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "(11) \"Corporation\" includes: (a) entities defined as corporations under Sections 7701(a) and 7704, Internal Revenue Code; and (b) other organizations that are taxed as corporations for federal income tax purposes under the Internal Revenue Code.",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-S101_2021050520210505.html",
+        "supports": "applies: Utah Code 59-7-101(11) defines a corporation for chapter 59-7 by federal corporate classification, which a default partnership-taxed LLC is not"
+      },
+      {
+        "quote": "(2) The tax imposed by Subsection (1) shall be 4.45% of a corporation's Utah taxable income. (3) In no case shall the tax be less than $100.",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-S201_2026050620260506.html",
+        "supports": "excluded levy: the corporate tax's 4.45% rate and $100 minimum belong to corporations, on the statute's own terms"
+      },
+      {
+        "quote": "The SALT tax is calculated by multiplying the total amount of voluntary taxable income for all Final PTETs by the individual income tax rate for the taxable year.",
+        "url": "https://tax.utah.gov/business/pass-through/salt-faq/",
+        "supports": "excluded levy and stateIncomeTax: the only entity-level option for an LLC is the elective SALT tax at the individual income tax rate, not a franchise-type levy"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.45,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "(1) A tax is imposed on the state taxable income of a resident individual as provided in this section.",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S104_2026050620260506.html",
+        "supports": "passThroughApplies: Utah Code 59-10-104 imposes the flat-rate individual income tax on resident individuals"
+      },
+      {
+        "quote": "(2) For purposes of Subsection (1) , for a taxable year, the tax is an amount equal to the product of: (a) the resident individual's state taxable income for that taxable year; and (b) 4.45%.",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S104_2026050620260506.html",
+        "supports": "topRatePercent: the individual income tax rate is 4.45% for tax year 2026"
+      },
+      {
+        "quote": "if a pass-through entity or pass-through entity taxpayer is classified as an estate, individual, partnership, S corporation, or a trust for federal income tax purposes, derived from or connected with Utah sources in accordance with Sections 59-10-117 and 59-10-118",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S1402_2023050320230503.html",
+        "supports": "passThroughApplies: Utah Code 59-10-1402 defines a pass-through entity taxpayer by its federal classification, including a partnership - the default classification of an LLC"
+      },
+      {
+        "quote": "Which entity types can elect to be treated as an electing PTE? The election is permitted for a PTE with Utah source income that distributes this income to one or more Final PTET. The election is not allowable for entities that are disregarded for federal income tax purposes.",
+        "url": "https://tax.utah.gov/business/pass-through/salt-faq/",
+        "supports": "hasPTETElection: the Tax Commission's own SALT FAQ confirms a partnership-taxed LLC (a PTE that is not disregarded) can elect"
+      },
+      {
+        "quote": "The election to be treated as an electing PTE is made by electronically filing a SALT Report and submitting an electronic SALT tax payment on or before the last day of the PTE's taxable year.",
+        "url": "https://tax.utah.gov/business/pass-through/salt-faq/",
+        "supports": "hasPTETElection: the annual election mechanics, from the Tax Commission's own SALT FAQ"
+      },
+      {
+        "quote": "The SALT tax is calculated by multiplying the total amount of voluntary taxable income for all Final PTETs by the individual income tax rate for the taxable year.",
+        "url": "https://tax.utah.gov/business/pass-through/salt-faq/",
+        "supports": "hasPTETElection: the elected SALT tax is the individual income tax rate (4.45% for tax year 2026) applied at the entity level"
+      }
+    ]
+  },
+  "notes": "Utah has no franchise-type levy on a default LLC: applies is false, resting on the statute's own subject terms. Utah Code chapter 59-7 is the Corporate Franchise and Income Taxes chapter; 59-7-201 imposes the tax on each corporation, and 59-7-101(11) defines 'corporation' as entities defined as corporations under IRC sections 7701(a) and 7704 plus other organizations taxed as corporations for federal income tax purposes. A default partnership-taxed LLC is not a corporation under that definition, so the chapter's 4.45% corporate rate and its $100 minimum tax do not reach it. (The chapter's history is franchise-shaped - the franchise tax was in lieu of the income tax - but the current imposition is the corporate income tax with the minimum; the label is data, not substance.)\ncollectedWithAnnualReport is null: no franchise-type levy exists for a default LLC, and root states.json carries annual_report_fee 18 for Utah, the Department of Commerce's annual report fee, a separate payment with no tax to overlap.\nstateIncomeTax: members owe Utah individual income tax on their pass-through shares. Utah Code 59-10-104 imposes a flat tax of 4.45% of a resident individual's state taxable income for tax year 2026 (the flat rate was 4.55% for 2025 before Chapter 250, 2026 General Session amended it). Utah offers the State and Local Tax (SALT) election under the Pass-Through Entity Taxpayer Act (Utah Code Part 59-10-14, created by HB 444): a PTE that is not disregarded for federal tax purposes may elect annually to pay tax on voluntary taxable income on behalf of all Final PTETs (individual owners), calculated at the individual income tax rate for the taxable year, with the election made by filing a SALT Report and paying the SALT tax electronically through Taxpayer Access Point before the end of the PTE's taxable year.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Utah Code § 59-7-101, Definitions",
+      "title": "Utah Code Section 59-7-101",
+      "url": "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-S101_2021050520210505.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Utah Code § 59-7-201, Tax -- Minimum tax",
+      "title": "Utah Code Section 59-7-201",
+      "url": "https://le.utah.gov/xcode/Title59/Chapter7/C59-7-S201_2026050620260506.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Utah Code § 59-10-104, Tax basis -- Tax rate -- Exemption",
+      "title": "Utah Code Section 59-10-104",
+      "url": "https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S104_2026050620260506.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Utah Code § 59-10-1402, Definitions",
+      "title": "Utah Code Section 59-10-1402",
+      "url": "https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S1402_2023050320230503.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Utah State Tax Commission, SALT Report & Tax FAQ",
+      "title": "SALT Report & Tax FAQ - Utah State Tax Commission",
+      "url": "https://tax.utah.gov/business/pass-through/salt-faq/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

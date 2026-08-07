@@ -1,0 +1,125 @@
+{
+  "stateName": "Oklahoma",
+  "stateAbbr": "OK",
+  "stateSlug": "oklahoma",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Oklahoma Franchise tax is ending. When does this go into effect? Tax year 2023 is the last year that franchise tax returns will be required to be filed. Starting with tax year 2024 and beyond, there will be no Oklahoma franchise tax filing requirement.",
+      "url": "https://oklahoma.gov/tax/helpcenter/businesses.html?q=BUSHB1039X",
+      "supports": "applies: the Tax Commission's own HB 1039X FAQ states the franchise tax ended after tax year 2023, so no franchise tax exists for any entity from tax year 2024 on"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "For tax year 2023 and previous tax years, there is hereby levied and assessed a franchise or excise tax upon every corporation, association, joint-stock company and business trust organized under the laws of this state, equal to One Dollar and twenty-five cents ($1.25) for each One Thousand Dollars ($1,000.00) or fraction thereof of the amount of capital used, invested or employed in the exercise of any power, privilege or right inuring to such organization, within this state",
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92295",
+        "supports": "applies: 68 O.S. § 1203 now confines its levy to tax year 2023 and previous tax years"
+      },
+      {
+        "quote": "The terms of this article shall apply to every corporation organized under the laws of this state, or qualified to do, or doing business in Oklahoma in a corporate or organized capacity by virtue of creation or organization under the laws of this or any other state, territory or district, or a foreign country, including associations, joint-stock companies and business trusts as defined by Section 202 of this title, but not including limited liability companies as defined by Section 2001 of Title 18 of the Oklahoma Statutes.",
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92293",
+        "supports": "applies: 68 O.S. § 1201 excluded limited liability companies from the franchise tax article even before the elimination"
+      },
+      {
+        "quote": "Tax year 2023 is the last year that franchise tax returns will be required to be filed. This means that taxpayers who remit the maximum amount of tax must do so annually by May 1, and the final franchise tax return must be remitted on or before June 1, 2024, to avoid being delinquent.",
+        "url": "https://www.oklahoma.gov/tax/newsroom/2023/07-26-23.html",
+        "supports": "applies: the Tax Commission's own newsroom announcement of the elimination and the final filing deadlines"
+      },
+      {
+        "quote": "A. In determining the amount of tax to be levied, assessed and collected under the terms of this Article, the maximum amount shall not exceed Twenty Thousand Dollars ($20,000.00). B. If, as a result of the computation of tax required by Section 1209 of this title, the resulting liability is Two Hundred Fifty Dollars ($250.00) or less, the corporation or other entity shall be exempt from the tax levied by Section 1203 or Section 1204 of this title for such reporting period.",
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92297",
+        "supports": "excluded levy: 68 O.S. § 1205's old $250 exemption and $20,000 maximum belonged to the franchise tax, which no longer applies to any entity"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 4.5,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "D. Individuals. For tax year 2026 and for subsequent tax years subject to rate reductions as provided by subsection E of this section, a tax is hereby imposed upon the Oklahoma taxable income of every resident or nonresident individual, which tax shall be computed as follows: 1. Single individuals and married individuals filing separately: (a) 0% tax on first $3,750.00 or part thereof, (b) 2.5% tax on the next $1,150.00 or part thereof, (c) 3.5% tax on next $2,300.00 or part thereof, and (d) 4.5% tax on the remainder.",
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92565",
+        "supports": "passThroughApplies and topRatePercent: 68 O.S. § 2355(D) imposes the individual income tax on residents' and nonresidents' Oklahoma taxable income, with a 4.5% top bracket for tax year 2026"
+      },
+      {
+        "quote": "A. For tax years beginning on or after January 1, 2022, there is hereby levied on each electing pass-through entity the pass-through entity tax which shall be calculated as follows: 1. With regard to each member of an electing pass-through entity, the electing pass-through entity shall multiply such member's Oklahoma distributive share of the electing pass-through entity's Oklahoma net entity income for the tax year by: a. the highest Oklahoma marginal income tax rate levied on the taxable income of natural persons pursuant to Section 2355 of this title if the member is an individual, trust, or estate",
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=483689",
+        "supports": "hasPTETElection: 68 O.S. § 2355.1P-4 levies the pass-through entity tax on each electing pass-through entity at the highest marginal individual rate"
+      },
+      {
+        "quote": "2. \"Electing pass-through entity\" means any pass-through entity as defined in paragraph 6 of this section that has made an election pursuant to subsection F of Section 4 of this act to pay income tax as computed pursuant to Section 2358 of Title 68 of the Oklahoma Statutes;",
+        "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=483687",
+        "supports": "hasPTETElection: 68 O.S. § 2355.1P-2 defines the electing pass-through entity, confirming the election mechanism of the Pass-Through Entity Tax Equity Act of 2019"
+      }
+    ]
+  },
+  "notes": "Oklahoma has no franchise tax for any entity from tax year 2024 on: applies is false, resting on the Tax Commission's own HB 1039X FAQ ('Tax year 2023 is the last year that franchise tax returns will be required to be filed. Starting with tax year 2024 and beyond, there will be no Oklahoma franchise tax filing requirement.') and the current statute text. 68 O.S. § 1203 (and § 1204, its foreign-corporation counterpart) now begins 'For tax year 2023 and previous tax years, there is hereby levied...', confining the old franchise or excise tax to 2023 and earlier; House Bill 1039X (2023, 1st Extraordinary Session) made the change. Even before the elimination, 68 O.S. § 1201 applied the article to corporations, associations, joint-stock companies and business trusts 'but not including limited liability companies as defined by Section 2001 of Title 18 of the Oklahoma Statutes.' The old $250 exemption and $20,000 maximum of § 1205 are historical.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 25 for Oklahoma, the Secretary of State's annual report fee, a separate payment with no tax to overlap.\nstateIncomeTax: members owe Oklahoma individual income tax on their pass-through shares. 68 O.S. § 2355(D), for tax year 2026 and subsequent years, taxes Oklahoma taxable income of every resident or nonresident individual with a 4.5% top bracket (the top rate was 4.75% for tax years 2024-2025 under § 2355(C); further rate reductions are contingent on the State Board of Equalization's certification under § 2355(E)). Oklahoma offers the pass-through entity tax under the Pass-Through Entity Tax Equity Act of 2019, 68 O.S. § 2355.1P-1 et seq.: an electing pass-through entity pays the tax at the highest Oklahoma marginal income tax rate levied on natural persons, with members receiving the corresponding credit.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "68 O.S. § 1201, Corporations and Organizations to Which Article Applicable",
+      "title": "Oklahoma Statutes Title 68, § 1201 (OSCN 2026)",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92293",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "68 O.S. § 1203, Franchise or Excise Tax upon Corporations, Associations, Joint-stock Companies and Business Trusts",
+      "title": "Oklahoma Statutes Title 68, § 1203 (OSCN 2026)",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92295",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "68 O.S. § 1205, Minimum and Maximum Taxes",
+      "title": "Oklahoma Statutes Title 68, § 1205 (OSCN 2026)",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92297",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "68 O.S. § 2355, Tax Imposed - Classes of Taxpayers",
+      "title": "Oklahoma Statutes Title 68, § 2355 (OSCN 2026)",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92565",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "68 O.S. § 2355.1P-2, Definitions",
+      "title": "Oklahoma Statutes Title 68, § 2355.1P-2 (OSCN 2026)",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=483687",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "68 O.S. § 2355.1P-4, Calculation of Tax",
+      "title": "Oklahoma Statutes Title 68, § 2355.1P-4 (OSCN 2026)",
+      "url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=483689",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Oklahoma Tax Commission, Franchise Tax Ends in Oklahoma (newsroom, 2023-07-26)",
+      "title": "Franchise Tax Ends in Oklahoma - Oklahoma Tax Commission Newsroom",
+      "url": "https://www.oklahoma.gov/tax/newsroom/2023/07-26-23.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Oklahoma Tax Commission, Franchise Tax - HB 1039X FAQ (Business Help Center)",
+      "title": "Franchise Tax - HB 1039X FAQ - Oklahoma Tax Commission Business Help Center",
+      "url": "https://oklahoma.gov/tax/helpcenter/businesses.html?q=BUSHB1039X",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

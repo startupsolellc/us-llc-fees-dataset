@@ -1,0 +1,102 @@
+{
+  "stateName": "New Mexico",
+  "stateAbbr": "NM",
+  "stateSlug": "new-mexico",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "A corporation that has, or exercises, its corporate franchise in New Mexico is subject to the Franchise Tax, even if the corporation is not actively engaging in business in New Mexico or owes no New Mexico Corporate Income Tax. Taxpayers must use form CIT-1, Corporate Income and Franchise Tax Return to report the $50 annual Franchise Tax.",
+      "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/",
+      "supports": "applies: the Department's own corporate income and franchise tax page names the $50 annual Franchise Tax and imposes it on corporations - the page that would have named an LLC levy if one existed"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "A \"corporation\" is a: Corporation; Joint stock company; Real estate trust organized and operated under the Real Estate Trust Act; Financial corporation; Bank, or other business association; or Limited liability company or partnership taxed as a corporation under the United States Internal Revenue Code.",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/",
+        "supports": "applies: the Department's own definition includes an LLC only when taxed as a corporation under the Internal Revenue Code, which a default partnership-taxed LLC is not"
+      },
+      {
+        "quote": "New Mexico Corporate Franchise Tax is the obligation of every domestic and foreign corporation, including S corporations, that either engages in business in New Mexico or exercises its corporate franchise in this state, whether actively engaged in business or not.",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/",
+        "supports": "applies: the Franchise Tax's own subject sentence is corporations"
+      },
+      {
+      "quote": "If you are a business, you must annually file Form CIT-1, New Mexico Corporate Income and Franchise Tax Return.",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/filing-requirements/",
+        "supports": "excluded levy: the annual CIT-1 filing and its due date belong to the corporate income and franchise tax return, not to a default LLC"
+      },
+      {
+      "quote": "A pass-through entity may be required to file Form PTE, New Mexico Pass-Through Entities Tax Return",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+        "supports": "excluded levy: the Department's own page names the New Mexico return a pass-through LLC files - Form PTE, not the corporate CIT-1"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.9,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "New Mexico imposes a tax on the net income of every resident and on the net income of every nonresident employed or engaged in business in, into or from this state or deriving any income from any property or employment within this state.",
+        "url": "https://www.tax.newmexico.gov/individuals/personal-income-tax-information/",
+        "supports": "passThroughApplies: the Department's own personal income tax page taxes the net income of residents, which is where a member's pass-through share is reported"
+      },
+      {
+        "quote": "The taxable net income of the PTE is taxed at the higher of the personal or corporate income tax rate. The highest rate for both personal and corporate income taxes is currently 5.9%.",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+        "supports": "topRatePercent: the Department's own PTE FAQ states the top personal and corporate income tax rate is currently 5.9%"
+      },
+      {
+        "quote": "A pass-through entity may elect on an annual basis to pay tax at the entity level for each tax year. The election is made by the entity by filing the required return for New Mexico and allows the entity to pay tax directly for some owners.",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+        "supports": "hasPTETElection: the Department's own FAQ describes the annual entity-level election under Section 7-3A-10 NMSA 1978"
+      },
+      {
+        "quote": "For tax years starting in tax year 2023, withholding is reported and paid on the same tax return the entity is required to file for New Mexico: the PTE return, S-Corp return, or FID-1 return.",
+        "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+        "supports": "passThroughApplies: the pass-through withholding regime and the PTE return show the state taxes the members' share unless the entity-level election is made"
+      }
+    ]
+  },
+  "notes": "New Mexico has no franchise-type levy on a default LLC: applies is false, resting on the Department's own pages. The Franchise Tax is the obligation of every domestic and foreign corporation, including S corporations (the page names a $50 annual franchise tax reported on Form CIT-1), and the Department's own definition of 'corporation' includes a limited liability company only when it is taxed as a corporation under the Internal Revenue Code. A default partnership-taxed LLC is outside that definition; the same page says a pass-through entity files Form PTE, New Mexico Pass-Through Entities Tax Return, rather than the corporate CIT-1. The imposing statutes - NMSA 1978 Chapter 7, Article 2A (Corporate Income and Franchise Tax) - could not be read because nmonesource.com, the state's only free official code host, blocks scripted clients on both measured routes; the record rests on the Taxation and Revenue Department's own pages, which cite the chapter (see needsReview).\ncollectedWithAnnualReport is null: no franchise-type levy exists for a default LLC, and root states.json carries annual_report_fee 0 for New Mexico (New Mexico has no annual report for LLCs), so there is no payment to overlap.\nstateIncomeTax: members owe New Mexico personal income tax on their pass-through shares. The Department's personal income tax page imposes the tax on the net income of every resident, and its PTE FAQ states the top personal and corporate income tax rate is currently 5.9%. New Mexico offers the pass-through entity tax election of Section 7-3A-10 NMSA 1978: a pass-through entity may elect on an annual basis to pay tax at the entity level, the election is binding on all owners, and the entity-level tax is calculated at the higher of the personal or corporate rate (currently 5.9%). Pass-through withholding (reported on the PTE return since tax year 2023) is the separate nonresident mechanism.",
+  "needsReview": "The imposing statutes - NMSA 1978 §§ 7-2A-3 (corporate income tax) and 7-3A-10 (pass-through entity tax election) - were not read: nmonesource.com, the state's only free official code host, blocks scripted clients on both measured routes. The record rests on the Taxation and Revenue Department's own pages, which cite the chapter and section; a session that can read nmonesource would close this by quoting the statute's subject terms directly. Nothing recorded here is a value in doubt.",
+  "sources": [
+    {
+      "citation": "New Mexico Taxation and Revenue Department, Corporate Income & Franchise Tax Overview",
+      "title": "Corporate Income & Franchise Tax Overview - NM Taxation and Revenue Department",
+      "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Mexico Taxation and Revenue Department, Corporate Income and Franchise Tax Return Filing",
+      "title": "Filing Requirements - Corporate Income and Franchise Tax - NM Taxation and Revenue Department",
+      "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/filing-requirements/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Mexico Taxation and Revenue Department, Pass-Through Entity",
+      "title": "Pass-Through Entity - NM Taxation and Revenue Department",
+      "url": "https://www.tax.newmexico.gov/businesses/corporate-income-franchise-tax-overview/pass-through-entity/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "New Mexico Taxation and Revenue Department, Personal Income Tax Information",
+      "title": "Personal Income Tax Information - NM Taxation and Revenue Department",
+      "url": "https://www.tax.newmexico.gov/individuals/personal-income-tax-information/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

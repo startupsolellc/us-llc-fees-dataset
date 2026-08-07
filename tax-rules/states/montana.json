@@ -1,0 +1,133 @@
+{
+  "stateName": "Montana",
+  "stateAbbr": "MT",
+  "stateSlug": "montana",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Pass-through entities generally do not pay federal income tax. However, a pass-through entity may incur a Montana tax liability. The pass-through entity may elect to pay pass-through entity tax or composite tax",
+      "url": "https://revenue.mt.gov/taxes/pass-through-entities/index",
+      "supports": "applies: the collector's own pass-through entities page names the annual entity-level options for an LLC (PTET, composite tax) and no franchise-type tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "(1) The term \"corporation\" includes an association, joint-stock company, common-law trust or business trust that does business in an organized capacity, all other corporations whether created, organized, or existing under and pursuant to the laws, agreements, or declarations of trust of any state, country, or the United States, and any limited liability company, limited liability partnership, partnership, or other entity that is treated as an association for federal income tax purposes and that is not a disregarded entity.",
+        "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0310/part_0010/section_0010/0150-0310-0010-0010.html",
+        "supports": "applies: an LLC enters the 'corporation' definition only if treated as an association for federal income tax purposes, which a default partnership-taxed LLC is not"
+      },
+      {
+        "quote": "a corporation engaged in business in the state of Montana shall annually pay to the state treasurer a corporate income tax for the privilege of carrying on business in this state",
+        "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0310/part_0010/section_0010/0150-0310-0010-0010.html",
+        "supports": "applies: MCA 15-31-101(3) imposes the annual privilege tax on a corporation, the statute's own subject"
+      },
+      {
+        "quote": "Any C corporation doing business in Montana has to file a Montana Corporate Income Tax Return (Form CIT) and pay a corporate income tax.",
+        "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+        "supports": "applies: the collector's own page names C corporations as the subjects of the corporate income tax"
+      },
+      {
+        "quote": "Pass-through entities generally do not pay federal income tax. However, a pass-through entity may incur a Montana tax liability. The pass-through entity may elect to pay pass-through entity tax or composite tax",
+        "url": "https://revenue.mt.gov/taxes/pass-through-entities/index",
+        "supports": "applies: the collector's own statement of what a pass-through LLC owes annually names only the elective PTET, composite tax and withholding, no franchise-type levy"
+      },
+      {
+        "quote": "Standard Rate 6.75% Water's Edge Election 7% Alternative Gross Sales 0.5% Minimum Tax $50",
+        "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+        "supports": "excluded levy: the corporate income tax's rate table and its $50 minimum tax belong to C corporations, on the collector's own page"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 5.65,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "there must be levied, collected, and paid for each tax year on the Montana taxable income of each taxpayer subject to this chapter a tax on the brackets of taxable income as follows: (a) for every married individual who files a joint return and for every surviving spouse: (i) on the first $95,000 of Montana taxable income or any part of that income, 4.7%; (ii) on any Montana taxable income in excess of $95,000 or any part of that income, 5.65%",
+        "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html",
+        "supports": "passThroughApplies and topRatePercent: MCA 15-30-2103 imposes the individual income tax on taxpayers' Montana taxable income, with a 5.65% top bracket"
+      },
+      {
+      "quote": "A pass-through entity is a business whose owners claim the income on their own income tax returns based on their share of profits or losses. Pass-through entities include: Partnerships S corporations Limited Liability Companies (LLC) taxed as partnerships or S corporations Disregarded Entities",
+        "url": "https://revenue.mt.gov/taxes/pass-through-entities/index",
+        "supports": "passThroughApplies: the collector's own page classifies a partnership-taxed LLC as a pass-through entity whose owners claim the income on their own returns"
+      },
+      {
+        "quote": "The pass-through entity tax (PTET) is a 5.9% of an affected owner's distributive share of Montana source income. The election is made annually by the entity on its timely-filed Form PTE",
+        "url": "https://revenue.mt.gov/taxes/pass-through-entities/pass-through-entity-tax",
+        "supports": "hasPTETElection: the collector's own page describes the annual elective pass-through entity tax (the 5.9% figure is stale - see notes; the statute ties the rate to 15-30-2103)"
+      },
+      {
+        "quote": "Each electing pass-through entity shall, on or before the due date of the pass-through entity's tax return, pay an entity tax. The entity tax is equal to the highest marginal tax rate in effect under 15-30-2103 for the tax year the election is made multiplied by the distributive share of Montana source income",
+        "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0260/0150-0300-0330-0260.html",
+        "supports": "hasPTETElection: MCA 15-30-3326(1) is the statute creating the entity tax, at the highest marginal rate under 15-30-2103"
+      },
+      {
+        "quote": "(1) \"Electing pass-through entity\" means a partnership or an S. corporation that elects to be subject to an entity tax.",
+        "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0250/0150-0300-0330-0250.html",
+        "supports": "hasPTETElection: MCA 15-30-3325(1) defines the electing pass-through entity; an LLC taxed as a partnership is a partnership under the chapter"
+      }
+    ]
+  },
+  "notes": "Montana has no recurring franchise-type levy on a default LLC: applies is false, resting on the statute's own subject terms. MCA 15-31-101(1) defines 'corporation' for the corporate income tax (the historic corporation license tax) to include an LLC only if it is treated as an association for federal income tax purposes and is not a disregarded entity; a default partnership-taxed LLC is outside that definition. MCA 15-31-101(3) imposes the annual privilege tax on 'a corporation engaged in business in the state of Montana', and the Department's Corporate Income Tax page says 'Any C corporation doing business in Montana has to file a Montana Corporate Income Tax Return (Form CIT) and pay a corporate income tax.' The collector's own Pass-Through Entities page names the annual entity-level options for a pass-through LLC - the elective pass-through entity tax, composite tax, and pass-through withholding - and no franchise-type tax.\ncollectedWithAnnualReport is null: no franchise-type levy exists for a default LLC, and root states.json carries annual_report_fee 0 for Montana (the Secretary of State's annual report fee is waived when filed timely), a separate payment with no tax to overlap.\nstateIncomeTax: members owe Montana individual income tax on their pass-through shares. MCA 15-30-2103 (2025 MCA, in effect through tax year 2026) has a top marginal rate of 5.65%; a 2027 version lowers the top bracket to 5.4%. Montana offers the elective Pass-Through Entity Tax under MCA 15-30-3325 through 15-30-3328: the electing pass-through entity pays an entity tax equal to the highest marginal rate in effect under 15-30-2103, and owners claim the corresponding treatment. The Department's PTET page says the tax 'is a 5.9%' of an affected owner's distributive share, which is stale - the statute ties the rate to 15-30-2103, so for tax years 2025-2026 the rate is 5.65% - and the record takes the statute (the official page is imprecise, not the value; see needsReview). Pass-through withholding (revenue.mt.gov) is the separate nonresident-owner mechanism.",
+  "needsReview": "The Department's PTET page states the pass-through entity tax is 5.9% of an affected owner's distributive share, while MCA 15-30-3326(1) ties the entity tax to the highest marginal rate in effect under 15-30-2103 (5.65% for tax years 2025-2026). The record takes the statute. The Department page has no visible date; a page update stating the current rate would settle which figure the collector currently publishes. Nothing else is ungrounded.",
+  "sources": [
+    {
+      "citation": "MCA 15-31-101, Organizations subject to tax",
+      "title": "Montana Code Annotated 2025, 15-31-101",
+      "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0310/part_0010/section_0010/0150-0310-0010-0010.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "MCA 15-30-2103, Rate of tax",
+      "title": "Montana Code Annotated 2025, 15-30-2103",
+      "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0030/0150-0300-0210-0030.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "MCA 15-30-3325, Definitions",
+      "title": "Montana Code Annotated 2025, 15-30-3325",
+      "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0250/0150-0300-0330-0250.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "MCA 15-30-3326, Pass-through entity tax",
+      "title": "Montana Code Annotated 2025, 15-30-3326",
+      "url": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0330/section_0260/0150-0300-0330-0260.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Montana Department of Revenue, Montana Corporate Income Tax",
+      "title": "Montana Department of Revenue: Corporate Income Tax",
+      "url": "https://revenue.mt.gov/taxes/corporate-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Montana Department of Revenue, Pass-Through Entities",
+      "title": "Montana Department of Revenue: Pass-Through Entities",
+      "url": "https://revenue.mt.gov/taxes/pass-through-entities/index",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Montana Department of Revenue, Montana Pass-Through Entity Tax: How to Elect & Pay",
+      "title": "Montana Department of Revenue: Montana Pass-Through Entity Tax",
+      "url": "https://revenue.mt.gov/taxes/pass-through-entities/pass-through-entity-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
