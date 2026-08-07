@@ -112,8 +112,8 @@ page, not that it was taken from the right part of it, which is why quotations f
 carry their section heading and row label rather than a bare date.
 
 `needsReview` (string \| null) records a field that could not be sourced and why — see
-`states/texas.json`, where the agency host returns 403 to automated access and the figure is
-left unfilled rather than guessed.
+`states/connecticut.json`, where the host that publishes the expedited-service document accepts no
+connection on any route tried, and every field is left unfilled rather than guessed.
 
 ---
 
@@ -167,10 +167,12 @@ published or consumed alongside `entitysearch`, in which case the cheap fix is a
 a dollar amount near "expedit" in those note fields when it disagrees with the state's
 processing-time record.
 
-## Pilot records
+## Records
 
-`states/` currently holds seventeen of the fifty-one, and between them they cover every shape the
-model has had to absorb so far:
+`states/` currently holds 46 of the 51 jurisdictions. The table below is a **selection, not the
+full list**: it names the record that first forced each shape the model had to absorb, which is why
+a state appears here at all. States that arrived later and exercised a shape already covered are
+not listed.
 
 | State | What it exercises |
 |---|---|
@@ -185,9 +187,15 @@ model has had to absorb so far:
 | Michigan | The same turnaround priced **differently by document type**: forming an entity costs half what touching an existing one does |
 | Pennsylvania | The steepest ladder in the set, where the cut-off times rather than the clock are what separate the tiers |
 | Iowa | Priced in **days** rather than hours, very cheap at the bottom, and **not charged when a filing is rejected** — the inverse of North Carolina |
-| Texas | An agency host that blocks automated access; the record is honest-empty with `needsReview` |
+| Texas | Three tiers, and the reason the collection method changed: the first pass recorded the state as honest-empty because every fee page returned 403, and the same URLs opened on a different network route. A block is a property of the (host, route) pair, not of the host |
 | Massachusetts | A state whose "expedite fee" prices a **channel, not a turnaround**: a surcharge on fax and electronic filings scaled to the transaction cost, with no time commitment anywhere in the schedule — recorded as an evidenced "no" rather than a tier |
 | Louisiana | Two general-purpose tiers in the fee schedule's closing "Special handling" section ($50 while-you-wait, $30 within 24 hours); the page itself announces a statutory fee increase effective 2026-10-01 |
 | Kentucky | An evidenced "no" resting on three pages read in full — the FAQ that answers the turnaround question, the complete fee list, and the fee statute — and the first record with a populated `standardProcessing` (`stated-range`: usually same day, up to three business days) |
 | Arkansas | Same shape as Kentucky, with the inverse lever made visible: the state **discounts online filings** below paper rather than surcharging speed |
 | Connecticut | Honest-empty by **network** rather than by silence: the host that publishes the expedited-service document answers no route from the collection machine, and the reachable statutes establish no fee |
+| West Virginia | Four tiers across **two official documents that disagree** — the printed fee schedule lists three, the order form the same page links offers five, and one of them appears nowhere else. Both are current, so every tier is carried with the document it came from named |
+| Utah | Priced and undescribed, plus the trap that gives the rule its name: a **second $75** on a different page, for a different product, with a turnaround the filing tier does not have |
+| Nevada | A fee schedule printed as two columns, so the label and its price are contiguous only across a whole block; the quotation is the block, and the positional mapping is corroborated before it is trusted rather than assumed |
+| New Hampshire | **Priced without a promise**: the statute sells expedited service by the batch and no official page anywhere states what it buys, so `turnaround` is null on a documented silence rather than on an unread page |
+| Washington | The fullest ladder, and the only one priced by an **administrative rule** rather than an agency page — which is also where the standard processing figure lives, stated for one channel only |
+| Ohio | The ladder printed on the **face of the filing form** rather than on any fee schedule, which is what makes its application to an LLC formation a matter of position rather than inference |
