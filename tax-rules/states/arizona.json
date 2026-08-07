@@ -1,0 +1,116 @@
+{
+  "stateName": "Arizona",
+  "stateAbbr": "AZ",
+  "stateSlug": "arizona",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "A limited liability company that makes a valid federal election to be taxed as a corporation must file an Arizona corporate income tax return.",
+      "url": "https://azdor.gov/business/corporate-income-tax",
+      "supports": "applies: the collector's own corporate income tax page states the only corporate-level filing an LLC makes; a default LLC outside that sentence owes no Arizona entity-level income or franchise tax"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "A limited liability company that makes a valid federal election to be taxed as a corporation must file an Arizona corporate income tax return.",
+        "url": "https://azdor.gov/business/corporate-income-tax",
+        "supports": "applies: the corporate income tax reaches an LLC only through a federal election to be taxed as a corporation, which a default LLC does not make"
+      },
+      {
+        "quote": "Businesses in Arizona Aircraft Use Tax Corporate Income Tax Transaction Privilege Tax Bingo in Arizona Certificate of Compliance for Dissolution/Withdrawal Collections Government Property Lease Excise Tax (GPLET) Interest Rates Liquor Luxury Tax Military Reuse Zone NAICS Code and Descriptions Property Tax Tobacco Luxury Tax Vehicle Use Tax Calculator Disclosure and Compliance Programs Waste Tire Withholding Tax Business Record Keeping",
+        "url": "https://azdor.gov/business",
+        "supports": "applies: the collector's own businesses index enumerates the taxes Arizona administers and names no franchise tax"
+      },
+      {
+        "quote": "Although commonly referred to as a sales tax, the Arizona transaction privilege tax (TPT) is actually a tax on a vendor for the privilege of doing business in the state.",
+        "url": "https://azdor.gov/business/transaction-privilege-tax",
+        "supports": "excluded levy: the TPT is the state's privilege-of-doing-business levy, and it attaches to enumerated business activities and transactions rather than to the LLC's existence"
+      },
+      {
+        "quote": "There is levied and there shall be collected by the department, for the purpose of raising public money, privilege taxes measured by the amount or volume of business transacted by persons on account of their business activities, and in the amounts to be determined by the application of rates against values, gross proceeds of sales or gross income, as the case may be, as prescribed by this article and article 2 of this chapter.",
+        "url": "https://www.azleg.gov/ars/42/05008.htm",
+        "supports": "excluded levy: A.R.S. 42-5008 measures the transaction privilege tax by the volume of business transacted, so an existing LLC with no TPT-classified activity owes nothing"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 2.5,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Subject to subsection F of this section, for taxable years beginning from and after December 31 of the year in which notice is provided to the department pursuant to section 43-243, subsection B, paragraph 2, the tax is 2.5% of taxable income.",
+        "url": "https://www.azleg.gov/ars/43/01011.01.htm",
+        "supports": "passThroughApplies and topRatePercent: A.R.S. 43-1011(A)(9) imposes the individual income tax on taxable income of residents and nonresidents at the flat 2.5% rate once the statutory trigger is met"
+      },
+      {
+        "quote": "For taxable years beginning from and after December 31, 2021, the partners or shareholders of a business that is treated as a partnership or S Corporation at the federal level may consent to have its flow-through (or pass-through) income taxed at the entity level in Arizona.",
+        "url": "https://azdor.gov/sites/default/files/2023-03/PUBLICATION_713.pdf",
+        "supports": "passThroughApplies: the Department's own publication confirms a default LLC's income is flow-through income of its partners or shareholders"
+      },
+      {
+        "quote": "For the 2025 taxable year, the Arizona Pass-Through Entity (PTE) income tax is assessed at a rate of 2.50% of:",
+        "url": "https://azdor.gov/sites/default/files/2023-03/PUBLICATION_713.pdf",
+        "supports": "topRatePercent: the Department's November 2025 publication confirms the 2.50% rate is in effect for the 2025 taxable year"
+      },
+      {
+        "quote": "The PTE election must be made by the partnership or S Corporation Corporation on its Arizona income tax return (Arizona Form 165 for partnerships; Arizona Form 120S for S Corporations).",
+        "url": "https://azdor.gov/sites/default/files/2023-03/PUBLICATION_713.pdf",
+        "supports": "hasPTETElection: the Department's publication describes the annual elective pass-through entity tax (the doubled word is a PDF text-layer artifact, reproduced verbatim)"
+      }
+    ]
+  },
+  "notes": "Arizona has no recurring franchise-type levy on a default LLC: applies is false. The only corporate-level filing the collector describes for an LLC is the corporate income tax return an LLC must file after electing to be taxed as a corporation; a default partnership-taxed LLC is outside it. The Department's own businesses index enumerates the taxes Arizona administers (corporate income, transaction privilege, withholding, property, and the excises) and names no franchise tax.\nThe transaction privilege tax (TPT) is excluded rather than recorded as the franchise levy, and the call is in this note. TPT is a tax on a vendor for the privilege of doing business, but it is a transaction tax: A.R.S. 42-5008 levies privilege taxes 'measured by the amount or volume of business transacted by persons on account of their business activities', applied through business classifications (retail, restaurants, lodging, etc.) and accompanied by a use tax; an existing LLC with no TPT-classified activity owes nothing and files nothing, and the $12 license is a registration fee. The Ohio/Washington/Oregon gross-receipts privilege taxes recorded elsewhere in this namespace reach nearly every business with receipts above a threshold; TPT reaches only enumerated transactions, so recording it here would overstate what a default LLC owes for existing. An active LLC engaged in a TPT-classified activity must register, collect, and remit TPT like any other vendor - that is an activity obligation, not an existence levy.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 0 for Arizona because LLCs are not required to file annual reports (the Secretary of State's requirement is corporations-only).\nstateIncomeTax: members owe Arizona individual income tax on their pass-through shares. A.R.S. 43-1011(A)(9) sets a flat 2.5% rate for taxable years beginning after the year the Department of Revenue provides the notice described in 43-243(B)(2); the Department's Pub 713 (November 2025) confirms the rate by stating the 2025 Pass-Through Entity income tax is assessed at 2.50%. Arizona offers the elective Pass-Through Entity tax under A.R.S. 43-1011's pass-through entity provisions: a partnership (including a partnership-taxed LLC) or S corporation may elect to have flow-through income taxed at the entity level at 2.50%, and owners claim the corresponding credit. The election is made on Form 165 (partnerships, which is the default LLC's form) or Form 120S.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Arizona Department of Revenue, Corporate Income Tax",
+      "title": "Arizona Department of Revenue: Corporate Income Tax",
+      "url": "https://azdor.gov/business/corporate-income-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Arizona Department of Revenue, Businesses in Arizona",
+      "title": "Arizona Department of Revenue: Business",
+      "url": "https://azdor.gov/business",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Arizona Department of Revenue, Transaction Privilege Tax",
+      "title": "Arizona Department of Revenue: Transaction Privilege Tax",
+      "url": "https://azdor.gov/business/transaction-privilege-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Arizona Department of Revenue, Pub 713, The Arizona Pass-Through Entity Election (November 2025)",
+      "title": "Arizona Department of Revenue Pub 713: The Arizona Pass-Through Entity Election",
+      "url": "https://azdor.gov/sites/default/files/2023-03/PUBLICATION_713.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "A.R.S. 43-1011, Taxes and tax rates",
+      "title": "Arizona Revised Statutes, 43-1011",
+      "url": "https://www.azleg.gov/ars/43/01011.01.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "A.R.S. 42-5008, Levy of tax; purposes; distribution",
+      "title": "Arizona Revised Statutes, 42-5008",
+      "url": "https://www.azleg.gov/ars/42/05008.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

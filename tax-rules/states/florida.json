@@ -1,0 +1,80 @@
+{
+  "stateName": "Florida",
+  "stateAbbr": "FL",
+  "stateSlug": "florida",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "A limited liability company (LLC) classified as a corporation for Florida and federal income tax purposes is subject to the Florida Income Tax Code and must file a Florida corporate income/franchise tax return.",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+      "supports": "applies: the collector's own corporate income/franchise tax page states when an LLC files the franchise-tax return; a default partnership-classified LLC is outside that sentence"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "The Florida corporate income/franchise tax is imposed on all corporations for the privilege of conducting business, deriving income, or existing within Florida.",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "supports": "applies: the statute's own subjects, on the collector's page, are corporations"
+      },
+      {
+        "quote": "A limited liability company (LLC) classified as a corporation for Florida and federal income tax purposes is subject to the Florida Income Tax Code and must file a Florida corporate income/franchise tax return.",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "supports": "applies: an LLC enters the Florida corporate income/franchise tax only through a federal corporate classification, which a default LLC does not make"
+      },
+      {
+        "quote": "An LLC classified as a partnership for Florida and federal income tax purposes must file a Florida Partnership Information Return ( Form F-1065 ) if one or more of its owners is a corporation.",
+        "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+        "supports": "applies: the collector states the only filing a partnership-classified LLC makes is an information return, and even that is tied to a corporate owner"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": false,
+    "topRatePercent": null,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "Florida does not impose a personal income tax, so there are no filing requirements.",
+        "url": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+        "supports": "passThroughApplies and hasPTETElection: the Department's own FAQ answers the filing question for a natural person and names no personal income tax and no pass-through entity tax"
+      },
+      {
+        "quote": "No tax upon estates or inheritances or upon the income of natural persons who are residents or citizens of the state shall be levied by the state, or under its authority, in excess of the aggregate of amounts which may be allowed to be credited upon or deducted from any similar tax levied by the United States or any state.",
+        "url": "https://www.flsenate.gov/Laws/Constitution",
+        "supports": "passThroughApplies and hasPTETElection: Article VII, Section 5(a) of the Florida Constitution bars a state tax on the income of natural persons, which is the constitutional floor the FAQ cites"
+      }
+    ]
+  },
+  "notes": "Florida has no recurring franchise-type levy on a default LLC: applies is false. The Florida corporate income/franchise tax is imposed on all corporations for the privilege of conducting business, deriving income, or existing within Florida; an LLC is subject only when classified as a corporation for Florida and federal income tax purposes. A partnership-classified LLC files a Florida Partnership Information Return (Form F-1065) only when one or more of its owners is a corporation, and a disregarded single-member LLC files nothing on its own - neither is an entity-level tax. The corporate tax itself has no minimum for LLCs because no LLC is a subject of it; the 5.5% corporate rate table and the $50,000 exemption belong to corporations and are out of this record's scope.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 138.75 for Florida, which is the Department of State (SUNBIZ) annual report filing fee, a filing charge rather than a tax.\nstateIncomeTax: Florida has no personal income tax, so members owe no Florida income tax on their pass-through shares. Article VII, Section 5(a) of the Florida Constitution prohibits a tax on the income of natural persons in excess of the amount creditable against a similar federal tax, and the Department's own FAQ answers 'Do I have to file a personal income tax return in Florida?' with 'Florida does not impose a personal income tax, so there are no filing requirements.' topRatePercent is therefore null rather than 0: the state publishes no individual income tax rate to record. hasPTETElection is false: a pass-through entity tax election exists to let owners offset entity-level tax against their own income tax, and Florida has no owner-level personal income tax for such a credit to offset; the Department's tax guidance names no PTE election, and its business-tax materials list only the corporate income tax, sales and use tax, reemployment tax, and the excises.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Florida Department of Revenue, Corporate Income Tax",
+      "title": "Florida Department of Revenue: Corporate Income Tax",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/corporate.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Florida Department of Revenue FAQ 1466, Do I have to file a personal income tax return in Florida?",
+      "title": "Florida Department of Revenue: Do I have to file a personal income tax return in Florida?",
+      "url": "https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Florida Constitution, Article VII, Section 5(a)",
+      "title": "Florida Constitution, Article VII, Section 5(a), Estate, inheritance and income taxes",
+      "url": "https://www.flsenate.gov/Laws/Constitution",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

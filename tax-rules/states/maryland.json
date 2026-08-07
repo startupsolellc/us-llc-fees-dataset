@@ -1,0 +1,114 @@
+{
+  "stateName": "Maryland",
+  "stateAbbr": "MD",
+  "stateSlug": "maryland",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "For all taxable years beginning before January 1, 2001, a franchise tax, measured by taxable net earnings, is imposed annually on each financial institution existing or doing business in the State during any part of the fiscal year of the financial institution.",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=8-202&enactments=false",
+      "supports": "applies: the State's own tax statute names the only Maryland franchise tax and its subject, a financial institution, which a default LLC is not"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "For all taxable years beginning after December 31, 2000, the financial institution franchise tax is terminated, and Maryland taxable income of financial institutions shall be subject to taxation under Title 10 of this article.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=8-202&enactments=false",
+        "supports": "applies: Tax-General 8-202 terminates the only Maryland franchise tax for years beginning after 2000"
+      },
+      {
+        "quote": "Except as provided in § 10-104 of this subtitle, a tax is imposed on the Maryland taxable income of each individual and of each corporation.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102&enactments=false",
+        "supports": "applies: Tax-General 10-102 imposes the income tax on individuals and corporations, the statute's own subjects"
+      },
+      {
+        "quote": "“Corporation” includes an association or joint–stock company.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-101&enactments=false",
+        "supports": "applies: Tax-General 10-101(c) defines the corporate subject of the income tax without including a default LLC"
+      },
+      {
+        "quote": "“Pass–through entity” means: (i) an S corporation; (ii) a partnership; (iii) a limited liability company that is not taxed as a corporation under this title; or (iv) a business trust or statutory trust that is not taxed as a corporation under this title.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102.1&enactments=false",
+        "supports": "applies and passThroughApplies: Tax-General 10-102.1(a)(7) classifies an LLC that is not taxed as a corporation as a pass-through entity"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 6.5,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "the State income tax rate is: (i) 2% of Maryland taxable income of $1 through $1,000; (ii) 3% of Maryland taxable income of $1,001 through $2,000; (iii) 4% of Maryland taxable income of $2,001 through $3,000; (iv) 4.75% of Maryland taxable income of $3,001 through $100,000; (v) 5% of Maryland taxable income of $100,001 through $125,000; (vi) 5.25% of Maryland taxable income of $125,001 through $150,000; (vii) 5.5% of Maryland taxable income of $150,001 through $250,000; (viii) 5.75% of Maryland taxable income of $250,001 through $500,000; (ix) 6.25% of Maryland taxable income of $500,001 through $1,000,000; and (x) 6.50% of Maryland taxable income in excess of $1,000,000.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false",
+        "supports": "passThroughApplies and topRatePercent: Tax-General 10-105(a)(1) is the State individual income tax rate schedule, whose top bracket is 6.50%"
+      },
+      {
+        "quote": "The State income tax rate for a corporation is 8.25% of Maryland taxable income.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false",
+        "supports": "excluded levy: Tax-General 10-105(b) states the corporate income tax rate; the tax is imposed on corporations, not on a default pass-through LLC"
+      },
+      {
+        "quote": "Subject to paragraph (2) of this subsection, in addition to any other tax imposed under this title, a tax is imposed on each pass–through entity.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102.1&enactments=false",
+        "supports": "hasPTETElection: Tax-General 10-102.1(b)(1) imposes the pass-through entity tax, and (b)(2)(ii) makes the all-members election available"
+      },
+      {
+        "quote": "Each pass–through entity: (i) shall pay the tax imposed under paragraph (1) of this subsection with respect to the distributive shares or pro rata shares of the nonresident and nonresident entity members of the pass–through entity; or (ii) may elect to pay the tax imposed under paragraph (1) of this subsection with respect to the distributive shares or pro rata shares of all members of the pass–through entity.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102.1&enactments=false",
+        "supports": "hasPTETElection: the statute's own language makes the entity-level election available to every pass-through entity, including a default LLC"
+      },
+      {
+        "quote": "In accordance with § 10–701.1 of this title, each member may claim a credit against the tax imposed on the member for the member’s proportionate share of the tax paid by the pass–through entity under subsection (b) of this section.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102.1&enactments=false",
+        "supports": "hasPTETElection: Tax-General 10-102.1(e) gives members the credit that makes the entity-level election a true pass-through entity tax"
+      }
+    ]
+  },
+  "notes": "Maryland has no recurring franchise-type levy on a default LLC: applies is false. The only franchise tax in the State's tax statutes was the financial-institution franchise tax, and Tax-General 8-202 terminates it for all taxable years beginning after December 31, 2000, moving financial institutions into the income tax under Title 10. There is no Maryland franchise tax left to impose on an LLC. The income tax is imposed on 'each individual and of each corporation' (Tax-General 10-102); 'corporation' is defined to include an association or joint-stock company (10-101(c)) and does not reach an LLC, while 10-102.1(a)(7)(iii) separately defines 'a limited liability company that is not taxed as a corporation under this title' as a pass-through entity. An LLC that has elected federal corporate treatment is taxed as a corporation under the title and pays the 8.25% corporate rate (10-105(b)); a default LLC does not.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 300 for Maryland, which is the State Department of Assessments and Taxation's annual report filing fee (Corps. & Ass'ns 1-203), a filing charge rather than a tax. The 2026-10-01 versions of Corps. & Ass'ns 1-502/1-503 tracked by this repository's C10 gate concern that annual report and the naming rules, not a tax, and are out of this record's scope.\nstateIncomeTax: members owe Maryland individual income tax on their pass-through shares. The current State schedule (Tax-General 10-105(a)(1)) runs from 2% to a 6.50% top bracket above $1,000,000; county income tax is imposed separately at 2.25% to 3.30% of Maryland taxable income (10-106(a)(1)), and a 2% surcharge applies to net capital gain for taxpayers with federal adjusted gross income above $350,000 (10-105(a)(3)). Maryland's pass-through entity tax (Tax-General 10-102.1) is part mandatory, part elective: every pass-through entity must pay on the distributive shares of its nonresident and nonresident-entity members, and may elect to pay instead on the shares of all members; members claim a credit for their proportionate share of the tax paid (10-102.1(e)). The elective all-members route is the reason hasPTETElection is true.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Md. Code, Tax-General 8-202, Financial institution franchise tax",
+      "title": "Maryland Code, Tax-General Article, Section 8-202",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=8-202&enactments=false",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Md. Code, Tax-General 10-101, Definitions",
+      "title": "Maryland Code, Tax-General Article, Section 10-101",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-101&enactments=false",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Md. Code, Tax-General 10-102, Imposition of tax",
+      "title": "Maryland Code, Tax-General Article, Section 10-102",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102&enactments=false",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Md. Code, Tax-General 10-105, State income tax rates",
+      "title": "Maryland Code, Tax-General Article, Section 10-105",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-105&enactments=false",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Md. Code, Tax-General 10-102.1, Tax on pass-through entities",
+      "title": "Maryland Code, Tax-General Article, Section 10-102.1",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-102.1&enactments=false",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

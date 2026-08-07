@@ -1,0 +1,123 @@
+{
+  "stateName": "Maine",
+  "stateAbbr": "ME",
+  "stateSlug": "maine",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "The Maine franchise tax is imposed on banks and financial institutions.",
+      "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+      "supports": "applies: the collector's own franchise tax page names its subjects, and a default LLC is not among them"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Maine imposes an income tax on all entities organized as corporations and that have Maine-source income.",
+        "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+        "supports": "applies: the collector's own corporate income tax page names entities organized as corporations as its subjects"
+      },
+      {
+        "quote": "For tax years beginning on or after January 1, 2018, a tax is imposed for each taxable year at the following rates on each taxable corporation and on each group of corporations that derives income from a unitary business carried on by 2 or more members of an affiliated group:",
+        "url": "https://legislature.maine.gov/statutes/36/title36sec5200.html",
+        "supports": "applies: 36 M.R.S. 5200(1-A) imposes the corporate income tax on each taxable corporation, the statute's own subject"
+      },
+      {
+        "quote": "The tax is imposed on all financial institutions with Maine income, even if the entity is organized as a pass-through organization.",
+        "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+        "supports": "applies: the franchise tax reaches a pass-through entity only when that entity is itself a financial institution"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 7.15,
+    "hasPTETElection": false,
+    "evidence": [
+      {
+        "quote": "Maine generally imposes an income tax on all individuals that have Maine-source income. The income tax rates are graduated, with rates ranging from 5.8% to 7.15% for tax years beginning after 2015.",
+        "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me",
+        "supports": "passThroughApplies and topRatePercent: the collector's own individual income tax page states the tax on individuals and the 5.8% to 7.15% range"
+      },
+      {
+        "quote": "The tax is: Less than $21,050 5.8% of the Maine taxable income At least $21,050 but less than $50,000 $1,221 plus 6.75% of the excess over $21,050 $50,000 or more $3,175 plus 7.15% of the excess over $50,000",
+        "url": "https://legislature.maine.gov/statutes/36/title36sec5111.html",
+        "supports": "topRatePercent: 36 M.R.S. 5111(1-F), the current single-filer schedule, tops out at 7.15%"
+      },
+      {
+        "quote": "Partnerships and S corporations with Maine-source income must file Form 941P if they have any members that are not residents of Maine.",
+        "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding-941p-me-returns",
+        "supports": "passThroughApplies: the collector's pass-through withholding page treats pass-through entities as vehicles whose members, not the entity, owe the income tax"
+      },
+      {
+        "quote": "Business Tax Types Corporate Income Tax Employer Withholding Pass-through Entity Withholding Franchise Tax Fuel Tax Sales/Use & Service Provider Tax",
+        "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+        "supports": "hasPTETElection: the collector's own business tax types list names the pass-through mechanisms (withholding and composite) and no pass-through entity tax election"
+      },
+      {
+        "quote": "Final Disposition Died On Adjournment, Apr 29, 2026",
+        "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?PID=undefined&paper=HP0124&sec0&snum=126",
+        "supports": "hasPTETElection: LD 191, the only bill establishing a Maine pass-through entity tax, died on adjournment on April 29, 2026, so no such election exists"
+      }
+    ]
+  },
+  "notes": "Maine has no recurring franchise-type levy on a default LLC: applies is false. The Maine franchise tax (Form 1120B-ME) is imposed on banks and financial institutions, and the collector's page adds that it reaches a pass-through organization only when that organization is itself a financial institution - the pass-through wording is about the entity form, not about ordinary LLCs. The corporate income tax is imposed on entities organized as corporations (36 M.R.S. 5200), and an LLC that has not elected corporate treatment is not one. A default LLC's owners report their shares on their individual returns, and the only entity-level pass-through mechanisms Maine administers are nonresident withholding (Form 941P-ME) and the optional composite return for nonresident owners.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 85 for Maine, which is the Secretary of State's annual report filing fee, a filing charge rather than a tax.\nstateIncomeTax: members owe Maine individual income tax on their pass-through shares. The current rate schedule (36 M.R.S. 5111(1-F), for tax years beginning on or after January 1, 2017) tops out at 7.15% above $50,000 for single filers; the collector's page confirms the 5.8% to 7.15% range. hasPTETElection is false: Maine has no pass-through entity tax election. LD 191 (132nd Legislature), 'An Act to Support Maine Businesses by Establishing a Pass-through Entity Tax and Tax Credit', was reported out as ought-to-pass as amended on March 31, 2026, and died on adjournment on April 29, 2026 - the legislature's own disposition page records it. The collector's business tax types list names only pass-through entity withholding among its pass-through mechanisms, so the absence rests on both the agency's enumeration and the bill's disposition.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Maine Revenue Services, Franchise Tax (1120B-ME)",
+      "title": "Maine Revenue Services: Franchise Tax (1120B-ME)",
+      "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/franchise-tax-1120b-me",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Maine Revenue Services, Corporate Income Tax (1120ME)",
+      "title": "Maine Revenue Services: Corporate Income Tax (1120ME)",
+      "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/corporate-income-tax-1120me",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Maine Revenue Services, Individual Income Tax (1040ME)",
+      "title": "Maine Revenue Services: Individual Income Tax (1040ME)",
+      "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/individual-income-tax-1040me",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Maine Revenue Services, Pass-through Entity Withholding (941P-ME) and Returns",
+      "title": "Maine Revenue Services: Pass-through Entity Withholding (941P-ME) and Returns",
+      "url": "https://www.maine.gov/revenue/taxes/income-estate-tax/pass-through-entity-withholding-941p-me-returns",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "36 M.R.S. 5111, Rates",
+      "title": "Maine Revised Statutes, Title 36, Section 5111",
+      "url": "https://legislature.maine.gov/statutes/36/title36sec5111.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "36 M.R.S. 5200, Imposition and rate of tax",
+      "title": "Maine Revised Statutes, Title 36, Section 5200",
+      "url": "https://legislature.maine.gov/statutes/36/title36sec5200.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "132nd Maine Legislature, LD 191, An Act to Support Maine Businesses by Establishing a Pass-through Entity Tax and Tax Credit",
+      "title": "132nd Maine Legislature, Second Regular Session: LD 191, HP 124, bill status",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?PID=undefined&paper=HP0124&sec0&snum=126",
+      "type": null,
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

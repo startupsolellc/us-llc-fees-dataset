@@ -1,0 +1,102 @@
+{
+  "stateName": "Iowa",
+  "stateAbbr": "IA",
+  "stateSlug": "iowa",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Franchise Tax Description: Tax is imposed on the income of state banks, national banking associations, trust companies, federally and state chartered savings and loan associations, financial institutions chartered by the Federal Home Loan Bank Board and production credit associations.",
+      "url": "https://tax.iowa.gov/taxes/tax-guidance/general/iowa-taxfee-descriptions-and-rates",
+      "supports": "applies: the collector's own tax index names the Iowa franchise tax and its subjects, and a default LLC is not among them"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "A franchise tax according to and measured by net income is imposed on financial institutions for the privilege of doing business in this state as financial institutions.",
+        "url": "https://www.legis.iowa.gov/docs/code/422.pdf",
+        "supports": "applies: Iowa Code 422.60(1)(a) imposes the franchise tax on financial institutions for the privilege of doing business as financial institutions"
+      },
+      {
+        "quote": "The tax is imposed on the Iowa net income of corporations doing business within this state or receiving income from property in the state.",
+        "url": "https://tax.iowa.gov/taxes/tax-guidance/general/iowa-taxfee-descriptions-and-rates",
+        "supports": "applies: the collector's own description of the corporate income tax names corporations as its subjects"
+      },
+      {
+        "quote": "Entities taxed as partnerships for federal income tax purposes that are doing business in Iowa or receiving income from sources in Iowa must file an Iowa Partnership Return of Income (IA 1065). Generally, a partnership is not a taxable entity in Iowa, but the partners are taxed on their distributive shares whether actually distributed to them or not.",
+        "url": "https://tax.iowa.gov/taxes/tax-guidance/general/iowa-taxfee-descriptions-and-rates",
+        "supports": "applies and passThroughApplies: the collector's own partnership tax description covers a default LLC's posture - an information return, no entity-level tax, partners taxed on distributive shares"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 3.8,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "A tax is imposed upon every resident and nonresident of the state which tax shall be levied, collected, and paid annually upon and with respect to the entire taxable income as defined in this subchapter at a rate of three and eight-tenths percent.",
+        "url": "https://www.legis.iowa.gov/docs/code/422.pdf",
+        "supports": "passThroughApplies and topRatePercent: Iowa Code 422.5(1)(a) (2026 edition) imposes the individual income tax on residents and nonresidents at a flat three and eight-tenths percent"
+      },
+      {
+        "quote": "Iowa now has a flat tax rate of 3.8%.",
+        "url": "https://tax.iowa.gov/taxes/tax-guidance/individual-income-tax/1040-expanded-instructions/iowa-tax",
+        "supports": "topRatePercent: the Department's 2025 IA 1040 instructions state the flat 3.8% rate"
+      },
+      {
+        "quote": "On May 11, 2023, Governor Reynolds signed House File 352 which creates a voluntary election for a partnership or S corporation to be subject to Iowa income tax at the entity level. This is referred to as the Pass-Through Entity Tax (PTET).",
+        "url": "https://tax.iowa.gov/taxes/tax-guidance/business-income-tax/pass-through-entity-tax-ptet",
+        "supports": "hasPTETElection: the Department's PTET guidance page describes the voluntary entity-level election"
+      },
+      {
+        "quote": "This may include an S corporation, general partnership, Limited Liability Company (LLC),  Limited Liability Partnership (LLP), or Limited Partnership (LP).",
+        "url": "https://tax.iowa.gov/taxes/tax-guidance/business-income-tax/pass-through-entity-tax-ptet",
+        "supports": "hasPTETElection: the Department's guidance names a Limited Liability Company among the eligible pass-through entities"
+      },
+      {
+        "quote": "Due to federal legislation, P.L. 119-21, the PTET election is no longer scheduled to expire.",
+        "url": "https://tax.iowa.gov/taxes/tax-guidance/business-income-tax/pass-through-entity-tax-ptet",
+        "supports": "hasPTETElection: the guidance page, updated 12/22/2025, states the election is no longer scheduled to expire"
+      }
+    ]
+  },
+  "notes": "Iowa has no recurring franchise-type levy on a default LLC: applies is false. The only Iowa tax called a franchise tax is the financial-institutions franchise tax: Iowa Code 422.60(1)(a) imposes it 'on financial institutions for the privilege of doing business in this state as financial institutions', and the Department's own Tax/Fee Descriptions and Rates page says the same in words. The corporate income tax is imposed on the Iowa net income of corporations; a default LLC is taxed as a partnership, files the IA 1065 information return, and is not a taxable entity in Iowa - the partners are taxed on their distributive shares.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 30 for Iowa, which is the Secretary of State's biennial report filing fee (online rate, odd-numbered years), a filing charge rather than a tax.\nstateIncomeTax: members owe Iowa individual income tax on their pass-through shares at a flat 3.8% for tax years beginning 2025 and later (Iowa Code 422.5(1)(a), 2026 edition; the Department's 2025 IA 1040 instructions state 'Iowa now has a flat tax rate of 3.8%'). Iowa offers the voluntary Pass-Through Entity Tax under House File 352 (2023): a partnership or S corporation - including an LLC - may elect to be subject to Iowa income tax at the entity level, and owners receive a refundable credit. The Department's Tax/Fee Descriptions page still says the PTET window is 'tax years 2022-2025', but its dedicated PTET guidance page (updated 12/22/2025) states that due to federal legislation (P.L. 119-21) the election is no longer scheduled to expire; the record takes the newer, page-specific guidance. The composite tax for nonresident members (IA PTE-C) is the separate pass-through withholding mechanism.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Iowa Department of Revenue, Iowa Tax/Fee Descriptions and Rates",
+      "title": "Iowa Department of Revenue: Iowa Tax/Fee Descriptions and Rates",
+      "url": "https://tax.iowa.gov/taxes/tax-guidance/general/iowa-taxfee-descriptions-and-rates",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Iowa Code 2026, Chapter 422, sections 422.5 and 422.60",
+      "title": "Iowa Code 2026, Chapter 422, Individual Income, Corporate, and Franchise Taxes",
+      "url": "https://www.legis.iowa.gov/docs/code/422.pdf",
+      "type": "statute",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Iowa Department of Revenue, 2025 IA 1040 Expanded Instructions, Line 05: Iowa Tax",
+      "title": "Iowa Department of Revenue: 2025 1040 Expanded Instructions, Line 05: Iowa Tax",
+      "url": "https://tax.iowa.gov/taxes/tax-guidance/individual-income-tax/1040-expanded-instructions/iowa-tax",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Iowa Department of Revenue, Pass-Through Entity Tax (PTET) guidance",
+      "title": "Iowa Department of Revenue: Pass-Through Entity Tax (PTET)",
+      "url": "https://tax.iowa.gov/taxes/tax-guidance/business-income-tax/pass-through-entity-tax-ptet",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}
