@@ -3,13 +3,18 @@
   "stateAbbr": "FL",
   "stateSlug": "florida",
   "foreignQualification": {
-    "registrationFeeUsd": 100,
-    "feeBasis": "Flat statutory filing fee of $100.00 for a foreign limited liability company's application for a certificate of authority to transact business (F.S. 605.0213(3)).",
+    "registrationFeeUsd": 125,
+    "feeBasis": "Total online filing cost of $125.00 for a new Florida or foreign LLC: the $100.00 application fee (F.S. 605.0213(3)) plus the $25.00 registered agent fee required by the Department of State's Sunbiz LLC fee schedule.",
     "formName": "Application for Certificate of Authority",
     "formUrl": "https://www.flsenate.gov/Laws/Statutes/2025/605.0902",
     "filedWith": "Florida Department of State",
     "ongoingObligationsNote": "File an annual report between January 1 and May 1 of each calendar year and continuously maintain a registered office and registered agent in this state.",
     "evidence": [
+      {
+        "quote": "New Florida/Foreign LLC Filing Fee (Required) $ 100.00 Registered Agent Fee (Required) $ 25.00 Total Fee For New Florida/Foreign LLC $ 125.00",
+        "url": "https://dos.fl.gov/sunbiz/forms/fees/llc-fees/",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
       {
         "quote": "(3) For filing a foreign limited liability company's application for a certificate of authority to transact business, $100.",
         "url": "https://www.flsenate.gov/Laws/Statutes/2025/605.0213",
@@ -37,8 +42,8 @@
       }
     ]
   },
-  "notes": "Collected on the statute route: F.S. 605.0213(3) sets the $100.00 fee and F.S. 605.0902 names the application for a certificate of authority and the Department of State as the filing office (F.S. 605.0102(16) defines the department). A certificate of existence or similar record dated not more than 90 days before delivery must accompany the application (F.S. 605.0902(2)). The Department of State's Sunbiz pages are bot-walled on the collecting route, so the record carries the statutory $100.00; whether the online filing adds a separate $25.00 registered-agent designation fee is open in needsReview.",
-  "needsReview": "Whether the Sunbiz online filing charges a separate $25.00 registered-agent designation fee in addition to the $100.00 application fee: F.S. 605.0213(7) prices a certificate designating or changing a registered agent at $25.00, while the initial registered agent's written acceptance is part of the application itself (F.S. 605.0902(1)(d)). Settle by reading the official Sunbiz fee page or online checkout when a browser or VPN-up route is available.",
+  "notes": "Collected on the statute route: F.S. 605.0213(3) sets the $100.00 statutory application fee and F.S. 605.0902 names the application for a certificate of authority and the Department of State as the filing office (F.S. 605.0102(16) defines the department). The Department of State's Sunbiz LLC fee page is readable on the collecting route and prices the new Florida/Foreign LLC filing at $100.00 plus a required $25.00 registered agent fee, for a $125.00 total, which the record carries as the common-path cost (F.S. 605.0213(7) prices the separate registered-agent designation at $25.00). A certificate of existence or similar record dated not more than 90 days before delivery must accompany the application (F.S. 605.0902(2)).",
+  "needsReview": null,
   "sources": [
     {
       "citation": "Florida Statutes 605.0213 - Fees of the department (2025 edition)",
@@ -73,6 +78,13 @@
       "title": "Chapter 605 Section 0113 - 2025 Florida Statutes",
       "url": "https://www.flsenate.gov/Laws/Statutes/2025/605.0113",
       "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Florida Department of State, Division of Corporations - LLC Fees",
+      "title": "LLC Fees - Division of Corporations - Florida Department of State",
+      "url": "https://dos.fl.gov/sunbiz/forms/fees/llc-fees/",
+      "type": "fee-schedule",
       "lastAccessed": "2026-08-08"
     }
   ],

@@ -1,0 +1,66 @@
+{
+  "stateName": "Illinois",
+  "stateAbbr": "IL",
+  "stateSlug": "illinois",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat statutory filing fee of $150.00 for a foreign limited liability company's application for admission to transact business (805 ILCS 180/50-10(b)(1)).",
+    "formName": "Application for Admission to Transact Business as a Foreign Limited Liability Company",
+    "formUrl": "https://www.ilga.gov/legislation/ilcs/documents/080501800K45-5.htm",
+    "filedWith": "Illinois Secretary of State",
+    "ongoingObligationsNote": "File an annual report with the Secretary of State before the first day of the anniversary month each year and maintain a registered agent with an Illinois business address.",
+    "evidence": [
+      {
+        "quote": "(1) Filing articles of organization (domestic), application for admission (foreign), and restated articles of organization (domestic), $150.",
+        "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K50-10.htm",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "a foreign limited liability company shall submit to the Office of the Secretary of State an application for admission to transact business as a foreign limited liability company setting forth all of the following:",
+        "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K45-5.htm",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "Filing an annual report of a limited liability company or foreign limited liability company, $75, if filed as required by this Act, plus a penalty if delinquent.",
+        "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K50-10.htm",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "It has failed to file its annual report and pay the requisite fee as required by this Act before the first day of the anniversary month in the year in which it is due.",
+        "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K50-15.htm",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The name and business address of the proposed registered agent in this State, which registered agent shall be an individual resident of this State",
+        "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K45-5.htm",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the statute route: 805 ILCS 180/50-10(b)(1) prices the foreign application for admission at $150.00 and 45-5 names the application and the Secretary of State's Office as the filing office; 50-10(b)(11) sets the $75.00 annual report fee and 50-15(a)(1) fixes the due date before the first day of the anniversary month; 45-5(a)(4) requires a registered agent with an Illinois business address. The application must be accompanied by a certificate of existence or equivalent evidence from the home jurisdiction (45-5(a)(3)). The Secretary of State's business-services portal is bot-walled on the collecting route, so the record is statute-grounded per the P7 evidence shape.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Illinois Compiled Statutes 805 ILCS 180/50-10 - Fees",
+      "title": "805 ILCS 180/50-10",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K50-10.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Compiled Statutes 805 ILCS 180/45-5 - Admission to transact business",
+      "title": "805 ILCS 180/45-5",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K45-5.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Illinois Compiled Statutes 805 ILCS 180/50-15 - Penalty",
+      "title": "805 ILCS 180/50-15",
+      "url": "https://www.ilga.gov/legislation/ilcs/documents/080501800K50-15.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
