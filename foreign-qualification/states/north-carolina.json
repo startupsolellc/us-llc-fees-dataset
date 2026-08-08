@@ -1,0 +1,78 @@
+{
+  "stateName": "North Carolina",
+  "stateAbbr": "NC",
+  "stateSlug": "north-carolina",
+  "foreignQualification": {
+    "registrationFeeUsd": 250,
+    "feeBasis": "Flat filing fee of $250.00 for the Application for Certificate of Authority (Form L-09); annual reports and certified copies carry separate fees.",
+    "formName": "Application for Certificate of Authority (Form L-09)",
+    "formUrl": "https://www.sosnc.gov/webfiles/documents/forms/Business_Registration/limited_liability_companies/application_for_certificate_of_authority.pdf",
+    "filedWith": "North Carolina Department of the Secretary of State, Business Registration Division",
+    "ongoingObligationsNote": "File an annual report by April 15 of each year after the year of creation and maintain a registered agent in North Carolina.",
+    "evidence": [
+      {
+        "quote": "Limited Liability Company (LLC) Application for Certificate of Authority L-09(PDF) $250.00",
+        "url": "https://www.sosnc.gov/manual/register_a_foreign_business/requirements",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "the business entity must complete and submit one executed original application for a Certificate of Authority, specific to its entity type, to the North Carolina Department of the Secretary of State Business Registration Division.",
+        "url": "https://www.sosnc.gov/manual/Register_A_Foreign_Business",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Instructions for Filing APPLICATION FOR CERTIFICATE OF AUTHORITY FOR A LIMITED LIABILITY COMPANY (Form L-09)",
+        "url": "https://www.sosnc.gov/webfiles/documents/forms/Business_Registration/limited_liability_companies/application_for_certificate_of_authority.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "Enter the name of the registered agent. The registered agent must be a North Carolina resident",
+        "url": "https://www.sosnc.gov/webfiles/documents/forms/Business_Registration/limited_liability_companies/application_for_certificate_of_authority.pdf",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Your report is due on April 15th of each year after the year of creation.",
+        "url": "https://www.sosnc.gov/divisions/business_registration/annual_report_due_dates",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The Application must include a Certificate of Existence (or similar document) not more than 6 month from the home jurisdiction.",
+        "url": "https://www.sosnc.gov/manual/register_a_foreign_business/requirements",
+        "supports": "notes"
+      }
+    ]
+  },
+  "notes": "The $250 fee is the registration fee only; annual reports carry their own fee (online $203, paper $200 per the due-dates page) and the figure lives in the root states.json. A Certificate of Existence from the home jurisdiction, not more than six months old, must accompany the application.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "North Carolina Secretary of State, Business Registration Division - Register a Foreign Business (manual)",
+      "title": "Register a Foreign Business | NC Secretary of State",
+      "url": "https://www.sosnc.gov/manual/Register_A_Foreign_Business",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Carolina Secretary of State, Business Registration Division - Register a Foreign Business: Requirements",
+      "title": "Register a Foreign Business - Requirements | NC Secretary of State",
+      "url": "https://www.sosnc.gov/manual/register_a_foreign_business/requirements",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Carolina Secretary of State, Business Registration Division - Application for Certificate of Authority for a Limited Liability Company (Form L-09), revised July 2017",
+      "title": "Instructions for Filing Application for Certificate of Authority for a Limited Liability Company (Form L-09)",
+      "url": "https://www.sosnc.gov/webfiles/documents/forms/Business_Registration/limited_liability_companies/application_for_certificate_of_authority.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Carolina Secretary of State, Business Registration Division - Annual Report Due Dates",
+      "title": "Annual Report Due Dates | NC Secretary of State",
+      "url": "https://www.sosnc.gov/divisions/business_registration/annual_report_due_dates",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

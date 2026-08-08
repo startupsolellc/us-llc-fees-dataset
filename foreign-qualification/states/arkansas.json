@@ -1,0 +1,71 @@
+{
+  "stateName": "Arkansas",
+  "stateAbbr": "AR",
+  "stateSlug": "arkansas",
+  "foreignQualification": {
+    "registrationFeeUsd": 270,
+    "feeBasis": "Online filing fee of $270.00 for Form FL-01; paper filing costs $300.00 (the form and fee tables state both figures).",
+    "formName": "Application for Certificate of Registration of Foreign Limited Liability Company (Form FL-01)",
+    "formUrl": "https://www.sos.arkansas.gov/uploads/bcs/FL-01_1_1.pdf",
+    "filedWith": "Arkansas Secretary of State, Business and Commercial Services",
+    "ongoingObligationsNote": "File the annual LLC franchise tax report (currently $150) with the Secretary of State and maintain a registered agent for service of process in Arkansas.",
+    "evidence": [
+      {
+        "quote": "Application for Certificate of Registration of Foreign Limited Liability Company FL-01 $270.00 $300.00 ONLINE PDF",
+        "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc/foreign-llc",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "APPLICATIO N FOR CERTIFICATE OF REGISTRATION OF FOREIGN LIMITED LIABILITY COMPANY",
+        "url": "https://www.sos.arkansas.gov/uploads/bcs/FL-01_1_1.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "attach payment and mail or deliver to the Business and Commercial Services office",
+        "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc/foreign-llc",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Limited Liability Company LLC or PLLC N/A $150 $150 ONLINE",
+        "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The name and address of the registered agent of the Limited Liability Company upon whom service of process is authorized to be made in Arkansas",
+        "url": "https://www.sos.arkansas.gov/uploads/bcs/FL-01_1_1.pdf",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The Limited Liability Company shall deliver, with the completed application, a certificate of existence (or document of similar import)",
+        "url": "https://www.sos.arkansas.gov/uploads/bcs/FL-01_1_1.pdf",
+        "supports": "notes"
+      }
+    ]
+  },
+  "notes": "The record carries the online figure ($270) as the common filing path, with the paper price ($300) in feeBasis. The application must be accompanied by a certificate of existence from the home jurisdiction; the annual franchise tax report fee lives in the root states.json.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Arkansas Secretary of State, Business & Commercial Services - Foreign Limited Liability Company (forms and fees)",
+      "title": "Foreign Limited Liability Company | Arkansas Secretary of State",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc/foreign-llc",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Arkansas Secretary of State, Business & Commercial Services - Form FL-01, Application for Certificate of Registration of Foreign Limited Liability Company",
+      "title": "Application for Certificate of Registration of Foreign Limited Liability Company (Form FL-01)",
+      "url": "https://www.sos.arkansas.gov/uploads/bcs/FL-01_1_1.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Arkansas Secretary of State, Business & Commercial Services - Franchise Tax / Annual Report Forms",
+      "title": "Franchise Tax / Annual Report Forms | Arkansas Secretary of State",
+      "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/franchise-tax-report-forms/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

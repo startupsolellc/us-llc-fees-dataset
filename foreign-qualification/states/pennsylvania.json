@@ -1,0 +1,73 @@
+{
+  "stateName": "Pennsylvania",
+  "stateAbbr": "PA",
+  "stateSlug": "pennsylvania",
+  "foreignQualification": {
+    "registrationFeeUsd": 250,
+    "feeBasis": "Flat registration fee of $250.00 for the Foreign Registration Statement of a foreign limited liability company; the docketing statement (DSCB:15-134A) accompanies the filing.",
+    "formName": "Foreign Registration Statement (DSCB:15-412)",
+    "formUrl": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/foreign-associations",
+    "filedWith": "Pennsylvania Department of State, Bureau of Corporations and Charitable Organizations",
+    "ongoingObligationsNote": "File an Annual Report (DSCB:15-146) beginning in 2025, and maintain a Pennsylvania address (a post office box alone is not acceptable).",
+    "evidence": [
+      {
+        "quote": "Foreign Limited Liability Partnership/Limited Liability Company</th>\\r\\n<th>Fee</th>\\r\\n</tr><tr><td valign=\\\"top\\\">Registration</td>\\r\\n<td valign=\\\"top\\\">$250</td>",
+        "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Foreign filing associations and foreign limited liability partnerships desiring to do business in this Commonwealth must register with the Bureau of Corporations and Charitable Organizations by filing a Foreign Registration Statement [DSCB:15-412] accompanied by a docketing statement [DSCB:15-134A].",
+        "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/foreign-associations",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "Beginning in 2025, most domestic and foreign filing associations are required to file an Annual Report [DSCB:15-146].",
+        "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "All entities filed with the bureau with the exception of fictitious names and trademarks, require a Pennsylvania address. A Post Office Box alone is not acceptable.",
+        "url": "https://www.pa.gov/agencies/dos/programs/business/filing-guidelines",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "No advertising is required for other types of foreign filing associations or for foreign limited liability partnerships.",
+        "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/foreign-associations",
+        "supports": "notes"
+      }
+    ]
+  },
+  "notes": "The Department's fee schedule lists Registration at $250 for Foreign Limited Liability Partnership/Limited Liability Company; the same table lists Amendment of Foreign Registration at $250. The publication requirement on the foreign-associations page applies to foreign corporations, not to foreign limited liability companies.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Pennsylvania Department of State, Fees and Payments - Foreign Limited Liability Partnership/Limited Liability Company",
+      "title": "Fees and Payments | Department of State | Commonwealth of Pennsylvania",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/fees-and-payments",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania Department of State - Foreign Associations (corporations, partnerships and limited liability companies)",
+      "title": "Foreign Associations (corporations, partnerships and limited liability companies) | Department of State | Commonwealth of Pennsylvania",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/foreign-associations",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania Department of State - Annual Reports",
+      "title": "Annual Reports | Department of State | Commonwealth of Pennsylvania",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Pennsylvania Department of State - Filing Guidelines",
+      "title": "Filing Guidelines | Department of State | Commonwealth of Pennsylvania",
+      "url": "https://www.pa.gov/agencies/dos/programs/business/filing-guidelines",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

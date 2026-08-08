@@ -1,0 +1,64 @@
+{
+  "stateName": "Rhode Island",
+  "stateAbbr": "RI",
+  "stateSlug": "rhode-island",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat $150.00 filing fee for a Foreign Limited Liability Company (LLC), payable online or by paper.",
+    "formName": "Application for Registration for a Foreign Limited Liability Company (Form 450)",
+    "formUrl": "https://docs.sos.ri.gov/documents/BusinessServices/450-application-for-registration.pdf",
+    "filedWith": "Rhode Island Department of State, Business Services Division",
+    "ongoingObligationsNote": "Maintain a registered agent with a Rhode Island street address and pay at least the state's minimum corporate tax ($400 or 7% of business income, whichever is higher) to the RI Division of Taxation each tax year.",
+    "evidence": [
+      {
+        "quote": "Foreign Limited Liability Company (LLC) R.I. Gen. Laws Chapter 7-16 File Online PDF $150",
+        "url": "https://www.sos.ri.gov/divisions/business-services/foreign-business/register-your-business-in-ri",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Instructions for Filing Application for Registration for a Foreign Limited Liability Company",
+        "url": "https://docs.sos.ri.gov/documents/BusinessServices/450-application-for-registration.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "State of Rhode Island Department of State - Business Services Division",
+        "url": "https://docs.sos.ri.gov/documents/BusinessServices/450-application-for-registration.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "The agent must be a Rhode Island resident or an entity qualified to do business in this state.",
+        "url": "https://www.sos.ri.gov/divisions/business-services/foreign-business/register-your-business-in-ri",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Remember, all businesses registered with the RI Department of State are responsible for paying at least the state’s minimum corporate tax ($400 or 7% of the business income, whichever is higher) to the RI Division of Taxation each tax year.",
+        "url": "https://www.sos.ri.gov/divisions/business-services/foreign-business/register-your-business-in-ri",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "A certificate of good standing/legal existence from the state or country in which the entity is incorporated, dated within 60 days of the date of filing, must accompany most applications.",
+        "url": "https://www.sos.ri.gov/divisions/business-services/foreign-business/register-your-business-in-ri",
+        "supports": "notes"
+      }
+    ]
+  },
+  "notes": "The $150 fee is the registration fee only; the minimum corporate tax is a separate annual obligation. A certificate of good standing/legal existence from the home jurisdiction, dated within 60 days of filing, must accompany the application.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Rhode Island Department of State, Business Services Division - Register Your Business with the State of Rhode Island",
+      "title": "Register Business In RI - Rhode Island - Gregg M. Amore",
+      "url": "https://www.sos.ri.gov/divisions/business-services/foreign-business/register-your-business-in-ri",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Rhode Island Department of State, Business Services Division - Form 450, Application for Registration for a Foreign Limited Liability Company (revised 03/2026)",
+      "title": "Form 450 - Application for Registration for a Foreign Limited Liability Company",
+      "url": "https://docs.sos.ri.gov/documents/BusinessServices/450-application-for-registration.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

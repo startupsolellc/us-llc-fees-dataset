@@ -1,0 +1,61 @@
+{
+  "stateName": "Washington",
+  "stateAbbr": "WA",
+  "stateSlug": "washington",
+  "foreignQualification": {
+    "registrationFeeUsd": 180,
+    "feeBasis": "Flat filing fee of $180.00 for the Foreign Registration Statement; expedited and same-day service add fees.",
+    "formName": "Foreign Registration Statement – Profit types",
+    "formUrl": "https://www.sos.wa.gov/sites/default/files/2025-12/6.2025%20-%20Foreign%20Registration%20Statement%20-%20Profit%20Entity%20Type%20%28Fillable%20Form%29.pdf",
+    "filedWith": "Washington Secretary of State",
+    "ongoingObligationsNote": "File an annual report yearly, due by the business's expiration date (the last day of the month in which the business was first registered), and maintain a registered agent with a physical Washington address.",
+    "evidence": [
+      {
+        "quote": "Foreign Registration Statement - Profit Entity Types (PDF Fillable Form) Required Filing fees $180",
+        "url": "https://www.sos.wa.gov/corporations-charities/business-entities/limited-liability-company-llc-professional-llc-pllc-filing-resource-page",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "Foreign Registration Statement – Profit types Washington Secretary of State",
+        "url": "https://www.sos.wa.gov/sites/default/files/2025-12/6.2025%20-%20Foreign%20Registration%20Statement%20-%20Profit%20Entity%20Type%20%28Fillable%20Form%29.pdf",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "An Annual Report is due by the business entity’s expiration date, which is the last day of the month in which the business was first formed/registered with our office; and can be filed up to 180 days before the expiration date.",
+        "url": "https://www.sos.wa.gov/corporations-charities/business-entities/limited-liability-company-llc-professional-llc-pllc-filing-resource-page",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "This role is required by law for both domestic entities and registered foreign entities operating in Washington State.",
+        "url": "https://www.sos.wa.gov/corporations-charities/business-entities/maintain-business-compliance/registered-agents",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The $180 fee is the registration fee only; the annual report is a separate recurring filing with its own fee. Expedited and same-day service add fees.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Washington Secretary of State, Corporations & Charities - Limited Liability Company (LLC) & Professional LLC (PLLC) Filing Resource Page",
+      "title": "Limited Liability Company (LLC) & Professional LLC (PLLC) Filing Resource Page | WA Secretary of State",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/limited-liability-company-llc-professional-llc-pllc-filing-resource-page",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Washington Secretary of State, Corporations & Charities Division - Foreign Registration Statement - Profit types (revised 6.2025)",
+      "title": "Foreign Registration Statement – Profit types",
+      "url": "https://www.sos.wa.gov/sites/default/files/2025-12/6.2025%20-%20Foreign%20Registration%20Statement%20-%20Profit%20Entity%20Type%20%28Fillable%20Form%29.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Washington Secretary of State, Corporations & Charities - Registered Agents",
+      "title": "Registered Agents | WA Secretary of State",
+      "url": "https://www.sos.wa.gov/corporations-charities/business-entities/maintain-business-compliance/registered-agents",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
