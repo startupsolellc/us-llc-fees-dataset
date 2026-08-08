@@ -1,0 +1,83 @@
+{
+  "stateName": "North Dakota",
+  "stateAbbr": "ND",
+  "stateSlug": "north-dakota",
+  "foreignQualification": {
+    "registrationFeeUsd": 135,
+    "feeBasis": "Flat $135.00 filing fee for the Foreign Business Limited Liability Company Certificate of Authority Application filed online through the FirstStop Portal; the LLC fees page prices registration the same for domestic and foreign LLCs.",
+    "formName": "Foreign Business Limited Liability Company Certificate of Authority Application",
+    "formUrl": "https://firststop.sos.nd.gov/forms/new/283",
+    "filedWith": "North Dakota Secretary of State",
+    "ongoingObligationsNote": "File the annual report each year (due November 15 for LLCs) and maintain a North Dakota registered agent with a physical address in the state.",
+    "evidence": [
+      {
+        "quote": "NDCC ch. 10-32.1 pertains to LLCs. Fees Registration (domestic and foreign) - $135",
+        "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "An out-of-state LLC must obtain a certificate of authority from the Secretary of State to transact business or provide professional services in North Dakota, or to obtain any license or permit.",
+        "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "Foreign Business Limited Liability Company Certificate of Authority Application",
+        "url": "https://firststop.sos.nd.gov/api/FormDefinition/business",
+        "supports": "formName"
+      },
+      {
+        "quote": "**FILING FEE: $135**",
+        "url": "https://firststop.sos.nd.gov/api/FormDefinition/business",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Corporations, LLCs, and partnerships (except for general partnerships) must maintain a North Dakota registered agent that has a physical address in North Dakota.",
+        "url": "https://www.sos.nd.gov/business/business-services/register-business",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Most businesses in North Dakota must file an annual report with the Office of the Secretary of State to stay in good standing.",
+        "url": "https://www.sos.nd.gov/business/business-services/maintain-registration",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "November 15 Limited Liability Company (LLC) Professional Limited Liability Company (PLLC)",
+        "url": "https://www.sos.nd.gov/business/business-services/maintain-registration",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The Foreign Business Limited Liability Company Certificate of Authority Application is filed online through the Secretary of State's FirstStop Portal (form 283); the portal's form definition states the $135 filing fee and references SFN 19381 as its paper equivalent, whose nd.gov/eforms PDF now returns 404, so the online channel is the common filing path and no paper PDF is cited. Registration is priced the same for domestic and foreign LLCs ($135), matching root states.json; the LLC annual report is $50, due November 15, also matching root. The form title and fee are quoted from the FirstStop portal's form-definition API JSON, which is the portal's own published data endpoint.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "North Dakota Secretary of State - Limited Liability Company (LLC)",
+      "title": "Limited Liability Company (LLC) | Secretary of State | North Dakota",
+      "url": "https://www.sos.nd.gov/business/business-services/business-structures/limited-liability-company-llc",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Secretary of State - Register a Business",
+      "title": "Register a Business | Secretary of State | North Dakota",
+      "url": "https://www.sos.nd.gov/business/business-services/register-business",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Secretary of State - Maintain Registration",
+      "title": "Maintain Registration | Secretary of State | North Dakota",
+      "url": "https://www.sos.nd.gov/business/business-services/maintain-registration",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "North Dakota Secretary of State FirstStop Portal - Form Definition list (business)",
+      "title": "FirstStop Portal - Form Definition list (business)",
+      "url": "https://firststop.sos.nd.gov/api/FormDefinition/business",
+      "type": null,
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
