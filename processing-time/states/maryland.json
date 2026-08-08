@@ -10,7 +10,7 @@
     "chargedIfRejected": false,
     "tiers": [
       {
-        "tierName": "Dropbox for Charter Filings — Expedited / Same-day Service",
+        "tierName": "Dropbox for Charter Filings  -  Expedited / Same-day Service",
         "turnaround": "same-day",
         "feeUsd": 425,
         "feeUsdMin": null,
@@ -37,12 +37,12 @@
     "observedOn": null,
     "volatile": true
   },
-  "notes": "The tier recorded here is the Department of Assessments and Taxation's in-person drop-box service at 123 Market Place, Baltimore, priced at $425 on top of the base filing fee, with same-day contact if a document needs correction and no guarantee if the stated procedure is not followed. Maryland also charges an expedited fee on filings made through its online business portal, and that figure is not on this page — so this record currently describes one channel of Maryland's expedite offering, not all of it. Whether the drop-box service covers an LLC's Articles of Organization specifically is stated on this page only as 'Charter Filings'.",
+  "notes": "The tier recorded here is the Department of Assessments and Taxation's in-person drop-box service at 123 Market Place, Baltimore, priced at $425 on top of the base filing fee, with same-day contact if a document needs correction and no guarantee if the stated procedure is not followed. Maryland also charges an expedited fee on filings made through its online business portal, and that figure is not on this page  -  so this record currently describes one channel of Maryland's expedite offering, not all of it. Whether the drop-box service covers an LLC's Articles of Organization specifically is stated on this page only as 'Charter Filings'.",
   "needsReview": "Three items: (1) the online expedited fee, which is set on the Maryland Business Express portal rather than this page; (2) confirmation that 'Charter Filings' covers LLC Articles of Organization; (3) standard processing time, not researched.",
   "sources": [
     {
       "citation": "Maryland State Department of Assessments and Taxation",
-      "title": "Businesses — Dropbox for Charter Filings, Expedited / Same-day Service $425",
+      "title": "Businesses  -  Dropbox for Charter Filings, Expedited / Same-day Service $425",
       "url": "https://dat.maryland.gov/businesses",
       "lastAccessed": "2026-08-06"
     }

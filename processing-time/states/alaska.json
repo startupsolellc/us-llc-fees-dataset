@@ -1,0 +1,69 @@
+{
+  "stateName": "Alaska",
+  "stateAbbr": "AK",
+  "stateSlug": "alaska",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Fee for expedited filings",
+        "turnaround": "given priority over those received in the regular course of business",
+        "feeUsd": 150,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "The tier is published in the administrative code and nowhere else. 3 AAC 16.105(a) names the Alaska Revised Limited Liability Company Act, AS 10.50, in its own list of the acts the additional $150 applies to, so appliesToLlcFormation is read off the regulation rather than inferred. The turnaround is subsection (d) and it is a comparison rather than a duration - the state states no hours, no days and no cut-off for it anywhere - so this is the same shape South Dakota publishes, one step further from the counter because Alaska's is not printed on any agency page at all.",
+        "evidence": {
+          "quote": "3 AAC 16.105. Fee for expedited filings and copies. (a) The additional fee for an expedited filing under AS 10.06 , AS 10.15 , AS 10.20 , AS 10.25 , AS 10.40 , AS 10.45 , AS 10.50 , AS 10.55 , AS 32.06 , or AS 32.11 is $150. (b) The additional fee for providing expedited copies of documents under 3 AAC 16.080 is $50. (c) Repealed 7/13/2003. (d) Expedited filings and expedited requests for copies made in accordance with this section will be given priority over those received in the regular course of business. (e) The commissioner may offer expedited filings in accordance with AS 10 , AS 32 , and this section.",
+          "url": "https://www.akleg.gov/basis/aac.asp?media=print&secStart=3.16.010&secEnd=3.16.999"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Submission: File an online version of this application through www.Corporations.Alaska.Gov, or submit via U.S. mail (do not e -mail). If submitting hard copy, processing times may be up to 3 weeks from the date received. Between October and February, the processing time may be delayed due to renewals.",
+    "sourceUrl": "https://www.commerce.alaska.gov/web/Portals/5/pub/corp0484.pdf",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "Alaska sells speed by regulation and never mentions it to the filer. The whole of the Corporations section of the division's site was read - the Forms and Fees page, the payment and refund policy, the create-a-new-entity guidance, the copies page, the name pages, and all seven FAQ sets - and the word 'expedited' does not occur anywhere in it. The LLC fee table prices Articles of Organization at $250 with no second money column, and the Articles of Organization form itself carries no expedited option. What does price it is 3 AAC 16.105, which is where AS 10.50.850 puts every fee this office charges: the statute prices nothing itself and directs the department to set filing fees by regulation under the Administrative Procedure Act. Two qualifications the record keeps rather than smooths over. Subsection (e) is permissive - 'The commissioner may offer expedited filings' - so the regulation establishes a published price and an entitlement to set the service up, not a promise that the counter is selling it today, and nothing on the agency's side corroborates that it is. And the only sentence in the division's own pages that answers the speed question at all - 'We do not offer expediting services' - is about a different product: it sits in the entity-exemption FAQ, in the middle of an answer about how long a hardcopy business licence application takes, under a question headed how to get an Alaska business licence faster. A business licence is not an entity filing and that sentence is deliberately not recorded as this namespace's evidence of absence. feeIsPerDocument is true on the regulation's own unit: it charges the additional fee for 'an expedited filing', one filing at a time, where a state that meant otherwise says so - New Hampshire prices its expedited service per ten documents. On standardProcessing, the state publishes two figures for the same thing and this record takes the one printed on the document an LLC organiser is actually holding. The Articles of Organization instructions say hardcopy processing may take up to 3 weeks; the division's Forms and Fees page says 'Processing time for hardcopy filings is normally 10-15 business days, with the exception of biennial reporting periods (Apr-June and Oct.-Dec.) when processing time may take longer' and directs anyone wanting immediate processing to file online. Neither parsed day range is filled, because the figure in the statement is weeks rather than business days and converting it would add a unit the office did not use. The form is cited instead of the web page for a second reason: the division's HTML pages answer a scripted client with a JavaScript challenge at HTTP 403 and were read in a browser, while its PDFs are served to any client, so binding the value to the form keeps it verifiable by live re-fetch rather than against a stored snapshot.",
+  "needsReview": "Two open questions, neither of them a value in doubt. (1) Whether the office is currently selling the expedited filing that 3 AAC 16.105 prices: the regulation's subsection (e) is permissive, and no page the division publishes mentions the service, so a call or an email to the Corporations Section is what would settle it. (2) The logged-in filing flow was not read. New-entity filings go through a myAlaska sign-in and the checkout is the one place an expedite option would appear as agency practice rather than as regulation, which is where Oklahoma's unstatutory same-day charge turned up. The division's public search and download pages carry no filing flow. Also unread for the same reason: whether the $150 is charged when a filing is rejected, which no published Alaska page addresses.",
+  "sources": [
+    {
+      "citation": "Alaska Administrative Code",
+      "title": "3 AAC 16.105, Fee for expedited filings and copies - $150 additional for an expedited filing under AS 10.50 among other acts, $50 for expedited copies, priority over filings received in the regular course of business, and a permissive grant in (e) that the commissioner may offer expedited filings",
+      "url": "https://www.akleg.gov/basis/aac.asp?media=print&secStart=3.16.010&secEnd=3.16.999",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alaska Statutes",
+      "title": "AS 10.50.850, Filing and other fees - the Alaska Revised Limited Liability Company Act sets no fee itself and directs the department to charge fees established by regulation adopted under AS 44.62, which is why 3 AAC 16 is the operative document; chapter 10.50 was consulted in full and contains no expedited-service provision",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.010&secEnd=10.50.995",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alaska Division of Corporations, Business and Professional Licensing",
+      "title": "Articles of Organization - Domestic Limited Liability Company, form 08-0484 with instructions - the $250 filing fee and the office's statement that hardcopy processing times may be up to 3 weeks from the date received, delayed between October and February; no expedited option anywhere on the form",
+      "url": "https://www.commerce.alaska.gov/web/Portals/5/pub/corp0484.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Alaska Division of Corporations, Business and Professional Licensing",
+      "title": "Corporation Forms & Fees - the complete fee table by entity type, Articles of Organization $250 for a domestic LLC, hardcopy processing normally 10-15 business days and online filings processed immediately; no expedited line for any entity type. Read in a browser because the division's HTML pages refuse scripted clients",
+      "url": "https://www.commerce.alaska.gov/web/cbpl/Corporations/CorporationFormsFees",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

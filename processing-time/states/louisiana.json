@@ -51,12 +51,12 @@
     "observedOn": null,
     "volatile": true
   },
-  "notes": "Both tiers come from the 'Special handling instructions' section that closes the Commercial Division's single forms-and-fees page, below the per-entity tables; it speaks of 'documents' generally, and the same page lists Articles of Organization-Louisiana Limited Liability Company #365 at $100, which is why appliesToLlcFormation is recorded as true. The two tiers are one quotation because they are two lines of one small table. Time-sensitive: the page announces that 'Effective October 1, 2026, the fees for the Commercial Division of the Secretary of State will increase in accordance with Act 921 of the 2026 Regular Legislative Session' — the values here are the in-effect schedule as of the retrieval date and must be re-read after 2026-10-01.",
-  "needsReview": "Three items: (1) standard processing time, not researched; (2) whether the special-handling fee is charged per document and whether it is retained on rejection — the page states neither; (3) re-read the whole schedule after 2026-10-01, when Act 921's increases take effect.",
+  "notes": "Both tiers come from the 'Special handling instructions' section that closes the Commercial Division's single forms-and-fees page, below the per-entity tables; it speaks of 'documents' generally, and the same page lists Articles of Organization-Louisiana Limited Liability Company #365 at $100, which is why appliesToLlcFormation is recorded as true. The two tiers are one quotation because they are two lines of one small table. Time-sensitive: the page announces that 'Effective October 1, 2026, the fees for the Commercial Division of the Secretary of State will increase in accordance with Act 921 of the 2026 Regular Legislative Session'  -  the values here are the in-effect schedule as of the retrieval date and must be re-read after 2026-10-01.",
+  "needsReview": "Three items: (1) standard processing time, not researched; (2) whether the special-handling fee is charged per document and whether it is retained on rejection  -  the page states neither; (3) re-read the whole schedule after 2026-10-01, when Act 921's increases take effect.",
   "sources": [
     {
       "citation": "Louisiana Secretary of State, Commercial Division",
-      "title": "Business Services Forms & Fee Schedule — special handling: 'priority expedite or waiting' $50 while-you-wait, 'expedite' $30 within 24 hours; LLC Articles of Organization #365 $100; Act 921 increases effective 2026-10-01",
+      "title": "Business Services Forms & Fee Schedule  -  special handling: 'priority expedite or waiting' $50 while-you-wait, 'expedite' $30 within 24 hours; LLC Articles of Organization #365 $100; Act 921 increases effective 2026-10-01",
       "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
       "lastAccessed": "2026-08-06"
     }

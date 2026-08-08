@@ -1,0 +1,88 @@
+{
+  "stateName": "Wisconsin",
+  "stateAbbr": "WI",
+  "stateSlug": "wisconsin",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": {
+      "quote": "Deliver your charter document or service request with an additional $100.00 expedited service fee for each transaction.",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx"
+    },
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": null,
+    "tiers": [
+      {
+        "tierName": "Expedited processing - next day",
+        "turnaround": "by close of business the first business day following the date of receipt",
+        "feeUsd": 100,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "The fee schedule carries the same $100.00 row in every entity column, the Limited Liability Company column included. The FAQ says the fee is paid 'for each transaction' and that expedited requests are acted on by the close of business the following business day.",
+        "evidence": {
+          "quote": "Expedited processing - next day - by close of business the first business day following the date of receipt $100.00",
+          "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx"
+        }
+      },
+      {
+        "tierName": "In-person customer service counter expedited processing within four hours of receipt",
+        "turnaround": "within four hours of receipt",
+        "feeUsd": 250,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": "Counter service at 4822 Madison Yards Way, North Tower, 4th floor, Madison, WI 53705.",
+        "evidence": {
+          "quote": "In-person customer service counter expedited processing within four hours of receipt (4822 Madison Yards Way, North Tower, 4th floor, Madison, WI 53705) $250.00",
+          "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx"
+        }
+      },
+      {
+        "tierName": "In-person customer service counter expedited processing within one hour of receipt",
+        "turnaround": "within one hour of receipt",
+        "feeUsd": 500,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": ["in-person"],
+        "note": "Counter service at 4822 Madison Yards Way, North Tower, 4th floor, Madison, WI 53705.",
+        "evidence": {
+          "quote": "In-person customer service counter expedited processing within one hour of receipt (4822 Madison Yards Way, North Tower, 4th floor, Madison, WI 53705) $500.00",
+          "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": null,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": null,
+    "volatile": true
+  },
+  "notes": "This record was rewritten from the no-sources state on 2026-08-08, the first time the Department of Financial Institutions hosts answered this network (VPN-up route; the state's whole address range had been transport-dark in both conditions when the record was first written). The department's fee schedule is one table covering every entity type - Business Corporation, Cooperative (Stock or Membership), Limited Liability Company, Limited Liability Partnership, Limited Partnership and Nonstock Corporation - and its three expedited rows run across all six entity columns, so appliesToLlcFormation is true: the $100 next-day row, the $250 in-person counter row and the $500 in-person counter row are all present in the LLC column. The FAQ prices the service at $100.00 for each transaction and says expedited requests are acted on by the close of business the following business day, which is why feeIsPerDocument is true: the fee is charged per charter document or service request, not per batch. chargedIfRejected is not stated anywhere on the pages read. standardProcessing.isPublished is null: neither the fee schedule nor the FAQ states a standard turnaround, and the online filing system was not opened, so no value is invented; needsReview names what would settle it. The fee schedule also confirms the LLC's ordinary formation prices that root states.json carries ($170 paper / $130 online) but those are filing fees, out of this namespace's scope. Wisconsin Statutes chapter 183 and the department's administrative rules were not read (docs.legis.wisconsin.gov remained transport-dark on 2026-08-08, three TCP timeouts with clean DNS), so no statute or rule is quoted in this record.",
+  "needsReview": "chargedIfRejected is not stated on the pages read. standardProcessing.isPublished is null: neither the DFI fee schedule nor the Business Entity FAQ states a standard processing time; a stated turnaround on the online filing system (OneStop or the DFI Online Order System) or on a department page would settle it. The $250 and $500 counter tiers state their turnaround and their counter location but no cutoff time. Wisconsin Statutes chapter 183 and the department's administrative rules could not be opened from this network (docs.legis.wisconsin.gov, three TCP timeouts with clean DNS on 2026-08-08), so no statute or rule is quoted.",
+  "sources": [
+    {
+      "citation": "Wisconsin Department of Financial Institutions, Business Entity Fees",
+      "title": "DFI Corporation Fees",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Financial Institutions, Business Entity Frequently Asked Questions",
+      "title": "DFI Business Entity Frequently Asked Questions (FAQ's)",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/FAQ.aspx",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

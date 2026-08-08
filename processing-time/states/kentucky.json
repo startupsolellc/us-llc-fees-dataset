@@ -25,24 +25,24 @@
     "observedOn": "2026-08-06",
     "volatile": true
   },
-  "notes": "Kentucky's 'no' is rested on three pages read in full, not on one missed page. The FAQ quoted here is the office answering the turnaround question in its own words, and the answer is routine same-day processing with no paid faster track beside it. The complete fee list on the Fees page carries no expedite line for any entity type, and KRS 14A.2-060 — the statute that enumerates what the Secretary of State 'shall collect', down to a catch-all of $15 for 'any other document required or permitted to be filed by this chapter' — prices no expedited handling either, and a fee the statute does not establish is not one the office may charge. This is a weaker 'no' than a state that says 'we do not offer expedited services' outright, and the notes say so. On standardProcessing: the FAQ does not distinguish online from mail filings, so both day-range fields mirror the same sentence; 'same day' is encoded as min 0 and 'up to three business days' as max 3 — the statement is the artifact, the range is convenience.",
+  "notes": "Kentucky's 'no' is rested on three pages read in full, not on one missed page. The FAQ quoted here is the office answering the turnaround question in its own words, and the answer is routine same-day processing with no paid faster track beside it. The complete fee list on the Fees page carries no expedite line for any entity type, and KRS 14A.2-060  -  the statute that enumerates what the Secretary of State 'shall collect', down to a catch-all of $15 for 'any other document required or permitted to be filed by this chapter'  -  prices no expedited handling either, and a fee the statute does not establish is not one the office may charge. This is a weaker 'no' than a state that says 'we do not offer expedited services' outright, and the notes say so. On standardProcessing: the FAQ does not distinguish online from mail filings, so both day-range fields mirror the same sentence; 'same day' is encoded as min 0 and 'up to three business days' as max 3  -  the statement is the artifact, the range is convenience.",
   "needsReview": null,
   "sources": [
     {
       "citation": "Kentucky Secretary of State",
-      "title": "Business Filings FAQs — processing time: usually same day, up to three business days; no expedited option mentioned",
+      "title": "Business Filings FAQs  -  processing time: usually same day, up to three business days; no expedited option mentioned",
       "url": "https://www.sos.ky.gov/bus/business-filings/Pages/FAQs.aspx",
       "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Kentucky Secretary of State",
-      "title": "Fees — complete filing-fee list, consulted; LLC Articles of Organization $40.00, no expedite line for any entity type",
+      "title": "Fees  -  complete filing-fee list, consulted; LLC Articles of Organization $40.00, no expedite line for any entity type",
       "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx",
       "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Kentucky Revised Statutes",
-      "title": "KRS 14A.2-060 Fees and miscellaneous charges — consulted in full; enumerates the Secretary of State's fees and establishes no expedited-service charge",
+      "title": "KRS 14A.2-060 Fees and miscellaneous charges  -  consulted in full; enumerates the Secretary of State's fees and establishes no expedited-service charge",
       "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50475",
       "lastAccessed": "2026-08-06"
     }

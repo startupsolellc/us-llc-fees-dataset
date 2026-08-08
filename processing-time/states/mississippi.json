@@ -1,0 +1,51 @@
+{
+  "stateName": "Mississippi",
+  "stateAbbr": "MS",
+  "stateSlug": "mississippi",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "Mississippi Limited Liability Companies Form Name Filing Fee F0100 MS LLC Certificate of Formation $50 F0101 MS LLC Certificate of Amendment $50 F0102 MS LLC Certificate of Merger $25 F0103 MS LLC Certificate of Dissolution $50 F0108 MS LLC Annual Report $0 F0109 LLC Reinstatement $50 F0110 MS LLC Application for Name Reservation $25 F0111 MS LLC Application for Transfer of Name Reservation $25 F0119 Certificate of Revocation of Dissolution for Limited Liability Companies $25 F0010 LLC Registered Agent/Office Statement of Change $10 F0122 Certificate of Change of Address of Registered Agent $10/company F0038 LLC Certificate of Resignation of Registered Agent $0",
+      "url": "https://www.sos.ms.gov/content/documents/Business/FeeSchedule.pdf"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": null,
+    "sourceUrl": null,
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "An evidenced no, and the document carrying it is the office's whole price list rather than one entity's page. 'Business Documents Filing Fees' prices every filing the Business Services division takes - business corporations, foreign corporations, nonprofit corporations, limited liability companies, foreign LLCs, limited partnerships and the rest - form number by form number, and there is no second money column and no expedited line anywhere in it. The LLC block is quoted because that is the product this namespace is about: a certificate of formation is $50 and it is the only price the state attaches to it. Two further instruments back the absence up rather than leaving it resting on one silent document. The office's own full-text search was run for 'expedite' and for 'expedited' - the word the page would use and its stem, both, because searching for the wrong form of a word is how a negative search lies - and between them they return one comment about the Medical Cannabis Act and one licensing page, nothing from Business Services at all. And the division's filing portal was read as far as a public visitor can go: its home, its business search, its fee link and its directory pages carry no expedited option and no price above the schedule's. That ranks this a step below the states whose own FAQ answers the question in words, and a step above a single silent page. There is no statute in this record and the reason is structural rather than an omission. Mississippi publishes no free official copy of its code on any state host; what the state does publish officially is the enacted acts, and an act cannot tell you which act is current for a section - the amendment history that would settle it is printed only by commercial publishers, which are not sources here, for a value or as corroboration. So the LLC fee sections of the Mississippi Limited Liability Company Act could not be read in a form this namespace may cite, and the finding rests on the agency's own schedule. On standardProcessing: isPublished is false rather than null. It is a researched finding - the fee schedule, the division's pages, the portal's public pages and the office-wide search were all read and none of them states a turnaround for a business filing - and it means the state publishes no processing time, not that filings are instant. Retrieval note: this host answers a scripted client with an access-denied page, and the fee schedule PDF is served only when the request carries a referring page. The stored snapshot the quotation is checked against is therefore the publisher's own bytes retrieved today, not a transcription or a re-extraction, which is the strongest form the snapshot procedure has; a session on a route where the plain request succeeds should still retire it by re-running the check live.",
+  "needsReview": "The logged-in filing flow was not read. Certificates of formation are submitted through the division's online portal, which requires an account, and that checkout is the one place a charge for speed could exist as agency practice without appearing in the published schedule - the shape Oklahoma turned out to have. Also unread, and unreadable from any official source: the fee provisions of the Mississippi Limited Liability Company Act, because the state publishes acts rather than a code and nothing official carries the amendment history needed to know which act is current.",
+  "sources": [
+    {
+      "citation": "Mississippi Secretary of State, Business Services",
+      "title": "Business Documents Filing Fees - the division's complete fee schedule for every business entity type; MS LLC Certificate of Formation $50, no expedited-service line for any entity type and no second money column anywhere in the document",
+      "url": "https://www.sos.ms.gov/content/documents/Business/FeeSchedule.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Mississippi Secretary of State",
+      "title": "Office-wide full-text search - run for both 'expedite' and 'expedited'; returns no Business Services page, no fee page and no filing page, only a statement about the Medical Cannabis Act and a professional-licensing page",
+      "url": "https://www.sos.ms.gov/search/node?keys=expedited",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Mississippi Secretary of State, Business Services",
+      "title": "Business filing portal, public pages - business search, filing fees link and directory; carries no expedited option and states no processing time. Filings themselves are behind an account",
+      "url": "https://corp.sos.ms.gov/corp/portal/c/page/corpBusinessIdSearch/portal.aspx",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

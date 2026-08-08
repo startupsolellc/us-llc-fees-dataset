@@ -1,0 +1,91 @@
+{
+  "stateName": "Georgia",
+  "stateAbbr": "GA",
+  "stateSlug": "georgia",
+  "expedite": {
+    "offered": true,
+    "offeredEvidence": null,
+    "appliesToLlcFormation": true,
+    "feeIsPerDocument": true,
+    "chargedIfRejected": true,
+    "tiers": [
+      {
+        "tierName": "Two Business Days Expedited Service",
+        "turnaround": "Review completed and a response sent to the filer within two business days after receipt.",
+        "feeUsd": 120,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": null,
+        "channels": null,
+        "note": "The cheapest of the three general-purpose tiers. Do not confuse it with the two other $60 two-day services on the same page: one is for annual registrations submitted by mail or hand delivery, the other for each certificate issued, and neither is a formation filing. The quote carries the paragraph that governs all three tiers so the tier is anchored to the Corporation, Limited Partnership and LLC block rather than to the annual-registration block below it.",
+        "evidence": {
+          "quote": "Any Domestic or Foreign Corporation, Limited Partnership (LP/LLLP and LLP), or Limited Liability Company (LLC) Filing: A document submitted to the Secretary of State for expedited filing will be reviewed and a filing response indicating whether the document has been filed or rejected will be sent to the filer or contact person within the time frame of the requested level of expedited service. The expedited fee is in addition to the regular filing fee associated with the document type or service requested. The expedited review period is during business hours only on business days, and excludes weekends and state holidays. Expedited service is not available on trademark, service of process, or other special services filings. Two Business Days Two Business Days Expedited Service $120.00 Review completed and a response sent to the filer within two business days after receipt.",
+          "url": "https://sos.ga.gov/how-to-guide/filing-fees-and-expedited-processing-document-filings"
+        }
+      },
+      {
+        "tierName": "Same Day Expedited Service",
+        "turnaround": "Review completed and a response sent to the filer the same day as receipt.",
+        "feeUsd": 275,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "requests must be received by the Division by noon of a business day; documents received after noon will be reviewed by noon on the next business day",
+        "channels": null,
+        "note": "The same $275 also buys a same-day certificate, which is a different product on the same page.",
+        "evidence": {
+          "quote": "Same Day Expedited Service Same Day Expedited Service $275.00 Review completed and a response sent to the filer the same day as receipt. Same day expedited processing service requests must be received by the Division by noon of a business day. Documents received after noon will be reviewed by noon on the next business day.",
+          "url": "https://sos.ga.gov/how-to-guide/filing-fees-and-expedited-processing-document-filings"
+        }
+      },
+      {
+        "tierName": "One Hour Expedited Service",
+        "turnaround": "Review completed and a response sent within one hour of receipt.",
+        "feeUsd": 1200,
+        "feeUsdMin": null,
+        "feeUsdMax": null,
+        "cutoff": "reviewed on business days between 9:00 a.m. and 4:00 p.m.; documents received outside those hours are reviewed on the next business day starting at 9:00 a.m.",
+        "channels": null,
+        "note": "The second most expensive single tier in the namespace after Wyoming's same-day, and unlike Wyoming's it can actually be bought for a formation filing. It is the only tier that imposes a condition on the filer as well as on the office: a named person reachable by email and telephone who is authorised to make corrections.",
+        "evidence": {
+          "quote": "One Hour Expedited Service One Hour Expedited Service $1200.00 Review completed and a response sent within one hour of receipt. One hour expedited processing service requests are reviewed on business days between 9:00 a.m. and 4:00 p.m. Documents received outside of these business hours will be reviewed on the next business day starting at 9:00 a.m.",
+          "url": "https://sos.ga.gov/how-to-guide/filing-fees-and-expedited-processing-document-filings"
+        }
+      }
+    ]
+  },
+  "standardProcessing": {
+    "isPublished": true,
+    "basis": "stated-range",
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": {
+      "min": 7,
+      "max": 10
+    },
+    "mailBusinessDays": {
+      "min": 15,
+      "max": 15
+    },
+    "statement": "Processing times will vary depending on office workload. Online filings are generally processed within 7 to 10 business days of receipt by the Division. Paper filings submitted by mail or hand-delivery, and paper filings submitted online are generally processed in 15 business days of receipt by the Division.",
+    "sourceUrl": "https://sos.ga.gov/how-to-guide/filing-fees-and-expedited-processing-document-filings",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "Georgia is the North Carolina shape written out in the state's own words: what the fee buys is a review completed and a response sent, 'indicating whether the document has been filed or rejected', so the promise is a decision inside the window rather than an accepted filing. chargedIfRejected is true on two sentences read together - that one, and the flat 'Fees are non-refundable and non-transferable' heading the same page's fee section. appliesToLlcFormation needs no inference: the block naming the three tiers is headed 'Any Domestic or Foreign Corporation, Limited Partnership (LP/LLLP and LLP), or Limited Liability Company (LLC) Filing', and the page separately excludes only trademark, service of process and other special services filings. feeIsPerDocument is true on the same block's unit - the fee attaches to 'a document submitted ... for expedited filing' - reinforced by the payment rules further down the page: 'Each filing requires a single payment' and 'We cannot accept a single payment for multiple filings'. Two traps on this page and both are the same trap. The $60 two-day and $275 same-day lines further down belong to annual registrations and to certificate requests, not to formation filings, and each of those blocks also says the equivalent online service is immediate and free; a tier lifted from there would be priced correctly and be about the wrong product. Every tier quotation here therefore carries the heading of the block it came from. The tiers were also read a second time in the office's own fee schedule, 'Corporations Division Filing Fees', revised 8/2025 and effective September 6, 2025, which prices Articles of Organization (LLC) at $100.00 plus a $10.00 service charge, $110.00, identically online and on paper. That document and this page agree word for word on all three tiers and on the paragraph above them, so unlike states whose web page and order form describe different services there is nothing here to resolve between two documents. On standardProcessing, both parsed ranges are filled because the state states both in business days and names both channels; note that the fifteen-day figure covers paper filings submitted online as well as by mail, which is a Georgia-specific split by document form rather than by transmission. The office's own qualification that filings should be allowed at least fifteen business days in late December, January and at each quarter end is part of the statement's context and is not folded into the parsed range. The state's code could not be consulted: Georgia publishes no free official copy of the Official Code of Georgia Annotated and no act archive that reaches the business filing provisions, so the fee levels here rest on the agency's two documents alone. This record cites no commercial statute mirror.",
+  "needsReview": "Nothing in the published values is in doubt. Three limits worth recording. The imposing statute was not read, because there is no official free copy of the Georgia code to read it in; the amounts are therefore agency-published only. The logged-in filing flow on the state's eCorp system was not opened, so it is not known whether the expedited options are presented there exactly as the fee schedule prices them. And both cited documents refuse a scripted client - the whole of this host answers a challenge page - so the tier and processing-time quotations are checked against a text snapshot of the page taken on the retrieval date rather than against a live re-fetch. A session on a route this host accepts should re-run the check live and retire the snapshot.",
+  "sources": [
+    {
+      "citation": "Georgia Secretary of State, Corporations Division",
+      "title": "Filing Fees and Expedited Processing of Document Filings - the three general-purpose expedited tiers for corporation, limited partnership and LLC filings ($120 two business days, $275 same day, $1,200 one hour), the separate annual-registration and certificate expedited fees, the non-refundable fee rule, and the division's general processing times of 7 to 10 business days online and 15 business days for paper",
+      "url": "https://sos.ga.gov/how-to-guide/filing-fees-and-expedited-processing-document-filings",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Georgia Secretary of State, Corporations Division",
+      "title": "Corporations Division Filing Fees, rev. 8/2025, effective September 6, 2025 - Articles of Organization (LLC) $100.00 plus a $10.00 service charge, $110.00 online and on paper, and the identical three-tier expedited block; read in a browser because this host serves a challenge page to scripted clients",
+      "url": "https://sos.ga.gov/sites/default/files/forms/Reference%20-%20Filing%20Fees_0.pdf",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

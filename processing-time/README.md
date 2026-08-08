@@ -1,6 +1,6 @@
 # processing-time
 
-**Status: draft / proposal. Not published, not part of the dataset yet.**
+**Status: published. 51 of 51 jurisdictions, last verified 2026-08-08.**
 
 Per-jurisdiction record of how long a state takes to process an LLC formation filing, and what
 it costs to make that faster. One JSON file per jurisdiction in `states/<slug>.json`.
@@ -169,7 +169,9 @@ processing-time record.
 
 ## Records
 
-`states/` currently holds 46 of the 51 jurisdictions. The table below is a **selection, not the
+`states/` currently holds all 51 jurisdictions. Three of them carry no purchasable value yet and say
+so in `needsReview` rather than guessing: two are unreachable from the collecting network and one is
+readable in statute and dark at the agency. The table below is a **selection, not the
 full list**: it names the record that first forced each shape the model had to absorb, which is why
 a state appears here at all. States that arrived later and exercised a shape already covered are
 not listed.

@@ -79,12 +79,12 @@
     "observedOn": null,
     "volatile": true
   },
-  "notes": "New Jersey's expedite ladder is not available online: the schedule limits it to over-the-counter transactions, with Same Day restricted further to fax filings. The base Certificate of formation fee on the same page is $100.00. Every tier here is read from the Limited Liability Company (LLC) Filing Fees block; the LLP block immediately below carries an identically priced ladder, which is why the quotation is anchored on the LLP heading that follows it — without that anchor the two blocks are indistinguishable in the page text.",
-  "needsReview": "Two items: (1) what turnaround the $25.00 per-filing expedited fee buys, which the schedule does not state; (2) standard processing time — not researched.",
+  "notes": "New Jersey's expedite ladder is not available online: the schedule limits it to over-the-counter transactions, with Same Day restricted further to fax filings. The base Certificate of formation fee on the same page is $100.00. Every tier here is read from the Limited Liability Company (LLC) Filing Fees block; the LLP block immediately below carries an identically priced ladder, which is why the quotation is anchored on the LLP heading that follows it  -  without that anchor the two blocks are indistinguishable in the page text.",
+  "needsReview": "Two items: (1) what turnaround the $25.00 per-filing expedited fee buys, which the schedule does not state; (2) standard processing time  -  not researched.",
   "sources": [
     {
       "citation": "New Jersey Division of Revenue and Enterprise Services",
-      "title": "Business Filing Fees — LLC expedited service $25.00 per filing, Same Day (fax) $50.00, 2 hour $500.00, 1 hour $1000.00",
+      "title": "Business Filing Fees  -  LLC expedited service $25.00 per filing, Same Day (fax) $50.00, 2 hour $500.00, 1 hour $1000.00",
       "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
       "lastAccessed": "2026-08-06"
     }

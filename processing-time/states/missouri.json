@@ -1,0 +1,69 @@
+{
+  "stateName": "Missouri",
+  "stateAbbr": "MO",
+  "stateSlug": "missouri",
+  "expedite": {
+    "offered": false,
+    "offeredEvidence": {
+      "quote": "Limited Liability Company\nArticles of Organization for a Limited Liability Company (LLC 1)\nAttachment for Series of a Limited Liability Company (LLC 1A)\nAmendment of Articles of Organization of a Limited Liability Company (LLC 12)\nStatement of Correction for a Limited Liability Company (LLC 7)\nStatement of Resignation of Registered Agent of Limited Liability Company (LLC 6)\nStatement of Change of Registered Agent or Registered Office (Corp. 59)\nStatement of Change of Registered Agent Office Address (Corp. 59A)\nNotice of Abandonment of Merger or Consolidation of Limited Liability Company (LLC 2)\nNotice of Winding Up for Limited Liability Company (LLC 13)",
+      "url": "https://www.sos.mo.gov/business/corporations/forms"
+    },
+    "appliesToLlcFormation": null,
+    "feeIsPerDocument": null,
+    "chargedIfRejected": null,
+    "tiers": []
+  },
+  "standardProcessing": {
+    "isPublished": false,
+    "basis": null,
+    "queueAsOfOnline": null,
+    "queueAsOfMail": null,
+    "onlineBusinessDays": null,
+    "mailBusinessDays": null,
+    "statement": "Want to file today? Visit Missouri Business Filings to explore our online filing services-many are processed immediately after submission.",
+    "sourceUrl": "https://www.sos.mo.gov/business/corporations/",
+    "observedOn": "2026-08-07",
+    "volatile": true
+  },
+  "notes": "An evidenced no proved from both ends, which is worth more here than either end alone. At the legislature: section 347.179 of the Limited Liability Company Act is a closed list of fifteen charges - one hundred dollars for the original articles of organization, forty-five dollars for filing them online, twenty dollars for most amendments - and its only other subsection is a fee waiver for National Guard and active-duty military organizers. Section 347.183, the secretary's additional powers under the same act, was read in full for a hook that could carry a charge for speed and has none. What generalises those two readings is the Revisor's own full-text search of the whole statute book: 'expedited' matches sixty-nine sections across forty-six chapters, from county government to insurance to criminal procedure, and none of them is chapter 347 (limited liability companies), chapter 351 (business corporations) or chapter 28 (the Secretary of State). The word is absent from the subject matter, not merely from the section that happened to be opened. At the agency: the office's Schedule of Fees and Charges prices every chapter it administers - 347 for LLCs at $105.00 on paper and $50.00 online, 351 for corporations, 417 for fictitious names and the rest - and contains no occurrence of 'expedite' and no occurrence of rush, priority, same day, twenty-four hour or over the counter either. The quoted passage is from the division's Fees and Forms index, which lists every form it accepts for every entity type and offers no expedited option beside any of them. One near miss is worth naming so a later session does not read it as a tier: the schedule sells a 'Pre-Clearance Examination' for $55.00. That is a review of a document before it is filed, which is a different product from buying a faster place in the queue, and other states in this namespace publish the same thing without it being an expedite. On standardProcessing: isPublished is false and a statement is still carried, which is the shape a state gets when it says something about speed without publishing a time. Missouri's claim is that many online filings are processed immediately after submission; it attaches no duration to anything, gives no figure at all for paper filings, and no page in the division states a turnaround. Retrieval note: this whole host refuses scripted clients, so both cited pages were read in a browser and their quotations are checked against text snapshots taken on the retrieval date rather than against a live re-fetch. The statutes are the opposite - revisor.mo.gov serves them to any client, and the search result behind the office's postback form is reachable at a plain address, so the negative above can be re-run by anyone.",
+  "needsReview": "Two things unread, neither of them a value in doubt. The online filing system at bsd.sos.mo.gov requires an account, and its checkout is the one place a charge for speed could exist as agency practice without appearing in either the schedule or the statutes - the shape one state in this namespace turned out to have. And the reachability of this agency is unusually conditional: on one network route its host refuses the request outright and names the country it came from, and on the other it presents an interactive human-verification step, which this campaign does not complete. The pages here were read after that check cleared on its own. A session that cannot get past it should not read the silence as a finding.",
+  "sources": [
+    {
+      "citation": "Missouri Secretary of State, Corporations Division",
+      "title": "Fees & Forms - the division's complete index of forms for every entity type, including the full Limited Liability Company set, with no expedited option offered beside any filing; links the Schedule of Corporation Fees and Charges",
+      "url": "https://www.sos.mo.gov/business/corporations/forms",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Missouri Secretary of State, Corporations Division",
+      "title": "Corporations - the division's landing page; states that many online filings are processed immediately after submission and publishes no processing time for any channel",
+      "url": "https://www.sos.mo.gov/business/corporations/",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Missouri Secretary of State",
+      "title": "Schedule of Fees and Charges - the office-wide fee schedule; Chapter 347 fees list Certificates of Limited Liability Company at $105.00 on paper and $50.00 online, and the document contains no expedited-service charge for any entity type. Read in a browser because this host refuses scripted clients",
+      "url": "https://www.sos.mo.gov/CMSImages/Business/fees.pdf",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Revised Statutes of Missouri",
+      "title": "Section 347.179, Fees - the Limited Liability Company Act's complete fee list, fifteen charges and a military fee waiver; no expedited-service fee and no authority to set one",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=347.179",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Revised Statutes of Missouri",
+      "title": "Section 347.183, Additional duties of secretary - consulted in full; grants examination, administrative and rulemaking powers and no authority to charge for expedited handling",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=347.183",
+      "lastAccessed": "2026-08-07"
+    },
+    {
+      "citation": "Revised Statutes of Missouri",
+      "title": "Full-text search of the Revised Statutes for 'expedited' - sixty-nine sections in forty-six chapters, none of them chapter 347, chapter 351 or chapter 28",
+      "url": "https://revisor.mo.gov/main/PageSearch.aspx?tb1=expedited&op=and&tb2=&idx=2",
+      "lastAccessed": "2026-08-07"
+    }
+  ],
+  "lastVerified": "2026-08-07"
+}

@@ -25,18 +25,18 @@
     "observedOn": "2026-08-06",
     "volatile": true
   },
-  "notes": "Like Kentucky, Arkansas's 'no' rests on the office answering the turnaround question in its own words with no paid faster track beside the answer: most filings complete within two business days, walk-ins can often be completed while you wait, and the parenthetical about a 48-hour drop-off turnaround is itself the kind of volatile queue remark this namespace refuses to present as current. The LLC Forms & Fees page — a complete per-form table where the Certificate of Organization (form LL-01) is $45.00 online and $50.00 on paper — carries no expedite line for any filing. This is a weaker 'no' than an explicit 'we do not offer expedited services'. The day-range fields both mirror the FAQ's channel-neutral sentence, with 'within two business days' encoded as min 0, max 2; the statement is the artifact. The misspelling 'currenty' is the page's own and is preserved because the mechanical check compares against the page as retrieved. Arkansas prices online filings below paper ones, which is the inverse lever of an expedite fee: the state discounts the fast channel rather than surcharging speed.",
+  "notes": "Like Kentucky, Arkansas's 'no' rests on the office answering the turnaround question in its own words with no paid faster track beside the answer: most filings complete within two business days, walk-ins can often be completed while you wait, and the parenthetical about a 48-hour drop-off turnaround is itself the kind of volatile queue remark this namespace refuses to present as current. The LLC Forms & Fees page  -  a complete per-form table where the Certificate of Organization (form LL-01) is $45.00 online and $50.00 on paper  -  carries no expedite line for any filing. This is a weaker 'no' than an explicit 'we do not offer expedited services'. The day-range fields both mirror the FAQ's channel-neutral sentence, with 'within two business days' encoded as min 0, max 2; the statement is the artifact. The misspelling 'currenty' is the page's own and is preserved because the mechanical check compares against the page as retrieved. Arkansas prices online filings below paper ones, which is the inverse lever of an expedite fee: the state discounts the fast channel rather than surcharging speed.",
   "needsReview": null,
   "sources": [
     {
       "citation": "Arkansas Secretary of State, Business & Commercial Services",
-      "title": "Business Services FAQ — filings complete within two business days, walk-ins while you wait (48-hour drop-off turnaround noted), no expedited option mentioned",
+      "title": "Business Services FAQ  -  filings complete within two business days, walk-ins while you wait (48-hour drop-off turnaround noted), no expedited option mentioned",
       "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/frequently-asked-questions-faqs/business-services-faq/",
       "lastAccessed": "2026-08-06"
     },
     {
       "citation": "Arkansas Secretary of State, Business & Commercial Services",
-      "title": "LLC Forms & Fees — complete per-form table, consulted; Certificate of Organization LL-01 $45.00 online / $50.00 paper, no expedite line",
+      "title": "LLC Forms & Fees  -  complete per-form table, consulted; Certificate of Organization LL-01 $45.00 online / $50.00 paper, no expedite line",
       "url": "https://www.sos.arkansas.gov/business-commercial-services-bcs/forms-fees/llc",
       "lastAccessed": "2026-08-06"
     }

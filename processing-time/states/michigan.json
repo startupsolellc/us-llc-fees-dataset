@@ -79,12 +79,12 @@
     "observedOn": null,
     "volatile": true
   },
-  "notes": "Michigan is the only state recorded so far that prices the same turnaround differently depending on what is being filed: forming an entity is half the price of touching an existing one at both the same-day and 24-hour tiers. Only the formation prices are carried here, since this namespace covers formation filings; the existing-entity figures appear in the tier notes so the difference is visible rather than lost. The fees are stated to be in addition to the filing fee of the document. The quotations come from the text layer of the Department's fee-schedule PDF and reproduce its spacing artefacts exactly, including a truncated word and missing dollar signs — they are quoted as the document yields them rather than tidied, so that the check against the source stays exact.",
-  "needsReview": "Two items: (1) whether the expedite fee is retained when a filing is rejected — not stated on the fee schedule; (2) standard processing time, not researched.",
+  "notes": "Michigan is the only state recorded so far that prices the same turnaround differently depending on what is being filed: forming an entity is half the price of touching an existing one at both the same-day and 24-hour tiers. Only the formation prices are carried here, since this namespace covers formation filings; the existing-entity figures appear in the tier notes so the difference is visible rather than lost. The fees are stated to be in addition to the filing fee of the document. The quotations come from the text layer of the Department's fee-schedule PDF and reproduce its spacing artefacts exactly, including a truncated word and missing dollar signs  -  they are quoted as the document yields them rather than tidied, so that the check against the source stays exact.",
+  "needsReview": "Two items: (1) whether the expedite fee is retained when a filing is rejected  -  not stated on the fee schedule; (2) standard processing time, not researched.",
   "sources": [
     {
       "citation": "Michigan Department of Licensing and Regulatory Affairs, Corporations Division",
-      "title": "Filing Fees — LLC expedited service: 1 hour $1000.00, 2 hour $500.00, same day formation $100.00, 24 hours formation $50.00",
+      "title": "Filing Fees  -  LLC expedited service: 1 hour $1000.00, 2 hour $500.00, same day formation $100.00, 24 hours formation $50.00",
       "url": "https://www.michigan.gov/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf",
       "lastAccessed": "2026-08-06"
     }

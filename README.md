@@ -24,6 +24,7 @@ Aggregations that do exist are mostly lead magnets for formation services, and t
 | `name-rules/states/` | 51 <!-- c9:records-name-rules=51 --> | LLC name designators, distinguishability standard, restricted words, name reservation cost, hold period and processing time, naming statutes |
 | `dba-rules/states/` | 51 <!-- c9:records-dba-rules=51 --> | DBA terminology, filing level (state or county), fees, duration and renewal, publication requirements, protection level, statutes |
 | `tax-rules/states/` | 51 <!-- c9:records-tax-rules=51 --> | Recurring state-level LLC taxes (franchise and privilege levies under the state's own label) and the personal income tax posture toward a default pass-through LLC; every value is bound to a verbatim passage from the cited page |
+| `processing-time/states/` | 51 <!-- c9:records-processing-time=51 --> | Expedite tiers for LLC formation (fee, turnaround, channels) and the standard processing time as a volatile observation; every value is bound to a verbatim passage from the cited page |
 | `anonymous_llc_available/states.json` | 51 | Anonymous-LLC availability per state (booleans). The three anonymous states (DE, NM, WY) and the common misattribution (NV) carry per-document disclosure detail read from their statutes; elsewhere the detail fields are null |
 
 "51" means the 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). `states.json` predates the DC addition and covers 50 states only.
@@ -50,6 +51,7 @@ Third-party blogs, formation-service pages, and commercial legal aggregators (Ju
 | `nmonesource.com` | New Mexico Compilation Commission, the state's official legal publisher and the only place New Mexico publishes NMSA 1978; the Legislature's own `www.nmlegis.gov` links to it as "New Mexico Law (Statutes)" and carries no statute text itself |
 | `www.oscn.net` | Oklahoma State Courts Network, the Oklahoma Supreme Court's own publishing platform and the state's current official copy of the Oklahoma Statutes |
 | `floridarevenue.com` | Florida Department of Revenue, the state's tax authority |
+| `sos-prod.tnsosgovfiles.com` | Tennessee Secretary of State document host |
 
 **A state's own `state.XX.us` domain counts the same as its `.gov`.** Several states publish from that legacy government namespace instead: `www.sec.state.ma.us`, `www.sos.state.tx.us`, `www.leg.state.nv.us`, `www.sos.state.mn.us`, `mibusinessregistry.lara.state.mi.us`, `secure.sos.state.or.us`, `www.leg.state.fl.us`. It is delegated to the state governments themselves, so a source there is as official as the same state's `.gov`, and 45 URLs in this dataset rely on it. This is deliberately narrower than accepting `.us` as a whole: `.us` is open to general registration, so a host on plain `.us` is official only when it is named as a publisher, the way the Pennsylvania General Assembly's `www.palegis.us` is.
 
@@ -62,7 +64,7 @@ A mirror is never the only source for a fact, and never a substitute for an offi
 
 **Where this policy lives.** This section is the canonical statement of the sourcing standard for this dataset. The working notes used to maintain it restate this policy operationally; they are held to this section, not the other way round, and where a restatement disagrees with what is written here, what is written here is what the data is checked against. The allowlist above and the counts in the table below are recomputed from the data on every maintenance run rather than kept by hand, so they can be re-derived from the published files and this section cannot quietly drift away from what it describes.
 
-**Provenance per record.** Each JSON file carries a `sources` array (`citation`, `title`, `url`, `lastAccessed`) and a `lastVerified` ISO date. `lastVerified` means a human opened the cited sources on that date and confirmed the values, not that an automated check ran.
+**Provenance per record.** Each JSON file carries a `sources` array (`citation`, `title`, `url`, `lastAccessed`) and a `lastVerified` ISO date. `lastVerified` means a human opened the cited sources on that date and confirmed the values, not that an automated check ran. For `processing-time`, `lastVerified` is the date the cited pages were retrieved and every quoted passage in the record was mechanically confirmed to occur in them.
 
 **Cost basis.** Published filing fees and real out-of-pocket costs differ in several states, because service charges and card fees are added at the point of filing. Where they differ, `nameReservationFee` holds the statutory figure and `nameReservationTotalCost` holds the real cost on the common filing path, with `nameReservationCostBasis` explaining the gap. **Use the total for any cross-state comparison.** Six of the 51 jurisdictions currently charge more than the fee their statute names.
 
@@ -70,7 +72,7 @@ The entity-search namespace carries a single reservation figure, `filingFacts.na
 
 **One fact, one field.** Where the same fact appears in more than one namespace, one field is defined as authoritative and the others must agree with it, not paraphrase it. A number that a visitor could be asked to pay is held to this strictly: a value that disagrees across namespaces is a bug in this repository, regardless of which copy happens to be right.
 
-**What is excluded from the fee figures.** Third-party registered agent fees, county-level publication costs where they vary by county (for example New York and Nebraska), and any pricing from formation services. **Expedited-processing surcharges are excluded from the cost basis**, not from the repository: no fee or total-cost field folds in an expedite surcharge, because these fields describe the ordinary filing path and a surcharge is optional. Where an expedite fee is recorded at all it is recorded as its own value, never added to a published fee.
+**What is excluded from the fee figures.** Third-party registered agent fees, county-level publication costs where they vary by county (for example New York and Nebraska), and any pricing from formation services. **Expedited-processing surcharges are excluded from the fee figures in `states.json`, `name-rules` and `dba-rules`**, not from the repository: no fee or total-cost field in those namespaces folds in an expedite surcharge, because they describe the ordinary filing path and a surcharge is optional. The `processing-time` namespace records expedite fees as their own values, never added to a published fee.
 
 ### Where the data does not yet meet this standard
 
@@ -102,6 +104,7 @@ https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/states
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/name-rules/states/{state-slug}.json
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/dba-rules/states/{state-slug}.json
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/tax-rules/states/{state-slug}.json
+https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/processing-time/states/{state-slug}.json
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/entitysearch-state-data/states/{state-slug}.json
 ```
 
@@ -126,7 +129,7 @@ with urllib.request.urlopen(f"{BASE}/name-rules/states/georgia.json") as r:
 print(rules["nameReservationTotalCost"], rules["nameReservationDuration"])
 ```
 
-Per-namespace schema documentation lives in `name-rules/README.md`, `dba-rules/README.md`, `tax-rules/README.md`, and `entitysearch-state-data/README.md`. A JSON Schema for the entity-search namespace is at `entitysearch-state-data/schema/state.schema.json`:
+Per-namespace schema documentation lives in `name-rules/README.md`, `dba-rules/README.md`, `tax-rules/README.md`, `processing-time/README.md`, and `entitysearch-state-data/README.md`. A JSON Schema for the entity-search namespace is at `entitysearch-state-data/schema/state.schema.json`:
 
 ```bash
 npx ajv-cli validate --strict=false \
