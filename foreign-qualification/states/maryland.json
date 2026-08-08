@@ -1,0 +1,66 @@
+{
+  "stateName": "Maryland",
+  "stateAbbr": "MD",
+  "stateSlug": "maryland",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Flat $100.00 filing fee for the Limited Liability Company Registration for a non-Maryland LLC; a written proof of existence from the home state must accompany the registration.",
+    "formName": "Limited Liability Company Registration (For non-Maryland Limited Liability Company)",
+    "formUrl": "https://dat.maryland.gov/SDAT%20Forms/llc-foreign.PDF",
+    "filedWith": "Maryland State Department of Assessments and Taxation, Charter Division",
+    "ongoingObligationsNote": "File an annual report on or before April 15 each year and maintain a resident agent for service of process in Maryland.",
+    "evidence": [
+      {
+        "quote": "LIMITED LIABILITY COMPANY REGISTRATION (For non-Maryland Limited Liability Company) (Filing fee $100)",
+        "url": "https://dat.maryland.gov/SDAT%20Forms/llc-foreign.PDF",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "Maryland Department of Assessments and Taxation Charter Division",
+        "url": "https://dat.maryland.gov/SDAT%20Forms/llc-foreign.PDF",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "If no Resident Agent is named or if the agent cannot be found or served, this Department is appointed as Resident Agent of this Limited Liability Company for no additional fee.",
+        "url": "https://dat.maryland.gov/SDAT%20Forms/llc-foreign.PDF",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "All domestic and foreign business entities should file their 2026 reports, or request a 60 day extension to file, on or before April 15, 2026.",
+        "url": "https://dat.maryland.gov/businesses/Pages/default.aspx",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Forms for non-Maryland businesses Foreign Corporation Qualification form Application for Registration of a Foreign Limited Partnership Foreign Corporation Assumed Name form and instructions Foreign Limited Liability Partnership Registration Foreign Limited Liability Company Registration",
+        "url": "https://dat.maryland.gov/businesses/Pages/Non-Maryland-%28Foreign%29-Business-Entities.aspx",
+        "supports": "formName"
+      }
+    ]
+  },
+  "notes": "Collected on the VPN-up route. The official form (rev. August 2024) states the $100.00 filing fee and the home-state proof-of-existence requirement; the SDAT fee schedule for charter services (rev. May 2024) lists LLC registration at $100 (foreign). The form is filed with the Charter Division of the State Department of Assessments and Taxation, 700 East Pratt Street, Suite 2700, Baltimore, Maryland 21202.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Maryland State Department of Assessments and Taxation - Limited Liability Company Registration (non-Maryland)",
+      "title": "llc-foreign.PDF - SDAT Forms",
+      "url": "https://dat.maryland.gov/SDAT%20Forms/llc-foreign.PDF",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Maryland State Department of Assessments and Taxation - Non-Maryland (Foreign) Business Entities",
+      "title": "Non-Maryland (Foreign) Business Entities - SDAT",
+      "url": "https://dat.maryland.gov/businesses/Pages/Non-Maryland-%28Foreign%29-Business-Entities.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Maryland State Department of Assessments and Taxation - Charter Business Services",
+      "title": "Charter Business Services - SDAT",
+      "url": "https://dat.maryland.gov/businesses/Pages/default.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

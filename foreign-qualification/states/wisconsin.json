@@ -1,0 +1,64 @@
+{
+  "stateName": "Wisconsin",
+  "stateAbbr": "WI",
+  "stateSlug": "wisconsin",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Flat $100.00 filing fee for the Foreign Registration Statement (Form 521); optional expedited processing adds $100.00.",
+    "formName": "Foreign Registration Statement - Limited Liability Company (Form 521)",
+    "formUrl": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+    "filedWith": "Wisconsin Department of Financial Institutions, Division of Corporate & Consumer Services",
+    "ongoingObligationsNote": "File an annual report each year, starting the year after registration, and maintain a registered agent located at a registered office in Wisconsin.",
+    "evidence": [
+      {
+        "quote": "FILING FEE $100.00 +",
+        "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Please check box to request Optional Expedited Service \uf0a3 + $100.00",
+        "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "FORM 521 Mandatory FOREIGN REGISTRATION STATEMENT LIMITED LIABILITY COMPANY Sec. 183.0903, Wis. Stats.",
+        "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "State of Wisconsin DEPARTMENT OF FINANCIAL INSTITUTIONS Division of Corporate & Consumer Services",
+        "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "This entity type has an annual report requirement to file each year, starting the year after your entity was formed.",
+        "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The entity must have a registered agent located at a registered office in Wisconsin.",
+        "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the VPN-up route. The DFI fee schedule lists foreign LLC Registration at $100.00+; Form 521 (revised May 2026) states the $100.00 filing fee and prices optional expedited processing at an additional $100.00 (the checkbox glyph in the expedited quote is a pypdf extraction artefact, kept verbatim). The form is mandatory and cites Wis. Stat. s. 183.0903.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Wisconsin Department of Financial Institutions - Form 521, Foreign Registration Statement - Limited Liability Company",
+      "title": "CORP521.pdf - DFI Business Entity Forms",
+      "url": "https://dfi.wi.gov/Documents/BusinessServices/BusinessEntities/Forms/CORP521.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Financial Institutions - Business Entity Fees",
+      "title": "DFI Corporation Fees - Wisconsin Department of Financial Institutions",
+      "url": "https://dfi.wi.gov/Pages/BusinessServices/BusinessEntities/Fees.aspx",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

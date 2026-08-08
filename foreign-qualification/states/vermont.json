@@ -1,0 +1,73 @@
+{
+  "stateName": "Vermont",
+  "stateAbbr": "VT",
+  "stateSlug": "vermont",
+  "foreignQualification": {
+    "registrationFeeUsd": 155,
+    "feeBasis": "Flat statutory filing fee of $155.00 for the Application for Certificate of Authority (11 V.S.A. § 4112); online registration carries no extra fee.",
+    "formName": "Application for Certificate of Authority",
+    "formUrl": "https://sos.vermont.gov/business-services/fees-statutes",
+    "filedWith": "Vermont Secretary of State",
+    "ongoingObligationsNote": "File an annual report with the Secretary of State each year to maintain the certificate of authority.",
+    "evidence": [
+      {
+        "quote": "Application for Certificate of Authority 11 V.S.A. § 4112 $155.00",
+        "url": "https://sos.vermont.gov/business-services/fees-statutes",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "A foreign limited liability company may apply for a certificate of authority to transact business in this State by delivering an application to the Secretary of State for filing.",
+        "url": "https://legislature.vermont.gov/statutes/section/11/025/04112",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "If you are an existing out-of-state LLC (regardless of additional elections) and wish to do business in Vermont, you will need to obtain a Certificate of Authority from the Office of the Secretary of State.",
+        "url": "https://sos.vermont.gov/business-services/business-filings/domestic-formation/llc",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "Online registration is the preferred method. There is no extra fee for online registration.",
+        "url": "https://sos.vermont.gov/business-services/business-filings/foreign-registration/",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "Annual Report 11 V.S.A. § 4033 $170.00",
+        "url": "https://sos.vermont.gov/business-services/fees-statutes",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the VPN-up route. The Secretary of State's fee schedule lists the foreign LLC Application for Certificate of Authority at $155.00 (11 V.S.A. § 4112) and the foreign LLC annual report at $170.00 (11 V.S.A. § 4033); the ongoing-obligation note names the annual report without restating the fee. The application must be accompanied by a certificate of existence or similar document from the home jurisdiction (11 V.S.A. § 4112(c)).",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Vermont Secretary of State - Filing Fees",
+      "title": "Fees | Secretary of State",
+      "url": "https://sos.vermont.gov/business-services/fees-statutes",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Vermont Statutes Annotated 11 V.S.A. § 4112 - Application for certificate of authority",
+      "title": "11 V.S.A. § 4112 - Vermont Statutes Online",
+      "url": "https://legislature.vermont.gov/statutes/section/11/025/04112",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Vermont Secretary of State - Foreign Registration",
+      "title": "Foreign Registration | Secretary of State",
+      "url": "https://sos.vermont.gov/business-services/business-filings/foreign-registration/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Vermont Secretary of State - Limited Liability Company",
+      "title": "Limited Liability Company | Secretary of State",
+      "url": "https://sos.vermont.gov/business-services/business-filings/domestic-formation/llc",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

@@ -1,0 +1,73 @@
+{
+  "stateName": "Virginia",
+  "stateAbbr": "VA",
+  "stateSlug": "virginia",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Flat $100.00 filing fee for the Application for Registration as a Foreign Limited Liability Company (Form LLC1052); online and paper filing are priced at the same figure on the SCC's fee pages.",
+    "formName": "Application for Registration as a Foreign Limited Liability Company (Form LLC1052)",
+    "formUrl": "https://www.scc.virginia.gov/businesses/forms-and-fees/foreign-limited-liability-companies/",
+    "filedWith": "Virginia State Corporation Commission",
+    "ongoingObligationsNote": "Pay the State Corporation Commission's annual registration fee by the last day of the month the business was organized or registered and continuously maintain a registered agent in Virginia.",
+    "evidence": [
+      {
+        "quote": "Foreign LLC File Online or complete an Application for Registration as a Foreign Limited Liability Company (Form LLC1052-DOC) $100",
+        "url": "https://www.scc.virginia.gov/businesses/new-business-resources/business-types/",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "Register a new Foreign LLC (LLC1052) Note: See the Foreign Registration Checklist for helpful information. $100 File Online or Download Form LLC1052-DOC",
+        "url": "https://www.scc.virginia.gov/businesses/forms-and-fees/foreign-limited-liability-companies/",
+        "supports": "registrationFeeUsd, formName"
+      },
+      {
+        "quote": "The SCC assesses an annual fee each year after you form or register your business in Virginia.",
+        "url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Limited Liability Companies Your due date is the last day of the month your business was organized or registered. $50.00",
+        "url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Every foreign business authorized to transact business in Virginia is required by law to continuously maintain a registered agent.",
+        "url": "https://www.scc.virginia.gov/businesses/cis-help/foreign-registration-checklist/",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the VPN-up route. The SCC prices the foreign LLC filing at $100.00 for both online and paper filing (Form LLC1052, published as LLC1052-DOC); the application must be accompanied by certified copies of the home-state articles of organization and amendments. The SCC's annual registration fee for LLCs is $50.00, due the last day of the month the business was organized or registered.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Virginia State Corporation Commission - Business Types",
+      "title": "Business Types - Virginia SCC",
+      "url": "https://www.scc.virginia.gov/businesses/new-business-resources/business-types/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Virginia State Corporation Commission - Foreign Limited Liability Companies",
+      "title": "Foreign Limited Liability Companies - Virginia SCC",
+      "url": "https://www.scc.virginia.gov/businesses/forms-and-fees/foreign-limited-liability-companies/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Virginia State Corporation Commission - Annual Registration Fees",
+      "title": "Annual Registration Fees - Virginia SCC",
+      "url": "https://www.scc.virginia.gov/businesses/business-faqs/annual-registration-fees/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Virginia State Corporation Commission - Foreign Registration Checklist",
+      "title": "Foreign Registration Checklist - Virginia SCC",
+      "url": "https://www.scc.virginia.gov/businesses/cis-help/foreign-registration-checklist/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

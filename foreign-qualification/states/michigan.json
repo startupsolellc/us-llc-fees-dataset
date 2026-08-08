@@ -1,0 +1,61 @@
+{
+  "stateName": "Michigan",
+  "stateAbbr": "MI",
+  "stateSlug": "michigan",
+  "foreignQualification": {
+    "registrationFeeUsd": 50,
+    "feeBasis": "Flat $50.00 filing fee for the Certificate of Authority to Transact Business in Michigan (Form 760).",
+    "formName": "760 - Application for Certificate of Authority to Transact Business",
+    "formUrl": "https://www.michigan.gov/lara/bureau-list/cscl/corps/forms/limited-liability-company-forms",
+    "filedWith": "Michigan Department of Licensing and Regulatory Affairs (LARA), Corporations Division",
+    "ongoingObligationsNote": "File an annual statement with the Corporations Division by February 15 each year after qualification.",
+    "evidence": [
+      {
+        "quote": "760 Certificate of Authority to Transact Business in Michigan $50 No",
+        "url": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "760 - APPLICATION FOR CERTIFICATE OF AUTHORITY TO TRANSACT BUSINESS",
+        "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/forms/limited-liability-company-forms",
+        "supports": "formName"
+      },
+      {
+        "quote": "Annual Reports and Annual Statements are filed with the Corporations Division, part of the Corporations, Securities and Commercial Licensing Bureau (CSCL) under the Department of Licensing and Regulatory Affairs (LARA) within the State of Michigan.",
+        "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap/annual-reports-and-annual-statements",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "LIMITED LIABILITY COMPANIES and PROFESSIONAL LIMITED LIABILITY COMPANIES Due Date: February 15 each year after organization/qualification.",
+        "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap/annual-reports-and-annual-statements",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the VPN-up route. The LARA fee schedule prices the foreign LLC Certificate of Authority to Transact Business in Michigan (Form 760) at $50.00; the LLC annual statement fee is $25.00 (root states.json carries the annual figure) and the annual statement is due February 15 each year after organization or qualification.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Michigan Department of Licensing and Regulatory Affairs - Filing Fees",
+      "title": "Filing_Fees.pdf - LARA",
+      "url": "https://www.michigan.gov/lara/-/media/Project/Websites/lara/cscl/Folder6/Filing_Fees.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Michigan Department of Licensing and Regulatory Affairs - Limited Liability Company Forms",
+      "title": "Limited Liability Company Forms - LARA",
+      "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/forms/limited-liability-company-forms",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Michigan Department of Licensing and Regulatory Affairs - Annual Reports and Annual Statements",
+      "title": "Annual Reports and Annual Statements - LARA",
+      "url": "https://www.michigan.gov/lara/bureau-list/cscl/corps/michigan-business-roadmap/annual-reports-and-annual-statements",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
