@@ -1,0 +1,61 @@
+{
+  "stateName": "Montana",
+  "stateAbbr": "MT",
+  "stateSlug": "montana",
+  "foreignQualification": {
+    "registrationFeeUsd": 70,
+    "feeBasis": "Flat $70.00 filing fee for a Certificate of Authority for a foreign LLC; a series LLC adds $50.00 per named series member.",
+    "formName": "Application for Certificate of Authority",
+    "formUrl": "https://mca.legmt.gov/bills/mca/title_0350/chapter_0080/part_0100/section_0030/0350-0080-0100-0030.html",
+    "filedWith": "Montana Secretary of State",
+    "ongoingObligationsNote": "File an annual report each year between January 1 and April 15 (fee waived before April 15, $35.00 after) with the Secretary of State.",
+    "evidence": [
+      {
+        "quote": "Certificate Of Authority $70.00 plus $50.00 for each series member named in the series LLC",
+        "url": "https://sosmt.gov/business/fees/",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "A foreign limited liability company may apply for a certificate of authority to transact business in this state by delivering an application to the secretary of state for filing.",
+        "url": "https://mca.legmt.gov/bills/mca/title_0350/chapter_0080/part_0100/section_0030/0350-0080-0100-0030.html",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "(3) The first annual report must be delivered to the secretary of state between January 1 and April 15 of the year following the calendar year in which a domestic limited liability company is organized or a foreign limited liability company is authorized to transact business. Subsequent annual reports must be delivered to the secretary of state between January 1 and April 15.",
+        "url": "https://mca.legmt.gov/bills/mca/title_0350/chapter_0080/part_0020/section_0080/0350-0080-0020-0080.html",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Annual Report Prior To April 15th WAIVED Annual Report After April 15th $35.00",
+        "url": "https://sosmt.gov/business/fees/",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the statute plus fee-schedule route: the official form PDF is still reachable only through the biz.sosmt.gov portal, which answers 403 to scripted clients on this route, so the record grounds the form name in MCA 35-8-1003, the official provision requiring the application for a certificate of authority. This reverses the P4 drop: the four-field test is satisfied by the statute and the Secretary of State's fee schedule, which also prices the LLC annual report (waived before April 15, $35.00 after).",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Montana Secretary of State - Business Services Filing Fees",
+      "title": "Business Services Filing Fees - Official Montana Secretary of State Website - Christi Jacobsen",
+      "url": "https://sosmt.gov/business/fees/",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Montana Code Annotated 35-8-1003 - Application for certificate of authority",
+      "title": "35-8-1003. Application for certificate of authority, MCA",
+      "url": "https://mca.legmt.gov/bills/mca/title_0350/chapter_0080/part_0100/section_0030/0350-0080-0100-0030.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Montana Code Annotated 35-8-208 - Annual report for secretary of state",
+      "title": "35-8-208. Annual report for secretary of state, MCA",
+      "url": "https://mca.legmt.gov/bills/mca/title_0350/chapter_0080/part_0020/section_0080/0350-0080-0020-0080.html",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

@@ -1,0 +1,73 @@
+{
+  "stateName": "Arizona",
+  "stateAbbr": "AZ",
+  "stateSlug": "arizona",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat statutory filing fee of $150.00 for a foreign registration statement (A.R.S. 29-3213).",
+    "formName": "Foreign Registration Statement",
+    "formUrl": "https://www.azleg.gov/ars/29/03903.htm",
+    "filedWith": "Arizona Corporation Commission",
+    "ongoingObligationsNote": "Maintain a statutory agent with a street address in this state and file an amendment to the foreign registration statement when required information changes.",
+    "evidence": [
+      {
+        "quote": "The commission shall collect and deposit, pursuant to sections 35-146 and 35-147, the following nonrefundable fees when the following documents are delivered to the commission: 1. The initial articles of organization, fifty dollars. 2. A foreign registration statement, one hundred fifty dollars.",
+        "url": "https://www.azleg.gov/ars/29/03213.htm",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "To register to do business in this state, a foreign limited liability company must deliver a foreign registration statement to the commission for filing.",
+        "url": "https://www.azleg.gov/ars/29/03903.htm",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "5. The name and street address of the statutory agent in this state.",
+        "url": "https://www.azleg.gov/ars/29/03903.htm",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "A registered foreign limited liability company or registered foreign series shall deliver to the commission for filing an amendment to its foreign registration statement if there is a change in any of the information required under section 29-3903",
+        "url": "https://www.azleg.gov/ars/29/03904.htm",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "2. \"Commission\" means the corporation commission.",
+        "url": "https://www.azleg.gov/ars/29/03102.htm",
+        "supports": "filedWith"
+      }
+    ]
+  },
+  "notes": "The Foreign Registration Statement is filed with the Arizona Corporation Commission. The governing statutes are cited for the form name, fee, filing office and ongoing duties because the Commission's fee page (azcc.gov) is transport-blocked on the collecting route and the ecorp.azcc.gov business portal is a script-walled SPA; the record therefore carries the statutory figures and duties.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Arizona Revised Statutes 29-3213 - Fees; filing services; definition",
+      "title": "29-3213 - Fees; filing services; definition",
+      "url": "https://www.azleg.gov/ars/29/03213.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Arizona Revised Statutes 29-3903 - Foreign registration statement",
+      "title": "29-3903 - Foreign registration statement",
+      "url": "https://www.azleg.gov/ars/29/03903.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Arizona Revised Statutes 29-3904 - Amendment of foreign registration statement",
+      "title": "29-3904 - Amendment of foreign registration statement",
+      "url": "https://www.azleg.gov/ars/29/03904.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Arizona Revised Statutes 29-3102 - Definitions",
+      "title": "29-3102 - Definitions",
+      "url": "https://www.azleg.gov/ars/29/03102.htm",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

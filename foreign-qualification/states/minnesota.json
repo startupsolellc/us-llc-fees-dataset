@@ -1,0 +1,49 @@
+{
+  "stateName": "Minnesota",
+  "stateAbbr": "MN",
+  "stateSlug": "minnesota",
+  "foreignQualification": {
+    "registrationFeeUsd": 185,
+    "feeBasis": "Flat statutory total fee of $185.00 for the application for a certificate of authority.",
+    "formName": "Application for Certificate of Authority",
+    "formUrl": "https://www.revisor.mn.gov/statutes/2025/cite/322C.0802",
+    "filedWith": "Minnesota Secretary of State",
+    "ongoingObligationsNote": "File an annual renewal with the Secretary of State by December 31 of each calendar year (no fee) and maintain a registered office and agent for service of process in Minnesota.",
+    "evidence": [
+      {
+        "quote": "Before transacting business in this state, a foreign limited liability company shall obtain a certificate of authority to transact business in this state by filing an application with the secretary of state together with a total fee of $185.",
+        "url": "https://www.revisor.mn.gov/statutes/2025/cite/322C.0802",
+        "supports": "registrationFeeUsd, feeBasis, formName, filedWith"
+      },
+      {
+        "quote": "(5) the name and street address of the company's initial registered office and agent for service of process in this state.",
+        "url": "https://www.revisor.mn.gov/statutes/2025/cite/322C.0802",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "(b) Each calendar year beginning in the calendar year following the calendar year in which a limited liability company and foreign limited liability company files articles of organization, a limited liability company and foreign limited liability company must file with the secretary of state by December 31 of each calendar year a renewal containing the items required by section 5.34 . Notwithstanding section 322C.0205, subdivision 1 , no fee is required to file an annual renewal.",
+        "url": "https://www.revisor.mn.gov/statutes/2025/cite/322C.0208",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The statute sets the $185.00 'total fee' for the foreign LLC application for a certificate of authority and names the annual renewal obligation; no fee is required for the annual renewal. The record cites the Revisor of Statutes' official pages because sos.state.mn.us is behind a Radware captcha on the collecting route.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Minnesota Statutes 322C.0802 - Application for certificate of authority",
+      "title": "Sec. 322C.0802 MN Statutes",
+      "url": "https://www.revisor.mn.gov/statutes/2025/cite/322C.0802",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Minnesota Statutes 322C.0208 - Annual report for secretary of state",
+      "title": "Sec. 322C.0208 MN Statutes",
+      "url": "https://www.revisor.mn.gov/statutes/2025/cite/322C.0208",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

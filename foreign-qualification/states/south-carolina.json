@@ -1,0 +1,42 @@
+{
+  "stateName": "South Carolina",
+  "stateAbbr": "SC",
+  "stateSlug": "south-carolina",
+  "foreignQualification": {
+    "registrationFeeUsd": 110,
+    "feeBasis": "Flat statutory filing fee of $110.00 for the application for a certificate of authority.",
+    "formName": "Application for Certificate of Authority",
+    "formUrl": "https://www.scstatehouse.gov/code/t33c044.php",
+    "filedWith": "South Carolina Secretary of State",
+    "ongoingObligationsNote": "Designate and continuously maintain a designated office and an agent for service of process in South Carolina.",
+    "evidence": [
+      {
+        "quote": "SECTION 33-44-1204. Fees. (a) The Secretary of State shall collect the following fees when the documents described in this subsection are delivered to him for filing: (1) articles of organization of a limited liability company: one hundred ten dollars. (2) amendment or restatement of the articles of organization of a limited liability company: one hundred ten dollars. (3) articles of merger involving a domestic or foreign limited liability company: one hundred ten dollars. (4) application by a foreign limited liability company for a certificate of authority to transact business in South Carolina: one hundred ten dollars.",
+        "url": "https://www.scstatehouse.gov/code/t33c044.php",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "SECTION 33-44-1002. Application for certificate of authority. (a) A foreign limited liability company may apply for a certificate of authority to transact business in this State by delivering an application to the Secretary of State for filing.",
+        "url": "https://www.scstatehouse.gov/code/t33c044.php",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "SECTION 33-44-108. Designated office and agent for service of process. (a) A limited liability company and a foreign limited liability company authorized to do business in this State shall designate and continuously maintain in this State: (1) an office, which need not be a place of business in this State; and (2) an agent and street address of the agent for service of process on the company.",
+        "url": "https://www.scstatehouse.gov/code/t33c044.php",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The code sets the $110.00 application fee and names the application and the filing office. The Secretary of State's own site (scsos.com) and the businessfilings.sc.gov portal are transport-dark on the collecting route, so the official code chapter is the cited source.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "South Carolina Code of Laws, Title 33, Chapter 44 - Uniform Limited Liability Company Act of 1996",
+      "title": "Code of Laws - Title 33 - Chapter 44 - CORPORATIONS, PARTNERSHIPS AND ASSOCIATIONS",
+      "url": "https://www.scstatehouse.gov/code/t33c044.php",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

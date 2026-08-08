@@ -1,0 +1,78 @@
+{
+  "stateName": "Alaska",
+  "stateAbbr": "AK",
+  "stateSlug": "alaska",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat regulatory filing fee of $150.00 for the application for registration as a foreign limited liability company (3 AAC 16.065).",
+    "formName": "Application for Registration as a Foreign Limited Liability Company",
+    "formUrl": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.605&secEnd=10.50.650",
+    "filedWith": "Alaska Department of Commerce, Community, and Economic Development",
+    "ongoingObligationsNote": "File a biennial report (due before January 2 of each filing year; $200.00 for a foreign LLC) and continuously maintain a registered office and registered agent in Alaska.",
+    "evidence": [
+      {
+        "quote": "3 AAC 16.065. Fees and charges for limited liability companies under AS 10.50 . (a) The fee for a domestic limited liability company filing articles of organization under AS 10.50 or a foreign limited liability company filing an application for registration as a foreign limited liability company under AS 10.50 is $150.",
+        "url": "https://www.akleg.gov/basis/aac.asp?media=js&secStart=3.16.065&secEnd=3.16.065",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Sec. 10.50.605. Registration required. Before conducting affairs in this state, a foreign limited liability company shall register with the department. To register, the company shall deliver to the department an application for registration as a foreign limited liability company.",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.605&secEnd=10.50.650",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "(5) department means the Department of Commerce, Community, and Economic Development;",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.990&secEnd=10.50.990",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Sec. 10.50.635. Registered office and registered agent of foreign company. A foreign limited liability company registered under this chapter shall have and continuously maintain in the state a registered (1) office that may be, but need not be, the same as its office in this state; and (2) agent, who may be either an individual resident in this state whose business office is identical to the registered office, a corporation organized under AS 10.06 , or a foreign corporation authorized to transact business in this state, that has a business office identical to the registered office.",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.605&secEnd=10.50.650",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Sec. 10.50.760. Filing of biennial report. (a) A biennial report required by AS 10.50.750 shall be filed with the department and is due before January 2 of the filing year. A limited liability company filing articles of organization and a foreign limited liability company registering during an even-numbered year shall file the biennial report each even-numbered year.",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.760&secEnd=10.50.760",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "(c) The fee to file a biennial report for a domestic limited liability company is $100; a foreign limited liability company doing business in this state is $200.",
+        "url": "https://www.akleg.gov/basis/aac.asp?media=js&secStart=3.16.065&secEnd=3.16.065",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The application fee and the biennial report fee are set by regulation (3 AAC 16.065); AS 10.50.605 names the application for registration as a foreign limited liability company and AS 10.50.990 defines the department. The Department's own site (commerce.alaska.gov) is a script-walled JS challenge on the collecting route, so the official statute and administrative code pages are the cited sources.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Alaska Administrative Code 3 AAC 16.065 - Fees and charges for limited liability companies under AS 10.50",
+      "title": "3 AAC 16.065. Fees and charges for limited liability companies under AS 10.50",
+      "url": "https://www.akleg.gov/basis/aac.asp?media=js&secStart=3.16.065&secEnd=3.16.065",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Alaska Statutes 10.50.605-10.50.650 - Registration of foreign limited liability companies",
+      "title": "AS 10.50.605 - 10.50.650 (print view)",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.605&secEnd=10.50.650",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Alaska Statutes 10.50.760 - Filing of biennial report",
+      "title": "AS 10.50.760 - Filing of biennial report (print view)",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.760&secEnd=10.50.760",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Alaska Statutes 10.50.990 - Definitions",
+      "title": "AS 10.50.990 - Definitions (print view)",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=10.50.990&secEnd=10.50.990",
+      "type": "statute",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
