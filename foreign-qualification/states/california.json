@@ -1,0 +1,54 @@
+{
+  "stateName": "California",
+  "stateAbbr": "CA",
+  "stateSlug": "california",
+  "foreignQualification": {
+    "registrationFeeUsd": 70,
+    "feeBasis": "Online-only application; the fee table lists $70.00 for the foreign LLC's Application to Register.",
+    "formName": "Application to Register",
+    "formUrl": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-foreign-out-state-or-out-country",
+    "filedWith": "California Secretary of State",
+    "ongoingObligationsNote": "File a Statement of Information within 90 days of initial registration and every two years thereafter, and keep an agent for service of process designated.",
+    "evidence": [
+      {
+        "quote": "1. Application to Register Online Only $70.00",
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-foreign-out-state-or-out-country",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "Limited Liability Companies – Foreign (Out-of-State or Out-of-Country) :: California Secretary of State",
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-foreign-out-state-or-out-country",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Statement of Information : Due within 90 days of initial registration and every two years thereafter. Online Only $20.00",
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-foreign-out-state-or-out-country",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Corporations, limited liability companies, limited partnerships, and limited liability partnerships are required by statute to designate an agent for service of process.",
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/service-process/",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The foreign LLC application is an online-only filing: the fee table lists it as Online Only and names no separate PDF form for it, while the rows that have paper forms name them. $70.00 is the registration fee only; the $20.00 Statement of Information fee is a separate ongoing obligation, and the agent-for-service-of-process requirement is statutory.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "California Secretary of State, Business Programs, Business Entities - Forms, Samples and Fees, Limited Liability Companies - Foreign (Out-of-State or Out-of-Country)",
+      "title": "Limited Liability Companies – Foreign (Out-of-State or Out-of-Country) :: California Secretary of State",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/forms/limited-liability-companies-foreign-out-state-or-out-country",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "California Secretary of State, Business Programs, Business Entities - Service of Process",
+      "title": "Service of Process :: California Secretary of State",
+      "url": "https://www.sos.ca.gov/business-programs/business-entities/service-process/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

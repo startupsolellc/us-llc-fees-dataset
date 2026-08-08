@@ -1,0 +1,69 @@
+{
+  "stateName": "Texas",
+  "stateAbbr": "TX",
+  "stateSlug": "texas",
+  "foreignQualification": {
+    "registrationFeeUsd": 750,
+    "feeBasis": "Flat statutory filing fee of $750 stated on Form 304 and its instructions; credit-card payments add a statutorily authorized convenience fee of 2.7 percent.",
+    "formName": "Application for Registration of a Foreign Limited Liability Company (Form 304)",
+    "formUrl": "https://www.sos.state.tx.us/corp/forms/304_boc.pdf",
+    "filedWith": "Secretary of State",
+    "ongoingObligationsNote": "Maintain a registered agent and a registered office address in Texas; failure to do so may result in revocation of the registration.",
+    "evidence": [
+      {
+        "quote": "The filing fee for an application for registration for a limited liability company is $750",
+        "url": "https://www.sos.state.tx.us/corp/instructions/304.shtml",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Instructions Filing Fee: $750 Application for Registration of a Foreign Limited Liability Company",
+        "url": "https://www.sos.state.tx.us/corp/forms/304_boc.pdf",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "Application for Registration of a Foreign Limited Liability Company",
+        "url": "https://www.sos.state.tx.us/corp/forms/304_boc.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "Submit in duplicate to: Secretary of State P.O. Box 13697 Austin, TX 78711-3697",
+        "url": "https://www.sos.state.tx.us/corp/forms/304_boc.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Fees paid by credit card are subject to a statutorily authorized convenience fee of 2.7 percent of the total fees.",
+        "url": "https://www.sos.state.tx.us/corp/instructions/304.shtml",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "FYI: A registered foreign limited liability company is required to maintain a registered agent and a registered office address in Texas.",
+        "url": "https://www.sos.state.tx.us/corp/instructions/304.shtml",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Failure to maintain a registered agent and registered office may result in the revocation of the foreign filing entity’s registration.",
+        "url": "https://www.sos.state.tx.us/corp/instructions/304.shtml",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The form (Revised 05/11) and its instructions both state the $750 filing fee. The instructions add that a foreign entity that transacts business in Texas for more than 90 days before filing is subject to late fees, and that fees paid by credit card carry a 2.7 percent convenience fee.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Texas Secretary of State, Form 304 - Instructions for Application for Registration of a Foreign Limited Liability Company",
+      "title": "Form 304 — Instructions for Application for Registration of a Foreign Limited Liability Company",
+      "url": "https://www.sos.state.tx.us/corp/instructions/304.shtml",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Texas Secretary of State, Form 304, Application for Registration of a Foreign Limited Liability Company (Revised 05/11)",
+      "title": "Form 304 - Application for Registration of a Foreign Limited Liability Company",
+      "url": "https://www.sos.state.tx.us/corp/forms/304_boc.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

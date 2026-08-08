@@ -1,0 +1,59 @@
+{
+  "stateName": "Delaware",
+  "stateAbbr": "DE",
+  "stateSlug": "delaware",
+  "foreignQualification": {
+    "registrationFeeUsd": 200,
+    "feeBasis": "Flat state filing fee of $200.00 for the Certificate of Registration; certified copies ($50) and expedited services cost extra.",
+    "formName": "Certificate of Registration of Foreign Limited Liability Company",
+    "formUrl": "https://corpfiles.delaware.gov/LLC_Forms/Foreign%20LLC.pdf",
+    "filedWith": "Department of State, Division of Corporations",
+    "ongoingObligationsNote": "Annual taxes of $400 for the foreign LLC are due by June 1 of each year following the close of the calendar year in which its registration is filed.",
+    "evidence": [
+      {
+        "quote": "The fee to file the Registration Certificate is $ 200.",
+        "url": "https://corpfiles.delaware.gov/LLC_Forms/Foreign%20LLC.pdf",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "Foreign Certificate of Registration $200.00",
+        "url": "https://corpfiles.delaware.gov/Fee_Schedule/AugustFee2026.pdf",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "Certificate of Registration of Foreign Limited Liability Company",
+        "url": "https://corpfiles.delaware.gov/LLC_Forms/Foreign%20LLC.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "Delaware Division of Corporations 401 Federal Street – Suite 4 Dover, DE 19901",
+        "url": "https://corpfiles.delaware.gov/LLC_Forms/Foreign%20LLC.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Annual Taxes in the amount of $400 for the foreign limited liability company are due by June 1 of each year following the close of the calendar year",
+        "url": "https://corpfiles.delaware.gov/LLC_Forms/Foreign%20LLC.pdf",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The cover letter on the form (rev. 8/2026) states the $200 fee, and the Division's fee schedule revised August 1, 2026 lists Foreign Certificate of Registration at $200.00. The $400 annual tax is not part of the registration fee; certified copies ($50) and expedited services are additional.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Delaware Department of State, Division of Corporations, Certificate of Registration of Foreign Limited Liability Company (rev. 8/2026)",
+      "title": "Certificate of Registration of Foreign Limited Liability Company - Delaware Division of Corporations",
+      "url": "https://corpfiles.delaware.gov/LLC_Forms/Foreign%20LLC.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Delaware Department of State, Division of Corporations Fee Schedule, revised August 1, 2026",
+      "title": "Corporate Fee Schedule - Division of Corporations - State of Delaware",
+      "url": "https://corpfiles.delaware.gov/Fee_Schedule/AugustFee2026.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
