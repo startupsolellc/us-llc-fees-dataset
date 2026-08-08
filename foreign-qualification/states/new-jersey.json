@@ -1,0 +1,42 @@
+{
+  "stateName": "New Jersey",
+  "stateAbbr": "NJ",
+  "stateSlug": "new-jersey",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Flat filing fee of $100.00 for the Certificate of registration for a foreign LLC; annual reports and other filings carry separate fees.",
+    "formName": "Certificate of registration for a foreign LLC",
+    "formUrl": "https://www.nj.gov/treasury/revenue/fees.shtml",
+    "filedWith": "New Jersey Division of Revenue and Enterprise Services (Department of the Treasury)",
+    "ongoingObligationsNote": "File the annual report ($75.00) with the Division of Revenue and Enterprise Services.",
+    "evidence": [
+      {
+        "quote": "Certificate of registration for a foreign LLC $100.00",
+        "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "Annual Report $75.00",
+        "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Department of the Treasury Division of Revenue and Enterprise Services PO Box 628 Trenton, NJ 08625-0628",
+        "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+        "supports": "filedWith"
+      }
+    ]
+  },
+  "notes": "The official fee schedule is the form/fee source cited for this filing: New Jersey does not publish a separate paper form PDF, and the certificate is filed through the Division of Revenue and Enterprise Services. The $100 figure is the current LLC row on the schedule (last updated 07/01/26).",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "New Jersey Department of the Treasury, Division of Revenue and Enterprise Services - Registry Fee Schedules",
+      "title": "Registry Fee Schedules | NJ Division of Revenue and Enterprise Services",
+      "url": "https://www.nj.gov/treasury/revenue/fees.shtml",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

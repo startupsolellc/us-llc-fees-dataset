@@ -1,0 +1,71 @@
+{
+  "stateName": "Idaho",
+  "stateAbbr": "ID",
+  "stateSlug": "idaho",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Online base filing fee of $100.00 for the Foreign Registration Statement; paper submissions add a $20.00 manual processing fee.",
+    "formName": "Foreign Registration Statement",
+    "formUrl": "https://archive.sos.idaho.gov/CORP/forms/FOREIGN/Foreign%20Reg%20Statement.pdf",
+    "filedWith": "Idaho Secretary of State, Business Services Division",
+    "ongoingObligationsNote": "File an annual report with the Idaho Secretary of State and maintain a registered agent in Idaho.",
+    "evidence": [
+      {
+        "quote": "Foreign Registration Statement $100 (base filing fee) $20 (manual processing fee) $120 Total",
+        "url": "https://sos.idaho.gov/business-forms/",
+        "supports": "registrationFeeUsd, feeBasis, formName"
+      },
+      {
+        "quote": "FOREIGN REGISTRATION STATEMENT Title 30, Chapter 21, Idaho Code Base Filing fee: $100.00 + $20.00 for manual processing (form must be typed).",
+        "url": "https://archive.sos.idaho.gov/CORP/forms/FOREIGN/Foreign%20Reg%20Statement.pdf",
+        "supports": "formName, feeBasis"
+      },
+      {
+        "quote": "Completed paper forms may be mailed or hand delivered to the Secretary of State's Office.",
+        "url": "https://sos.idaho.gov/business-forms/",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Business Services Division (208) 334-2301",
+        "url": "https://sos.idaho.gov/business-forms/",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Register a business Search for a business File an annual report Access your business filings Request a certificate of existence",
+        "url": "https://sos.idaho.gov/business-resources/",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Make sure you have: A business name A registered agent in Idaho",
+        "url": "https://sos.idaho.gov/business-resources/",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The record carries the online base fee ($100); a paper filing costs $120 total ($100 base fee plus the $20.00 manual processing fee). The form is revised 01/2019 and cites Title 30, Chapter 21, Idaho Code.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Idaho Secretary of State - Business Forms",
+      "title": "Business Forms | Idaho Secretary of State",
+      "url": "https://sos.idaho.gov/business-forms/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Idaho Secretary of State - Business Resources",
+      "title": "Starting a Business | Idaho Secretary of State",
+      "url": "https://sos.idaho.gov/business-resources/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Idaho Secretary of State - Foreign Registration Statement (form PDF, revised 01/2019)",
+      "title": "Foreign Registration Statement | Idaho Secretary of State",
+      "url": "https://archive.sos.idaho.gov/CORP/forms/FOREIGN/Foreign%20Reg%20Statement.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

@@ -1,0 +1,76 @@
+{
+  "stateName": "Kansas",
+  "stateAbbr": "KS",
+  "stateSlug": "kansas",
+  "foreignQualification": {
+    "registrationFeeUsd": 115,
+    "feeBasis": "Flat filing fee of $115.00 for the Foreign Application (Form FA); foreign applications are filed by paper and information reports filed with them carry their own fees.",
+    "formName": "FA - Foreign Application - LLC, LLP, LP, Corporation",
+    "formUrl": "https://www.sos.ks.gov/forms/business_services/FA.pdf",
+    "filedWith": "Kansas Secretary of State, Business Services Division",
+    "ongoingObligationsNote": "File an information report every two years and maintain a resident agent in Kansas.",
+    "evidence": [
+      {
+        "quote": "The filing fee for the Foreign Application is as follows: All businesses:",
+        "url": "https://www.sos.ks.gov/forms/business_services/FA.pdf",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "o Limited liability company (fee $115)",
+        "url": "https://www.sos.ks.gov/forms/business_services/FA.pdf",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "FA - Foreign Application - LLC, LLP, LP, Corporation",
+        "url": "https://www.sos.ks.gov/businesses/register-a-business.html",
+        "supports": "formName"
+      },
+      {
+        "quote": "Foreign (non-Kansas) business entities must file by submitting a foreign application by paper.",
+        "url": "https://www.sos.ks.gov/businesses/register-a-business.html",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "Business Services Division 785-296-4564",
+        "url": "https://www.sos.ks.gov/businesses/register-a-business.html",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "The Information Report is submitted every two years by any business on file with the Kansas Secretary of State.",
+        "url": "https://www.sos.ks.gov/businesses/information-reports.html",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Provide the name of the resident agent. Resident agent: This must be either an individual, a business registered in Kansas, or the business itself who will receive any legal documents (i.e. subpoenas, court orders, summons, etc.) for the business named in section 2.",
+        "url": "https://www.sos.ks.gov/forms/business_services/FA.pdf",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Foreign applications are paper-only in Kansas. The $115 fee appears in the FA form's fee schedule and on the form itself. The two-year information report carries its own fee; root states.json holds the LLC information-report figure.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Kansas Secretary of State - Register a Business",
+      "title": "Register a Business | Kansas Secretary of State",
+      "url": "https://www.sos.ks.gov/businesses/register-a-business.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Secretary of State - Information Reports",
+      "title": "Information Reports | Kansas Secretary of State",
+      "url": "https://www.sos.ks.gov/businesses/information-reports.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kansas Secretary of State - Form FA, Foreign Application - LLC, LLP, LP, Corporation (PDF)",
+      "title": "FA - Foreign Application - LLC, LLP, LP, Corporation | Kansas Secretary of State",
+      "url": "https://www.sos.ks.gov/forms/business_services/FA.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

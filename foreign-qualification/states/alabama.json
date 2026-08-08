@@ -1,0 +1,59 @@
+{
+  "stateName": "Alabama",
+  "stateAbbr": "AL",
+  "stateSlug": "alabama",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat registration filing fee of $150.00 for the Foreign Limited Liability Company Application for Registration; credit-card payments add a 3% convenience fee plus $2.00.",
+    "formName": "Foreign Limited Liability Company Application for Registration",
+    "formUrl": "https://www.sos.alabama.gov/sites/default/files/2022-09/ForeignLLCRegistration.pdf",
+    "filedWith": "Alabama Secretary of State, Business Entities Division",
+    "ongoingObligationsNote": "Maintain a registered agent for service of process in Alabama.",
+    "evidence": [
+      {
+        "quote": "Foreign LLC Filing Filing Fees Secretary of State: $150.00",
+        "url": "https://www.sos.alabama.gov/business-entities/llcs",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "File two original copies of the \"Foreign Limited Liability Company Application for Registration\" with the Business Entities Division of the Secretary of State.",
+        "url": "https://www.sos.alabama.gov/business-entities/llcs",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "X $150.00 Registration filing fee",
+        "url": "https://www.sos.alabama.gov/sites/default/files/2022-09/ForeignLLCRegistration.pdf",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "Name of registered agent for service of process (MUST be physically located in Alabama)",
+        "url": "https://www.sos.alabama.gov/sites/default/files/2022-09/ForeignLLCRegistration.pdf",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "convenience fees (these fees are 3% of the total charge plus $2.00)",
+        "url": "https://www.sos.alabama.gov/sites/default/files/2022-09/ForeignLLCRegistration.pdf",
+        "supports": "feeBasis"
+      }
+    ]
+  },
+  "notes": "A name reservation certificate from the Alabama Secretary of State must be attached to the application, and the registered agent must be physically located in Alabama. Root states.json carries annual_report_fee 0 for Alabama; this record makes no annual-report claim.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Alabama Secretary of State - LLCs (business entities)",
+      "title": "LLCs | Alabama Secretary of State",
+      "url": "https://www.sos.alabama.gov/business-entities/llcs",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Alabama Secretary of State - Foreign Limited Liability Company Application for Registration (form PDF)",
+      "title": "Foreign Limited Liability Company Application for Registration | Alabama Secretary of State",
+      "url": "https://www.sos.alabama.gov/sites/default/files/2022-09/ForeignLLCRegistration.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

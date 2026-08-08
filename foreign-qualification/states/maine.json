@@ -1,0 +1,64 @@
+{
+  "stateName": "Maine",
+  "stateAbbr": "ME",
+  "stateSlug": "maine",
+  "foreignQualification": {
+    "registrationFeeUsd": 250,
+    "feeBasis": "Flat filing fee of $250.00 for the Statement of Foreign Qualification (Form MLLC-12); the form itself states the figure.",
+    "formName": "Statement of Foreign Qualification to Conduct Activities (Form MLLC-12)",
+    "formUrl": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc12.pdf",
+    "filedWith": "Maine Secretary of State, Division of Corporations",
+    "ongoingObligationsNote": "File the annual report ($150.00 for a foreign LLC) and maintain a registered agent in Maine.",
+    "evidence": [
+      {
+        "quote": "FOREIGN LIMITED LIABILITY COMPANY STATE OF MAINE STATEMENT OF FOREIGN QUALIFICATION TO CONDUCT ACTIVITIES",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc12.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "Deputy Secretary of State Filing Fee $250.00 FOREIGN LIMITED LIABILITY COMPANY",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc12.pdf",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "MLLC-12 (PDF) Statement of Foreign Qualification to Conduct Activities Commercial Clerk and Commercial Registered Agent (CRA) Search Foreign Limited Liability Companies Qualification Information $250.00",
+        "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+        "supports": "registrationFeeUsd, formName"
+      },
+      {
+        "quote": "filing Limited Liability Companies with the Division of Corporations",
+        "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "MLLC-13 Annual Report - Domestic $85.00 Annual Report - Foreign $150.00",
+        "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "SIXT H: The Registered Agent is a: (select either a Commercial or Noncommercial Registered Agent)",
+        "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc12.pdf",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The $250 fee is stated on the MLLC-12 form itself and on the Division of Corporations' forms-and-fees table. Root states.json carries the domestic LLC annual report fee ($85); the $150 row here is the foreign LLC annual report.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Maine Secretary of State, Division of Corporations - Limited Liability Company Forms and Fees",
+      "title": "Limited Liability Company Forms | Maine Secretary of State",
+      "url": "https://www.maine.gov/sos/corporations-commissions/i-need-a-business-form/limited-liability-company-forms",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Maine Secretary of State, Division of Corporations - Form MLLC-12, Statement of Foreign Qualification to Conduct Activities (PDF)",
+      "title": "Statement of Foreign Qualification to Conduct Activities (Form MLLC-12) | Maine Secretary of State",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/mllc12.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
