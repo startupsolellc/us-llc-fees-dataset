@@ -1,0 +1,71 @@
+{
+  "stateName": "Utah",
+  "stateAbbr": "UT",
+  "stateSlug": "utah",
+  "foreignQualification": {
+    "registrationFeeUsd": 59,
+    "feeBasis": "Flat $59.00 filing fee for a foreign limited liability company's registration; the current Fiscal Year 2026 fee schedule prices the foreign LLC row at $59.00 and the online UtahID flow is the common filing path.",
+    "formName": "Application for Registration",
+    "formUrl": "https://commerce.utah.gov/corporations/business-entities/foreign-limited-liability-company/",
+    "filedWith": "Division of Corporations and Commercial Code",
+    "ongoingObligationsNote": "File an annual report/renewal each year with the Division ($18.00 on the current fee schedule, portal surcharge included).",
+    "evidence": [
+      {
+        "quote": "Foreign limited liability company (LLC) $59",
+        "url": "https://corporations.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "*Limited liability company (LLC) $18",
+        "url": "https://corporations.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Foreign LLCs may transact business in the state once having completed an Application for Registration. LLCs may amend their Certificate, file Certificate of Dissolution, and must file an Annual Report.",
+        "url": "https://commerce.utah.gov/corporations/business-entities/considerations-in-forming-a-limited-liability-company/",
+        "supports": "formName, ongoingObligationsNote"
+      },
+      {
+        "quote": "nothing is final until the Division of Corporations and Commercial Code approves the business filing",
+        "url": "https://commerce.utah.gov/corporations/business-entities/foreign-limited-liability-company/",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Register a Foreign Business Click the \" Get Started \" button below to log in with UtahID .",
+        "url": "https://commerce.utah.gov/corporations/business-entities/foreign-limited-liability-company/",
+        "supports": "formName"
+      },
+      {
+        "quote": "File an Annual Report/Renewal Click the \" Get Started \" button below to log in with UtahID .",
+        "url": "https://commerce.utah.gov/corporations/business-entities/foreign-limited-liability-company/",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Collected on the agency route: the Division's foreign LLC page and the considerations page name the registration and the annual report, and the current Fiscal Year 2026 fee schedule (linked from the foreign LLC page) prices the foreign LLC at $59.00 and the annual report/renewal at $18.00. The registration is an online UtahID flow; no current paper form PDF is published, and the older flcapp.pdf path no longer serves the PDF. le.utah.gov was transport-dark on this route, so the form name is grounded in the Division's own page rather than the statute.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Utah Division of Corporations and Commercial Code - Fiscal Year 2026 Fee Schedule",
+      "title": "Fiscal Year 2026 Fee Schedule - Effective July 1, 2025",
+      "url": "https://corporations.utah.gov/wp-content/uploads/2023/04/currentfees.pdf",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Utah Department of Commerce, Division of Corporations and Commercial Code - Foreign Limited Liability Company",
+      "title": "Foreign Limited Liability Company - commerce.utah.gov",
+      "url": "https://commerce.utah.gov/corporations/business-entities/foreign-limited-liability-company/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Utah Department of Commerce, Division of Corporations and Commercial Code - Considerations in Forming a Limited Liability Company",
+      "title": "Considerations in Forming a Limited Liability Company - commerce.utah.gov",
+      "url": "https://commerce.utah.gov/corporations/business-entities/considerations-in-forming-a-limited-liability-company/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
