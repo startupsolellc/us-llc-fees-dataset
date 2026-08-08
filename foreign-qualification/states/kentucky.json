@@ -1,0 +1,73 @@
+{
+  "stateName": "Kentucky",
+  "stateAbbr": "KY",
+  "stateSlug": "kentucky",
+  "foreignQualification": {
+    "registrationFeeUsd": 90,
+    "feeBasis": "Flat $90.00 filing fee for the Application for Certificate of Authority, listed for foreign corporations and LLCs on the Business Filings fee page.",
+    "formName": "Application for Certificate of Authority for a Foreign Business Entity",
+    "formUrl": "https://web.sos.ky.gov/forms/corp/FBE-Certificate%20of%20Authorization_Foreign%20Business%20Entity.pdf",
+    "filedWith": "Kentucky Secretary of State, Division of Business Filings, P.O. Box 718, Frankfort, KY 40602",
+    "ongoingObligationsNote": "File the annual report by June 30 of each year after the year the entity was formed, accompanied by the $15.00 filing fee, and maintain a registered agent in Kentucky.",
+    "evidence": [
+      {
+        "quote": "Foreign Corporation or Limited Liability Company (Profit, Non-Profit or Professional Service) Application for Certificate of Authority: $90.00",
+        "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "APPLICATION FOR CERTIFICATE OF AUTHORITY FOR A FOREIGN BUSINESS ENTITY",
+        "url": "https://web.sos.ky.gov/forms/corp/FBE-Certificate%20of%20Authorization_Foreign%20Business%20Entity.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "Division of Business Filings P.O. Box 718 Frankfort, KY 40602",
+        "url": "https://web.sos.ky.gov/forms/corp/FBE-Certificate%20of%20Authorization_Foreign%20Business%20Entity.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Your annual report must be signed, dated and accompanied by a $15 filing fee.",
+        "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "annual report by June 30 of each year after the year they are formed.",
+        "url": "https://www.sos.ky.gov/bus/business-filings/Pages/default.aspx",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The form covers LLCs among other foreign business entity types (the type is indicated by checkbox), and its instructions state the registered office must be in Kentucky with a street address. Root states.json carries Kentucky's annual report fee at $15 due January 1 - June 30.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Kentucky Secretary of State - Business Filings Fees",
+      "title": "Fees | Kentucky Secretary of State",
+      "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Fees.aspx",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kentucky Secretary of State - Application for Certificate of Authority for a Foreign Business Entity (FBE, PDF)",
+      "title": "Application for Certificate of Authority for a Foreign Business Entity | Kentucky Secretary of State",
+      "url": "https://web.sos.ky.gov/forms/corp/FBE-Certificate%20of%20Authorization_Foreign%20Business%20Entity.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kentucky Secretary of State - Annual Reports",
+      "title": "Annual Reports | Kentucky Secretary of State",
+      "url": "https://www.sos.ky.gov/bus/business-filings/Pages/Annual-Reports.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Kentucky Secretary of State - Business Filings Information",
+      "title": "Business Filings Information | Kentucky Secretary of State",
+      "url": "https://www.sos.ky.gov/bus/business-filings/Pages/default.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

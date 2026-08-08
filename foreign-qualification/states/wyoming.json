@@ -1,0 +1,47 @@
+{
+  "stateName": "Wyoming",
+  "stateAbbr": "WY",
+  "stateSlug": "wyoming",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat $150.00 filing fee stated on the form instructions; the paper/PDF application is filed with the Wyoming Secretary of State.",
+    "formName": "Foreign Limited Liability Company Application for Certificate of Authority",
+    "formUrl": "https://sos.wyo.gov/Forms/Business/FLLC/FLLC-CertificateAuthority.pdf",
+    "filedWith": "Wyoming Secretary of State, Herschler Building East, Suite 101, 122 W 25th Street, Cheyenne, WY 82002-0020",
+    "ongoingObligationsNote": "File the annual report every year on the first day of the anniversary month of formation and maintain a registered agent in Wyoming.",
+    "evidence": [
+      {
+        "quote": "Filing fee of $150.00. Make check or money order payable to Wyoming Secretary of State.",
+        "url": "https://sos.wyo.gov/Forms/Business/FLLC/FLLC-CertificateAuthority.pdf",
+        "supports": "registrationFeeUsd, filedWith"
+      },
+      {
+        "quote": "Foreign Limited Liability Company Application for Certificate of Authority",
+        "url": "https://sos.wyo.gov/Forms/Business/FLLC/FLLC-CertificateAuthority.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "Wyoming Secretary of State Herschler Building East, Suite 101 122 W 25th Street Cheyenne, WY 82002-0020",
+        "url": "https://sos.wyo.gov/Forms/Business/FLLC/FLLC-CertificateAuthority.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Annual reports are due every year on the first day of the anniversary month of formation. If not paid within 60 days of the due date the entity will be subject to dissolution.",
+        "url": "https://sos.wyo.gov/Forms/Business/FLLC/FLLC-CertificateAuthority.pdf",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The form must be accompanied by an original certificate of existence/good standing dated within sixty days, and a Use of Fictitious Name form is required when the out-of-state name is unavailable. Root states.json carries Wyoming's annual report fee at $60 due on the first day of the anniversary month.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Wyoming Secretary of State - Foreign Limited Liability Company Application for Certificate of Authority (FLLC-CertificateAuthority, PDF)",
+      "title": "Foreign Limited Liability Company Application for Certificate of Authority | Wyoming Secretary of State",
+      "url": "https://sos.wyo.gov/Forms/Business/FLLC/FLLC-CertificateAuthority.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

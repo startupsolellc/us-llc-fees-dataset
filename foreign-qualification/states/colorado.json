@@ -1,0 +1,63 @@
+{
+  "stateName": "Colorado",
+  "stateAbbr": "CO",
+  "stateSlug": "colorado",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Online-only application; the fee schedule lists the Statement of Foreign Entity Authority at $100.00 online with no paper filing path.",
+    "formName": "Statement of Foreign Entity Authority",
+    "formUrl": "https://www.coloradosos.gov/pubs/business/helpFiles/AUTHORITY_HELP.html",
+    "filedWith": "Colorado Secretary of State",
+    "ongoingObligationsNote": "File the Periodic Report each year and maintain a registered agent in Colorado.",
+    "evidence": [
+      {
+        "quote": "Foreign Entity Authority Statement $100.00 n/a",
+        "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "A foreign entity can obtain authority to transact business in Colorado by filing a Statement of Foreign Entity Authority with the Colorado Secretary of State.",
+        "url": "https://www.coloradosos.gov/pubs/business/FAQs/foreigns.html",
+        "supports": "formName, filedWith"
+      },
+      {
+        "quote": "Reporting entities, such as limited liability companies, corporations, nonprofit corporations, and foreign entities, are required by law to submit a Periodic Report each year",
+        "url": "https://www.coloradosos.gov/pubs/business/FAQs/reports.html",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The Statement of Foreign Entity Authority is filed online only (the fee schedule shows no paper path), and the registered agent must be located in Colorado. Root states.json carries Colorado's periodic report fee at $25 due in the anniversary month window.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Colorado Secretary of State - Business Organizations Fee Schedule",
+      "title": "Business Organizations Fee Schedule | Colorado Secretary of State",
+      "url": "https://www.coloradosos.gov/pubs/info_center/fees/business.html",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Colorado Secretary of State - Statement of Foreign Entity Authority instructions",
+      "title": "Statement of Foreign Entity Authority Instructions | Colorado Secretary of State",
+      "url": "https://www.coloradosos.gov/pubs/business/helpFiles/AUTHORITY_HELP.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Colorado Secretary of State - FAQs: Foreign (outside of Colorado) business entities",
+      "title": "FAQs: Foreign (outside of Colorado) business entities | Colorado Secretary of State",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/foreigns.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Colorado Secretary of State - FAQs: Periodic reports",
+      "title": "FAQs: Periodic reports | Colorado Secretary of State",
+      "url": "https://www.coloradosos.gov/pubs/business/FAQs/reports.html",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

@@ -1,0 +1,69 @@
+{
+  "stateName": "Oklahoma",
+  "stateAbbr": "OK",
+  "stateSlug": "oklahoma",
+  "foreignQualification": {
+    "registrationFeeUsd": 300,
+    "feeBasis": "Flat $300.00 filing fee for the Application for Registration (Foreign Limited Liability Company), stated on the form and the fee schedule; in-person same-day delivery adds a $25.00 fee.",
+    "formName": "Application for Registration (Foreign Limited Liability Company)",
+    "formUrl": "https://www.sos.ok.gov/forms/FM0083.PDF",
+    "filedWith": "Oklahoma Secretary of State, 421 N.W. 13th, Suite 210, Oklahoma City, Oklahoma 73103",
+    "ongoingObligationsNote": "File the annual certificate each year on the company's anniversary date ($25.00), and pay the $40.00 annual agent fee on July 1 when the Secretary of State acts as registered agent.",
+    "evidence": [
+      {
+        "quote": "Certificate of Registration - LLC 18 OS 2055 300.00",
+        "url": "https://www.sos.ok.gov/business/fees.aspx",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "APPLICATION FOR REGISTRATION (Foreign Limited Liability Company) Filing Fee: $300.00",
+        "url": "https://www.sos.ok.gov/forms/FM0083.PDF",
+        "supports": "registrationFeeUsd, formName"
+      },
+      {
+        "quote": "If delivered in person, there will be an additional Twenty- five Dollar ($25.00) fee for each document filed same day.",
+        "url": "https://www.sos.ok.gov/forms/FM0083.PDF",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "TO: OKLAHOMA SECRETARY OF STATE 421 N.W. 13th, Suite 210 Oklahoma City, Oklahoma 73103",
+        "url": "https://www.sos.ok.gov/forms/FM0083.PDF",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Every domestic and foreign limited liability company registered to do business in Oklahoma shall file an annual certificate each year on the company's anniversary date, which confirms it is an active business and includes its principal place of business address and e -mail address, and shall pay an annual certificate fee of Twenty -five Dollars ($25.00).",
+        "url": "https://www.sos.ok.gov/forms/FM0083.PDF",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "For acting as the registered agent, a fee of Forty D ollars ($40.00) shall be paid on the first day of July each year to the office of the Secretary of State.",
+        "url": "https://www.sos.ok.gov/forms/FM0083.PDF",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Annual Agent Fee - Oklahoma/Foreign LLC 18 OS 2055 40.00",
+        "url": "https://www.sos.ok.gov/business/fees.aspx",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The application must be accompanied by a certificate of good standing dated within the last sixty days. The $40 annual agent fee applies only when the Secretary of State acts as the registered agent; appointing an additional registered agent avoids it. Root states.json carries Oklahoma's annual report fee at $25 due on the anniversary date.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Oklahoma Secretary of State - Fees",
+      "title": "Oklahoma Secretary of State - Fees",
+      "url": "https://www.sos.ok.gov/business/fees.aspx",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Oklahoma Secretary of State - Registration of Foreign Limited Liability Company Forms and Procedures (FM0083, PDF)",
+      "title": "Registration of Foreign Limited Liability Company Forms and Procedures | Oklahoma Secretary of State",
+      "url": "https://www.sos.ok.gov/forms/FM0083.PDF",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

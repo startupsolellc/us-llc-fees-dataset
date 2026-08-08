@@ -1,0 +1,71 @@
+{
+  "stateName": "Tennessee",
+  "stateAbbr": "TN",
+  "stateSlug": "tennessee",
+  "foreignQualification": {
+    "registrationFeeUsd": 300,
+    "feeBasis": "$50.00 per member with a $300.00 minimum and $3,000.00 maximum; the forms page lists the $300.00 figure for the common filing path.",
+    "formName": "Application for Certificate of Authority Limited Liability Company (SS-4233)",
+    "formUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4233%20COA%20LLC_0.pdf?VersionId=Yf5Pmfnf25fLEne_HGVwXUhIaVXBp5Rk",
+    "filedWith": "Tennessee Secretary of State, ATTN: Corporate Filing, 312 Rosa L. Parks Ave., Nashville, TN 37243",
+    "ongoingObligationsNote": "File the annual report each year for a business entity registered in Tennessee and maintain a registered agent in the state.",
+    "evidence": [
+      {
+        "quote": "Application for Certificate of Authority Limited Liability Company ( PDF , 287.0KB ) SS-4233 $300*",
+        "url": "https://sos.tn.gov/node/2307",
+        "supports": "registrationFeeUsd, formName"
+      },
+      {
+        "quote": "Filing Fee: $50.00 per member (minimum fee = $300/maximum fee = $3,000)",
+        "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4233%20COA%20LLC_0.pdf?VersionId=Yf5Pmfnf25fLEne_HGVwXUhIaVXBp5Rk",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "APPLICATION FOR CERTIFICATE OF AUTHORITY FOREIGN LIMITED LIABILITY COMPANY (SS-4233)",
+        "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4233%20COA%20LLC_0.pdf?VersionId=Yf5Pmfnf25fLEne_HGVwXUhIaVXBp5Rk",
+        "supports": "formName"
+      },
+      {
+        "quote": "The completed form, along with the required filing fee, should be mailed to: TN Secretary of State, ATTN: Corporate Filing, 312 Rosa L. Parks Ave., Nashville, TN 37243.",
+        "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4233%20COA%20LLC_0.pdf?VersionId=Yf5Pmfnf25fLEne_HGVwXUhIaVXBp5Rk",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "The name, complete street address, and email address of the Foreign LLC's registered agent and office located in the State of Tennessee is:",
+        "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4233%20COA%20LLC_0.pdf?VersionId=Yf5Pmfnf25fLEne_HGVwXUhIaVXBp5Rk",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "File an Annual Report for a business entity registered in the State of Tennessee.",
+        "url": "https://sos.tn.gov/businesses/services/file-annual-reports",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The registration fee is $50 per member with a $300 minimum and $3,000 maximum; the record carries the $300 minimum as the common filing path (the fee page lists $300 with the 'additional fees may apply' footnote). The application must be accompanied by a certificate of existence dated within two months; e-filing is through TNCaB, or the form may be mailed or submitted in person. Root states.json carries Tennessee's annual report fee at $300 due April 1.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Tennessee Secretary of State - Business Forms & Fees",
+      "title": "Business Forms & Fees | Tennessee Secretary of State",
+      "url": "https://sos.tn.gov/node/2307",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Tennessee Secretary of State - Application for Certificate of Authority, Foreign Limited Liability Company (SS-4233, PDF)",
+      "title": "SS-4233 Application for Certificate of Authority - Foreign LLC | Tennessee Secretary of State",
+      "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/SS-4233%20COA%20LLC_0.pdf?VersionId=Yf5Pmfnf25fLEne_HGVwXUhIaVXBp5Rk",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Tennessee Secretary of State - File Annual Reports",
+      "title": "File Annual Reports | Tennessee Secretary of State",
+      "url": "https://sos.tn.gov/businesses/services/file-annual-reports",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
