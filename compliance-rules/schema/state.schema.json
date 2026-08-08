@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/us-llc-fees-dataset/compliance-rules/schema/state.schema.json",
+  "title": "LLC annual-compliance penalties, per jurisdiction",
+  "description": "DRAFT - the starting contract, expected to change while the pilot runs. Records the late-fee shape for an LLC's annual obligations, the grace period, and the reinstatement fee after administrative dissolution. Deliberately minimal: one flat amount or one monthly rate, no penalty matrices, no interest tables. This namespace is authoritative for these values.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "stateName",
+    "stateAbbr",
+    "stateSlug",
+    "compliance",
+    "notes",
+    "needsReview",
+    "sources",
+    "lastVerified"
+  ],
+  "properties": {
+    "stateName": { "type": "string", "minLength": 2 },
+    "stateAbbr": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "stateSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+
+    "compliance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lateFeeUsd",
+        "lateFeeRatePercentPerMonth",
+        "lateFeeBasis",
+        "gracePeriodDays",
+        "reinstatementFeeUsd",
+        "reinstatementNote",
+        "evidence"
+      ],
+      "properties": {
+        "lateFeeUsd": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "Flat late fee in USD. null when the state uses a rate or publishes none."
+        },
+        "lateFeeRatePercentPerMonth": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Monthly percentage or interest rate. The only rate field, by design: no interest tables, no compounding schedules."
+        },
+        "lateFeeBasis": {
+          "oneOf": [
+            { "type": "null" },
+            { "enum": ["flat", "percentage", "interest", "mixed", "none", "unpublished"] }
+          ],
+          "description": "What the state actually publishes. mixed means more than one shape applies; the dominant figure goes in the fields and the rest in notes."
+        },
+        "gracePeriodDays": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Published grace before the late fee applies. null when none is published, which is not the same as zero."
+        },
+        "reinstatementFeeUsd": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "The fee to reinstate after administrative dissolution, including any per-year component folded in; reinstatementNote says how."
+        },
+        "reinstatementNote": {
+          "type": ["string", "null"],
+          "description": "One short sentence: what reinstatement requires, such as delinquent reports, per-year fees, or a time window."
+        },
+        "evidence": { "$ref": "#/definitions/evidenceList" }
+      }
+    },
+
+    "notes": {
+      "type": "string",
+      "description": "Anything the fields cannot carry without lying: the shape calls behind lateFeeBasis, excluded penalties, dissolution timelines."
+    },
+    "needsReview": {
+      "type": ["string", "null"],
+      "description": "What is missing and what would settle it."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["citation", "title", "url", "type", "lastAccessed"],
+        "properties": {
+          "citation": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string", "pattern": "^https?://" },
+          "type": {
+            "oneOf": [
+              { "type": "null" },
+              { "enum": ["statute", "agency-page", "fee-schedule", "official-pdf"] }
+            ],
+            "description": "Source class, for deriving record confidence mechanically. null where none of the classes fits."
+          },
+          "lastAccessed": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+        }
+      }
+    },
+    "lastVerified": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "The date the cited pages were retrieved and every quoted passage was mechanically confirmed to occur in them."
+    }
+  },
+
+  "definitions": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote", "url"],
+      "properties": {
+        "quote": {
+          "type": "string",
+          "minLength": 20,
+          "description": "One contiguous verbatim passage, copied from the page as retrieved, artefacts included. Never assembled across an ellipsis, never taken from a search snippet, never tidied."
+        },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "supports": {
+          "type": "string",
+          "description": "Which value in the enclosing object this passage grounds, by field name (lateFeeUsd, gracePeriodDays, reinstatementFeeUsd, ...). A record carrying several passages is only honest if each one says what it is evidence for."
+        }
+      }
+    },
+    "evidenceList": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/evidence" }
+    }
+  }
+}

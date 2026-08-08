@@ -14,6 +14,11 @@ FIELD_GUIDE.md
 WIKI_METHODOLOGY.html
 processing-time/COLLECTION_PROTOCOL.md
 tax-rules/COLLECTION_PROTOCOL.md
+foreign-qualification/COLLECTION_PROTOCOL.md
+agent-rules/COLLECTION_PROTOCOL.md
+compliance-rules/COLLECTION_PROTOCOL.md
+county-dba/COLLECTION_PROTOCOL.md
+EXPANSION_ROADMAP.md
 
 # Local OS / Python artifacts
 .DS_Store
