@@ -1,0 +1,66 @@
+{
+  "stateName": "South Dakota",
+  "stateAbbr": "SD",
+  "stateSlug": "south-dakota",
+  "foreignQualification": {
+    "registrationFeeUsd": 750,
+    "feeBasis": "Online filing fee of $750.00; paper filing adds the $15.00 paper filing fee ($765.00 total, stated on the form).",
+    "formName": "Application for Certificate of Authority (Foreign Limited Liability Company)",
+    "formUrl": "https://sdsos.gov/docs/business/foreignllccertificateofauthority20180215.pdf",
+    "filedWith": "South Dakota Secretary of State",
+    "ongoingObligationsNote": "File the annual report ($55.00 online / $70.00 paper) and maintain a registered agent in South Dakota.",
+    "evidence": [
+      {
+        "quote": "Foreign Limited Liability Companies: Foreign Forms are used by organizations whose state of incorporation is NOT South Dakota. Application for Certificate of Authority",
+        "url": "https://sdsos.gov/Business-Services/corporations/corporate-forms/limited-liability-companies.aspx",
+        "supports": "formName"
+      },
+      {
+        "quote": "Foreign Certificate of Authority Filed Electronically online $750 Filed via Paper (includes paper filing fee) $765 Annual Report Filed Electronically online $55 Filed via Paper (includes paper filing fee) $70",
+        "url": "https://sdsos.gov/general-information/filing-fees.aspx",
+        "supports": "registrationFeeUsd, ongoingObligationsNote"
+      },
+      {
+        "quote": "APPLICATION FOR CERTIFICATE OF AUTHORITY FOREIGN LIMITED LIABILITY COMPANY SDCL 47-34A-1002 FILING FEE: $765",
+        "url": "https://sdsos.gov/docs/business/foreignllccertificateofauthority20180215.pdf",
+        "supports": "formName, feeBasis"
+      },
+      {
+        "quote": "Secretary of State Office 500 E Capitol Ave Pierre, SD 57501",
+        "url": "https://sdsos.gov/docs/business/foreignllccertificateofauthority20180215.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Cancellation of Certificate of Authority Annual Report File Online File by Paper (*fee includes the additional $15 paper filing fee)",
+        "url": "https://sdsos.gov/Business-Services/corporations/corporate-forms/limited-liability-companies.aspx",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The common filing path is online at $750; the paper form states $765 including the $15 paper filing fee. The annual report applies to foreign LLCs ($55 online / $70 paper), matching root states.json's $55 figure; the paper form also requires a certificate of existence from the home state.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "South Dakota Secretary of State - Limited Liability Companies corporate forms",
+      "title": "Limited Liability Companies | South Dakota Secretary of State",
+      "url": "https://sdsos.gov/Business-Services/corporations/corporate-forms/limited-liability-companies.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Dakota Secretary of State - Fee Schedule",
+      "title": "Fee Schedule | South Dakota Secretary of State",
+      "url": "https://sdsos.gov/general-information/filing-fees.aspx",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "South Dakota Secretary of State - Application for Certificate of Authority, Foreign Limited Liability Company (PDF)",
+      "title": "Application for Certificate of Authority - Foreign LLC | South Dakota Secretary of State",
+      "url": "https://sdsos.gov/docs/business/foreignllccertificateofauthority20180215.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

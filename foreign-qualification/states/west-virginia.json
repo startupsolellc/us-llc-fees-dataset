@@ -1,0 +1,81 @@
+{
+  "stateName": "West Virginia",
+  "stateAbbr": "WV",
+  "stateSlug": "west-virginia",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat $150.00 registration fee for a foreign Limited Liability Company (LLC/PLLC), stated on the registration fee table and on Form LLF-1; veteran-owned entities are exempt.",
+    "formName": "Application for Certificate of Authority of Limited Liability Company (Form LLF-1)",
+    "formUrl": "https://sos.wv.gov/media/289/download?inline",
+    "filedWith": "West Virginia Secretary of State, Business & Licensing Division",
+    "ongoingObligationsNote": "File the annual report between January 1 and June 30 ($25.00) and maintain a registered agent in West Virginia.",
+    "evidence": [
+      {
+        "quote": "Limited Liability Company ( LLC / PLLC ) $150.00",
+        "url": "https://sos.wv.gov/business/registration-and-waivers/register-out-state-foreign-business",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "In order to transact business in West Virginia these entities must register with the West Virginia Secretary of State's Office for a Certificate of Authority.",
+        "url": "https://sos.wv.gov/business/registration-and-waivers/register-out-state-foreign-business",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "WEST VIRGINIA APPLICATION FOR CERTIFICATE OF AUTHORITY OF LIMITED LIABILITY COMPANY Form LLF-1",
+        "url": "https://sos.wv.gov/media/289/download?inline",
+        "supports": "formName"
+      },
+      {
+        "quote": "FILING FEE: $150 *Fee Waived for Veteran-owned organization",
+        "url": "https://sos.wv.gov/media/289/download?inline",
+        "supports": "registrationFeeUsd, feeBasis"
+      },
+      {
+        "quote": "West Virginia Secretary of State Business & Licensing Division",
+        "url": "https://sos.wv.gov/media/289/download?inline",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "requires every limited liability company [both domestic (in-state) and foreign (out-of- state)] to file an annual report and pay the annual report filing fee between January 1 and July 1",
+        "url": "https://sos.wv.gov/media/289/download?inline",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The $25 annual report fee is waived for Veteran-owned entities",
+        "url": "https://sos.wv.gov/media/289/download?inline",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "WV Code §59-1-2a requires organizations registered through the West Virginia Secretary of State to file an annual report, and pay the annual report $25.00 filing fee between January 1 and June 30",
+        "url": "https://sos.wv.gov/business/updates-and-changes/annual-reports",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Form LLF-1 (rev. 7/2026) is the paper application for a foreign (out-of-state) LLC and states the $150 registration fee; the registration page's fee table names the same figure for Limited Liability Company (LLC/PLLC). The annual report applies to both domestic and foreign LLCs (WV Code §59-1-2a), matching root states.json's $25 figure.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "West Virginia Secretary of State - Register an Out-of-State (Foreign) Business",
+      "title": "Register an Out-of-State (Foreign) Business | West Virginia Secretary of State",
+      "url": "https://sos.wv.gov/business/registration-and-waivers/register-out-state-foreign-business",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "West Virginia Secretary of State - Application for Certificate of Authority of Limited Liability Company (Form LLF-1, PDF)",
+      "title": "Application for Certificate of Authority of Limited Liability Company (Form LLF-1) | West Virginia Secretary of State",
+      "url": "https://sos.wv.gov/media/289/download?inline",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "West Virginia Secretary of State - Annual Reports",
+      "title": "Annual Reports | West Virginia Secretary of State",
+      "url": "https://sos.wv.gov/business/updates-and-changes/annual-reports",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

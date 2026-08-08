@@ -1,0 +1,64 @@
+{
+  "stateName": "Hawaii",
+  "stateAbbr": "HI",
+  "stateSlug": "hawaii",
+  "foreignQualification": {
+    "registrationFeeUsd": 50,
+    "feeBasis": "Flat $50.00 nonrefundable filing fee stated on Form FLLC-1 (rev. 11/2025).",
+    "formName": "Application for Certificate of Authority for Foreign Limited Liability Company (Form FLLC-1)",
+    "formUrl": "https://cca.hawaii.gov/wp-content/uploads/2026/01/fllc-1.pdf",
+    "filedWith": "Hawaii Department of Commerce and Consumer Affairs (DCCA), Business Registration Division",
+    "ongoingObligationsNote": "File annual business reports with BREG (online $12.50) and continuously maintain a registered agent in Hawaii.",
+    "evidence": [
+      {
+        "quote": "Nonrefundable Filing Fee: $50.00",
+        "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/fllc-1.pdf",
+        "supports": "registrationFeeUsd"
+      },
+      {
+        "quote": "Application for Certificate of Authority for Foreign Limited Liability Company",
+        "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/fllc-1.pdf",
+        "supports": "formName"
+      },
+      {
+        "quote": "State of Hawaii Department of Commerce and Consumer Affairs Business Registration Division",
+        "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/fllc-1.pdf",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "The company shall have and continuously maintain in the State of Hawaii, a registered agent who shall have a business address in this State.",
+        "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/fllc-1.pdf",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The state of Hawaiʻi Department of Commerce and Consumer Affairs (DCCA) Business Registration Division (BREG) reminds businesses to file their annual business reports.",
+        "url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "Fees for filing Hawaiʻi annual business reports online are as follows: LLCs, profit corporations and LLPs: $12.50",
+        "url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "The $50 figure is the nonrefundable filing fee stated on the current Form FLLC-1 (rev. 11/2025); the earlier /breg/files/2015/12/fllc-1.pdf URL now redirects to this wp-content path, so the final URL is cited. The annual report obligation and its $12.50 online fee come from BREG's own annual-report release; root states.json carries the same $12.50 figure.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Hawaii Department of Commerce and Consumer Affairs, Business Registration Division - Form FLLC-1, Application for Certificate of Authority for Foreign Limited Liability Company (PDF)",
+      "title": "Form FLLC-1 (rev. 11/2025) | Hawaii DCCA Business Registration Division",
+      "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/fllc-1.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Hawaii DCCA Business Registration Division - Third Quarter Hawaii Annual Business Reports Due (release)",
+      "title": "Third Quarter Hawaiʻi Annual Business Reports Due | Hawaii DCCA",
+      "url": "https://cca.hawaii.gov/breg/third-quarter-hawaii-annual-business-reports-due-2026/",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

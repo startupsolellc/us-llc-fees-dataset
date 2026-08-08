@@ -1,0 +1,54 @@
+{
+  "stateName": "Iowa",
+  "stateAbbr": "IA",
+  "stateSlug": "iowa",
+  "foreignQualification": {
+    "registrationFeeUsd": 100,
+    "feeBasis": "Flat $100.00 filing fee for the Foreign Registration Statement, available online through Fast Track Filing or by paper.",
+    "formName": "Foreign Registration Statement",
+    "formUrl": "https://sos.iowa.gov/business/pdf/635_0010.pdf",
+    "filedWith": "Iowa Secretary of State, Business Services Division",
+    "ongoingObligationsNote": "File the biennial report in odd-numbered years, due April 1 ($30.00 online / $45.00 paper), and maintain a registered agent in Iowa.",
+    "evidence": [
+      {
+        "quote": "Foreign Registration Statement - $100",
+        "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+        "supports": "registrationFeeUsd, formName"
+      },
+      {
+        "quote": "Businesses, both domestic and foreign, will file a biennial report with the Office of the Iowa Secretary of State every other year.",
+        "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The fee is $30* by online filing or $45* by paper.",
+        "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "SECRETARY OF STATE Business Services Division",
+        "url": "https://sos.iowa.gov/business/pdf/635_0010.pdf",
+        "supports": "filedWith"
+      }
+    ]
+  },
+  "notes": "The Foreign Registration Statement fee is $100 on the common filing path; the page marks the form as available online through Fast Track Filing. The biennial report applies to both domestic and foreign businesses (odd-numbered years, due April 1; $30 online / $45 paper, matching root states.json's $30 figure).",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Iowa Secretary of State - Business Entity Forms and Fees",
+      "title": "Business Entity Forms and Fees | Iowa Secretary of State",
+      "url": "https://sos.iowa.gov/businesses/business-entity-forms-and-fees",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Iowa Secretary of State - Foreign Registration Statement (Form 635_0010, PDF)",
+      "title": "Foreign Registration Statement (635_0010) | Iowa Secretary of State",
+      "url": "https://sos.iowa.gov/business/pdf/635_0010.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}

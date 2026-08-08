@@ -1,0 +1,64 @@
+{
+  "stateName": "Louisiana",
+  "stateAbbr": "LA",
+  "stateSlug": "louisiana",
+  "foreignQualification": {
+    "registrationFeeUsd": 150,
+    "feeBasis": "Flat $150.00 filing fee for Form #972, Application of Foreign Limited Liability Company; credit-card payments add a $5.00 convenience fee.",
+    "formName": "Application of Foreign Limited Liability Company (Form #972)",
+    "formUrl": "https://www.sos.la.gov/media/ablp3yv5/972-application-of-foreign-limited-liability-company.pdf",
+    "filedWith": "Louisiana Secretary of State, Commercial Division",
+    "ongoingObligationsNote": "File the annual report ($30.00) and maintain a registered agent in Louisiana.",
+    "evidence": [
+      {
+        "quote": "Foreign limited liability companies Form Application of Foreign Limited Liability Company #972 $150",
+        "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+        "supports": "registrationFeeUsd, formName"
+      },
+      {
+        "quote": "Enclose $150 filing fee Make remittance payable to Secretary of State Do Not Send Cash Commercial Division P. O. Box 94125 Baton Rouge, LA 70804-9125",
+        "url": "https://www.sos.la.gov/media/ablp3yv5/972-application-of-foreign-limited-liability-company.pdf",
+        "supports": "registrationFeeUsd, feeBasis, filedWith"
+      },
+      {
+        "quote": "the fees for the Commercial Division of the Secretary of State",
+        "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+        "supports": "filedWith"
+      },
+      {
+        "quote": "Credit card payments are subject to an additional statutory convenience fee. $5",
+        "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+        "supports": "feeBasis"
+      },
+      {
+        "quote": "Certified Copies $15 Certified Copies with Amendments $25 Additional Certificates $20 Annual Reports $30 Foreign partnerships",
+        "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+        "supports": "ongoingObligationsNote"
+      },
+      {
+        "quote": "The agent must be an individual resident in Louisiana, an individual attorney or a partnership which is authorized to practice law in Louisiana or a domestic or foreign corporation",
+        "url": "https://www.sos.la.gov/media/ablp3yv5/972-application-of-foreign-limited-liability-company.pdf",
+        "supports": "ongoingObligationsNote"
+      }
+    ]
+  },
+  "notes": "Form #972 is the paper application; filings are also accepted online through the Secretary of State's CORA portal. The fee schedule and the form both state the current $150 figure. Effective October 1, 2026, Act 921 raises this fee to $185 and the annual report fee from $30 to $35 (official fee-change schedule, static.sos.la.gov/shared/fee_changes_2026.pdf); this record states today's values. Root states.json carries the $30 annual report fee.",
+  "needsReview": null,
+  "sources": [
+    {
+      "citation": "Louisiana Secretary of State - Forms & Fee Schedule (Business Services)",
+      "title": "Forms & Fee Schedule | Louisiana Secretary of State",
+      "url": "https://www.sos.la.gov/business-services/forms-fee-schedule",
+      "type": "fee-schedule",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Louisiana Secretary of State - Application of Foreign Limited Liability Company (Form #972, PDF)",
+      "title": "Application of Foreign Limited Liability Company (Form #972) | Louisiana Secretary of State",
+      "url": "https://www.sos.la.gov/media/ablp3yv5/972-application-of-foreign-limited-liability-company.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
