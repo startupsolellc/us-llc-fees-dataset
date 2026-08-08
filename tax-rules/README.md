@@ -1,6 +1,6 @@
 # tax-rules
 
-**Status: draft / proposal. Not published, not part of the dataset yet.**
+**Status: published. 51 of 51 jurisdictions, last verified 2026-08-08.**
 
 Per-jurisdiction record of the recurring state-level taxes an LLC owes for existing: franchise
 and privilege taxes under whatever name the state gives them, and the posture of the state's
@@ -106,7 +106,7 @@ passage per record could only ground one of a record's values: the figure, the d
 first-year waiver come from three places, and a record carrying several passages is only honest
 if each one says what it is evidence for.
 
-## The pilot
+## Origins: the pilot
 
 The namespace opens with five jurisdictions chosen to stress the schema, not to cover ground:
 **California** (flat minimum collected by a tax board, plus a revenue-scaled companion fee),
@@ -122,7 +122,9 @@ license fee **is** a franchise-type levy under the substance test rather than a 
 Tennessee's franchise-and-excise regime splits — the net-worth franchise tax is recorded, the
 income-based excise is not, and each record's `notes` says why. The schema changed once, and not
 where the paper expected: `evidence` is a list, because a single record's figure, due date and
-first-year waiver are different passages on different pages.
+first-year waiver are different passages on different pages. The production run then closed the
+remaining 46 jurisdictions across batches B3–B13, and the namespace reached **51 of 51 on
+2026-08-08**, when Wisconsin (the last state) was collected and verified.
 
 This is not legal or tax advice, and nothing here is a filing instruction. Tax figures move
 with legislative sessions; read `lastVerified` before trusting any of them.

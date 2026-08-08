@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/us-llc-fees-dataset/tax-rules/schema/state.schema.json",
   "title": "Recurring state-level LLC taxes, per jurisdiction",
-  "description": "DRAFT — the pilot's starting contract, expected to change while the pilot runs. `franchiseTax` records a recurring state-level levy on the LLC's existence or privilege of doing business, keyed to substance rather than to the state's label; `stateIncomeTax` records the state's posture toward default pass-through taxation, orientation only. Root states.json stays authoritative for the annual-report payment; `collectedWithAnnualReport` marks the overlap so no consumer counts it twice.",
+  "description": "Published contract for the recurring state-level LLC tax namespace, frozen after the 51/51 production run closed on 2026-08-08. `franchiseTax` records a recurring state-level levy on the LLC's existence or privilege of doing business, keyed to substance rather than to the state's label; `stateIncomeTax` records the state's posture toward default pass-through taxation, orientation only. Root states.json stays authoritative for the annual-report payment; `collectedWithAnnualReport` marks the overlap so no consumer counts it twice.",
   "type": "object",
   "additionalProperties": false,
   "required": [

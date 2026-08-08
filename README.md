@@ -23,6 +23,7 @@ Aggregations that do exist are mostly lead magnets for formation services, and t
 | `entitysearch-state-data/states/` | 51 <!-- c9:records-entitysearch=51 --> | Agency contact details, addresses, hours, business entity search portals, renewal links, filing facts |
 | `name-rules/states/` | 51 <!-- c9:records-name-rules=51 --> | LLC name designators, distinguishability standard, restricted words, name reservation cost, hold period and processing time, naming statutes |
 | `dba-rules/states/` | 51 <!-- c9:records-dba-rules=51 --> | DBA terminology, filing level (state or county), fees, duration and renewal, publication requirements, protection level, statutes |
+| `tax-rules/states/` | 51 <!-- c9:records-tax-rules=51 --> | Recurring state-level LLC taxes (franchise and privilege levies under the state's own label) and the personal income tax posture toward a default pass-through LLC; every value is bound to a verbatim passage from the cited page |
 | `anonymous_llc_available/states.json` | 51 | Anonymous-LLC availability per state (booleans). The three anonymous states (DE, NM, WY) and the common misattribution (NV) carry per-document disclosure detail read from their statutes; elsewhere the detail fields are null |
 
 "51" means the 50 states plus the District of Columbia (`washington-d-c.json`, `stateAbbr: "DC"`). `states.json` predates the DC addition and covers 50 states only.
@@ -48,6 +49,7 @@ Third-party blogs, formation-service pages, and commercial legal aggregators (Ju
 | `www.gwinnettcourts.com`, `dksuperiorclerk.com` | Georgia Clerks of Superior Court, the offices that take a Georgia trade-name filing |
 | `nmonesource.com` | New Mexico Compilation Commission, the state's official legal publisher and the only place New Mexico publishes NMSA 1978; the Legislature's own `www.nmlegis.gov` links to it as "New Mexico Law (Statutes)" and carries no statute text itself |
 | `www.oscn.net` | Oklahoma State Courts Network, the Oklahoma Supreme Court's own publishing platform and the state's current official copy of the Oklahoma Statutes |
+| `floridarevenue.com` | Florida Department of Revenue, the state's tax authority |
 
 **A state's own `state.XX.us` domain counts the same as its `.gov`.** Several states publish from that legacy government namespace instead: `www.sec.state.ma.us`, `www.sos.state.tx.us`, `www.leg.state.nv.us`, `www.sos.state.mn.us`, `mibusinessregistry.lara.state.mi.us`, `secure.sos.state.or.us`, `www.leg.state.fl.us`. It is delegated to the state governments themselves, so a source there is as official as the same state's `.gov`, and 45 URLs in this dataset rely on it. This is deliberately narrower than accepting `.us` as a whole: `.us` is open to general registration, so a host on plain `.us` is official only when it is named as a publisher, the way the Pennsylvania General Assembly's `www.palegis.us` is.
 
@@ -99,6 +101,7 @@ Files are served directly from GitHub as raw JSON.
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/states.json
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/name-rules/states/{state-slug}.json
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/dba-rules/states/{state-slug}.json
+https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/tax-rules/states/{state-slug}.json
 https://raw.githubusercontent.com/startupsolellc/us-llc-fees-dataset/main/entitysearch-state-data/states/{state-slug}.json
 ```
 
@@ -123,7 +126,7 @@ with urllib.request.urlopen(f"{BASE}/name-rules/states/georgia.json") as r:
 print(rules["nameReservationTotalCost"], rules["nameReservationDuration"])
 ```
 
-Per-namespace schema documentation lives in `name-rules/README.md`, `dba-rules/README.md`, and `entitysearch-state-data/README.md`. A JSON Schema for the entity-search namespace is at `entitysearch-state-data/schema/state.schema.json`:
+Per-namespace schema documentation lives in `name-rules/README.md`, `dba-rules/README.md`, `tax-rules/README.md`, and `entitysearch-state-data/README.md`. A JSON Schema for the entity-search namespace is at `entitysearch-state-data/schema/state.schema.json`:
 
 ```bash
 npx ajv-cli validate --strict=false \

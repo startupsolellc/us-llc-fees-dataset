@@ -1,0 +1,136 @@
+{
+  "stateName": "Wisconsin",
+  "stateAbbr": "WI",
+  "stateSlug": "wisconsin",
+  "franchiseTax": {
+    "applies": false,
+    "appliesEvidence": {
+      "quote": "Wisconsin has both a franchise tax and an income tax. However, only one tax is imposed against a corporation in a taxable year for the privilege of exercising its Wisconsin franchise or for doing business in Wisconsin.",
+      "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+      "supports": "applies: the Department's General Information page names Wisconsin's franchise and income taxes and imposes the single tax on a corporation; a default LLC is not a corporation"
+    },
+    "taxName": null,
+    "basis": null,
+    "minimumAnnualUsd": null,
+    "firstYearExemption": null,
+    "filedWith": null,
+    "collectedWithAnnualReport": null,
+    "dueDate": null,
+    "evidence": [
+      {
+        "quote": "Franchise tax applies to: All domestic corporations (those organized under Wisconsin law) with nonexempt income and Foreign corporations (those not organized under Wisconsin law) doing business in Wisconsin, except where taxation is exempted by statute or barred by federal law.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+        "supports": "applies: the franchise tax's own subject list is domestic and foreign corporations"
+      },
+      {
+        "quote": "Limited liability companies (LLCs) treated as corporations for federal income tax purposes.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+        "supports": "applies: an LLC enters the corporate franchise or income tax regime only when it is treated as a corporation for federal income tax purposes"
+      },
+      {
+        "quote": "Limited liability companies treated as corporations for federal income tax purposes must file a Wisconsin corporation franchise or income tax return",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-pship.aspx",
+        "supports": "applies: the Department's partnership page routes a corporation-classified LLC to the franchise or income tax return, and a partnership-classified LLC to Form 3 instead"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2013, the economic development surcharge no longer applies to partnerships or limited liability companies treated as partnerships.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-pship.aspx",
+        "supports": "applies: Wisconsin's remaining thresholded entity-level business surcharge stopped reaching partnership-taxed LLCs after 2012"
+      },
+      {
+        "quote": "For taxable years beginning on or after January 1, 2013, the economic development surcharge applies to corporations, tax-option (S) corporations, insurers, and exempt organizations taxable as corporations that have $4,000,000 or more of gross receipts.",
+        "url": "https://www.revenue.wi.gov/pubs/pb400.pdf",
+        "supports": "applies: the current surcharge publication names only corporations and corporation-classified entities as its subjects"
+      }
+    ]
+  },
+  "stateIncomeTax": {
+    "passThroughApplies": true,
+    "topRatePercent": 7.65,
+    "hasPTETElection": true,
+    "evidence": [
+      {
+        "quote": "Single member limited liability companies that are disregarded as separate entities under sec. 7701, IRC, are disregarded as separate entities for Wisconsin purposes. The member is required to include the income and expenses of the limited liability company on the member's return.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-pship.aspx",
+        "supports": "passThroughApplies: a single-member disregarded LLC's income reaches Wisconsin on the member's own return"
+      },
+      {
+        "quote": "For any year in which an election is made, partners do not include in their Wisconsin adjusted gross income their proportionate share of all items of income, gain, loss, or deduction of the partnership.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-passthrough-general.aspx",
+        "supports": "passThroughApplies: the Department's statement is about the entity-level election, so absent the election the partners include their proportionate share"
+      },
+      {
+        "quote": "If a partnership has a nonresident partner, the partnership must pay a withholding tax on the income allocable to the nonresident partner.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-pship.aspx",
+        "supports": "passThroughApplies: income is allocable to partners, with pass-through withholding on behalf of nonresidents"
+      },
+      {
+        "quote": "Wisconsin individual income tax rates vary from 3.50% to 7.65%, depending upon marital status and income.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+        "supports": "topRatePercent: the Department's Tax Rates page prints the range and its top rate"
+      },
+      {
+        "quote": "Taxable income over $66,544 ($332,720 x .20) is taxed at 7.65%.",
+        "url": "https://www.revenue.wi.gov/TaxForms2017through2019/w-234f.pdf",
+        "supports": "topRatePercent: the Department's 2026 withholding-agreement form carries the 2026 rate schedule and its top bracket rate"
+      },
+      {
+        "quote": "To allow a partnership or limited liability company treated as a partnership to pay tax on items that would otherwise be reported by the partners.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-passthrough-general.aspx",
+        "supports": "hasPTETElection: the Department states the election exists and names partnership-classified LLCs as eligible"
+      },
+      {
+        "quote": "The election must be made annually on or before the extended due date of the Wisconsin Form 3.",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-passthrough-general.aspx",
+        "supports": "hasPTETElection: the election is annual and made with the Form 3 return"
+      }
+    ]
+  },
+  "notes": "Wisconsin imposes no franchise-type levy on a default LLC: applies is false. The Department of Revenue's General Information page says Wisconsin has both a franchise tax and an income tax but imposes only one against a corporation in a taxable year for the privilege of exercising its Wisconsin franchise or doing business in Wisconsin, and the franchise tax's own subject list is domestic and foreign corporations. The same page's Who Must File list brings an LLC into the corporate franchise or income tax regime only if it is treated as a corporation for federal income tax purposes. The Partnerships page says the same from the other side: an LLC treated as a partnership with income from Wisconsin sources files Form 3, the Wisconsin Partnership Return, while an LLC treated as a corporation for federal income tax purposes files a Wisconsin corporation franchise or income tax return instead. A single-member LLC disregarded under IRC sec. 7701 is disregarded for Wisconsin purposes and its owner includes the income and expenses on the owner's return. Wisconsin's only thresholded entity-level business surcharge, the economic development surcharge, no longer applies to partnerships or LLCs treated as partnerships for taxable years beginning on or after January 1, 2013, and the current Publication 400 (02/26) names corporations, tax-option (S) corporations, insurers and exempt organizations taxable as corporations as its subjects. The older recycling surcharge that once reached partnership-classified LLCs is not named on the Department's current Partnerships page or in the current Publication 400.\ncollectedWithAnnualReport is null: no franchise-type levy exists, and root states.json carries annual_report_fee 25 for Wisconsin, the Department of Financial Institutions annual report fee, a separate payment with no tax to overlap.\nstateIncomeTax: a default LLC is a pass-through entity for Wisconsin income tax purposes. An LLC treated as a partnership with Wisconsin-source income files Form 3, income passes through to the partners, single-member disregarded LLCs are reported on the owner's return, and partnerships with nonresident partners pay pass-through withholding on the income allocable to them. The individual income tax rates run from 3.50% to 7.65%: the Tax Rates page prints the range and the 2026 rate schedule on the Department's WT-4A form carries the 7.65% top bracket. hasPTETElection is true: for taxable years beginning January 1, 2019, 2017 Wis. Act 368 gives partnerships, including LLCs treated as partnerships, an annual election to pay tax at the entity level under sec. 71.21(6)(a), Wis. Stats., and for any year in which the election is made the partners do not include their proportionate share of the entity's items in Wisconsin adjusted gross income.\nAll cited pages were retrieved live on 2026-08-08 on the VPN-up route; the statute text on docs.legis.wisconsin.gov could not be opened from this network, so this record is agency-page-only.",
+  "needsReview": "The record rests on the Department of Revenue's own pages. Wis. Stat. ch. 71 text on docs.legis.wisconsin.gov could not be opened from this network on 2026-08-08 (three TCP timeouts with DNS clean), so the statutory citations behind these agency statements (secs. 71.21(6)(a), 71.26 and 71.45) are not quoted in the record; a route that can read the statutes could add them. The Department's Tax Rates page currently prints the 2025 schedule while the 2026 schedule is on Form WT-4A; both top out at 7.65%, so there is no value conflict.",
+  "sources": [
+    {
+      "citation": "Wisconsin Department of Revenue, Partnerships common questions (guidance through November 24, 2025)",
+      "title": "DOR Partnerships",
+      "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-pship.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Revenue, Corporation Franchise/Income Tax General Information, Guidance Document 100131 (January 5, 2026)",
+      "title": "DOR General Information",
+      "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-crpginfo.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Revenue, Tax Rates common questions",
+      "title": "DOR Tax Rates",
+      "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Revenue, Pass-Through Entity-Level Tax: Partnership General Election Questions (guidance through November 24, 2025)",
+      "title": "DOR Pass-Through Entity-Level Tax: Partnership General Election Questions",
+      "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-passthrough-general.aspx",
+      "type": "agency-page",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Revenue, Publication 400, Wisconsin's Economic Development Surcharge (02/26)",
+      "title": "Wisconsin's Economic Development Surcharge, Publication 400",
+      "url": "https://www.revenue.wi.gov/pubs/pb400.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    },
+    {
+      "citation": "Wisconsin Department of Revenue, 2026 Wisconsin Employee Withholding Agreement, Form WT-4A (W-234, R. 11-25)",
+      "title": "2026 Wisconsin Employee Withholding Agreement WT-4A",
+      "url": "https://www.revenue.wi.gov/TaxForms2017through2019/w-234f.pdf",
+      "type": "official-pdf",
+      "lastAccessed": "2026-08-08"
+    }
+  ],
+  "lastVerified": "2026-08-08"
+}
